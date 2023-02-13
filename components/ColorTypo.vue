@@ -51,7 +51,7 @@
 
 <script setup lang="ts"></script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .example {
   @apply inline-block py-1.5 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-blue-600 text-white rounded;
 }

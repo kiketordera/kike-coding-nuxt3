@@ -4,13 +4,13 @@ export default defineNuxtConfig({
     typeCheck: true
   },
 
-  modules: ['@nuxtjs/tailwindcss'],
+  modules: ['@nuxtjs/style-resources'],
 
   vite: {
     css: {
       preprocessorOptions: {
         scss: {
-          additionalData: '@import "@/assets/scss/main.scss";'
+          additionalData: '@import "@/assets/scss/main.scss", "@/assets/scss/variables.scss";'
         }
       }
     }
