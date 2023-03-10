@@ -51,78 +51,113 @@
       &:hover {
         color: orange;
         border-bottom: 2px solid orange;
-      }
-    }
-  }
 
-  & .icons {
-    display: inline-flex;
-    //flex-direction: row;
-    //margin-left: 1rem;
-    text-align: center;
-    margin-left: 23rem;
-
-    & .about {
-      padding: 0;
-      margin-right: -1rem;
-
-      &:hover {
-        color: #63b910;
-        border-bottom: 2px solid #63b910;
-      }
-
-      & img {
-        width: 10%;
-      }
-    }
-
-    & .design {
-      &:hover {
-        color: #ED037C;
-        border-bottom: 2px solid #ED037C;
-      }
-
-      & img {
-        width: 30%;
-      }
-
-    }
-
-    & .features {
-      &:hover {
-        color: #f7941d;
-        border-bottom: 2px solid #f7941d;
-      }
-
-      & img {
-        width: 20%;
-      }
-
-    }
-
-    & .manuals {
-      padding: 0;
-      margin-left: -2rem;
-      margin-right: -3rem;
-
-      &:hover {
-        color: #a97c50;
-        border-bottom: 2px solid #a97c50;
-      }
-
-      & img {
-        width: 10%;
-
-        &:hover {
-          background-color: #a97c50;
+        =======* {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family: "Nunito" !important;
         }
-      }
-    }
-  }
 
-  & a {
-    text-decoration: none;
-  }
+        nav {
+          display: flex;
+          color: #00a3d2;
+          box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.3);
+          align-items: center;
+          justify-content: space-between;
+          width: 100%;
+          margin: 0 -1rem;
+          position: fixed;
+          top: 0;
+          background-color: #212b36;
 
-}
+          .menu {
+            padding-left: 20px;
+
+            a.kike:hover {
+              border-bottom: 2px solid orange;
+            }
+
+            a {
+              list-style-type: none;
+              text-decoration: none;
+              text-align: center;
+
+              img {
+                height: 25px;
+                >>>>>>>Stashed changes
+              }
+            }
+          }
+
+          & .icons {
+            display: inline-flex;
+            //flex-direction: row;
+            //margin-left: 1rem;
+            text-align: center;
+            margin-left: 23rem;
+
+            & .about {
+              padding: 0;
+              margin-right: -1rem;
+
+              &:hover {
+                color: #63b910;
+                border-bottom: 2px solid #63b910;
+              }
+
+              & img {
+                width: 10%;
+              }
+            }
+
+            & .design {
+              &:hover {
+                color: #ED037C;
+                border-bottom: 2px solid #ED037C;
+              }
+
+              & img {
+                width: 30%;
+              }
+
+            }
+
+            & .features {
+              &:hover {
+                color: #f7941d;
+                border-bottom: 2px solid #f7941d;
+              }
+
+              & img {
+                width: 20%;
+              }
+
+            }
+
+            & .manuals {
+              padding: 0;
+              margin-left: -2rem;
+              margin-right: -3rem;
+
+              &:hover {
+                color: #a97c50;
+                border-bottom: 2px solid #a97c50;
+              }
+
+              & img {
+                width: 10%;
+
+                &:hover {
+                  background-color: #a97c50;
+                }
+              }
+            }
+          }
+
+          & a {
+            text-decoration: none;
+          }
+
+        }
 </style>
