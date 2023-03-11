@@ -1,31 +1,5 @@
 <template>
   <section id="app">
-    <div class="community">
-      <div class="common">
-        <img src="~/assets/img/tent-hover.svg" alt="">
-        <p>From the <span>community</span> to the <span>people</span> </p>
-      </div>
-
-      <div class="villages">
-        <p>
-          You can have different locations (Villages), and you can also have custom services created by you in every
-          village (like a barbershop, workshop, farm… there are a lot of icons all ready for you as samples or you can
-          upload yours!).
-        </p>
-        <p>
-          In every single service, you will have your inventory for materials and tools, your video courses to
-          educate, the records of manufactured products, and the data digitalized.
-        </p>
-        <p>
-          Also, you will be able to make deliveries to other services, track the items, and make payments.
-        </p>
-      </div>
-    </div>
-
-    <div class="image-graph">
-      <img src="~/assets/img/graph-en.png" alt="">
-    </div>
-
     <div class="languages-para">
       <p>
         To serve the different villages and communities, there are 6 languages included, what gives you a huge

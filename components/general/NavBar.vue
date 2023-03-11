@@ -15,14 +15,18 @@
             <p>About</p>
           </div>
         </li>
-        <li>
-          <img src="~assets/svg/design.svg" alt="">
-          <p>Design</p>
-        </li>
-        <li>
-          <img src="~assets/svg/features.svg" alt="">
-          <p>Features</p>
-        </li>
+        <NuxtLink to="/index">
+          <li>
+            <img src="~assets/svg/design.svg" alt="">
+            <p>Design</p>
+          </li>
+        </NuxtLink>
+        <NuxtLink to="/service">
+          <li>
+            <img src="~assets/svg/features.svg" alt="">
+            <p>Features</p>
+          </li>
+        </NuxtLink>
         <li>
           <img src="~assets/svg/manuals.svg" alt="">
           <p>Manuals</p>
@@ -44,7 +48,7 @@ nav {
   height: 55px;
   width: 100%;
   top: 0;
-  z-index: 10;
+  z-index: 30;
   margin-bottom: 0.3rem;
   overflow: hidden;
   color: rgba(0, 165, 210, 1);
@@ -84,6 +88,7 @@ nav {
         align-items: center;
         gap: 2rem;
         padding-right: 1rem;
+        cursor: pointer;
 
         & img {
           height: 27px;
