@@ -254,6 +254,7 @@ section {
     }
   }
 
+  /*
   .dashboard {
     display: flex;
     margin: 0 18rem;
@@ -731,7 +732,7 @@ section {
       margin: 0 8rem;
     }
   }
-
+ */
   .footer {
     margin-top: 4rem;
 
@@ -739,5 +740,6 @@ section {
       max-width: -webkit-fill-available;
     }
   }
+
 }
 </style>
