@@ -1,31 +1,35 @@
 <template>
-  <div>
-    <div class="navbar">
-      <div class="menu">
-        <a href="#"><img src="~assets/svg/kike.svg" alt="kike image" class="kike"></a>
-        <p>Kike</p>
-      </div>
-
-      <div class="icons">
-        <div class="about">
-          <a href="#"><img src="~assets/svg/about.svg" alt="about"></a>
-          <p>about</p>
-        </div>
-        <div class="design">
-          <a href="#"><img src="~assets/svg/design.svg" alt="design"></a>
-          <p>design</p>
-        </div>
-        <div class="features">
-          <a href="#"><img src="~assets/svg/features.svg" alt="features"></a>
-          <p>features</p>
-        </div>
-        <div class="manuals">
-          <a href="#"><img src="~assets/svg/manuals.svg" alt="manuals"></a>
-          <p>manuals</p>
-        </div>
-      </div>
+  <nav>
+    <div class="logo">
+      <a href="#">
+        <img src="~assets/svg/kike.svg" alt="kike-image" class="logo-img">
+      </a>
+      <p>Kike</p>
     </div>
-  </div>
+
+    <div class="nav-items">
+      <ul>
+        <li>
+          <div>
+            <img src="~assets/svg/about.svg" alt="">
+            <p>About</p>
+          </div>
+        </li>
+        <li>
+          <img src="~assets/svg/design.svg" alt="">
+          <p>Design</p>
+        </li>
+        <li>
+          <img src="~assets/svg/features.svg" alt="">
+          <p>Features</p>
+        </li>
+        <li>
+          <img src="~assets/svg/manuals.svg" alt="">
+          <p>Manuals</p>
+        </li>
+      </ul>
+    </div>
+  </nav>
 </template>
 
 <script  lang="ts" setup>
@@ -33,46 +37,74 @@
 </script>
 
 <style lang="scss" scoped>
-.navbar {
+nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 1rem;
+  height: 55px;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+  margin-bottom: 0.3rem;
   overflow: hidden;
   color: rgba(0, 165, 210, 1);
-  box-shadow: 0 1px 3px rgb(27, 26, 26);
+  position: fixed;
+  box-shadow: 1px 1px 5px 0 rgb(0 0 0 / 30%);
 
-  & .menu {
-    margin-left: 3rem;
+  & .logo {
+    margin-left: 2rem;
+    font-size: 12px;
+    padding-top: 9px;
+    margin-bottom: 0.2rem;
 
-    & .kike {
-      width: 10%;
+    & .logo-img {
+      height: 27px;
+      padding-top: 5px;
 
       &:hover {
         color: orange;
         border-bottom: 2px solid orange;
       }
     }
+
   }
 
-  & .icons {
+  & .nav-items {
     display: inline-flex;
-    //flex-direction: row;
-    //margin-left: 1rem;
     text-align: center;
-    margin-left: 23rem;
+    margin-left: 10rem;
+    font-weight: 400;
 
-    & .about {
-      padding: 0;
-      margin-right: -1rem;
+    ul {
+      display: inline-flex;
 
-      &:hover {
-        color: #63b910;
-        border-bottom: 2px solid #63b910;
-      }
+      li {
+        padding: 0;
+        display: inline-block;
+        align-items: center;
+        gap: 2rem;
+        padding-right: 1rem;
 
-      & img {
-        width: 10%;
+        & img {
+          height: 27px;
+          padding-top: 5px;
+
+          &:hover {
+            color: #63b910;
+          }
+        }
+
+        &:hover {
+          color: #63b910;
+          border-bottom: 2px solid #63b910;
+        }
+
+        p {
+          font-size: 0.8rem;
+          text-transform: lowercase;
+          letter-spacing: 0.05em;
+        }
+
       }
     }
 
@@ -159,76 +191,6 @@
           }
         }
       }
-
-      & .icons {
-        display: inline-flex;
-        //flex-direction: row;
-        //margin-left: 1rem;
-        text-align: center;
-        margin-left: 23rem;
-
-        & .about {
-          padding: 0;
-          margin-right: -1rem;
-
-          &:hover {
-            color: #63b910;
-            border-bottom: 2px solid #63b910;
-          }
-
-          & img {
-            width: 10%;
-          }
-        }
-
-        & .design {
-          &:hover {
-            color: #ED037C;
-            border-bottom: 2px solid #ED037C;
-          }
-
-          & img {
-            width: 30%;
-          }
-
-        }
-
-        & .features {
-          &:hover {
-            color: #f7941d;
-            border-bottom: 2px solid #f7941d;
-          }
-
-          & img {
-            width: 20%;
-          }
-
-        }
-
-        & .manuals {
-          padding: 0;
-          margin-left: -2rem;
-          margin-right: -3rem;
-
-          &:hover {
-            color: #a97c50;
-            border-bottom: 2px solid #a97c50;
-          }
-
-          & img {
-            width: 10%;
-
-            &:hover {
-              background-color: #a97c50;
-            }
-          }
-        }
-      }
-
-      & a {
-        text-decoration: none;
-      }
-
     }
   }
 }

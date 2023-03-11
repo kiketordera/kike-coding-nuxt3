@@ -1,7 +1,7 @@
 <template>
   <div>
     <general-NavBar />
-    <design-Introduction />
+    <design-Authentication />
   </div>
 </template>
 

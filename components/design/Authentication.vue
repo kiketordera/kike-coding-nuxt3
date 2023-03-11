@@ -1,22 +1,19 @@
 <template>
   <section>
-    <div class="container">
-      <p>
-        Design beyond boundaries
-      </p>
-    </div>
-
+    <h1>
+      Design beyond boundaries
+    </h1>
     <div class="authentication">
       <img src="~assets/img/authenication.png" alt="authenication" class="auth-image">
-      <div class="para">
-        <div class="class">
+      <div class="content">
+        <div class="title">
           <img src="~/assets/img/lock-color.svg" alt="lock-img">
-          <p>
+          <h2>
             Authentication
-          </p>
+          </h2>
         </div>
 
-        <div class="para-one">
+        <div class="info">
           <p>
             When you start to create an interface adapted for illiteracy,
             you need to take normal routines that you do several times every day and reinvent it,
@@ -32,7 +29,7 @@
       </div>
     </div>
 
-    <div class="btn-dashboard">
+    <!--   <div class="dashboard">
       <div class="class-one">
         <div class="image-para">
           <img src="~/assets/img/dashboard.svg" alt="dashboard-color">
@@ -63,7 +60,7 @@
       </div>
     </div>
 
-    <div class="btn-numerical">
+    <div class="numerical">
       <img src="~/assets/img/design-num@2x.png" alt="design-numerical" class="img-numericals">
 
       <div class="numerals-all">
@@ -89,7 +86,7 @@
       </div>
     </div>
 
-    <div class="btn-perfomance">
+    <div class="perfomance">
       <div class="greta">
         <div class="perfomance">
           <img src="~/assets/img/performance-color.svg" alt="">
@@ -140,6 +137,7 @@
         </div>
       </div>
     </div>
+    -->
 
     <div class="footer">
       <img src="~/assets/img/everywhere-en.png" alt="">
@@ -155,24 +153,19 @@ section {
   font-family: 'Nunito', !important;
   padding: 0;
   margin: 0 auto;
+  padding-top: 2.5rem;
 
-  .container p {
+  h1 {
     font-size: 2.4rem;
     margin-top: 3rem;
     margin-bottom: 4rem;
     text-align: center;
+    letter-spacing: 4px;
+    font-weight: 400;
   }
 
-  @media screen and (min-width: 200px) and (max-width: 481px) {
-    .container p {
-      font-size: 1.8rem;
-      margin-top: 3rem;
-      margin-bottom: 2rem;
-    }
-  }
-
-  @media screen and (min-width: 482px) and (max-width:682px) {
-    .container p {
+  @media screen and (min-width: 482px) and (max-width:768px) {
+    h1 {
       font-size: 2rem;
       margin-top: 2.5rem;
       margin-bottom: 1.5rem;
@@ -180,84 +173,55 @@ section {
   }
 
   .authentication {
-    margin: 0 18rem;
+    margin: 0 auto;
     display: flex;
+    max-width: 48rem;
 
     .auth-image {
-      padding-left: 2rem;
       height: 430px;
     }
 
-    .para {
-      .class {
+    .content {
+
+      .title {
         display: flex;
         justify-content: flex-start;
         padding-left: 2rem;
+        padding-bottom: 0.5rem;
+        align-items: center;
 
         img {
           padding-right: 1rem;
           height: 55px;
         }
 
-        p {
+        h2 {
           font-size: 2rem;
-          text-align: center;
+          text-align: start;
+          font-weight: 500;
+
         }
       }
 
-      .para-one {
+      .info {
         padding-top: 5px;
         padding-right: 35px;
 
         p {
           text-align: justify;
           padding-left: 2rem;
-          font-size: 15px;
+          font-size: 1rem;
           line-height: 1.7;
           padding-bottom: 12px;
+          margin-bottom: 1rem;
+          font-weight: 200;
+          width: 80%;
         }
       }
     }
   }
 
-  @media screen and (min-width: 200px) and (max-width: 550px) {
-    .authentication {
-      margin: 0 11px;
-
-      .auth-image {
-        height: 220px;
-        padding-left: 5px;
-        margin-top: 50px;
-      }
-
-      .para {
-        padding-left: 5px;
-
-        .class {
-
-          img {
-            height: 42px;
-          }
-
-          p {
-            font-size: 23px;
-          }
-        }
-
-        .para-one {
-          padding-top: 1px;
-          padding-right: 5px;
-
-          p {
-            padding-left: 1px;
-            font-size: 14px;
-          }
-        }
-      }
-    }
-  }
-
-  @media screen and (min-width:551px) and (max-width:768px) {
+  @media screen and (max-width:768px) {
     .authentication {
       margin: 0 1rem;
 
@@ -268,7 +232,7 @@ section {
 
       .para {
 
-        .class {
+        .content {
 
           img {
             height: 55px;
@@ -279,7 +243,7 @@ section {
           }
         }
 
-        .para-one {
+        .info {
 
           p {
             padding-left: 1px;
@@ -290,39 +254,7 @@ section {
     }
   }
 
-  @media screen and (min-width: 769px) and (max-width: 1024px) {
-    .authentication {
-      margin: 0 4rem;
-
-      img {
-        padding-left: 1px;
-      }
-
-      .para {
-
-        .class {
-          padding-left: 10px;
-
-          p {
-            font-size: 30px;
-          }
-        }
-
-        .para-one p {
-          font-size: 15px;
-          padding-left: 10px;
-        }
-      }
-    }
-  }
-
-  @media screen and (min-width: 1025px) and (max-width: 1200px) {
-    .authentication {
-      margin: 0 8rem;
-    }
-  }
-
-  .btn-dashboard {
+  .dashboard {
     display: flex;
     margin: 0 18rem;
     margin-top: 3rem;
@@ -344,7 +276,7 @@ section {
 
     }
 
-    .para-dashboard {
+    .dashboard {
       text-align: justify;
       line-height: 1.7;
       font-size: 14px;
@@ -368,7 +300,7 @@ section {
   }
 
   @media screen and (min-width: 200px) and (max-width: 550px) {
-    .btn-dashboard {
+    .dashboard {
       margin: 3rem 10px;
 
       .class-one .image-para {
@@ -382,7 +314,7 @@ section {
         }
       }
 
-      .para-dashboard {
+      .dashboard {
         font-size: 12px;
         padding-right: 3px;
 
@@ -408,13 +340,13 @@ section {
   }
 
   @media screen and (min-width: 482px) and (max-width:768px) {
-    .btn-dashboard {
+    .dashboard {
       margin: 4rem 1.5rem;
     }
   }
 
   @media screen and (min-width: 769px) and (max-width: 1200px) {
-    .btn-dashboard {
+    .dashboard {
       margin: 4rem 2rem;
 
       .class-one .para-dashboard p {
@@ -429,7 +361,7 @@ section {
     }
   }
 
-  .btn-numerical {
+  .numerical {
     display: flex;
     margin-top: 3rem;
     margin-left: 20rem;
@@ -471,7 +403,7 @@ section {
   }
 
   @media screen and (min-width:200px) and (max-width:550px) {
-    .btn-numerical {
+    .numerical {
       margin: 0 11px;
 
       .img-numericals {
@@ -509,7 +441,7 @@ section {
   }
 
   @media screen and (min-width:551px) and (max-width:768px) {
-    .btn-numerical {
+    .numerical {
       margin: 4rem 2rem;
 
       img {
@@ -542,7 +474,7 @@ section {
   }
 
   @media screen and (min-width:769px) and (max-width:1024px) {
-    .btn-numerical {
+    .numerical {
       margin: 0 4rem;
 
       img {
@@ -565,12 +497,12 @@ section {
   }
 
   @media screen and (min-width:1025px) and (max-width:1200px) {
-    .btn-numerical {
+    .numerical {
       margin: 0 8rem;
     }
   }
 
-  .btn-perfomance {
+  .perfomance {
     display: flex;
     margin-left: 20rem;
     margin-right: 20rem;
@@ -607,7 +539,7 @@ section {
   }
 
   @media screen and (min-width:200px) and (max-width:550px) {
-    .btn-perfomance {
+    .perfomance {
       margin: 3rem 10px;
 
       .perfomance {
@@ -638,7 +570,7 @@ section {
   }
 
   @media screen and (min-width:551px) and (max-width:768px) {
-    .btn-perfomance {
+    .perfomance {
       margin-right: 0;
       margin-left: 17px;
       margin-top: 4rem;
@@ -646,7 +578,7 @@ section {
   }
 
   @media screen and (min-width: 769px) and (max-width:1200px) {
-    .btn-perfomance {
+    .perfomance {
       margin-right: 4rem;
       margin-left: 4rem;
       margin-top: 4rem;
