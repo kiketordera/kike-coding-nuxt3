@@ -1,6 +1,8 @@
 <template>
     <div>
         <features-Community />
+        <features-OfflineMode />
+        <features-Cards />
     </div>
 </template>
 
