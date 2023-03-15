@@ -1,12 +1,12 @@
 <template>
     <section>
         <div class="community">
-            <div class="common">
-                <img src="~/assets/img/tent-hover.svg" alt="">
+            <div class="title">
+                <img src="~/assets/svg/hunt.svg" alt="">
                 <p>From the <span>community</span> to the <span>people</span> </p>
             </div>
 
-            <div class="villages">
+            <div class="info">
                 <p>
                     You can have different locations (Villages), and you can also have custom services created by you in
                     every
@@ -22,10 +22,17 @@
                     Also, you will be able to make deliveries to other services, track the items, and make payments.
                 </p>
             </div>
-        </div>
 
-        <div class="image-graph">
-            <img src="~/assets/img/graph-en.png" alt="">
+            <div class="structure">
+                <img src="~/assets/img/graph.png" alt="">
+            </div>
+            <p class="content">
+                To serve the different villages and communities, there are 6 languages included, what gives you a huge
+                coverage over the world map:
+            </p>
+            <div class="map">
+                <img src="~/assets/svg/world-map.svg" alt="">
+            </div>
         </div>
     </section>
 </template>
@@ -42,10 +49,10 @@ section {
     padding: 6rem 0rem;
 
     .community {
-        font-family: 'Raleway' !important;
         margin-bottom: 2rem;
+        font-weight: 400;
 
-        .common {
+        .title {
             display: flex;
             justify-content: center;
             justify-items: center;
@@ -60,6 +67,7 @@ section {
                 font-size: 2.4rem;
                 text-align: center;
                 padding-left: 1.5rem;
+                font-family: "Raleway" !important;
 
                 span {
                     color: #f7941d;
@@ -67,7 +75,7 @@ section {
             }
         }
 
-        .villages {
+        .info {
             font-family: 'Raleway' !important;
             margin: 0 auto;
             width: 100%;
@@ -82,27 +90,49 @@ section {
                 width: 95%;
             }
         }
-    }
 
-    .image-graph {
-        margin: 0 auto;
-        max-width: 48rem;
-
-        img {
-            height: 600px;
-            max-width: 100%;
-        }
-    }
-
-    @media screen and (min-width:320px) and (max-width: 480px) {
-        .image-graph {
-            margin-left: 0;
+        .structure,
+        .map {
+            margin: 0 auto;
+            max-width: 48rem;
+            padding-top: 1rem;
 
             img {
-                height: 400px;
+                height: auto;
+                max-width: 100%;
+
             }
         }
-    }
 
+        .map {
+
+            width: 100%;
+            max-width: 900px;
+            padding-top: 6rem;
+            margin-top: -80px;
+            margin-bottom: 10px;
+        }
+
+        @media screen and (min-width:320px) and (max-width: 480px) {
+            .structure {
+                margin-left: 0;
+
+                img {
+                    height: 400px;
+                }
+            }
+        }
+
+        .content {
+            width: 85%;
+            text-align: start;
+            margin: 0 auto;
+            padding: 1rem 0rem;
+            letter-spacing: 1px;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+
+    }
 }
 </style>
