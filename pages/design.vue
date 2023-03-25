@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <about-Introduction />
-  </div>
+    <div>
+        <design-Authentication />
+    </div>
 </template>
 
 <script>

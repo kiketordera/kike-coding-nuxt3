@@ -34,10 +34,18 @@
   font-display: swap;
   src: url('~/assets/fonts/Nunito/static/Nunito-SemiBold.ttf') format('truetype');
 }
+
 @font-face {
   font-family: 'Nunito ExtraBold';
   font-style: normal;
   font-weight: 800;
+  font-display: swap;
+  src: url('~/assets/fonts/Nunito/static/Nunito-ExtraBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Nunito Black';
+  font-style: normal;
+  font-weight: 900;
   font-display: swap;
   src: url('~/assets/fonts/Nunito/static/Nunito-ExtraBold.ttf') format('truetype');
 }

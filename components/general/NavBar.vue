@@ -9,13 +9,15 @@
 
     <div class="nav-items">
       <ul>
-        <li>
-          <div>
-            <img src="~assets/svg/about.svg" alt="">
-            <p>About</p>
-          </div>
-        </li>
-        <NuxtLink to="/index">
+        <NuxtLink to="/">
+          <li>
+            <div>
+              <img src="~assets/svg/about.svg" alt="">
+              <p>About</p>
+            </div>
+          </li>
+        </NuxtLink>
+        <NuxtLink to="/design">
           <li>
             <img src="~assets/svg/design.svg" alt="">
             <p>Design</p>
