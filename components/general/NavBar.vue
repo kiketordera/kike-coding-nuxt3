@@ -45,15 +45,13 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 55px;
   width: 100%;
   top: 0;
-  z-index: 30;
-  margin-bottom: 0.3rem;
-  overflow: hidden;
   color: rgba(0, 165, 210, 1);
   position: fixed;
-  box-shadow: 1px 1px 5px 0 rgb(0 0 0 / 30%);
+  box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.3);
+  background-color: white;
+  z-index: 10;
 
   & .logo {
     margin-left: 2rem;
