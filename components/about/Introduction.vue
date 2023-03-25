@@ -22,9 +22,9 @@
 
 <style lang="scss" scoped>
 section {
-    max-width: 72rem;
+    max-width: 72;
     margin: 0 auto;
-    padding: 8rem 2rem;
+    padding: 6rem 4rem;
 
     .village {
         width: 100%;
@@ -34,10 +34,11 @@ section {
             max-width: 18%;
             height: cover;
             vertical-align: middle;
+            margin-top: 1rem;
         }
 
         h1 {
-            margin: 2rem 1rem;
+            margin: 1.5rem 1rem;
             font-size: 2rem;
             font-weight: 900;
 
