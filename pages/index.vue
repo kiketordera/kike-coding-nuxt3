@@ -1,6 +1,5 @@
 <template>
   <div>
-    <general-NavBar />
     <design-Authentication />
   </div>
 </template>

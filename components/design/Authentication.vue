@@ -139,9 +139,7 @@
     </div>
     -->
 
-    <div class="footer">
-      <img src="~/assets/img/everywhere-en.png" alt="">
-    </div>
+    <img src="~/assets/img/everywhere-en.png" alt="" class="background-img">
   </section>
 </template>
 
@@ -196,9 +194,9 @@ section {
         }
 
         h2 {
-          font-size: 2rem;
+          font-size: 2.5rem;
           text-align: start;
-          font-weight: 500;
+          font-weight: 700;
 
         }
       }
@@ -733,13 +731,14 @@ section {
     }
   }
  */
-  .footer {
+
+  .background-img {
+    max-width: 100%;
+    margin: 0 auto;
     margin-top: 4rem;
-
-    img {
-      max-width: -webkit-fill-available;
-    }
+    background-position: center;
+    background-size: cover;
+    padding: 0rem 1rem;
   }
-
 }
 </style>
