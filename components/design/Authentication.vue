@@ -9,7 +9,7 @@
         <div class="title">
           <img src="~/assets/img/lock-color.svg" alt="lock-img">
           <h2>
-            Authentication
+            Authentications
           </h2>
         </div>
 
