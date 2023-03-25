@@ -88,7 +88,7 @@ nav {
         padding-right: 1rem;
         cursor: pointer;
 
-        & img {
+        img {
           height: 27px;
           padding-top: 5px;
 

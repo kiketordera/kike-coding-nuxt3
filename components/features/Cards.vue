@@ -55,8 +55,8 @@ section {
     .card {
         display: flex;
         flex-direction: row;
-        gap: 2.6rem;
-        padding: 1rem 0;
+        gap: 3.6rem;
+        padding: 1rem 1rem;
 
         .card-items {
             margin: 2rem 0rem;

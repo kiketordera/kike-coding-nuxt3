@@ -196,7 +196,7 @@ section {
         h2 {
           font-size: 2.5rem;
           text-align: start;
-          font-weight: 700;
+          font-weight: 500;
 
         }
       }

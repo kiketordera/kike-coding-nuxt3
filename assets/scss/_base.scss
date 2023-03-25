@@ -1,3 +1,9 @@
+*{
+  font-family: "Nunito Regular";
+  scroll-behavior: smooth;
+
+}
+
 @mixin title-section {
     @apply text-lg uppercase mb-3 tracking-widest;
     color: $font-color;

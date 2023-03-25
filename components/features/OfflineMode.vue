@@ -72,6 +72,7 @@ section {
                 font-weight: 400;
                 margin-bottom: 1rem;
                 align-items: center;
+                padding: 0rem 1rem;
                 //letter-spacing: 2px;
             }
         }
