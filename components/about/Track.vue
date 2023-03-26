@@ -20,6 +20,9 @@
                     to let the client immerse into the culture right before taking the product in his hands.
                 </p>
             </div>
+            <div class="box-img">
+                <img src="~assets/img/box.png" alt="">
+            </div>
         </div>
     </section>
 </template>
@@ -63,6 +66,7 @@ section {
             margin: 0 auto;
             width: 100%;
             max-width: 48rem;
+            padding: 0rem 2rem;
 
             p {
                 align-items: center;
@@ -71,6 +75,17 @@ section {
                 padding-bottom: 2rem;
                 padding-top: 0.5rem;
                 width: 95%;
+            }
+        }
+
+        .box-img {
+            margin: 0 auto;
+            max-width: 48rem;
+            padding-top: 1rem;
+
+            img {
+                height: auto;
+                max-width: 100%;
             }
         }
 
