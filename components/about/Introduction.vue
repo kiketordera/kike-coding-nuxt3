@@ -22,7 +22,7 @@
 
 <style lang="scss" scoped>
 section {
-    max-width: 72;
+    max-width: 72rem;
     margin: 0 auto;
     padding: 6rem 4rem;
 
