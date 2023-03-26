@@ -8,6 +8,7 @@
         <features-Step />
         <features-Chain />
         <features-DataTable />
+        <features-Analysis />
     </div>
 </template>
 
