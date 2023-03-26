@@ -5,6 +5,7 @@
         <features-Cards />
         <features-BackgroundImage />
         <features-Languages />
+        <features-Step />
     </div>
 </template>
 
