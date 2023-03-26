@@ -2,21 +2,21 @@
     <section>
         <div class="card-items">
             <div class="items">
-                <img src="~assets/img/performance-color.svg" alt="">
+                <img src="~assets/svg/performance-color.svg" alt="">
                 <p>
                     Software platform for the NGOs that works on the ground and they have a focus on vocational training or
                     education
                 </p>
             </div>
             <div class="items">
-                <img src="~assets/img/performance-color.svg" alt="">
+                <img src="~assets/svg/performance-color.svg" alt="">
                 <p>
                     The learning is based on video-tutorials, so it can be scalable and much more affordable that presencial
                     training
                 </p>
             </div>
             <div class="items">
-                <img src="~assets/img/wifi.svg" alt="">
+                <img src="~assets/svg/wifi.svg" alt="">
                 <p>
                     Can be installed in any device as a server, including a RaspberryPI for remotes areas without network
                     connection

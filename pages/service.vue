@@ -3,6 +3,8 @@
         <features-Community />
         <features-OfflineMode />
         <features-Cards />
+        <features-BackgroundImage />
+        <features-Languages />
     </div>
 </template>
 

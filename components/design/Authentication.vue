@@ -7,7 +7,7 @@
       <img src="~assets/img/authenication.png" alt="authenication" class="auth-image">
       <div class="content">
         <div class="title">
-          <img src="~/assets/img/lock-color.svg" alt="lock-img">
+          <img src="~/assets/svg/lock-color.svg" alt="lock-img">
           <h2>
             Authentications
           </h2>

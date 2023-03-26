@@ -80,8 +80,8 @@ section {
 
         .box-img {
             margin: 0 auto;
-            max-width: 48rem;
             padding-top: 1rem;
+            background: linear-gradient(#fefefe 0%, #e9e9e9 100%);
 
             img {
                 height: auto;
