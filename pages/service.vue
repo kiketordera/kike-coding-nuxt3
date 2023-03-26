@@ -7,6 +7,7 @@
         <features-Languages />
         <features-Step />
         <features-Chain />
+        <features-DataTable />
     </div>
 </template>
 
