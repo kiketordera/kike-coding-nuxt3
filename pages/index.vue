@@ -2,6 +2,8 @@
   <div>
     <about-Introduction />
     <about-LandingBackground />
+    <about-ItemsCards />
+    <about-Information />
   </div>
 </template>
 
