@@ -120,6 +120,7 @@ section {
                 img {
                     height: auto;
                     max-width: 70%;
+                    margin: 0rem 2rem;
                 }
 
                 p {

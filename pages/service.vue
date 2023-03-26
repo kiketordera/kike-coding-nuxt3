@@ -6,6 +6,7 @@
         <features-BackgroundImage />
         <features-Languages />
         <features-Step />
+        <features-Chain />
     </div>
 </template>
 
