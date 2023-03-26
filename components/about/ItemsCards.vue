@@ -52,6 +52,19 @@ section {
             }
         }
 
+        @media screen and (max-width: 600px) {
+
+            .card-items {
+                .items {
+
+                    display: flex;
+                    flex-direction: column;
+                    margin-bottom: 0.5rem;
+                }
+
+            }
+
+        }
     }
 }
 </style>

@@ -4,6 +4,8 @@
     <about-LandingBackground />
     <about-ItemsCards />
     <about-Information />
+    <about-BackgroundImage />
+    <about-Track />
   </div>
 </template>
 
