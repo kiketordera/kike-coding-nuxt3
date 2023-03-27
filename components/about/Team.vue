@@ -3,44 +3,35 @@
     <h2>Made with Love By</h2>
     <div class="team">
       <div class="cards">
-        <div class="team-section">
-          <span>Kike Tordera</span>
-          <h3>Developer & UX / UI Designer</h3>
+        <div v-for="team in allTeams" :key="team.id" class="team-section">
+          <img :src="`/img/teams/${team.img}`" alt="">
+          <span>{{ team.name }}</span>
+          <h3>{{ team.title }}</h3>
           <p>
-            Kike is responsible for the whole software project. He first designed,
-            and then coded the App from the initial concept until the final resu
+            {{ team.description }}
           </p>
-        </div>
-        <div class="team-section">
-          <span>Oskar Joziak</span>
-          <h3>UX / UI Designer</h3>
-          <p>
-            Oskar has helped to design and prototype the interfaces of the App.
-            He also presented the project to a competition obtaining the second prime.
-          </p>
-        </div>
-        <div class="team-section">
-          <span>Obadiah Ekiru</span>
-          <h3>Graphic Designer</h3>
-          <p>
-            Ekiru made the whole stunning iconography, understanding and
-            taking over with the different cultures to create a universal iconography.
-          </p>
-        </div>
-        <div class="team-section">
-          <span>Gabi Rocha</span>
-          <h3>Graphic Designer</h3>
-          <p>
-            Gabi designed the amazing logo, and the astonishing brand identity,
-            including the design style that is applied in every icon and that she supervised.
-          </p>
+          <div class="social-media">
+            <a href="#">
+
+              <img src="~assets/svg/linkedin.svg" alt="">
+            </a>
+            <a href="#">
+
+              <img src="~assets/svg/web.svg" alt="">
+            </a>
+            <a href="#">
+
+              <img src="~assets/svg/mail.svg" alt="">
+            </a>
+          </div>
         </div>
       </div>
     </div>
   </section>
 </template>
 
-<script>
+<script lang="ts" setup>
+const allTeams = APP.repository.getAllTeams()
 
 </script>
 
@@ -59,12 +50,16 @@ section {
     @apply items-center;
 
     .cards {
-      @apply gap-6 px-4 w-full py-12;
+      @apply gap-6 px-4 w-full py-12 px-4;
       display: flex;
       flex-direction: row;
 
       .team-section {
         @apply w-full;
+
+        img {
+          @apply rounded-full mx-auto w-28 h-28 my-4;
+        }
 
         span {
           @apply text-3xl mb-4 tracking-wider;
@@ -82,6 +77,23 @@ section {
         p {
           @apply text-base w-full;
         }
+      }
+
+      .social-media {
+        @apply flex flex-row w-full max-w-4xl items-center gap-10 mx-8 py-3 px-4;
+
+        a {
+          img {
+            @apply w-7 h-7;
+          }
+        }
+
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      .cards {
+        @apply flex-col mb-3 px-4;
       }
     }
   }
