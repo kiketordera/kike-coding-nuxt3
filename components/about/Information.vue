@@ -33,7 +33,7 @@
   padding: 0rem 2rem;
 
   p {
-    font-size: 1.5rem;
+    @apply text-xl;
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
