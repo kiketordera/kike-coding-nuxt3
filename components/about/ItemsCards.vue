@@ -2,7 +2,7 @@
   <section>
     <div class="card-items">
       <div class="items">
-        <img src="~assets/svg/performance-color.svg" alt="">
+        <img src="~assets/img/workshop.png" alt="">
         <p>
           Software platform for the NGOs that works on the ground and they have a focus on vocational training or
           education
@@ -40,7 +40,6 @@ section {
     display: flex;
     flex-direction: row;
     align-items: center;
-
     gap: 2rem;
     width: 100%;
 
@@ -52,19 +51,6 @@ section {
       }
     }
 
-    @media screen and (max-width: 600px) {
-
-      .card-items {
-        .items {
-
-          display: flex;
-          flex-direction: column;
-          margin-bottom: 0.5rem;
-        }
-
-      }
-
-    }
   }
 }
 </style>

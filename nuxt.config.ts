@@ -4,7 +4,7 @@ export default defineNuxtConfig({
     typeCheck: true
   },
 
-  // modules: ['@nuxtjs/style-resources'],
+  modules: ['@nuxtjs/tailwindcss'],
 
   vite: {
     css: {
