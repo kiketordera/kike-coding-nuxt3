@@ -33,15 +33,16 @@
 <style lang="scss" scoped>
 section {
   width: 100%;
-  max-width: 56rem;
   margin: 0 auto;
   padding: 6rem 0rem;
+  max-width: 56rem;
 
   .system {
     margin-bottom: 2rem;
     font-weight: 400;
 
     .title {
+      @apply px-4 gap-5;
       display: flex;
       justify-content: center;
       justify-items: center;
@@ -55,8 +56,14 @@ section {
       p {
         font-size: 2.4rem;
         text-align: center;
-        padding-left: 1.5rem;
-        font-weight: 900;
+        font-weight: 600;
+
+      }
+
+      @media screen and (max-width: 768px) {
+        p {
+          @apply text-3xl;
+        }
 
       }
     }

@@ -6,6 +6,7 @@
     <about-Information />
     <about-BackgroundImage />
     <about-Track />
+    <about-Team />
   </div>
 </template>
 

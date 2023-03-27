@@ -1,0 +1,30 @@
+[
+    {
+        "id": "kike tordera",
+        "name": "Kike Tordera",
+        "title": "Developer & UX / UI Designer",
+        "img": "kike.jpeg",
+        "description": "Kike is responsible for the whole software project. He first designed, and then coded the App from the initial concept until the final result that you are visiting right now."
+    },
+    {
+        "id": "Oskar joziak",
+        "name": "Oskar joziak",
+        "title": " UX / UI Designer",
+        "img": "askar.jpeg",
+        "description": "Kike is responsible for the whole software project. He first designed, and then coded the App from the initial concept until the final result that you are visiting right now."
+    },
+    {
+        "id": "Obadiah Ekiru",
+        "name": "Obadiah Ekiru",
+        "title": "Graphic Design",
+        "img": "bambu.jpeg",
+        "description": "Kike is responsible for the whole software project. He first designed, and then coded the App from the initial concept until the final result that you are visiting right now."
+    },
+    {
+        "id": "Gabi Rocha",
+        "name": "Gabi Rocha",
+        "title": "Graphic Design",
+        "img": "gabi.jpg",
+        "description": "Kike is responsible for the whole software project. He first designed, and then coded the App from the initial concept until the final result that you are visiting right now."
+    }
+]
