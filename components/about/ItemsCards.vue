@@ -31,17 +31,15 @@
 
 <style lang="scss" scoped>
 section {
-  max-width: 100rem;
+  @apply max-w-full px-8;
   width: 100%;
   margin: 0 auto;
-  padding: 0 2rem;
 
   .card-items {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 2rem;
-    width: 100%;
 
     .items {
       img {
@@ -49,8 +47,18 @@ section {
         padding: 1rem 0rem;
         margin: 0rem 8rem;
       }
+
+      p {
+        @apply items-center mt-2 tracking-wider;
+      }
     }
 
+  }
+
+  @media screen and (max-width: 768px) {
+    .card-items {
+      @apply flex flex-col mb-4;
+    }
   }
 }
 </style>
