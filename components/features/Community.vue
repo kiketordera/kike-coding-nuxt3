@@ -49,6 +49,7 @@ section {
   padding: 6rem 0rem;
 
   .community {
+    width: 100%;
     margin-bottom: 2rem;
     font-weight: 400;
 
@@ -58,19 +59,26 @@ section {
       justify-items: center;
       padding-bottom: 1rem;
       align-items: center;
+      gap: 2rem;
+      align-items: center;
 
       img {
-        height: 60px;
+        height: 50px;
       }
 
       p {
         font-size: 2.4rem;
         text-align: center;
-        padding-left: 1.5rem;
         font-family: "Raleway" !important;
 
         span {
           color: #f7941d;
+        }
+      }
+
+      @media screen and (max-width: 768px) {
+        p {
+          @apply text-xl mb-2;
         }
       }
     }
@@ -89,6 +97,12 @@ section {
         padding-top: 0.5rem;
         width: 95%;
       }
+
+      @media screen and (max-width: 768px) {
+        p {
+          @apply px-4 mb-2 text-base;
+        }
+      }
     }
 
     .structure,
@@ -96,6 +110,8 @@ section {
       margin: 0 auto;
       max-width: 48rem;
       padding-top: 1rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
 
       img {
         height: auto;
@@ -111,16 +127,6 @@ section {
       padding-top: 6rem;
       margin-top: -80px;
       margin-bottom: 10px;
-    }
-
-    @media screen and (min-width:320px) and (max-width: 480px) {
-      .structure {
-        margin-left: 0;
-
-        img {
-          height: 400px;
-        }
-      }
     }
 
     .content {
