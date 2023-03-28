@@ -44,16 +44,17 @@ section {
       justify-items: center;
       padding-bottom: 1rem;
       align-items: center;
+      padding: 1rem 0rem;
+      gap: 3rem;
+      margin: 0 auto;
 
       img {
         height: 60px;
       }
 
       p {
-        font-size: 2.4rem;
+        font-size: 2.5rem;
         text-align: center;
-        padding-left: 1.5rem;
-        font-family: "Raleway" !important;
         font-weight: 500;
         letter-spacing: 3px;
 
@@ -73,6 +74,12 @@ section {
         margin-bottom: 1rem;
         align-items: center;
         padding: 0rem 1rem;
+      }
+
+      @media screen and (max-width: 768px) {
+        p {
+          @apply text-base mb-2 px-4;
+        }
       }
     }
   }
