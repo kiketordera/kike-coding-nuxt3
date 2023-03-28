@@ -56,7 +56,7 @@ section {
         font-size: 2.5rem;
         text-align: center;
         font-weight: 500;
-        letter-spacing: 3px;
+        letter-spacing: 1px;
 
         span {
           color: #f7941d;

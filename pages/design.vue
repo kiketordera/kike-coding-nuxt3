@@ -1,6 +1,14 @@
 <template>
   <div>
-    <design-Authentication />
+    <design-Container>
+      <design-Authentication />
+    </design-Container>
+    <design-Container>
+      <design-Performance />
+    </design-Container>
+    <design-container>
+      <designBackgroundImage />
+    </design-container>
   </div>
 </template>
 

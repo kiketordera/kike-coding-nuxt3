@@ -1,10 +1,7 @@
 <template>
-  <section>
-    <h1>
-      Design beyond boundaries
-    </h1>
+  <div class="container">
     <div class="design">
-      <img src="~assets/img/authenication.png" alt="authenication" class="left-image">
+      <img src="~assets/img/design-dashboard.png" alt="authenication" class="right-image">
       <div class="content">
         <div class="title">
           <img src="~/assets/svg/lock-color.svg" alt="lock-img">
@@ -28,37 +25,24 @@
         </div>
       </div>
     </div>
-  </section>
+  </div>
 </template>
 
-<script lang="ts" setup>
+<script>
+export default {
+
+}
 </script>
 
 <style lang="scss" scoped>
-section {
-  h1 {
-    font-size: 2.4rem;
-    margin-top: 3rem;
-    margin-bottom: 4rem;
-    text-align: center;
-    letter-spacing: 4px;
-    font-weight: 400;
-  }
-
-  @media screen and (min-width: 482px) and (max-width:768px) {
-    h1 {
-      font-size: 2rem;
-      margin-top: 2.5rem;
-      margin-bottom: 1.5rem;
-    }
-  }
-
+.container {
   .design {
+    @apply flex-row-reverse;
     margin: 0 auto;
     display: flex;
     max-width: 48rem;
 
-    .left-image {
+    .right-image {
       height: 430px;
     }
 
@@ -121,7 +105,7 @@ section {
     .design {
       @apply flex flex-col-reverse px-4 w-full;
 
-      .left-image {
+      .right-image {
         height: auto;
       }
 
@@ -136,6 +120,5 @@ section {
 
     }
   }
-
 }
 </style>
