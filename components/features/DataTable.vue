@@ -7,7 +7,7 @@
           Make <span>decisions</span> with the <span>data</span> on the table
         </p>
       </div>
-      <div class="content flex">
+      <div class="content">
         <div class="info">
           <p>
             Making an inventory can be tricky. No one has the same needs, and even in the same collection, not
@@ -99,14 +99,12 @@ section {
       flex-direction: row;
       gap: 2;
       width: 100%;
-      margin: 0 7rem;
 
       .info {
-        font-family: 'Raleway' !important;
         margin: 0 auto;
         width: 100%;
-        max-width: 48rem;
-        padding: 0rem 2rem;
+        max-width: 72rem;
+        margin: 0 7rem;
 
         p {
           max-width: 56rem;
@@ -142,6 +140,23 @@ section {
           }
         }
 
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      .content {
+        flex-direction: column;
+        margin-bottom: 1rem;
+        padding: 1rem 0rem;
+
+        .info {
+          @apply px-4 w-full max-w-6xl mx-4 text-base;
+          margin: 0 auto;
+
+          li {
+            @apply mx-4;
+          }
+        }
       }
     }
 
