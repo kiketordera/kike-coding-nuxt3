@@ -7,6 +7,7 @@
     <about-BackgroundImage />
     <about-Track />
     <about-Team />
+    <about-Awards />
   </div>
 </template>
 

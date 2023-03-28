@@ -50,7 +50,7 @@ section {
     @apply items-center;
 
     .cards {
-      @apply gap-6 px-4 w-full py-12 px-4;
+      @apply gap-6 px-4 w-full py-12;
       display: flex;
       flex-direction: row;
 
