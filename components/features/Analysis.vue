@@ -82,6 +82,16 @@ section {
         }
 
       }
+
+      @media screen and (max-width: 768px) {
+        p {
+          @apply text-xl mb-2;
+        }
+
+        img {
+          @apply w-10 h-auto;
+        }
+      }
     }
 
     .info {
@@ -99,6 +109,13 @@ section {
         padding-top: 0.5rem;
         width: 95%;
       }
+
+      @media screen and (max-width: 768px) {
+        p {
+          @apply text-base mb-2;
+        }
+
+      }
     }
 
     .box-img {
@@ -106,9 +123,18 @@ section {
       padding-top: 1rem;
 
       img {
+        @apply w-10/12;
         height: auto;
         max-width: 100%;
         padding: 0rem 20rem;
+      }
+
+      @media screen and (max-width:700px) {
+        img {
+          @apply px-4 w-12 mx-auto;
+          min-width: 25%;
+
+        }
       }
     }
 
