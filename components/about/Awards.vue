@@ -34,10 +34,19 @@ section {
   }
 
   .award {
-    @apply flex flex-row w-full gap-12 items-center py-10;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    padding: 2.5rem 0rem;
+    gap: 3rem;
 
     p {
-      @apply text-base w-1/2 text-left tracking-wider;
+      font-size: 1rem;
+      width: 50%;
+      text-align: left;
+      line-height: 1.5rem;
+      letter-spacing: 0.05em;
     }
 
     img {
@@ -49,10 +58,11 @@ section {
 
   @media screen and (max-width: 768px) {
     .award {
-      @apply flex-col mb-3 px-4;
+      @apply mb-3 px-4;
+      flex-direction: column;
 
       p {
-        @apply w-full;
+        width: 100%;
       }
 
       img {

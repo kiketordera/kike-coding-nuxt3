@@ -8,6 +8,7 @@
     <about-Track />
     <about-Team />
     <about-Awards />
+    <about-Support />
   </div>
 </template>
 
