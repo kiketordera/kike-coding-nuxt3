@@ -63,8 +63,9 @@ section {
     .title {
       display: flex;
       justify-content: center;
-      justify-items: center;
       padding-bottom: 1rem;
+      align-items: center;
+      gap: 2rem;
       align-items: center;
 
       img {
@@ -74,13 +75,22 @@ section {
       p {
         font-size: 2.4rem;
         text-align: center;
-        padding-left: 1.5rem;
         font-weight: 900;
 
         span {
           color: #63B190;
         }
 
+      }
+
+      @media screen and (max-width: 768px) {
+        p {
+          @apply text-base mb-2;
+        }
+
+        img {
+          @apply w-10 h-auto;
+        }
       }
     }
 
