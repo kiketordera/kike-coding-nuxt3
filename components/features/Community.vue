@@ -80,6 +80,10 @@ section {
         p {
           @apply text-xl mb-2;
         }
+
+        img {
+          @apply w-10 h-auto;
+        }
       }
     }
 

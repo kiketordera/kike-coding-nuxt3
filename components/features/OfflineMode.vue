@@ -62,6 +62,16 @@ section {
           color: #f7941d;
         }
       }
+
+      @media screen and (max-width: 768px) {
+        p {
+          @apply text-3xl mb-2 px-4;
+        }
+
+        img {
+          @apply w-10 h-auto;
+        }
+      }
     }
 
     .info {

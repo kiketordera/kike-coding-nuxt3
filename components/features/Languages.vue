@@ -81,5 +81,12 @@ section {
       }
     }
   }
+
+  @media screen and (max-width: 699px) {
+    .card {
+      flex-direction: column;
+      margin-bottom: 1rem;
+    }
+  }
 }
 </style>

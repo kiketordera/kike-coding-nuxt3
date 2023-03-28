@@ -86,6 +86,16 @@ section {
         }
 
       }
+
+      @media screen and (max-width: 600px) {
+        p {
+          @apply text-xl items-center;
+        }
+
+        img {
+          @apply w-10 h-auto;
+        }
+      }
     }
 
     .info {
@@ -102,6 +112,13 @@ section {
         padding-bottom: 2rem;
         padding-top: 0.5rem;
         width: 95%;
+      }
+
+      @media screen and (max-width: 700px) {
+        p {
+          @apply text-base;
+        }
+
       }
     }
 
@@ -131,6 +148,16 @@ section {
         }
       }
 
+    }
+
+    @media screen and (max-width: 700px) {
+      .box-img {
+        @apply flex-col mb-2;
+
+        p {
+          @apply pb-2 px-4;
+        }
+      }
     }
 
   }

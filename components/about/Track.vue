@@ -62,7 +62,11 @@ section {
 
       @media screen and (max-width: 768px) {
         p {
-          @apply text-3xl;
+          @apply text-2xl;
+        }
+
+        img {
+          @apply w-10 h-auto;
         }
 
       }
