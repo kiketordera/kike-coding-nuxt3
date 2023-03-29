@@ -111,7 +111,7 @@ section {
           align-items: center;
           text-align: justify;
           font-size: 20px;
-          padding-bottom: 2rem;
+          padding-bottom: 0.8rem;
           padding-top: 0.5rem;
 
         }
