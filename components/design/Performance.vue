@@ -12,15 +12,17 @@
 
         <div class="info">
           <p>
-            When you start to create an interface adapted for illiteracy,
-            you need to take normal routines that you do several times every day and reinvent it,
-            giving them a better understanding and simplicity.
+            Having an understanding and clean menu is basic to create confidence in the use of the system.
+            The main menu is a collection of icons labeled with a small description and divided into 3 categories:
           </p>
           <p>
-            One of these daily routines is introducing a password.
-            Instead of a password, they can remember a story with 4 animals,
-            and the iconography of the animals in convention with their photo,
-            the software is able to give to the user the security they need to use the system.
+            -Services: these are custom services that you can create depending on your necessities.
+          </p>
+          <p>
+            -Actions: these are the global actions that you can make across all services that you create.
+          </p>
+          <p>
+            -Logout: to close your session
           </p>
         </div>
       </div>

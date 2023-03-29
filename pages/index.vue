@@ -4,7 +4,7 @@
     <about-LandingBackground />
     <about-ItemsCards />
     <about-Information />
-    <about-BackgroundImage />
+    <about-GradientBackground />
     <about-Track />
     <about-Team />
     <about-Awards />
