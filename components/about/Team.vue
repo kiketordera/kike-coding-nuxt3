@@ -47,10 +47,10 @@ section {
   }
 
   .team {
-    @apply items-center;
+    @apply items-center px-4;
 
     .cards {
-      @apply gap-6 px-4 w-full py-12;
+      @apply gap-6 w-full py-12;
       display: flex;
       flex-direction: row;
 
