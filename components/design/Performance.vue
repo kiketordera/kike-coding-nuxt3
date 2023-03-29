@@ -4,9 +4,9 @@
       <img src="~assets/img/design-dashboard.png" alt="authenication" class="right-image">
       <div class="content">
         <div class="title">
-          <img src="~/assets/svg/lock-color.svg" alt="lock-img">
+          <img src="~/assets/svg/dashboard.svg" alt="performace-img">
           <h2>
-            Authentications
+            Dashboard
           </h2>
         </div>
 
@@ -41,6 +41,7 @@ export default {
     margin: 0 auto;
     display: flex;
     max-width: 48rem;
+    padding-top: 2rem;
 
     .right-image {
       height: 430px;
@@ -103,7 +104,10 @@ export default {
 
   @media screen and (max-width: 700px) {
     .design {
-      @apply flex flex-col-reverse px-4 w-full;
+      @apply px-4;
+      display: flex;
+      flex-direction: column-reverse;
+      width: 100%;
 
       .right-image {
         height: auto;

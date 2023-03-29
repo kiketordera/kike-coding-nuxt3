@@ -11,7 +11,7 @@ export interface Authenication {
     id: string
     title: string
     iconImg: string
-    mainImg: string
+    photo: string
     paragraph1: string
     paragraph2: string
 }
