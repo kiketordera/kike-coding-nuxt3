@@ -31,7 +31,7 @@
         <h2>Watch, do, learn...</h2>
         <p>
           Empower the people with knowledge with custom video-courses for vocational training, education, personal
-          hygiene...
+          hygiene....
         </p>
       </div>
     </div>
@@ -57,16 +57,17 @@ section {
   padding: 0rem 0rem;
 
   .gradient {
-    @apply flex flex-row gap-5 max-w-6xl mx-auto;
+    @apply flex flex-row gap-10 max-w-6xl mx-auto;
 
     .info,
     .item {
       h2 {
-        @apply text-2xl tracking-wider mb-3;
+        @apply text-2xl tracking-wider mt-6;
+        font-weight: 600;
       }
 
       p {
-        @apply text-base mb-3 px-3;
+        @apply text-base my-5 px-3;
       }
 
     }

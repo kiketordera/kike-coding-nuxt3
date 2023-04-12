@@ -80,7 +80,7 @@ section {
       }
 
       .social-media {
-        @apply flex flex-row w-full max-w-4xl items-center gap-10 mx-8 py-3 px-4;
+        @apply flex w-full mb-0 justify-center items-center gap-10 py-3 px-4;
 
         a {
           img {
