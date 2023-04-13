@@ -3,27 +3,24 @@
     <h1>
       Design beyond boundaries
     </h1>
-    <div class="design">
-      <img src="~assets/img/authenication.png" alt="authenication" class="left-image">
+    <div v-for="authenication in allAuthenication" :key="authenication.id" class="design">
+      <div class="w-1/2">
+        <img :src="`/img/boundaries/${authenication.img}`" alt="authenication" class="left-image">
+      </div>
       <div class="content">
         <div class="title">
           <img src="~/assets/svg/lock-color.svg" alt="lock-img">
           <h2>
-            Authentications
+            {{ authenication.title }}
           </h2>
         </div>
 
         <div class="info">
           <p>
-            When you start to create an interface adapted for illiteracy,
-            you need to take normal routines that you do several times every day and reinvent it,
-            giving them a better understanding and simplicity.
+            {{ authenication.leftText }}
           </p>
           <p>
-            One of these daily routines is introducing a password.
-            Instead of a password, they can remember a story with 4 animals,
-            and the iconography of the animals in convention with their photo,
-            the software is able to give to the user the security they need to use the system.
+            {{ authenication.leftText }}
           </p>
         </div>
       </div>
@@ -32,6 +29,7 @@
 </template>
 
 <script lang="ts" setup>
+const allAuthenication = APP.repository.getAllAuthenications()
 </script>
 
 <style lang="scss" scoped>

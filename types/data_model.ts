@@ -10,8 +10,7 @@ export interface Team {
 export interface Authenication {
     id: string
     title: string
-    iconImg: string
-    photo: string
-    paragraph1: string
-    paragraph2: string
+    img: string
+    leftText: string
+    rightText: string
 }
