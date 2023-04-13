@@ -31,6 +31,7 @@
   max-width: 56rem;
   margin: 0 auto;
   padding: 0rem 2rem;
+  padding-top: 2rem;
 
   p {
     @apply text-xl;

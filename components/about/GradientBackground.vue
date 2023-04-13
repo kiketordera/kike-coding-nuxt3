@@ -38,10 +38,6 @@
   </section>
 </template>
 
-<script>
-
-</script>
-
 <style lang="scss" scoped>
 section {
   @apply w-full;
@@ -57,7 +53,7 @@ section {
   padding: 0rem 0rem;
 
   .gradient {
-    @apply flex flex-row gap-10 max-w-6xl mx-auto;
+    @apply flex flex-row gap-10 max-w-7xl mx-auto;
 
     .info,
     .item {
@@ -69,7 +65,6 @@ section {
       p {
         @apply text-base my-5 px-3;
       }
-
     }
   }
 }

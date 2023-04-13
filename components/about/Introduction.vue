@@ -16,10 +16,6 @@
   </section>
 </template>
 
-<script>
-
-</script>
-
 <style lang="scss" scoped>
 section {
   max-width: 72rem;
@@ -44,14 +40,12 @@ section {
       @apply text-6xl mb-6;
       font-size: 2rem;
       font-weight: 600;
-
     }
 
     @media screen and (max-width: 700px) {
       h1 {
         @apply text-2xl mb-3 w-full;
       }
-
     }
 
     p {

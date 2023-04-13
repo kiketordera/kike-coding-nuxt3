@@ -9,9 +9,6 @@
   </section>
 </template>
 
-<script>
-</script>
-
 <style lang="scss" scoped>
 section {
   max-width: 100%;
@@ -19,16 +16,11 @@ section {
   padding: 0.6rem 3rem;
   text-align: center;
 
-  .background {
-    max-width: 100%;
+  img {
+    @apply max-w-7xl;
     margin: 0 auto;
     background-position: center;
     background-size: cover;
-
-    img {
-      width: 100%;
-      height: 65vh;
-    }
   }
 
   p {

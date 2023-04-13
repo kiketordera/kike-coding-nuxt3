@@ -26,9 +26,6 @@
   </section>
 </template>
 
-<script>
-</script>
-
 <style lang="scss" scoped>
 section {
   @apply max-w-full px-8;
@@ -36,12 +33,11 @@ section {
   margin: 0 auto;
 
   .card-items {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 2rem;
+    @apply flex flex-row items-center gap-4 justify-between max-w-7xl mx-auto;
 
     .items {
+      @apply max-w-sm;
+
       img {
         max-width: 20%;
         padding: 1rem 0rem;
@@ -52,7 +48,6 @@ section {
         @apply items-center mt-2 tracking-wider;
       }
     }
-
   }
 
   @media screen and (max-width: 768px) {

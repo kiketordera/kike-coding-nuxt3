@@ -6,7 +6,7 @@
     <design-Container>
       <design-Performance />
     </design-Container>
-    <designBackgroundImage />
+    <design-BackgroundImage />
   </div>
 </template>
 
