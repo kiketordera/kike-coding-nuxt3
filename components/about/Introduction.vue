@@ -20,7 +20,7 @@
 section {
   max-width: 72rem;
   margin: 0 auto;
-  padding: 6rem 4rem;
+  padding: 6rem 1rem;
 
   .village {
     @apply max-w-6xl;
@@ -29,7 +29,7 @@ section {
 
     .logo {
       @apply w-full mx-auto;
-      max-width: 18%;
+      max-width: 15rem;
       height: cover;
       vertical-align: middle;
       margin-top: 1rem;
@@ -42,18 +42,22 @@ section {
       font-weight: 600;
     }
 
-    @media screen and (max-width: 700px) {
-      h1 {
-        @apply text-2xl mb-3 w-full;
-      }
-    }
-
     p {
       @apply text-base;
       font-size: 1.5rem;
       margin-bottom: 1rem;
       font-weight: 400;
       letter-spacing: 1px;
+    }
+
+    @media screen and (max-width: 700px) {
+      h1 {
+        @apply text-2xl mb-3 w-full;
+      }
+
+      p {
+        font-size: 1rem;
+      }
     }
   }
 }

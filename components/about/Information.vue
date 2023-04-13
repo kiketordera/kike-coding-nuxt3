@@ -34,7 +34,7 @@
   padding-top: 2rem;
 
   p {
-    @apply text-xl;
+    @apply text-base md:text-xl text-justify;
     margin-top: 2rem;
     margin-bottom: 2rem;
   }

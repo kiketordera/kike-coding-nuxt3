@@ -13,11 +13,12 @@
 section {
   max-width: 100%;
   margin: 0 auto;
-  padding: 0.6rem 3rem;
+  padding: 0.6rem 1rem;
   text-align: center;
 
   img {
     @apply max-w-7xl;
+    width: 100%;
     margin: 0 auto;
     background-position: center;
     background-size: cover;

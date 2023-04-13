@@ -5,6 +5,7 @@
     <about-ItemsCards />
     <about-Information />
     <about-GradientBackground />
+    <about-GradientBackgroundTwo />
     <about-Track />
     <about-Team />
     <about-Awards />

@@ -9,7 +9,6 @@
             Dashboard
           </h2>
         </div>
-
         <div class="info">
           <p>
             Having an understanding and clean menu is basic to create confidence in the use of the system.

@@ -33,19 +33,20 @@ section {
   margin: 0 auto;
 
   .card-items {
-    @apply flex flex-row items-center gap-4 justify-between max-w-7xl mx-auto;
+    @apply flex flex-row items-center gap-8 justify-between max-w-7xl mx-auto;
 
     .items {
       @apply max-w-sm;
 
       img {
-        max-width: 20%;
+        max-width: 5rem;
+        max-height: 6rem;
         padding: 1rem 0rem;
-        margin: 0rem 8rem;
+        margin: 0rem auto;
       }
 
       p {
-        @apply items-center mt-2 tracking-wider;
+        @apply items-center mt-2 tracking-wider text-justify;
       }
     }
   }
