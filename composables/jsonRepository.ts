@@ -1,7 +1,7 @@
 
 import { Irepository } from './Irepository'
 
-// import { Authenication, Team } from '~/types/data_model'
+import { Team } from '~/types/data_model'
 import Teams from '~~/assets/data/team.json'
 // import Authenications from '~/assets/data/authenications.json'
 export class JSONRepository implements Irepository {
