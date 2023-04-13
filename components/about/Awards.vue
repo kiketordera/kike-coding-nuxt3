@@ -7,10 +7,10 @@
         in the Polytechnic University of Valencia, Spain.
         2018 Edition.
       </p>
-      <a href="#">
+      <a href="https://blogthinkbig.com/">
         <img src="~assets/img/think-big.jpeg" alt="">
       </a>
-      <a href="#">
+      <a href="https://www.fundaciontelefonica.com/">
         <img src="~assets/img/telefonica.png" alt="">
       </a>
     </div>

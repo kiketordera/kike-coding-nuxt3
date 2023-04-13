@@ -3,7 +3,7 @@
     <h2>Made with  <img src="~/assets/svg/heart.svg" alt="" class="heart"> By</h2>
     <div class="team">
       <div class="cards">
-        <div v-for="team in allTeams" :key="team.id" class="team-section">
+        <div v-for="team in allTeams" :key="team.name" class="team-section">
           <img :src="`/img/teams/${team.img}`" alt="">
           <span>{{ team.name }}</span>
           <h3>{{ team.title }}</h3>
@@ -11,13 +11,13 @@
             {{ team.description }}
           </p>
           <div class="social-media">
-            <a href="#">
+            <a :href="team.linkedin">
               <img src="~assets/svg/linkedin.svg" alt="">
             </a>
-            <a href="#">
+            <a :href="team.web">
               <img src="~assets/svg/web.svg" alt="">
             </a>
-            <a href="#">
+            <a :href="team.email">
               <img src="~assets/svg/mail.svg" alt="">
             </a>
           </div>
@@ -29,7 +29,6 @@
 
 <script lang="ts" setup>
 const allTeams = APP.repository.getAllTeams()
-
 </script>
 
 <style lang="scss" scoped>

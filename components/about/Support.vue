@@ -4,19 +4,19 @@
       With the support of
     </h2>
     <div class="support">
-      <a id="totem-big" href="#">
+      <a id="totem-big" href="https://thetotem.studio/">
         <img src="~assets/img/logo-totem.png" alt="">
       </a>
-      <a href="#">
+      <a href="https://www.hn-bavaria.org/">
         <img src="~assets/img/hn.png" alt="">
       </a>
-      <a id="totem-small" href="#">
+      <a id="totem-small" href="https://thetotem.studio/">
         <img src="~assets/img/logo-totem.png" alt="">
       </a>
-      <a href="#">
+      <a href="https://www.upv.es/">
         <img src="~assets/svg/upv.svg" alt="">
       </a>
-      <a href="">
+      <a href="https://www.learninglions.org/">
         <img src="~assets/img/learning.png" alt="">
       </a>
     </div>
