@@ -20,7 +20,9 @@
 section {
   max-width: 72rem;
   margin: 0 auto;
-  padding: 6rem 1rem;
+  padding: 0rem 1rem;
+  padding-top: 6rem;
+  padding-bottom: 2rem;
 
   .village {
     @apply max-w-6xl;
@@ -29,7 +31,7 @@ section {
 
     .logo {
       @apply w-full mx-auto;
-      max-width: 15rem;
+      max-width: 12rem;
       height: cover;
       vertical-align: middle;
       margin-top: 1rem;
@@ -57,6 +59,9 @@ section {
 
       p {
         font-size: 1rem;
+      }
+      .logo {
+        max-width: 9rem;
       }
     }
   }

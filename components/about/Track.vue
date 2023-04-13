@@ -34,8 +34,7 @@
 section {
   width: 100%;
   margin: 0 auto;
-  padding: 6rem 0rem;
-  max-width: 56rem;
+  padding-top: 4rem;
 
   .system {
     margin-bottom: 2rem;
@@ -51,6 +50,7 @@ section {
 
       img {
         height: 60px;
+        max-width: 100%;
       }
 
       p {
@@ -80,26 +80,25 @@ section {
       padding: 0rem 2rem;
 
       p {
-        align-items: center;
-        text-align: justify;
-        font-size: 20px;
-        padding-bottom: 2rem;
-        padding-top: 0.5rem;
-        width: 95%;
+        @apply text-base md:text-xl text-justify;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
       }
     }
 
     .box-img {
       margin: 0 auto;
       padding-top: 1rem;
+      width: 100%;
       background: linear-gradient(#fefefe 0%, #e9e9e9 100%);
 
       img {
         height: auto;
-        max-width: 100%;
+        width: 100%;
+        max-width: 660px;
+        margin: 0 auto;
       }
     }
-
   }
 }
 </style>

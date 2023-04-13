@@ -17,11 +17,12 @@ section {
   text-align: center;
 
   img {
-    @apply max-w-7xl;
+    max-width: 1500px;
     width: 100%;
     margin: 0 auto;
     background-position: center;
     background-size: cover;
+    padding-bottom: 1rem;;
   }
 
   p {

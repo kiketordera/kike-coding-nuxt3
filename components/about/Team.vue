@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h2>Made with Love By</h2>
+    <h2>Made with  <img src="~/assets/svg/heart.svg" alt="" class="heart"> By</h2>
     <div class="team">
       <div class="cards">
         <div v-for="team in allTeams" :key="team.id" class="team-section">
@@ -12,15 +12,12 @@
           </p>
           <div class="social-media">
             <a href="#">
-
               <img src="~assets/svg/linkedin.svg" alt="">
             </a>
             <a href="#">
-
               <img src="~assets/svg/web.svg" alt="">
             </a>
             <a href="#">
-
               <img src="~assets/svg/mail.svg" alt="">
             </a>
           </div>
@@ -37,25 +34,47 @@ const allTeams = APP.repository.getAllTeams()
 
 <style lang="scss" scoped>
 section {
-  @apply max-w-6xl px-4 mx-auto;
+  @apply max-w-7xl px-4 mx-auto;
   width: 100%;
   text-align: center;
   padding: 2rem 0rem;
 
   h2 {
-    @apply text-4xl my-4;
+    @apply text-4xl my-2;
+  }
+
+  .heart {
+    margin-bottom: 10px;
+    max-width: 30px;
+    max-height: 30px;
+    animation-name: pulse;
+    animation-iteration-count: infinite;
+    animation-duration: 2.5s;
+    overflow: visible;
+    display: inline;
+}
+
+  @keyframes pulse {
+    0% {transform: scale(1);}
+    25% {transform: scale(.97);}
+    35% {transform: scale(.9);}
+    45% {transform: scale(1.1);}
+    55% {transform: scale(.9);}
+    65% {transform: scale(1.1);}
+    75% {transform: scale(1.03);}
+    100% {transform: scale(1);}
   }
 
   .team {
     @apply items-center px-4;
 
     .cards {
-      @apply gap-6 w-full py-12;
+      @apply gap-6 w-full py-6;
       display: flex;
       flex-direction: row;
 
       .team-section {
-        @apply w-full;
+        @apply w-full ;
 
         img {
           @apply rounded-full mx-auto w-28 h-28 my-4;
@@ -69,13 +88,13 @@ section {
         }
 
         h3 {
-          @apply my-2 tracking-wider;
+          @apply my-2 tracking-wider font-semibold;
           color: #ED037C;
           white-space: nowrap;
         }
 
         p {
-          @apply text-base w-full;
+          @apply text-base w-full text-justify max-w-md mx-auto;
         }
       }
 
@@ -91,7 +110,7 @@ section {
       }
     }
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 900px) {
       .cards {
         @apply flex-col mb-3 px-4;
       }
