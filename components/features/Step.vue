@@ -34,7 +34,7 @@
           </p>
         </div>
         <div class="details">
-          <img src="~assets/img/vikapu.png" alt="">
+          <!-- <img src="~assets/img/vikapu.png" alt=""> -->
           <p>
             Introduce the different steps guiding all the process
           </p>
@@ -49,9 +49,6 @@
     </div>
   </section>
 </template>
-
-<script>
-</script>
 
 <style lang="scss" scoped>
 section {
@@ -99,7 +96,6 @@ section {
     }
 
     .info {
-      font-family: 'Raleway' !important;
       margin: 0 auto;
       width: 100%;
       max-width: 48rem;

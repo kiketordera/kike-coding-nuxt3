@@ -3,8 +3,10 @@
     <features-Community />
     <features-OfflineMode />
     <features-Cards />
-    <features-BackgroundImage />
-    <features-Languages />
+    <ClientOnly>
+      <features-WifiAnimation />
+    </ClientOnly>
+    <features-Cards2 />
     <features-Step />
     <features-Chain />
     <features-DataTable />

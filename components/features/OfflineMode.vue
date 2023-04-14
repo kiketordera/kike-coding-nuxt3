@@ -18,9 +18,6 @@
           stick when you reach the network. It also features the latest technologies in the marker to be
           future-proof.
         </p>
-        <p>
-          Technologies used to carry out the project :
-        </p>
       </div>
     </div>
   </section>
@@ -52,12 +49,10 @@ section {
         height: 60px;
       }
 
-      p {
-        font-size: 2.5rem;
+       p {
+        @apply font-semibold;
+        font-size: 2.4rem;
         text-align: center;
-        font-weight: 500;
-        letter-spacing: 1px;
-
         span {
           color: #f7941d;
         }
@@ -76,14 +71,7 @@ section {
 
     .info {
       p {
-
-        font-size: 1.3rem;
-        text-align: justify;
-        padding-top: 10px;
-        font-weight: 400;
-        margin-bottom: 1rem;
-        align-items: center;
-        padding: 0rem 1rem;
+          @apply text-base md:text-xl text-justify px-4;
       }
 
       @media screen and (max-width: 768px) {

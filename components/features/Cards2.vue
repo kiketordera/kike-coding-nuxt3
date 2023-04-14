@@ -58,7 +58,7 @@ section {
         font-size: 1.7rem;
         text-align: center;
         margin-bottom: 5px;
-        font-weight: 400;
+        font-weight: 600;
 
       }
 
@@ -77,7 +77,8 @@ section {
 
       p {
         text-align: justify;
-
+        max-width: 500px;
+        margin: 0 auto;
       }
     }
   }

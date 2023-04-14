@@ -73,7 +73,6 @@ section {
     }
 
     .info {
-      font-family: 'Raleway' !important;
       margin: 0 auto;
       width: 100%;
       max-width: 48rem;

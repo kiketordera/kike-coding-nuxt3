@@ -37,10 +37,6 @@
   </section>
 </template>
 
-<script>
-
-</script>
-
 <style lang="scss" scoped>
 section {
   width: 100%;
@@ -54,6 +50,7 @@ section {
     font-weight: 400;
 
     .title {
+      @apply px-2;
       display: flex;
       justify-content: center;
       justify-items: center;
@@ -67,10 +64,9 @@ section {
       }
 
       p {
+        @apply font-semibold;
         font-size: 2.4rem;
         text-align: center;
-        font-family: "Raleway" !important;
-
         span {
           color: #f7941d;
         }
@@ -78,7 +74,7 @@ section {
 
       @media screen and (max-width: 768px) {
         p {
-          @apply text-xl mb-2;
+          @apply text-xl;
         }
 
         img {
@@ -88,18 +84,12 @@ section {
     }
 
     .info {
-      font-family: 'Raleway' !important;
       margin: 0 auto;
       width: 100%;
-      max-width: 48rem;
+      @apply max-w-2xl;
 
       p {
-        align-items: center;
-        text-align: justify;
-        font-size: 20px;
-        padding-bottom: 2rem;
-        padding-top: 0.5rem;
-        width: 95%;
+          @apply text-base md:text-xl text-justify;
       }
 
       @media screen and (max-width: 768px) {
@@ -134,13 +124,7 @@ section {
     }
 
     .content {
-      width: 85%;
-      text-align: start;
-      margin: 0 auto;
-      padding: 1rem 0rem;
-      letter-spacing: 1px;
-      font-size: 1rem;
-      font-weight: 500;
+        @apply text-base md:text-xl text-justify px-4 mx-auto max-w-2xl;
     }
 
   }

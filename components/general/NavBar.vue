@@ -23,7 +23,7 @@
             <p>Design</p>
           </li>
         </NuxtLink>
-        <NuxtLink to="/service">
+        <NuxtLink to="/features">
           <li>
             <img src="~assets/svg/features.svg" alt="">
             <p>Features</p>
