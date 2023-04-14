@@ -3,7 +3,7 @@
     <h1>
       Design beyond boundaries
     </h1>
-    <div v-for="authenication in allAuthenication" :key="authenication.id" class="design">
+    <div v-for="authenication in allAuthenication" :key="authenication.name" class="design">
       <div class="w-1/2">
         <img :src="`/img/vv/boundaries/${authenication.img}`" alt="authenication" class="left-image">
       </div>
@@ -17,10 +17,10 @@
 
         <div class="info">
           <p>
-            {{ authenication.leftText }}
+            <!-- {{ authenication.leftText }} -->
           </p>
           <p>
-            {{ authenication.leftText }}
+            <!-- {{ authenication.leftText }} -->
           </p>
         </div>
       </div>
@@ -29,7 +29,7 @@
 </template>
 
 <script lang="ts" setup>
-const allAuthenication = APP.repository.getAllAuthenications()
+const allAuthenication = APP.repository.getAllTeams()
 </script>
 
 <style lang="scss" scoped>

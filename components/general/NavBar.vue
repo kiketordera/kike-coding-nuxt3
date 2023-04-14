@@ -6,39 +6,32 @@
       </a>
       <p>Kike</p>
     </div>
-
     <div class="nav-items">
       <ul>
-        <NuxtLink to="/">
+        <NuxtLink to="/projects/value-villages/about">
           <li>
-            <div>
-              <img src="~assets/svg/vv/about.svg" alt="">
-              <p>About</p>
-            </div>
+            <img class="a" src="~assets/svg/vv/about.svg" alt="">
+            <p>About</p>
           </li>
         </NuxtLink>
-        <NuxtLink to="/design">
+        <NuxtLink to="/projects/value-villages/design">
           <li>
-            <img src="~assets/svg/vv/design.svg" alt="">
+            <img class="b" src="~assets/svg/vv/design.svg" alt="">
             <p>Design</p>
           </li>
         </NuxtLink>
-        <NuxtLink to="/features">
+        <NuxtLink to="/projects/value-villages/features">
           <li>
-            <img src="~assets/svg/vv/features.svg" alt="">
+            <img class="b" src="~assets/svg/vv/features.svg" alt="">
             <p>Features</p>
           </li>
         </NuxtLink>
-        <li>
-          <img src="~assets/svg/vv/manuals.svg" alt="">
-          <p>Manuals</p>
-        </li>
       </ul>
     </div>
   </nav>
 </template>
 
-<script  lang="ts" setup>
+<script lang="ts" setup>
 
 </script>
 
@@ -56,31 +49,31 @@ nav {
   z-index: 10;
 
   & .logo {
-    margin-left: 2rem;
+    margin: 0rem 1rem;
     font-size: 12px;
     padding-top: 9px;
     margin-bottom: 0.2rem;
 
     & .logo-img {
-      height: 27px;
+      width:  27px;
       padding-top: 5px;
+      margin: 0 auto;
 
       &:hover {
         color: orange;
         border-bottom: 2px solid orange;
       }
     }
-
   }
 
   & .nav-items {
     display: inline-flex;
     text-align: center;
-    margin-left: 10rem;
     font-weight: 400;
 
     ul {
-      display: inline-flex;
+      display: flex;
+      align-items: flex-end;
 
       li {
         padding: 0;
@@ -91,8 +84,19 @@ nav {
         cursor: pointer;
 
         img {
-          height: 27px;
+
+          &.a{
+            max-width: 19px;
+            max-height: 37px;
+          }
+
+          &.b {
+            max-width: 25px;
+            max-height: 40px;
+          }
+
           padding-top: 5px;
+          margin: 0 auto;
 
           &:hover {
             color: #63b910;
@@ -106,7 +110,6 @@ nav {
 
         p {
           font-size: 0.8rem;
-          text-transform: lowercase;
           letter-spacing: 0.05em;
         }
 
