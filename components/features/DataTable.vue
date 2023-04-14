@@ -61,6 +61,7 @@ section {
     font-weight: 400;
 
     .title {
+      @apply px-4;
       display: flex;
       justify-content: center;
       padding-bottom: 1rem;
@@ -118,17 +119,14 @@ section {
       }
 
       .box-img {
-        padding-top: 2.5rem;
-        padding: 2.5rem 0rem;
 
         .details {
           align-items: center;
 
           img {
             height: auto;
-            max-width: 100%;
-            width: 25%;
-            margin: 0rem 6rem;
+            max-width: 150px;
+            margin: 0rem auto;
           }
 
           p {
@@ -136,7 +134,8 @@ section {
             margin-top: 1rem;
             font-size: 1.2rem;
             letter-spacing: 3;
-            width: 20rem;
+            max-width: 20rem;
+            margin: 1rem auto;
           }
         }
 
@@ -148,6 +147,10 @@ section {
         flex-direction: column;
         margin-bottom: 1rem;
         padding: 1rem 0rem;
+
+        .details {
+          margin-top: 2rem;
+        }
 
         .info {
           @apply px-4 w-full max-w-6xl mx-4 text-base;

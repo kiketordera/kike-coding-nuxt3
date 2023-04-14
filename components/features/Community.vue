@@ -24,7 +24,7 @@
       </div>
 
       <div class="structure">
-        <img src="~/assets/img/graph.png" alt="">
+        <img src="~/assets/img/vv/graph.png" alt="">
       </div>
       <p class="content">
         To serve the different villages and communities, there are 6 languages included, what gives you a huge

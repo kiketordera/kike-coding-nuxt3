@@ -58,7 +58,7 @@ section {
 
     .info,
     .item {
-      @apply min-h-full flex flex-col ;
+      @apply min-h-full flex flex-col;
       h2 {
         @apply text-2xl tracking-wider mt-6;
         font-weight: 600;

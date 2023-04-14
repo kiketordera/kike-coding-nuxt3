@@ -17,22 +17,23 @@
           Every item has a unique identifier number, that is represented by the QR. The cases of use of the QR
           are:
         </p>
-        <p>
-          -Every time we want to give a tool to a worker, for example, we will scan the QR and it will be
-          registered that this exact tool was given to a specific worker, so he will be responsible for that and
-          the tool won’t just disappear.
-        </p>
-        <p>
-          -Every time someone wants to make a delivery, if the item is traceable, they will need to scan the QR
-          codes in order
-          to deliver from one service to another, so you can not deliver a wrong thing as long as everything is
-          digitalized.
-        </p>
-        <p>
-          -Every time the customer receives a manufactured product from the organization, he will be able to see
-          every worker that
-          was involved in the manufacturing process of the product.
-        </p>
+        <ul>
+          <li>
+            Every time we want to give a tool to a worker, for example, we will scan the QR and it will be
+            registered that this exact tool was given to a specific worker, so he will be responsible for that and
+            the tool won't just disappear.
+          </li>
+          <li>
+            Every time someone wants to make a delivery, if the item is traceable, they will need to scan the QR
+            codes in order
+            to deliver from one service to another, so you can not deliver a wrong thing as long as everything is
+            digitalized.
+          </li>
+          <li>
+            Every time the customer receives a manufactured product from the organization, he will be able to see
+            every worker that was involved in the manufacturing process of the product.
+          </li>
+        </ul>
       </div>
     </div>
   </section>
@@ -53,6 +54,7 @@ section {
     font-weight: 400;
 
     .title {
+      @apply px-4;
       display: flex;
       justify-content: center;
       justify-items: center;
@@ -90,15 +92,15 @@ section {
       margin: 0 auto;
       width: 100%;
       max-width: 48rem;
-      padding: 0rem 2rem;
 
-      p {
-        align-items: center;
-        text-align: justify;
-        font-size: 20px;
-        padding-bottom: 2rem;
-        padding-top: 0.5rem;
-        width: 95%;
+      p,
+      ul li{
+        @apply text-base md:text-xl;
+      }
+
+      ul {
+        list-style-type: circle;
+        padding: 1rem 2rem;
       }
 
       @media screen and (max-width: 700px) {

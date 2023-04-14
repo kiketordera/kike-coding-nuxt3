@@ -66,6 +66,7 @@ section {
       justify-items: center;
       padding-bottom: 1rem;
       align-items: center;
+      @apply px-4;
 
       img {
         height: 60px;
@@ -85,7 +86,7 @@ section {
 
       @media screen and (max-width: 768px) {
         p {
-          @apply text-xl mb-2;
+           @apply text-base md:text-xl text-justify;
         }
 
         img {
@@ -98,8 +99,7 @@ section {
       margin: 0 auto;
       width: 100%;
       max-width: 48rem;
-      padding: 0rem 2rem;
-
+      @apply px-4;
       p {
         align-items: center;
         text-align: justify;

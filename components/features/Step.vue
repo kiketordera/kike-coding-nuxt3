@@ -39,7 +39,7 @@
             Introduce the different steps guiding all the process
           </p>
         </div>
-        <div class="details">
+        <div class="details dis">
           <img src="~assets/img/vv/rings.png" alt="">
           <p>
             See the records of the different products made out of the video courses
@@ -89,7 +89,7 @@ section {
 
         padding-bottom: 0.5rem;
         p {
-          @apply text-xl items-center;
+          @apply text-base md:text-xl items-center;
         }
 
         img {
@@ -123,19 +123,14 @@ section {
     .box-img {
       display: flex;
       flex-direction: row;
-      gap: 2;
       margin: 0 auto;
-      padding-top: 2.5rem;
-      background: linear-gradient(#fefefe 0%, #e9e9e9 100%);
-      padding: 2.5rem 0rem 2rem 2rem;
 
       .details {
         align-items: center;
 
         img {
           height: auto;
-          max-width: 70%;
-          margin: 0rem 2rem;
+          padding: 0rem 2rem;
         }
 
         p {
@@ -145,18 +140,25 @@ section {
           letter-spacing: 3;
         }
       }
-
     }
 
     @media screen and (max-width: 700px) {
       .box-img {
-        @apply flex-col mb-2;
-
+         .details img {
+          height: auto;
+          padding: 0rem 1rem;
+        }
         p {
           @apply pb-2 px-4;
         }
       }
     }
+
+     @media screen and (max-width: 500px) {
+      .dis {
+        display: none;
+      }
+     }
 
   }
 }
