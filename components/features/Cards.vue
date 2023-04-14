@@ -47,9 +47,8 @@ section {
   padding: 1rem 0rem;
 
   h2 {
-    font-size: 1.5rem;
-    text-align: center;
-    font-weight: 400;
+    @apply font-bold px-4;
+    font-size: 1.8rem;
     margin-top: 2rem;
   }
 

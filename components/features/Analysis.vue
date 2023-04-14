@@ -2,7 +2,7 @@
   <section>
     <div class="system">
       <div class="title">
-        <img src="~/assets/svg/report.svg" alt="">
+        <img src="~/assets/svg/vv/report.svg" alt="">
         <p>
           Easy <span>reports</span> , easy <span>analysis</span>
         </p>
@@ -31,7 +31,7 @@
         </p>
       </div>
       <div class="box-img">
-        <img src="~assets/img/excel.png" alt="">
+        <img src="~assets/img/vv/excel.png" alt="">
       </div>
       <div class="info">
         <p>

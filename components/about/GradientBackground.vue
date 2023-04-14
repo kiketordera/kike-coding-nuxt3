@@ -9,10 +9,10 @@
           Extremely friendly user interface designed to integrate
           people who have the first contact with technology.The perfect starting!
         </p>
-        <img src="~assets/img/log-in.png" alt="">
+        <img src="~assets/img/vv/log-in.png" alt="">
       </div>
       <div class="item">
-        <img src="~assets/img/dashboard.png" alt="">
+        <img src="~assets/img/vv/dashboard.png" alt="">
         <h2>Your Dashboard</h2>
         <p>
           Customizable dashboard with custom services, actions, and settings. All in 6 languages.
@@ -26,10 +26,10 @@
           person.
           Also with numbers.
         </p>
-        <img src="~assets/img/performance.png" alt="">
+        <img src="~assets/img/vv/performance.png" alt="">
       </div>
       <div class="item dis">
-        <img src="~assets/img/products.png" alt="">
+        <img src="~assets/img/vv/products.png" alt="">
         <h2>Watch, do, learn...</h2>
         <p>
           Empower the people with knowledge with custom video-courses for vocational training, education, personal

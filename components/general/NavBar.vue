@@ -2,7 +2,7 @@
   <nav>
     <div class="logo">
       <a href="#">
-        <img src="~assets/svg/kike.svg" alt="kike-image" class="logo-img">
+        <img src="~assets/svg/vv/kike.svg" alt="kike-image" class="logo-img">
       </a>
       <p>Kike</p>
     </div>
@@ -12,25 +12,25 @@
         <NuxtLink to="/">
           <li>
             <div>
-              <img src="~assets/svg/about.svg" alt="">
+              <img src="~assets/svg/vv/about.svg" alt="">
               <p>About</p>
             </div>
           </li>
         </NuxtLink>
         <NuxtLink to="/design">
           <li>
-            <img src="~assets/svg/design.svg" alt="">
+            <img src="~assets/svg/vv/design.svg" alt="">
             <p>Design</p>
           </li>
         </NuxtLink>
         <NuxtLink to="/features">
           <li>
-            <img src="~assets/svg/features.svg" alt="">
+            <img src="~assets/svg/vv/features.svg" alt="">
             <p>Features</p>
           </li>
         </NuxtLink>
         <li>
-          <img src="~assets/svg/manuals.svg" alt="">
+          <img src="~assets/svg/vv/manuals.svg" alt="">
           <p>Manuals</p>
         </li>
       </ul>

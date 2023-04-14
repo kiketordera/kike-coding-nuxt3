@@ -5,11 +5,11 @@
     </h1>
     <div v-for="authenication in allAuthenication" :key="authenication.id" class="design">
       <div class="w-1/2">
-        <img :src="`/img/boundaries/${authenication.img}`" alt="authenication" class="left-image">
+        <img :src="`/img/vv/boundaries/${authenication.img}`" alt="authenication" class="left-image">
       </div>
       <div class="content">
         <div class="title">
-          <img src="~/assets/svg/lock-color.svg" alt="lock-img">
+          <img src="~/assets/svg/vv/lock-color.svg" alt="lock-img">
           <h2>
             {{ authenication.title }}
           </h2>

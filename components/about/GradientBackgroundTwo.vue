@@ -9,10 +9,10 @@
           Guided step by step procedures to ensure a high-quality production, with videos, audios,
           warnings and graphical representation of the materials and tools.
         </p>
-        <img src="~assets/img/video.png" alt="">
+        <img src="~assets/img/vv/video.png" alt="">
       </div>
       <div class="item">
-        <img src="~assets/img/transactions.png" alt="">
+        <img src="~assets/img/vv/transactions.png" alt="">
         <h2>Your production</h2>
         <p>
           An easy and clear view of the products made, the payments, earnings, and accountability of your work. Don't miss a number!
@@ -24,10 +24,10 @@
           Numerical alphabet designed specifically for illiterate people, to fully understand how much are they earning even
           without knowing how to read or write.
         </p>
-        <img src="~assets/img/index.png" alt="">
+        <img src="~assets/img/vv/index.png" alt="">
       </div>
       <div class="item dis">
-        <img src="~assets/img/track.png" alt="">
+        <img src="~assets/img/vv/track.png" alt="">
         <h2>
           Controlled and safe
         </h2>

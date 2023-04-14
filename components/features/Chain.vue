@@ -2,7 +2,7 @@
   <section>
     <div class="system">
       <div class="title">
-        <img src="~/assets/svg/qr.svg" alt="">
+        <img src="~/assets/svg/vv/qr.svg" alt="">
         <p>
           Track <span>items</span> in the whole chain
         </p>

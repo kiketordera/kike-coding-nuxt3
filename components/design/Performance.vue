@@ -1,10 +1,10 @@
 <template>
   <div class="container">
     <div class="design">
-      <img src="~assets/img/design-dashboard.png" alt="authenication" class="right-image">
+      <img src="~assets/img/vv/design-dashboard.png" alt="authenication" class="right-image">
       <div class="content">
         <div class="title">
-          <img src="~/assets/svg/dashboard.svg" alt="performace-img">
+          <img src="~/assets/svg/vv/dashboard.svg" alt="performace-img">
           <h2>
             Dashboard
           </h2>

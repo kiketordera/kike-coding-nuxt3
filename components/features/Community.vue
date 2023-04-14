@@ -2,7 +2,7 @@
   <section>
     <div class="community">
       <div class="title">
-        <img src="~/assets/svg/hunt.svg" alt="">
+        <img src="~/assets/svg/vv/hunt.svg" alt="">
         <p>From the <span>community</span> to the <span>people</span> </p>
       </div>
 
@@ -31,7 +31,7 @@
         coverage over the world map:
       </p>
       <div class="map">
-        <img src="~/assets/svg/world-map.svg" alt="">
+        <img src="~/assets/svg/vv/world-map.svg" alt="">
       </div>
     </div>
   </section>

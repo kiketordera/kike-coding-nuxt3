@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="village">
-      <img src="~assets/img/vv-logo.png" alt="" class="logo">
+      <img src="~assets/img/vv/vv-logo.png" alt="" class="logo">
       <h1>Welcome to Value Villages Web App</h1>
       <p>
         Open source, easy to use,

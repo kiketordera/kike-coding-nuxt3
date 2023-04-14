@@ -1,10 +1,10 @@
 <template>
   <section>
-    <h2>Made with  <img src="~/assets/svg/heart.svg" alt="" class="heart"> By</h2>
+    <h2>Made with  <img src="~/assets/svg/vv/heart.svg" alt="" class="heart"> By</h2>
     <div class="team">
       <div class="cards">
         <div v-for="team in allTeams" :key="team.name" class="team-section">
-          <img :src="`/img/teams/${team.img}`" alt="">
+          <img :src="`/img/vv/teams/${team.img}`" alt="">
           <span>{{ team.name }}</span>
           <h3>{{ team.title }}</h3>
           <p>
@@ -12,13 +12,13 @@
           </p>
           <div class="social-media">
             <a :href="team.linkedin">
-              <img src="~assets/svg/linkedin.svg" alt="">
+              <img src="~assets/svg/vv/linkedin.svg" alt="">
             </a>
             <a :href="team.web">
-              <img src="~assets/svg/web.svg" alt="">
+              <img src="~assets/svg/vv/web.svg" alt="">
             </a>
             <a :href="team.email">
-              <img src="~assets/svg/mail.svg" alt="">
+              <img src="~assets/svg/vv/mail.svg" alt="">
             </a>
           </div>
         </div>

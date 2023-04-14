@@ -2,7 +2,7 @@
   <section>
     <div class="system">
       <div class="title">
-        <img src="~/assets/svg/youtube.svg" alt="">
+        <img src="~/assets/svg/vv/youtube.svg" alt="">
         <p>
           <span>Step</span> by <span>step</span> guided <span>tutorials</span>
         </p>
@@ -28,19 +28,19 @@
       </div>
       <div class="box-img">
         <div class="details">
-          <img src="~assets/img/system.png" alt="">
+          <img src="~assets/img/vv/system.png" alt="">
           <p>
             Create your own video courses and introduce them into the system.
           </p>
         </div>
         <div class="details">
-          <!-- <img src="~assets/img/vikapu.png" alt=""> -->
+          <img src="~assets/img/vv/vikapu.png" alt="">
           <p>
             Introduce the different steps guiding all the process
           </p>
         </div>
         <div class="details">
-          <img src="~assets/img/rings.png" alt="">
+          <img src="~assets/img/vv/rings.png" alt="">
           <p>
             See the records of the different products made out of the video courses
           </p>
@@ -62,6 +62,7 @@ section {
     font-weight: 400;
 
     .title {
+      @apply px-4;
       display: flex;
       justify-content: center;
       justify-items: center;
@@ -85,6 +86,8 @@ section {
       }
 
       @media screen and (max-width: 600px) {
+
+        padding-bottom: 0.5rem;
         p {
           @apply text-xl items-center;
         }
@@ -96,10 +99,10 @@ section {
     }
 
     .info {
+      @apply px-4;
       margin: 0 auto;
       width: 100%;
       max-width: 48rem;
-      padding: 0rem 2rem;
 
       p {
         align-items: center;
@@ -107,7 +110,6 @@ section {
         font-size: 20px;
         padding-bottom: 2rem;
         padding-top: 0.5rem;
-        width: 95%;
       }
 
       @media screen and (max-width: 700px) {

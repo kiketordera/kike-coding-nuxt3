@@ -2,7 +2,7 @@
   <section>
     <div class="offline-mode">
       <div class="title">
-        <img src="~assets/svg/wifi.svg" alt="">
+        <img src="~assets/svg/vv/wifi.svg" alt="">
         <p>
           Offline Mode
         </p>
@@ -42,7 +42,6 @@ section {
       padding-bottom: 1rem;
       align-items: center;
       padding: 1rem 0rem;
-      gap: 3rem;
       margin: 0 auto;
 
       img {
@@ -50,7 +49,7 @@ section {
       }
 
        p {
-        @apply font-semibold;
+        @apply font-semibold px-4;
         font-size: 2.4rem;
         text-align: center;
         span {
@@ -60,7 +59,7 @@ section {
 
       @media screen and (max-width: 768px) {
         p {
-          @apply text-3xl mb-2 px-4;
+          @apply text-3xl;
         }
 
         img {

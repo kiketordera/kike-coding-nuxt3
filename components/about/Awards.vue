@@ -8,10 +8,10 @@
         2018 Edition.
       </p>
       <a href="https://blogthinkbig.com/">
-        <img src="~assets/img/think-big.jpeg" alt="">
+        <img src="~assets/img/vv/think-big.jpeg" alt="">
       </a>
       <a href="https://www.fundaciontelefonica.com/">
-        <img src="~assets/img/telefonica.png" alt="">
+        <img src="~assets/img/vv/telefonica.png" alt="">
       </a>
     </div>
   </section>

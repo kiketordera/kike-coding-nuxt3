@@ -1,6 +1,6 @@
 <template>
   <section>
-    <img src="~assets/img/main.png" alt="" class="background">
+    <img src="~assets/img/vv/main.png" alt="" class="background">
     <p>
       All necessary functionality for NGOs who work in the ground fighting poverty and inequality.
       Workflow specialized on empowering people through knowledge and

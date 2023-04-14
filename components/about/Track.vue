@@ -2,7 +2,7 @@
   <section>
     <div class="system">
       <div class="title">
-        <img src="~/assets/svg/qr.svg" alt="">
+        <img src="~/assets/svg/vv/qr.svg" alt="">
         <p>
           Track system incorporated
         </p>
@@ -21,7 +21,7 @@
         </p>
       </div>
       <div class="box-img">
-        <img src="~assets/img/box.png" alt="">
+        <img src="~assets/img/vv/box.png" alt="">
       </div>
     </div>
   </section>

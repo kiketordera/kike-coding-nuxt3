@@ -2,7 +2,7 @@
   <section>
     <div class="system">
       <div class="title">
-        <img src="~/assets/svg/calendar.svg" alt="">
+        <img src="~/assets/svg/vv/calendar.svg" alt="">
         <p>
           Make <span>decisions</span> with the <span>data</span> on the table
         </p>
@@ -34,7 +34,7 @@
         </div>
         <div class="box-img">
           <div class="details">
-            <img src="~assets/img/car.png" alt="">
+            <img src="~assets/img/vv/car.png" alt="">
             <p>
               Create your own video courses and introduce them into the system.
             </p>
