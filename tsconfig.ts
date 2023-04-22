@@ -33,7 +33,7 @@ export default defineNuxtConfig({
       //   // <script src="https://myawesome-lib.js"></script>
       //   { src: 'https://awesome-lib.js' },
       // ],
-      title: 'Pilar Ramos',
+      title: 'Value villages',
       link: [
         // <link rel="stylesheet" href="https://myawesome-lib.css">
         { rel: 'icon', type: 'image/png', href: '/favicon.png' },
