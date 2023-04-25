@@ -2,15 +2,15 @@
   <section>
     <h2>Awards From</h2>
     <div class="award">
-      <p>
+      <p data-aos="zoom-out-up">
         First and third positions in the 2 categories of the competition “Hack for Good” from Telefonica Foundation
         in the Polytechnic University of Valencia, Spain.
         2018 Edition.
       </p>
-      <a href="https://blogthinkbig.com/">
+      <a data-aos="zoom-out-up" href="https://blogthinkbig.com/">
         <img src="~assets/img/vv/think-big.jpeg" alt="">
       </a>
-      <a href="https://www.fundaciontelefonica.com/">
+      <a data-aos="zoom-out-up" href="https://www.fundaciontelefonica.com/">
         <img src="~assets/img/vv/telefonica.png" alt="">
       </a>
     </div>

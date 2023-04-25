@@ -2,12 +2,12 @@
   <section>
     <div class="system">
       <div class="title">
-        <img src="~/assets/svg/vv/qr.svg" alt="">
-        <p>
+        <img data-aos="fade-left" src="~/assets/svg/vv/qr.svg" alt="">
+        <p data-aos="fade-up">
           Track system incorporated
         </p>
       </div>
-      <div class="info">
+      <div data-aos="fade-up" class="info">
         <p>
           You can track all the process back, to know exactly which work was the one who made the final product.
         </p>

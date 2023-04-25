@@ -1,15 +1,17 @@
 <template>
   <section>
     <div class="village">
-      <img src="~assets/img/vv/vv-logo.png" alt="" class="logo">
-      <h1>Welcome to Value Villages Web App</h1>
-      <p>
+      <img data-aos="zoom-in" src="~assets/img/vv/vv-logo.png" alt="" class="logo">
+      <h1 data-aos="zoom-in">
+        Welcome to Value Villages Web App
+      </h1>
+      <p data-aos="fade-up">
         Open source, easy to use,
       </p>
-      <p>
+      <p data-aos="fade-up">
         customisable, multi-platform.
       </p>
-      <p>
+      <p data-aos="fade-up">
         A full set right out of the box for everyone!
       </p>
     </div>

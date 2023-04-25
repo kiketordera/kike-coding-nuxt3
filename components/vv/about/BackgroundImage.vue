@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img src="~/assets/img/everywhere-en.png" alt="" class="background-img">
+    <img data-aos="fade-right" src="~/assets/img/everywhere-en.png" alt="" class="background-img">
   </div>
 </template>
 

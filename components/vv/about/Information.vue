@@ -1,5 +1,5 @@
 <template>
-  <div class="info">
+  <div data-aos="fade-up" class="info">
     <p>
       Most NGOs who provide help in the rural areas are focusing on vocational training, giving the local
       communities some abilities in order to them be able to create any product.

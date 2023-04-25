@@ -3,7 +3,7 @@
     <h2>Made with  <img src="~/assets/svg/vv/heart.svg" alt="" class="heart"> By</h2>
     <div class="team">
       <div class="cards">
-        <div v-for="team in allTeams" :key="team.name" class="team-section">
+        <div v-for="team in allTeams" :key="team.name" data-aos="zoom-out-up" class="team-section">
           <img :src="`/img/vv/teams/${team.img}`" alt="">
           <span>{{ team.name }}</span>
           <h3>{{ team.title }}</h3>

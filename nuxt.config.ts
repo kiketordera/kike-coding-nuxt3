@@ -6,6 +6,10 @@ export default defineNuxtConfig({
 
   modules: ['@nuxtjs/tailwindcss'],
 
+  plugins: [
+    { src: '~/plugins/aos', mode: 'client', ssr: false }
+  ],
+
   vite: {
     css: {
       preprocessorOptions: {
