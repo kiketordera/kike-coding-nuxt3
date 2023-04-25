@@ -1,7 +1,9 @@
 <template>
   <section>
-    <h2>Technologies used to carry out the project</h2>
-    <div class="card">
+    <h2 data-aos="zoom-out-up">
+      Technologies used to carry out the project
+    </h2>
+    <div data-aos="zoom-out-up" class="card">
       <div class="card-items">
         <h4 class="vue">
           Vue

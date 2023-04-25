@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="card">
+    <div data-aos="zoom-out-up" class="card">
       <div class="card-items">
         <h4 class="golang">
           Golang
@@ -48,7 +48,7 @@ section {
     display: flex;
     flex-direction: row;
     gap: 3.6rem;
-    padding: 1rem 1rem;
+    padding: 8rem 0rem 1rem 1rem;
 
     .card-items {
       margin: 2rem 0rem;

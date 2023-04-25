@@ -7,7 +7,7 @@
           <span>Step</span> by <span>step</span> guided <span>tutorials</span>
         </p>
       </div>
-      <div class="info">
+      <div data-aos="zoom-out-up" class="info">
         <p>
           The core of the app is that the knowledge is built into video-tutorials. It has been proven that in lack
           of presence learning,
@@ -27,19 +27,19 @@
         </p>
       </div>
       <div class="box-img">
-        <div class="details">
+        <div data-aos="zoom-in-right" class="details">
           <img src="~assets/img/vv/system.png" alt="">
           <p>
             Create your own video courses and introduce them into the system.
           </p>
         </div>
-        <div class="details">
+        <div data-aos="zoom-in-up" class="details">
           <img src="~assets/img/vv/vikapu.png" alt="">
           <p>
             Introduce the different steps guiding all the process
           </p>
         </div>
-        <div class="details dis">
+        <div data-aos="zoom-in-left" class="details dis">
           <img src="~assets/img/vv/rings.png" alt="">
           <p>
             See the records of the different products made out of the video courses

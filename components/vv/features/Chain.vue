@@ -7,7 +7,7 @@
           Track <span>items</span> in the whole chain
         </p>
       </div>
-      <div class="info">
+      <div data-aos="zoom-out-up" class="info">
         <p>
           In order to track every tool and every product manufactured (so we can see every single worker
           involved in his manufacturing), there is the option to track items in an easy, fast and secure way: QR

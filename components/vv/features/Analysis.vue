@@ -7,7 +7,7 @@
           Easy <span>reports</span> , easy <span>analysis</span>
         </p>
       </div>
-      <div class="info">
+      <div data-aos="zoom-out-up" class="info">
         <p>
           To take the right decision you must have the right information.
           The reports are usually misvalued, and often are not the priority of the organization,
@@ -30,10 +30,10 @@
           software system itself).
         </p>
       </div>
-      <div class="box-img">
+      <div data-aos="zomm-out-up" class="box-img">
         <img src="~assets/img/vv/excel.png" class="-mt-8 mb-3" alt="">
       </div>
-      <div class="info">
+      <div data-aos="zomm-out-up" class="info">
         <p>
           The software provides you the ability to export into Excel files the data from the database, in specific
           documents to be able to export the data out of the system, make some calculations in base on the data obtained and analyze the data

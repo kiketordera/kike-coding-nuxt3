@@ -8,7 +8,7 @@
         </p>
       </div>
       <div class="content">
-        <div class="info">
+        <div data-aos="zoom-out-up" class="info">
           <p>
             Making an inventory can be tricky. No one has the same needs, and even in the same collection, not
             every item needs to be
@@ -32,7 +32,7 @@
             You can select how often do you want to check the item: only once, daily, weekly or monthly
           </li>
         </div>
-        <div class="box-img">
+        <div data-aos="zoom-out-up" class="box-img">
           <div class="details">
             <img src="~assets/img/vv/car.png" alt="">
             <p>

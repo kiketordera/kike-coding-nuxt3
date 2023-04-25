@@ -2,11 +2,13 @@
   <section>
     <div class="community">
       <div class="title">
-        <img src="~/assets/svg/vv/hunt.svg" alt="">
-        <p>From the <span>community</span> to the <span>people</span> </p>
+        <img data-aos="fade-right" src="~/assets/svg/vv/hunt.svg" alt="">
+        <p data-aos="fade-left">
+          From the <span>community</span> to the <span>people</span>
+        </p>
       </div>
 
-      <div class="info">
+      <div data-aos="zoom-out-up" class="info">
         <p>
           You can have different locations (Villages), and you can also have custom services created by you in
           every
@@ -23,10 +25,10 @@
         </p>
       </div>
 
-      <div class="structure">
+      <div data-aos="zoom-out-up" class="structure">
         <img src="~/assets/img/vv/graph.png" alt="">
       </div>
-      <p class="content">
+      <p data-aos="fade-up" class="content">
         To serve the different villages and communities, there are 6 languages included, what gives you a huge
         coverage over the world map:
       </p>
