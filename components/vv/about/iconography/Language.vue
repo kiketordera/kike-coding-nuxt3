@@ -77,7 +77,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  gap: 1rem;
+  gap: 0.5rem;
   left: 0%;
   top: 0%;
   margin-top: 1rem;
