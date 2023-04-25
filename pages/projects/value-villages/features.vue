@@ -1,16 +1,16 @@
 <template>
   <div>
-    <features-Community />
-    <features-OfflineMode />
-    <features-Cards />
+    <vv-features-Community />
+    <vv-features-OfflineMode />
+    <vv-features-Cards />
     <ClientOnly>
-      <features-WifiAnimation />
+      <vv-features-WifiAnimation />
     </ClientOnly>
-    <features-Cards2 />
-    <features-Step />
-    <features-Chain />
-    <features-DataTable />
-    <features-Analysis />
+    <vv-features-Cards2 />
+    <vv-features-Step />
+    <vv-features-Chain />
+    <vv-features-DataTable />
+    <vv-features-Analysis />
   </div>
 </template>
 

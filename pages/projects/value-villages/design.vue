@@ -1,12 +1,12 @@
 <template>
   <div>
-    <design-Container>
-      <design-Authentication />
-    </design-Container>
-    <design-Container>
-      <design-Performance />
-    </design-Container>
-    <design-BackgroundImage />
+    <vv-design-Container>
+      <vv-design-Authentication />
+    </vv-design-Container>
+    <vv-design-Container>
+      <vv-design-Performance />
+    </vv-design-Container>
+    <vv-design-BackgroundImage />
   </div>
 </template>
 

@@ -1,8 +1,8 @@
 <template>
-    <div>
-        <general-NavBar />
-        <slot />
-    </div>
+  <div>
+    <vv-general-NavBar />
+    <slot />
+  </div>
 </template>
 
 <script>
