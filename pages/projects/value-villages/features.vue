@@ -1,6 +1,7 @@
 <template>
   <div>
     <vv-features-Community />
+    <vv-features-Map />
     <vv-features-OfflineMode />
     <vv-features-Cards />
     <ClientOnly>

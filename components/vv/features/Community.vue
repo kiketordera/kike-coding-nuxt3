@@ -30,9 +30,6 @@
         To serve the different villages and communities, there are 6 languages included, what gives you a huge
         coverage over the world map:
       </p>
-      <div class="map">
-        <img src="~/assets/svg/vv/world-map.svg" alt="">
-      </div>
     </div>
   </section>
 </template>
