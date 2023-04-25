@@ -1,6 +1,7 @@
 <template>
-  <about-Iconography-Faces />
-  <about-Iconography-LineTwo />
+  <vv-about-Iconography-Faces />
+  <vv-about-Iconography-LineTwo />
+  <vv-about-Iconography-Icons />
 </template>
 
 <script setup lang="ts">
