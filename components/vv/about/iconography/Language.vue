@@ -2,48 +2,88 @@
 <template>
   <div class="scroll-parent">
     <div class="scroll-element primary">
-      <img src="~assets/svg/vv/turkana-spanish.svg" alt="">
-      <span>Turkana</span>
-      <img src="~assets/svg/vv/german-spanish.svg" alt="">
-      <p>Germany</p>
-      <img src="~assets/svg/vv/spanish-english.svg" alt="">
-      <p>spanish</p>
-      <img src="~assets/svg/vv/german-swahili.svg" alt="">
-      <p>Swahili-Turkana</p>
-      <img src="~assets/svg/vv/french-german.svg" alt="">
-      <p>French</p>
       <img src="~assets/svg/vv/swahili-turkana.svg" alt="">
-      <p>Swahili</p>
-      <img src="~assets/svg/vv/french-german.svg" alt="">
-      <p>English</p>
+      <p class="language-text">
+        <span>Turkana</span>
+      </p>
       <img src="~assets/svg/vv/german-spanish.svg" alt="">
-      <p>Germany</p>
+      <p class="language-german">
+        <span>Germany</span>
+      </p>
+      <img src="~assets/svg/vv/spanish-english.svg" alt="">
+      <p class="language-spanish">
+        <span>spanish</span>
+      </p>
       <img src="~assets/svg/vv/german-swahili.svg" alt="">
-      <p>Spanish</p>
+      <p class="language-swahili">
+        <span>Swahili-Turkana</span>
+      </p>
+      <img src="~assets/svg/vv/french-german.svg" alt="">
+      <p class="language-french">
+        <span>French</span>
+      </p>
+      <img src="~assets/svg/vv/swahili-turkana.svg" alt="">
+      <p class="swahili">
+        <span>Swahili</span>
+      </p>
+      <img src="~assets/svg/vv/english-french.svg" alt="">
+      <p class="language-english">
+        <span>English</span>
+      </p>
+      <img src="~assets/svg/vv/german-spanish.svg" alt="">
+      <p class="language-span">
+        <span>Germany</span>
+      </p>
+      <img src="~assets/svg/vv/spanish-english.svg" alt="">
+      <p class="language-spanish">
+        <span>Spanish</span>
+      </p>
       <img src="~assets/svg/vv/french-turkana.svg" alt="">
-      <p>French</p>
+      <p class="language-french">
+        <span>French</span>
+      </p>
     </div>
     <div class="scroll-element secondary">
       <img src="~assets/svg/vv/turkana-spanish.svg" alt="">
-      <span>Turkana</span>
-      <img src="~assets/svg/vv/german-spanish.svg" alt="">
-      <p>Germany</p>
+      <p class="language-text">
+        <span>Turkana</span>
+      </p>
+      <img src="~assets/svg/vv/german-swahili.svg" alt="">
+      <p class="language-german">
+        <span>Germany</span>
+      </p>
       <img src="~assets/svg/vv/spanish-english.svg" alt="">
-      <p>spanish</p>
+      <p class="language-spanish">
+        <span>spanish</span>
+      </p>
       <img src="~assets/svg/vv/german-swahili.svg" alt="">
-      <p>Swahili-Turkana</p>
+      <p class="language-swahili">
+        <span>Swahili-Turkana</span>
+      </p>
       <img src="~assets/svg/vv/french-german.svg" alt="">
-      <p>French</p>
+      <p class="language-french">
+        <span>French</span>
+      </p>
       <img src="~assets/svg/vv/swahili-turkana.svg" alt="">
-      <p>Swahili</p>
-      <img src="~assets/svg/vv/french-german.svg" alt="">
-      <p>English</p>
-      <img src="~assets/svg/vv/german-spanish.svg" alt="">
-      <p>Germany</p>
-      <img src="~assets/svg/vv/german-swahili.svg" alt="">
-      <p>Spanish</p>
+      <p class="swahili">
+        <span>Swahili</span>
+      </p>
       <img src="~assets/svg/vv/english-french.svg" alt="">
-      <p>French</p>
+      <p class="language-english">
+        <span>English</span>
+      </p>
+      <img src="~assets/svg/vv/german-spanish.svg" alt="">
+      <p class="language-span">
+        <span>Germany</span>
+      </p>
+      <img src="~assets/svg/vv/spanish-english.svg" alt="">
+      <p class="language-spanish">
+        <span>Spanish</span>
+      </p>
+      <img src="~assets/svg/vv/english-french.svg" alt="">
+      <p class="french">
+        <span>French</span>
+      </p>
     </div>
   </div>
 </template>
@@ -96,6 +136,30 @@
 
   overflow: hidden;
   animation: primary 13s linear infinite;
+}
+p {
+  font-size: 1.2rem;
+  &.language-text {
+    color: #A97C50;
+  }
+  &.swahili, .language-swahili {
+    color: #ED037C;
+  }
+  &.language-german {
+    color: #CF1F26;
+  }
+  &.language-french {
+    color: #FF8F00;
+  }
+  &.language-english {
+    color: #00A3D2;
+  }
+  &.language-spanish {
+    color: #63B190;
+  }
+  &.language-span {
+    color: #CF1F26;
+  }
 }
 .primary {
   animation: primary 13s linear infinite;
