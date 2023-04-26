@@ -14,15 +14,11 @@
       <p class="language-spanish">
         <span>spanish</span>
       </p>
-      <img src="~assets/svg/vv/german-swahili.svg" alt="">
-      <p class="language-swahili">
-        <span>Swahili-Turkana</span>
-      </p>
       <img src="~assets/svg/vv/french-german.svg" alt="">
       <p class="language-french">
         <span>French</span>
       </p>
-      <img src="~assets/svg/vv/swahili-turkana.svg" alt="">
+      <img src="~assets/svg/vv/german-swahili.svg" alt="">
       <p class="swahili">
         <span>Swahili</span>
       </p>
@@ -55,10 +51,6 @@
       <img src="~assets/svg/vv/spanish-english.svg" alt="">
       <p class="language-spanish">
         <span>spanish</span>
-      </p>
-      <img src="~assets/svg/vv/german-swahili.svg" alt="">
-      <p class="language-swahili">
-        <span>Swahili-Turkana</span>
       </p>
       <img src="~assets/svg/vv/french-german.svg" alt="">
       <p class="language-french">
