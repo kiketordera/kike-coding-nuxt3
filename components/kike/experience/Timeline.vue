@@ -1,11 +1,16 @@
 <template>
   <section>
+<<<<<<< HEAD
     <div class="intro ">
+=======
+    <div class="intro mx-auto mb-16 w-full max-w-6xl">
+>>>>>>> parent of a436808 (Revert "Kike website")
       <h2>My Experience</h2>
       <p>
         Explore my professional journey and expertise through my comprehensive work experience section
       </p>
     </div>
+<<<<<<< HEAD
     <div class="title">
       <span class="work">Work</span>
       <span class="educate">
@@ -15,6 +20,8 @@
         Volunteering
       </span>
     </div>
+=======
+>>>>>>> parent of a436808 (Revert "Kike website")
     <ol
       class="timeline"
     >
@@ -85,11 +92,19 @@
     </ol>
     <div class="buttons">
       <a href="#">
+<<<<<<< HEAD
         <img src="~assets/svg/kk/left-arrow.svg" alt="">
 
       </a>
       <a href="#">
         <img src="~assets/svg/kk/grey-arrow.svg" alt="">
+=======
+        <img src="~assets/svg/left-arrow.svg" alt="">
+
+      </a>
+      <a href="#">
+        <img src="~assets/svg/grey-arrow.svg" alt="">
+>>>>>>> parent of a436808 (Revert "Kike website")
       </a>
     </div>
   </section>
@@ -103,12 +118,17 @@
 section {
     @apply w-full mx-auto px-4 pb-12;
      .intro {
+<<<<<<< HEAD
         @apply mx-auto lg:flex lg:flex-row flex-col lg:py-20 py-4 gap-36 px-4
          mb-2 w-full max-w-6xl;
+=======
+        @apply mx-auto lg:flex lg:flex-row flex-col lg:py-20 py-4 gap-36 px-4;
+>>>>>>> parent of a436808 (Revert "Kike website")
          h2 {
           @apply lg:text-4xl text-2xl uppercase tracking-wider mb-4 w-1/2;
                   font-family: "Source Code Pro SemiBold";
                   font-weight: 600;
+<<<<<<< HEAD
                   color: #CCCCCC;
           }
       }
@@ -131,6 +151,10 @@ section {
           }
         }
       }
+=======
+          }
+      }
+>>>>>>> parent of a436808 (Revert "Kike website")
     .timeline {
         @apply max-w-6xl mx-auto w-full border-l   md:flex justify-center md:gap-6 md:border-l-0 md:border-t;
         border-color: #595959;

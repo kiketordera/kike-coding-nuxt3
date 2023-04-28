@@ -3,8 +3,13 @@
     <div class="info">
       <div class="content">
         <h2>
+<<<<<<< HEAD
           <span>UX / UI Designer  & Software
             engineer </span>
+=======
+          <span>UX / UI Designer </span> & Software
+          engineer
+>>>>>>> parent of a436808 (Revert "Kike website")
         </h2>
         <p>
           Hi! I'm Kike Tordera.
