@@ -1,8 +1,7 @@
 <template>
   <div>
-    <kk-general-NavBar />
+    <vv-general-NavBar />
     <slot />
-    <kk-general-Footer />
   </div>
 </template>
 
