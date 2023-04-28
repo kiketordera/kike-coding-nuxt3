@@ -3,13 +3,8 @@
     <div class="info">
       <div class="content">
         <h2>
-<<<<<<< HEAD
           <span>UX / UI Designer  & Software
             engineer </span>
-=======
-          <span>UX / UI Designer </span> & Software
-          engineer
->>>>>>> parent of a436808 (Revert "Kike website")
         </h2>
         <p>
           Hi! I'm Kike Tordera.
@@ -44,7 +39,13 @@ section {
         .content {
             @apply lg:w-1/2 w-full px-4 mt-16;
             h2 {
-              @include title-section;
+               @apply lg:text-4xl text-xl uppercase tracking-wider mb-4;
+                font-family: "Source Code Pro Bold";
+                color: $font-color;
+                font-weight: 600;
+                span {
+                    color: $title-color;
+                }
             }
             p {
                 @apply text-base pb-4 w-full;
