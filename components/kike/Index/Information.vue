@@ -23,7 +23,7 @@
           Hire me
         </button>
       </div>
-      <Index-ProfileImage />
+      <kike-Index-ProfileImage />
     </div>
   </section>
 </template>
