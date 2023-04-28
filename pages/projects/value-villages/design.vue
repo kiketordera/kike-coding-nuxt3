@@ -1,5 +1,6 @@
 <template>
   <div>
+    <vv-general-NavBar />
     <vv-design-Container>
       <vv-design-Authentication />
     </vv-design-Container>

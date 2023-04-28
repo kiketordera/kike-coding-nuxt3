@@ -1,7 +1,8 @@
 <template>
   <div>
-    <vv-general-NavBar />
+    <kike-general-NavBar />
     <slot />
+    <kike-general-Footer />
   </div>
 </template>
 
