@@ -31,7 +31,7 @@
     </div>
     <div v-else-if="!isNavbarExpanded" class="nav-item">
       <NuxtLink to="/" class="logo-link">
-        <img src="~assets/svg/kk/logo.svg" alt="">
+        <img src="~assets/svg/kk/logo-mobile.svg" alt="">
       </NuxtLink>
       <button
         type="button"
@@ -45,14 +45,14 @@
       </button>
       <div v-if="isNavbarExpanded" :style="{ backgroundImage: 'url(/img/background.png)' }" class="link-items expanded">
         <NuxtLink to="/" class="logo-link">
-          <img src="~assets/svg/kk/logo.svg" alt="">
+          <img src="~assets/svg/kk/logo-mobile.svg" alt="">
         </NuxtLink>
       </div>
     </div>
     <div v-else class="nav-item expanded">
       <div class="flex w-full items-center justify-between">
         <NuxtLink to="/" class="logo-link">
-          <img src="~assets/svg/kk/logo.svg" alt="">
+          <img src="~assets/svg/kk/logo-mobile.svg" alt="">
         </NuxtLink>
         <button
           type="button"
@@ -61,7 +61,7 @@
           aria-expanded="false"
           @click="toggleNavbar"
         >
-          <img class="w-22" src="~assets/svg/close.svg" alt="">
+          <img class="w-22" src="~assets/svg/kk/close.svg" alt="">
         </button>
       </div>
       <div class="link-items">

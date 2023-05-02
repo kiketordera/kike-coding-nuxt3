@@ -8,6 +8,11 @@
         <p>
           Discover my range of skills and expertise in various areas.
         </p>
+        <kike-about-Languages />
+        <hr>
+        <kike-about-Programming />
+        <hr>
+        <kike-about-SoftSkills />
       </div>
     </div>
   </section>
@@ -37,6 +42,10 @@ section {
             }
 
             }
+             hr {
+        @apply my-4;
+        border-color: #595959;
+    }
         }
     }
 
