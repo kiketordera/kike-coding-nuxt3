@@ -36,7 +36,7 @@ section {
                 color: #CCCCCC;
         }
         .info {
-             @apply lg:w-3/4 w-full;
+             @apply lg:w-3/4 w-full text-justify;
             p {
               @apply lg:text-lg  my-6 items-start;
             }

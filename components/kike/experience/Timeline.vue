@@ -159,7 +159,7 @@ section {
                 font-style: italic;
             }
             p {
-               @apply text-sm py-6;
+               @apply text-sm py-6 text-justify;
             }
         }
     }
