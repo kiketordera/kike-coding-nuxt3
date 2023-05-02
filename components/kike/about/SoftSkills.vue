@@ -49,7 +49,7 @@
                 color: $button-color;
             }
             .timeline {
-                @apply grid grid-cols-3 items-center gap-4 mb-3  text-sm;
+                @apply grid lg:grid-cols-3 grid-cols-2 items-center gap-4 mb-3  text-sm;
                 button {
                     @apply px-3 py-4 ;
                     border: 2px solid white;

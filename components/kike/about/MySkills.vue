@@ -26,7 +26,7 @@
 section {
     @apply w-full py-2 mx-auto px-4;
     .skills {
-        @apply max-w-6xl flex gap-3 lg:flex-row flex-col mx-auto px-4;
+        @apply max-w-6xl flex gap-2 lg:flex-row flex-col mx-auto;
          h2 {
            @apply lg:text-4xl text-xl  tracking-wider mb-4 w-1/2 my-8;
                 font-family: "Source Code Pro Bold";

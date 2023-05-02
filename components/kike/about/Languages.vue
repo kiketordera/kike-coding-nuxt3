@@ -40,22 +40,25 @@
     @apply py-4 w-full;
 
       h3 {
-           @apply lg:text-4xl text-xl  tracking-wider mb-6  my-8;
+           @apply lg:text-4xl text-xl tracking-wider mb-6  my-8;
                 font-family: "Source Code Pro Bold";
                 font-weight: 600;
                 color: $font-color;
             }
             .expert {
-                @apply flex flex-row items-center gap-4 mb-2;
+                @apply flex flex-row items-center lg:gap-4 gap-3 mb-2;
+                img {
+                  @apply w-6 h-6;
+                }
                 span {
-                    @apply text-base;
+                    @apply lg:text-base text-sm;
                     color: #CCCCCC;
                 }
         }
         .level {
-             @apply flex flex-row items-center gap-20 py-8 mb-2 px-4;
+             @apply flex flex-row items-center  py-8 mb-2 gap-12 px-4;
                 span {
-                    @apply text-base;
+                    @apply text-sm lg:text-base;
                     color: #CCCCCC;
                 }
         }
