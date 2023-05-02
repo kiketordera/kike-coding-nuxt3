@@ -30,7 +30,7 @@ section {
         @apply max-w-6xl mx-auto lg:flex lg:flex-row flex-col py-40 w-full gap-36 lg:mx-auto px-4;
 
         h2 {
-           @apply lg:text-4xl text-xl uppercase tracking-wider mb-4 w-1/2 my-8;
+           @apply lg:text-4xl text-xl  tracking-wider mb-4 w-1/2 my-8;
                 font-family: "Source Code Pro Bold";
                 font-weight: 600;
                 color: #CCCCCC;

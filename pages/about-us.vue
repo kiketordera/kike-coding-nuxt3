@@ -1,6 +1,7 @@
 <template>
   <div>
     <kike-about-Info />
+    <kike-about-MySkills />
   </div>
 </template>
 
