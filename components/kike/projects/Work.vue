@@ -33,7 +33,7 @@
           Bootstrap
         </span>
         <span>
-          <Nod class="js" />
+          Node.js
         </span>
       </div>
     </div>
@@ -58,9 +58,9 @@ section {
           }
       }
       .languages {
-        @apply py-8 flex flex-row gap-3 items-center;
+        @apply py-8 lg:flex w-full lg:flex-row grid grid-cols-3 gap-4 items-center;
         span {
-            @apply border-r px-7 text-base;
+            @apply border-r  text-base px-4;
             border-color: #59595970;
         }
       }

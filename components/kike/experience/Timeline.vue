@@ -113,9 +113,9 @@ section {
           }
       }
       .title {
-        @apply mx-auto flex max-w-6xl justify-center items-center gap-8 py-20 mb-10;
+        @apply mx-auto lg:flex grid grid-cols-2 max-w-6xl justify-center items-center gap-8 py-20 mb-10;
         span {
-          @apply text-base px-8;
+          @apply text-base lg:px-8 px-3;
           border-color: #59595970;
           &.work , &.educate {
             @apply border-r;

@@ -48,7 +48,7 @@ section {
               @apply bg-cover w-full;
             }
             button {
-                @apply text-base uppercase px-16 py-4 text-center w-full;
+                @apply lg:text-base text-sm uppercase px-16 py-4 text-center w-full;
                 background-color: black;
                 color: white;
                 font-weight: 600;
