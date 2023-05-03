@@ -47,9 +47,9 @@
 section {
     @apply w-full px-4;
     .information {
-       @apply max-w-6xl w-full mx-auto px-4;
+       @apply max-w-6xl w-full mx-auto;
       .intro {
-        @apply mx-auto lg:flex lg:flex-row flex-col lg:py-10 py-4 gap-36 px-4;
+        @apply mx-auto lg:flex lg:flex-row flex-col lg:py-10 py-4 gap-36 ;
          h2 {
           @apply lg:text-5xl text-2xl uppercase tracking-wider mb-4 w-1/2;
                   font-family: "Source Code Pro SemiBold";

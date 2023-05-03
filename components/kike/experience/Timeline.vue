@@ -103,10 +103,10 @@
 section {
     @apply w-full mx-auto px-4 pb-12;
      .intro {
-        @apply mx-auto lg:flex lg:flex-row flex-col lg:py-20 py-4 gap-36 px-4
+        @apply mx-auto lg:flex lg:flex-row flex-col lg:py-20 py-4 gap-36
          mb-2 w-full max-w-6xl;
          h2 {
-          @apply lg:text-4xl text-2xl uppercase tracking-wider mb-4 w-1/2;
+          @apply lg:text-4xl text-xl uppercase tracking-wider mb-5 w-1/2;
                   font-family: "Source Code Pro SemiBold";
                   font-weight: 600;
                   color: #CCCCCC;

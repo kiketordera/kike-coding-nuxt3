@@ -4,6 +4,7 @@
     <kike-index-Skills />
     <kike-index-About />
     <kike-projects-Work />
+    <kike-projects-Cards />
     <kike-experience-Timeline />
   </div>
 </template>
