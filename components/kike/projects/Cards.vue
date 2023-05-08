@@ -4,9 +4,11 @@
       <div class="card">
         <div class="card-body">
           <img src="~assets/img/kk/action-coast.png" alt="">
-          <button type="button">
-            Value Village
-          </button>
+          <NuxtLink to="http://localhost:3000/projects/value-villages/about">
+            <button type="button">
+              Value Village
+            </button>
+          </NuxtLink>
         </div>
         <div class="card-body">
           <img src="~assets/img/kk/kikenya-tours.png" alt="">
