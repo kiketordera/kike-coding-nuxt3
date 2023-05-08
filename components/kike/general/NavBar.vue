@@ -7,22 +7,22 @@
       <div id="mobile-menu" class="link-items">
         <ul>
           <li>
-            <NuxtLink to="/" class="active">
+            <NuxtLink to="/" class="active" :class="{'active':isLinkActive('/')}">
               // Home
             </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/about-us">
+            <NuxtLink to="/about-us" :class="{'active':isLinkActive('/about-us')}">
               // About
             </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/work" class="active">
+            <NuxtLink to="/#about" class="active" :class="{'active':isLinkActive('/#about')}">
               //  Work
             </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/contact">
+            <NuxtLink to="/#footer" :class="{'active':isLinkActive('/#footer')}">
               // Contact
             </NuxtLink>
           </li>
@@ -77,12 +77,12 @@
             </NuxtLink>
           </li>
           <li @click="visitLink">
-            <NuxtLink to="/#services">
+            <NuxtLink to="/#about">
               //  Work
             </NuxtLink>
           </li>
           <li @click="visitLink">
-            <NuxtLink to="/about-us/#dealer">
+            <NuxtLink to="/about-us/#footer">
               // Contact
             </NuxtLink>
           </li>
@@ -96,6 +96,14 @@
 </template>
 
 <script setup lang="ts">
+const route = useRoute()
+function isLinkActive (path: string) {
+        if (route.hash) {
+          return route.hash === path.slice(1)
+        } else {
+          return route.path === path
+        }
+    }
 const isNavbarExpanded = ref(false)
 
 const scrollTop = ref(0)
@@ -134,7 +142,8 @@ onBeforeUnmount(() => {
 </script>
 
 <style lang="scss" scoped>
-.router-link-exact-active {
+.active {
+
   color: $font-color !important;
 }
 .padding-0 {
@@ -143,7 +152,8 @@ onBeforeUnmount(() => {
 
 nav {
   @apply w-full fixed z-30 top-0 px-4 py-8;
-  color: white;
+      background-color: #131212;
+  color: #595959;
 
   .nav-item {
     @apply max-w-6xl flex flex-wrap justify-between items-center mx-auto ;

@@ -1,7 +1,9 @@
 <template>
   <div class="background">
+    <kike-general-NavBar />
     <kike-about-Info />
     <kike-about-MySkills />
+    <kike-general-Footer />
   </div>
 </template>
 

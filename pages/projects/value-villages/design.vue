@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="background">
     <vv-general-NavBar />
     <vv-design-Container>
       <vv-design-Authentication />
@@ -14,4 +14,8 @@
 <script>
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.background {
+  background-color: white;
+}
+</style>

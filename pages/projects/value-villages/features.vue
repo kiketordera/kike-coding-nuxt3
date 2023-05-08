@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="background">
     <vv-general-NavBar />
     <vv-features-Community />
     <vv-features-Map />
@@ -16,4 +16,8 @@
   </div>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.background {
+  background-color: white;
+}
+</style>

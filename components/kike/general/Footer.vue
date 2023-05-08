@@ -1,7 +1,7 @@
 
 <template>
   <section>
-    <div class="contact">
+    <div id="footer" class="contact">
       <div class="details">
         <h2>Get in touch</h2>
         <img src="~assets/svg/kk/right-arrow.svg" alt="">

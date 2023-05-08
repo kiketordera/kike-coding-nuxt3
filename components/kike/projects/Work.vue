@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="information">
+    <div id="about" class="information">
       <div class="intro">
         <h2>Works</h2>
         <p>
@@ -37,6 +37,7 @@
         </span>
       </div>
     </div>
+    <kike-projects-Cards />
   </section>
 </template>
 
