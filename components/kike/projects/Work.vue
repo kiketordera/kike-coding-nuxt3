@@ -60,7 +60,7 @@ section {
       .languages {
         @apply py-8 lg:flex w-full lg:flex-row grid grid-cols-3 gap-4 items-center;
         span {
-            @apply border-r  text-base px-4;
+            @apply border-r text-sm  lg:text-base lg:px-4;
             border-color: #59595970;
         }
       }
