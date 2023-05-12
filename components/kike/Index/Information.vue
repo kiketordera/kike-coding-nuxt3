@@ -35,7 +35,7 @@
 section {
    @apply w-full;
     .info {
-        @apply py-28  max-w-6xl lg:mx-auto w-full lg:flex grid-cols-1 gap-8 px-4;
+        @apply pt-28  max-w-6xl lg:mx-auto w-full lg:flex grid-cols-1 gap-8 px-4;
         .content {
             @apply lg:w-1/2 w-full mt-16;
             h2 {
@@ -52,7 +52,7 @@ section {
                 font-family: "Source Code Pro Regular";
             }
             button {
-                @apply text-base uppercase px-16 py-4 my-5 text-center lg:w-auto w-full;
+                @apply text-base uppercase px-16 py-4 my-8 text-center lg:w-auto w-full;
                 background-color: $button-color;
                 color: $background-color;
                 font-weight: 600;

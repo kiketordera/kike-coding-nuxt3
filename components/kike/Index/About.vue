@@ -27,7 +27,7 @@
 section {
     @apply w-full;
     .about {
-        @apply max-w-6xl mx-auto lg:flex lg:flex-row flex-col py-40 w-full gap-36 lg:mx-auto px-4;
+        @apply max-w-6xl mx-auto lg:flex lg:flex-row flex-col py-36 w-full gap-36 lg:mx-auto px-4;
 
         h2 {
            @apply lg:text-4xl text-xl  tracking-wider mb-4 w-1/2 my-8;
@@ -38,7 +38,7 @@ section {
         .info {
              @apply lg:w-3/4 w-full text-justify;
             p {
-              @apply lg:text-lg  my-6 items-start;
+              @apply lg:text-lg  my-5 items-start;
             }
             button {
                 @apply text-base uppercase px-16 py-4 my-5 text-center lg:w-auto w-full;

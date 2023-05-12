@@ -26,11 +26,11 @@ section {
     @apply w-full;
     .scroll {
         @apply lg:max-w-6xl  snap-start flex mx-auto px-4
-         snap-x snap-mandatory gap-16 overflow-y-hidden overflow-x-scroll my-5;
+         snap-x snap-mandatory gap-16 overflow-y-hidden overflow-x-scroll my-3;
     }
     hr {
       @apply py-2;
-      color: #CCCCCC;
+      border-color: #595959;
     }
 }
 
