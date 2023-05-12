@@ -12,9 +12,11 @@
         </div>
         <div class="card-body">
           <img src="~assets/img/kk/kikenya-tours.png" alt="">
-          <button type="button">
-            Kikenya Tours
-          </button>
+          <NuxtLink to="/open">
+            <button type="button">
+              Kikenya Tours
+            </button>
+          </NuxtLink>
         </div>
         <div class="card-body">
           <img src="~assets/img/kk/drones.png" alt="">
