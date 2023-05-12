@@ -29,6 +29,17 @@
           </p>
         </div>
       </div>
+      <div class="project">
+        <img src="~assets/img/kk/rectangle.png" alt="">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation u
+          llamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+          in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <img src="~assets/img/kk/rectangle.png" alt="">
+      </div>
     </div>
   </section>
 </template>
@@ -40,11 +51,11 @@
 <style lang="scss" scoped>
 section {
     @apply w-full py-24 mx-auto px-4;
-      background-color: #131212;
- color: #595959;
- scroll-snap-type: y mandatory;
+    background-color: #131212;
+     color: #595959;
+     scroll-snap-type: y mandatory;
     .main {
-        @apply max-w-6xl mx-auto px-4;
+        @apply max-w-6xl mx-auto px-4 items-center;
         h2 {
             @apply text-5xl my-4;
             color: #CCCCCC;
@@ -62,6 +73,12 @@ section {
                 p {
                     @apply text-sm mt-3 text-justify;
                 }
+            }
+        }
+        .project {
+            @apply flex flex-col justify-center w-full;
+            p {
+                @apply lg:p-16 my-4 text-justify lg:w-11/12;
             }
         }
 
