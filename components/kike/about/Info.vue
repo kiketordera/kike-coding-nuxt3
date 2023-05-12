@@ -31,8 +31,8 @@ section {
     .about-us {
         @apply max-w-6xl flex gap-2 lg:flex-row flex-col mx-auto;
          h2 {
-           @apply lg:text-4xl text-xl  tracking-wider mb-4 w-1/2 my-8;
-                font-family: "Source Code Pro";
+           @apply lg:text-4xl text-3xl  tracking-wider mb-4 w-1/2 my-8;
+                font-family: "Source Code Pro Bold";
                 font-weight: 600;
                 color: #CCCCCC;
         }

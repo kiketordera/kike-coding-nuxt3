@@ -106,7 +106,7 @@ section {
         @apply mx-auto lg:flex lg:flex-row flex-col lg:py-20 py-4 gap-36
          mb-2 w-full max-w-6xl;
          h2 {
-          @apply lg:text-4xl text-xl uppercase tracking-wider mb-5 w-1/2;
+          @apply lg:text-4xl text-2xl uppercase tracking-wider mb-5 lg:w-1/2;
                   font-family: "Source Code Pro SemiBold";
                   font-weight: 600;
                   color: #CCCCCC;
@@ -142,7 +142,7 @@ section {
             }
         }
         .info {
-            @apply ml-4 mt-2 py-5 md:ml-0;
+            @apply ml-4  md:ml-0;
             h2 {
                 @apply mb-1.5 text-base uppercase;
                 font-family: "Source Code Pro Bold";

@@ -39,7 +39,7 @@ section {
         .content {
             @apply lg:w-1/2 w-full mt-16;
             h2 {
-               @apply lg:text-4xl text-xl uppercase tracking-wider mb-4;
+               @apply lg:text-4xl text-xl uppercase  tracking-wider mb-4;
                 font-family: "Source Code Pro Bold";
                 color: $font-color;
                 font-weight: 600;
