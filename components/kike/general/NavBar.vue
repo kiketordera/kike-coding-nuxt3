@@ -7,7 +7,7 @@
       <div id="mobile-menu" class="link-items">
         <ul>
           <li>
-            <NuxtLink to="/" class="active" :class="{'active':isLinkActive('/')}">
+            <NuxtLink to="/" :class="{'active':isLinkActive('/')}">
               // Home
             </NuxtLink>
           </li>
@@ -17,7 +17,7 @@
             </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/#about" class="active" :class="{'active':isLinkActive('/#about')}">
+            <NuxtLink to="/#about" :class="{'active':isLinkActive('/#about')}">
               //  Work
             </NuxtLink>
           </li>
@@ -67,12 +67,12 @@
       <div class="link-items">
         <ul>
           <li @click="visitLink">
-            <NuxtLink to="/" aria-current="page">
+            <NuxtLink to="/" aria-current="page" :class="{'active':isLinkActive('/')}">
               // Home
             </NuxtLink>
           </li>
           <li @click="visitLink">
-            <NuxtLink to="/about-us">
+            <NuxtLink to="/about-us" :class="{'active':isLinkActive('/about-us')}">
               // About
             </NuxtLink>
           </li>
@@ -82,7 +82,7 @@
             </NuxtLink>
           </li>
           <li @click="visitLink">
-            <NuxtLink to="/about-us/#footer">
+            <NuxtLink to="/about-us/#footer" :class="{'active':isLinkActive('/#footer')}">
               // Contact
             </NuxtLink>
           </li>

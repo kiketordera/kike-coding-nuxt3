@@ -4,7 +4,7 @@
       <div class="card">
         <div class="card-body">
           <img src="~assets/img/kk/action-coast.png" alt="">
-          <NuxtLink to="http://localhost:3003/projects/value-villages/about">
+          <NuxtLink to="/projects/value-villages/about">
             <button type="button">
               Value Village
             </button>
