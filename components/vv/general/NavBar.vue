@@ -1,10 +1,10 @@
 <template>
   <nav>
     <div class="logo">
-      <a href="#">
+      <NuxtLink to="/">
         <img src="~assets/svg/vv/kike.svg" alt="kike-image" class="logo-img">
-      </a>
-      <p>Kike</p>
+        <p>Kike</p>
+      </NuxtLink>
     </div>
     <div class="nav-items">
       <ul>
