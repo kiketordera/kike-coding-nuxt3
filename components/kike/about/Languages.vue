@@ -8,7 +8,7 @@
       <span>
         Spanish
       </span>
-      <img src="~assets/svg/kk/flag_germany.svg" alt="">
+      <img src="~assets/svg/kk/german-flag.svg" alt="">
       <span>
         Germany
       </span>
