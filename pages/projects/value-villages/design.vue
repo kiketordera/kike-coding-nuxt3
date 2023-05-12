@@ -1,6 +1,9 @@
 <template>
   <div>
     <vv-general-NavBar />
+    <vv-design-Container>
+      <vv-design-Authentication />
+    </vv-design-Container>
     <vv-design-info
       class="mt-28"
       icon="lock-color.svg"
@@ -9,9 +12,6 @@
       :left="true"
       title="Dashboard"
     />
-    <vv-design-Container>
-      <vv-design-Authentication />
-    </vv-design-Container>
     <vv-design-Container>
       <vv-design-Performance />
     </vv-design-Container>
