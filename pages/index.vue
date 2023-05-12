@@ -1,5 +1,5 @@
 <template>
-  <div class="background">
+  <div>
     <kike-general-NavBar />
     <kike-index-Information />
     <kike-index-Skills />
@@ -18,10 +18,10 @@ definePageMeta({
 </script>
 
 <style lang="scss" scoped>
-.background {
-    background-color: #131212;
- color: #595959;
- scroll-snap-type: y mandatory;
+* {
+  background-color: #131212;
+  color: #595959;
+  font-family: "Source Code Pro Regular";
 }
 
 </style>

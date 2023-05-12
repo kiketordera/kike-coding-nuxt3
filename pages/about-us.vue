@@ -1,5 +1,5 @@
 <template>
-  <div class="background">
+  <div>
     <kike-general-NavBar />
     <kike-about-Info />
     <kike-about-MySkills />
@@ -7,14 +7,11 @@
   </div>
 </template>
 
-<script>
-
-</script>
-
 <style lang="scss" scoped>
-.background {
-    background-color: #131212;
- color: #595959;
+* {
+  background-color: #131212;
+  color: #595959;
+  font-family: "Source Code Pro Regular";
 }
 
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="background">
+  <div>
     <vv-general-NavBar />
     <vv-design-Container>
       <vv-design-Authentication />
@@ -15,7 +15,7 @@
 </script>
 
 <style lang="scss" scoped>
-.background {
-  background-color: white;
+* {
+    font-family: 'Nunito Regular';
 }
 </style>

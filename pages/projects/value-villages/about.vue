@@ -1,5 +1,5 @@
 <template>
-  <div class="background">
+  <div>
     <vv-general-NavBar />
     <vv-about-Introduction />
     <vv-about-LandingBackground />
@@ -16,7 +16,7 @@
 </template>
 
 <style lang="scss" scoped>
-.background {
-  background-color: white;
+* {
+    font-family: 'Nunito Regular';
 }
 </style>
