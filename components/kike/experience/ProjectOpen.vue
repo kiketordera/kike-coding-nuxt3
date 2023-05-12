@@ -40,11 +40,44 @@
         </p>
         <img src="~assets/img/kk/rectangle.png" alt="">
       </div>
+      <div class="content">
+        <NuxtLink to="[getPrev()]">
+          <img class="rotate-180 pl-8" src="~assets/svg/kk/arrow-next.svg" alt="">
+        </NuxtLink>
+        <NuxtLink to="/#work">
+          <img class="float-center" src="~assets/svg/kk/pramid.svg" alt="">
+        </NuxtLink>
+        <NuxtLink to="[getNext()]">
+          <img class="pl-8" src="~assets/svg/kk/arrow-next.svg" alt="">
+        </NuxtLink>
+      </div>
     </div>
   </section>
 </template>
 
 <script lang="ts" setup>
+
+const props = defineProps({
+  index: {
+    type: Number,
+    default: 0,
+  },
+})
+
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+function getNext (): number {
+  if (props.index === 3) {
+    return 0
+  }
+  return props.index! + 1
+}
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+function getPrev (): number {
+  if (props.index === 0) {
+    return 3
+  }
+  return props.index! - 1
+}
 
 </script>
 
@@ -76,11 +109,14 @@ section {
             }
         }
         .project {
-            @apply flex flex-col justify-center w-full;
+            @apply flex flex-col justify-center w-full items-center;
             p {
                 @apply lg:p-16 my-4 text-justify lg:w-11/12;
             }
         }
+    .content {
+    @apply py-12 justify-around gap-8 flex w-full;
+  }
 
     }
 }
