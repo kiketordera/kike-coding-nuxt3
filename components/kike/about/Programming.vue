@@ -69,7 +69,7 @@
             .skills {
                 @apply lg:flex lg:flex-row items-center grid grid-cols-6 gap-3 mb-2;
                 img {
-                  @apply ml-3 lg:mr-1;
+                  @apply ml-2 lg:ml-0;
                 }
                 span {
                     @apply text-base ;
