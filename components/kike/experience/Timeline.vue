@@ -32,7 +32,7 @@
           <h2>
             Senior Mobile Developer
           </h2>
-          <h4>Circus, 2020</h4>
+          <h4>Circus</h4>
           <span>Berlin, Germany</span>
           <p>
             I developed a native app that, through Machine Learning algorithms,
@@ -54,7 +54,7 @@
           <h2>
             Senior Full stack Developer
           </h2>
-          <h4>The Totem Studio,2022 - Present</h4>
+          <h4>The Totem Studio</h4>
           <span>Berlin, Alemonia</span>
           <p>
             I am currently working as the head of software engineering and interface design. Mainly full stack programmer
@@ -74,7 +74,7 @@
           <h2>
             Senior Mobile Developer
           </h2>
-          <h4>Circus, 2020</h4>
+          <h4>Circus</h4>
           <span>Berlin, Germany</span>
           <p>
             I am currently working as the head of software engineering and interface design. Mainly full stack programmer
@@ -152,7 +152,7 @@ section {
                 @apply text-sm my-3;
                 font-style: italic;
                 font-family: "Source Code Pro Bold";
-                color: $font-color;
+                 color: $title-color;
             }
             span {
                 @apply text-sm mb-4;
