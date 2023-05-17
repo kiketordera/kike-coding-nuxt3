@@ -109,25 +109,28 @@ section {
           @apply lg:text-4xl text-2xl uppercase tracking-wider mb-5 lg:w-1/2;
                   font-family: "Source Code Pro SemiBold";
                   font-weight: 600;
-                  color: #CCCCCC;
+                  color: $h2-color;
+          }
+          p {
+            @apply text-base w-full;
           }
       }
       .title {
-        @apply mx-auto lg:flex grid grid-cols-2 max-w-6xl justify-center items-center gap-8 py-20 mb-10;
+        @apply mx-auto lg:flex grid grid-cols-3 max-w-6xl justify-center items-center lg:gap-8 gap-4 py-20 mb-10;
         span {
-          @apply text-base lg:px-8 px-3;
+          @apply text-sm lg:text-base lg:px-8;
           border-color: #59595970;
           &.work , &.educate {
-            @apply border-r;
+            @apply lg:border-r;
           }
           &.work {
-            color: #F9A077;
+            color: $node-color;
           }
           &.educate {
-            color: #FDD403;
+            color: $button-color;
           }
           &.volunter {
-            color: #00E1DD;
+            color: $font-color;
           }
         }
       }
