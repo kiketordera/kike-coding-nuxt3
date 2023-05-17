@@ -1,9 +1,9 @@
 <template>
   <div class="languages">
-    <h3>
+    <h3 data-aos="fade-up">
       Languages
     </h3>
-    <div class="expert">
+    <div data-aos="zoom-in-down" class="expert">
       <img src="~assets/svg/kk/spanish.svg" alt="">
       <span>
         Spanish
@@ -17,7 +17,7 @@
         English
       </span>
     </div>
-    <div class="level">
+    <div data-aos="zoom-in-up" class="level">
       <span>
         Level-B1
       </span>

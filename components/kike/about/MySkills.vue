@@ -1,11 +1,11 @@
 <template>
   <section>
     <div class="skills">
-      <h2>
+      <h2 data-aos="fade-up">
         My Skills
       </h2>
       <div class="info">
-        <p>
+        <p data-aos="zoom-in-right">
           Discover my range of skills and expertise in various areas.
         </p>
         <kike-about-Languages />
