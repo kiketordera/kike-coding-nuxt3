@@ -156,7 +156,7 @@ nav {
   color: #595959;
 
   .nav-item {
-    @apply max-w-6xl flex flex-wrap justify-between items-center mx-auto ;
+    @apply max-w-6xl w-full flex flex-wrap justify-between items-center mx-auto ;
 
     .logo-link {
       img {

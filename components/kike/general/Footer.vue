@@ -90,7 +90,7 @@ section {
     .copyright {
        background-color: black;
        p {
-        @apply py-6 text-xl text-center;
+        @apply py-6 lg:text-xl text-sm text-center;
         background-color: black;
         color: #595959;
        }

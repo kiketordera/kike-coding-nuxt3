@@ -48,9 +48,9 @@
 
 <style lang="scss" scoped>
 section {
-    @apply w-full px-4;
+    @apply w-full mx-auto;
     .information {
-       @apply max-w-6xl w-full mx-auto;
+       @apply max-w-6xl w-full mx-auto  px-4;
       .intro {
         @apply mx-auto lg:flex lg:flex-row flex-col lg:py-10 py-4 gap-36 ;
          h2 {

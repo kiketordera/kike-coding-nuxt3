@@ -1,7 +1,6 @@
 <template>
   <div class="content">
     <img v-if="left && !mobile" :src="`/img/vv/boundaries/${props.image}`" alt="">
-    <!-- <img :src="props.image" alt=""> -->
     <div class="text">
       <div class="title">
         <img class="icon" src="~/assets/svg/vv/lock-color.svg" alt="lock-img">
@@ -11,7 +10,6 @@
       </div>
       <p>{{ props.text }}</p>
     </div>
-    <!-- <img v-if="!left" :src="props.image" alt=""> -->
     <img v-if="!left && !mobile" :src="`/img/vv/boundaries/${props.image}`" alt="">
     <img v-if="mobile" :src="`/img/vv/boundaries/${props.image}`" :class="{ 'mobile-image': mobile }" alt="">
   </div>
