@@ -48,7 +48,7 @@
             .expert {
                 @apply flex flex-row items-center lg:gap-4 gap-3 mb-2;
                 img {
-                  @apply w-6 h-6;
+                  @apply lg:w-6 lg:h-6 w-4 h-4;
                 }
                 span {
                     @apply lg:text-base text-sm;
@@ -56,7 +56,7 @@
                 }
         }
         .level {
-             @apply flex flex-row items-center  py-8 mb-2 gap-12 px-4;
+             @apply flex flex-row items-center  py-8 mb-2 lg:gap-12 gap-6 px-4;
                 span {
                     @apply text-sm lg:text-base;
                     color: #CCCCCC;

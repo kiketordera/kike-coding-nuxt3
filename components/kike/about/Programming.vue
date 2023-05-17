@@ -67,12 +67,12 @@
                 color: $title-color;
             }
             .skills {
-                @apply lg:flex lg:flex-row items-center grid grid-cols-6 gap-3 mb-2;
+                @apply lg:flex lg:flex-row items-center grid grid-cols-6 lg:gap-3 gap-2 mb-4;
                 img {
-                  @apply ml-2 lg:ml-0;
+                  @apply ml-3 lg:ml-0 w-7 h-7;
                 }
                 span {
-                    @apply text-base ;
+                    @apply lg:text-base text-sm ;
                     color: #CCCCCC;
                 }
         }
