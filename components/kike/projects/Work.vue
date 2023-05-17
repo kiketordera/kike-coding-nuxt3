@@ -8,31 +8,31 @@
         </p>
       </div>
       <div class="languages">
-        <span>
+        <span class="html">
           HTML
         </span>
-        <span>
+        <span class="css">
           css
         </span>
-        <span>
+        <span class="javascript">
           Javascript
         </span>
-        <span>
+        <span class="typescript">
           Typescript
         </span>
-        <span>
+        <span class="angular">
           Angular
         </span>
-        <span>
+        <span class="vue">
           Vue.js
         </span>
-        <span>
+        <span class="jquery">
           Jguery
         </span>
-        <span>
+        <span class="boostrap">
           Bootstrap
         </span>
-        <span>
+        <span class="node">
           Node.js
         </span>
       </div>
@@ -63,6 +63,33 @@ section {
         span {
             @apply border-r text-sm  lg:text-base lg:px-4;
             border-color: #59595970;
+        }
+        .html {
+          color: $html-color;
+        }
+        .css {
+          color: $css-color;
+        }
+        .javascript {
+          color: $button-color;
+        }
+        .typescript{
+          color: $html-color;
+        }
+        .angular {
+          color: $angular-color;
+        }
+        .vue {
+          color: $vue-color;
+        }
+        .jquery {
+          color: $jquery-color;
+        }
+        .boostrap {
+          color: $boostrap-color;
+        }
+        .node {
+          color: $node-color;
         }
       }
       .skills {
