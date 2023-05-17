@@ -88,17 +88,17 @@ section {
      color: #595959;
      scroll-snap-type: y mandatory;
     .main {
-        @apply max-w-6xl mx-auto px-4 items-center;
+        @apply max-w-6xl mx-auto px-4 items-center text-justify;
         h2 {
-            @apply text-5xl my-4;
+            @apply text-2xl lg:text-5xl my-4;
             color: #CCCCCC;
             font-family: "Source Code Pro Bold";
             font-weight: 600;
         }
         .overview {
-            @apply flex flex-row gap-32 py-8;
+            @apply flex lg:flex-row flex-col lg:gap-32 py-8;
             .items {
-                @apply px-4;
+                @apply px-4 mb-5;
                 span {
                     @apply text-base uppercase mb-8;
                     color: $button-color;
