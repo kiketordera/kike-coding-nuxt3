@@ -24,9 +24,9 @@
 
 <style lang="scss" scoped>
 section {
-    @apply w-full py-2 mx-auto px-4;
+    @apply w-full py-2 mx-auto;
     .skills {
-        @apply max-w-6xl flex gap-2 lg:flex-row flex-col mx-auto;
+        @apply max-w-6xl flex gap-2 lg:flex-row flex-col mx-auto px-4;
          h2 {
            @apply lg:text-4xl text-3xl  tracking-wider mb-4 lg:w-1/2 my-8;
                 font-family: "Source Code Pro Bold";

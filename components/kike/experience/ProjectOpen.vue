@@ -1,37 +1,39 @@
 <template>
   <section>
     <div class="main">
-      <h2>Value Villages</h2>
+      <h2 data-aos="fade-up">
+        Value Villages
+      </h2>
       <div class="overview">
         <div class="items">
-          <span>Project Overview</span>
-          <p>
+          <span data-aos="zoom-in-up">Project Overview</span>
+          <p data-aos="zoom-in-right">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
         </div>
         <div class="items">
-          <span>Timeline</span>
-          <p>
+          <span data-aos="zoom-in-up">Timeline</span>
+          <p data-aos="zoom-in-right">
             4 Months
           </p>
         </div>
         <div class="items">
-          <span>Tools</span>
-          <p>
+          <span data-aos="zoom-in-up">Tools</span>
+          <p data-aos="zoom-in-right">
             Full Stack
           </p>
         </div>
         <div class="items">
-          <span>Year</span>
-          <p>
+          <span data-aos="zoom-in-up">Year</span>
+          <p data-aos="zoom-in-right">
             2019
           </p>
         </div>
       </div>
       <div class="project">
         <img src="~assets/img/kk/rectangle.png" alt="">
-        <p>
+        <p data-aos="zoom-in-right">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
           incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation u
           llamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
