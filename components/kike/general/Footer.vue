@@ -3,12 +3,14 @@
   <section>
     <div id="footer" class="contact">
       <div class="details">
-        <h2>Get in touch</h2>
-        <img src="~assets/svg/kk/right-arrow.svg" alt="">
+        <h2 data-aos="zoom-in-left">
+          Get in touch
+        </h2>
+        <img data-aos="zoom-right" src="~assets/svg/kk/right-arrow.svg" alt="">
       </div>
       <hr>
       <div class="social-media">
-        <div class="items">
+        <div data-aos="zoom-in-down" class="items">
           <ul>
             <li>
               <img src="~assets/svg/kk/linkedin.svg" alt="">

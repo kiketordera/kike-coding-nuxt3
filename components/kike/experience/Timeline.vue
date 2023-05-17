@@ -1,12 +1,14 @@
 <template>
   <section>
     <div class="intro ">
-      <h2>My Experience</h2>
-      <p>
+      <h2 data-aos="fade-up">
+        My Experience
+      </h2>
+      <p data-aos="zoom-in-right">
         Explore my professional journey and expertise through my comprehensive work experience section
       </p>
     </div>
-    <div class="title">
+    <div data-aos="zoom-up-down" class="title">
       <span class="work">Work</span>
       <span class="educate">
         Education
@@ -17,6 +19,7 @@
     </div>
     <ol
       class="timeline"
+      data-aos="zoom-in-down"
     >
       <li>
         <div class="items flex  items-center pt-2 md:block md:pt-0" />

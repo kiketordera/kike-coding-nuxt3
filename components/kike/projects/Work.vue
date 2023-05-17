@@ -2,12 +2,14 @@
   <section>
     <div id="about" class="information">
       <div class="intro">
-        <h2>Works</h2>
-        <p>
+        <h2 data-aos="fade-up">
+          Works
+        </h2>
+        <p data-aos="zoom=in-right">
           Check out my latest project and discover how it revolutionizes the way we approach
         </p>
       </div>
-      <div class="languages">
+      <div data-aos="zoon-up-down" class="languages">
         <span class="html">
           HTML
         </span>

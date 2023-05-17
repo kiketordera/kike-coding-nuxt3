@@ -1,17 +1,17 @@
 <template>
   <section>
     <div class="about">
-      <h2>
+      <h2 data-aos="fade-up">
         About
       </h2>
       <div class="info">
-        <p>
+        <p data-aos="zoom-in-right">
           Kike Tordera, a skilled web developer based in Spain, has been creating innovative
           and engaging websites for [number] years. With a passion for
           coding and a keen eye for design, Kike Tordera is well-versed in a variety
           of programming languages, including HTML, CSS, JavaScript, and PHP.
         </p>
-        <button type="button">
+        <button data-aos="fade-down" type="button">
           Read more
         </button>
       </div>

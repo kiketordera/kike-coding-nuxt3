@@ -2,7 +2,7 @@
   <section>
     <div class="skills">
       <div class="card">
-        <div class="card-body">
+        <div data-aos="zoom-in-left" class="card-body">
           <img src="~assets/img/kk/action-coast.png" alt="">
           <NuxtLink to="/projects/value-villages/about">
             <button type="button">
@@ -10,7 +10,7 @@
             </button>
           </NuxtLink>
         </div>
-        <div class="card-body">
+        <div data-aos="zoom-up-right" class="card-body">
           <img src="~assets/img/kk/kikenya-tours.png" alt="">
           <NuxtLink to="/open">
             <button type="button">
@@ -18,13 +18,13 @@
             </button>
           </NuxtLink>
         </div>
-        <div class="card-body">
+        <div data-aos="zoom-up-down" class="card-body">
           <img src="~assets/img/kk/drones.png" alt="">
           <button type="button">
             Drones Project
           </button>
         </div>
-        <div class="card-body">
+        <div data-aos="zoom-in-right" class="card-body">
           <img src="~assets/img/kk/action-coast.png" alt="">
           <button type="button">
             Action Coast

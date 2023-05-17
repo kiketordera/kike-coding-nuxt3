@@ -2,24 +2,24 @@
   <section>
     <div class="info">
       <div class="content">
-        <h2>
+        <h2 data-aos="zoom-in-up">
           <span>UX / UI Designer  & Software
             engineer </span>
         </h2>
-        <p>
+        <p data-aos="fade-right">
           Hi! I'm Kike Tordera.
         </p>
-        <p>
+        <p data-aos="fade-right">
           Born and raised in Madrid, Spain, and currently reside in Berlin, Germany.
         </p>
-        <p>
+        <p data-aos="fade-right">
           I have a solid base in programming thanks to my studies and international experience.
           Since very young I've always been learning and fixing computers.
         </p>
-        <p>
+        <p data-aos="fade-right">
           I think the design and interface part is as important as the code, and I think the whole is much greater than the sum of the parts.
         </p>
-        <button type="button">
+        <button data-aos="zoom-in-down" type="button">
           Hire me
         </button>
       </div>
