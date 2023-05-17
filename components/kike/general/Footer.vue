@@ -45,13 +45,13 @@ section {
           @apply flex lg:gap-3 items-center  gap-4 justify-center;
           background-color: black;
           h2 {
-              @apply text-center lg:text-9xl font-extrabold text-4xl uppercase tracking-wide ;
+              @apply text-center lg:text-9xl font-extrabold text-2xl uppercase tracking-wide ;
                  font-family: 'Source Code Pro SemiBold';
                  color: white;
                  background-color: black;
           }
           img {
-            @apply lg:w-auto w-8;
+            @apply lg:w-auto w-4;
             color: white;
             background-color: black;
           }
