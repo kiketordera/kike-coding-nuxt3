@@ -77,7 +77,7 @@
             </NuxtLink>
           </li>
           <li @click="visitLink">
-            <NuxtLink :to="{hash:'/about'}">
+            <NuxtLink to="/#about" :class="{'active':isLinkActive('/#about')}">
               //  Work
             </NuxtLink>
           </li>
