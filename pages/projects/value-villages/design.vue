@@ -10,7 +10,15 @@
       :text="text"
       image="authenication.png"
       :left="true"
-      title="Dashboard"
+      title="Authentication"
+    />
+    <vv-design-info
+      class="mt-28"
+      icon="lock-color.svg"
+      :text="text"
+      image="design-num.png"
+      :left="true"
+      title="Numerical alphabet"
     />
     <vv-design-Container>
       <vv-design-Performance />
