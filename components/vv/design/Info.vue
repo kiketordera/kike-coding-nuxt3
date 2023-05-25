@@ -3,7 +3,7 @@
     <img v-if="left && !mobile" :src="`/img/vv/boundaries/${props.image}`" alt="">
     <div class="text">
       <div class="title">
-        <img class="icon" src="`/svg/vv/boundaries/${props.svg}`" alt="lock-img">
+        <img class="icon" :src="`/svg/vv/boundaries/${props.icon}`" alt="icon">
         <h2>
           {{ props.title }}
         </h2>
