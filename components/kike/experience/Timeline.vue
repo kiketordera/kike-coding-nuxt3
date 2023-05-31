@@ -200,7 +200,7 @@ section {
             .card-body {
                @apply min-w-[20rem] snap-center p-0 mx-auto relative;
                .items {
-                   @apply flex 7 md:block md:pt-0 w-full;
+                   @apply flex md:block md:pt-0 w-full;
                    .line {
                        @apply -ml-[10px] mr-3 h-[15px] w-[15px] rounded-full md:mx-0 md:-mt-[6px];
                        background-color: $title-color;
