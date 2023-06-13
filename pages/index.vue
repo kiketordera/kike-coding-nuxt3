@@ -7,6 +7,7 @@
     <kike-projects-Work />
     <kike-experience-Timeline />
     <kike-general-Footer />
+    <kike-general-TotemSignature />
   </div>
 </template>
 
