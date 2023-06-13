@@ -23,5 +23,16 @@ export default defineNuxtConfig({
 
   build: {
     transpile: ['vuetify']
-  }
+  },
+    app: {
+    head: {
+      title: 'Kike Tordera',
+      link: [
+        { rel: 'icon', type: 'image/png', href: '/favicon.png' },
+      ],
+      style: [
+        // { children: 'html, body { overflow-x: hidden; }' },
+      ]
+    },
+  },
 })
