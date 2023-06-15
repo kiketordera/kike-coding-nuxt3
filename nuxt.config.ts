@@ -4,7 +4,14 @@ export default defineNuxtConfig({
     typeCheck: true
   },
 
-  modules: ['@nuxtjs/tailwindcss'],
+  modules: ['@nuxtjs/tailwindcss', '@dargmuesli/nuxt-cookie-control', 'nuxt-gtag',],
+  runtimeConfig: {
+    public: {
+      GOOGLE_ANALYTICS_MEASUREMENTID: process.env.GOOGLE_ANALYTICS_MEASUREMENTID,
+
+    },
+
+  },
 
   plugins: [
     { src: '~/plugins/aos', mode: 'client', ssr: false }
@@ -35,4 +42,39 @@ export default defineNuxtConfig({
       ]
     },
   },
+  // Cookie control with consent
+  cookieControl: {
+    barPosition: 'bottom-left',
+    cookies: {
+      necessary: [],
+      optional: [
+        {
+          description: {
+            // eslint-disable-next-line max-len
+            en: 'These cookies gather information about how many people visit and use our website. Switching these off means we can\'t gather information to improve the experience.'
+          },
+          id: 'ga',
+          name: {
+            en: 'Analytics'
+          },
+          targetCookieIds: ['cookie_control_consent', 'cookie_control_enabled_cookies'],
+        }
+      ],
+    },
+    localeTexts: {
+      en: {
+        accept: 'Accept all',
+        bannerDescription: 'This website uses cookies to improve your experience.',
+        manageCookies: 'Manage cookies',
+        save: 'Save preferences',
+      },
+    },
+    isAcceptNecessaryButtonEnabled: false,
+    // typed module options
+  },
+  gtag: {
+    initialConsent: false,
+    id: process.env.GOOGLE_ANALYTICS_MEASUREMENTID
+  },
+// End of Cookie control with consent
 })

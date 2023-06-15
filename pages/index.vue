@@ -1,5 +1,6 @@
 <template>
-  <div>
+  <main>
+    <CookieControl locale="en" />
     <kike-general-NavBar />
     <kike-index-Information />
     <kike-index-Skills />
@@ -8,13 +9,33 @@
     <kike-experience-Timeline />
     <kike-general-Footer />
     <kike-general-TotemSignature />
-  </div>
+  </main>
 </template>
 
 <script lang="ts" setup>
 definePageMeta({
   layouts: 'default',
 })
+const {
+  cookiesEnabledIds,
+} = useCookieControl()
+watch(
+  () => cookiesEnabledIds.value,
+  (current, previous) => {
+    if (
+      (!previous?.includes('ga') &&
+        current?.includes('ga'))
+    ) {
+      useGtagConsent(true)
+      // cookie with id `google-analytics` got added
+      // placeholder for your custom change handler
+    }
+  },
+  { deep: true }
+)
+if (cookiesEnabledIds.value !== undefined && cookiesEnabledIds.value.includes('ga')) {
+  useGtagConsent(true)
+}
 
 </script>
 
