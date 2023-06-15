@@ -8,6 +8,11 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       GOOGLE_ANALYTICS_MEASUREMENTID: process.env.GOOGLE_ANALYTICS_MEASUREMENTID,
+      siteUrl: process.env.NUXT_PUBLIC_SITE_URL,
+      siteName: 'Kike Tordera',
+      // eslint-disable-next-line max-len
+      siteDescription: 'UX / UI designer and software engineer with a solid base in programming thanks to my studies and international experience',
+      language: 'en-gb'
 
     },
 
@@ -77,4 +82,19 @@ export default defineNuxtConfig({
     id: process.env.GOOGLE_ANALYTICS_MEASUREMENTID
   },
 // End of Cookie control with consent
+
+// SEO
+extends: [
+  'nuxt-seo-kit'
+],
+nitro: {
+  prerender: {
+    crawlLinks: true,
+    routes: [
+      '/',
+      '/about-us',
+    ],
+  },
+},
+// End of SEO
 })

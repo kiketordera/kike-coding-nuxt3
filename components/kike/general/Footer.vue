@@ -27,13 +27,13 @@
     </div>
     <hr>
     <div class="copyright">
-      <p>Copyright © 2023 Kike Tordera All Rights Reserved</p>
+      <p>Copyright © {{ year }} Kike Tordera All Rights Reserved</p>
     </div>
   </section>
 </template>
 
-<script>
-
+<script lang="ts" setup>
+const year = computed(() => new Date().getFullYear())
 </script>
 
 <style lang="scss" scoped>

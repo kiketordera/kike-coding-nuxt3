@@ -1,5 +1,18 @@
 <template>
   <main>
+    <Breadcrumbs>
+      <template #breadcrumb="{ to, title }">
+        <NuxtLink :to="to">
+          {{ title }}
+        </NuxtLink>
+      </template>
+    </Breadcrumbs>
+    <SeoKit />
+    <SchemaOrgPerson
+      :name="siteMeta.name"
+      :image="siteMeta.image"
+      :same-as="siteMeta.sameAs"
+    />
     <CookieControl locale="en" />
     <kike-general-NavBar />
     <kike-index-Information />
@@ -13,6 +26,16 @@
 </template>
 
 <script lang="ts" setup>
+const siteMeta = useSiteMeta()
+defineOgImageScreenshot({
+  title: siteMeta.name,
+  provider: 'browser',
+  delay: 1000,
+  colorScheme: 'dark',
+  mask: '.cookieControl'
+  // background: 'linear-gradient(to bottom, #D95B06, #DA3203)'
+})
+
 definePageMeta({
   layouts: 'default',
 })
