@@ -13,7 +13,7 @@
       :image="siteMeta.image"
       :same-as="siteMeta.sameAs"
     />
-    <CookieControl locale="en" />
+    <CookieControl v-if="showCookieConsent" locale="en" />
     <kike-general-NavBar />
     <kike-index-Information />
     <kike-index-Skills />
@@ -27,6 +27,17 @@
 
 <script lang="ts" setup>
 const siteMeta = useSiteMeta()
+const showCookieConsent = ref(false)
+onMounted(() => {
+  waitToShowConsent()
+})
+const waitToShowConsent = () => {
+      // Set the timer to fire after 2 seconds.
+      setTimeout(() => {
+        // Do something after 2 seconds.
+        showCookieConsent.value = true
+      }, 4000)
+    }
 defineOgImageScreenshot({
   title: siteMeta.name,
   provider: 'browser',
