@@ -1,5 +1,43 @@
-@mixin title-section {
-    @apply text-lg uppercase mb-3 tracking-widest;
-    color: $font-color;
-    font-family: 'TT Norms Bold';
+
+* {
+    scroll-behavior: smooth;
   }
+
+@mixin title-section {
+     display: flex;
+      justify-content: center;
+      justify-items: center;
+      padding-bottom: 1rem;
+      align-items: center;
+      gap: 2rem;
+      align-items: center;
+
+      img {
+        height: 50px;
+      }
+
+      p {
+        font-size: 2.4rem;
+        text-align: center;
+
+        span {
+          color: #f7941d;
+        }
+      }
+
+      @media screen and (max-width: 768px) {
+        p {
+          @apply text-xl mb-2;
+        }
+
+        img {
+          @apply w-10 h-auto;
+        }
+      }
+  }
+
+// Predefined Break-points
+
+$mediaMaxWidth: 1260px;
+$mediaMaxWidth: 960px;
+$mediaMinWidth: 480px;

@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Kike Tordera",
+        "title": "Developer & UX / UI Designer",
+        "img": "kike.jpeg",
+        "linkedin": "https://www.linkedin.com/in/kiketordera/",
+        "web": "https://kike.me/",
+        "email": "kiketordera@gmail.com",
+        "description": "Kike is responsible for the whole software project. He first designed, and then coded the App from the initial concept until the final result that you are visiting right now."
+    },
+    {
+        "name": "Oskar joziak",
+        "title": " UX / UI Designer",
+        "img": "oskar.jpeg",
+        "linkedin": "https://www.linkedin.com/in/oskar-joziak/",
+        "web": "https://www.linkedin.com/in/oskar-joziak/",
+        "email": "aplotec.oj@gmail.com",
+        "description": "Oskar has helped to design and prototype the interfaces of the App. He also presented the project to a competition obtaining the second prime."
+    },
+    {
+        "name": "Obadiah Ekiru",
+        "title": "Graphic Design",
+        "img": "bambu.jpeg",
+        "linkedin": "https://www.linkedin.com/in/obadiah-edamoe-ekiru-670721166/",
+        "web": "https://www.linkedin.com/in/obadiah-edamoe-ekiru-670721166/",
+        "email": "ekiruobadiah@gmail.com",
+        "description": "Ekiru made the whole stunning iconography, understanding and taking over with the different cultures to create a universal iconography."
+    },
+    {
+        "name": "Gabi Rocha",
+        "title": "Graphic Design",
+        "img": "gabi.jpg",
+        "linkedin": "https://www.linkedin.com/in/gabirochadesign/",
+        "web": "http://gabirocha.com/",
+        "email": "gabriela@gabirocha.com",
+        "description": "Gabi designed the amazing logo, and the astonishing brand identity, including the design style that is applied in every icon and that she supervised."
+    }
+]
