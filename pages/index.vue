@@ -16,7 +16,7 @@
     <CookieControl v-if="showCookieConsent" locale="en" />
     <kike-general-NavBar />
     <kike-index-Information />
-    <kike-index-Skills />
+    <general-InfiniteScroll :images="skills" :scroll-right="true" />
     <kike-index-About />
     <kike-projects-Work />
     <kike-experience-Timeline />
@@ -26,6 +26,20 @@
 </template>
 
 <script lang="ts" setup>
+
+const skills = [
+  '/svg/kk/html.svg',
+'/svg/kk/css.svg',
+'/svg/kk/go.svg',
+'/svg/kk/docker.svg',
+'/svg/kk/swift.svg',
+'/svg/kk/dart.svg',
+'/svg/kk/ts.svg',
+'/svg/kk/flutter.svg',
+'/svg/kk/java.svg',
+'/svg/kk/logo-vue.svg'
+]
+
 const siteMeta = useSiteMeta()
 const showCookieConsent = ref(false)
 onMounted(() => {
