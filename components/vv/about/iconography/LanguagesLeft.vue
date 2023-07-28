@@ -6,75 +6,51 @@
       <p class="language-text">
         <span>Turkana</span>
       </p>
-      <img src="~assets/svg/vv/german-spanish.svg" alt="">
-      <p class="language-german">
-        <span>Germany</span>
+      <img src="~assets/svg/vv/turkana-spanish.svg" alt="">
+      <p class="language-spanish">
+        <span>Spanish</span>
       </p>
       <img src="~assets/svg/vv/spanish-english.svg" alt="">
-      <p class="language-spanish">
-        <span>spanish</span>
+      <p class="language-english">
+        <span>English</span>
       </p>
-      <img src="~assets/svg/vv/french-german.svg" alt="">
+      <img src="~assets/svg/vv/english-french.svg" alt="">
       <p class="language-french">
         <span>French</span>
+      </p>
+      <img src="~assets/svg/vv/french-german.svg" alt="">
+      <p class="language-german">
+        <span>German</span>
       </p>
       <img src="~assets/svg/vv/german-swahili.svg" alt="">
       <p class="swahili">
         <span>Swahili</span>
-      </p>
-      <img src="~assets/svg/vv/english-french.svg" alt="">
-      <p class="language-english">
-        <span>English</span>
-      </p>
-      <img src="~assets/svg/vv/german-spanish.svg" alt="">
-      <p class="language-span">
-        <span>Germany</span>
-      </p>
-      <img src="~assets/svg/vv/spanish-english.svg" alt="">
-      <p class="language-spanish">
-        <span>Spanish</span>
-      </p>
-      <img src="~assets/svg/vv/french-turkana.svg" alt="">
-      <p class="language-french">
-        <span>French</span>
       </p>
     </div>
     <div class="scroll-element secondary">
-      <img src="~assets/svg/vv/turkana-spanish.svg" alt="">
+      <img src="~assets/svg/vv/swahili-turkana.svg" alt="">
       <p class="language-text">
         <span>Turkana</span>
       </p>
-      <img src="~assets/svg/vv/german-swahili.svg" alt="">
-      <p class="language-german">
-        <span>Germany</span>
-      </p>
-      <img src="~assets/svg/vv/spanish-english.svg" alt="">
-      <p class="language-spanish">
-        <span>spanish</span>
-      </p>
-      <img src="~assets/svg/vv/french-german.svg" alt="">
-      <p class="language-french">
-        <span>French</span>
-      </p>
-      <img src="~assets/svg/vv/swahili-turkana.svg" alt="">
-      <p class="swahili">
-        <span>Swahili</span>
-      </p>
-      <img src="~assets/svg/vv/english-french.svg" alt="">
-      <p class="language-english">
-        <span>English</span>
-      </p>
-      <img src="~assets/svg/vv/german-spanish.svg" alt="">
-      <p class="language-span">
-        <span>Germany</span>
-      </p>
-      <img src="~assets/svg/vv/spanish-english.svg" alt="">
+      <img src="~assets/svg/vv/turkana-spanish.svg" alt="">
       <p class="language-spanish">
         <span>Spanish</span>
       </p>
+      <img src="~assets/svg/vv/spanish-english.svg" alt="">
+      <p class="language-english">
+        <span>English</span>
+      </p>
       <img src="~assets/svg/vv/english-french.svg" alt="">
-      <p class="french">
+      <p class="language-french">
         <span>French</span>
+      </p>
+      <img src="~assets/svg/vv/french-german.svg" alt="">
+      <p class="language-german">
+        <span>German</span>
+      </p>
+      <img src="~assets/svg/vv/german-swahili.svg" alt="">
+      <p class="swahili">
+        <span>Swahili</span>
       </p>
     </div>
   </div>
