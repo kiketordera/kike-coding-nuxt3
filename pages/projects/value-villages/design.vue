@@ -1,54 +1,93 @@
-<!-- eslint-disable max-len -->
-<!-- eslint-disable max-len -->
 <template>
   <div>
     <vv-general-NavBar />
-    <vv-design-Container>
-      <vv-design-Authentication />
-    </vv-design-Container>
+    <h1>
+      Design beyond boundaries
+    </h1>
     <vv-design-info
       class="mt-28"
       icon="lock-color.svg"
-      :text="text"
+      :texts="auth"
       image="authenication.png"
       :left="true"
       title="Authentication"
     />
+    <vv-design-Dashboard />
     <vv-design-info
       class="mt-28"
       icon="alphabet-color.svg"
-      :text="text2"
+      :texts="numerical"
       image="design-num.png"
       :left="true"
       title="Numerical alphabet"
     />
     <vv-design-info
       class="mt-28"
+      icon="performance-color.svg"
+      :texts="performance"
+      image="vikapu.png"
+      :left="false"
+      title="Performance"
+    />
+    <vv-design-info
+      class="mt-28"
       icon="video-color.svg"
-      :text="text3"
+      :texts="video"
       image="vikapu.png"
       :left="true"
       title="Guides Video Courses"
     />
-    <vv-design-Container>
-      <vv-design-Performance />
-    </vv-design-Container>
     <vv-design-BackgroundImage />
   </div>
 </template>
 
 <script lang="ts" setup>
 
-// eslint-disable-next-line max-len
-const text = 'When you start to create an interface adapted for illiteracy, you need to take normal routines that you do several times every day and reinvent it, giving them a better understanding and simplicity. One of these daily routines is introducing a password. Instead of a password, they can remember a story with 4 animals, and the iconography of the animals in convention with their photo, the software is able to give to the user the security they need to use the system.'
-// eslint-disable-next-line max-len
-const text2 = 'A numerical alphabet, like the roman but simplified, related to their currency to ensure that a person without the knowledge of the numbers will be able to understand how much money he/she needs to get paid.It can create any combination that the scope of the project can generate (covering all the money quantities) and is easily adaptable to any currency.'
-// eslint-disable-next-line max-len
-const text3 = 'Custom video tutorials, divided in steps for a guided and easy comprehension and with warnings about common mistakes to guide the process and avoid material waste.Also includes a set with icons and photos for a quick graphical resume of the tools and materials needed for the step.'
+const auth = [
+  // eslint-disable-next-line max-len
+  'When you start to create an interface adapted for illiteracy, you need to take normal routines that you do several times every day and reinvent it, giving them a better understanding and simplicity.',
+  // eslint-disable-next-line max-len
+  'One of these daily routines is introducing a password. Instead of a password, they can remember a story with 4 animals, and the iconography of the animals in convention with their photo, the software is able to give to the user the security they need to use the system.'
+]
+
+const numerical = [
+  // eslint-disable-next-line max-len
+  'A numerical alphabet, like the roman but simplified, related to their currency to ensure that a person without the knowledge of the numbers will be able to understand how much money he/she needs to get paid.',
+  // eslint-disable-next-line max-len
+  'It can create any combination that the scope of the project can generate (covering all the money quantities) and is easily adaptable to any currency.'
+]
+
+const performance = [
+  // eslint-disable-next-line max-len
+  'Easily see the results of the production, controlling the money that is spent into payments to the workers and the money invested in the materials to make the products.',
+  // eslint-disable-next-line max-len
+  ' You can see the data globally by all services, locally buy a specific service, or individually, by a specific worker in the system. All the views have the data in written words and numbers, in the graphic and numerical alphabet and with a chart for the representation.'
+]
+
+const video = [
+  // eslint-disable-next-line max-len
+  'Custom video tutorials, divided in steps for a guided and easy comprehension and with warnings about common mistakes to guide the process and avoid material waste.',
+  'Also includes a set with icons and photos for a quick graphical resume of the tools and materials needed for the step.'
+]
 </script>
 
 <style lang="scss" scoped>
 * {
     font-family: 'Nunito Regular';
 }
+
+  h1 {
+    font-size: 2.4rem;
+    margin-top: 7rem;
+    text-align: center;
+    letter-spacing: 4px;
+    font-weight: 400;
+  }
+
+  @media screen and (min-width: 482px) and (max-width:768px) {
+    h1 {
+      font-size: 2rem;
+      margin-top: 2.5rem;
+    }
+  }
 </style>

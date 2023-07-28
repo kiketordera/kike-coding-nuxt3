@@ -1,19 +1,23 @@
 <template>
-  <div class="content">
-    <img v-if="left && !mobile" :src="`/img/vv/boundaries/${props.image}`" alt="">
+  <div class="content mt-24">
     <div class="text">
       <div class="title">
-        <img class="icon" :src="`/svg/vv/boundaries/${props.icon}`" alt="icon">
+        <img class="icon" src="~/assets/svg/vv/dashboard.svg" alt="icon">
         <h2>
-          {{ props.title }}
+          Dashboard
         </h2>
       </div>
-      <p v-for="text in props.texts" :key="text" class="mt-4 text-justify">
-        {{ text }}
+      <p class="mt-4 text-justify">
+        Having an understanding and clean menu is basic to create confidence in the use of the system.
+        The main menu is a collection of icons labeled with a small description and divided into 3 categories:
       </p>
+      <ul class="my-4 text-justify">
+        <li> <b>-Services:</b> these are custom services that you can create depending on your necessities.</li>
+        <li> <b>-Actions:</b> these are the global actions that you can make across all services that you create.</li>
+        <li><b>-Logout:</b> to close your session</li>
+      </ul>
     </div>
-    <img v-if="!left && !mobile" :src="`/img/vv/boundaries/${props.image}`" alt="">
-    <img v-if="mobile" :src="`/img/vv/boundaries/${props.image}`" :class="{ 'mobile-image': mobile }" alt="">
+    <img src="~assets/img/vv/design-dashboard.png" :class="{ 'mobile-image': mobile }" alt="">
   </div>
 </template>
 
@@ -41,30 +45,6 @@ onMounted(() => {
   })
 })
 
-const props = defineProps({
-
-    image: {
-      type: String,
-      required: true,
-    },
-    icon: {
-      type: String,
-      required: true,
-    },
-    title: {
-      type: String,
-      required: true,
-    },
-    texts: {
-      type: Array<string>,
-      required: true,
-    },
-    left: {
-      type: Boolean,
-      required: true,
-    }
-})
-
 </script>
 
 <style lang="scss" scoped>
@@ -78,9 +58,6 @@ const props = defineProps({
 
 .content {
   @apply max-w-2xl px-4 mx-auto flex flex-col sm:flex-row;
-  .text {
-    @apply mb-4;
-  }
   img:not(.icon) {
     @apply max-w-sm px-4 sm:max-h-[420px] sm:block;
   }
