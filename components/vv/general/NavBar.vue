@@ -9,20 +9,31 @@
     <div class="nav-items">
       <ul>
         <NuxtLink to="/projects/value-villages/about">
-          <li>
-            <img class="a" src="~assets/svg/vv/about.svg" alt="">
+          <li
+            @mouseover="about = '/svg/vv/navbar/about-hover.svg'"
+            @mouseleave="about = '/svg/vv/navbar/about.svg'"
+          >
+            <img class="a" :src="about" alt="">
             <p>About</p>
           </li>
         </NuxtLink>
         <NuxtLink to="/projects/value-villages/design">
-          <li>
-            <img class="b" src="~assets/svg/vv/design.svg" alt="">
+          <li
+            class="design"
+            @mouseover="design = '/svg/vv/navbar/design-hover.svg'"
+            @mouseleave="design = '/svg/vv/navbar/design.svg'"
+          >
+            <img class="b" :src="design" alt="">
             <p>Design</p>
           </li>
         </NuxtLink>
         <NuxtLink to="/projects/value-villages/features">
-          <li>
-            <img class="b" src="~assets/svg/vv/features.svg" alt="">
+          <li
+            class="features"
+            @mouseover="features = '/svg/vv/navbar/features-hover.svg'"
+            @mouseleave="features = '/svg/vv/navbar/features.svg'"
+          >
+            <img class="b" :src="features" alt="">
             <p>Features</p>
           </li>
         </NuxtLink>
@@ -32,7 +43,9 @@
 </template>
 
 <script lang="ts" setup>
-
+const about = ref('/svg/vv/navbar/about.svg')
+const design = ref('/svg/vv/navbar/design.svg')
+const features = ref('/svg/vv/navbar/features.svg')
 </script>
 
 <style lang="scss" scoped>
@@ -47,22 +60,24 @@ nav {
   box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.3);
   background-color: white;
   z-index: 10;
+  // border-bottom: 2px solid white;
 
   & .logo {
     margin: 0rem 1rem;
     font-size: 12px;
+    padding: 0rem 1rem;
     padding-top: 9px;
-    margin-bottom: 0.2rem;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+    &:hover {
+      color: #f7941d;
+      border-bottom: 2px solid #f7941d;
+    }
 
     & .logo-img {
       width:  27px;
       padding-top: 5px;
       margin: 0 auto;
-
-      &:hover {
-        color: orange;
-        border-bottom: 2px solid orange;
-      }
     }
   }
 
@@ -76,11 +91,10 @@ nav {
       align-items: flex-end;
 
       li {
-        padding: 0;
+        padding: 0rem 1rem;
         display: inline-block;
         align-items: center;
         gap: 2rem;
-        padding-right: 1rem;
         cursor: pointer;
 
         img {
@@ -99,13 +113,14 @@ nav {
           margin: 0 auto;
 
           &:hover {
-            color: #63b910;
+            color: $branding-green;
           }
         }
 
+        border-bottom: 2px solid white;
         &:hover {
-          color: #63b910;
-          border-bottom: 2px solid #63b910;
+          color: $branding-green;
+          border-bottom: 2px solid $branding-green;
         }
 
         p {
@@ -114,53 +129,40 @@ nav {
         }
 
       }
-    }
-
-    & .design {
-      &:hover {
-        color: #ED037C;
-        border-bottom: 2px solid #ED037C;
+      & .design {
+        &:hover {
+          color: #ED037C;
+          border-bottom: 2px solid #ED037C;
+        }
       }
-
-      & img {
-        width: 30%;
+      & .features {
+        &:hover {
+          color: #f7941d;
+          border-bottom: 2px solid #f7941d;
+        }
       }
-
-    }
-
-    & .features {
-      &:hover {
-        color: #f7941d;
-        border-bottom: 2px solid #f7941d;
-      }
-
-      & img {
-        width: 20%;
-      }
-
-    }
-
-    & .manuals {
-      padding: 0;
-      margin-left: -2rem;
-      margin-right: -3rem;
-
-      &:hover {
-        color: #a97c50;
-        border-bottom: 2px solid #a97c50;
-      }
-
-      & img {
-        width: 10%;
+      & .manuals {
+        padding: 0;
+        margin-left: -2rem;
+        margin-right: -3rem;
 
         &:hover {
-          background-color: #a97c50;
+          color: #a97c50;
+          border-bottom: 2px solid #a97c50;
+        }
 
-          * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: "Nunito" !important;
+        & img {
+          width: 10%;
+
+          &:hover {
+            background-color: #a97c50;
+
+            * {
+              margin: 0;
+              padding: 0;
+              box-sizing: border-box;
+              font-family: "Nunito" !important;
+            }
           }
         }
       }
