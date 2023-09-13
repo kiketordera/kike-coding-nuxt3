@@ -2,7 +2,7 @@
   <section>
     <div class="system">
       <div class="title">
-        <img src="~/assets/svg/vv/youtube.svg" alt="">
+        <img src="~/assets/svg/vv/youtube-bg-blue.svg" alt="">
         <p>
           <span>Step</span> by <span>step</span> guided <span>tutorials</span>
         </p>
@@ -26,7 +26,7 @@
           giving also tips and growing security for the user to use the app.
         </p>
       </div>
-      <div class="box-img">
+      <div class="box-img mt-4">
         <div data-aos="zoom-in-right" class="details">
           <img src="~assets/img/vv/system.png" alt="">
           <p>
@@ -53,11 +53,12 @@
 <style lang="scss" scoped>
 section {
   width: 100%;
-  max-width: 56rem;
-  margin: 0 auto;
   padding: 6rem 0rem;
+  background-color: $branding-blue;
 
   .system {
+    margin: 0 auto;
+    max-width: 56rem;
     margin-bottom: 2rem;
     font-weight: 400;
 
@@ -80,7 +81,7 @@ section {
         font-weight: 900;
 
         span {
-          color: #CF1F26;
+          color: white;
         }
 
       }
@@ -124,20 +125,20 @@ section {
       display: flex;
       flex-direction: row;
       margin: 0 auto;
-
+      color: white;
+      
       .details {
         align-items: center;
-
+        
         img {
           height: auto;
           padding: 0rem 2rem;
         }
-
+        
         p {
           text-align: center;
           margin-top: 1rem;
-          font-size: 1.2rem;
-          letter-spacing: 3;
+          @apply text-sm;
         }
       }
     }

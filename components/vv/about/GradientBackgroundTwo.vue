@@ -44,8 +44,9 @@
 section {
   @apply w-full;
 
-  background: linear-gradient(#89ffc5 0%, rgba(21, 174, 255, 0.83) 33%,
-      #35b9ff 47.29%, #6e81ff 100%);
+  // background: linear-gradient(#89ffc5 0%, rgba(21, 174, 255, 0.83) 33%,
+  //     #35b9ff 47.29%, #6e81ff 100%);
+   background-color: $branding-green;
   color: white;
   text-align: center;
   max-width: 100%;

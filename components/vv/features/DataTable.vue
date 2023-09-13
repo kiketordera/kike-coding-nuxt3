@@ -51,12 +51,14 @@
 <style lang="scss" scoped>
 section {
   width: 100%;
-  max-width: 64rem;
-  margin: 0 auto;
   place-content: center;
   padding: 3rem 0rem;
 
+  background-color: $branding-green;
+
   .system {
+    max-width: 64rem;
+    margin: 0 auto;
     margin-bottom: 2rem;
     font-weight: 400;
 
@@ -79,7 +81,7 @@ section {
         font-weight: 900;
 
         span {
-          color: #63B190;
+          color: white;
         }
 
       }
@@ -100,6 +102,7 @@ section {
       flex-direction: row;
       gap: 2;
       width: 100%;
+      color: white;
 
       .info {
         margin: 0 auto;

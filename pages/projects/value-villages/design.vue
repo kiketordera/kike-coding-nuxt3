@@ -21,14 +21,16 @@
       :left="true"
       title="Numerical alphabet"
     />
-    <vv-design-info
-      class="mt-28"
-      icon="performance-color.svg"
-      :texts="performance"
-      image="vikapu.png"
-      :left="false"
-      title="Performance"
-    />
+    <div class="bg-blue">
+      <vv-design-info
+        class="mt-28"
+        icon="performance-bg-blue.svg"
+        :texts="performance"
+        image="vikapu.png"
+        :left="false"
+        title="Performance"
+      />
+    </div>
     <vv-design-info
       class="mt-28"
       icon="video-color.svg"
@@ -58,8 +60,8 @@ const numerical = [
 ]
 
 const performance = [
-  // eslint-disable-next-line max-len
-  'Easily see the results of the production, controlling the money that is spent into payments to the workers and the money invested in the materials to make the products.',
+
+  'w to the workers and the money invested in the materials to make the products.',
   // eslint-disable-next-line max-len
   ' You can see the data globally by all services, locally buy a specific service, or individually, by a specific worker in the system. All the views have the data in written words and numbers, in the graphic and numerical alphabet and with a chart for the representation.'
 ]
@@ -74,6 +76,11 @@ const video = [
 <style lang="scss" scoped>
 * {
     font-family: 'Nunito Regular';
+}
+
+.bg-blue {
+  @apply pt-2 pb-16 mt-24;
+  background-color: $branding-blue;
 }
 
   h1 {

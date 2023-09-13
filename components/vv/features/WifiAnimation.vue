@@ -2,7 +2,7 @@
   <div class="img">
     <div class="software-layers">
       <img id="devices" src="~assets/svg/vv/devices.svg" class="devices" alt="">
-      <features-WifiWaves class="waves" />
+      <vv-features-WifiWaves class="waves" />
     </div>
   </div>
 </template>

@@ -43,8 +43,9 @@
 <style lang="scss" scoped>
 section {
   @apply w-full;
-  background: linear-gradient(#6e81ff 0%, #35b9ff 33%,
-      rgba(21, 174, 255, 0.83) 47.29%, #89ffc5 100%);
+  // background: linear-gradient(#6e81ff 0%, #35b9ff 33%,
+  //     rgba(21, 174, 255, 0.83) 47.29%, #89ffc5 100%);
+      background-color: $branding-blue;
   color: white;
   text-align: center;
   max-width: 100%;
