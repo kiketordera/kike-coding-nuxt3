@@ -2,7 +2,7 @@
   <nav :class="{ 'bottom-gradient': scrollTop / 100 > 1, 'padding-0': isNavbarExpanded }">
     <div v-if="!isMobileMenuVisible" class="nav-item">
       <NuxtLink to="/" class="logo-link">
-        <img src="~assets/img/kk/logo.png" alt="">
+        <img src="/svg/kk/logo.svg" alt="">
       </NuxtLink>
       <div id="mobile-menu" class="link-items">
         <ul>
@@ -151,9 +151,10 @@ onBeforeUnmount(() => {
 }
 
 nav {
-  @apply w-full fixed z-30 top-0 px-4 py-8;
+  @apply w-full fixed z-30 top-0 px-4 py-2.5;
       background-color: #131212;
   color: #595959;
+  border-bottom: 1px solid $sea-serpent;
 
   .nav-item {
     @apply max-w-6xl w-full flex flex-wrap justify-between items-center mx-auto ;

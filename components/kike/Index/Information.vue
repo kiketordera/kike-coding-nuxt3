@@ -2,22 +2,21 @@
   <section>
     <div class="info">
       <div class="content">
-        <h2 data-aos="zoom-in-up">
-          <span>UX / UI Designer  & Software
-            engineer </span>
+        <h2 class="mb-0" data-aos="zoom-in-up">
+          <span>{</span>
+          UX/UI Engineeer & Software developer
+          <span>}</span>
+        </h2>
+        <h2>
+          <span data-aos="fade-right" class="text-base">
+            Engineered Precision. Designed Passion.
+          </span>
         </h2>
         <p data-aos="fade-right">
-          Hi! I'm Kike Tordera.
+          Specialist in interfaces, from the UX & design to the development & launch.
         </p>
-        <p data-aos="fade-right">
-          Born and raised in Madrid, Spain, and currently reside in Berlin, Germany.
-        </p>
-        <p data-aos="fade-right">
-          I have a solid base in programming thanks to my studies and international experience.
-          Since very young I've always been learning and fixing computers.
-        </p>
-        <p data-aos="fade-right">
-          I think the design and interface part is as important as the code, and I think the whole is much greater than the sum of the parts.
+        <p class="txt-blue" data-aos="fade-right">
+          Why choose someone with half the skills? Take someone with the complete package!
         </p>
         <button data-aos="zoom-in-down" type="button">
           Hire me
@@ -52,7 +51,7 @@ section {
                 font-family: "Source Code Pro Regular";
             }
             button {
-                @apply text-base uppercase px-16 py-4 my-8 text-center lg:w-auto w-full;
+                @apply text-base uppercase px-8 py-2.5 my-8 text-center lg:w-auto w-full;
                 background-color: $button-color;
                 color: $background-color;
                 font-weight: 600;

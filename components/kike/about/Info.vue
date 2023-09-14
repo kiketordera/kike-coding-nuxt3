@@ -6,6 +6,20 @@
       </h2>
 
       <div class="info">
+        <p data-aos="fade-right">
+          Hi! I'm Kike Tordera. Berlin based.
+        </p>
+        <p data-aos="fade-right">
+          Programming? That's my jam! 🚀 My roots in coding run deep, nurtured by rigorous studies and spiced up
+          with international flair. And guess what? As a kid, I was that go-to tech whiz, always tinkering with computers.
+        </p>
+        <p data-aos="fade-right">
+          But here's the twist: I'm not just about the code. I'm passionate about crafting experiences.
+          🎨 To me, a sleek design and intuitive interface aren't just the icing on the cake—they're essential ingredients.
+        </p>
+        <p data-aos="fade-right">
+          Because, in the end, it's all about creating something that's more than just the sum of its parts. Ready to create magic together?
+        </p>
         <p data-aos="zoom-in-right">
           Kike Tordera, a skilled web developer based in Spain, has been creating
           innovative and engaging websites for [number] years. With a passion for coding and a keen
