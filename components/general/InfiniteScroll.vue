@@ -2,45 +2,10 @@
 <template>
   <div class="scroll-parent">
     <div class="scroll-element" :class="props.scrollRight ? 'left-primary' : 'right-primary'">
-      <img src="/svg/kk/skills/html5.svg" alt="">
-      <img src="/svg/kk/skills/css3.svg" alt="">
-      <img src="/svg/kk/skills/dart.svg" alt="">
-      <img src="/svg/kk/skills/docker.svg" alt="">
-      <img src="/svg/kk/skills/firebase.svg" alt="">
-      <img src="/svg/kk/skills/flutter.svg" alt="">
-      <img src="/svg/kk/skills/golang.svg" alt="">
-      <img src="/svg/kk/skills/java.svg" alt="">
-      <img src="/svg/kk/skills/js.svg" alt="">
-      <img src="/svg/kk/skills/node.svg" alt="">
-      <img src="/svg/kk/skills/nuxt.svg" alt="">
-      <img src="/svg/kk/skills/swift.svg" alt="">
-      <img src="/svg/kk/skills/tailwind.svg" alt="">
-      <img src="/svg/kk/skills/tailwind.svg" alt="">
-      <img src="/svg/kk/skills/ts.svg" alt="">
-      <img src="/svg/kk/skills/ux.svg" alt="">
-      <img src="/svg/kk/skills/ui.svg" alt="">
-      <img src="/svg/kk/skills/vue.svg" alt="">
+      <img v-for="(image, index) in props.images" :key="index" :src="image" alt="">
     </div>
     <div class="scroll-element" :class="props.scrollRight ? 'left-secundary' : 'right-secundary'">
-      <img src="/svg/kk/skills/html5.svg" alt="">
-      <img src="/svg/kk/skills/css3.svg" alt="">
-      <img src="/svg/kk/skills/dart.svg" alt="">
-      <img src="/svg/kk/skills/docker.svg" alt="">
-      <img src="/svg/kk/skills/firebase.svg" alt="">
-      <img src="/svg/kk/skills/flutter.svg" alt="">
-      <img src="/svg/kk/skills/golang.svg" alt="">
-      <img src="/svg/kk/skills/java.svg" alt="">
-      <img src="/svg/kk/skills/js.svg" alt="">
-      <img src="/svg/kk/skills/node.svg" alt="">
-      <img src="/svg/kk/skills/nuxt.svg" alt="">
-      <img src="/svg/kk/skills/swift.svg" alt="">
-      <img src="/svg/kk/skills/tailwind.svg" alt="">
-      <img src="/svg/kk/skills/tailwind.svg" alt="">
-      <img src="/svg/kk/skills/ts.svg" alt="">
-      <img src="/svg/kk/skills/ux.svg" alt="">
-      <img src="/svg/kk/skills/ui.svg" alt="">
-      <img src="/svg/kk/skills/vue.svg" alt="">
-      <!-- <img v-for="(image, index) in props.images" :key="index" :src="image" alt=""> -->
+      <img v-for="(image, index) in props.images" :key="index" :src="image" alt="">
     </div>
   </div>
 </template>
