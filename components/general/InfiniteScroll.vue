@@ -2,10 +2,45 @@
 <template>
   <div class="scroll-parent">
     <div class="scroll-element" :class="props.scrollRight ? 'left-primary' : 'right-primary'">
-      <img v-for="(image, index) in props.images" :key="index" :src="image" alt="">
+      <img src="/svg/kk/skills/html5.svg" alt="">
+      <img src="/svg/kk/skills/css3.svg" alt="">
+      <img src="/svg/kk/skills/dart.svg" alt="">
+      <img src="/svg/kk/skills/docker.svg" alt="">
+      <img src="/svg/kk/skills/firebase.svg" alt="">
+      <img src="/svg/kk/skills/flutter.svg" alt="">
+      <img src="/svg/kk/skills/golang.svg" alt="">
+      <img src="/svg/kk/skills/java.svg" alt="">
+      <img src="/svg/kk/skills/js.svg" alt="">
+      <img src="/svg/kk/skills/node.svg" alt="">
+      <img src="/svg/kk/skills/nuxt.svg" alt="">
+      <img src="/svg/kk/skills/swift.svg" alt="">
+      <img src="/svg/kk/skills/tailwind.svg" alt="">
+      <img src="/svg/kk/skills/tailwind.svg" alt="">
+      <img src="/svg/kk/skills/ts.svg" alt="">
+      <img src="/svg/kk/skills/ux.svg" alt="">
+      <img src="/svg/kk/skills/ui.svg" alt="">
+      <img src="/svg/kk/skills/vue.svg" alt="">
     </div>
     <div class="scroll-element" :class="props.scrollRight ? 'left-secundary' : 'right-secundary'">
-      <img v-for="(image, index) in props.images" :key="index" :src="image" alt="">
+      <img src="/svg/kk/skills/html5.svg" alt="">
+      <img src="/svg/kk/skills/css3.svg" alt="">
+      <img src="/svg/kk/skills/dart.svg" alt="">
+      <img src="/svg/kk/skills/docker.svg" alt="">
+      <img src="/svg/kk/skills/firebase.svg" alt="">
+      <img src="/svg/kk/skills/flutter.svg" alt="">
+      <img src="/svg/kk/skills/golang.svg" alt="">
+      <img src="/svg/kk/skills/java.svg" alt="">
+      <img src="/svg/kk/skills/js.svg" alt="">
+      <img src="/svg/kk/skills/node.svg" alt="">
+      <img src="/svg/kk/skills/nuxt.svg" alt="">
+      <img src="/svg/kk/skills/swift.svg" alt="">
+      <img src="/svg/kk/skills/tailwind.svg" alt="">
+      <img src="/svg/kk/skills/tailwind.svg" alt="">
+      <img src="/svg/kk/skills/ts.svg" alt="">
+      <img src="/svg/kk/skills/ux.svg" alt="">
+      <img src="/svg/kk/skills/ui.svg" alt="">
+      <img src="/svg/kk/skills/vue.svg" alt="">
+      <!-- <img v-for="(image, index) in props.images" :key="index" :src="image" alt=""> -->
     </div>
   </div>
 </template>
@@ -32,7 +67,7 @@ $animation-duration: 35s;
   position: relative;
   width: 100vw;
   height: 6.5rem;
-  min-width: 1100px;
+  min-width: 100vw;
   @media screen and (max-width: 768px) {
     height: 5.2rem;
     min-width: 900px;
@@ -50,26 +85,20 @@ $animation-duration: 35s;
   position: absolute;
   display: flex;
   justify-content: space-around;
-  gap: 1rem;
-  left: 0%;
-  top: 0%;
-  margin-top: 1rem;
-  min-width: 100%;
-  max-height: 5rem;
-  img {
-    object-fit: contain;
-    max-width: 70px;
-    max-height: 80px;
-  }
+  align-items: center;
+
   @media screen and (max-width: 768px) {
-    margin-top: 0.8rem;
     max-height: 4rem;
     gap: 0.8rem;
   }
   @media screen and (max-width: 480px) {
-    margin-top: 0.5rem;
     gap: 0.7rem;
     max-height: 3rem;
+  }
+  img {
+    object-fit: contain;
+    max-width: 140px;
+    margin-right: 4rem;
   }
 
   overflow: hidden;

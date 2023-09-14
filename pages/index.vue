@@ -28,16 +28,23 @@
 <script lang="ts" setup>
 
 const skills = [
-  '/svg/kk/html.svg',
-'/svg/kk/css.svg',
-'/svg/kk/go.svg',
-'/svg/kk/docker.svg',
-'/svg/kk/swift.svg',
-'/svg/kk/dart.svg',
-'/svg/kk/ts.svg',
-'/svg/kk/flutter.svg',
-'/svg/kk/java.svg',
-'/svg/kk/logo-vue.svg'
+'/svg/kk/skills/html5.svg',
+'/svg/kk/skills/css3.svg',
+'/svg/kk/skills/dart.svg',
+'/svg/kk/skills/docker.svg',
+'/svg/kk/skills/firebase.svg',
+'/svg/kk/skills/flutter.svg',
+'/svg/kk/skills/golang.svg',
+'/svg/kk/skills/java.svg',
+'/svg/kk/skills/js.svg',
+'/svg/kk/skills/node.svg',
+'/svg/kk/skills/nuxt.svg',
+'/svg/kk/skills/swift.svg',
+'/svg/kk/skills/tailwind.svg',
+'/svg/kk/skills/ts.svg',
+'/svg/kk/skills/ux.svg',
+'/svg/kk/skills/ui.svg',
+'/svg/kk/skills/vue.svg',
 ]
 
 const siteMeta = useSiteMeta()
@@ -93,5 +100,4 @@ if (cookiesEnabledIds.value !== undefined && cookiesEnabledIds.value.includes('g
   color: #595959;
   font-family: "Source Code Pro Regular";
 }
-
 </style>
