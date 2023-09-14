@@ -51,7 +51,7 @@ section {
                 font-family: "Source Code Pro Regular";
             }
             button {
-                @apply text-base uppercase px-8 py-2.5 my-8 text-center lg:w-auto w-full;
+                @include button-base;
                 background-color: $button-color;
                 color: $background-color;
                 font-weight: 600;

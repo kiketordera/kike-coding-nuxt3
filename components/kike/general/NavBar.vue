@@ -12,7 +12,7 @@
             </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/about-us" :class="{'active':isLinkActive('/about-us')}">
+            <NuxtLink to="/about" :class="{'active':isLinkActive('/about-us')}">
               // About
             </NuxtLink>
           </li>
@@ -72,7 +72,7 @@
             </NuxtLink>
           </li>
           <li @click="visitLink">
-            <NuxtLink to="/about-us" :class="{'active':isLinkActive('/about-us')}">
+            <NuxtLink to="/about" :class="{'active':isLinkActive('/about-us')}">
               // About
             </NuxtLink>
           </li>
