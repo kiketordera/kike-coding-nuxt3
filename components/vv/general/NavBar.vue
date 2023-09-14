@@ -8,7 +8,7 @@
     </div>
     <div class="nav-items">
       <ul>
-        <NuxtLink to="/projects/value-villages/about">
+        <NuxtLink to="/projects/value-villages">
           <li
             @mouseover="about = '/svg/vv/navbar/about-hover.svg'"
             @mouseleave="about = '/svg/vv/navbar/about.svg'"

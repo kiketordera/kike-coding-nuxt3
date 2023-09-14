@@ -10,7 +10,7 @@
             </button>
           </NuxtLink>
         </div>
-        <!-- <div data-aos="zoom-up-right" class="card-body">
+        <div data-aos="zoom-up-right" class="card-body">
           <div class="gradient">
             <img src="~assets/img/kk/kikenya.png" alt="kikenya">
             <div class="logo">
@@ -22,7 +22,7 @@
               Kikenya Tours
             </button>
           </NuxtLink>
-        </div> -->
+        </div>
         <div data-aos="zoom-up-down" class="card-body">
           <img src="~assets/img/kk/drones.png" alt="drones">
           <button type="button">

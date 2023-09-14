@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Kikenya Tours",
+        "logo": "/projects/kikenya/kikenya-logo.svg",
+        "img": "/projects/kikenya/kikenya-picture.jpg",
+        "web": "https://kikenyatours.com",
+        "description": "Kikenya is a tours company in Kenya.",
+        "color_bg_logo": "#F0D0A7",
+        "color_bg_title": "#BF7A40",
+        "color_title": "#240002",
+        "url": "/projects/kikenya-tours"
+    },
+    {
+        "name": "Value Villages",
+        "logo": "/projects/vv/value-villages.png",
+        "img": "/projects/vv/vv-mobile.png",
+        "web": "https://kikenyatours.com",
+        "description": "Kikenya is a tours company in Kenya.",
+        "color_bg_logo": "white",
+        "color_bg_title": "#63B190",
+        "color_title": "white",
+        "url": "/projects/value-villages"
+    },
+    {
+        "name": "Eva drones",
+        "logo": "/projects/drones/logo.png",
+        "img": "/projects/drones/bg.jpeg",
+        "web": "https://kikenyatours.com",
+        "description": "Kikenya is a tours company in Kenya.",
+        "color_bg_logo": "white",
+        "color_bg_title": "#00588E",
+        "color_title": "white",
+        "url": "/projects/eva-drones"
+    },
+    {
+        "name": "Oculid",
+        "logo": "/projects/oculid/logo.svg",
+        "img": "/projects/oculid/bg.png",
+        "web": "https://kikenyatours.com",
+        "description": "Kikenya is a tours company in Kenya.",
+        "color_bg_logo": "white",
+        "color_bg_title": "#008080",
+        "color_title": "white",
+        "url": "/projects/oculid"
+    }
+
+]

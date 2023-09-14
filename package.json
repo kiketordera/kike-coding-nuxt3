@@ -36,6 +36,7 @@
     "sass": "^1.63.6",
     "vue": "^3.3.4",
     "vuetify": "^3.3.5",
+    "tailwindcss-elevation": "^2.0.0",
     "webpack": "^5.88.0"
   },
   "name": "value-villages-nuxt3",

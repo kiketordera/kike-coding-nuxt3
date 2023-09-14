@@ -39,7 +39,7 @@
         </span>
       </div>
     </div>
-    <kike-projects-Cards />
+    <kike-projects-Cards2 />
   </section>
 </template>
 
