@@ -25,9 +25,7 @@
         Typescript
       </span>
     </div>
-    <p>
-      Level-C2
-    </p>
+
     <div class="skills">
       <img data-aos="zoom-in-left" src="~assets/svg/kk/dart-language.svg" alt="">
       <span data-aos="zoom-in-right">
@@ -46,9 +44,6 @@
         Vue
       </span>
     </div>
-    <p>
-      Level-B1
-    </p>
   </div>
 </template>
 

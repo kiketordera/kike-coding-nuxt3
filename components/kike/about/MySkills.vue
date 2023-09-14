@@ -12,14 +12,37 @@
         <hr>
         <kike-about-Programming />
         <hr>
-        <kike-about-SoftSkills />
+        <kike-about-Skills :skills="softSkills" :title="'Soft Skills'" />
+        <kike-about-Skills :skills="leadershipSkills" :title="'Leadership Skills'" :color="'#55C5CA'" class="pb-12" />
       </div>
     </div>
   </section>
 </template>
 
-<script>
+<script lang="ts" setup>
+const softSkills = [
+  'Communication',
+  'TeamWork',
+  'Problem-solving',
+  'Time management',
+  'Adaptability',
+  'Leadership',
+  'Empathy',
+  'Conflict Resolution',
+  'Creativity'
+]
 
+const leadershipSkills = [
+  'Critical Thinking',
+  'Strategic Planning',
+  'Conflict Resolution',
+  'Decision Making',
+  'Visionary Thinking',
+  'Team Building & Motivation',
+  'Strategic Planning',
+  'Emotional Intelligence',
+  'Effective Communication'
+]
 </script>
 
 <style lang="scss" scoped>
@@ -34,7 +57,7 @@ section {
                 color: #CCCCCC;
         }
         .info {
-             @apply lg:w-1/2 w-full text-justify;
+             @apply w-full text-justify;
 
             p {
               @apply lg:text-lg  my-6 items-start;
