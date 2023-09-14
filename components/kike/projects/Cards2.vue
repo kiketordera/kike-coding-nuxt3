@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="flex w-full snap-x snap-mandatory overflow-scroll">
+    <div ref="scrollContainer" class="flex w-full snap-x snap-mandatory overflow-scroll">
       <div v-for="project in Projects" :key="project.name" class="card mr-8">
         <a :href="project.url">
           <v-hover v-slot="{ isHovering, props }">
@@ -45,7 +45,36 @@
 </template>
 
 <script lang="ts" setup>
+import { ref, onMounted, onBeforeUnmount } from 'vue'
 import Projects from '~~/assets/data/projects.json'
+
+const scrollContainer = ref<HTMLElement | null>(null)
+let scrollInterval: number
+let direction = 1 // 1 for left-to-right, -1 for right-to-left
+
+onMounted(() => {
+  const container = scrollContainer.value
+  const scrollAmount = 350 // This is the width of a card. Adjust if needed.
+
+  scrollInterval = window.setInterval(() => {
+    if (!container) { return }
+
+    if (direction === 1 && (container.scrollLeft + container.offsetWidth >= container.scrollWidth)) {
+      direction = -1 // Reverse direction to right-to-left
+    } else if (direction === -1 && container.scrollLeft === 0) {
+      direction = 1 // Reverse direction to left-to-right
+    }
+
+    container.scrollTo({
+      left: container.scrollLeft + (scrollAmount * direction),
+      behavior: 'smooth'
+    })
+  }, 6000)
+})
+
+onBeforeUnmount(() => {
+  clearInterval(scrollInterval) // Clear the interval when the component is destroyed.
+})
 
 </script>
 
