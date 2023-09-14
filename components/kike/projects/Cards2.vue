@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="flex w-full snap-x snap-mandatory overflow-scroll">
-      <div v-for="project in Projects" :key="project.name" class="card ">
+      <div v-for="project in Projects" :key="project.name" class="card mr-8">
         <a :href="project.url">
           <v-hover v-slot="{ isHovering, props }">
             <v-card
@@ -20,11 +20,11 @@
                 <v-expand-transition>
                   <div
                     v-if="isHovering"
-                    class="d-flex transition-fast-in-fast-out v-card--reveal text-h2"
+                    class="d-flex transition-fast-in-fast-out v-card--reveal text-h2 text-center"
                     :style="`background-color: ${project.color_bg_logo}`"
                     style="height: 100%; opacity: 0.85; backdrop-filter: blur(10px);"
                   >
-                    <img :src="project.logo" :alt="`${project.name} logo`" class="object-contain px-10">
+                    <img :src="project.logo" :alt="`${project.name} logo`" class="mx-auto object-contain px-10">
                   </div>
                 </v-expand-transition>
               </v-img>

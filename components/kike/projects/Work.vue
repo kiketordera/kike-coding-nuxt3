@@ -3,13 +3,13 @@
     <div id="about" class="information">
       <div class="intro">
         <h2 data-aos="fade-up">
-          Works
+          Projects
         </h2>
         <p data-aos="zoom=in-right">
-          Check out my latest project and discover how it revolutionizes the way we approach
+          Check out my featured projects!
         </p>
       </div>
-      <div data-aos="zoon-up-down" class="languages">
+      <!-- <div data-aos="zoon-up-down" class="languages">
         <span class="html">
           HTML
         </span>
@@ -37,7 +37,7 @@
         <span class="node">
           Node.js
         </span>
-      </div>
+      </div> -->
     </div>
     <kike-projects-Cards2 />
   </section>
@@ -52,7 +52,7 @@ section {
     .information {
        @apply max-w-6xl w-full mx-auto  px-4;
       .intro {
-        @apply mx-auto lg:flex lg:flex-row flex-col lg:py-10 py-4 gap-36 ;
+        @apply mx-auto lg:flex lg:flex-row flex-col lg:py-10 py-4 gap-36 items-center;
          h2 {
           @apply lg:text-5xl text-3xl uppercase tracking-wider mb-4 w-1/2;
                   font-family: "Source Code Pro SemiBold";

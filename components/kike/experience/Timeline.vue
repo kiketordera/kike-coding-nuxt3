@@ -162,7 +162,7 @@
 section {
     @apply w-full mx-auto px-4 pb-12;
      .intro {
-        @apply lg:mx-auto lg:flex lg:flex-row flex-col lg:py-20 py-4 gap-36 mb-2 w-full max-w-6xl;
+        @apply lg:mx-auto lg:flex lg:flex-row flex-col lg:py-20 py-4 gap-36 mb-2 w-full max-w-6xl items-center;
          h2 {
           @apply lg:text-4xl text-2xl uppercase tracking-wider mb-5;
                   font-family: "Source Code Pro SemiBold";
