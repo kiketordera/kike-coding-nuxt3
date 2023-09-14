@@ -1,11 +1,11 @@
 <template>
   <section>
-    <div class="flex w-full overflow-scroll">
-      <div v-for="project in Projects" :key="project.name" class="card">
+    <div class="flex w-full snap-x snap-mandatory overflow-scroll">
+      <div v-for="project in Projects" :key="project.name" class="card ">
         <a :href="project.url">
           <v-hover v-slot="{ isHovering, props }">
             <v-card
-              class="elevation-2 mx-auto rounded-lg"
+              class="elevation-2 mx-auto snap-start rounded-lg"
               width="350"
               height="424"
               v-bind="props"

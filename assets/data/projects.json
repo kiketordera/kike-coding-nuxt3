@@ -4,7 +4,6 @@
         "logo": "/projects/kikenya/kikenya-logo.svg",
         "img": "/projects/kikenya/kikenya-picture.jpg",
         "web": "https://kikenyatours.com",
-        "description": "Kikenya is a tours company in Kenya.",
         "color_bg_logo": "#F0D0A7",
         "color_bg_title": "#BF7A40",
         "color_title": "#240002",
@@ -14,8 +13,7 @@
         "name": "Value Villages",
         "logo": "/projects/vv/value-villages.png",
         "img": "/projects/vv/vv-mobile.png",
-        "web": "https://kikenyatours.com",
-        "description": "Kikenya is a tours company in Kenya.",
+        "web": "https://value-villages.org",
         "color_bg_logo": "white",
         "color_bg_title": "#63B190",
         "color_title": "white",
@@ -25,8 +23,7 @@
         "name": "Eva drones",
         "logo": "/projects/drones/logo.png",
         "img": "/projects/drones/bg.jpeg",
-        "web": "https://kikenyatours.com",
-        "description": "Kikenya is a tours company in Kenya.",
+        "web": "https://eva-labs.com",
         "color_bg_logo": "white",
         "color_bg_title": "#00588E",
         "color_title": "white",
@@ -36,12 +33,30 @@
         "name": "Oculid",
         "logo": "/projects/oculid/logo.svg",
         "img": "/projects/oculid/bg.png",
-        "web": "https://kikenyatours.com",
-        "description": "Kikenya is a tours company in Kenya.",
+        "web": "https://oculid.com",
         "color_bg_logo": "white",
         "color_bg_title": "#008080",
         "color_title": "white",
         "url": "/projects/oculid"
+    },
+    {
+        "name": "Action Coast",
+        "logo": "/projects/action-coast/logo.svg",
+        "img": "/projects/action-coast/cover.png",
+        "web": "https://kikenyatours.com",
+        "color_bg_logo": "white",
+        "color_bg_title": "#3F62AC",
+        "color_title": "white",
+        "url": "/projects/action-coast"
+    },
+    {
+        "name": "Culinu",
+        "logo": "/projects/culinu/logo.svg",
+        "img": "/projects/culinu/cover.png",
+        "web": "https://culinu.eu",
+        "color_bg_logo": "white",
+        "color_bg_title": "#1B5638",
+        "color_title": "white",
+        "url": "/projects/culinu"
     }
-
 ]
