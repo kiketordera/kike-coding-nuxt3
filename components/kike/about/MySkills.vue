@@ -12,8 +12,8 @@
         <hr>
         <kike-about-Programming />
         <hr>
-        <kike-about-Skills :skills="softSkills" :title="'Soft Skills'" />
         <kike-about-Skills :skills="leadershipSkills" :title="'Leadership Skills'" :color="'#55C5CA'" class="pb-12" />
+        <kike-about-Skills :skills="softSkills" :title="'Soft Skills'" />
       </div>
     </div>
   </section>
@@ -47,29 +47,32 @@ const leadershipSkills = [
 
 <style lang="scss" scoped>
 section {
-    @apply w-full py-2 mx-auto;
-    .skills {
-        @apply max-w-6xl flex gap-2 lg:flex-row flex-col mx-auto px-4;
-         h2 {
-           @apply lg:text-4xl text-3xl  tracking-wider mb-4 lg:w-1/2 my-8;
-                font-family: "Source Code Pro Bold";
-                font-weight: 600;
-                color: #CCCCCC;
-        }
-        .info {
-             @apply w-full text-justify;
+  @apply w-full py-2 mx-auto;
 
-            p {
-              @apply lg:text-lg  my-6 items-start;
-              color: #CCCCCC;
-            }
+  .skills {
+    @apply max-w-6xl flex gap-2 lg:flex-row flex-col mx-auto px-4;
 
-            }
-             hr {
-        @apply my-4;
-        border-color: #595959;
-    }
-        }
+    h2 {
+      @apply lg:text-4xl text-3xl tracking-wider mb-4 lg:w-1/2 my-8;
+      font-family: "Source Code Pro Bold";
+      font-weight: 600;
+      color: #CCCCCC;
     }
 
+    .info {
+      @apply w-full text-justify;
+
+      p {
+        @apply lg:text-lg my-6 items-start;
+        color: #CCCCCC;
+      }
+
+    }
+
+    hr {
+      @apply my-4;
+      border-color: #595959;
+    }
+  }
+}
 </style>
