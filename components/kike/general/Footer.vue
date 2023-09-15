@@ -1,6 +1,6 @@
 
 <template>
-  <section>
+  <footer>
     <div id="footer" class="contact">
       <div class="details">
         <h2 data-aos="zoom-in-left">
@@ -23,78 +23,75 @@
             </li>
           </ul>
         </div>
+        <div class="legal flex gap-8">
+          <NuxtLink to="/legal/cookies-policy">
+            Cookies
+          </NuxtLink>
+          <NuxtLink to="/legal/privacy-policy">
+            Privacy
+          </NuxtLink>
+        </div>
       </div>
     </div>
-    <hr>
-    <div class="copyright">
-      <p>Copyright © {{ year }} Kike Tordera All Rights Reserved</p>
-    </div>
-  </section>
+  </footer>
 </template>
 
 <script lang="ts" setup>
-const year = computed(() => new Date().getFullYear())
+// const year = computed(() => new Date().getFullYear())
 </script>
 
 <style lang="scss" scoped>
-section {
-    @apply w-full mx-auto;
+footer {
+  @apply w-full mx-auto;
+  background-color: black;
+  .contact {
+    @apply pt-20 pb-8 mx-auto max-w-6xl px-4;
     background-color: black;
-    .contact {
-        @apply py-40 mx-auto max-w-6xl px-4;
+    .details {
+      @apply flex lg:gap-3 items-center gap-4 justify-center;
+      background-color: black;
+      h2 {
+        @apply text-center lg:text-9xl md:text-4xl font-extrabold text-2xl uppercase tracking-wide;
+        font-family: 'Source Code Pro SemiBold';
+        color: white;
         background-color: black;
-        .details {
-          @apply flex lg:gap-3 items-center  gap-4 justify-center;
-          background-color: black;
-          h2 {
-              @apply text-center lg:text-9xl md:text-4xl font-extrabold text-2xl uppercase tracking-wide ;
-                 font-family: 'Source Code Pro SemiBold';
-                 color: white;
-                 background-color: black;
-          }
-          img {
-            @apply lg:w-auto w-4;
-            color: white;
-            background-color: black;
-          }
-        }
-        hr {
-            @apply py-[0.2rem] mt-3;
-        }
-        .social-media {
-            @apply mt-6 flex lg:flex-row flex-col justify-between items-center;
-            font-weight: 600;
-            background-color: black;
-            .items {
-                @apply text-xl uppercase mb-5;
-                background-color: black;
-                ul {
-                    @apply flex gap-8 mx-8;
-                    background-color: black;
-                    li {
-                        color: $button-color;
-                       img {
-                        @apply w-8 h-8;
-                        background-color: black;
-                       }
-                    }
-                }
-            }
-
-        }
+      }
+      img {
+        @apply lg:w-auto w-4;
+        color: white;
+        background-color: black;
+      }
     }
     hr {
-        @apply my-4;
-        border-color: #595959;
+      @apply py-[0.2rem] mt-3;
     }
-    .copyright {
-       background-color: black;
-       p {
-        @apply py-6 lg:text-xl text-sm text-center;
-        background-color: black;
-        color: #595959;
-       }
-    }
-}
+    .social-media {
+      @apply mt-6 flex lg:flex-row flex-col justify-between items-center;
+      font-weight: 600;
 
+      .items {
+        @apply text-xl uppercase mb-5;
+
+        ul {
+          @apply flex gap-8 mx-8;
+
+          li {
+            color: $button-color;
+
+            img {
+              @apply w-8 h-8;
+            }
+          }
+        }
+      }
+    }
+  }
+  hr {
+    @apply my-4;
+    border-color: #595959;
+  }
+  .legal {
+    color: #595959;
+  }
+}
 </style>

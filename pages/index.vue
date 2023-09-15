@@ -14,14 +14,11 @@
       :same-as="siteMeta.sameAs"
     />
     <CookieControl v-if="showCookieConsent" locale="en" />
-    <kike-general-NavBar />
     <kike-index-Information />
     <general-InfiniteScroll :images="skills" :scroll-right="true" />
     <kike-index-About />
     <kike-projects-Work />
     <kike-experience-Timeline />
-    <kike-general-Footer />
-    <kike-general-TotemSignature />
   </main>
 </template>
 
