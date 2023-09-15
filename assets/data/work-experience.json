@@ -69,6 +69,30 @@
         "webLink": "https://www.linkedin.com/school/upv/"
     },
     {
+        "title": "Mentor Web Development & UX/UI Design",
+        "nameCompany": "Learning Lions",
+        "img": "/experience/learning.png",
+        "type": "volunteer",
+        "description": [
+            "As a final project of my university degree, I come to Lodwar to make Volunteering as a Learning and Service as Final Degree Project, giving people the opportunity to have a proper future through technology.",
+            "I also made some educational modules and evaluations to the students alongside the mentoring and teaching.",
+            "I introduced some tools and work-flows in the organisation that helped them to improve their services and their internal organization."
+        ],
+        "skills": [
+            "Adobe XD",
+            "Raspberry Pi",
+            "UX/UI Design",
+            "Web Development",
+            "Mentorship"
+        ],
+        "place": "Turkana, Kenya",
+        "startDate": "Feb 2018",
+        "endDate": "Jun 2018",
+        "durationMonths": "5 Months",
+        "modality": "on-site",
+        "webLink": "https://www.learninglions.org/"
+    },
+    {
         "title": "Full Stack Developer & UI Designer",
         "nameCompany": "Value Villages",
         "img": "/experience/vv.png",

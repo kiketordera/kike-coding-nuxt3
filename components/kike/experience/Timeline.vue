@@ -9,13 +9,13 @@
       </p>
     </div>
   </div>
-  <v-timeline side="end" direction="horizontal" class="content">
+  <v-timeline :line-color="'#9B3434'" side="end" direction="horizontal" class="content">
     <v-timeline-item
       v-for="exp in rev"
       :key="exp.title"
-
       width="500"
-      height="550"
+      height="650"
+      :dot-color="getColor(exp.type)"
       class="experience"
     >
       <template #opposite>
@@ -30,15 +30,20 @@
         </div>
       </template>
       <div :class="exp.type">
-        <p class="title">
+        <p class="title rounded-t-md">
           {  {{ exp.title }} }
         </p>
-        <p class="title place">
+        <p class="title place rounded-b-md">
           { {{ exp.nameCompany }} }
         </p>
         <p v-for="text in exp.description" :key="text" class="description">
           {{ text }}
         </p>
+        <v-chip-group class="mt-4">
+          <v-chip v-for="chip in exp.skills" :key="chip">
+            {{ chip }}
+          </v-chip>
+        </v-chip-group>
       </div>
     </v-timeline-item>
   </v-timeline>
@@ -48,12 +53,21 @@
 import experiences from '~/assets/data/work-experience.json'
 
 const rev = experiences.reverse()
+
+function getColor (tpe: string) {
+  if (tpe === 'work') {
+    return '#55C5CA' // Blue
+  } else if (tpe === 'education') {
+    return '#F89F76' // Orange
+  } else if (tpe === 'volunteer') {
+    return '#63B190' // Green
+  }
+}
 </script>
 
 <style lang="scss" scoped>
 
  .intro {
-  // background-color: white;
   .content {
     @apply max-w-6xl mx-auto flex justify-between items-center gap-12 px-4;
   }
@@ -66,11 +80,11 @@ const rev = experiences.reverse()
   }
 .content {
   @apply overflow-x-scroll overflow-y-hidden w-full pt-12 gap-0;
-  // background-color: white;
   .experience {
     @apply mb-12;
     .logo {
-      @apply max-w-[60rem] max-h-[4rem] mx-auto;
+      @apply max-w-[60rem] max-h-[5rem] mx-auto py-2 px-4 rounded-md;
+      background-color: white;
     }
     span {
       @apply mx-auto;
@@ -101,7 +115,7 @@ const rev = experiences.reverse()
     }
     & .volunteer {
       p.title {
-        background-color: $cyber-yellow;
+        background-color: $branding-green;
       }
     }
   }
