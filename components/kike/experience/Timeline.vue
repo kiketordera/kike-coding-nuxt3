@@ -1,4 +1,14 @@
 <template>
+  <div class="intro">
+    <div class="content">
+      <h2 data-aos="fade-up">
+        My Experience
+      </h2>
+      <p data-aos="zoom-in-right">
+        Explore my professional journey and expertise through my comprehensive work experience section
+      </p>
+    </div>
+  </div>
   <v-timeline side="end" direction="horizontal" class="content">
     <v-timeline-item
       v-for="exp in rev"
@@ -41,10 +51,24 @@ const rev = experiences.reverse()
 </script>
 
 <style lang="scss" scoped>
+
+ .intro {
+  // background-color: white;
+  .content {
+    @apply max-w-6xl mx-auto flex justify-between items-center gap-12 px-4;
+  }
+    h2 {
+      @include title-kike-section;
+    }
+    p {
+      @apply text-base w-full;
+    }
+  }
 .content {
-  @apply overflow-x-scroll overflow-y-hidden w-full mt-8 pt-12 gap-0;
-  background-color: white;
+  @apply overflow-x-scroll overflow-y-hidden w-full pt-12 gap-0;
+  // background-color: white;
   .experience {
+    @apply mb-12;
     .logo {
       @apply max-w-[60rem] max-h-[4rem] mx-auto;
     }

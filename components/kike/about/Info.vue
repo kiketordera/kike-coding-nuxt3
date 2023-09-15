@@ -15,10 +15,12 @@
         </p>
         <p data-aos="fade-right">
           But here's the twist: I'm not just about the code. I'm passionate about crafting experiences.
-          🎨 To me, a sleek design and intuitive interface aren't just the icing on the cake—they're essential ingredients.
+          🎨 To me, a sleek design and intuitive interface aren't just the icing on the cake—they're essential
+          ingredients.
         </p>
         <p data-aos="fade-right">
-          Because, in the end, it's all about creating something that's more than just the sum of its parts. Ready to create magic together?
+          Because, in the end, it's all about creating something that's more than just the sum of its parts. Ready to
+          create magic together?
         </p>
         <img src="~assets/img/kk/kike.png" alt="" class="profile">
         <button data-aos="zoom-up-down" type="submit">
@@ -33,33 +35,32 @@
 </script>
 <style lang="scss" scoped>
 section {
-    @apply w-full py-40 mx-auto;
-    .about-us {
-        @apply max-w-6xl flex gap-2 lg:flex-row flex-col mx-auto px-4;
-         h2 {
-           @apply lg:text-4xl text-3xl  tracking-wider mb-4 w-1/2 my-8;
-                font-family: "Source Code Pro Bold";
-                font-weight: 600;
-                color: #CCCCCC;
-        }
-        .info {
-             @apply w-full text-justify;
+  @apply w-full py-40 mx-auto;
 
-            p {
-              @apply lg:text-lg my-6 items-start;
-              color: #CCCCCC;
-            }
+  .about-us {
+    @apply max-w-6xl flex gap-2 lg:flex-row flex-col mx-auto px-4;
 
-            button {
-                @apply text-base uppercase flex gap-3  mt-5 text-center lg:w-auto w-full;
-                color: $background-color;
-                font-weight: 600;
-                span {
-                    color: #CCCCCC;
-                }
-            }
-        }
+    h2 {
+      @include title-kike-section;
     }
-}
 
-</style>
+    .info {
+      @apply w-full text-justify;
+
+      p {
+        @apply lg:text-lg my-6 items-start;
+        color: #CCCCCC;
+      }
+
+      button {
+        @apply text-base uppercase flex gap-3 mt-5 text-center lg:w-auto w-full;
+        color: $background-color;
+        font-weight: 600;
+
+        span {
+          color: #CCCCCC;
+        }
+      }
+    }
+  }
+}</style>

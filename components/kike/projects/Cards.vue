@@ -1,84 +1,83 @@
 <template>
   <section>
-    <div class="skills">
-      <div class="card">
-        <div data-aos="zoom-in-left" class="card-body">
-          <img src="~assets/img/kk/action-coast.png" alt="value villages">
-          <NuxtLink to="/projects/value-villages/about">
-            <button type="button">
-              Value Village
-            </button>
-          </NuxtLink>
-        </div>
-        <div data-aos="zoom-up-right" class="card-body">
-          <div class="gradient">
-            <img src="~assets/img/kk/kikenya.png" alt="kikenya">
-            <div class="logo">
-              <img src="~assets/svg/kk/kikenya.svg" alt="">
-            </div>
-          </div>
-          <NuxtLink to="/open">
-            <button type="button">
-              Kikenya Tours
-            </button>
-          </NuxtLink>
-        </div>
-        <div data-aos="zoom-up-down" class="card-body">
-          <img src="~assets/img/kk/drones.png" alt="drones">
-          <button type="button">
-            Drones Project
-          </button>
-        </div>
-        <div data-aos="zoom-in-right" class="card-body">
-          <div class="gradient">
-            <img src="~assets/img/kk/action-coast.png" alt="">
-            <div class="logo">
-              <img src="~assets/svg/kk/action-coast.svg" alt="">
-            </div>
-          </div>
-          <button type="button">
-            Action Coast
-          </button>
-        </div>
+    <div ref="scrollContainer" class="flex w-full snap-x snap-mandatory overflow-scroll">
+      <div v-for="project in Projects" :key="project.name" class="card mr-8">
+        <a :href="project.url">
+          <v-hover v-slot="{ isHovering, props }">
+            <v-card
+              class="elevation-2 mx-auto snap-start rounded-lg"
+              width="350"
+              height="424"
+              v-bind="props"
+            >
+              <v-img
+                :aspect-ratio="16/9"
+                contain
+                height="350"
+                width="350"
+                :src="project.img"
+              >
+                <v-expand-transition>
+                  <div
+                    v-if="isHovering"
+                    class="d-flex transition-fast-in-fast-out v-card--reveal text-h2 text-center"
+                    :style="`background-color: ${project.color_bg_logo}`"
+                    style="height: 100%; opacity: 0.85; backdrop-filter: blur(10px);"
+                  >
+                    <img :src="project.logo" :alt="`${project.name} logo`" class="mx-auto object-contain px-10">
+                  </div>
+                </v-expand-transition>
+              </v-img>
+              <div class="text text-center" :style="`background-color: ${project.color_bg_title}`">
+                <h3
+                  :style="`color: ${project.color_title}`"
+                  class="text-h3 py-3 font-bold"
+                >
+                  {{ project.name }}
+                </h3>
+              </div>
+            </v-card>
+          </v-hover>
+        </a>
       </div>
     </div>
   </section>
 </template>
 
-<script>
+<script lang="ts" setup>
+import { ref, onMounted, onBeforeUnmount } from 'vue'
+import Projects from '~~/assets/data/projects.json'
+
+const scrollContainer = ref<HTMLElement | null>(null)
+let scrollInterval: number
+let direction = 1 // 1 for left-to-right, -1 for right-to-left
+
+onMounted(() => {
+  const container = scrollContainer.value
+  const scrollAmount = 350 // This is the width of a card. Adjust if needed.
+
+  scrollInterval = window.setInterval(() => {
+    if (!container) { return }
+
+    if (direction === 1 && (container.scrollLeft + container.offsetWidth >= container.scrollWidth)) {
+      direction = -1 // Reverse direction to right-to-left
+    } else if (direction === -1 && container.scrollLeft === 0) {
+      direction = 1 // Reverse direction to left-to-right
+    }
+
+    container.scrollTo({
+      left: container.scrollLeft + (scrollAmount * direction),
+      behavior: 'smooth'
+    })
+  }, 6000)
+})
+
+onBeforeUnmount(() => {
+  clearInterval(scrollInterval) // Clear the interval when the component is destroyed.
+})
 
 </script>
 
 <style lang="scss" scoped>
-section {
-    @apply w-full mx-auto;
-    .skills {
-        @apply max-w-6xl w-full py-8 mx-auto px-4;
-        .card {
-          @apply grid lg:grid-cols-2 grid-cols-1 gap-4 my-4 w-full;
-          .card-body {
-            @apply w-full;
-            .gradient {
-              @apply w-full;
-              color: black;
-               background-size: cover;
-               opacity: 0.9;
-              .logo {
-                @apply absolute inset-x-10 left-16 top-24 w-1/3 items-center justify-center px-4;
-              }
-            }
-            img {
-              @apply bg-cover w-full;
-            }
-            button {
-                @apply lg:text-base text-sm uppercase px-16 py-4 text-center w-full;
-                background-color: black;
-                color: white;
-                font-weight: 600;
-            }
-          }
-        }
-    }
-}
 
 </style>
