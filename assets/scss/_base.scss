@@ -54,7 +54,7 @@ $mediaMinWidth: 480px;
 }
 
 @mixin title-kike-section {
-  @apply lg:text-5xl text-3xl uppercase tracking-wider mb-4 w-1/2;
+  @apply lg:text-4xl text-xl whitespace-nowrap tracking-wider mb-4 w-1/2;
   font-family: "Source Code Pro SemiBold";
   font-weight: 600;
   color: #CCCCCC;

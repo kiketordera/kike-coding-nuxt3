@@ -42,10 +42,7 @@ section {
     @apply max-w-6xl mx-auto lg:flex lg:flex-row flex-col py-36 w-full lg:mx-auto px-4;
 
     h2 {
-      @apply lg:text-4xl text-2xl tracking-wider mb-4 w-1/2 my-8;
-      font-family: "Source Code Pro Bold";
-      font-weight: 600;
-      color: #CCCCCC;
+      @include title-kike-section;
     }
 
     .info {

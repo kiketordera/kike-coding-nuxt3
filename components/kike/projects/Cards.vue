@@ -5,9 +5,9 @@
         <a :href="project.url">
           <v-hover v-slot="{ isHovering, props }">
             <v-card
-              class="elevation-2 mx-auto snap-start rounded-lg"
+              class="elevation-2 rounded-0 mx-auto snap-start"
               width="350"
-              height="424"
+              height="402"
               v-bind="props"
             >
               <v-img
@@ -31,7 +31,7 @@
               <div class="text text-center" :style="`background-color: ${project.color_bg_title}`">
                 <h3
                   :style="`color: ${project.color_title}`"
-                  class="text-h3 py-3 font-bold"
+                  class="py-3 text-2xl font-bold"
                 >
                   {{ project.name }}
                 </h3>

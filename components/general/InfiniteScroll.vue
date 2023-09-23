@@ -35,11 +35,9 @@ $animation-duration: 35s;
   min-width: 100vw;
   @media screen and (max-width: 768px) {
     height: 5.2rem;
-    min-width: 900px;
   }
   @media screen and (max-width: 480px) {
     height: 4rem;
-    min-width: 650px;
   }
   overflow-x: hidden;
 }

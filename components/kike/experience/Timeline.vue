@@ -39,11 +39,11 @@
         <p v-for="text in exp.description" :key="text" class="description">
           {{ text }}
         </p>
-        <v-chip-group class="mt-4">
-          <v-chip v-for="chip in exp.skills" :key="chip">
+        <div class="chips">
+          <div v-for="chip in exp.skills" :key="chip" class="chip">
             {{ chip }}
-          </v-chip>
-        </v-chip-group>
+          </div>
+        </div>
       </div>
     </v-timeline-item>
   </v-timeline>
@@ -69,14 +69,15 @@ function getColor (tpe: string) {
 
  .intro {
   .content {
-    @apply max-w-6xl mx-auto flex justify-between items-center gap-12 px-4;
-  }
+    @apply max-w-6xl mx-auto flex justify-between items-center gap-12 px-4 py-16 mt-24;
     h2 {
       @include title-kike-section;
+      @apply w-1/3;
     }
     p {
-      @apply text-base w-full;
+      @apply text-base w-2/3 ml-8;
     }
+  }
   }
 .content {
   @apply overflow-x-scroll overflow-y-hidden w-full pt-12 gap-0;
@@ -94,7 +95,7 @@ function getColor (tpe: string) {
       color: white;
     }
     p.place {
-      @apply text-base font-bold px-4 pt-0;
+      @apply text-base font-bold px-4 pt-0 pb-2;
       color: black;
     }
     p {
@@ -118,6 +119,15 @@ function getColor (tpe: string) {
         background-color: $branding-green;
       }
     }
+  }
+}
+
+.chips {
+  @apply flex flex-wrap gap-3 mt-8 mx-4;
+  .chip {
+    @apply rounded-full px-3 py-1 text-xs;
+    background-color: $light-gray;
+    color: $dark-gray;
   }
 }
 </style>

@@ -25,12 +25,6 @@ section {
           @include title-kike-section;
         }
       }
-      .skills {
-        @apply py-8 w-full;
-        .card {
-          @apply grid grid-cols-2 gap-5 my-4;
-        }
-      }
     }
 }
 </style>

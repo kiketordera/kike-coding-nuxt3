@@ -5,9 +5,9 @@
         "img": "/experience/mongolia.jpeg",
         "type": "education",
         "description": [
-            "At the Mongolian University of Science and Technology, I honed my skills as an Android Developer by designing and developing Java applications for Android.",
-            "My primary project was a REST client that connected to middleware for managing GET and POST requests. I played a crucial role in integrating a sensor system that enabled real-time access, remote activation, and monitoring of sensors anywhere in the world with Wi-Fi connectivity.",
-            "Furthermore, I designed user interfaces and implemented features for visualizing sensor data through graphical representations."
+            "At the Mongolian University of Science and Technology, I refined my Android Developer abilities, focusing on Java applications for Android.",
+            "I developed a REST client connecting to middleware for GET and POST requests. I integrated a sensor system for real-time access, remote activation, and global monitoring with Wi-Fi.",
+            "Moreover, I crafted user interfaces and visualized sensor data through graphical representations."
         ],
         "skills": [
             "Android Development",
@@ -28,9 +28,9 @@
         "img": "/experience/codewell.jpeg",
         "type": "education",
         "description": [
-            "At CodeWell, I expanded my expertise in iOS development using Xcode, Swift, and Objective-C. I participated in various projects, including the development of an app for the 'Summer Ohrid Festival' and an app without storyboards to deepen my understanding of constraints, views, and code functionality.",
-            "I gained experience with Google Firebase, CoreData for permanent information storage, and using third-party frameworks such as SDWebImage, TTTAttributedLabel, and SnapKit. I also designed app interfaces and created iOS animations with Bezier Path, Paintcode, and Quartzcode.",
-            "This internship offered me the opportunity to work in a diverse team setting, collaborating with people from different cultures."
+            "At CodeWell, I delved into iOS development using Xcode, Swift, and Objective-C. I contributed to projects like the 'Summer Ohrid Festival' app and another app to understand constraints and code.",
+            "I worked with Google Firebase, CoreData, and third-party frameworks like SDWebImage, TTTAttributedLabel, and SnapKit. I designed app interfaces and crafted iOS animations using Bezier Path and more.",
+            "This role enriched my experience in a multicultural team, fostering collaboration and understanding."
         ],
         "skills": [
             "Mobile Application Development",
@@ -51,9 +51,9 @@
         "img": "/experience/upv.svg",
         "type": "work",
         "description": [
-            "As a Frontend Developer at the Doctoral School of the Universitat Politècnica de València, I played a crucial role in maintaining and updating the school's website.",
-            "My responsibilities encompassed creating HTML content, applying uniform formatting using HTML and CSS, and ensuring the accuracy of the website's visual information.",
-            "Additionally, I expanded my skill set by working on video editing projects for internal educational purposes and conferences."
+            "At the Universitat Politècnica de València's Doctoral School, I was pivotal in updating the school's website as a Frontend Developer.",
+            "I created HTML content, ensured uniform formatting with HTML/CSS, and upheld the site's visual accuracy.",
+            "I also ventured into video editing for educational content and conference presentations."
         ],
         "skills": [
             "Front-End Development",
@@ -74,16 +74,16 @@
         "img": "/experience/learning.png",
         "type": "volunteer",
         "description": [
-            "As a final project of my university degree, I come to Lodwar to make Volunteering as a Learning and Service as Final Degree Project, giving people the opportunity to have a proper future through technology.",
-            "I also made some educational modules and evaluations to the students alongside the mentoring and teaching.",
-            "I introduced some tools and work-flows in the organisation that helped them to improve their services and their internal organization."
+            "In Lodwar for my final university project, I volunteered for Learning and Service, promoting technology for a brighter future.",
+            "I crafted educational modules, evaluations, and provided mentoring and teaching to students.",
+            "I introduced tools and workflows, enhancing the organization's services and internal structure."
         ],
         "skills": [
             "Adobe XD",
             "Raspberry Pi",
             "UX/UI Design",
-            "Web Development",
-            "Mentorship"
+            "Mentorship",
+            "Web Development"
         ],
         "place": "Turkana, Kenya",
         "startDate": "Feb 2018",
@@ -98,8 +98,9 @@
         "img": "/experience/vv.png",
         "type": "volunteer",
         "description": [
-            "At Value Villages, I played a vital role in developing a software platform designed for NGOs working on the ground to fight poverty and inequality, with a focus on vocational training and education.",
-            "My responsibilities included designing user interfaces and implementing full-stack solutions that facilitated the platform's workflow, which centered on empowering people through knowledge and fair trade training."
+            "At Value Villages, I was instrumental in creating software for NGOs combating poverty, focusing on vocational training.",
+            "I designed interfaces and implemented full-stack solutions, centralizing on empowering individuals through knowledge and training.",
+            "This role was pivotal in advancing the mission of NGOs on the ground."
         ],
         "skills": [
             "Adobe XD",
@@ -120,9 +121,9 @@
         "img": "/projects/oculid/logo.svg",
         "type": "work",
         "description": [
-            "At Oculid, I led the development of a mobile application that tracked users' eye movements in real-time, aimed at improving user testing and analyzing user experience.",
-            "By gathering data on eye positions, we utilized machine learning to create data visualizations, such as heat maps, that helped developers and designers gain a deeper understanding of how users interacted with their products.",
-            "This information was crucial in optimizing UX/UI designs for enhanced user satisfaction."
+            "At Oculid, I spearheaded a mobile app development tracking users' eye movements, enhancing user testing and UX analysis.",
+            "We gathered eye position data, leveraging machine learning for data visualizations like heat maps, offering insights into user-product interactions.",
+            "Such insights were vital for refining UX/UI designs for better user satisfaction."
         ],
         "skills": [
             "Mobile Application Development",
@@ -145,16 +146,16 @@
         "img": "/experience/circus.png",
         "type": "work",
         "description": [
-            "At Circus, I served as a Senior Frontend Developer on the Flutter team, working to maintain the current product and implement new functionalities to improve the customer experience.",
-            "The mobile app is utilised by thousands of users and is constantly expanding to new locations, which requires us to manage an increasing user base each month.",
-            "I was responsible for monitoring, maintaining, adding features and scaling a mobile application that is already live in production, guaranteeing consistent and optimal performance for our customers."
+            "At Circus, as a Senior Frontend Developer on the Flutter team, I worked on product maintenance and new feature implementation.",
+            "Our app, used by thousands, expands to new locations monthly, necessitating efficient user base management.",
+            "I ensured optimal performance for our growing user base, adding features to a live production app."
         ],
         "skills": [
             "Android Development",
             "iOS Development",
-            "Mobile Application Development",
             "Swift",
-            "Flutter"
+            "Flutter",
+            "Mobile Application Development"
         ],
         "place": "Berlin, Germany",
         "startDate": "Aug 2022",
@@ -169,9 +170,9 @@
         "img": "/experience/totem-logo.svg",
         "type": "work",
         "description": [
-            "In my role as Head of Development at The Totem Studio, I lead the development process for a wide range of web and mobile applications.",
-            "My key responsibilities involve ensuring code quality across all projects, collaborating with clients to gather technical and non-technical requirements, managing a talented team of developers, supervising code development, and overseeing project launches.",
-            "My commitment to excellence and effective communication has been crucial in delivering high-quality products to all our clients."
+            "As Head of Development at The Totem Studio, I directed the development of diverse web and mobile applications.",
+            "I ensured code quality, collaborated with clients for requirements, managed a developer team, and supervised code and project launches.",
+            "My dedication and communication skills were key in delivering top-tier products to clients."
         ],
         "skills": [
             "Mobile Application Development",

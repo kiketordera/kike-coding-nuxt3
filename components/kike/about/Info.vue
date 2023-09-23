@@ -42,10 +42,11 @@ section {
 
     h2 {
       @include title-kike-section;
+      @apply w-1/3;
     }
 
     .info {
-      @apply w-full text-justify;
+      @apply w-2/3 text-justify;
 
       p {
         @apply lg:text-lg my-6 items-start;
