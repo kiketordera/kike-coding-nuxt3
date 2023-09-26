@@ -8,6 +8,19 @@
         Explore my professional journey and expertise through my comprehensive work experience section
       </p>
     </div>
+    <div class="links">
+      <a href="#work" class="work">
+        Work
+      </a>
+      <hr>
+      <a href="#education" class="education">
+        Education
+      </a>
+      <hr>
+      <a href="#volunteer" class="volunteer">
+        Volunteer
+      </a>
+    </div>
   </div>
   <v-timeline line-thickness="1" align="start" side="end" :line-color="'white'" class="content">
     <v-timeline-item
@@ -59,7 +72,7 @@
 <script lang="ts" setup>
 import experiences from '~/assets/data/work-experience.json'
 
-const rev = experiences.reverse()
+const rev = [...experiences].reverse()
 
 function getColor (tpe: string) {
   if (tpe === 'work') {
@@ -75,14 +88,34 @@ function getColor (tpe: string) {
 <style lang="scss" scoped>
 
  .intro {
-  .content {
-    @apply max-w-6xl mx-auto flex justify-between items-center gap-12 px-4 py-16 mt-24;
-    h2 {
-      @include title-kike-section;
-      @apply w-1/3;
+   .content {
+     @apply max-w-6xl mx-auto flex justify-between items-center gap-12 px-4 py-16;
+     h2 {
+       @include title-kike-section;
+       @apply w-1/3;
+     }
+     p {
+       @apply text-base w-2/3 ml-8;
+     }
+   }
+  .links {
+    @apply flex justify-center items-center gap-8;
+    hr {
+      @apply h-[20px];
+      border: .5px solid $light-gray;
     }
-    p {
-      @apply text-base w-2/3 ml-8;
+    a {
+      @apply text-base font-bold;
+      text-decoration: none;
+      &.work {
+        color: $sea-serpent;
+      }
+      &.education {
+        color: $light-salmon;
+      }
+      &.volunteer {
+        color: $cyber-yellow;
+      }
     }
   }
   }
