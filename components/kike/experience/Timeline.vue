@@ -9,22 +9,21 @@
       </p>
     </div>
   </div>
-  <v-timeline :line-color="'#9B3434'" side="end" direction="horizontal" class="content">
+  <v-timeline line-thickness="1" align="start" side="end" :line-color="'white'" class="content">
     <v-timeline-item
       v-for="exp in rev"
       :key="exp.title"
-      width="500"
-      height="650"
+      max-width="750px"
       :dot-color="getColor(exp.type)"
       class="experience"
     >
       <template #opposite>
-        <div class="text-center">
+        <div class="hidden text-center sm:block">
           <img :src="exp.img" class="logo" :alt="`Logo ${exp.nameCompany}`">
-          <p class="mb-1 mt-2 text-center">
+          <p class="mx-auto mb-1 mt-2">
             {{ exp.startDate }}
           </p>
-          <p class="text-center">
+          <p class="mx-auto font-bold">
             {{ exp.durationMonths }}
           </p>
         </div>
@@ -36,6 +35,14 @@
         <p class="title place rounded-b-md">
           { {{ exp.nameCompany }} }
         </p>
+        <div class="ml-4 block text-center sm:hidden">
+          <p class="mx-auto mb-1 mt-2">
+            {{ exp.startDate }}
+          </p>
+          <p class="mx-auto font-bold" style="color: white;">
+            {{ exp.durationMonths }}
+          </p>
+        </div>
         <p v-for="text in exp.description" :key="text" class="description">
           {{ text }}
         </p>
@@ -82,9 +89,9 @@ function getColor (tpe: string) {
 .content {
   @apply overflow-x-scroll overflow-y-hidden w-full pt-12 gap-0;
   .experience {
-    @apply mb-12;
+    @apply mb-12 max-w-sm;
     .logo {
-      @apply max-w-[60rem] max-h-[5rem] mx-auto py-2 px-4 rounded-md;
+      @apply max-w-[60rem] max-h-[5rem] py-2 px-4 rounded-md max-w-full;
       background-color: white;
     }
     span {
@@ -123,18 +130,12 @@ function getColor (tpe: string) {
 }
 
 .chips {
-  @apply flex flex-wrap gap-3 mt-8 mx-4;
+  @apply flex flex-wrap gap-3 mt-8 mx-4 pb-16 sm:pb-24;
   .chip {
     @apply rounded-full px-3 py-1 text-xs;
     background-color: $light-gray;
     color: $dark-gray;
+    font-family: 'Source Code Pro SemiBold';
   }
-}
-</style>
-
-<style lang="scss">
-.v-timeline-divider__before,
-.v-timeline-divider__after {
-  width: 100% !important;
 }
 </style>

@@ -16,7 +16,7 @@
           Specialist in interfaces, from the UX & design to the development & launch.
         </p>
         <p class="txt-blue" data-aos="fade-right">
-          Why choose someone with half the skills? Take someone with the complete package!
+          Why choose someone with half the skills? Take someone with the full package!
         </p>
         <button data-aos="zoom-in-down" type="button">
           Hire me

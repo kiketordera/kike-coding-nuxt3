@@ -35,7 +35,7 @@
     "postcss": "^8.4.24",
     "sass": "^1.63.6",
     "vue": "^3.3.4",
-    "vuetify": "^3.3.5",
+    "vuetify": "^3.3.17",
     "tailwindcss-elevation": "^2.0.0",
     "webpack": "^5.88.0"
   },
