@@ -34,7 +34,7 @@ import { ref, defineProps } from 'vue'
 
 const props = defineProps({
   images: {
-    type: Array,
+    type: Array<string>,
     required: true,
     default: () => [],
   },
