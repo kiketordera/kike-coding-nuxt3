@@ -15,7 +15,7 @@ export default defineNuxtConfig({
       language: 'en-gb'
 
     },
-
+    indexable: true
   },
 
   plugins: [
@@ -90,10 +90,10 @@ extends: [
 nitro: {
   preset: 'firebase',
   prerender: {
-    crawlLinks: true,
+    crawlLinks: false,
     routes: [
       '/',
-      '/about-us',
+      '/about',
     ],
   },
   esbuild: {
