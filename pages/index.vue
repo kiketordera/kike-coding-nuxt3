@@ -15,9 +15,7 @@
     />
     <CookieControl v-if="showCookieConsent" locale="en" />
     <kike-index-Information />
-    <infinite-slide-bar>
-      <general-InfiniteScroll :images="skills" :scroll-right="true" />
-    </infinite-slide-bar>
+    <general-ContinuousScroll />
     <kike-index-About />
     <!-- <kike-projects-Work /> -->
     <kike-experience-Timeline />
@@ -25,35 +23,6 @@
 </template>
 
 <script lang="ts" setup>
-import { defineComponent } from 'vue'
-import InfiniteSlideBar from 'vue3-infinite-slide-bar'
-
-defineComponent({
-    components: {
-        'infinite-slide-bar': InfiniteSlideBar
-    }
-})
-
-const skills = [
-'/svg/kk/skills/html5.svg',
-'/svg/kk/skills/css3.svg',
-'/svg/kk/skills/dart.svg',
-'/svg/kk/skills/docker.svg',
-'/svg/kk/skills/firebase.svg',
-'/svg/kk/skills/flutter.svg',
-'/svg/kk/skills/golang.svg',
-'/svg/kk/skills/java.svg',
-'/svg/kk/skills/js.svg',
-'/svg/kk/skills/node.svg',
-'/svg/kk/skills/nuxt.svg',
-'/svg/kk/skills/swift.svg',
-'/svg/kk/skills/tailwind.svg',
-'/svg/kk/skills/ts.svg',
-'/svg/kk/skills/ux.svg',
-'/svg/kk/skills/ui.svg',
-'/svg/kk/skills/vue.svg',
-]
-
 const siteMeta = useSiteMeta()
 const showCookieConsent = ref(false)
 onMounted(() => {
