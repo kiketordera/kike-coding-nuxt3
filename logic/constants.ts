@@ -8,5 +8,6 @@ export const SiteTagLine = 'UX / UI designer and software engineer'
 export const SiteDescription = 'Hi! I\'m Kike Tordera, a UX / UI designer and software engineer. I have a solid base in programming thanks to my studies and international experience'
 export const SameAs = [
     // TODO: Add Linkedin link
-  'https://github.com/kiketordera'
+  'https://github.com/kiketordera',
+  'https://de.linkedin.com/in/kiketordera'
 ]

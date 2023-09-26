@@ -4,7 +4,7 @@ export default defineNuxtConfig({
     typeCheck: true
   },
 
-  modules: ['@nuxtjs/tailwindcss', '@dargmuesli/nuxt-cookie-control', 'nuxt-gtag',],
+  modules: ['@nuxtjs/tailwindcss', '@dargmuesli/nuxt-cookie-control', 'nuxt-gtag', 'nuxt-security'],
   runtimeConfig: {
     public: {
       GOOGLE_ANALYTICS_MEASUREMENTID: process.env.GOOGLE_ANALYTICS_MEASUREMENTID,
@@ -88,6 +88,7 @@ extends: [
   'nuxt-seo-kit'
 ],
 nitro: {
+  preset: 'firebase',
   prerender: {
     crawlLinks: true,
     routes: [
@@ -95,6 +96,20 @@ nitro: {
       '/about-us',
     ],
   },
+  esbuild: {
+    options: {
+      target: 'esnext'
+    }
+  },
 },
-// End of SEO
+security: {
+  rateLimiter: {
+    tokensPerInterval: 5,
+    interval: 'hour',
+  },
+ headers: {
+  crossOriginEmbedderPolicy: false,
+ }
+
+}
 })
