@@ -25,7 +25,7 @@
         <img src="~assets/img/kk/kike.png" alt="" class="profile">
         <button data-aos="zoom-up-down" type="submit">
           <img src="~assets/svg/kk/resume.svg" alt="">
-          <span>Download Resume</span>
+          <a href="/kike-tordera-cv.pdf">Download Resume</a>
         </button>
       </div>
     </div>
