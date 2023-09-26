@@ -9,5 +9,5 @@ export const SiteDescription = 'Hi! I\'m Kike Tordera, a UX / UI designer and so
 export const SameAs = [
     // TODO: Add Linkedin link
   'https://github.com/kiketordera',
-  'https://de.linkedin.com/in/kiketordera'
+  'https://www.linkedin.com/in/kiketordera'
 ]
