@@ -64,7 +64,7 @@
         "place": "Valencia, Spain",
         "startDate": "Sep 2017",
         "endDate": "Nov 2016",
-        "durationMonths": "3 months",
+        "durationMonths": "4 months",
         "modality": "on-site",
         "webLink": "https://www.linkedin.com/school/upv/"
     },
@@ -96,7 +96,7 @@
         "title": "Full Stack Developer & UI Designer",
         "nameCompany": "Value Villages",
         "img": "/experience/vv.png",
-        "type": "volunteer",
+        "type": "work",
         "description": [
             "At Value Villages, I was instrumental in creating software for NGOs combating poverty, focusing on vocational training.",
             "I designed interfaces and implemented full-stack solutions, centralizing on empowering individuals through knowledge and training.",
@@ -116,7 +116,7 @@
         "webLink": "https://www.linkedin.com/school/upv/"
     },
     {
-        "title": "Mobile Developer",
+        "title": "Senior Mobile Developer",
         "nameCompany": "Oculid",
         "img": "/projects/oculid/logo.svg",
         "type": "work",

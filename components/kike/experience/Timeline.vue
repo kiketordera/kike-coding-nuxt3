@@ -67,7 +67,7 @@ function getColor (tpe: string) {
   } else if (tpe === 'education') {
     return '#F89F76' // Orange
   } else if (tpe === 'volunteer') {
-    return '#63B190' // Green
+    return '#FCD405' // Yellow
   }
 }
 </script>
@@ -136,6 +136,7 @@ function getColor (tpe: string) {
     background-color: $light-gray;
     color: $dark-gray;
     font-family: 'Source Code Pro SemiBold';
+    border: 1px solid;
   }
 }
 </style>
