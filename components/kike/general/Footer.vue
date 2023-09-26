@@ -4,7 +4,9 @@
     <div id="footer" class="contact">
       <div class="details">
         <h2 data-aos="zoom-in-left">
-          Get in touch
+          <a href="mailto:kiketordera@gmail.com">
+            Get in touch
+          </a>
         </h2>
         <img data-aos="zoom-right" src="~assets/svg/kk/right-arrow.svg" alt="">
       </div>
@@ -13,13 +15,19 @@
         <div data-aos="zoom-in-down" class="items">
           <ul>
             <li>
-              <img src="~assets/svg/kk/linkedin.svg" alt="">
+              <a target="_blank" href="https://www.linkedin.com/in/kiketordera/">
+                <img src="~assets/svg/kk/linkedin.svg" alt="">
+              </a>
             </li>
+            <!-- <li>
+              <a target="_blank" href="https://github.com/kiketordera">
+                <img src="~assets/svg/kk/github.svg" alt="">
+              </a>
+            </li> -->
             <li>
-              <img src="~assets/svg/kk/github.svg" alt="">
-            </li>
-            <li>
-              <img src="~assets/svg/kk/mail.svg" alt="">
+              <a href="mailto:kiketordera@gmail.com">
+                <img src="~assets/svg/kk/mail.svg" alt="">
+              </a>
             </li>
           </ul>
         </div>

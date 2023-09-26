@@ -7,7 +7,7 @@
       <div class="info">
         <p data-aos="zoom-in-right">
           From the sun-kissed streets of Madrid to the bustling heart of Berlin, I had
-          the oppootunity to have several international experiences in 3 continents, my journey has been nothing short of chill. 🌍
+          the opportunity to have several international experiences in 3 continents, my journey has been nothing short of chill. 🌍
         </p>
         <p data-aos="zoom-in-right">
           From childhood, computers weren't just toys; they were puzzles waiting to be solved. I've been the computer guru
