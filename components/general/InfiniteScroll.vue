@@ -1,4 +1,3 @@
-
 <template>
   <div class="scroll-parent">
     <div class="scroll-element" :class="props.scrollRight ? 'left-primary' : 'right-primary'">

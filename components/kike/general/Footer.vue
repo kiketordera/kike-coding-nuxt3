@@ -1,4 +1,3 @@
-
 <template>
   <footer>
     <div id="footer" class="contact">

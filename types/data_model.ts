@@ -1,4 +1,3 @@
-
 export interface Team {
 [x: string]: string | number | symbol | undefined
     name: string
