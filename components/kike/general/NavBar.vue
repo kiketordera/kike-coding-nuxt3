@@ -17,12 +17,12 @@
             </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/#about" :class="{'active':isLinkActive('/#about')}">
+            <NuxtLink to="/#experience" :class="{'active':isLinkActive('/#about')}">
               //  Work
             </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/#footer" :class="{'active':isLinkActive('/#footer')}">
+            <NuxtLink to="/#contact" :class="{'active':isLinkActive('/#footer')}">
               // Contact
             </NuxtLink>
           </li>
@@ -77,12 +77,12 @@
             </NuxtLink>
           </li>
           <li @click="visitLink">
-            <NuxtLink to="/#about" :class="{'active':isLinkActive('/#about')}">
+            <NuxtLink to="/#experience" :class="{'active':isLinkActive('/#about')}">
               //  Work
             </NuxtLink>
           </li>
           <li @click="visitLink">
-            <NuxtLink to="/about-us/#footer" :class="{'active':isLinkActive('/#footer')}">
+            <NuxtLink to="/#contact" :class="{'active':isLinkActive('/#footer')}">
               // Contact
             </NuxtLink>
           </li>
@@ -174,7 +174,7 @@ nav {
         li {
           @apply block text-base font-medium md:bg-transparent md:p-0 tracking-wider;
           color: white;
-          font-family: "Source Code Pro SemiBold";
+          font-family: $source-code-semibold;
           font-style: italic;
           a {
             @apply cursor-pointer;

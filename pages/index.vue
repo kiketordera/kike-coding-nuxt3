@@ -74,6 +74,6 @@ if (cookiesEnabledIds.value !== undefined && cookiesEnabledIds.value.includes('g
 * {
   background-color: #131212;
   color: #595959;
-  font-family: "Source Code Pro Regular";
+  font-family: $source-code-regular;
 }
 </style>

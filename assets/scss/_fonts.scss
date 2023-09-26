@@ -1,11 +1,4 @@
-@font-face {
-  font-family: 'Nunito Light';
-  font-style: normal;
-  font-weight: 100;
-  font-display: swap;
-  src: url('~/assets/fonts/Nunito/static/Nunito-Light.ttf') format('truetype');
-}
-
+// Nunito
 @font-face {
   font-family: 'Nunito Regular';
   font-style: normal;
@@ -13,51 +6,8 @@
   font-display: swap;
   src: url('~/assets/fonts/Nunito/static/Nunito-Regular.ttf') format('truetype');
 }
-@font-face {
-  font-family: 'Nunito Medium';
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url('~/assets/fonts/Nunito/static/Nunito-Medium.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'Nunito Bold';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url('~/assets/fonts/Nunito/static/Nunito-Bold.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'Nunito SemiBold';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url('~/assets/fonts/Nunito/static/Nunito-SemiBold.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Nunito ExtraBold';
-  font-style: normal;
-  font-weight: 800;
-  font-display: swap;
-  src: url('~/assets/fonts/Nunito/static/Nunito-ExtraBold.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'Nunito Black';
-  font-style: normal;
-  font-weight: 900;
-  font-display: swap;
-  src: url('~/assets/fonts/Nunito/static/Nunito-ExtraBold.ttf') format('truetype');
-}
 
 // Source Code Pro
-@font-face {
-  font-family: 'Source Code Pro';
-  font-style: normal;
-  font-weight: 300;
-  font-display: swap;
-  src: url('~/assets/fonts/Source_Code_Pro/static/SourceCodePro-Light.ttf') format('truetype');
-}
 @font-face {
   font-family: 'Source Code Pro Regular';
   font-style: normal;
@@ -65,13 +15,7 @@
   font-display: swap;
   src: url('~/assets/fonts/Source_Code_Pro/static/SourceCodePro-Regular.ttf') format('truetype');
 }
-@font-face {
-  font-family: 'Source Code Pro Medium';
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url('~/assets/fonts/Source_Code_Pro/static/SourceCodePro-Medium.ttf') format('truetype');
-}
+
 @font-face {
   font-family: 'Source Code Pro SemiBold';
   font-style: normal;
@@ -79,6 +23,7 @@
   font-display: swap;
   src: url('~/assets/fonts/Source_Code_Pro/static/SourceCodePro-SemiBold.ttf') format('truetype');
 }
+
 @font-face {
   font-family: 'Source Code Pro Bold';
   font-style: normal;
@@ -86,13 +31,13 @@
   font-display: swap;
   src: url('~/assets/fonts/Source_Code_Pro/static/SourceCodePro-Bold.ttf') format('truetype');
 }
+
 @font-face {
   font-family: 'Source Code Pro Black';
   font-style: normal;
-  font-weight: 900;
+  font-weight: 700;
   font-display: swap;
   src: url('~/assets/fonts/Source_Code_Pro/static/SourceCodePro-Black.ttf') format('truetype');
 }
-
 
 

@@ -54,7 +54,7 @@ section {
 
     h2 {
       @apply lg:text-4xl text-3xl tracking-wider mb-4 lg:w-1/2 my-8;
-      font-family: "Source Code Pro Bold";
+      font-family: $source-code-bold;
       font-weight: 600;
       color: #CCCCCC;
     }

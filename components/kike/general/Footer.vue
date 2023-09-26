@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <div id="footer" class="contact">
+    <div id="contact" class="contact">
       <div class="details">
         <h2 data-aos="zoom-in-left">
           <a href="mailto:kiketordera@gmail.com">
@@ -59,7 +59,7 @@ footer {
       background-color: black;
       h2 {
         @apply text-center lg:text-9xl md:text-4xl font-extrabold text-2xl uppercase tracking-wide;
-        font-family: 'Source Code Pro SemiBold';
+        font-family: $source-code-semibold;
         color: white;
         background-color: black;
       }

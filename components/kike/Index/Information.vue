@@ -18,9 +18,9 @@
         <p class="txt-blue" data-aos="fade-right">
           Why choose someone with half the skills? Take someone with the full package!
         </p>
-        <button data-aos="zoom-in-down" type="button">
+        <NuxtLink to="/#contact">
           Hire me
-        </button>
+        </NuxtLink>
       </div>
       <kike-Index-ProfileImage />
     </div>
@@ -39,7 +39,7 @@ section {
             @apply lg:w-1/2 w-full mt-16;
             h2 {
                @apply lg:text-4xl text-xl uppercase  tracking-wider mb-4;
-                font-family: "Source Code Pro Bold";
+                font-family: $source-code-bold;
                 color: $font-color;
                 font-weight: 600;
                 span {
@@ -48,9 +48,9 @@ section {
             }
             p {
                 @apply text-base pb-3 w-full text-justify;
-                font-family: "Source Code Pro Regular";
+                font-family: $source-code-regular;
             }
-            button {
+            a {
                 @include button-base;
                 background-color: $button-color;
                 color: $background-color;

@@ -1,6 +1,6 @@
 <template>
   <div class="intro">
-    <div class="content">
+    <div id="experience" class="content">
       <h2 data-aos="fade-up">
         My Experience
       </h2>
@@ -9,22 +9,23 @@
       </p>
     </div>
     <div class="links">
-      <a href="#work" class="work">
+      <NuxtLink :to="`/#work${firstWorkIndex}`" class="work">
         Work
-      </a>
+      </NuxtLink>
       <hr>
-      <a href="#education" class="education">
-        Education
-      </a>
-      <hr>
-      <a href="#volunteer" class="volunteer">
+      <NuxtLink :to="`/#volunteer${firstVolunteerIndex}`" class="volunteer">
         Volunteer
-      </a>
+      </NuxtLink>
+      <hr>
+      <NuxtLink :to="`/#education${firstEducationIndex}`" class="education">
+        Education
+      </NuxtLink>
     </div>
   </div>
   <v-timeline line-thickness="1" align="start" side="end" :line-color="'white'" class="content">
     <v-timeline-item
-      v-for="exp in rev"
+      v-for="(exp, index) in rev"
+      :id="`${exp.type}${index}`"
       :key="exp.title"
       max-width="750px"
       :dot-color="getColor(exp.type)"
@@ -40,15 +41,12 @@
             {{ exp.durationMonths }}
           </p>
         </div>
-      </template>
-      <div :class="exp.type">
+      </template> <div :class="exp.type">
         <p class="title rounded-t-md">
           {  {{ exp.title }} }
-        </p>
-        <p class="title place rounded-b-md">
+        </p> <p class="title place rounded-b-md">
           { {{ exp.nameCompany }} }
-        </p>
-        <div class="ml-4 block text-center sm:hidden">
+        </p> <div class="ml-4 block text-center sm:hidden">
           <p class="mx-auto mb-1 mt-2">
             {{ exp.startDate }}
           </p>
@@ -83,6 +81,10 @@ function getColor (tpe: string) {
     return '#FCD405' // Yellow
   }
 }
+
+const firstWorkIndex = rev.findIndex(exp => exp.type === 'work')
+const firstVolunteerIndex = rev.findIndex(exp => exp.type === 'volunteer')
+const firstEducationIndex = rev.findIndex(exp => exp.type === 'education')
 </script>
 
 <style lang="scss" scoped>
@@ -156,7 +158,7 @@ function getColor (tpe: string) {
     }
     & .volunteer {
       p.title {
-        background-color: $branding-green;
+        background-color: $cyber-yellow;
       }
     }
   }
@@ -168,7 +170,7 @@ function getColor (tpe: string) {
     @apply rounded-full px-3 py-1 text-xs;
     background-color: $light-gray;
     color: $dark-gray;
-    font-family: 'Source Code Pro SemiBold';
+    font-family: $source-code-semibold;
     border: 1px solid;
   }
 }
