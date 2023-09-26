@@ -17,7 +17,7 @@
     <kike-index-Information />
     <general-InfiniteScroll :images="skills" :scroll-right="true" />
     <kike-index-About />
-    <kike-projects-Work />
+    <!-- <kike-projects-Work /> -->
     <kike-experience-Timeline />
   </main>
 </template>

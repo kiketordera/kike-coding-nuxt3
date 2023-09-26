@@ -59,7 +59,7 @@
 <script lang="ts" setup>
 import experiences from '~/assets/data/work-experience.json'
 
-const rev = await experiences.reverse()
+const rev = experiences.reverse()
 
 function getColor (tpe: string) {
   if (tpe === 'work') {
