@@ -1,6 +1,10 @@
 <template>
-  <nav :class="{ 'bottom-gradient': scrollTop / 100 > 1, 'padding-0': isNavbarExpanded }">
-    <div v-if="!isMobileMenuVisible" class="nav-item">
+  <nav
+    v-if="!isNavbarExpanded"
+    :class="{ 'bottom-gradient': scrollTop / 100 > 1, 'padding-0': isNavbarExpanded }"
+    class="elevation-3"
+  >
+    <div class="nav-item show-desktop">
       <NuxtLink to="/" class="logo-link">
         <img src="/svg/kk/logo.svg" alt="">
       </NuxtLink>
@@ -29,7 +33,7 @@
         </ul>
       </div>
     </div>
-    <div v-else-if="!isNavbarExpanded" class="nav-item">
+    <div class="nav-item show-mobile">
       <NuxtLink to="/" class="logo-link">
         <img src="~assets/svg/kk/logo-mobile.svg" alt="">
       </NuxtLink>
@@ -43,13 +47,10 @@
       >
         <img class="w-22" src="~assets/svg/kk/menu.svg" alt="">
       </button>
-      <div v-if="isNavbarExpanded" :style="{ backgroundImage: 'url(/img/background.png)' }" class="link-items expanded">
-        <NuxtLink to="/" class="logo-link">
-          <img src="~assets/svg/kk/logo-mobile.svg" alt="">
-        </NuxtLink>
-      </div>
     </div>
-    <div v-else class="nav-item expanded">
+  </nav>
+  <nav v-else class="expanded">
+    <div class="nav-item expanded">
       <div class="flex w-full items-center justify-between">
         <NuxtLink to="/" class="logo-link">
           <img src="~assets/svg/kk/logo-mobile.svg" alt="">
@@ -152,7 +153,7 @@ onBeforeUnmount(() => {
 
 nav {
   @apply w-full fixed z-30 top-0 px-4 py-2.5;
-      background-color: #131212;
+   background-color: #131212;
   color: #595959;
   border-bottom: 1px solid $sea-serpent;
 
@@ -276,5 +277,14 @@ nav {
      @apply px-4 my-4;
     }
   }
+  .show{
+    &-mobile {
+      @apply flex md:hidden;
+    }
+    &-desktop {
+      @apply hidden md:flex;
+    }
+  }
 }
+
 </style>

@@ -45,7 +45,7 @@ section {
     }
 
     .info {
-      @apply w-2/3 text-justify;
+      @apply lg:w-2/3 w-full text-justify;
 
       p {
         @apply lg:text-lg my-6 items-start;
