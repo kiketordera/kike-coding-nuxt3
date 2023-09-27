@@ -88,6 +88,7 @@ extends: [
   'nuxt-seo-kit'
 ],
 nitro: {
+  preset: 'firebase',
   prerender: {
     crawlLinks: true,
     routes: [
