@@ -1,6 +1,6 @@
 <template>
   <div class="intro">
-    <div class="content">
+    <div id="experience" class="content">
       <h2 data-aos="fade-up">
         My Experience
       </h2>
@@ -8,10 +8,24 @@
         Explore my professional journey and expertise through my comprehensive work experience section
       </p>
     </div>
+    <div class="links">
+      <NuxtLink :to="`/#work${firstWorkIndex}`" class="work">
+        Work
+      </NuxtLink>
+      <hr>
+      <NuxtLink :to="`/#volunteer${firstVolunteerIndex}`" class="volunteer">
+        Volunteer
+      </NuxtLink>
+      <hr>
+      <NuxtLink :to="`/#education${firstEducationIndex}`" class="education">
+        Education
+      </NuxtLink>
+    </div>
   </div>
   <v-timeline line-thickness="1" align="start" side="end" :line-color="'white'" class="content">
     <v-timeline-item
-      v-for="exp in rev"
+      v-for="(exp, index) in rev"
+      :id="`${exp.type}${index}`"
       :key="exp.title"
       max-width="750px"
       :dot-color="getColor(exp.type)"
@@ -20,22 +34,21 @@
       <template #opposite>
         <div class="hidden text-center sm:block">
           <img :src="exp.img" class="logo" :alt="`Logo ${exp.nameCompany}`">
-          <p class="mx-auto mb-1 mt-2">
+          <p class="mx-auto mb-1 mt-2 text-center">
             {{ exp.startDate }}
           </p>
-          <p class="mx-auto font-bold">
+          <p class="mx-auto text-center font-bold text-white">
             {{ exp.durationMonths }}
           </p>
         </div>
-      </template>
-      <div :class="exp.type">
+      </template> <div :class="exp.type">
         <p class="title rounded-t-md">
           {  {{ exp.title }} }
         </p>
         <p class="title place rounded-b-md">
-          { {{ exp.nameCompany }} }
+          {{ exp.nameCompany }}
         </p>
-        <div class="ml-4 block text-center sm:hidden">
+        <div class="mx-auto block text-center sm:hidden">
           <p class="mx-auto mb-1 mt-2">
             {{ exp.startDate }}
           </p>
@@ -59,7 +72,7 @@
 <script lang="ts" setup>
 import experiences from '~/assets/data/work-experience.json'
 
-const rev = experiences.reverse()
+const rev = [...experiences].reverse()
 
 function getColor (tpe: string) {
   if (tpe === 'work') {
@@ -67,22 +80,46 @@ function getColor (tpe: string) {
   } else if (tpe === 'education') {
     return '#F89F76' // Orange
   } else if (tpe === 'volunteer') {
-    return '#63B190' // Green
+    return '#FCD405' // Yellow
   }
 }
+
+const firstWorkIndex = rev.findIndex(exp => exp.type === 'work')
+const firstVolunteerIndex = rev.findIndex(exp => exp.type === 'volunteer')
+const firstEducationIndex = rev.findIndex(exp => exp.type === 'education')
 </script>
 
 <style lang="scss" scoped>
 
  .intro {
-  .content {
-    @apply max-w-6xl mx-auto flex justify-between items-center gap-12 px-4 py-16 mt-24;
-    h2 {
-      @include title-kike-section;
-      @apply w-1/3;
+   .content {
+     @apply max-w-6xl mx-auto flex justify-between items-center gap-12 px-4 py-16;
+     h2 {
+       @include title-kike-section;
+       @apply w-1/3;
+     }
+     p {
+       @apply text-base w-2/3 ml-8;
+     }
+   }
+  .links {
+    @apply flex justify-center items-center gap-8;
+    hr {
+      @apply h-[20px];
+      border: .5px solid $light-gray;
     }
-    p {
-      @apply text-base w-2/3 ml-8;
+    a {
+      @apply text-base font-bold;
+      text-decoration: none;
+      &.work {
+        color: $sea-serpent;
+      }
+      &.education {
+        color: $light-salmon;
+      }
+      &.volunteer {
+        color: $cyber-yellow;
+      }
     }
   }
   }
@@ -98,11 +135,11 @@ function getColor (tpe: string) {
       @apply mx-auto;
     }
     p.title {
-      @apply text-2xl font-bold pt-2 px-4;
+      @apply text-2xl font-bold -mt-1;
       color: white;
     }
     p.place {
-      @apply text-base font-bold px-4 pt-0 pb-2;
+      @apply text-base font-bold py-2;
       color: black;
     }
     p {
@@ -113,17 +150,20 @@ function getColor (tpe: string) {
     }
     & .work {
       p.title {
-        background-color: $sea-serpent;
+        color: $sea-serpent;
+        font-family: $source-code-black;
       }
     }
     & .education {
       p.title {
-        background-color: $light-salmon;
+        color: $light-salmon;
+        font-family: $source-code-black;
       }
     }
     & .volunteer {
       p.title {
-        background-color: $branding-green;
+        color: $cyber-yellow;
+        font-family: $source-code-black;
       }
     }
   }
@@ -135,7 +175,17 @@ function getColor (tpe: string) {
     @apply rounded-full px-3 py-1 text-xs;
     background-color: $light-gray;
     color: $dark-gray;
-    font-family: 'Source Code Pro SemiBold';
+    font-family: $source-code-semibold;
+    border: 1px solid;
   }
+}
+</style>
+
+<style>
+
+.v-timeline--vertical.v-timeline .v-timeline-item:first-child .v-timeline-divider,
+.v-timeline--vertical.v-timeline .v-timeline-item:first-child .v-timeline-item__opposite,
+.v-timeline--vertical.v-timeline .v-timeline-item:first-child .v-timeline-item__body {
+  padding-block-start: 0px;
 }
 </style>

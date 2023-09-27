@@ -126,15 +126,15 @@ section {
       flex-direction: row;
       margin: 0 auto;
       color: white;
-      
+
       .details {
         align-items: center;
-        
+
         img {
           height: auto;
           padding: 0rem 2rem;
         }
-        
+
         p {
           text-align: center;
           margin-top: 1rem;

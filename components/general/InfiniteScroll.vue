@@ -1,45 +1,90 @@
-
 <template>
-  <div class="scroll-parent">
-    <div class="scroll-element" :class="props.scrollRight ? 'left-primary' : 'right-primary'">
-      <img v-for="(image, index) in props.images" :key="index" :src="image" alt="">
+  <div class="scroll-parent" :style="styleObject">
+    <div
+      class="scroll-element"
+      :class="props.scrollRight ? 'left-primary' : 'right-primary'"
+      :style="props.paused ? 'animation-play-state: paused;' : ''"
+    >
+      <img
+        v-for="(image, index) in props.images"
+        :key="index"
+        :src="image"
+        alt="Sliding Image"
+        @error="handleImageError"
+      >
     </div>
-    <div class="scroll-element" :class="props.scrollRight ? 'left-secundary' : 'right-secundary'">
-      <img v-for="(image, index) in props.images" :key="index" :src="image" alt="">
+    <div
+      class="scroll-element"
+      :class="props.scrollRight ? 'left-secondary' : 'right-secondary'"
+      :style="props.paused ? 'animation-play-state: paused;' : ''"
+    >
+      <img
+        v-for="(image, index) in props.images"
+        :key="index"
+        :src="image"
+        alt="Sliding Image"
+        @error="handleImageError"
+      >
     </div>
   </div>
 </template>
 
 <script lang="ts" setup>
+
 const props = defineProps({
   images: {
     type: Array<string>,
     required: true,
-    default: []
+    default: () => [],
   },
   scrollRight: {
     type: Boolean,
     required: true,
-  }
+  },
+  duration: {
+    type: String,
+    default: '30s',
+  },
+  direction: {
+    type: String,
+    default: 'normal',
+  },
+  delay: {
+    type: String,
+    default: '0s',
+  },
+  paused: {
+    type: Boolean,
+    default: false,
+  },
 })
+
+const styleObject = ref({
+  '--animation-duration': props.duration,
+  '--animation-delay': props.delay,
+  '--animation-direction': props.direction,
+})
+
+const handleImageError = (event:any) => {
+  event.target.src = 'path/to/placeholder-image.jpg'
+}
 </script>
 
 <style lang="scss" scoped>
-
-$animation-duration: 35s;
-
 .scroll-parent {
   position: relative;
   width: 100vw;
   height: 6.5rem;
   min-width: 100vw;
+  overflow-x: hidden;
+
   @media screen and (max-width: 768px) {
     height: 5.2rem;
   }
+
   @media screen and (max-width: 480px) {
     height: 4rem;
   }
-  overflow-x: hidden;
 }
 
 .scroll-element {
@@ -49,71 +94,77 @@ $animation-duration: 35s;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  overflow: hidden;
+  animation: left-primary var(--animation-duration) linear infinite var(--animation-delay) var(--animation-direction);
 
   @media screen and (max-width: 768px) {
     max-height: 4rem;
     gap: 0.8rem;
   }
+
   @media screen and (max-width: 480px) {
     gap: 0.7rem;
     max-height: 3rem;
   }
+
   img {
     object-fit: contain;
     max-width: 140px;
     margin-right: 4rem;
   }
-
-  overflow: hidden;
-  animation: left-primary $animation-duration linear infinite;
 }
+
 .left-primary {
-  animation: left-primary $animation-duration linear infinite;
+  animation-name: left-primary;
 }
 
-.left-secundary {
-  animation: left-secundary $animation-duration linear infinite;
+.left-secondary {
+  animation-name: left-secondary;
+}
+
+.right-primary {
+  animation-name: right-primary;
+}
+
+.right-secondary {
+  animation-name: right-secondary;
 }
 
 @keyframes left-primary {
   from {
-    left: 0%;
+    transform: translateX(0%);
   }
   to {
-    left: -100%;
+    transform: translateX(-100%);
   }
 }
 
-@keyframes left-secundary {
+@keyframes left-secondary {
   from {
-    left: 100%;
+    transform: translateX(100%);
   }
   to {
-    left: 0%;
+    transform: translateX(0%);
   }
 }
-.right-primary {
-  animation: right-primary $animation-duration linear infinite;
-}
 
-.right-secundary {
-  animation: right-secundary $animation-duration linear infinite;
-}
 @keyframes right-primary {
   from {
-    left: -100%;
+    transform: translateX(-100%);
   }
   to {
-    left: 0%;
+    transform: translateX(0%);
   }
 }
 
-@keyframes right-secundary {
+@keyframes right-secondary {
   from {
-    left: 0%;
+    transform: translateX(0%);
+    max-width: 72rem;
   }
   to {
-    left: 100%;
+    transform: translateX(100%);
+    max-width: 72rem;
   }
 }
 </style>

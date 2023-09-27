@@ -4,8 +4,9 @@ export default defineNuxtConfig({
     typeCheck: true
   },
 
-  modules: ['@nuxtjs/tailwindcss', '@dargmuesli/nuxt-cookie-control', 'nuxt-gtag',],
+  modules: ['@nuxtjs/tailwindcss', '@dargmuesli/nuxt-cookie-control', 'nuxt-gtag', '@pinia/nuxt', 'nuxt-security'],
   runtimeConfig: {
+    indexable: true,
     public: {
       GOOGLE_ANALYTICS_MEASUREMENTID: process.env.GOOGLE_ANALYTICS_MEASUREMENTID,
       siteUrl: process.env.NUXT_PUBLIC_SITE_URL,
@@ -93,9 +94,25 @@ nitro: {
     crawlLinks: true,
     routes: [
       '/',
-      '/about-us',
+      '/about',
     ],
   },
+  esbuild: {
+    options: {
+      target: 'esnext'
+    }
+  },
 },
+
 // End of SEO
+security: {
+  rateLimiter: {
+    tokensPerInterval: 5,
+    interval: 'hour',
+  },
+ headers: {
+  crossOriginEmbedderPolicy: false,
+ }
+
+}
 })

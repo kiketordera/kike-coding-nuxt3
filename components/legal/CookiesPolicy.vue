@@ -171,21 +171,26 @@ useSeoMeta({ robots: 'noindex' })
 
 <style lang="scss" scoped>
 section {
-    @apply max-w-5xl w-full mx-auto pt-24 sm:mb-4;
+    @apply w-full;
+    background-color: $team-color;
+    font-family: $source-code-regular;
     .content {
-        @apply mx-2 items-center py-8;
-
+        @apply mx-2 items-center py-8 max-w-5xl mx-auto pt-24;
+        color: white;
      h1 {
        @include title-kike-section;
-        @apply text-2xl md:text-4xl font-light pt-10 lowercase md:uppercase mb-4;
+       @apply text-2xl md:text-4xl font-light pt-10 lowercase md:uppercase mb-4;
+       font-family: $source-code-black !important;
       }
       h2 {
-       @include title-kike-section;
+        @include title-kike-section;
         @apply text-xl md:text-2xl font-light pt-8 lowercase md:uppercase mb-4;
+        font-family: $source-code-black !important;
       }
 
       h3 {
-          @apply text-2xl mb-2 pt-4;
+        @apply text-2xl mb-2 pt-4;
+        font-family: $source-code-black !important;
       }
       h1,
       h2,

@@ -15,35 +15,15 @@
     />
     <CookieControl v-if="showCookieConsent" locale="en" />
     <kike-index-Information />
-    <general-InfiniteScroll :images="skills" :scroll-right="true" />
+    <general-ContinuousScroll />
     <kike-index-About />
-    <kike-projects-Work />
+    <!-- <kike-projects-Work /> -->
     <kike-experience-Timeline />
+    <general-WhatsApp />
   </main>
 </template>
 
 <script lang="ts" setup>
-
-const skills = [
-'/svg/kk/skills/html5.svg',
-'/svg/kk/skills/css3.svg',
-'/svg/kk/skills/dart.svg',
-'/svg/kk/skills/docker.svg',
-'/svg/kk/skills/firebase.svg',
-'/svg/kk/skills/flutter.svg',
-'/svg/kk/skills/golang.svg',
-'/svg/kk/skills/java.svg',
-'/svg/kk/skills/js.svg',
-'/svg/kk/skills/node.svg',
-'/svg/kk/skills/nuxt.svg',
-'/svg/kk/skills/swift.svg',
-'/svg/kk/skills/tailwind.svg',
-'/svg/kk/skills/ts.svg',
-'/svg/kk/skills/ux.svg',
-'/svg/kk/skills/ui.svg',
-'/svg/kk/skills/vue.svg',
-]
-
 const siteMeta = useSiteMeta()
 const showCookieConsent = ref(false)
 onMounted(() => {
@@ -95,6 +75,6 @@ if (cookiesEnabledIds.value !== undefined && cookiesEnabledIds.value.includes('g
 * {
   background-color: #131212;
   color: #595959;
-  font-family: "Source Code Pro Regular";
+  font-family: $source-code-regular;
 }
 </style>

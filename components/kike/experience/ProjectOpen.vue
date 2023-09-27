@@ -94,7 +94,7 @@ section {
         h2 {
             @apply text-2xl lg:text-5xl my-4;
             color: #CCCCCC;
-            font-family: "Source Code Pro Bold";
+            font-family: $source-code-bold;
             font-weight: 600;
         }
         .overview {

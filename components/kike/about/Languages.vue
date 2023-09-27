@@ -58,7 +58,7 @@
 
   h3 {
     @apply lg:text-4xl text-xl tracking-wider mb-6 my-8;
-    font-family: "Source Code Pro Bold";
+    font-family: $source-code-bold;
     font-weight: 600;
     color: $font-color;
   }

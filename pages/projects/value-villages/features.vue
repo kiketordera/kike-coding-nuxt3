@@ -25,7 +25,7 @@ definePageMeta({
 
 <style lang="scss" scoped>
 * {
-    font-family: 'Nunito Regular';
+    font-family: $nunito-regular;
 }
 
 </style>
