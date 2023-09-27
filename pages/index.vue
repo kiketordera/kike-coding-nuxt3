@@ -19,6 +19,7 @@
     <kike-index-About />
     <!-- <kike-projects-Work /> -->
     <kike-experience-Timeline />
+    <general-WhatsApp />
   </main>
 </template>
 

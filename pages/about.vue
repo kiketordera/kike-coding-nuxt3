@@ -2,6 +2,7 @@
   <div>
     <kike-about-Info />
     <kike-about-MySkills />
+    <general-WhatsApp />
   </div>
 </template>
 
