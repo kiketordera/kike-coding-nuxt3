@@ -175,3 +175,12 @@ const firstEducationIndex = rev.findIndex(exp => exp.type === 'education')
   }
 }
 </style>
+
+<style>
+
+.v-timeline--vertical.v-timeline .v-timeline-item:first-child .v-timeline-divider,
+.v-timeline--vertical.v-timeline .v-timeline-item:first-child .v-timeline-item__opposite,
+.v-timeline--vertical.v-timeline .v-timeline-item:first-child .v-timeline-item__body {
+  padding-block-start: 0px;
+}
+</style>
