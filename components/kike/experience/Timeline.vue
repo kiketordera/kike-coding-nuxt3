@@ -34,19 +34,21 @@
       <template #opposite>
         <div class="hidden text-center sm:block">
           <img :src="exp.img" class="logo" :alt="`Logo ${exp.nameCompany}`">
-          <p class="mx-auto mb-1 mt-2">
+          <p class="mx-auto mb-1 mt-2 text-center">
             {{ exp.startDate }}
           </p>
-          <p class="mx-auto font-bold">
+          <p class="mx-auto text-center font-bold text-white">
             {{ exp.durationMonths }}
           </p>
         </div>
       </template> <div :class="exp.type">
         <p class="title rounded-t-md">
           {  {{ exp.title }} }
-        </p> <p class="title place rounded-b-md">
-          { {{ exp.nameCompany }} }
-        </p> <div class="ml-4 block text-center sm:hidden">
+        </p>
+        <p class="title place rounded-b-md">
+          {{ exp.nameCompany }}
+        </p>
+        <div class="mx-auto block text-center sm:hidden">
           <p class="mx-auto mb-1 mt-2">
             {{ exp.startDate }}
           </p>
@@ -133,11 +135,11 @@ const firstEducationIndex = rev.findIndex(exp => exp.type === 'education')
       @apply mx-auto;
     }
     p.title {
-      @apply text-2xl font-bold pt-2 px-4;
+      @apply text-2xl font-bold -mt-1;
       color: white;
     }
     p.place {
-      @apply text-base font-bold px-4 pt-0 pb-2;
+      @apply text-base font-bold py-2;
       color: black;
     }
     p {
@@ -148,17 +150,20 @@ const firstEducationIndex = rev.findIndex(exp => exp.type === 'education')
     }
     & .work {
       p.title {
-        background-color: $sea-serpent;
+        color: $sea-serpent;
+        font-family: $source-code-black;
       }
     }
     & .education {
       p.title {
-        background-color: $light-salmon;
+        color: $light-salmon;
+        font-family: $source-code-black;
       }
     }
     & .volunteer {
       p.title {
-        background-color: $cyber-yellow;
+        color: $cyber-yellow;
+        font-family: $source-code-black;
       }
     }
   }

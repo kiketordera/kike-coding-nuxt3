@@ -26,9 +26,9 @@
           Let's collaborate and make digital magic! ✨
         </p>
         <br>
-        <a data-aos="fade-down" href="/about">
+        <NuxtLink data-aos="fade-down" href="/about">
           Read more
-        </a>
+        </NuxtLink>
       </div>
     </div>
   </section>

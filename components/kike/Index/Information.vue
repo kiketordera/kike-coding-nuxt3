@@ -50,6 +50,9 @@ section {
                 @apply text-base pb-3 w-full text-justify;
                 font-family: $source-code-regular;
             }
+            .txt-blue {
+              @apply mb-3;
+            }
             a {
                 @include button-base;
                 background-color: $button-color;

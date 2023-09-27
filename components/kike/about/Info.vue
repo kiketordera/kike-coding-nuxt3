@@ -31,8 +31,7 @@
     </div>
   </section>
 </template>
-<script lang="ts" setup>
-</script>
+
 <style lang="scss" scoped>
 section {
   @apply w-full py-40 mx-auto;
