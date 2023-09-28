@@ -93,13 +93,13 @@ const firstEducationIndex = rev.findIndex(exp => exp.type === 'education')
 
  .intro {
    .content {
-     @apply max-w-6xl mx-auto flex lg:flex-row flex-col justify-between items-start gap-12 px-4 py-16;
+     @apply max-w-6xl mx-auto flex justify-between items-center gap-12 px-4 py-16;
      h2 {
        @include title-kike-section;
-       @apply lg:w-1/3;
+       @apply w-1/3;
      }
      p {
-       @apply text-base lg:w-2/3 w-full lg:ml-8;
+       @apply text-base w-2/3 ml-8;
      }
    }
   .links {
@@ -135,7 +135,7 @@ const firstEducationIndex = rev.findIndex(exp => exp.type === 'education')
       @apply mx-auto;
     }
     p.title {
-      @apply lg:text-2xl text-base font-bold -mt-1;
+      @apply text-2xl font-bold -mt-1;
       color: white;
     }
     p.place {

@@ -4,7 +4,7 @@ export default defineNuxtConfig({
     typeCheck: true
   },
 
-  modules: ['@nuxtjs/tailwindcss', '@dargmuesli/nuxt-cookie-control', 'nuxt-gtag', '@pinia/nuxt', 'nuxt-security'],
+  modules: ['@nuxtjs/tailwindcss', '@pinia/nuxt', '@dargmuesli/nuxt-cookie-control', 'nuxt-gtag', 'nuxt-security'],
   runtimeConfig: {
     indexable: true,
     public: {
@@ -16,7 +16,7 @@ export default defineNuxtConfig({
       language: 'en-gb'
 
     },
-
+    indexable: true
   },
 
   plugins: [
@@ -91,7 +91,7 @@ extends: [
 nitro: {
   preset: 'firebase',
   prerender: {
-    crawlLinks: true,
+    crawlLinks: false,
     routes: [
       '/',
       '/about',
