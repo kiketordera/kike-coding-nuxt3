@@ -43,7 +43,8 @@
     "tailwindcss-elevation": "^2.0.0",
     "vue": "^3.3.4",
     "vue3-infinite-slide-bar": "^1.0.4",
-    "vuetify": "^3.3.17"
+    "vuetify": "^3.3.17",
+    "webpack": "^5"
   },
   "name": "value-villages-nuxt3",
   "description": "Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.",

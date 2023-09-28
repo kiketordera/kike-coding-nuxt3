@@ -16,7 +16,6 @@ export default defineNuxtConfig({
       language: 'en-gb'
 
     },
-    indexable: true
   },
 
   plugins: [
