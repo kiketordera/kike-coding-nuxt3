@@ -2,20 +2,20 @@
   <section>
     <div class="info">
       <div class="content">
-        <h2 class="mb-0" data-aos="zoom-in-up">
+        <h2 class="mb-0">
           <span>{</span>
           UX/UI Engineeer & <span class="yellow"> Software developer</span>
           <span>}</span>
         </h2>
         <h2>
-          <span data-aos="fade-right" class="text-base">
+          <span class="text-base">
             Engineered Precision. Designed Passion.
           </span>
         </h2>
-        <p data-aos="fade-right">
+        <p>
           Specialist in interfaces, from the UX & design to the development & launch.
         </p>
-        <p class="txt-blue" data-aos="fade-right">
+        <p class="txt-blue">
           Why choose someone with half the skills? Take someone with the full package!
         </p>
         <NuxtLink to="/#contact">

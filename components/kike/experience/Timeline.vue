@@ -93,13 +93,13 @@ const firstEducationIndex = rev.findIndex(exp => exp.type === 'education')
 
  .intro {
    .content {
-     @apply max-w-6xl mx-auto flex justify-between items-center gap-12 px-4 py-16;
+     @apply max-w-6xl mx-auto block sm:flex justify-between items-center gap-12 px-4 py-16;
      h2 {
        @include title-kike-section;
-       @apply w-1/3;
+       @apply sm:w-1/3;
      }
      p {
-       @apply text-base w-2/3 ml-8;
+       @apply text-base w-2/3 sm:ml-8;
      }
    }
   .links {
