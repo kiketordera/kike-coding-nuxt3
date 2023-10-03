@@ -1,22 +1,22 @@
 <template>
   <section>
     <div class="about">
-      <h2>
+      <h2 data-aos="fade-up">
         About
       </h2>
       <div class="info">
-        <p>
+        <p data-aos="zoom-in-right">
           From the sun-kissed streets of Madrid to the bustling heart of Berlin, I had
           the opportunity to have several international experiences in 3 continents, my journey has been nothing short of chill. 🌍
         </p>
-        <p>
+        <p data-aos="zoom-in-right">
           From childhood, computers weren't just toys; they were puzzles waiting to be solved. I've been the computer guru
           since my playground days. 🖥️ But here's the kicker: <br>
           <span class="orange">
             I don't just code. I craft. Design, interface, experience - they're all part of my digital symphony.
           </span>
         </p>
-        <p>
+        <p data-aos="zoom-in-right">
           Let's not just build. Let's innovate, design, and revolutionize.
           <br>
           <span class="blue">
@@ -26,7 +26,7 @@
           Let's collaborate and make digital magic! ✨
         </p>
         <br>
-        <NuxtLink href="/about">
+        <NuxtLink data-aos="fade-down" href="/about">
           Read more
         </NuxtLink>
       </div>
