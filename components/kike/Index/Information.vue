@@ -4,7 +4,7 @@
       <div class="content">
         <h2 class="mb-0" data-aos="zoom-in-up">
           <span>{</span>
-          UX/UI Engineeer & Software developer
+          UX/UI Engineeer & <span class="yellow"> Software developer</span>
           <span>}</span>
         </h2>
         <h2>
@@ -27,9 +27,6 @@
   </section>
 </template>
 
-<script>
-</script>
-
 <style lang="scss" scoped>
 section {
    @apply w-full;
@@ -44,6 +41,9 @@ section {
                 font-weight: 600;
                 span {
                     color: $title-color;
+                    &.yellow {
+                      color: $cyber-yellow;
+                    }
                 }
             }
             p {

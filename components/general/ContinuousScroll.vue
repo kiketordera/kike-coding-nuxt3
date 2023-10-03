@@ -8,7 +8,6 @@
         alt="Sliding Image"
       >
     </div>
-    <infinite-slide-bar />
   </infinite-slide-bar>
 </template>
 

@@ -43,7 +43,9 @@ export default defineNuxtConfig({
         { rel: 'icon', type: 'image/png', href: '/favicon.png' },
       ],
       style: [
-        // { children: 'html, body { overflow-x: hidden; }' },
+        // This will change the bouncing color when you scroll.
+        // Put the branding color of the project here.
+        { children: 'body { background-color: #2D2A2A }' },
       ]
     },
   },
