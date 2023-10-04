@@ -113,6 +113,9 @@ security: {
   },
  headers: {
   crossOriginEmbedderPolicy: false,
+  // contentSecurityPolicy: false,
+
+  contentSecurityPolicy: false
  }
 
 }
