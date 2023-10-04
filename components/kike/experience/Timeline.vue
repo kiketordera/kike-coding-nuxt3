@@ -41,7 +41,7 @@
           </p>
         </div>
       </template>
-      <div :id="`${exp.type}${index}`" :class="exp.type">
+      <div :id="`${exp.type}${index}`" :class="exp.type" style="padding-top: 100px; margin-top: -100px;">
         <p class="title rounded-t-md">
           {  {{ exp.title }} }
         </p>
