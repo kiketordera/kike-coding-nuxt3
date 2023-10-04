@@ -1,6 +1,6 @@
 <template>
   <div class="intro">
-    <div id="experience" class="content">
+    <div id="experience" class="content" style="padding-top: 150px; margin-top: -150px;">
       <h2 data-aos="fade-up">
         My Experience
       </h2>
@@ -41,7 +41,7 @@
           </p>
         </div>
       </template>
-      <div :id="`${exp.type}${index}`" :class="exp.type">
+      <div :id="`${exp.type}${index}`" :class="exp.type" style="padding-top: 100px; margin-top: -100px;">
         <p class="title rounded-t-md">
           {  {{ exp.title }} }
         </p>
