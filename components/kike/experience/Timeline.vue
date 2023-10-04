@@ -128,7 +128,7 @@ const firstEducationIndex = rev.findIndex(exp => exp.type === 'education')
   .experience {
     @apply mb-12 max-w-sm;
     .logo {
-      @apply max-w-[60rem] max-h-[5rem] py-2 px-4 rounded-md max-w-full;
+      @apply max-w-[60rem] max-h-[5rem] py-2 px-4 rounded-md max-w-full mx-auto min-h-[80px];
       background-color: white;
     }
     span {
