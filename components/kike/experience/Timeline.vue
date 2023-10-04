@@ -25,7 +25,6 @@
   <v-timeline line-thickness="1" align="start" side="end" :line-color="'white'" class="content">
     <v-timeline-item
       v-for="(exp, index) in rev"
-      :id="`${exp.type}${index}`"
       :key="exp.title"
       max-width="750px"
       :dot-color="getColor(exp.type)"
@@ -41,7 +40,8 @@
             {{ exp.durationMonths }}
           </p>
         </div>
-      </template> <div :class="exp.type">
+      </template>
+      <div :id="`${exp.type}${index}`" :class="exp.type">
         <p class="title rounded-t-md">
           {  {{ exp.title }} }
         </p>
