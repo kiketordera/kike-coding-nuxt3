@@ -68,22 +68,22 @@
       <div class="link-items">
         <ul>
           <li @click="visitLink">
-            <NuxtLink to="/" aria-current="page">
+            <NuxtLink to="/" :class="{'active':isActive('/')}" aria-current="page">
               // Home
             </NuxtLink>
           </li>
           <li @click="visitLink">
-            <NuxtLink to="/about">
+            <NuxtLink to="/about" :class="{'active':isActive('/about')}">
               // About
             </NuxtLink>
           </li>
           <li @click="visitLink">
-            <NuxtLink to="/#experience">
+            <NuxtLink :to="{path:'/', hash:'#experience'}" :class="{'active':isActive('/#experience')}">
               //  Work
             </NuxtLink>
           </li>
           <li @click="visitLink">
-            <NuxtLink to="/#contact">
+            <NuxtLink :to="{path:'/', hash:'#contact'}" :class="{'active':isActive('/#contact')}">
               // Contact
             </NuxtLink>
           </li>
