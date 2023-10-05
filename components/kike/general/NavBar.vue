@@ -11,22 +11,22 @@
       <div id="mobile-menu" class="link-items">
         <ul>
           <li>
-            <NuxtLink to="/" :class="{'active':isLinkActive('/')}">
+            <NuxtLink to="/" :class="{'active':isActive('/')}">
               // Home
             </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/about" :class="{'active':isLinkActive('/about-us')}">
+            <NuxtLink to="/about" :class="{'active':isActive('/about')}">
               // About
             </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/#experience" :class="{'active':isLinkActive('/#about')}">
+            <NuxtLink :to="{path:'/', hash:'#experience'}" :class="{'active':isActive('/#experience')}">
               //  Work
             </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/#contact" :class="{'active':isLinkActive('/#footer')}">
+            <NuxtLink :to="{path:'/', hash:'#contact'}" :class="{'active':isActive('/#contact')}">
               // Contact
             </NuxtLink>
           </li>
@@ -68,22 +68,22 @@
       <div class="link-items">
         <ul>
           <li @click="visitLink">
-            <NuxtLink to="/" aria-current="page" :class="{'active':isLinkActive('/')}">
+            <NuxtLink to="/" aria-current="page">
               // Home
             </NuxtLink>
           </li>
           <li @click="visitLink">
-            <NuxtLink to="/about" :class="{'active':isLinkActive('/about-us')}">
+            <NuxtLink to="/about">
               // About
             </NuxtLink>
           </li>
           <li @click="visitLink">
-            <NuxtLink to="/#experience" :class="{'active':isLinkActive('/#about')}">
+            <NuxtLink to="/#experience">
               //  Work
             </NuxtLink>
           </li>
           <li @click="visitLink">
-            <NuxtLink to="/#contact" :class="{'active':isLinkActive('/#footer')}">
+            <NuxtLink to="/#contact">
               // Contact
             </NuxtLink>
           </li>
@@ -98,13 +98,7 @@
 
 <script setup lang="ts">
 const route = useRoute()
-function isLinkActive (path: string) {
-        if (route.hash) {
-          return route.hash === path.slice(1)
-        } else {
-          return route.path === path
-        }
-    }
+
 const isNavbarExpanded = ref(false)
 
 const scrollTop = ref(0)
@@ -129,12 +123,10 @@ function handleResize (): void {
   }
 }
 
-onBeforeMount(() => {
-  window.addEventListener('scroll', setScrollTop)
-  window.addEventListener('resize', handleResize)
-  setScrollTop()
-  handleResize()
-})
+function isActive (fullpath:string) {
+  // console.log(route.fullPath)
+return route.fullPath === fullpath
+}
 
 onBeforeUnmount(() => {
   window.removeEventListener('scroll', setScrollTop)
@@ -146,7 +138,9 @@ onBeforeUnmount(() => {
 .active {
 
   color: $font-color !important;
+
 }
+
 .padding-0 {
   padding: 0 !important;
 }
