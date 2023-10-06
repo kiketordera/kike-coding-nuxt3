@@ -1,17 +1,8 @@
 <template>
   <footer>
-    <div id="contact" class="contact">
-      <div class="details">
-        <h2 data-aos="zoom-in-left">
-          <a href="mailto:kiketordera@gmail.com">
-            Get in touch
-          </a>
-        </h2>
-        <img data-aos="zoom-right" src="~assets/svg/kk/right-arrow.svg" alt="">
-      </div>
-      <hr>
+    <div class="contact">
       <div class="social-media">
-        <div data-aos="zoom-in-down" class="items">
+        <div class="items">
           <ul>
             <li>
               <a target="_blank" href="https://www.linkedin.com/in/kiketordera/">
@@ -52,32 +43,15 @@ footer {
   @apply w-full mx-auto;
   background-color: black;
   .contact {
-    @apply pt-20 pb-8 mx-auto max-w-6xl px-4;
+    @apply py-8 mx-auto max-w-6xl px-4;
     background-color: black;
-    .details {
-      @apply flex lg:gap-3 items-center gap-4 justify-center;
-      background-color: black;
-      h2 {
-        @apply text-center lg:text-9xl md:text-4xl font-extrabold text-2xl uppercase tracking-wide;
-        font-family: $source-code-semibold;
-        color: white;
-        background-color: black;
-      }
-      img {
-        @apply lg:w-auto w-4;
-        color: white;
-        background-color: black;
-      }
-    }
-    hr {
-      @apply py-[0.2rem] mt-3;
-    }
+
     .social-media {
-      @apply mt-6 flex lg:flex-row flex-col justify-between items-center;
+      @apply flex lg:flex-row flex-col justify-between items-center;
       font-weight: 600;
 
       .items {
-        @apply text-xl uppercase mb-5;
+        @apply text-xl uppercase;
 
         ul {
           @apply flex gap-8 mx-8;

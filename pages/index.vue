@@ -20,6 +20,7 @@
     <!-- <kike-projects-Work /> -->
     <kike-experience-Timeline />
     <general-WhatsApp />
+    <kike-general-GetTouch />
   </main>
 </template>
 

@@ -3,7 +3,7 @@
     <h2>
       Made with
       <img src="/external/heart.svg" alt="" class="heart">
-      by me with
+      by me &
       <a target="_blank" href="https://thetotem.studio">
         <img src="/external/totem-studio-signature.svg" alt="" class="totem-signature">
         Totem Studio
