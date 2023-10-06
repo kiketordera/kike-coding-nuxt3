@@ -11,7 +11,7 @@
       <div id="mobile-menu" class="link-items">
         <ul>
           <li>
-            <NuxtLink to="/" :class="{'active':isActive('/')}">
+            <NuxtLink to="/" :class="{'active':isActive('/') && linkstate.$state.isActive}">
               // Home
             </NuxtLink>
           </li>
@@ -21,12 +21,12 @@
             </NuxtLink>
           </li>
           <li>
-            <NuxtLink :to="{path:'/', hash:'#experience'}" :class="{'active':isActive('/#experience')}">
+            <NuxtLink :to="{path:'/', hash:'#work'}" :class="{'active':props.currentSection==='work'}" @click="onClick">
               //  Work
             </NuxtLink>
           </li>
           <li>
-            <NuxtLink :to="{path:'/', hash:'#contact'}" :class="{'active':isActive('/#contact')}">
+            <NuxtLink :to="{path:'/', hash:'#contact'}" :class="{'active':props.currentSection==='contact'}" @click="onClick">
               // Contact
             </NuxtLink>
           </li>
@@ -68,7 +68,7 @@
       <div class="link-items">
         <ul>
           <li @click="visitLink">
-            <NuxtLink to="/" :class="{'active':isActive('/')}" aria-current="page">
+            <NuxtLink to="/" :class="{'active':isActive('/') && linkstate.$state.isActive}" aria-current="page">
               // Home
             </NuxtLink>
           </li>
@@ -78,12 +78,12 @@
             </NuxtLink>
           </li>
           <li @click="visitLink">
-            <NuxtLink :to="{path:'/', hash:'#experience'}" :class="{'active':isActive('/#experience')}">
+            <NuxtLink :to="{path:'/', hash:'#work'}" :class="{'active':props.currentSection==='work'}" @click="onClick">
               //  Work
             </NuxtLink>
           </li>
           <li @click="visitLink">
-            <NuxtLink :to="{path:'/', hash:'#contact'}" :class="{'active':isActive('/#contact')}">
+            <NuxtLink :class="{'active':props.currentSection==='contact'}" @click="onClick">
               // Contact
             </NuxtLink>
           </li>
@@ -97,6 +97,9 @@
 </template>
 
 <script setup lang="ts">
+import { LinkActiveStateProvider } from '~/store/linkactive'
+
+const linkstate = LinkActiveStateProvider()
 const route = useRoute()
 
 const isNavbarExpanded = ref(false)
@@ -132,6 +135,21 @@ onBeforeUnmount(() => {
   window.removeEventListener('scroll', setScrollTop)
   window.removeEventListener('resize', handleResize)
 })
+
+interface Props {
+  currentSection: string
+}
+
+const props = withDefaults(defineProps<Props>(), {
+  currentSection: ''
+})
+
+const emit = defineEmits(['sectionClicked'])
+
+const onClick = (e: MouseEvent) => {
+  const section = (e.target as HTMLAnchorElement).getAttribute('href')?.substring(2) || ''
+  emit('sectionClicked', { section })
+}
 </script>
 
 <style lang="scss" scoped>

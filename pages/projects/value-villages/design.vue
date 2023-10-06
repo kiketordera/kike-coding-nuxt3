@@ -45,9 +45,9 @@
 <script lang="ts" setup>
 
 // This will work in both `<script setup>` and `<script>`
-definePageMeta({
-  layout: 'vv',
-})
+// definePageMeta({
+//   layout: 'vv',
+// })
 
 const auth = [
   // eslint-disable-next-line max-len
