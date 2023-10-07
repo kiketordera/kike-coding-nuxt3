@@ -17,14 +17,13 @@ const currentSection = ref<string>('')
 const onSectionClicked = ({ section }: { section: string }) => {
   currentSection.value = section
 }
-
 const checkSectionInView = () => {
   for (let i = sections.length - 1; i >= 0; i--) {
     const el = document.getElementById(sections[i])
     const rect = el?.getBoundingClientRect()
 
-    // Check if the section is entirely visible within the viewport
-    if (rect && rect.top >= 0 && rect.bottom <= window.innerHeight) {
+    // Check if the top of the section is within the top 25% of the viewport height
+    if (rect && rect.top <= window.innerHeight / 1.5 && rect.bottom >= 0) {
       currentSection.value = sections[i]
       window.history.replaceState(null, '', `#${sections[i]}`)
       linkstate.$state.isActive = false
@@ -37,7 +36,7 @@ const checkSectionInView = () => {
   }
 }
 
-const debouncedCheckSectionInView = debounce(checkSectionInView, 100)
+const debouncedCheckSectionInView = debounce(checkSectionInView, 50)
 
 onMounted(() => {
   window.addEventListener('scroll', debouncedCheckSectionInView)

@@ -1,72 +1,74 @@
 <template>
-  <div id="work" class="intro">
-    <div id="experience" class="content" style="padding-top: 150px; margin-top: -150px;">
-      <h2 data-aos="fade-up">
-        My Experience
-      </h2>
-      <p data-aos="zoom-in-right">
-        Explore my professional journey and expertise through my comprehensive work experience section
-      </p>
+  <div id="work">
+    <div class="intro">
+      <div class="content" style="padding-top: 150px; margin-top: -150px;">
+        <h2 data-aos="fade-up">
+          My Experience
+        </h2>
+        <p data-aos="zoom-in-right">
+          Explore my professional journey and expertise through my comprehensive work experience section
+        </p>
+      </div>
+      <div class="links">
+        <NuxtLink :to="`/#work${firstWorkIndex}`" class="work">
+          Work
+        </NuxtLink>
+        <hr>
+        <NuxtLink :to="`/#volunteer${firstVolunteerIndex}`" class="volunteer">
+          Volunteer
+        </NuxtLink>
+        <hr>
+        <NuxtLink :to="`/#education${firstEducationIndex}`" class="education">
+          Education
+        </NuxtLink>
+      </div>
     </div>
-    <div class="links">
-      <NuxtLink :to="`/#work${firstWorkIndex}`" class="work">
-        Work
-      </NuxtLink>
-      <hr>
-      <NuxtLink :to="`/#volunteer${firstVolunteerIndex}`" class="volunteer">
-        Volunteer
-      </NuxtLink>
-      <hr>
-      <NuxtLink :to="`/#education${firstEducationIndex}`" class="education">
-        Education
-      </NuxtLink>
-    </div>
-  </div>
-  <v-timeline line-thickness="1" align="start" side="end" :line-color="'white'" class="content">
-    <v-timeline-item
-      v-for="(exp, index) in rev"
-      :key="exp.title"
-      max-width="750px"
-      :dot-color="getColor(exp.type)"
-      class="experience"
-    >
-      <template #opposite>
-        <div class="hidden text-center sm:block">
-          <img :src="exp.img" class="logo" :alt="`Logo ${exp.nameCompany}`">
-          <p class="mx-auto mb-1 mt-2 text-center">
-            {{ exp.startDate }}
+    <v-timeline line-thickness="1" align="start" side="end" :line-color="'white'" class="content">
+      <v-timeline-item
+        v-for="(exp, index) in rev"
+        :key="exp.title"
+        max-width="750px"
+        :dot-color="getColor(exp.type)"
+        class="experience"
+      >
+        <template #opposite>
+          <div class="hidden text-center sm:block">
+            <img :src="exp.img" class="logo" :alt="`Logo ${exp.nameCompany}`">
+            <p class="mx-auto mb-1 mt-2 text-center">
+              {{ exp.startDate }}
+            </p>
+            <p class="mx-auto text-center font-bold text-white">
+              {{ exp.durationMonths }}
+            </p>
+          </div>
+        </template>
+        <div :id="`${exp.type}${index}`" :class="exp.type" style="padding-top: 100px; margin-top: -100px;">
+          <p class="title rounded-t-md">
+            {  {{ exp.title }} }
           </p>
-          <p class="mx-auto text-center font-bold text-white">
-            {{ exp.durationMonths }}
+          <p class="title place rounded-b-md">
+            {{ exp.nameCompany }}
           </p>
-        </div>
-      </template>
-      <div :id="`${exp.type}${index}`" :class="exp.type" style="padding-top: 100px; margin-top: -100px;">
-        <p class="title rounded-t-md">
-          {  {{ exp.title }} }
-        </p>
-        <p class="title place rounded-b-md">
-          {{ exp.nameCompany }}
-        </p>
-        <div class="mx-auto block text-center sm:hidden">
-          <p class="mx-auto mb-1 mt-2">
-            {{ exp.startDate }}
+          <div class="mx-auto block text-center sm:hidden">
+            <p class="mx-auto mb-1 mt-2">
+              {{ exp.startDate }}
+            </p>
+            <p class="mx-auto font-bold" style="color: white;">
+              {{ exp.durationMonths }}
+            </p>
+          </div>
+          <p v-for="text in exp.description" :key="text" class="description">
+            {{ text }}
           </p>
-          <p class="mx-auto font-bold" style="color: white;">
-            {{ exp.durationMonths }}
-          </p>
-        </div>
-        <p v-for="text in exp.description" :key="text" class="description">
-          {{ text }}
-        </p>
-        <div class="chips">
-          <div v-for="chip in exp.skills" :key="chip" class="chip">
-            {{ chip }}
+          <div class="chips">
+            <div v-for="chip in exp.skills" :key="chip" class="chip">
+              {{ chip }}
+            </div>
           </div>
         </div>
-      </div>
-    </v-timeline-item>
-  </v-timeline>
+      </v-timeline-item>
+    </v-timeline>
+  </div>
 </template>
 
 <script lang="ts" setup>
