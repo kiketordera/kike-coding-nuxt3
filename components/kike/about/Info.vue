@@ -4,7 +4,6 @@
       <h2 data-aos="zoom-in-up">
         About
       </h2>
-
       <div class="info">
         <p data-aos="fade-right">
           Hi! I'm Kike Tordera. Berlin based.
@@ -49,7 +48,10 @@ section {
 
       p {
         @apply lg:text-lg my-6 items-start;
-        color: #CCCCCC;
+        color: $h2-color;
+        &:first-child {
+          @apply mt-0;
+        }
       }
 
       button {
@@ -58,7 +60,7 @@ section {
         font-weight: 600;
 
         span {
-          color: #CCCCCC;
+          color: $h2-color;
         }
       }
     }

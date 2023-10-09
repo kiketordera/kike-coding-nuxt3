@@ -137,12 +137,12 @@
 
     span {
       @apply lg:text-base text-sm;
-      color: #CCCCCC;
+      color: $h2-color;
     }
   }
 
   p {
     @apply text-xl items-center sm:ml-5 py-3 mb-2;
-    color: #CCCCCC;
+    color: $h2-color;
   }
 }</style>

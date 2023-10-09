@@ -34,7 +34,7 @@
         <template #opposite>
           <div class="hidden text-center sm:block">
             <img :src="exp.img" class="logo" :alt="`Logo ${exp.nameCompany}`">
-            <p class="mx-auto mb-1 mt-2 text-center">
+            <p class="company">
               {{ exp.startDate }}
             </p>
             <p class="mx-auto text-center font-bold text-white">
@@ -102,6 +102,7 @@ const firstEducationIndex = rev.findIndex(exp => exp.type === 'education')
      }
      p {
        @apply text-base w-2/3 sm:ml-8;
+       color: $h2-color;
      }
    }
   .links {
@@ -125,6 +126,7 @@ const firstEducationIndex = rev.findIndex(exp => exp.type === 'education')
     }
   }
   }
+
 .content {
   @apply overflow-x-scroll overflow-y-hidden w-full pt-12 gap-0;
   .experience {
@@ -149,6 +151,7 @@ const firstEducationIndex = rev.findIndex(exp => exp.type === 'education')
     }
     p.description {
       @apply mt-3;
+      color: $h2-color;
     }
     & .work {
       p.title {
@@ -168,6 +171,10 @@ const firstEducationIndex = rev.findIndex(exp => exp.type === 'education')
         font-family: $source-code-black;
       }
     }
+    .company {
+      @apply mx-auto mb-1 mt-2 text-center;
+      color: $h2-color;
+    }
   }
 }
 
@@ -177,7 +184,7 @@ const firstEducationIndex = rev.findIndex(exp => exp.type === 'education')
     @apply rounded-full px-3 py-1 text-xs;
     background-color: $light-gray;
     color: $dark-gray;
-    font-family: $source-code-semibold;
+    font-family: $source-code-bold;
     border: 1px solid;
   }
 }

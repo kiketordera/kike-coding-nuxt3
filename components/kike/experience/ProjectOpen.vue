@@ -93,7 +93,7 @@ section {
         @apply max-w-6xl mx-auto px-4 items-center text-justify;
         h2 {
             @apply text-2xl lg:text-5xl my-4;
-            color: #CCCCCC;
+            color: $h2-color;
             font-family: $source-code-bold;
             font-weight: 600;
         }

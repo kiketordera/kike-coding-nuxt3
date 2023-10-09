@@ -57,5 +57,5 @@ $mediaMinWidth: 480px;
   @apply lg:text-4xl text-xl whitespace-nowrap tracking-wider mb-4 w-1/2;
   font-family: "Source Code Pro SemiBold";
   font-weight: 600;
-  color: #CCCCCC;
+  color: $h2-color;
 }

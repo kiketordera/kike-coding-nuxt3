@@ -47,9 +47,13 @@ section {
 
     .info {
       @apply lg:w-3/4 w-full text-justify;
+      color: $h2-color;
 
       p {
         @apply lg:text-lg my-5 items-start;
+        &:first-of-type {
+          @apply mt-0;
+        }
         span {
           &.blue{
             color: $sea-serpent;

@@ -49,9 +49,11 @@ section {
             p {
                 @apply text-base pb-3 w-full text-justify;
                 font-family: $source-code-regular;
+                color: $h2-color;
             }
             .txt-blue {
               @apply mb-3;
+              color: $sea-serpent;
             }
             a {
                 @include button-base;

@@ -53,10 +53,10 @@ section {
     @apply max-w-6xl flex gap-2 lg:flex-row flex-col mx-auto px-4;
 
     h2 {
-      @apply lg:text-4xl text-3xl tracking-wider mb-4 lg:w-1/2 my-8;
+      @apply lg:text-4xl text-3xl tracking-wider mb-4 lg:w-1/2 mb-8;
       font-family: $source-code-bold;
       font-weight: 600;
-      color: #CCCCCC;
+      color: $h2-color;
     }
 
     .info {
@@ -64,7 +64,10 @@ section {
 
       p {
         @apply lg:text-lg my-6 items-start;
-        color: #CCCCCC;
+        color: $h2-color;
+        &:first-child {
+          @apply mt-0;
+        }
       }
 
     }
