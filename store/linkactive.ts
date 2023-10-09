@@ -1,7 +1,7 @@
 import { defineStore } from 'pinia'
 
 export const LinkActiveStateProvider = defineStore({
-  id: 'whatsapp',
+  id: 'linkstate',
   state: () => ({
     isActive: true,
 
