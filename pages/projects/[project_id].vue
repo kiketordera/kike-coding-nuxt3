@@ -25,6 +25,7 @@ const { default: projects } = await import('~/assets/data/projects.json')
 const route = useRoute()
 const link = route.params.project_id
 const project = projects.find(a => a.url === `/projects/${link}`)
+
 </script>
 
 <style lang="scss" scoped>
@@ -35,5 +36,8 @@ const project = projects.find(a => a.url === `/projects/${link}`)
 
 .main {
   @apply max-w-6xl mx-auto px-4 items-center text-justify;
+  hr {
+    border-color: #595959;
+  }
 }
 </style>
