@@ -1,19 +1,27 @@
 <template>
   <div class="images">
-    <img src="/img/projects/oculid/login.svg" alt="">
-    <img src="/img/projects/oculid/login.svg" alt="">
-    <img src="/img/projects/oculid/login.svg" alt="">
-    <img src="/img/projects/oculid/login.svg" alt="">
+    <img
+      v-for="img in props.links"
+      :key="img"
+      :src="img"
+      alt=""
+    >
   </div>
 </template>
 
 <script lang="ts" setup>
+const props = defineProps({
+  links: {
+    type: Array<string>,
+    required: true,
+  },
+})
 
 </script>
 
 <style lang="scss" scoped>
 .images {
-    @apply flex lg:flex-row flex-col items-center gap-10 py-16;
+    @apply flex lg:flex-row flex-col items-center w-full gap-10 py-16;
     img {
         @apply w-full bg-cover;
     }

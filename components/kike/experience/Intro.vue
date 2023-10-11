@@ -2,20 +2,22 @@
   <section>
     <div class="main">
       <h2 data-aos="fade-up">
-        Oculid
+        {{ props.client }}
       </h2>
       <hr>
       <div class="overview">
         <div class="items">
           <span data-aos="zoom-in-up">Service</span>
-          <p data-aos="zoom-in-right">
-            Web Development
-          </p>
+          <ul data-aos="zoom-in-right">
+            <li v-for="ser in props.service" :key="ser">
+              {{ ser }}
+            </li>
+          </ul>
         </div>
         <div class="items">
           <span data-aos="zoom-in-up">Timeline</span>
           <p data-aos="zoom-in-right">
-            4 Months
+            {{ props.duration }}
           </p>
         </div>
         <div class="items">
@@ -27,35 +29,55 @@
         <div class="items">
           <span data-aos="zoom-in-up">Year</span>
           <p data-aos="zoom-in-right">
-            2019
+            {{ props.year }}
           </p>
         </div>
         <div class="items">
           <span data-aos="zoom-in-up">Live site</span>
           <p data-aos="zoom-in-right">
-            www.oculid.eu
+            {{ props.url }}
           </p>
         </div>
       </div>
-      <img src="~assets/img/kk/rectangle.png" alt="">
-      <kike-experience-Information />
-      <kike-experience-ImageSection />
-      <kike-experience-Info />
-      <kike-experience-ImageSection2 />
-      <hr>
+      <div :style="{ backgroundImage: `url(${props.coverImg})` }" class="bg" />
     </div>
   </section>
 </template>
 
 <script lang="ts" setup>
+const props = defineProps({
+  client: {
+    type: String,
+    required: true,
+  },
+  service: {
+    type: Array<string>,
+    required: true,
+  },
+  duration: {
+    type: String,
+    required: true,
+  },
+  year: {
+    type: String,
+    required: true,
+  },
+   coverImg: {
+    type: String,
+    required: true,
+  },
+   url: {
+    type: String,
+    required: true,
+  },
+})
 
 </script>
 
 <style lang="scss" scoped>
 section {
-    @apply w-full py-24 mx-auto px-4;
-    background-color: #131212;
-     color: #595959;
+    @apply w-full py-24 mx-auto;
+     color: #CCCCCC;
      scroll-snap-type: y mandatory;
     .main {
         @apply max-w-6xl mx-auto px-4 items-center text-justify;
@@ -78,17 +100,11 @@ section {
                 }
             }
         }
-        .project {
-            @apply flex flex-col justify-center w-full items-center;
-            p {
-                @apply lg:p-16 my-4 text-justify lg:w-11/12;
-            }
-        }
-    .content {
-    @apply py-12 justify-around gap-8 flex w-full;
-  }
   hr {
     border-color: #595959;
+  }
+  .bg {
+    @apply w-full bg-cover bg-no-repeat h-[70vh] mt-4;
   }
 
     }

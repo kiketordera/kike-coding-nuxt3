@@ -1,17 +1,21 @@
 <template>
   <div class="images">
-    <img src="/img/projects/oculid/face.svg" alt="">
-    <img src="/img/projects/oculid/face.svg" alt="">
-    <img src="/img/projects/oculid/face.svg" alt="">
-    <img src="/img/projects/oculid/face.svg" alt="">
-    <img src="/img/projects/oculid/face.svg" alt="">
-    <img src="/img/projects/oculid/face.svg" alt="">
-    <img src="/img/projects/oculid/face.svg" alt="">
-    <img src="/img/projects/oculid/face.svg" alt="">
+    <img
+      v-for="img in props.links"
+      :key="img"
+      :src="img"
+      alt=""
+    >
   </div>
 </template>
 
 <script lang="ts" setup>
+const props = defineProps({
+  links: {
+    type: Array<string>,
+    required: true,
+  },
+})
 
 </script>
 
