@@ -1,3 +1,4 @@
+<!-- eslint-disable @typescript-eslint/no-unused-vars -->
 <template>
   <ClientOnly>
     <swiper-container
@@ -40,12 +41,16 @@ import { register } from 'swiper/element/bundle'
 register()
 
 const spaceBetween = 10
-      const onProgress = (e) => {
+      const onProgress = (e:any) => {
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
         const [swiper, progress] = e.detail
-        console.log(progress)
+        // console.log(progress)
       }
-      const onSlideChange = (e) => {
-        console.log('slide changed')
+
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
+      const onSlideChange = (e:any) => {
+
+        // console.log('slide changed')
       }
 const props = defineProps({
   links: {
