@@ -1,13 +1,70 @@
 <template>
-  <general-InfiniteScroll :images="row1" :scroll-right="true" />
-  <general-InfiniteScroll :images="row2" :scroll-right="false" />
-  <general-InfiniteScroll :images="row3" :scroll-right="true" />
-  <general-InfiniteScroll :images="row4" :scroll-right="false" />
-  <general-InfiniteScroll :images="row5" :scroll-right="true" />
-  <general-InfiniteScroll :images="row6" :scroll-right="false" />
+  <div class="py-2">
+    <infinite-slide-bar :duration="'40s'">
+      <div class="slider">
+        <img
+          v-for="(image, index) in row1"
+          :key="index"
+          :src="image"
+          alt="Sliding Image"
+        >
+      </div>
+    </infinite-slide-bar>
+    <infinite-slide-bar :duration="'40s'" :direction="'reverse'">
+      <div class="slider">
+        <img
+          v-for="(image, index) in row2"
+          :key="index"
+          :src="image"
+          alt="Sliding Image"
+        >
+      </div>
+    </infinite-slide-bar>
+    <infinite-slide-bar :duration="'40s'">
+      <div class="slider">
+        <img
+          v-for="(image, index) in row3"
+          :key="index"
+          :src="image"
+          alt="Sliding Image"
+        >
+      </div>
+    </infinite-slide-bar>
+    <infinite-slide-bar :duration="'40s'" :direction="'reverse'">
+      <div class="slider">
+        <img
+          v-for="(image, index) in row4"
+          :key="index"
+          :src="image"
+          alt="Sliding Image"
+        >
+      </div>
+    </infinite-slide-bar>
+    <infinite-slide-bar :duration="'40s'">
+      <div class="slider">
+        <img
+          v-for="(image, index) in row5"
+          :key="index"
+          :src="image"
+          alt="Sliding Image"
+        >
+      </div>
+    </infinite-slide-bar>
+    <infinite-slide-bar :duration="'40s'" :direction="'reverse'">
+      <div class="slider">
+        <img
+          v-for="(image, index) in row6"
+          :key="index"
+          :src="image"
+          alt="Sliding Image"
+        >
+      </div>
+    </infinite-slide-bar>
+  </div>
 </template>
 
 <script setup lang="ts">
+import InfiniteSlideBar from 'vue3-infinite-slide-bar'
 
 const row1 = [
   '/img/vv/carousel/africana.png',
@@ -86,7 +143,16 @@ const row6 = [
 </script>
 
 <style scoped lang="scss">
-.carousel {
-  @apply flex;
+.slider {
+    @apply flex w-full justify-around py-3;
+    img {
+      object-fit: contain;
+      width: 80px;
+      height: 50px;
+      @media (max-width: 550px) {
+        width: 60px;
+        height: 30px;
+      }
+    }
 }
 </style>

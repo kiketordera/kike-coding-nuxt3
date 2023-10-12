@@ -16,10 +16,14 @@
 </template>
 
 <script lang="ts" setup>
+definePageMeta({
+  layout: 'vv',
+})
 </script>
 
 <style lang="scss" scoped>
 * {
     font-family: $nunito-regular;
+    background-color: white;
 }
 </style>

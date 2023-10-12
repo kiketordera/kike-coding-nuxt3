@@ -45,9 +45,9 @@
 <script lang="ts" setup>
 
 // This will work in both `<script setup>` and `<script>`
-// definePageMeta({
-//   layout: 'vv',
-// })
+definePageMeta({
+  layout: 'vv',
+})
 
 const auth = [
   // eslint-disable-next-line max-len
@@ -80,6 +80,7 @@ const video = [
 <style lang="scss" scoped>
 * {
     font-family: $nunito-regular;
+    background-color: white;
 }
 
 .bg-blue {
@@ -89,7 +90,7 @@ const video = [
 
   h1 {
     font-size: 2.4rem;
-    margin-top: 7rem;
+    padding-top: 7rem;
     text-align: center;
     letter-spacing: 4px;
     font-weight: 400;

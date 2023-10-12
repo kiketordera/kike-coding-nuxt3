@@ -1,7 +1,6 @@
 <template>
   <div>
     <vv-general-NavBar />
-
     <slot />
   </div>
 </template>

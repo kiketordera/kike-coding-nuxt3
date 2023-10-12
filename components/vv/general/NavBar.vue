@@ -1,8 +1,12 @@
 <template>
   <nav>
-    <div class="logo">
+    <div
+      class="logo"
+      @mouseover="kike = '/svg/vv/navbar/kike-hover.svg'"
+      @mouseleave="kike = '/svg/vv/navbar/kike.svg'"
+    >
       <NuxtLink to="/">
-        <img src="~assets/svg/vv/kike.svg" alt="kike-image" class="logo-img">
+        <img :src="kike" alt="kike-image" class="logo-img">
         <p>Kike</p>
       </NuxtLink>
     </div>
@@ -43,6 +47,7 @@
 </template>
 
 <script lang="ts" setup>
+const kike = ref('/svg/vv/navbar/kike.svg')
 const about = ref('/svg/vv/navbar/about.svg')
 const design = ref('/svg/vv/navbar/design.svg')
 const features = ref('/svg/vv/navbar/features.svg')
@@ -76,7 +81,7 @@ nav {
 
     & .logo-img {
       width:  27px;
-      padding-top: 5px;
+      // padding-top: 5px;
       margin: 0 auto;
     }
   }
@@ -100,13 +105,13 @@ nav {
         img {
 
           &.a{
-            max-width: 19px;
-            max-height: 37px;
+            width: 19px;
+            height: 37px;
           }
 
           &.b {
-            max-width: 25px;
-            max-height: 40px;
+            width: 25px;
+            height: 37px;
           }
 
           padding-top: 5px;
