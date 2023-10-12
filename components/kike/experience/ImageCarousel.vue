@@ -1,8 +1,8 @@
 <template>
   <ClientOnly>
     <swiper-container
-      :slides-per-view="3"
-      :effect="'coverflow'"
+      :slides-per-view="slidesPerView"
+      :effect="effect"
       :centered-slides="true"
       navigation="true"
       :centered-slides-bounds="true"
@@ -15,7 +15,30 @@
 </template>
 
 <script lang="ts" setup>
+import { ref, onMounted, onUnmounted } from 'vue'
 import { register } from 'swiper/element/bundle'
+
+const effect = ref('coverflow') // default effect
+const slidesPerView = ref(3) // default value
+
+const updateEffect = () => {
+  if (window.innerWidth <= 650) {
+    effect.value = 'cards'
+    slidesPerView.value = 1 // show only one slide at a time
+  } else {
+    effect.value = 'coverflow'
+    slidesPerView.value = 3 // show three slides at a time
+  }
+}
+
+onMounted(() => {
+  window.addEventListener('resize', updateEffect)
+  updateEffect() // call once initially to set the correct effect on page load
+})
+
+onUnmounted(() => {
+  window.removeEventListener('resize', updateEffect)
+})
 
 register()
 
@@ -33,7 +56,13 @@ const props = defineProps({
     --swiper-navigation-color: #595959; // This is specifically for navigation arrows
 }
 
+.swiper-container {
+  display: flex;
+  justify-content: center;
+}
+
 .swipper {
+  @apply mx-auto;
   img {
     @apply max-h-[50vh];
   }
