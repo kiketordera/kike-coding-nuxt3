@@ -2,7 +2,7 @@
   <section>
     <div ref="scrollContainer" class="flex w-full snap-x snap-mandatory overflow-scroll">
       <div v-for="project in Projects" :key="project.name" class="card mr-8">
-        <a :href="project.url">
+        <NuxtLink :to="project.url">
           <v-hover v-slot="{ isHovering, props }">
             <v-card
               class="elevation-2 rounded-0 mx-auto snap-start"
@@ -38,7 +38,7 @@
               </div>
             </v-card>
           </v-hover>
-        </a>
+        </NuxtLink>
       </div>
     </div>
   </section>

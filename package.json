@@ -40,6 +40,7 @@
     "playwright": "^1.38.1",
     "postcss": "^8.4.24",
     "sass": "^1.63.6",
+    "swiper": "^10.3.1",
     "tailwindcss-elevation": "^2.0.0",
     "vue": "^3.3.4",
     "vue3-infinite-slide-bar": "^1.0.4",
