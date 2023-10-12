@@ -1,6 +1,80 @@
 [
     {
         "id": 0,
+        "name": "Kikenya Tours",
+        "logo": "/img/projects/kikenya/kikenya-logo.svg",
+        "img": "/img/projects/kikenya/kikenya-picture.jpg",
+        "mainImg": "/img/projects/oculid/background.png",
+        "client": "Kikenya Tours",
+        "web": "https://kikenyatours.com",
+        "color_bg_logo": "#F0D0A7",
+        "color_bg_title": "#BF7A40",
+        "color_title": "#240002",
+        "url": "/projects/kikenya-tours",
+        "intro": {
+            "coverImg": "/img/projects/oculid/background.png",
+            "services": [
+                "Web Development"
+            ],
+            "year": "2019",
+            "duration": "2 Months",
+            "url": "http://jkithome.com"
+        },
+        "imagesType": "mobile",
+        "firstGroupImages": [
+            "/img/showcase/jmk/logo-formation.jpg",
+            "/img/showcase/jmk/jmk-logo.svg",
+            "/img/showcase/jmk/jmk-logo-dark-green.svg",
+            "/img/showcase/jmk/jmk-logo-light-green.svg",
+            "/img/showcase/jmk/jmk-logo-orange.svg"
+        ],
+        "introText": "Kikenya Tours transcends traditional travel offerings, bringing forth a platform for adventurers worldwide to explore the compelling beauties and cultures of Kenya and East Africa. We're dedicated to providing immersive experiences that resonate with the diverse preferences of all tourists. By showcasing the best of Kenya and East Africa, Kikenya Tours ensures your journey is not just a trip but a lifelong memory etched in the sands of Africa's great landscapes.",
+        "secondGroupImages": [
+            "/img/showcase/jmk/business-card.jpg",
+            "/img/showcase/jmk/evelop.jpg",
+            "/img/showcase/jmk/letter-head-presentation.jpg",
+            "/img/showcase/jmk/letter-head-mockup.jpg"
+        ]
+    },
+    {
+        "id": 1,
+        "name": "Value Villages",
+        "logo": "/img/projects/vv/value-villages.png",
+        "img": "/img//projects/vv/vv-mobile.png",
+        "mainImg": "/img/projects/oculid/background.png",
+        "client": "value villages",
+        "web": "https://value-villages.org",
+        "color_bg_logo": "white",
+        "color_bg_title": "#63B190",
+        "color_title": "white",
+        "url": "/projects/value-villages",
+        "intro": {
+            "coverImg": "/img/projects/oculid/background.png",
+            "services": [
+                "Web Development"
+            ],
+            "year": "2019",
+            "duration": "2 Months",
+            "url": "http://jkithome.com"
+        },
+        "imagesType": "mobile",
+        "firstGroupImages": [
+            "/img/showcase/jmk/logo-formation.jpg",
+            "/img/showcase/jmk/jmk-logo.svg",
+            "/img/showcase/jmk/jmk-logo-dark-green.svg",
+            "/img/showcase/jmk/jmk-logo-light-green.svg",
+            "/img/showcase/jmk/jmk-logo-orange.svg"
+        ],
+        "introText": "Kikenya Tours transcends traditional travel offerings, bringing forth a platform for adventurers worldwide to explore the compelling beauties and cultures of Kenya and East Africa. We're dedicated to providing immersive experiences that resonate with the diverse preferences of all tourists. By showcasing the best of Kenya and East Africa, Kikenya Tours ensures your journey is not just a trip but a lifelong memory etched in the sands of Africa's great landscapes.",
+        "secondGroupImages": [
+            "/img/showcase/jmk/business-card.jpg",
+            "/img/showcase/jmk/evelop.jpg",
+            "/img/showcase/jmk/letter-head-presentation.jpg",
+            "/img/showcase/jmk/letter-head-mockup.jpg"
+        ]
+    },
+    {
+        "id": 2,
         "name": "Eva drones",
         "logo": "/img//projects/drones/logo.png",
         "img": "/img/projects/drones/bg.jpeg",
@@ -49,7 +123,7 @@
         ]
     },
     {
-        "id": 1,
+        "id": 3,
         "name": "Oculid",
         "logo": "/img/projects/oculid/logo.svg",
         "img": "/img/projects/oculid/bg.png",
@@ -97,44 +171,7 @@
         ]
     },
     {
-        "id": 2,
-        "name": "Value Villages",
-        "logo": "/img/projects/vv/value-villages.png",
-        "img": "/img//projects/vv/vv-mobile.png",
-        "mainImg": "/img/projects/oculid/background.png",
-        "client": "value villages",
-        "web": "https://value-villages.org",
-        "color_bg_logo": "white",
-        "color_bg_title": "#63B190",
-        "color_title": "white",
-        "url": "/projects/value-villages",
-        "intro": {
-            "coverImg": "/img/projects/oculid/background.png",
-            "services": [
-                "Web Development"
-            ],
-            "year": "2019",
-            "duration": "2 Months",
-            "url": "http://jkithome.com"
-        },
-        "imagesType": "mobile",
-        "firstGroupImages": [
-            "/img/showcase/jmk/logo-formation.jpg",
-            "/img/showcase/jmk/jmk-logo.svg",
-            "/img/showcase/jmk/jmk-logo-dark-green.svg",
-            "/img/showcase/jmk/jmk-logo-light-green.svg",
-            "/img/showcase/jmk/jmk-logo-orange.svg"
-        ],
-        "introText": "Kikenya Tours transcends traditional travel offerings, bringing forth a platform for adventurers worldwide to explore the compelling beauties and cultures of Kenya and East Africa. We're dedicated to providing immersive experiences that resonate with the diverse preferences of all tourists. By showcasing the best of Kenya and East Africa, Kikenya Tours ensures your journey is not just a trip but a lifelong memory etched in the sands of Africa's great landscapes.",
-        "secondGroupImages": [
-            "/img/showcase/jmk/business-card.jpg",
-            "/img/showcase/jmk/evelop.jpg",
-            "/img/showcase/jmk/letter-head-presentation.jpg",
-            "/img/showcase/jmk/letter-head-mockup.jpg"
-        ]
-    },
-    {
-        "id": 3,
+        "id": 4,
         "name": "Action Coast",
         "logo": "/img/projects/action-coast/logo.svg",
         "img": "/img//projects/action-coast/cover.png",
@@ -181,6 +218,42 @@
             "/img/projects/action-coast/action-coast16.svg",
             "/img/projects/action-coast/action-coast17.svg",
             "/img/projects/action-coast/action-coast18.svg"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Culinu",
+        "logo": "/img/projects/culinu/logo.svg",
+        "img": "/img/projects/culinu/cover.png",
+        "mainImg": "/img/projects/oculid/background.png",
+        "client": "Culinu",
+        "web": "https://culinu.eu",
+        "color_bg_logo": "white",
+        "color_bg_title": "#1B5638",
+        "color_title": "white",
+        "url": "/projects/culinu",
+        "intro": {
+            "coverImg": "/img/projects/oculid/background.png",
+            "services": [
+                "Web Development"
+            ],
+            "year": "2019",
+            "duration": "2 Months",
+            "url": "https://jkithome.com"
+        },
+        "imagesType": "mobile",
+        "firstGroupImages": [
+            "/img/projects/oculid/login.svg",
+            "/img/projects/oculid/test-login.svg",
+            "/img/projects/oculid/scan-code.svg",
+            "/img/projects/oculid/qr-code.svg"
+        ],
+        "introText": "Kikenya Tours transcends traditional travel offerings, bringing forth a platform for adventurers worldwide to explore the compelling beauties and cultures of Kenya and East Africa. We're dedicated to providing immersive experiences that resonate with the diverse preferences of all tourists. By showcasing the best of Kenya and East Africa, Kikenya Tours ensures your journey is not just a trip but a lifelong memory etched in the sands of Africa's great landscapes.",
+        "secondGroupImages": [
+            "/img/showcase/jmk/business-card.jpg",
+            "/img/showcase/jmk/evelop.jpg",
+            "/img/showcase/jmk/letter-head-presentation.jpg",
+            "/img/showcase/jmk/letter-head-mockup.jpg"
         ]
     }
 ]

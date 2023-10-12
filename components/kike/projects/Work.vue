@@ -16,7 +16,7 @@
 
 <style lang="scss" scoped>
 section {
-    @apply w-full mx-auto;
+    @apply w-full mx-auto pb-14;
     .information {
        @apply max-w-6xl w-full mx-auto  px-4;
       .intro {
