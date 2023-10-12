@@ -17,7 +17,7 @@
             <a :href="team.web">
               <img src="~assets/svg/vv/web.svg" alt="">
             </a>
-            <a :href="team.email">
+            <a :href="`mailto:${team.email}`">
               <img src="~assets/svg/vv/mail.svg" alt="">
             </a>
           </div>
