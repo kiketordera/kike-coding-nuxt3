@@ -16,9 +16,11 @@
 
 <style lang="scss" scoped>
 .info {
-  @apply flex lg:flex-row flex-col my-10 items-start py-10 mx-auto;
+  @apply flex lg:flex-row flex-col
+  py-10 mx-auto max-w-6xl px-4;
+
   h2 {
-    @apply text-2xl lg:w-1/3 mb-4;
+    @apply text-2xl lg:w-1/3 mb-4 align-top;
     color: white;
   }
   p {

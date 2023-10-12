@@ -9,12 +9,11 @@
         :year="project.intro.year"
         :url="project.intro.url"
       />
-      <kike-experience-Information class="main" />
-      <kike-experience-ImageSection :links="project?.firstGroupImages" />
+      <kike-experience-Information />
+      <kike-projects-ImageSection :links="project.firstGroupImages" />
       <kike-experience-Info />
-      <kike-experience-ImageSection2 :links="project?.secondGroupImages" />
-      <hr>
-      <kike-experience-SliderPanel :index="project?.id" />
+      <kike-experience-ImageCarousel :imgs="project?.secondGroupImages" />
+      <kike-experience-SliderControls :index="project?.id" />
     </div>
   </div>
 </template>
@@ -36,8 +35,5 @@ const project = projects.find(a => a.url === `/projects/${link}`)!
 
 .main {
   @apply max-w-6xl mx-auto px-4 items-center text-justify;
-  hr {
-    border-color: #595959;
-  }
 }
 </style>

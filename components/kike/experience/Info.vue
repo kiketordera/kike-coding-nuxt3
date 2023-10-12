@@ -31,7 +31,8 @@
 
 <style lang="scss" scoped>
 .info {
-  @apply flex lg:flex-row flex-col my-10 justify-between items-start py-10 mx-auto px-4;
+    @apply flex lg:flex-row flex-col
+  py-10 mx-auto max-w-6xl px-4;
   h2,h3 {
     @apply text-2xl lg:w-1/2 mb-4;
     color: white;

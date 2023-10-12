@@ -1,5 +1,6 @@
 <template>
   <section>
+    <hr>
     <div class="content">
       <NuxtLink :to="projects[getPrev()].url" aria-label="Previous project">
         <div class="button">
@@ -42,15 +43,20 @@ function getPrev (): number {
 </script>
 <style lang="scss" scoped>
 section {
-  @apply max-w-6xl mx-auto py-12 items-center px-4;
+  @apply max-w-6xl mx-auto py-12 items-center;
   .content {
     @apply py-8 justify-around lg:gap-6 gap-4 items-center flex w-full;
     .button {
-        @apply flex items-center lg:gap-2 uppercase;
-        p {
-          @apply text-sm   lg:text-lg;
-        }
+      @apply flex items-center lg:gap-2 uppercase;
+      p {
+        @apply text-sm lg:text-lg;
+        color: #595959;
+      }
     }
+  }
+  hr {
+    @apply w-full;
+    border-color: #595959;
   }
 }
 </style>
