@@ -1,0 +1,286 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="812" viewBox="0 0 375 812">
+  <defs>
+    <filter id="Rectangle_1913" x="7" y="223" width="361" height="165" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_1916" x="7" y="400" width="361" height="165" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_1917" x="7" y="580" width="361" height="165" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_1918" x="7" y="760" width="361" height="165" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect x="33" width="375" height="60" fill="none"/>
+    </clipPath>
+    <filter id="textbox" x="58.5" y="716.5" width="263" height="127" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="16" result="blur-5"/>
+      <feFlood flood-color="#5b4dbc" flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle" x="-72" y="680" width="519" height="214" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="24" result="blur-6"/>
+      <feFlood flood-opacity="0.039"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-H-3_Calendar">
+      <rect width="375" height="812"/>
+    </clipPath>
+  </defs>
+  <g id="H-3_Calendar" data-name="H-3 Calendar" clip-path="url(#clip-H-3_Calendar)">
+    <rect width="375" height="812" fill="#fff"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_1913)">
+      <rect id="Rectangle_1913-2" data-name="Rectangle 1913" width="343" height="147" rx="10" transform="translate(16 229)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_1916)">
+      <rect id="Rectangle_1916-2" data-name="Rectangle 1916" width="343" height="147" rx="10" transform="translate(16 406)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_1917)">
+      <rect id="Rectangle_1917-2" data-name="Rectangle 1917" width="343" height="147" rx="10" transform="translate(16 586)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_1918)">
+      <rect id="Rectangle_1918-2" data-name="Rectangle 1918" width="343" height="147" rx="10" transform="translate(16 766)" fill="#fff"/>
+    </g>
+    <rect id="Rectangle_1908" data-name="Rectangle 1908" width="375" height="100" fill="#3f99a5"/>
+    <text id="Profile" transform="translate(30 88)" fill="#fff" font-size="22" font-family="GothamRounded-Book, Gotham Rounded"><tspan x="0" y="0">Bookins</tspan></text>
+    <text id="Sun_09" data-name="Sun 09" transform="translate(314 120)" fill="#3f62ac" font-size="12" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500"><tspan x="0.526" y="10">August</tspan></text>
+    <g id="Scroll_Group_6" data-name="Scroll Group 6" transform="translate(-33 145)" clip-path="url(#clip-path)" style="isolation: isolate">
+      <g id="Calendar_day_button" data-name="Calendar day button" transform="translate(50)">
+        <g id="Rectangle_1873" data-name="Rectangle 1873" fill="rgba(159,190,255,0.33)" stroke="#e8efff" stroke-width="1">
+          <rect width="46" height="50" rx="5" stroke="none"/>
+          <rect x="0.5" y="0.5" width="45" height="49" rx="4.5" fill="none"/>
+        </g>
+        <g id="Group_4961" data-name="Group 4961" transform="translate(-53 -197)">
+          <text id="Sun_09-2" data-name="Sun 09" transform="translate(67.5 224)" font-size="13" font-family="GothamRnd-Medium, Gotham Rounded" font-weight="500"><tspan x="-8.97" y="10">09</tspan></text>
+          <text id="Sun_09-3" data-name="Sun 09" transform="translate(63 207)" font-size="12" font-family="GothamRnd-Book, Gotham Rounded"><tspan x="-12.78" y="10">Mon</tspan></text>
+        </g>
+      </g>
+      <g id="Calendar_day_button-2" data-name="Calendar day button">
+        <g id="Rectangle_1873-2" data-name="Rectangle 1873" fill="#fff" stroke="#e8efff" stroke-width="1">
+          <rect width="46" height="50" rx="5" stroke="none"/>
+          <rect x="0.5" y="0.5" width="45" height="49" rx="4.5" fill="none"/>
+        </g>
+        <g id="Group_4961-2" data-name="Group 4961" transform="translate(-53 -197)">
+          <text id="Sun_09-4" data-name="Sun 09" transform="translate(67.5 224)" font-size="13" font-family="GothamRnd-Medium, Gotham Rounded" font-weight="500"><tspan x="-8.97" y="10">09</tspan></text>
+          <text id="Sun_09-5" data-name="Sun 09" transform="translate(63 207)" font-size="12" font-family="GothamRnd-Book, Gotham Rounded"><tspan x="-12.78" y="10">Mon</tspan></text>
+        </g>
+      </g>
+      <g id="Calendar_day_button-3" data-name="Calendar day button" transform="translate(99)">
+        <g id="Rectangle_1873-3" data-name="Rectangle 1873" fill="none" stroke="#e8efff" stroke-width="1">
+          <rect width="46" height="50" rx="5" stroke="none"/>
+          <rect x="0.5" y="0.5" width="45" height="49" rx="4.5" fill="none"/>
+        </g>
+        <g id="Group_4961-3" data-name="Group 4961" transform="translate(-53 -197)">
+          <text id="Sun_09-6" data-name="Sun 09" transform="translate(67.5 224)" font-size="13" font-family="GothamRnd-Medium, Gotham Rounded" font-weight="500"><tspan x="-7.28" y="10">10</tspan></text>
+          <text id="Sun_09-7" data-name="Sun 09" transform="translate(63 207)" font-size="12" font-family="GothamRnd-Book, Gotham Rounded"><tspan x="-10.614" y="10">Tue</tspan></text>
+        </g>
+      </g>
+      <g id="Calendar_day_button-4" data-name="Calendar day button" transform="translate(148)">
+        <g id="Rectangle_1873-4" data-name="Rectangle 1873" fill="#fff" stroke="#e8efff" stroke-width="1">
+          <rect width="49" height="50" rx="5" stroke="none"/>
+          <rect x="0.5" y="0.5" width="48" height="49" rx="4.5" fill="none"/>
+        </g>
+        <g id="Group_4961-4" data-name="Group 4961" transform="translate(-53 -197)">
+          <text id="Sun_09-8" data-name="Sun 09" transform="translate(67.5 224)" font-size="13" font-family="GothamRnd-Medium, Gotham Rounded" font-weight="500"><tspan x="-5.148" y="10">11</tspan></text>
+          <text id="Sun_09-9" data-name="Sun 09" transform="translate(63 207)" font-size="12" font-family="GothamRnd-Book, Gotham Rounded"><tspan x="-13.782" y="10">Wed</tspan></text>
+        </g>
+      </g>
+      <g id="Calendar_day_button-5" data-name="Calendar day button" transform="translate(199)">
+        <g id="Rectangle_1873-5" data-name="Rectangle 1873" fill="#fff" stroke="#e8efff" stroke-width="1">
+          <rect width="46" height="50" rx="5" stroke="none"/>
+          <rect x="0.5" y="0.5" width="45" height="49" rx="4.5" fill="none"/>
+        </g>
+        <g id="Group_4961-5" data-name="Group 4961" transform="translate(-53 -197)">
+          <text id="Sun_09-10" data-name="Sun 09" transform="translate(67.5 224)" font-size="13" font-family="GothamRnd-Medium, Gotham Rounded" font-weight="500"><tspan x="-6.558" y="10">12</tspan></text>
+          <text id="Sun_09-11" data-name="Sun 09" transform="translate(63 207)" font-size="12" font-family="GothamRnd-Book, Gotham Rounded"><tspan x="-11.19" y="10">Thu</tspan></text>
+        </g>
+      </g>
+      <g id="Calendar_day_button-6" data-name="Calendar day button" transform="translate(248)">
+        <g id="Rectangle_1873-6" data-name="Rectangle 1873" fill="#fff" stroke="#e8efff" stroke-width="1">
+          <rect width="46" height="50" rx="5" stroke="none"/>
+          <rect x="0.5" y="0.5" width="45" height="49" rx="4.5" fill="none"/>
+        </g>
+        <g id="Group_4961-6" data-name="Group 4961" transform="translate(-53 -197)">
+          <text id="Sun_09-12" data-name="Sun 09" transform="translate(67.5 224)" font-size="13" font-family="GothamRnd-Medium, Gotham Rounded" font-weight="500"><tspan x="-6.591" y="10">13</tspan></text>
+          <text id="Sun_09-13" data-name="Sun 09" transform="translate(63 207)" font-size="12" font-family="GothamRnd-Book, Gotham Rounded"><tspan x="-7.944" y="10">Fri</tspan></text>
+        </g>
+      </g>
+      <g id="Calendar_day_button-7" data-name="Calendar day button" transform="translate(297)">
+        <g id="Rectangle_1873-7" data-name="Rectangle 1873" fill="#fff" stroke="#e8efff" stroke-width="1">
+          <rect width="46" height="50" rx="5" stroke="none"/>
+          <rect x="0.5" y="0.5" width="45" height="49" rx="4.5" fill="none"/>
+        </g>
+        <g id="Group_4961-7" data-name="Group 4961" transform="translate(-53 -197)">
+          <text id="Sun_09-14" data-name="Sun 09" transform="translate(67.5 224)" font-size="13" font-family="GothamRnd-Medium, Gotham Rounded" font-weight="500"><tspan x="-7.007" y="10">14</tspan></text>
+          <text id="Sun_09-15" data-name="Sun 09" transform="translate(63 207)" font-size="12" font-family="GothamRnd-Book, Gotham Rounded"><tspan x="-9.708" y="10">Sat</tspan></text>
+        </g>
+      </g>
+      <g id="Calendar_day_button-8" data-name="Calendar day button" transform="translate(346)">
+        <g id="Rectangle_1873-8" data-name="Rectangle 1873" fill="#fff" stroke="#e8efff" stroke-width="1">
+          <rect width="46" height="50" rx="5" stroke="none"/>
+          <rect x="0.5" y="0.5" width="45" height="49" rx="4.5" fill="none"/>
+        </g>
+        <g id="Group_4961-8" data-name="Group 4961" transform="translate(-53 -197)">
+          <text id="Sun_09-16" data-name="Sun 09" transform="translate(67.5 224)" font-size="13" font-family="GothamRnd-Medium, Gotham Rounded" font-weight="500"><tspan x="-6.623" y="10">15</tspan></text>
+          <text id="Sun_09-17" data-name="Sun 09" transform="translate(63 207)" font-size="12" font-family="GothamRnd-Book, Gotham Rounded"><tspan x="-11.232" y="10">Sun</tspan></text>
+        </g>
+      </g>
+      <g id="Calendar_day_button-9" data-name="Calendar day button" transform="translate(395)">
+        <g id="Rectangle_1873-9" data-name="Rectangle 1873" fill="#fff" stroke="#e8efff" stroke-width="1">
+          <rect width="46" height="50" rx="5" stroke="none"/>
+          <rect x="0.5" y="0.5" width="45" height="49" rx="4.5" fill="none"/>
+        </g>
+        <g id="Group_4961-9" data-name="Group 4961" transform="translate(-53 -197)">
+          <text id="Sun_09-18" data-name="Sun 09" transform="translate(67.5 224)" font-size="13" font-family="GothamRnd-Medium, Gotham Rounded" font-weight="500"><tspan x="-6.623" y="10">15</tspan></text>
+          <text id="Sun_09-19" data-name="Sun 09" transform="translate(63 207)" font-size="12" font-family="GothamRnd-Book, Gotham Rounded"><tspan x="-11.232" y="10">Sun</tspan></text>
+        </g>
+      </g>
+      <g id="Ellipse_236" data-name="Ellipse 236" transform="translate(73 56)" fill="#fff" stroke="#707070" stroke-width="1">
+        <circle cx="2" cy="2" r="2" stroke="none"/>
+        <circle cx="2" cy="2" r="1.5" fill="none"/>
+      </g>
+    </g>
+    <g id="Group_5092" data-name="Group 5092" transform="translate(-8.25 -188)">
+      <rect id="Rectangle_1729" data-name="Rectangle 1729" width="343" height="32" rx="5" transform="translate(24.25 417)" fill="#ff9b9b"/>
+      <text id="canceled" transform="translate(39.25 427)" fill="#1e2022" font-size="12" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500"><tspan x="0" y="10">CANCELED</tspan></text>
+    </g>
+    <g id="Group_5097" data-name="Group 5097" transform="translate(-8.25 -11)">
+      <rect id="Rectangle_1729-2" data-name="Rectangle 1729" width="343" height="32" rx="5" transform="translate(24.25 417)" fill="#70ecc3"/>
+      <text id="Completed" transform="translate(39.25 427)" fill="#1e2022" font-size="12" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500"><tspan x="0" y="10">COMPLETED</tspan></text>
+    </g>
+    <g id="Group_5101" data-name="Group 5101" transform="translate(-8.25 169)">
+      <rect id="Rectangle_1729-3" data-name="Rectangle 1729" width="343" height="32" rx="5" transform="translate(24.25 417)" fill="#e3ec70"/>
+      <text id="On_the_way" data-name="On the way" transform="translate(39.25 427)" fill="#1e2022" font-size="12" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500"><tspan x="0" y="10">ON THE WAY</tspan></text>
+    </g>
+    <g id="Group_5105" data-name="Group 5105" transform="translate(-8.25 349)">
+      <rect id="Rectangle_1729-4" data-name="Rectangle 1729" width="343" height="32" rx="5" transform="translate(24.25 417)" fill="#d2daec"/>
+      <text id="RESQUEDULED" transform="translate(39.25 427)" fill="#1e2022" font-size="12" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500"><tspan x="0" y="10">RESQUEDULED</tspan></text>
+    </g>
+    <text id="Russia" transform="translate(31 286)" fill="#1e2022" font-size="14" font-family="GothamRnd-Medium, Gotham Rounded" font-weight="500" letter-spacing="0.005em"><tspan x="0" y="0">Camel ride in the beach</tspan></text>
+    <text id="Russia-2" data-name="Russia" transform="translate(31 463)" fill="#1e2022" font-size="14" font-family="GothamRnd-Medium, Gotham Rounded" font-weight="500" letter-spacing="0.005em"><tspan x="0" y="0">Camel ride in the beach</tspan></text>
+    <text id="Russia-3" data-name="Russia" transform="translate(31 643)" fill="#1e2022" font-size="14" font-family="GothamRnd-Medium, Gotham Rounded" font-weight="500" letter-spacing="0.005em"><tspan x="0" y="0">Camel ride in the beach</tspan></text>
+    <g id="Group_4575" data-name="Group 4575" transform="translate(-247 144.909)">
+      <text id="_11:30" data-name="11:30" transform="matrix(1, 0, 0, 1, 306, 222)" fill="#6d7278" font-size="12" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500" letter-spacing="0.005em"><tspan x="0" y="0">11:30</tspan></text>
+      <path id="Icon_ionic-ios-time" data-name="Icon ionic-ios-time" d="M10,3.375A6.625,6.625,0,1,0,16.624,10,6.623,6.623,0,0,0,10,3.375Zm.446,7.2a.447.447,0,0,1-.446.446H6.942a.446.446,0,1,1,0-.892H9.554v-4.2a.446.446,0,1,1,.892,0Z" transform="translate(279.625 207.625)" fill="#3f62ac"/>
+    </g>
+    <g id="Group_5095" data-name="Group 5095" transform="translate(-247 321.909)">
+      <text id="_11:30-2" data-name="11:30" transform="matrix(1, 0, 0, 1, 306, 222)" fill="#6d7278" font-size="12" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500" letter-spacing="0.005em"><tspan x="0" y="0">11:30</tspan></text>
+      <path id="Icon_ionic-ios-time-2" data-name="Icon ionic-ios-time" d="M10,3.375A6.625,6.625,0,1,0,16.624,10,6.623,6.623,0,0,0,10,3.375Zm.446,7.2a.447.447,0,0,1-.446.446H6.942a.446.446,0,1,1,0-.892H9.554v-4.2a.446.446,0,1,1,.892,0Z" transform="translate(279.625 207.625)" fill="#3f62ac"/>
+    </g>
+    <g id="Group_5100" data-name="Group 5100" transform="translate(-247 501.909)">
+      <text id="_11:30-3" data-name="11:30" transform="matrix(1, 0, 0, 1, 306, 222)" fill="#6d7278" font-size="12" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500" letter-spacing="0.005em"><tspan x="0" y="0">11:30</tspan></text>
+      <path id="Icon_ionic-ios-time-3" data-name="Icon ionic-ios-time" d="M10,3.375A6.625,6.625,0,1,0,16.624,10,6.623,6.623,0,0,0,10,3.375Zm.446,7.2a.447.447,0,0,1-.446.446H6.942a.446.446,0,1,1,0-.892H9.554v-4.2a.446.446,0,1,1,.892,0Z" transform="translate(279.625 207.625)" fill="#3f62ac"/>
+    </g>
+    <g id="Group_4574" data-name="Group 4574" transform="translate(7 292.137)">
+      <text id="Rehema_Gana_has_cancelled_her_tickets_scheduled_for_15_04_2022_" data-name="Rehema Gana has cancelled her tickets scheduled for 15/04/2022  " transform="matrix(1, 0, 0, 1, 24, 4.863)" fill="#6d7278" font-size="13" font-family="GothamRnd-Book, Gotham Rounded" letter-spacing="0.005em"><tspan x="0" y="10">Rehema Gana has cancelled her tickets </tspan><tspan x="0" y="29">scheduled for </tspan><tspan y="29" fill="#3f62ac" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500">15/04/2022 </tspan><tspan y="29" fill="#3f62ac"> </tspan></text>
+    </g>
+    <g id="Group_5096" data-name="Group 5096" transform="translate(7 469.137)">
+      <text id="Rehema_Gana_has_assisted_and_3_more." data-name="Rehema Gana has assisted and 3 more." transform="matrix(1, 0, 0, 1, 24, 4.863)" fill="#6d7278" font-size="13" font-family="GothamRnd-Book, Gotham Rounded" letter-spacing="0.005em"><tspan x="0" y="10">Rehema Gana has assisted and 3 more.</tspan></text>
+    </g>
+    <g id="Group_5099" data-name="Group 5099" transform="translate(7 649.137)">
+      <text id="Rehema_Gana_has_not_arrived_yet_" data-name="Rehema Gana has not arrived yet  " transform="matrix(1, 0, 0, 1, 24, 4.863)" fill="#6d7278" font-size="13" font-family="GothamRnd-Book, Gotham Rounded" letter-spacing="0.005em"><tspan x="0" y="10" xml:space="preserve">Rehema Gana has not arrived yet  </tspan></text>
+    </g>
+    <g id="Group_4638" data-name="Group 4638" transform="translate(-38.599 56.28)">
+      <text id="_3_People" data-name="3 People" transform="matrix(1, 0, 0, 1, 173.099, 310.253)" fill="#6d7278" font-size="12" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500" letter-spacing="0.005em"><tspan x="0" y="0">3 People</tspan></text>
+      <g id="Group_5093" data-name="Group 5093" transform="translate(-0.551 -0.72)">
+        <circle id="Ellipse_199" data-name="Ellipse 199" cx="3.009" cy="3.009" r="3.009" transform="translate(161.858 300.253)" fill="#3f62ac"/>
+        <path id="Path_4126" data-name="Path 4126" d="M68.866,298.667A4.871,4.871,0,0,0,64,303.533a.541.541,0,0,0,.541.541h8.651a.541.541,0,0,0,.541-.541A4.871,4.871,0,0,0,68.866,298.667Z" transform="translate(96 8.899)" fill="#3f62ac"/>
+      </g>
+    </g>
+    <g id="Group_5094" data-name="Group 5094" transform="translate(-38.599 233.28)">
+      <text id="_3_People-2" data-name="3 People" transform="matrix(1, 0, 0, 1, 173.099, 310.253)" fill="#6d7278" font-size="12" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500" letter-spacing="0.005em"><tspan x="0" y="0">3 People</tspan></text>
+      <g id="Group_5093-2" data-name="Group 5093" transform="translate(-0.551 -0.72)">
+        <circle id="Ellipse_199-2" data-name="Ellipse 199" cx="3.009" cy="3.009" r="3.009" transform="translate(161.858 300.253)" fill="#3f62ac"/>
+        <path id="Path_4126-2" data-name="Path 4126" d="M68.866,298.667A4.871,4.871,0,0,0,64,303.533a.541.541,0,0,0,.541.541h8.651a.541.541,0,0,0,.541-.541A4.871,4.871,0,0,0,68.866,298.667Z" transform="translate(96 8.899)" fill="#3f62ac"/>
+      </g>
+    </g>
+    <g id="Group_5098" data-name="Group 5098" transform="translate(-38.599 413.28)">
+      <text id="_3_People-3" data-name="3 People" transform="matrix(1, 0, 0, 1, 173.099, 310.253)" fill="#6d7278" font-size="12" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500" letter-spacing="0.005em"><tspan x="0" y="0">3 People</tspan></text>
+      <g id="Group_5093-3" data-name="Group 5093" transform="translate(-0.551 -0.72)">
+        <circle id="Ellipse_199-3" data-name="Ellipse 199" cx="3.009" cy="3.009" r="3.009" transform="translate(161.858 300.253)" fill="#3f62ac"/>
+        <path id="Path_4126-3" data-name="Path 4126" d="M68.866,298.667A4.871,4.871,0,0,0,64,303.533a.541.541,0,0,0,.541.541h8.651a.541.541,0,0,0,.541-.541A4.871,4.871,0,0,0,68.866,298.667Z" transform="translate(96 8.899)" fill="#3f62ac"/>
+      </g>
+    </g>
+    <g id="right-arrow" transform="translate(314.157 237.066)">
+      <g id="Group_5053" data-name="Group 5053" transform="translate(12.176 113)">
+        <path id="Path_4681" data-name="Path 4681" d="M28.537,137.729h0l-5.45-5.424a1.043,1.043,0,0,0-1.472,1.479l3.659,3.641H12.219a1.043,1.043,0,0,0,0,2.086H25.274l-3.659,3.641a1.043,1.043,0,0,0,1.472,1.479l5.45-5.424h0A1.044,1.044,0,0,0,28.537,137.729Z" transform="translate(-11.176 -132)"/>
+      </g>
+    </g>
+    <g id="right-arrow-2" data-name="right-arrow" transform="translate(314.157 414.066)">
+      <g id="Group_5053-2" data-name="Group 5053" transform="translate(12.176 113)">
+        <path id="Path_4681-2" data-name="Path 4681" d="M28.537,137.729h0l-5.45-5.424a1.043,1.043,0,0,0-1.472,1.479l3.659,3.641H12.219a1.043,1.043,0,0,0,0,2.086H25.274l-3.659,3.641a1.043,1.043,0,0,0,1.472,1.479l5.45-5.424h0A1.044,1.044,0,0,0,28.537,137.729Z" transform="translate(-11.176 -132)"/>
+      </g>
+    </g>
+    <g id="right-arrow-3" data-name="right-arrow" transform="translate(314.157 594.066)">
+      <g id="Group_5053-3" data-name="Group 5053" transform="translate(12.176 113)">
+        <path id="Path_4681-3" data-name="Path 4681" d="M28.537,137.729h0l-5.45-5.424a1.043,1.043,0,0,0-1.472,1.479l3.659,3.641H12.219a1.043,1.043,0,0,0,0,2.086H25.274l-3.659,3.641a1.043,1.043,0,0,0,1.472,1.479l5.45-5.424h0A1.044,1.044,0,0,0,28.537,137.729Z" transform="translate(-11.176 -132)"/>
+      </g>
+    </g>
+    <g id="Group_5110" data-name="Group 5110" transform="translate(0 -17)">
+      <g id="Group_4576" data-name="Group 4576" transform="translate(2 502)">
+        <g transform="matrix(1, 0, 0, 1, -2, -485)" filter="url(#textbox)">
+          <rect id="textbox-2" data-name="textbox" width="166" height="30" rx="5" transform="translate(107 761)" fill="none" stroke="#3f62ac" stroke-width="1"/>
+        </g>
+        <text id="Contact_with_costumer_" data-name="Contact with costumer " transform="translate(191 295)" fill="#3f62ac" font-size="13" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500"><tspan x="-76.42" y="0">Contact with costumer </tspan></text>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 0, 17)" filter="url(#Rectangle)">
+        <path id="Rectangle-2" data-name="Rectangle" d="M12,0H363a12,12,0,0,1,12,12V70a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V12A12,12,0,0,1,12,0Z" transform="translate(0 750)" fill="#fff"/>
+      </g>
+      <text id="Scans" transform="translate(315 818)" fill="#67797f" font-size="9" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500" letter-spacing="0.005em"><tspan x="0" y="0">Scans</tspan></text>
+      <g id="dashboard" transform="translate(40 784)">
+        <path id="Path_4509" data-name="Path 4509" d="M8.088,0H1.53A1.532,1.532,0,0,0,0,1.53V5.465A1.532,1.532,0,0,0,1.53,7H8.088a1.532,1.532,0,0,0,1.53-1.53V1.53A1.532,1.532,0,0,0,8.088,0Zm0,0" fill="#67797f"/>
+        <path id="Path_4510" data-name="Path 4510" d="M8.088,213.332H1.53A1.532,1.532,0,0,0,0,214.862v9.181a1.532,1.532,0,0,0,1.53,1.53H8.088a1.532,1.532,0,0,0,1.53-1.53v-9.181A1.532,1.532,0,0,0,8.088,213.332Zm0,0" transform="translate(0 -204.588)" fill="#67797f"/>
+        <path id="Path_4511" data-name="Path 4511" d="M285.42,341.332h-6.558a1.532,1.532,0,0,0-1.53,1.53V346.8a1.532,1.532,0,0,0,1.53,1.53h6.558a1.532,1.532,0,0,0,1.53-1.53v-3.935A1.532,1.532,0,0,0,285.42,341.332Zm0,0" transform="translate(-265.965 -327.342)" fill="#67797f"/>
+        <path id="Path_4512" data-name="Path 4512" d="M285.42,0h-6.558a1.532,1.532,0,0,0-1.53,1.53v9.181a1.532,1.532,0,0,0,1.53,1.53h6.558a1.532,1.532,0,0,0,1.53-1.53V1.53A1.532,1.532,0,0,0,285.42,0Zm0,0" transform="translate(-265.965)" fill="#67797f"/>
+      </g>
+      <text id="Summary" transform="translate(29 818)" fill="#67797f" font-size="9" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500" letter-spacing="0.005em"><tspan x="0" y="0">Summary</tspan></text>
+      <text id="Calendar" transform="translate(132 818)" fill="#3f62ac" font-size="9" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500" letter-spacing="0.005em"><tspan x="0" y="0">Calendar</tspan></text>
+      <g id="Layer_2" data-name="Layer 2" transform="translate(140.75 782.75)">
+        <path id="Path_4516" data-name="Path 4516" d="M19,22.75H5A3.755,3.755,0,0,1,1.25,19V7A3.755,3.755,0,0,1,5,3.25H19A3.755,3.755,0,0,1,22.75,7V19A3.755,3.755,0,0,1,19,22.75ZM5,4.75A2.253,2.253,0,0,0,2.75,7V19A2.253,2.253,0,0,0,5,21.25H19A2.253,2.253,0,0,0,21.25,19V7A2.253,2.253,0,0,0,19,4.75Z" fill="#3f62ac"/>
+        <path id="Path_4517" data-name="Path 4517" d="M22,9.75H2A.75.75,0,0,1,1.25,9V7A3.755,3.755,0,0,1,5,3.25H19A3.755,3.755,0,0,1,22.75,7V9A.75.75,0,0,1,22,9.75ZM2.75,8.25h18.5V7A2.253,2.253,0,0,0,19,4.75H5A2.253,2.253,0,0,0,2.75,7Z" fill="#3f62ac"/>
+        <path id="Path_4518" data-name="Path 4518" d="M16,6.75A.75.75,0,0,1,15.25,6V2a.75.75,0,1,1,1.5,0V6A.75.75,0,0,1,16,6.75Z" fill="#3f62ac"/>
+        <path id="Path_4519" data-name="Path 4519" d="M8,6.75A.75.75,0,0,1,7.25,6V2a.75.75,0,1,1,1.5,0V6A.75.75,0,0,1,8,6.75Z" fill="#3f62ac"/>
+        <path id="Path_4520" data-name="Path 4520" d="M2,9v9a4,4,0,0,0,4,4H18a4,4,0,0,0,4-4V9Zm4,9a1,1,0,1,1,1-1A1,1,0,0,1,6,18Zm0-4a1,1,0,1,1,1-1A1,1,0,0,1,6,14Zm4,4a1,1,0,1,1,1-1A1,1,0,0,1,10,18Zm0-4a1,1,0,1,1,1-1A1,1,0,0,1,10,14Zm4,4a1,1,0,1,1,1-1A1,1,0,0,1,14,18Zm0-4a1,1,0,1,1,1-1A1,1,0,0,1,14,14Zm4,4a1,1,0,1,1,1-1A1,1,0,0,1,18,18Zm0-4a1,1,0,1,1,1-1A1,1,0,0,1,18,14Z" fill="#3f62ac"/>
+      </g>
+      <text id="Chat" transform="translate(233 818)" fill="#67797f" font-size="9" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500" letter-spacing="0.005em"><tspan x="0" y="0">Chat</tspan></text>
+      <g id="Speech_Bubble_48_" transform="translate(231 753.451)">
+        <g id="Group_4641" data-name="Group 4641" transform="translate(0 30.548)">
+          <path id="Path_4521" data-name="Path 4521" d="M3.555,52.048H1.825l1.223-1.223a4.14,4.14,0,0,0,1.182-2.448A8.726,8.726,0,0,1,0,41.021c0-5.194,4.774-10.473,12.251-10.473,7.921,0,12.168,4.857,12.168,10.018,0,5.195-4.292,10.049-12.168,10.049a16.5,16.5,0,0,1-4.1-.522,6.412,6.412,0,0,1-4.591,1.955Z" transform="translate(0 -30.548)" fill="#67797f"/>
+        </g>
+      </g>
+      <path id="Path_4522" data-name="Path 4522" d="M7,1.25H3A1.751,1.751,0,0,0,1.25,3V7a.75.75,0,0,0,1.5,0V3A.249.249,0,0,1,3,2.75H7a.75.75,0,0,0,0-1.5Z" transform="translate(315.75 782.75)" fill="#67797f" fill-rule="evenodd"/>
+      <path id="Path_4523" data-name="Path 4523" d="M17,2.75h4a.249.249,0,0,1,.25.25V7a.75.75,0,0,0,1.5,0V3A1.751,1.751,0,0,0,21,1.25H17a.75.75,0,0,0,0,1.5Z" transform="translate(315.75 782.75)" fill="#67797f" fill-rule="evenodd"/>
+      <path id="Path_4524" data-name="Path 4524" d="M1.25,17v4A1.751,1.751,0,0,0,3,22.75H7a.75.75,0,0,0,0-1.5H3A.249.249,0,0,1,2.75,21V17a.75.75,0,0,0-1.5,0Z" transform="translate(315.75 782.75)" fill="#67797f" fill-rule="evenodd"/>
+      <path id="Path_4525" data-name="Path 4525" d="M21.25,17v4a.249.249,0,0,1-.25.25H17a.75.75,0,0,0,0,1.5h4A1.751,1.751,0,0,0,22.75,21V17a.75.75,0,0,0-1.5,0Z" transform="translate(315.75 782.75)" fill="#67797f" fill-rule="evenodd"/>
+      <path id="Path_4526" data-name="Path 4526" d="M11.25,6.5A1.751,1.751,0,0,0,9.5,4.75h-3A1.751,1.751,0,0,0,4.75,6.5v3A1.751,1.751,0,0,0,6.5,11.25h3A1.751,1.751,0,0,0,11.25,9.5Z" transform="translate(315.75 782.75)" fill="#67797f" fill-rule="evenodd"/>
+      <path id="Path_4527" data-name="Path 4527" d="M11.25,14.5A1.751,1.751,0,0,0,9.5,12.75h-3A1.751,1.751,0,0,0,4.75,14.5v3A1.751,1.751,0,0,0,6.5,19.25h3a1.751,1.751,0,0,0,1.75-1.75Z" transform="translate(315.75 782.75)" fill="#67797f" fill-rule="evenodd"/>
+      <path id="Path_4528" data-name="Path 4528" d="M19.25,6.5A1.751,1.751,0,0,0,17.5,4.75h-3A1.751,1.751,0,0,0,12.75,6.5v3a1.751,1.751,0,0,0,1.75,1.75h3A1.751,1.751,0,0,0,19.25,9.5Z" transform="translate(315.75 782.75)" fill="#67797f" fill-rule="evenodd"/>
+      <path id="Path_4529" data-name="Path 4529" d="M14,14.875h1a.75.75,0,0,0,0-1.5H14a.75.75,0,0,0,0,1.5Z" transform="translate(315.75 782.75)" fill="#67797f" fill-rule="evenodd"/>
+      <path id="Path_4530" data-name="Path 4530" d="M18.5,17.125h-1a.75.75,0,0,0,0,1.5h1a.75.75,0,0,0,0-1.5Z" transform="translate(315.75 782.75)" fill="#67797f" fill-rule="evenodd"/>
+      <path id="Path_4531" data-name="Path 4531" d="M17,14.875h.75v.75a.75.75,0,0,0,1.5,0v-1.5a.75.75,0,0,0-.75-.75H17a.75.75,0,0,0,0,1.5Z" transform="translate(315.75 782.75)" fill="#67797f" fill-rule="evenodd"/>
+      <path id="Path_4532" data-name="Path 4532" d="M15.5,17.125h-.75v-.75a.75.75,0,0,0-1.5,0v1.5a.75.75,0,0,0,.75.75h1.5a.75.75,0,0,0,0-1.5Z" transform="translate(315.75 782.75)" fill="#67797f" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

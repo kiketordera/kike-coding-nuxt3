@@ -8,7 +8,7 @@
       :centered-slides-bounds="true"
     >
       <swiper-slide v-for="img in props.imgs" :key="img" class="swipper">
-        <img :src="img" class="elevation-8 mx-auto">
+        <img :src="img" class="elevation-8 mx-auto rounded-[1rem]">
       </swiper-slide>
     </swiper-container>
   </ClientOnly>
@@ -64,7 +64,7 @@ const props = defineProps({
 .swipper {
   @apply mx-auto;
   img {
-    @apply max-h-[50vh];
+    @apply max-h-[600px];
   }
 }
 </style>

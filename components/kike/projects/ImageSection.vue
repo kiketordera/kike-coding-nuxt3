@@ -33,11 +33,11 @@ function isLastAndEven (index: number) {
 <style lang="scss" scoped>
 .showcase-img {
     @apply max-w-6xl w-full mx-auto px-4 py-12
-    grid lg:grid-rows-2 lg:grid-cols-11 grid-cols-1 gap-3;
+    grid grid-rows-2 grid-cols-11 gap-3;
     img {
-      @apply object-cover w-full h-full h-[350px] lg:col-span-5;
+      @apply object-cover w-full h-full max-h-[350px] col-span-5;
       &.span{
-        @apply lg:col-span-6;
+        @apply col-span-6;
       }
     }
 
