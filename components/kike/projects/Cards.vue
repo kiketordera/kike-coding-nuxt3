@@ -5,7 +5,7 @@
         <NuxtLink :to="project.url">
           <v-hover v-slot="{ isHovering, props }">
             <v-card
-              class="elevation-2 rounded-0 mx-auto snap-start"
+              class="elevation-2 rounded-0 bg mx-auto snap-start"
               width="350"
               height="402"
               v-bind="props"
@@ -81,5 +81,7 @@ onBeforeUnmount(() => {
 </script>
 
 <style lang="scss" scoped>
-
+.bg {
+  opacity: 0.85;
+}
 </style>

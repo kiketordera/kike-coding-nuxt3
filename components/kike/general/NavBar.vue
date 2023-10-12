@@ -164,7 +164,7 @@ const onClick = (e: MouseEvent) => {
 }
 
 nav {
-  @apply w-full fixed z-30 top-0 px-4 py-2.5;
+  @apply w-full fixed z-30 top-0 px-4 py-3;
    background-color: #131212;
   color: #595959;
   border-bottom: 1px solid $sea-serpent;
@@ -225,7 +225,6 @@ nav {
 
   .expanded {
     @apply h-screen items-start;
-    padding: 0.5rem 1rem;
 
     .link-items {
       @apply px-2 w-full;
