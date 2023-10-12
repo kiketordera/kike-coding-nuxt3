@@ -64,8 +64,8 @@ register()
 
 <style lang="scss">
 :root {
-    --swiper-theme-color: #595959; // This is for general theme color
-    --swiper-navigation-color: #595959; // This is specifically for navigation arrows
+    --swiper-theme-color: $h2-color; // This is for general theme color
+    --swiper-navigation-color: $h2-color; // This is specifically for navigation arrows
 }
 
 .swiper-container {

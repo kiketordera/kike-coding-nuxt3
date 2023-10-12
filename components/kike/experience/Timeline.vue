@@ -1,7 +1,7 @@
 <template>
-  <div id="work">
+  <div>
     <div class="intro">
-      <div class="content" style="padding-top: 150px; margin-top: -150px;">
+      <div class="content">
         <h2 data-aos="fade-up">
           My Experience
         </h2>

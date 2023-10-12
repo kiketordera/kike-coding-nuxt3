@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div id="about" class="information">
+    <div id="work" class="information" style="padding-top: 80px; margin-top: -80px;">
       <div class="intro">
         <h2 data-aos="fade-up">
           Projects

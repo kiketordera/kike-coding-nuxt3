@@ -50,7 +50,7 @@ section {
       @apply flex items-center lg:gap-2 uppercase;
       p {
         @apply text-sm lg:text-lg;
-        color: #595959;
+        color: $h2-color;
       }
     }
   }

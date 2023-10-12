@@ -21,12 +21,12 @@
             </NuxtLink>
           </li>
           <li>
-            <NuxtLink :to="{path:'/', hash:'#work'}" :class="{'active':props.currentSection==='work'}" @click="onClick">
-              //  Work
+            <NuxtLink :to="{path:'/', hash:'#work'}" :class="{'active': props.currentSection==='work'}" @click="onClick">
+              //  Experience
             </NuxtLink>
           </li>
           <li>
-            <NuxtLink :to="{path:'/', hash:'#contact'}" :class="{'active':props.currentSection==='contact'}" @click="onClick">
+            <NuxtLink :to="{path:'/', hash:'#contact'}" :class="{'active': props.currentSection==='contact'}" @click="onClick">
               // Contact
             </NuxtLink>
           </li>
@@ -79,7 +79,7 @@
           </li>
           <li @click="visitLink">
             <NuxtLink :to="{path:'/', hash:'#work'}" :class="{'active':props.currentSection==='work'}" @click="onClick">
-              //  Work
+              //  Experience
             </NuxtLink>
           </li>
           <li @click="visitLink">
