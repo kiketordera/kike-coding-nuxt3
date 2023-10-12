@@ -20,6 +20,7 @@
             "duration": "2 Months",
             "url": "http://jkithome.com"
         },
+        "imagesType": "mobile",
         "firstGroupImages": [
             "/img/showcase/jmk/logo-formation.jpg",
             "/img/showcase/jmk/jmk-logo.svg",
@@ -56,6 +57,7 @@
             "duration": "2 Months",
             "url": "http://jkithome.com"
         },
+        "imagesType": "mobile",
         "firstGroupImages": [
             "/img/showcase/jmk/logo-formation.jpg",
             "/img/showcase/jmk/jmk-logo.svg",
@@ -92,18 +94,32 @@
             "duration": "2 Months",
             "url": "http://jkithome.com"
         },
+        "imagesType": "desktop",
         "firstGroupImages": [
-            "/img/projects/drones/login.svg",
-            "/img/projects/drones/drones.svg",
-            "/img/projects/drones/drone-selector.svg",
-            "/img/projects/drones/humidity.svg"
+            "/img/projects/drones/drones-mockup1.jpg",
+            "/img/projects/drones/drones-mockup2.jpg",
+            "/img/projects/drones/drones-mockup3.jpg",
+            "/img/projects/drones/drones-mockup4.jpg"
         ],
         "introText": "Kikenya Tours transcends traditional travel offerings, bringing forth a platform for adventurers worldwide to explore the compelling beauties and cultures of Kenya and East Africa. We're dedicated to providing immersive experiences that resonate with the diverse preferences of all tourists. By showcasing the best of Kenya and East Africa, Kikenya Tours ensures your journey is not just a trip but a lifelong memory etched in the sands of Africa's great landscapes.",
         "secondGroupImages": [
-            "/img/showcase/jmk/business-card.jpg",
-            "/img/showcase/jmk/evelop.jpg",
-            "/img/showcase/jmk/letter-head-presentation.jpg",
-            "/img/showcase/jmk/letter-head-mockup.jpg"
+            "/img/projects/drones/eva-drones1.svg",
+            "/img/projects/drones/eva-drones2.svg",
+            "/img/projects/drones/eva-drones3.svg",
+            "/img/projects/drones/eva-drones4.svg",
+            "/img/projects/drones/eva-drones5.svg",
+            "/img/projects/drones/eva-drones6.svg",
+            "/img/projects/drones/eva-drones7.svg",
+            "/img/projects/drones/eva-drones8.svg",
+            "/img/projects/drones/eva-drones9.svg",
+            "/img/projects/drones/eva-drones10.svg",
+            "/img/projects/drones/eva-drones11.svg",
+            "/img/projects/drones/eva-drones12.svg",
+            "/img/projects/drones/eva-drones13.svg",
+            "/img/projects/drones/eva-drones14.svg",
+            "/img/projects/drones/eva-drones15.svg",
+            "/img/projects/drones/eva-drones17.svg",
+            "/img/projects/drones/eva-drones16.svg"
         ]
     },
     {
@@ -127,6 +143,7 @@
             "duration": "2 Months",
             "url": "https://jkithome.com"
         },
+        "imagesType": "mobile",
         "firstGroupImages": [
             "/img/projects/oculid/mockup1.jpg",
             "/img/projects/oculid/mockup2.jpg",
@@ -174,6 +191,7 @@
             "duration": "2 Months",
             "url": "http://jkithome.com"
         },
+        "imagesType": "mobile",
         "firstGroupImages": [
             "/img/projects/action-coast/ac-mockup1.jpg",
             "/img/projects/action-coast/ac-mockup2.jpg",
@@ -223,6 +241,7 @@
             "duration": "2 Months",
             "url": "https://jkithome.com"
         },
+        "imagesType": "mobile",
         "firstGroupImages": [
             "/img/projects/oculid/login.svg",
             "/img/projects/oculid/test-login.svg",

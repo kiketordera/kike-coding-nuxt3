@@ -12,7 +12,7 @@
       <kike-experience-Information />
       <kike-projects-ImageSection :links="project.firstGroupImages" />
       <kike-experience-Info />
-      <kike-experience-ImageCarousel :imgs="project?.secondGroupImages" />
+      <kike-experience-ImageCarousel :imgs="project?.secondGroupImages" :type="project.imagesType" />
       <kike-experience-SliderControls :index="project?.id" />
     </div>
   </div>
