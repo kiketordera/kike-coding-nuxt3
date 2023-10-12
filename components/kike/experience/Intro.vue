@@ -105,6 +105,7 @@ section {
   }
   .bg {
     @apply w-full bg-cover bg-no-repeat h-[70vh] mt-4;
+    background-position: center;
   }
 
     }

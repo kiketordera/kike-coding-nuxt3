@@ -48,7 +48,7 @@ section {
     .button {
         @apply flex items-center lg:gap-2 uppercase;
         p {
-          @apply lg:block hidden  text-lg;
+          @apply text-sm   lg:text-lg;
         }
     }
   }
