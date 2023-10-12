@@ -16,14 +16,13 @@ const props = defineProps({
     required: true,
   },
 })
-
 </script>
 
 <style lang="scss" scoped>
 .images {
-    @apply flex lg:flex-row flex-col items-center w-full gap-10 py-16;
+    @apply flex items-center w-full gap-10 py-16 max-w-full overflow-x-scroll;
     img {
-        @apply w-full bg-cover;
+        @apply max-h-[700px];
     }
 }
 

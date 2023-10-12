@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="main">
+    <div>
       <kike-experience-Intro
         :client="project.client"
         :duration="project.intro.duration"
@@ -9,7 +9,7 @@
         :year="project.intro.year"
         :url="project.intro.url"
       />
-      <kike-experience-Information />
+      <kike-experience-Information class="main" />
       <kike-experience-ImageSection :links="project?.firstGroupImages" />
       <kike-experience-Info />
       <kike-experience-ImageSection2 :links="project?.secondGroupImages" />
@@ -24,7 +24,7 @@ const { default: projects } = await import('~/assets/data/projects.json')
 
 const route = useRoute()
 const link = route.params.project_id
-const project = projects.find(a => a.url === `/projects/${link}`)
+const project = projects.find(a => a.url === `/projects/${link}`)!
 
 </script>
 
