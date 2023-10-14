@@ -7,24 +7,20 @@
       <hr>
       <div class="overview">
         <div class="items">
-          <span data-aos="zoom-in-up">Service</span>
+          <span data-aos="zoom-in-up">Services</span>
           <ul data-aos="zoom-in-right">
-            <li v-for="ser in props.service" :key="ser">
+            <li v-for="ser in props.services" :key="ser">
               {{ ser }}
             </li>
           </ul>
         </div>
         <div class="items">
-          <span data-aos="zoom-in-up">Timeline</span>
-          <p data-aos="zoom-in-right">
-            {{ props.duration }}
-          </p>
-        </div>
-        <div class="items">
-          <span data-aos="zoom-in-up">Tools</span>
-          <p data-aos="zoom-in-right">
-            Full Stack
-          </p>
+          <span data-aos="zoom-in-up">Tech</span>
+          <ul data-aos="zoom-in-right">
+            <li v-for="t in props.tech" :key="t">
+              {{ t }}
+            </li>
+          </ul>
         </div>
         <div class="items">
           <span data-aos="zoom-in-up">Year</span>
@@ -33,10 +29,8 @@
           </p>
         </div>
         <div class="items">
-          <span data-aos="zoom-in-up">Live site</span>
-          <p data-aos="zoom-in-right">
-            {{ props.url }}
-          </p>
+          <span data-aos="zoom-in-up">Web site</span> <br>
+          <a target="_blank" :href="props.url">{{ props.url }}</a>
         </div>
       </div>
       <div :style="{ backgroundImage: `url(${props.coverImg})` }" class="bg" />
@@ -50,12 +44,12 @@ const props = defineProps({
     type: String,
     required: true,
   },
-  service: {
+  services: {
     type: Array<string>,
     required: true,
   },
-  duration: {
-    type: String,
+  tech: {
+    type: Array<string>,
     required: true,
   },
   year: {
@@ -88,26 +82,30 @@ section {
             font-weight: 600;
         }
         .overview {
-            @apply flex lg:flex-row flex-col lg:gap-32 py-8;
+            @apply grid grid-cols-2 sm:grid-cols-4 gap-4 flex-wrap py-8 justify-between;
             .items {
-                @apply px-4 mb-5;
+                @apply mb-5;
                 span {
-                    @apply text-base uppercase mb-8;
+                    @apply text-base uppercase;
                     color: $button-color;
                 }
                 p {
-                    @apply text-sm mt-3 text-justify;
+                    @apply text-sm text-justify;
+                }
+                p,
+                li,
+                a {
+                  @apply mt-1;
                 }
             }
         }
-  hr {
-    border-color: #595959;
-  }
-  .bg {
-    @apply w-full bg-cover bg-no-repeat h-[70vh] mt-4;
-    background-position: center;
-  }
-
+        hr {
+          border-color: #595959;
+        }
+        .bg {
+          @apply w-full bg-cover bg-no-repeat h-[70vh];
+          background-position: center;
+        }
     }
 }
 

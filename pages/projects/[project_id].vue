@@ -3,15 +3,15 @@
     <div>
       <kike-experience-Intro
         :client="project.client"
-        :duration="project.intro.duration"
-        :service="project.intro.services"
+        :services="project.intro.services"
+        :tech="project.intro.tech"
         :cover-img="project.mainImg"
         :year="project.intro.year"
         :url="project.intro.url"
       />
-      <kike-experience-Information />
+      <kike-experience-Information :title="project.firstTitle" :description="project.firstDescription" />
       <kike-projects-ImageSection :links="project.firstGroupImages" />
-      <kike-experience-Info />
+      <kike-experience-Information :title="project.secondtitle" :description="project.secondDescription" />
       <kike-experience-ImageCarousel :imgs="project?.secondGroupImages" :type="project.imagesType" />
       <kike-experience-SliderControls :index="project?.id" />
     </div>

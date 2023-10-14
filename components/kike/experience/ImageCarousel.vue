@@ -75,8 +75,20 @@ register()
 
 .swipper {
   @apply mx-auto;
+  padding-top: 30px;
   img {
     @apply max-h-[600px];
   }
 }
+
+.swiper-slide-shadow-left,
+.swiper-slide-shadow-right {
+  background-image: none;
+}
+
+.swiper-slide-prev,
+.swiper-slide-next {
+  opacity: 0.85;
+}
+
 </style>

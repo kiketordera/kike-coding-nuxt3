@@ -3,21 +3,13 @@
     <hr>
     <div class="content">
       <NuxtLink :to="projects[getPrev()].url" aria-label="Previous project">
-        <div class="button">
-          <p>
-            Previous Project
-          </p>
-        </div>
+        Previous Project
       </NuxtLink>
       <NuxtLink to="/" aria-label="All project">
         <img class="float-center" src="/svg/pramid.svg" alt="All project icon">
       </NuxtLink>
       <NuxtLink :to="projects[getNext()].url" aria-label="Next project">
-        <div class="button">
-          <p>
-            Next Project
-          </p>
-        </div>
+        Next Project
       </NuxtLink>
     </div>
   </section>
@@ -46,12 +38,9 @@ section {
   @apply max-w-6xl mx-auto py-12 items-center;
   .content {
     @apply py-8 justify-around lg:gap-6 gap-4 items-center flex w-full;
-    .button {
-      @apply flex items-center lg:gap-2 uppercase;
-      p {
-        @apply text-sm lg:text-lg;
-        color: $h2-color;
-      }
+    a {
+      @apply text-sm lg:text-lg uppercase cursor-pointer;
+      color: $h2-color;
     }
   }
   hr {

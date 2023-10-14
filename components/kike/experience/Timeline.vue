@@ -49,7 +49,7 @@
           <p class="title place rounded-b-md">
             {{ exp.nameCompany }}
           </p>
-          <div class="mx-auto block text-center sm:hidden">
+          <div class="mx-auto block pl-4 text-center sm:hidden">
             <p class="mx-auto mb-1 mt-2">
               {{ exp.startDate }}
             </p>

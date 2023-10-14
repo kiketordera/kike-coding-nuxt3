@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div ref="scrollContainer" class="flex w-full snap-x snap-mandatory overflow-scroll">
+    <div ref="scrollContainer" class="flex snap-x snap-mandatory justify-center overflow-scroll">
       <div v-for="project in Projects" :key="project.name" class="card mr-8">
         <NuxtLink :to="project.url">
           <v-hover v-slot="{ isHovering, props }">

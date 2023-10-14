@@ -96,6 +96,7 @@ onMounted(() => {
 <style lang="scss" scoped>
 .popup {
     @apply max-w-3xl fixed flex flex-wrap justify-end z-40;
+    background-color: transparent;
       right: 17px;
       bottom: 10px;
       left: auto;

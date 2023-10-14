@@ -170,7 +170,7 @@ nav {
   border-bottom: 1px solid $sea-serpent;
 
   .nav-item {
-    @apply max-w-6xl w-full flex flex-wrap justify-between items-center mx-auto ;
+    @apply max-w-6xl w-full flex flex-wrap justify-between items-center mx-auto px-4;
 
     .logo-link {
       img {
