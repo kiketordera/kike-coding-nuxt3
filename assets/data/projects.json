@@ -131,7 +131,15 @@
         "color_bg_logo": "white",
         "color_bg_title": "#63B190",
         "color_title": "white",
-        "url": "/projects/value-villages"
+        "url": "/projects/value-villages",
+        "intro": {},
+        "imagesType": "mobile",
+        "firstTitle": "",
+        "firstDescription": [],
+        "firstGroupImages": [],
+        "secondtitle": "",
+        "secondDescription": [],
+        "secondGroupImages": []
     },
     {
         "id": 3,
@@ -139,7 +147,6 @@
         "logo": "/img/projects/action-coast/logo.svg",
         "mainImg": "/img/projects/action-coast/background.png",
         "client": "Action coast",
-        "web": "https://ac.com",
         "color_bg_logo": "white",
         "color_bg_title": "#3F62AC",
         "color_title": "white",
