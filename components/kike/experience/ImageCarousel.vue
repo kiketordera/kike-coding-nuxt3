@@ -50,6 +50,7 @@ const updateEffect = () => {
 }
 
 onMounted(() => {
+  register()
   window.addEventListener('resize', updateEffect)
   updateEffect() // call once initially to set the correct effect on page load
 })
@@ -57,8 +58,6 @@ onMounted(() => {
 onUnmounted(() => {
   window.removeEventListener('resize', updateEffect)
 })
-
-register()
 
 </script>
 

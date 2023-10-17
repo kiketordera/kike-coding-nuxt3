@@ -25,12 +25,13 @@ const checkSectionInView = () => {
     // Check if the top of the section is within the top 25% of the viewport height
     if (rect && rect.top <= window.innerHeight / 1.5 && rect.bottom >= 0) {
       currentSection.value = sections[i]
-      window.history.replaceState(null, '', `#${sections[i]}`)
+      // router.replace({ hash: `#${sections[i]}` })
+      window.history.replaceState(window.history.state, '', `#${sections[i]}`)
       linkstate.$state.isActive = false
       break
     } else {
       currentSection.value = ''
-      window.history.replaceState(null, '', `${window.location.pathname}`)
+      window.history.replaceState(window.history.state, '', `${window.location.pathname}`)
       linkstate.$state.isActive = true
     }
   }

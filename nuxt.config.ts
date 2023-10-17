@@ -4,7 +4,7 @@ export default defineNuxtConfig({
     typeCheck: true
   },
 
-  modules: ['@nuxtjs/tailwindcss', '@pinia/nuxt', '@dargmuesli/nuxt-cookie-control', 'nuxt-gtag', 'nuxt-security'],
+  modules: ['@nuxtjs/tailwindcss', '@pinia/nuxt', '@dargmuesli/nuxt-cookie-control', 'nuxt-gtag', 'nuxt-security', 'nuxt-swiper'],
   runtimeConfig: {
     indexable: true,
     public: {
@@ -118,5 +118,10 @@ security: {
   contentSecurityPolicy: false
  }
 
+},
+vue: {
+  compilerOptions: {
+    isCustomElement: tag => ['swiper-container'].includes(tag),
+  },
 }
 })
