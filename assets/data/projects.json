@@ -132,7 +132,13 @@
         "color_bg_title": "#63B190",
         "color_title": "white",
         "url": "/projects/value-villages",
-        "intro": {},
+        "intro": {
+            "coverImg": "",
+            "services": [],
+            "tech": [],
+            "year": "",
+            "url": ""
+        },
         "imagesType": "mobile",
         "firstTitle": "",
         "firstDescription": [],
