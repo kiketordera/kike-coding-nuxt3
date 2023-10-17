@@ -2,8 +2,7 @@
     {
         "id": 0,
         "name": "Eva drones",
-        "logo": "/img//projects/drones/logo.png",
-        "img": "/img/projects/drones/bg.jpeg",
+        "logo": "/img/projects/drones/logo.png",
         "mainImg": "/img/projects/drones/background.png",
         "client": "Eva Drones",
         "color_bg_logo": "white",
@@ -37,9 +36,9 @@
         ],
         "secondtitle": "Technological Mastery meets Operational Excellence",
         "secondDescription": [
-            "Eva Drones is much more than a startup; it's a technological marvel crafting the future of deliveries. We collaborated to create an end-to-end ecosystem that simplifies every facet of drone operations. From robust take-off and landing modules, efficient charging stations, to intricate maintenance & repair hubs, we've integrated advanced systems ensuring operational fluency for drone pilots.",
-            "Our work with Eva Drones is a testament to our capabilities in handling multifaceted challenges. Recognizing the diverse application—from urban pizza deliveries to urgent humanitarian aid drops—we implemented real-time CCTV, providing comprehensive controls over the platform and cameras. This ensures continuous visibility and control for operations, especially crucial in high-stakes environments like conflict zones or disaster-stricken areas.",
-            "Our technological solutions for Eva Drones aren't just about efficiency; they embody our shared vision of harnessing innovation for genuine global impact."
+            "Eva Drones is much more than a startup; it's a technological marvel crafting the future of deliveries. The collaboration output was to create an end-to-end ecosystem that simplifies every facet of drone operations. From robust take-off and landing modules, efficient charging stations, to intricate maintenance & repair hubs, we've integrated advanced systems ensuring operational fluency for drone pilots.",
+            "My work with Eva Drones is a testament to my capabilities in handling multifaceted challenges. Recognizing the diverse application—from urban pizza deliveries to urgent humanitarian aid drops—I implemented real-time CCTV, providing comprehensive controls over the platform and cameras. This ensures continuous visibility and control for operations, especially crucial in high-stakes environments like conflict zones or disaster-stricken areas.",
+            "My technological solutions for Eva Drones aren't just about efficiency; they embody the shared vision of harnessing innovation for genuine global impact."
         ],
         "secondGroupImages": [
             "/img/projects/drones/eva-drones1.svg",
@@ -65,7 +64,6 @@
         "id": 1,
         "name": "Oculid",
         "logo": "/img/projects/oculid/logo.svg",
-        "img": "/img/projects/oculid/bg.jpg",
         "mainImg": "/img/projects/oculid/background.png",
         "client": "Oculid",
         "color_bg_logo": "white",
@@ -89,7 +87,7 @@
         "firstDescription": [
             "Oculid is an innovative company on a mission to redefine how businesses access critical user experience metrics. They aim to bring the precision and detail of a laboratory setup directly to businesses but without the cumbersome infrastructure and costs.",
             "Oculid's vision centers on providing a convenient, cost-effective, and agile model to businesses eager to understand user behavior on digital interfaces.",
-            "Through the app we've developed, Oculid captures real-time data like heat maps to showcase where users focus most, along with tap and scroll actions.",
+            "Through the app I've developed, Oculid captures real-time data like heat maps to showcase where users focus most, along with tap and scroll actions.",
             "Safety and privacy remain paramount; all data collection is with the informed consent of users, ensuring transparency and trust."
         ],
         "firstGroupImages": [
@@ -100,11 +98,10 @@
         ],
         "secondtitle": "Advanced UX Analysis Driven by Cutting-Edge Technology",
         "secondDescription": [
-            "For Oculid's ambitious vision, we embarked on a journey to design an application that stands out technically. At the core of our development was the integration of a high-frequency image capture system that grabs 30 frames per second using the front camera. This vast amount of visual data, complemented by screen recordings, voice notes detailing user thoughts, as well as granular tap and scroll interactions, are funneled efficiently to a backend system.",
-            "The real magic begins when the advanced algorithm, rooted in a research paper from MIT, processes this treasure trove of data.",
-            "Employing sophisticated machine learning techniques, it churns out comprehensive UX metrics, enabling businesses to derive actionable insights with precision unheard of outside laboratory settings.",
-            "Recognizing the sensitivity of the data, we've built stringent consent protocols into the app. Before any data collection, users are informed in detail, ensuring that privacy remains uncompromised.",
-            "At every step, we've pushed the boundaries of what's technically possible to deliver a product that is not just efficient, but also ethical."
+            "For Oculid's ambitious vision, I embarked on a journey to design an application that stands out technically. At the core of our development was the integration of a high-frequency image capture system that grabs 30 frames per second using the front camera. This vast amount of visual data, complemented by screen recordings, voice notes detailing user thoughts, as well as granular tap and scroll interactions, are funneled efficiently to a backend system.",
+            "The real magic begins when the advanced algorithm, rooted in a research paper from MIT, processes this treasure trove of data. Employing sophisticated machine learning techniques, it churns out comprehensive UX metrics, enabling businesses to derive actionable insights with precision unheard of outside laboratory settings.",
+            "Recognizing the sensitivity of the data, I've built stringent consent protocols into the app. Before any data collection, users are informed in detail, ensuring that privacy remains uncompromised.",
+            "At every step, I've pushed the boundaries of what's technically possible to deliver a product that is not just efficient, but also ethical."
         ],
         "secondGroupImages": [
             "/img/projects/oculid/permissions.svg",
@@ -129,50 +126,17 @@
         "id": 2,
         "name": "Value Villages",
         "logo": "/img/projects/vv/value-villages.png",
-        "img": "/img//projects/vv/vv-mobile.png",
-        "mainImg": "/img/projects/oculid/background.png",
+        "mainImg": "/img/projects/vv/mobile-mockup.svg",
         "client": "value villages",
         "color_bg_logo": "white",
         "color_bg_title": "#63B190",
         "color_title": "white",
-        "url": "/projects/value-villages",
-        "firstTitle": "A Platform for the People",
-        "firstDescription": [],
-        "secondtitle": "A Platform for the People",
-        "secondDescription": [],
-        "intro": {
-            "coverImg": "/img/projects/oculid/background.png",
-            "services": [
-                "Web Development"
-            ],
-            "year": "2018",
-            "tech": [
-                "Golang, Docker,",
-                "Vue.js, TypesScript"
-            ],
-            "url": "https://value-villages.org"
-        },
-        "imagesType": "mobile",
-        "firstGroupImages": [
-            "/img/showcase/jmk/logo-formation.jpg",
-            "/img/showcase/jmk/jmk-logo.svg",
-            "/img/showcase/jmk/jmk-logo-dark-green.svg",
-            "/img/showcase/jmk/jmk-logo-light-green.svg",
-            "/img/showcase/jmk/jmk-logo-orange.svg"
-        ],
-        "introText": "Kikenya Tours transcends traditional travel offerings, bringing forth a platform for adventurers worldwide to explore the compelling beauties and cultures of Kenya and East Africa. We're dedicated to providing immersive experiences that resonate with the diverse preferences of all tourists. By showcasing the best of Kenya and East Africa, Kikenya Tours ensures your journey is not just a trip but a lifelong memory etched in the sands of Africa's great landscapes.",
-        "secondGroupImages": [
-            "/img/showcase/jmk/business-card.jpg",
-            "/img/showcase/jmk/evelop.jpg",
-            "/img/showcase/jmk/letter-head-presentation.jpg",
-            "/img/showcase/jmk/letter-head-mockup.jpg"
-        ]
+        "url": "/projects/value-villages"
     },
     {
         "id": 3,
         "name": "Action Coast",
         "logo": "/img/projects/action-coast/logo.svg",
-        "img": "/img//projects/action-coast/cover.png",
         "mainImg": "/img/projects/action-coast/background.png",
         "client": "Action coast",
         "web": "https://ac.com",
@@ -196,9 +160,8 @@
         "imagesType": "mobile",
         "firstTitle": "Dive into Hidden Coastal Gems",
         "firstDescription": [
-            "Explore the coast like never before with Action Coast! Action Coast is your gateway to curated coastal activities and experiences that remain off the beaten path.",
-            "Whether you're a seasoned traveler or a local, our platform connects you with unique adventures that go beyond the usual tourist hotspots.",
-            "And there's more to Action Coast than just unforgettable experiences; by emphasizing local engagements, we're driving growth in local economies and enriching the overall touristic palette. It's not just about seeing a place; it's about truly experiencing it."
+            "At the heart of my collaboration with Action Coast was the desire to unlock the hidden coastal gems that the world has to offer. The coastlines are teeming with untapped adventures, local secrets, and experiences that most travelers miss out on.",
+            "The primary objective was to design a brand and platform that resonates with the thrill of discovery and the warmth of local communities. By focusing on local economies and enhancing the tourism experience, I provided travelers with a unique gateway to experiences often missed in standard guidebooks."
         ],
         "firstGroupImages": [
             "/img/projects/action-coast/ac-mockup1.jpg",
@@ -208,9 +171,10 @@
         ],
         "secondtitle": "Technological Prowess Meets Authentic Coastal Adventures",
         "secondDescription": [
-            "Action Coast isn't just another platform; it's an intricate weave of technology and local authenticity. Our collaboration ensured the platform is equipped with advanced filtering capabilities and intuitive booking systems, catering to diverse user preferences.",
-            "Recognizing the unique nature of coastal experiences, our technical solutions incorporated geo-tagging, ensuring users can find hidden treasures tailored to their current locations. We've also integrated a robust feedback system, allowing for continuous improvement based on real traveler insights.",
-            "In building Action Coast, our aim was not only to facilitate seamless experiences but also to empower local economies. Through the platform's backend, local hosts have access to analytics, helping them tailor offerings based on demand and feedback. Every tech feature serves a dual purpose: enhancing user experience and fostering local growth."
+            "The travel industry is saturated with platforms offering generic experiences. Action Coast's vision was distinct: to provide travelers with authentic coastal adventures.",
+            "To achieve this, I utilized technologies like Flutter, Dart, Vue.js, TypeScript, Nuxt.js, and Firebase. One of the main challenges was ensuring the platform was not just a listing of experiences but a curated journey into authenticity.",
+            "I implemented features like geo-specific content adjustments and a comprehensive review system. This ensured that the platform catered to tourists while empowering local hosts to showcase their unique offerings.",
+            "The result? A digital portal that seamlessly blends genuine coastal experiences with cutting-edge technology, making it a preferred choice for travelers seeking authentic adventures."
         ],
         "secondGroupImages": [
             "/img/projects/action-coast/action-coast1.svg",

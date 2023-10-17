@@ -12,10 +12,10 @@
             >
               <v-img
                 :aspect-ratio="16/9"
-                contain
+                cover
                 height="350"
                 width="350"
-                :src="project.img"
+                :src="project.mainImg"
               >
                 <v-expand-transition>
                   <div
