@@ -4,8 +4,11 @@
       :slides-per-view="slidesPerView"
       :effect="effect"
       :centered-slides="true"
-      navigation="true"
-      :centered-slides-bounds="true"
+      :autoplay="{ delay: 5000 }"
+      :navigation="true"
+      :pagination="{
+        type: 'fraction',
+      }"
     >
       <swiper-slide v-for="img in props.imgs" :key="img" class="swipper">
         <img
@@ -63,8 +66,8 @@ onUnmounted(() => {
 
 <style lang="scss">
 :root {
-    --swiper-theme-color: $h2-color; // This is for general theme color
-    --swiper-navigation-color: $h2-color; // This is specifically for navigation arrows
+    --swiper-navigation-color: white; // This is specifically for navigation arrows
+    --swiper-pagination-fraction-color: white;
 }
 
 .swiper-container {
@@ -75,6 +78,7 @@ onUnmounted(() => {
 .swipper {
   @apply mx-auto;
   padding-top: 30px;
+  padding-bottom: 60px;
   img {
     @apply max-h-[600px];
   }
