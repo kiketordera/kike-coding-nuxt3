@@ -70,6 +70,11 @@ if (cookiesEnabledIds.value !== undefined && cookiesEnabledIds.value.includes('g
   useGtagConsent(true)
 }
 
+useSeoMeta({
+  title: 'Kike Tordera - UX/UI Engineer & Software Developer | Crafting Digital Magic',
+  // eslint-disable-next-line max-len
+  description: 'A blend of UX/UI design and software development expertise. With international experience spanning three continents, I don\'t just code; I craft. Explore my journey, projects, and skills that fuse creativity with cutting-edge technology.',
+})
 </script>
 
 <style lang="scss" scoped>

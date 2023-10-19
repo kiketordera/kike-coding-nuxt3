@@ -14,12 +14,19 @@
         <hr>
         <kike-about-Skills :skills="leadershipSkills" :title="'Leadership Skills'" :color="'#55C5CA'" class="pb-12" />
         <kike-about-Skills :skills="softSkills" :title="'Soft Skills'" />
+        <button type="button" @click="whatsAppState.toggleModal()">
+          Hire me
+        </button>
       </div>
     </div>
   </section>
 </template>
 
 <script lang="ts" setup>
+import { WhatsAppStateProvider } from '~/store/whatsapp'
+
+const whatsAppState = WhatsAppStateProvider()
+
 const softSkills = [
   'Communication',
   'TeamWork',
@@ -77,5 +84,12 @@ section {
       border-color: #595959;
     }
   }
+}
+button {
+    @include button-base;
+    @apply my-8 block sm:w-min whitespace-nowrap;
+    background-color: $button-color;
+    color: $background-color;
+    font-weight: 600;
 }
 </style>

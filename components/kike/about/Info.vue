@@ -10,7 +10,7 @@
         </p>
         <p data-aos="fade-right">
           Programming? That's my jam! 🚀 My roots in coding run deep, nurtured by rigorous studies and spiced up
-          with international flair. And guess what? As a kid, I was that go-to tech whiz, always tinkering with computers.
+          with international flair. Guess what? Even as a kid, I was the go-to tech whiz, always tinkering with computers.
         </p>
         <p data-aos="fade-right">
           But here's the twist: I'm not just about the code. I'm passionate about crafting experiences.

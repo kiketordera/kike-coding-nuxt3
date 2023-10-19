@@ -23,7 +23,7 @@
         </NuxtLink>
       </div>
     </div>
-    <v-timeline line-thickness="1" align="start" side="end" :line-color="'white'" class="content">
+    <v-timeline line-thickness="3" align="start" side="end" :line-color="'#EEEEEE'" class="content">
       <v-timeline-item
         v-for="(exp, index) in rev"
         :key="exp.title"

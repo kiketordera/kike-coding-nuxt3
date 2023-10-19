@@ -10,11 +10,10 @@ export default defineNuxtConfig({
     public: {
       GOOGLE_ANALYTICS_MEASUREMENTID: process.env.GOOGLE_ANALYTICS_MEASUREMENTID,
       siteUrl: process.env.NUXT_PUBLIC_SITE_URL,
-      siteName: 'Kike Tordera',
+      siteName: '',
       // eslint-disable-next-line max-len
       siteDescription: 'UX / UI designer and software engineer with a solid base in programming thanks to my studies and international experience',
       language: 'en-gb'
-
     },
   },
 

@@ -25,7 +25,7 @@
       <div>
         <img data-aos="zoom-in-left" src="~assets/svg/kk/css-style.svg" alt="">
         <span data-aos="zoom-in-right">
-          Css/Sass
+          CSS/SASS
         </span>
       </div>
       <div>
