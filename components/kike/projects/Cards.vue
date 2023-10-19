@@ -13,7 +13,6 @@
               v-bind="props"
             >
               <v-img
-                :aspect-ratio="16/9"
                 cover
                 class="img"
                 :src="project.mainImg"
@@ -32,7 +31,7 @@
               <div class="text text-center" :style="`background-color: ${project.color_bg_title}`">
                 <h3
                   :style="`color: ${project.color_title}`"
-                  class="whitespace-nowrap p-3 text-2xl font-bold"
+                  class="whitespace-nowrap p-1 text-lg font-bold sm:p-3 sm:text-2xl"
                 >
                   {{ project.name }}
                 </h3>
@@ -43,6 +42,11 @@
       </div>
     </div>
   </section>
+  <div class="mt-12 text-center">
+    <NuxtLink data-aos="fade-down" href="/projects/oculid" class="button">
+      Dive in
+    </NuxtLink>
+  </div>
 </template>
 
 <script lang="ts" setup>
@@ -82,16 +86,21 @@ onBeforeUnmount(() => {
 
 <style lang="scss" scoped>
 .card {
-  @apply w-[150px] sm:w-[350px] h-full flex-shrink-0;
+  @apply w-[200px] sm:w-[350px] sm:h-[406px] h-full flex-shrink-0;
+  .img {
+    @apply sm:h-[350px] h-[200px];
+  }
 }
 
 .overflow-x-auto {
   @apply -mx-8;
 }
 
-@media (max-width: 640px) {
-  .card {
-    @apply w-full;
-  }
+a.button {
+  @include button-base;
+  @apply mt-4;
+  background-color: $font-color;
+  color: $background-color;
+  font-weight: 600;
 }
 </style>

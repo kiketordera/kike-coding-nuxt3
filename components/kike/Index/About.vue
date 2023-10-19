@@ -7,7 +7,7 @@
       <div class="info">
         <p data-aos="zoom-in-right">
           From the sun-kissed streets of Madrid to the bustling heart of Berlin, I had
-          the opportunity to have several international experiences in 3 continents, my journey has been nothing short of chill. 🌍
+          the opportunity to have several international experiences in 3 continents, my journey has been incredibly enriching. 🌍
         </p>
         <p data-aos="zoom-in-right">
           From childhood, computers weren't just toys; they were puzzles waiting to be solved. I've been the computer guru
@@ -23,7 +23,7 @@
             Why settle for ordinary when we can blend code and creativity to make something extraordinary?
           </span>
           <br>
-          Let's collaborate and make digital magic! ✨
+          Let's collaborate to create digital magic! ✨
         </p>
         <br>
         <NuxtLink data-aos="fade-down" href="/about">

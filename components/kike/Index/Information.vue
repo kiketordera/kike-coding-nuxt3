@@ -5,7 +5,7 @@
         <h2 class="mb-0" data-aos="zoom-in-up">
           <span>{</span>
           UX/UI Engineeer & <span class="yellow"> Software developer</span>
-          <span>}</span>
+          <span class="ml-3 sm:ml-8">}</span>
         </h2>
         <h2>
           <span data-aos="fade-right" class="text-base">
@@ -13,7 +13,7 @@
           </span>
         </h2>
         <p data-aos="fade-right">
-          Specialist in interfaces, from the UX & design to the development & launch.
+          I specialize in interfaces, from UX & design to development & launch.
         </p>
         <p class="txt-blue" data-aos="fade-right">
           Why choose someone with half the skills? Take someone with the full package!
