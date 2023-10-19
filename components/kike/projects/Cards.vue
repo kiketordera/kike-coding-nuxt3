@@ -1,20 +1,21 @@
 <template>
-  <section>
-    <div ref="scrollContainer" class="flex snap-x snap-mandatory justify-center overflow-scroll">
-      <div v-for="project in Projects" :key="project.name" class="card mr-8">
+  <section class="flex items-center justify-center px-12">
+    <div ref="scrollContainer" class="flex overflow-x-auto">
+      <div
+        v-for="project in Projects"
+        :key="project.name"
+        class="card mr-8 shrink-0"
+      >
         <NuxtLink :to="project.url">
           <v-hover v-slot="{ isHovering, props }">
             <v-card
-              class="elevation-2 rounded-0 bg mx-auto snap-start"
-              width="350"
-              height="402"
+              class="card elevation-2"
               v-bind="props"
             >
               <v-img
                 :aspect-ratio="16/9"
                 cover
-                height="350"
-                width="350"
+                class="img"
                 :src="project.mainImg"
               >
                 <v-expand-transition>
@@ -31,7 +32,7 @@
               <div class="text text-center" :style="`background-color: ${project.color_bg_title}`">
                 <h3
                   :style="`color: ${project.color_title}`"
-                  class="py-3 text-2xl font-bold"
+                  class="whitespace-nowrap p-3 text-2xl font-bold"
                 >
                   {{ project.name }}
                 </h3>
@@ -45,11 +46,15 @@
 </template>
 
 <script lang="ts" setup>
-import { ref, /* onMounted, */ onBeforeUnmount } from 'vue'
+import { ref, onBeforeUnmount } from 'vue'
 import Projects from '~~/assets/data/projects.json'
 
 const scrollContainer = ref<HTMLElement | null>(null)
 let scrollInterval: number
+
+onBeforeUnmount(() => {
+  clearInterval(scrollInterval) // Clear the interval when the component is destroyed.
+})
 
 // Uncomment to enable scrolling
 // let direction = 1 // 1 for left-to-right, -1 for right-to-left
@@ -73,15 +78,20 @@ let scrollInterval: number
 //     })
 //   }, 6000)
 // })
-
-onBeforeUnmount(() => {
-  clearInterval(scrollInterval) // Clear the interval when the component is destroyed.
-})
-
 </script>
 
 <style lang="scss" scoped>
-.bg {
-  opacity: 0.85;
+.card {
+  @apply w-[150px] sm:w-[350px] h-full flex-shrink-0;
+}
+
+.overflow-x-auto {
+  @apply -mx-8;
+}
+
+@media (max-width: 640px) {
+  .card {
+    @apply w-full;
+  }
 }
 </style>
