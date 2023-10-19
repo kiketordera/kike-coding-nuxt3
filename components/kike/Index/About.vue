@@ -22,8 +22,9 @@
           <span class="blue">
             Why settle for ordinary when we can blend code and creativity to make something extraordinary?
           </span>
-          <br>
-          Let's collaborate to create digital magic! ✨
+        </p>
+        <p>
+          Let's collaborate and make digital magic! ✨
         </p>
         <br>
         <NuxtLink data-aos="fade-down" href="/about">
