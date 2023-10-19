@@ -3,7 +3,7 @@
     <h1>
       Design beyond boundaries
     </h1>
-    <vv-design-info
+    <vv-design-Info
       class="mt-28"
       icon="lock-color.svg"
       :texts="auth"
@@ -12,7 +12,7 @@
       title="Authentication"
     />
     <vv-design-Dashboard />
-    <vv-design-info
+    <vv-design-Info
       class="mt-28"
       icon="alphabet-color.svg"
       :texts="numerical"
@@ -21,7 +21,7 @@
       title="Numerical alphabet"
     />
     <div class="bg-blue">
-      <vv-design-info
+      <vv-design-Info
         class="mt-28"
         icon="performance-bg-blue.svg"
         :texts="performance"
@@ -30,7 +30,7 @@
         title="Performance"
       />
     </div>
-    <vv-design-info
+    <vv-design-Info
       class="mt-28"
       icon="video-color.svg"
       :texts="video"
@@ -85,7 +85,11 @@ const video = [
 
 .bg-blue {
   @apply pt-2 pb-16 mt-24;
-  background-color: $branding-blue;
+  background-color: $branding-blue !important;
+  .content {
+    background-color: $branding-blue;
+
+  }
 }
 
   h1 {

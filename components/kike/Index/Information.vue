@@ -22,7 +22,7 @@
           Hire me
         </NuxtLink>
       </div>
-      <kike-Index-ProfileImage />
+      <img src="~assets/img/kk/stricker.png" alt="" class="mx-auto">
     </div>
   </section>
 </template>
@@ -37,11 +37,11 @@ const whatsAppState = WhatsAppStateProvider()
 section {
    @apply w-full;
     .info {
-        @apply pt-28  max-w-6xl lg:mx-auto w-full lg:flex grid-cols-1 gap-8 px-4;
+        @apply pt-28 max-w-6xl lg:mx-auto w-full lg:flex grid-cols-1 gap-8 px-4 text-center lg:text-left;
         .content {
             @apply lg:w-1/2 w-full mt-16;
             h2 {
-               @apply lg:text-4xl text-xl uppercase  tracking-wider mb-4;
+               @apply lg:text-4xl text-xl uppercase tracking-wider mb-4;
                 font-family: $source-code-bold;
                 color: $font-color;
                 font-weight: 600;
@@ -53,7 +53,7 @@ section {
                 }
             }
             p {
-                @apply text-base pb-3 w-full text-justify;
+                @apply text-base pb-3 w-full lg:text-justify;
                 font-family: $source-code-regular;
                 color: $h2-color;
             }
