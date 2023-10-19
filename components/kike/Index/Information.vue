@@ -18,7 +18,7 @@
         <p class="txt-blue" data-aos="fade-right">
           Why choose someone with half the skills? Take someone with the full package!
         </p>
-        <NuxtLink to="/#contact">
+        <NuxtLink to="/#contact" @click="whatsAppState.toggleModal()">
           Hire me
         </NuxtLink>
       </div>
@@ -26,6 +26,12 @@
     </div>
   </section>
 </template>
+
+<script lang="ts" setup>
+import { WhatsAppStateProvider } from '~/store/whatsapp'
+
+const whatsAppState = WhatsAppStateProvider()
+</script>
 
 <style lang="scss" scoped>
 section {
