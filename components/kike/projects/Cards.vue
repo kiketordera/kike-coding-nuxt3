@@ -4,7 +4,7 @@
       <div
         v-for="project in Projects"
         :key="project.name"
-        class="card mr-8 shrink-0"
+        class="card shrink-0"
       >
         <NuxtLink :to="project.url">
           <v-hover v-slot="{ isHovering, props }">
@@ -86,7 +86,7 @@ onBeforeUnmount(() => {
 
 <style lang="scss" scoped>
 .card {
-  @apply w-[200px] sm:w-[350px] sm:h-[406px] h-full flex-shrink-0;
+  @apply w-[200px] sm:w-[350px] sm:h-[406px] h-full flex-shrink-0 sm:mr-8 mr-4;
   .img {
     @apply sm:h-[350px] h-[200px];
   }
