@@ -45,6 +45,7 @@ export default defineNuxtConfig({
         // This will change the bouncing color when you scroll.
         // Put the branding color of the project here.
         { children: 'body { background-color: #2D2A2A }' },
+        { children: 'html, body { overflow-x: hidden; }' },
       ]
     },
   },

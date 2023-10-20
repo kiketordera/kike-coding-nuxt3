@@ -43,7 +43,7 @@
     </div>
   </section>
   <div class="mt-12 text-center">
-    <NuxtLink data-aos="fade-down" href="/projects/oculidc" class="button">
+    <NuxtLink data-aos="fade-down" href="/projects/oculid" class="button">
       Dive in
     </NuxtLink>
   </div>
