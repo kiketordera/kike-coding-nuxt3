@@ -41,7 +41,7 @@ const softSkills = [
 
 const leadershipSkills = [
   'Critical Thinking',
-  'Strategic Planning',
+  'Problem Solving',
   'Conflict Resolution',
   'Decision Making',
   'Visionary Thinking',

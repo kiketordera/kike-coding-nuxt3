@@ -165,7 +165,7 @@
         "webLink": "https://www.linkedin.com/company/circuskitchens/"
     },
     {
-        "title": "Chief Technology Officer",
+        "title": "Freelance Chief Technology Officer",
         "nameCompany": "Totem Studio",
         "img": "/experience/totem-logo.svg",
         "type": "work",
@@ -185,33 +185,6 @@
         ],
         "place": "Berlin, Germany",
         "startDate": "Apr 2020",
-        "endDate": "Today",
-        "durationMonths": "Today",
-        "modality": "remote",
-        "webLink": "https://thetotem.studio/"
-    },
-    {
-        "title": "Tech & Design Teamlead",
-        "nameCompany": "Culinu",
-        "img": "/experience/culinu-logo.svg",
-        "type": "work",
-        "description": [
-            "In design, I architect advanced UX/UI interfaces. Leveraging cutting-edge tech, I spearhead a web platform's development. This system integrates algorithms for precise food health analytics.",
-            "Our platform is underpinned by data-driven methodologies, ensuring precision and reliability. We harness advanced algorithms to deliver actionable insights.",
-            "We equip users with state-of-the-art tools for discerning dietary choices, leveraging real-time analytics to promote optimal health outcomes."
-        ],
-        "skills": [
-            "Mobile Application Development",
-            "Front End Development",
-            "Vue.js",
-            "Nuxt.js",
-            "TypeScript",
-            "Flutter",
-            "Project Management",
-            "Leadership"
-        ],
-        "place": "Berlin, Germany",
-        "startDate": "Aug 2023",
         "endDate": "Today",
         "durationMonths": "Today",
         "modality": "remote",
