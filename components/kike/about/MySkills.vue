@@ -30,7 +30,7 @@ const whatsAppState = WhatsAppStateProvider()
 const softSkills = [
   'Communication',
   'TeamWork',
-  'Problem-solving',
+  'Problem Solving',
   'Time management',
   'Adaptability',
   'Leadership',
@@ -41,7 +41,7 @@ const softSkills = [
 
 const leadershipSkills = [
   'Critical Thinking',
-  'Problem Solving',
+  'Cultural Sensitivity',
   'Conflict Resolution',
   'Decision Making',
   'Visionary Thinking',
