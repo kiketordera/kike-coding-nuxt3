@@ -17,7 +17,7 @@
             @mouseover="about = '/svg/vv/navbar/about-hover.svg'"
             @mouseleave="about = '/svg/vv/navbar/about.svg'"
           >
-            <img class="a" :src="about" alt="">
+            <img class="a" :src="path==='/projects/value-villages'?'/svg/vv/navbar/about-hover.svg':about" alt="">
             <p>About</p>
           </li>
         </NuxtLink>
@@ -27,7 +27,7 @@
             @mouseover="design = '/svg/vv/navbar/design-hover.svg'"
             @mouseleave="design = '/svg/vv/navbar/design.svg'"
           >
-            <img class="b" :src="design" alt="">
+            <img class="b" :src="path==='/projects/value-villages/design'?'/svg/vv/navbar/design-hover.svg':design" alt="">
             <p>Design</p>
           </li>
         </NuxtLink>
@@ -37,7 +37,7 @@
             @mouseover="features = '/svg/vv/navbar/features-hover.svg'"
             @mouseleave="features = '/svg/vv/navbar/features.svg'"
           >
-            <img class="b" :src="features" alt="">
+            <img class="b" :src="path==='/projects/value-villages/features'?'/svg/vv/navbar/features-hover.svg':features" alt="">
             <p>Features</p>
           </li>
         </NuxtLink>
@@ -47,6 +47,15 @@
 </template>
 
 <script lang="ts" setup>
+const { path } = useRoute()
+// function isLinkActive (path: string) {
+//   if (route.hash) {
+//     return route.hash === path.slice(1)
+//   } else {
+//     return route.path === path
+//   }
+// }
+// console.log(route.path)
 const kike = ref('/svg/vv/navbar/kike.svg')
 const about = ref('/svg/vv/navbar/about.svg')
 const design = ref('/svg/vv/navbar/design.svg')

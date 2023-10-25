@@ -121,7 +121,7 @@ security: {
 },
 vue: {
   compilerOptions: {
-    isCustomElement: tag => ['swiper-container'].includes(tag),
+    isCustomElement: tag => ['swiper-container', 'swiper-slide'].includes(tag),
   },
 }
 })

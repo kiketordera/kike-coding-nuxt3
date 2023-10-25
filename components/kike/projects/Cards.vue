@@ -51,7 +51,7 @@
 
 <script lang="ts" setup>
 import { ref, onBeforeUnmount } from 'vue'
-import Projects from '~~/assets/data/projects.json'
+import Projects from '~/assets/data/projects.json'
 
 const scrollContainer = ref<HTMLElement | null>(null)
 let scrollInterval: number
