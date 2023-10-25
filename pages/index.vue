@@ -27,6 +27,7 @@
 <script lang="ts" setup>
 const siteMeta = useSiteMeta()
 const showCookieConsent = ref(false)
+const { grantConsent } = useGtag()
 onMounted(() => {
   waitToShowConsent()
 })
@@ -59,7 +60,7 @@ watch(
       (!previous?.includes('ga') &&
         current?.includes('ga'))
     ) {
-      useGtagConsent(true)
+      grantConsent()
       // cookie with id `google-analytics` got added
       // placeholder for your custom change handler
     }
@@ -67,7 +68,7 @@ watch(
   { deep: true }
 )
 if (cookiesEnabledIds.value !== undefined && cookiesEnabledIds.value.includes('ga')) {
-  useGtagConsent(true)
+  grantConsent()
 }
 
 useSeoMeta({
