@@ -63,6 +63,12 @@ const features = ref('/svg/vv/navbar/features.svg')
 </script>
 
 <style lang="scss" scoped>
+
+* {
+    font-family: $nunito-regular;
+    background-color: white;
+}
+
 nav {
   display: flex;
   flex-direction: row;
