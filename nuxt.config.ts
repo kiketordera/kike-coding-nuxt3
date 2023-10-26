@@ -1,3 +1,5 @@
+import { ContactInformation } from './data_helper/contact'
+
 export default defineNuxtConfig({
   typescript: {
     strict: true,
@@ -9,8 +11,8 @@ export default defineNuxtConfig({
     indexable: true,
     public: {
       GOOGLE_ANALYTICS_MEASUREMENTID: process.env.GOOGLE_ANALYTICS_MEASUREMENTID,
-      siteUrl: process.env.NUXT_PUBLIC_SITE_URL,
-      siteName: '',
+      siteUrl: ContactInformation.fullURL,
+      siteName: ContactInformation.title,
       // eslint-disable-next-line max-len
       siteDescription: 'UX / UI designer and software engineer with a solid base in programming thanks to my studies and international experience',
       language: 'en-gb'
