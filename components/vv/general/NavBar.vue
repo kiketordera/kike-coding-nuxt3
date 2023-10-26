@@ -12,32 +12,33 @@
     </div>
     <div class="nav-items">
       <ul>
-        <NuxtLink to="/projects/value-villages">
+        <NuxtLink to="/projects/value-villages/" :class="{'about':getCurrentRoute==='/projects/value-villages/'}">
           <li
+
             @mouseover="about = '/svg/vv/navbar/about-hover.svg'"
             @mouseleave="about = '/svg/vv/navbar/about.svg'"
           >
-            <img class="a" :src="path==='/projects/value-villages'?'/svg/vv/navbar/about-hover.svg':about" alt="">
+            <img class="a" :src=" getCurrentRoute==='/projects/value-villages/'?'/svg/vv/navbar/about-hover.svg':about" alt="">
             <p>About</p>
           </li>
         </NuxtLink>
-        <NuxtLink to="/projects/value-villages/design">
+        <NuxtLink to="/projects/value-villages/design" :class="{'design':getCurrentRoute==='/projects/value-villages/design'}">
           <li
             class="design"
             @mouseover="design = '/svg/vv/navbar/design-hover.svg'"
             @mouseleave="design = '/svg/vv/navbar/design.svg'"
           >
-            <img class="b" :src="path==='/projects/value-villages/design'?'/svg/vv/navbar/design-hover.svg':design" alt="">
+            <img class="b" :src="getCurrentRoute==='/projects/value-villages/design'?'/svg/vv/navbar/design-hover.svg':design" alt="">
             <p>Design</p>
           </li>
         </NuxtLink>
-        <NuxtLink to="/projects/value-villages/features">
+        <NuxtLink to="/projects/value-villages/features" :class="{'features':getCurrentRoute==='/projects/value-villages/features'}">
           <li
             class="features"
             @mouseover="features = '/svg/vv/navbar/features-hover.svg'"
             @mouseleave="features = '/svg/vv/navbar/features.svg'"
           >
-            <img class="b" :src="path==='/projects/value-villages/features'?'/svg/vv/navbar/features-hover.svg':features" alt="">
+            <img class="b" :src=" getCurrentRoute==='/projects/value-villages/features'?'/svg/vv/navbar/features-hover.svg':features" alt="">
             <p>Features</p>
           </li>
         </NuxtLink>
@@ -47,22 +48,32 @@
 </template>
 
 <script lang="ts" setup>
-const { path } = useRoute()
-// function isLinkActive (path: string) {
-//   if (route.hash) {
-//     return route.hash === path.slice(1)
-//   } else {
-//     return route.path === path
-//   }
-// }
-// console.log(route.path)
+
+const router = useRouter()
+
 const kike = ref('/svg/vv/navbar/kike.svg')
 const about = ref('/svg/vv/navbar/about.svg')
 const design = ref('/svg/vv/navbar/design.svg')
 const features = ref('/svg/vv/navbar/features.svg')
+
+const getCurrentRoute = computed(() => {
+  return router.currentRoute.value.fullPath
+})
 </script>
 
 <style lang="scss" scoped>
+.about{
+  color: $branding-green;
+  border-bottom: 2px solid $branding-green;
+}
+.design{
+  color: #ED037C;
+  border-bottom: 2px solid #ED037C;
+}
+.features{
+  color: #f7941d;
+  border-bottom: 2px solid #f7941d;
+}
 
 * {
     font-family: $nunito-regular;
