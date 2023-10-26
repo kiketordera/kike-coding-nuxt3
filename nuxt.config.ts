@@ -110,7 +110,7 @@ nitro: {
 // End of SEO
 security: {
   rateLimiter: {
-    tokensPerInterval: 5,
+    tokensPerInterval: 20,
     interval: 'hour',
   },
  headers: {

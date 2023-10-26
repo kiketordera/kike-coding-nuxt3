@@ -13,6 +13,8 @@
       :image="siteMeta.image"
       :same-as="siteMeta.sameAs"
     />
+    <OgImageScreenshot />
+
     <CookieControl v-if="showCookieConsent" locale="en" />
     <kike-index-Information />
     <general-ContinuousScroll />
