@@ -5,5 +5,5 @@ export class ContactInformation {
   static city = 'Berlin'
   static title = 'Kike Tordera'
   static URL = 'www.kike.me'
-  static fullURL = 'https://www.kike.me'
+  static fullURL = 'https://kike.me'
 }
