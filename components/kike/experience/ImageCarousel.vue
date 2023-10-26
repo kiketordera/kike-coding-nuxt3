@@ -66,7 +66,7 @@ onUnmounted(() => {
 
 <style lang="scss">
 :root {
-    --swiper-navigation-color: white; // This is specifically for navigation arrows
+    --swiper-navigation-color: #55C5CA; // This is specifically for navigation arrows
     --swiper-pagination-fraction-color: white;
 }
 

@@ -2,19 +2,19 @@
   <ClientOnly>
     <swiper-container
       :slides-per-view="slidesPerView"
-      :effect="effect"
+      effect="cube"
       :centered-slides="true"
-      :autoplay="{ delay: 5000 }"
       :navigation="true"
+      :loop="true"
       :pagination="{
         type: 'progressbar',
       }"
+      @slide-change="onSlideChange"
     >
       <swiper-slide
-        v-for="project in Projects"
+        v-for="project in projects"
         :key="project.name"
         class="swipper"
-        lazy="true"
       >
         <NuxtLink :to="project.url">
           <v-hover v-slot="{ isHovering, props }">
@@ -30,11 +30,11 @@
                 <v-expand-transition>
                   <div
                     v-if="isHovering"
-                    class="d-flex transition-fast-in-fast-out v-card--reveal text-h2 text-center"
+                    class="d-flex transition-fast-in-fast-out"
                     :style="`background-color: ${project.color_bg_logo}`"
                     style="height: 100%; opacity: 0.85; backdrop-filter: blur(10px);"
                   >
-                    <img :src="project.logo" :alt="`${project.name} logo`" class="mx-auto object-contain px-10">
+                    <img :src="project.logo" :alt="`${project.name} logo`" class="logo">
                   </div>
                 </v-expand-transition>
               </v-img>
@@ -52,47 +52,11 @@
       </swiper-slide>
     </swiper-container>
   </ClientOnly>
-  <!-- <div
-        v-for="project in Projects"
-        :key="project.name"
-      >
-        <NuxtLink :to="project.url">
-          <v-hover v-slot="{ isHovering, props }">
-            <v-card
-              class="card elevation-2"
-              v-bind="props"
-            >
-              <v-img
-                cover
-                class="img"
-                :src="project.mainImg"
-              >
-                <v-expand-transition>
-                  <div
-                    v-if="isHovering"
-                    class="d-flex transition-fast-in-fast-out v-card--reveal text-h2 text-center"
-                    :style="`background-color: ${project.color_bg_logo}`"
-                    style="height: 100%; opacity: 0.85; backdrop-filter: blur(10px);"
-                  >
-                    <img :src="project.logo" :alt="`${project.name} logo`" class="mx-auto object-contain px-10">
-                  </div>
-                </v-expand-transition>
-              </v-img>
-              <div class="text text-center" :style="`background-color: ${project.color_bg_title}`">
-                <h3
-                  :style="`color: ${project.color_title}`"
-                  class="whitespace-nowrap p-1 text-lg font-bold sm:p-3 sm:text-2xl"
-                >
-                  {{ project.name }}
-                </h3>
-              </div>
-            </v-card>
-          </v-hover>
-        </NuxtLink>
-      </div> -->
-
+  <div class="mt-6 text-center">
+    {{ activeSlide + 1 }} / {{ projects.length }}
+  </div>
   <div class="mt-12 text-center">
-    <NuxtLink data-aos="fade-down" href="/projects/oculid" class="button">
+    <NuxtLink data-aos="fade-down" :to="currentProject" class="button">
       Dive in
     </NuxtLink>
   </div>
@@ -100,51 +64,43 @@
 
 <script lang="ts" setup>
 import { register } from 'swiper/element/bundle'
-import Projects from '~/assets/data/projects.json'
+import projects from '~/assets/data/projects.json'
 register()
-const effect = ref('coverflow') // default effect
-const slidesPerView = ref(4)
-const scrollContainer = ref<HTMLElement | null>(null)
-let scrollInterval: number
+const slidesPerView = ref(1)
+const activeSlide = ref(0) // default to the first slide
 
-onBeforeUnmount(() => {
-  clearInterval(scrollInterval) // Clear the interval when the component is destroyed.
-})
-
-// Uncomment to enable scrolling
-// let direction = 1 // 1 for left-to-right, -1 for right-to-left
-
-// onMounted(() => {
-//   const container = scrollContainer.value
-//   const scrollAmount = 350 // This is the width of a card. Adjust if needed.
-
-//   scrollInterval = window.setInterval(() => {
-//     if (!container) { return }
-
-//     if (direction === 1 && (container.scrollLeft + container.offsetWidth >= container.scrollWidth)) {
-//       direction = -1 // Reverse direction to right-to-left
-//     } else if (direction === -1 && container.scrollLeft === 0) {
-//       direction = 1 // Reverse direction to left-to-right
-//     }
-
-//     container.scrollTo({
-//       left: container.scrollLeft + (scrollAmount * direction),
-//       behavior: 'smooth'
-//     })
-//   }, 6000)
-// })
-</script>
-
-<style lang="scss" scoped>
-.card {
-  @apply w-[200px] sm:w-[350px] sm:h-[406px] h-full flex-shrink-0 sm:mr-8 mr-4;
-  .img {
-    @apply sm:h-[350px] h-[200px];
-  }
+function onSlideChange (e: any) {
+  console.log('changed')
+  console.log(e)
+  activeSlide.value = e.detail[0].activeIndex
 }
 
-.overflow-x-auto {
-  @apply -mx-8;
+const currentProject = computed(() => {
+  return projects[activeSlide.value].url
+})
+
+</script>
+
+<style lang="scss">
+:root {
+  --swiper-pagination-color: #F89F76;
+  --swiper-pagination-progressbar-bg-color: #55C5CA;
+  --swiper-pagination-fraction-color: #F9A077;
+  --swiper-navigation-color: #55C5CA; // This is specifically for navigation arrows
+}
+
+.swipper {
+  @apply pt-12;
+}
+
+.card {
+  @apply h-full max-h-[550px] flex-shrink-0;
+  .img {
+    @apply h-[450px];
+  }
+  .logo {
+    @apply mx-auto object-contain max-w-[50%] py-4;
+  }
 }
 
 a.button {
