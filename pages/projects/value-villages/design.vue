@@ -49,6 +49,12 @@ definePageMeta({
   layout: 'vv',
 })
 
+useSeoMeta({
+  title: 'Totem Studio | Value Villages - Design beyond boundaries',
+  // eslint-disable-next-line max-len
+  description: 'Designing Intuitive Interfaces for All: Explore innovative solutions tailored for users beyond literacy barriers. From story-based authentication to a simplified numerical alphabet, experience a platform that prioritizes understanding and simplicity. Dive into a dashboard that offers custom services, global actions, and performance metrics, all presented with clear iconography and video tutorials. Designed to empower, this platform seamlessly blends user-friendly design with functionality, ensuring every user, regardless of literacy level, can navigate with confidence.',
+})
+
 const auth = [
   // eslint-disable-next-line max-len
   'When you start to create an interface adapted for illiteracy, you need to take normal routines that you do several times every day and reinvent it, giving them a better understanding and simplicity.',

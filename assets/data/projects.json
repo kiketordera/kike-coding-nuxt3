@@ -9,6 +9,7 @@
         "color_bg_title": "#00588E",
         "color_title": "white",
         "url": "/projects/eva-drones",
+        "seoDescription": "Eva Drones: Pioneering the Future of Deliveries with Technological Excellence. Dive into a transformative drone ecosystem designed for everything from urban pizza deliveries to critical aid in conflict zones. Discover an integrated platform that prioritizes operational fluency, real-time controls, and a vision for global impact. Experience the blend of innovation and purpose in drone operations.",
         "intro": {
             "coverImg": "/img/projects/drones/background.png",
             "services": [
@@ -30,9 +31,9 @@
         ],
         "firstGroupImages": [
             "/img/projects/drones/drones-mockup1.jpg",
-            "/img/projects/drones/drones-mockup2.jpg",
             "/img/projects/drones/drones-mockup3.jpg",
-            "/img/projects/drones/drones-mockup4.jpg"
+            "/img/projects/drones/drones-mockup4.jpg",
+            "/img/projects/drones/drones-mockup2.jpg"
         ],
         "secondtitle": "Technological Mastery meets Operational Excellence",
         "secondDescription": [
@@ -70,6 +71,7 @@
         "color_bg_title": "#008080",
         "color_title": "white",
         "url": "/projects/oculid",
+        "seoDescription": "Redefining User Experience Analysis with Precision and Ethics. Explore a groundbreaking application that captures real-time user interactions, from heat maps to voice notes, all processed by advanced machine learning for unparalleled UX insights. Designed with a commitment to transparency and user consent, Oculid offers businesses a unique blend of technical prowess and ethical data collection.",
         "intro": {
             "coverImg": "/img/projects/oculid/background.png",
             "services": [
@@ -157,6 +159,7 @@
         "color_bg_title": "#3F62AC",
         "color_title": "white",
         "url": "/projects/action-coast",
+        "seoDescription": "Unlocking Authentic Coastal Adventures with Cutting-Edge Technology. Discover a platform designed to reveal the world's hidden coastal gems, focusing on local secrets and untapped adventures. Merging advanced technologies like Flutter, Dart, and Vue.js with curated content, Action Coast offers travelers a unique journey beyond generic guidebooks. Experience a blend of geo-specific content, comprehensive reviews, and genuine local experiences, making it the go-to portal for authentic coastal adventures.",
         "intro": {
             "coverImg": "/img/projects/oculid/background.png",
             "services": [
