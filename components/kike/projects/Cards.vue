@@ -1,10 +1,20 @@
 <template>
-  <section class="flex items-center justify-center px-12">
-    <div ref="scrollContainer" class="flex overflow-x-auto">
-      <div
+  <ClientOnly>
+    <swiper-container
+      :slides-per-view="slidesPerView"
+      :effect="effect"
+      :centered-slides="true"
+      :autoplay="{ delay: 5000 }"
+      :navigation="true"
+      :pagination="{
+        type: 'progressbar',
+      }"
+    >
+      <swiper-slide
         v-for="project in Projects"
         :key="project.name"
-        class="card shrink-0"
+        class="swipper"
+        lazy="true"
       >
         <NuxtLink :to="project.url">
           <v-hover v-slot="{ isHovering, props }">
@@ -39,9 +49,48 @@
             </v-card>
           </v-hover>
         </NuxtLink>
-      </div>
-    </div>
-  </section>
+      </swiper-slide>
+    </swiper-container>
+  </ClientOnly>
+  <!-- <div
+        v-for="project in Projects"
+        :key="project.name"
+      >
+        <NuxtLink :to="project.url">
+          <v-hover v-slot="{ isHovering, props }">
+            <v-card
+              class="card elevation-2"
+              v-bind="props"
+            >
+              <v-img
+                cover
+                class="img"
+                :src="project.mainImg"
+              >
+                <v-expand-transition>
+                  <div
+                    v-if="isHovering"
+                    class="d-flex transition-fast-in-fast-out v-card--reveal text-h2 text-center"
+                    :style="`background-color: ${project.color_bg_logo}`"
+                    style="height: 100%; opacity: 0.85; backdrop-filter: blur(10px);"
+                  >
+                    <img :src="project.logo" :alt="`${project.name} logo`" class="mx-auto object-contain px-10">
+                  </div>
+                </v-expand-transition>
+              </v-img>
+              <div class="text text-center" :style="`background-color: ${project.color_bg_title}`">
+                <h3
+                  :style="`color: ${project.color_title}`"
+                  class="whitespace-nowrap p-1 text-lg font-bold sm:p-3 sm:text-2xl"
+                >
+                  {{ project.name }}
+                </h3>
+              </div>
+            </v-card>
+          </v-hover>
+        </NuxtLink>
+      </div> -->
+
   <div class="mt-12 text-center">
     <NuxtLink data-aos="fade-down" href="/projects/oculid" class="button">
       Dive in
@@ -50,9 +99,11 @@
 </template>
 
 <script lang="ts" setup>
-import { ref, onBeforeUnmount } from 'vue'
+import { register } from 'swiper/element/bundle'
 import Projects from '~/assets/data/projects.json'
-
+register()
+const effect = ref('coverflow') // default effect
+const slidesPerView = ref(4)
 const scrollContainer = ref<HTMLElement | null>(null)
 let scrollInterval: number
 
