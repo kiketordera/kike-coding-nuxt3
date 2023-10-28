@@ -9,6 +9,7 @@
       :pagination="{
         type: 'fraction',
       }"
+      @slidechange="onSlideChange"
     >
       <swiper-slide v-for="img in props.imgs" :key="img" class="swipper">
         <img
@@ -36,7 +37,7 @@ const props = defineProps({
 })
 
 const effect = ref('coverflow') // default effect
-const slidesPerView = ref(3) // default value
+const slidesPerView = ref(2) // default value
 
 const updateEffect = () => {
   if (window.innerWidth <= 650) {
@@ -44,11 +45,7 @@ const updateEffect = () => {
     slidesPerView.value = 1 // show only one slide at a time
   } else {
     effect.value = 'coverflow'
-    if (props.type === 'desktop') {
-      slidesPerView.value = 2 // show two slides at a time
-    } else {
-      slidesPerView.value = 3 // show three slides at a time
-    }
+    slidesPerView.value = 2 // show three slides at a time
   }
 }
 
@@ -65,10 +62,6 @@ onUnmounted(() => {
 </script>
 
 <style lang="scss">
-:root {
-    --swiper-navigation-color: #55C5CA; // This is specifically for navigation arrows
-    --swiper-pagination-fraction-color: white;
-}
 
 .swiper-container {
   display: flex;
