@@ -9,7 +9,6 @@
       :pagination="{
         type: 'fraction',
       }"
-      @slidechange="onSlideChange"
     >
       <swiper-slide v-for="img in props.imgs" :key="img" class="swipper">
         <img

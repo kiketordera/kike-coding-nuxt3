@@ -12,7 +12,7 @@
       @slidechange="onSlideChange"
     >
       <swiper-slide v-for="(project, index) in projects" :key="project.id" class="swipper" lazy="true">
-        <NuxtLink :href="`/projects/${project.link}`">
+        <NuxtLink :href="project.url">
           <v-card class="elevation-2 card">
             <v-img :aspect-ratio="16/9" cover :src="project.mainImg" loading="lazy">
               <div class="bg">
@@ -25,7 +25,7 @@
                   >
                     <img
                       :src="project.logo"
-                      :alt="`${project.link} logo`"
+                      :alt="`${project.name} logo`"
                       class="mx-auto max-h-[170px] w-2/3 max-w-[170px] object-contain sm:max-h-[300px] sm:max-w-[300px]"
                       loading="lazy"
                     >
