@@ -1,84 +1,118 @@
 <template>
-  <section>
-    <div class="skills">
-      <div class="card">
-        <div data-aos="zoom-in-left" class="card-body">
-          <img src="~assets/img/kk/action-coast.png" alt="value villages">
-          <NuxtLink to="/projects/value-villages/about">
-            <button type="button">
-              Value Village
-            </button>
-          </NuxtLink>
-        </div>
-        <div data-aos="zoom-up-right" class="card-body">
-          <div class="gradient">
-            <img src="~assets/img/kk/kikenya.png" alt="kikenya">
-            <div class="logo">
-              <img src="~assets/svg/kk/kikenya.svg" alt="">
-            </div>
-          </div>
-          <NuxtLink to="/open">
-            <button type="button">
-              Kikenya Tours
-            </button>
-          </NuxtLink>
-        </div>
-        <div data-aos="zoom-up-down" class="card-body">
-          <img src="~assets/img/kk/drones.png" alt="drones">
-          <button type="button">
-            Drones Project
-          </button>
-        </div>
-        <div data-aos="zoom-in-right" class="card-body">
-          <div class="gradient">
-            <img src="~assets/img/kk/action-coast.png" alt="">
-            <div class="logo">
-              <img src="~assets/svg/kk/action-coast.svg" alt="">
-            </div>
-          </div>
-          <button type="button">
-            Action Coast
-          </button>
-        </div>
-      </div>
-    </div>
-  </section>
+  <ClientOnly>
+    <swiper-container
+      :slides-per-view="1"
+      effect="cube"
+      :centered-slides="true"
+      :navigation="true"
+      :loop="true"
+      class="mx-auto max-w-3xl"
+      :pagination="{
+        type: 'progressbar',
+      }"
+      @slide-change="onSlideChange"
+    >
+      <swiper-slide
+        v-for="project in projects"
+        :key="project.name"
+        class="swipper pb-8"
+      >
+        <NuxtLink :to="project.url">
+          <v-hover v-slot="{ isHovering, props }">
+            <v-card
+              class="card elevation-2"
+              v-bind="props"
+            >
+              <v-img
+                cover
+                class="img"
+                :src="project.mainImg"
+              >
+                <v-expand-transition>
+                  <div
+                    v-if="isHovering"
+                    class="d-flex transition-fast-in-fast-out"
+                    :style="`background-color: ${project.color_bg_logo}`"
+                    style="height: 100%; opacity: 0.85; backdrop-filter: blur(10px);"
+                  >
+                    <img :src="project.logo" :alt="`${project.name} logo`" class="logo">
+                  </div>
+                </v-expand-transition>
+              </v-img>
+              <div class="text text-center" :style="`background-color: ${project.color_bg_title}`">
+                <h3
+                  :style="`color: ${project.color_title}`"
+                  class="whitespace-nowrap p-1 text-lg font-bold sm:p-3 sm:text-2xl"
+                >
+                  {{ project.name }}
+                </h3>
+              </div>
+            </v-card>
+          </v-hover>
+        </NuxtLink>
+      </swiper-slide>
+    </swiper-container>
+  </ClientOnly>
+  <div class="mt-6 text-center">
+    {{ activeSlide + 1 }} / {{ projects.length }}
+  </div>
+  <div class="mt-12 text-center">
+    <NuxtLink data-aos="fade-down" :to="currentProject" class="button">
+      Dive in
+    </NuxtLink>
+  </div>
 </template>
 
-<script>
+<script lang="ts" setup>
+import { register } from 'swiper/element/bundle'
+import projects from '~/assets/data/projects.json'
+register()
+const activeSlide = ref(0) // default to the first slide
+
+const currentProject = computed(() => {
+  return projects[activeSlide.value].url
+})
+
+function onSlideChange (e: any) {
+  console.log('changed')
+  console.log(e)
+  activeSlide.value = e.detail[0].activeIndex
+}
 
 </script>
 
-<style lang="scss" scoped>
-section {
-    @apply w-full mx-auto;
-    .skills {
-        @apply max-w-6xl w-full py-8 mx-auto px-4;
-        .card {
-          @apply grid lg:grid-cols-2 grid-cols-1 gap-4 my-4 w-full;
-          .card-body {
-            @apply w-full;
-            .gradient {
-              @apply w-full;
-              color: black;
-               background-size: cover;
-               opacity: 0.9;
-              .logo {
-                @apply absolute inset-x-10 left-16 top-24 w-1/3 items-center justify-center px-4;
-              }
-            }
-            img {
-              @apply bg-cover w-full;
-            }
-            button {
-                @apply lg:text-base text-sm uppercase px-16 py-4 text-center w-full;
-                background-color: black;
-                color: white;
-                font-weight: 600;
-            }
-          }
-        }
-    }
+<style lang="scss">
+:root {
+  --swiper-pagination-color: #F89F76;
+  --swiper-pagination-progressbar-bg-color: #55C5CA;
+  --swiper-navigation-color: #55C5CA; // This is specifically for navigation arrows
 }
 
+.swipper {
+  @apply pt-12;
+}
+
+.card {
+  @apply h-full max-h-[606px] flex-shrink-0 mx-auto;
+  aspect-ratio: 1/1;
+  .img {
+    @apply h-[550px];
+  }
+  .logo {
+    @apply mx-auto object-contain max-w-[50%] py-4;
+  }
+}
+
+a.button {
+  @include button-base;
+  @apply mt-4;
+  background-color: $font-color;
+  color: $background-color;
+  font-weight: 600;
+}
+
+div.swiper-button-prev,
+div > div.swiper-button-prev {
+  margin-left: -5rem !important;
+}
 </style>

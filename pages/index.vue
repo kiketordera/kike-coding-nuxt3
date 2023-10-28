@@ -13,21 +13,23 @@
       :image="siteMeta.image"
       :same-as="siteMeta.sameAs"
     />
+    <OgImageScreenshot />
+
     <CookieControl v-if="showCookieConsent" locale="en" />
-    <kike-general-NavBar />
     <kike-index-Information />
-    <kike-index-Skills />
+    <general-ContinuousScroll />
     <kike-index-About />
     <kike-projects-Work />
     <kike-experience-Timeline />
-    <kike-general-Footer />
-    <kike-general-TotemSignature />
+    <general-WhatsApp />
+    <kike-general-GetTouch />
   </main>
 </template>
 
 <script lang="ts" setup>
 const siteMeta = useSiteMeta()
 const showCookieConsent = ref(false)
+const { grantConsent } = useGtag()
 onMounted(() => {
   waitToShowConsent()
 })
@@ -60,7 +62,7 @@ watch(
       (!previous?.includes('ga') &&
         current?.includes('ga'))
     ) {
-      useGtagConsent(true)
+      grantConsent()
       // cookie with id `google-analytics` got added
       // placeholder for your custom change handler
     }
@@ -68,16 +70,20 @@ watch(
   { deep: true }
 )
 if (cookiesEnabledIds.value !== undefined && cookiesEnabledIds.value.includes('ga')) {
-  useGtagConsent(true)
+  grantConsent()
 }
 
+useSeoMeta({
+  title: 'Kike Tordera - UX/UI Engineer & Software Developer | Crafting Digital Magic',
+  // eslint-disable-next-line max-len
+  description: 'A blend of UX/UI design and software development expertise. With international experience spanning three continents, I don\'t just code; I craft. Explore my journey, projects, and skills that fuse creativity with cutting-edge technology.',
+})
 </script>
 
 <style lang="scss" scoped>
 * {
   background-color: #131212;
   color: #595959;
-  font-family: "Source Code Pro Regular";
+  font-family: $source-code-regular;
 }
-
 </style>

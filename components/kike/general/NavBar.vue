@@ -1,35 +1,39 @@
 <template>
-  <nav :class="{ 'bottom-gradient': scrollTop / 100 > 1, 'padding-0': isNavbarExpanded }">
-    <div v-if="!isMobileMenuVisible" class="nav-item">
+  <nav
+    v-if="!isNavbarExpanded"
+    :class="{ 'bottom-gradient': scrollTop / 100 > 1, 'padding-0': isNavbarExpanded }"
+    class="elevation-3"
+  >
+    <div class="nav-item show-desktop">
       <NuxtLink to="/" class="logo-link">
-        <img src="~assets/img/kk/logo.png" alt="">
+        <img src="/svg/kk/logo.svg" alt="">
       </NuxtLink>
       <div id="mobile-menu" class="link-items">
         <ul>
           <li>
-            <NuxtLink to="/" :class="{'active':isLinkActive('/')}">
+            <NuxtLink to="/" :class="{'active':isActive('/') && linkstate.$state.isActive}">
               // Home
             </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/about-us" :class="{'active':isLinkActive('/about-us')}">
+            <NuxtLink to="/about" :class="{'active':isActive('/about')}">
               // About
             </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/#about" :class="{'active':isLinkActive('/#about')}">
-              //  Work
+            <NuxtLink :to="{path:'/', hash:'#work'}" :class="{'active': props.currentSection==='work'}" @click="onClick">
+              //  Experience
             </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/#footer" :class="{'active':isLinkActive('/#footer')}">
+            <NuxtLink :to="{path:'/', hash:'#contact'}" :class="{'active': props.currentSection==='contact'}" @click="onClick">
               // Contact
             </NuxtLink>
           </li>
         </ul>
       </div>
     </div>
-    <div v-else-if="!isNavbarExpanded" class="nav-item">
+    <div class="nav-item show-mobile">
       <NuxtLink to="/" class="logo-link">
         <img src="~assets/svg/kk/logo-mobile.svg" alt="">
       </NuxtLink>
@@ -43,13 +47,10 @@
       >
         <img class="w-22" src="~assets/svg/kk/menu.svg" alt="">
       </button>
-      <div v-if="isNavbarExpanded" :style="{ backgroundImage: 'url(/img/background.png)' }" class="link-items expanded">
-        <NuxtLink to="/" class="logo-link">
-          <img src="~assets/svg/kk/logo-mobile.svg" alt="">
-        </NuxtLink>
-      </div>
     </div>
-    <div v-else class="nav-item expanded">
+  </nav>
+  <nav v-else class="expanded">
+    <div class="nav-item expanded">
       <div class="flex w-full items-center justify-between">
         <NuxtLink to="/" class="logo-link">
           <img src="~assets/svg/kk/logo-mobile.svg" alt="">
@@ -67,22 +68,22 @@
       <div class="link-items">
         <ul>
           <li @click="visitLink">
-            <NuxtLink to="/" aria-current="page" :class="{'active':isLinkActive('/')}">
+            <NuxtLink to="/" :class="{'active':isActive('/') && linkstate.$state.isActive}" aria-current="page">
               // Home
             </NuxtLink>
           </li>
           <li @click="visitLink">
-            <NuxtLink to="/about-us" :class="{'active':isLinkActive('/about-us')}">
+            <NuxtLink to="/about" :class="{'active':isActive('/about')}">
               // About
             </NuxtLink>
           </li>
           <li @click="visitLink">
-            <NuxtLink to="/#about" :class="{'active':isLinkActive('/#about')}">
-              //  Work
+            <NuxtLink :to="{path:'/', hash:'#work'}" :class="{'active':props.currentSection==='work'}" @click="onClick">
+              //  Experience
             </NuxtLink>
           </li>
           <li @click="visitLink">
-            <NuxtLink to="/about-us/#footer" :class="{'active':isLinkActive('/#footer')}">
+            <NuxtLink :class="{'active':props.currentSection==='contact'}" @click="onClick">
               // Contact
             </NuxtLink>
           </li>
@@ -96,14 +97,11 @@
 </template>
 
 <script setup lang="ts">
+import { LinkActiveStateProvider } from '~/store/linkactive'
+
+const linkstate = LinkActiveStateProvider()
 const route = useRoute()
-function isLinkActive (path: string) {
-        if (route.hash) {
-          return route.hash === path.slice(1)
-        } else {
-          return route.path === path
-        }
-    }
+
 const isNavbarExpanded = ref(false)
 
 const scrollTop = ref(0)
@@ -128,35 +126,49 @@ function handleResize (): void {
   }
 }
 
-onBeforeMount(() => {
-  window.addEventListener('scroll', setScrollTop)
-  window.addEventListener('resize', handleResize)
-  setScrollTop()
-  handleResize()
-})
+function isActive (fullpath:string) {
+  // console.log(route.fullPath)
+return route.fullPath === fullpath
+}
 
 onBeforeUnmount(() => {
   window.removeEventListener('scroll', setScrollTop)
   window.removeEventListener('resize', handleResize)
 })
+
+interface Props {
+  currentSection: string
+}
+
+const props = withDefaults(defineProps<Props>(), {
+  currentSection: ''
+})
+
+const emit = defineEmits(['sectionClicked'])
+
+const onClick = (e: MouseEvent) => {
+  const section = (e.target as HTMLAnchorElement).getAttribute('href')?.substring(2) || ''
+  emit('sectionClicked', { section })
+}
 </script>
 
 <style lang="scss" scoped>
 .active {
-
   color: $font-color !important;
 }
+
 .padding-0 {
   padding: 0 !important;
 }
 
 nav {
-  @apply w-full fixed z-30 top-0 px-4 py-8;
-      background-color: #131212;
+  @apply w-full fixed z-30 top-0 px-4 py-3;
+   background-color: #131212;
   color: #595959;
+  border-bottom: 1px solid $sea-serpent;
 
   .nav-item {
-    @apply max-w-6xl w-full flex flex-wrap justify-between items-center mx-auto ;
+    @apply max-w-6xl w-full flex flex-wrap justify-between items-center mx-auto px-4;
 
     .logo-link {
       img {
@@ -173,7 +185,7 @@ nav {
         li {
           @apply block text-base font-medium md:bg-transparent md:p-0 tracking-wider;
           color: white;
-          font-family: "Source Code Pro SemiBold";
+          font-family: $source-code-semibold;
           font-style: italic;
           a {
             @apply cursor-pointer;
@@ -211,7 +223,6 @@ nav {
 
   .expanded {
     @apply h-screen items-start;
-    padding: 0.5rem 1rem;
 
     .link-items {
       @apply px-2 w-full;
@@ -275,5 +286,14 @@ nav {
      @apply px-4 my-4;
     }
   }
+  .show{
+    &-mobile {
+      @apply flex md:hidden;
+    }
+    &-desktop {
+      @apply hidden md:flex;
+    }
+  }
 }
+
 </style>

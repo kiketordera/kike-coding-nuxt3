@@ -1,12 +1,12 @@
 <template>
   <div class="inogro">
-    <vv-about-Iconography-Language />
+    <vv-about-Iconography-Languages />
     <div class="map-section">
       <div class="map">
         <img src="~/assets/svg/vv/world-map.svg" alt="">
       </div>
     </div>
-    <vv-about-Iconography-LanguagesLeft />
+    <vv-about-Iconography-Languages :reverse="true" />
   </div>
 </template>
 

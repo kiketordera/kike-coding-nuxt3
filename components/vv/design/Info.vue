@@ -8,7 +8,9 @@
           {{ props.title }}
         </h2>
       </div>
-      <p>{{ props.text }}</p>
+      <p v-for="text in props.texts" :key="text" class="mt-4 text-justify">
+        {{ text }}
+      </p>
     </div>
     <img v-if="!left && !mobile" :src="`/img/vv/boundaries/${props.image}`" alt="">
     <img v-if="mobile" :src="`/img/vv/boundaries/${props.image}`" :class="{ 'mobile-image': mobile }" alt="">
@@ -53,8 +55,8 @@ const props = defineProps({
       type: String,
       required: true,
     },
-    text: {
-      type: String,
+    texts: {
+      type: Array<string>,
       required: true,
     },
     left: {
@@ -76,6 +78,9 @@ const props = defineProps({
 
 .content {
   @apply max-w-2xl px-4 mx-auto flex flex-col sm:flex-row;
+  .text {
+    @apply mb-4;
+  }
   img:not(.icon) {
     @apply max-w-sm px-4 sm:max-h-[420px] sm:block;
   }
@@ -83,10 +88,10 @@ const props = defineProps({
 .title {
   @apply flex items-center pb-2;
   img {
-    @apply w-10 h-10 pr-4;
+    @apply w-14 h-10 pr-4;
   }
 }
  h2 {
-    @apply text-4xl;
+    @apply text-2xl md:text-4xl;
   }
 </style>

@@ -6,47 +6,73 @@
       </h2>
       <div class="info">
         <p data-aos="zoom-in-right">
-          Kike Tordera, a skilled web developer based in Spain, has been creating innovative
-          and engaging websites for [number] years. With a passion for
-          coding and a keen eye for design, Kike Tordera is well-versed in a variety
-          of programming languages, including HTML, CSS, JavaScript, and PHP.
+          From the sun-kissed streets of Madrid to the bustling heart of Berlin, I had
+          the opportunity to have several international experiences in 3 continents, my journey has been incredibly enriching. 🌍
         </p>
-        <button data-aos="fade-down" type="button">
+        <p data-aos="zoom-in-right">
+          From childhood, computers weren't just toys; they were puzzles waiting to be solved. I've been the computer guru
+          since my playground days. 🖥️ But here's the kicker: <br>
+          <span class="orange">
+            I don't just code. I craft. Design, interface, experience - they're all part of my digital symphony.
+          </span>
+        </p>
+        <p data-aos="zoom-in-right">
+          Let's not just build. Let's innovate, design, and revolutionize.
+          <br>
+          <span class="blue">
+            Why settle for ordinary when we can blend code and creativity to make something extraordinary?
+          </span>
+        </p>
+        <p>
+          Let's collaborate and make digital magic! ✨
+        </p>
+        <br>
+        <NuxtLink data-aos="fade-down" href="/about">
           Read more
-        </button>
+        </NuxtLink>
       </div>
     </div>
   </section>
 </template>
 
-<script>
-
-</script>
-
 <style lang="scss" scoped>
 section {
-    @apply w-full;
-    .about {
-        @apply max-w-6xl mx-auto lg:flex lg:flex-row flex-col py-36 w-full gap-36 lg:mx-auto px-4;
+  @apply w-full;
 
-        h2 {
-           @apply lg:text-4xl text-2xl  tracking-wider mb-4 w-1/2 my-8;
-                font-family: "Source Code Pro Bold";
-                font-weight: 600;
-                color: #CCCCCC;
-        }
-        .info {
-             @apply lg:w-3/4 w-full text-justify;
-            p {
-              @apply lg:text-lg  my-5 items-start;
-            }
-            button {
-                @apply text-base uppercase px-16 py-4 my-5 text-center lg:w-auto w-full;
-                background-color: $font-color;
-                color: $background-color;
-                font-weight: 600;
-            }
-        }
+  .about {
+    @apply max-w-6xl mx-auto lg:flex lg:flex-row flex-col py-36 w-full lg:mx-auto px-4;
+
+    h2 {
+      @include title-kike-section;
     }
+
+    .info {
+      @apply lg:w-3/4 w-full text-justify;
+      color: $h2-color;
+
+      p {
+        @apply lg:text-lg my-5 items-start;
+        &:first-of-type {
+          @apply mt-0;
+        }
+        span {
+          &.blue{
+            color: $sea-serpent;
+          }
+          &.orange{
+            color: $light-salmon;
+          }
+        }
+      }
+
+      a {
+        @include button-base;
+        @apply mt-4;
+        background-color: $font-color;
+        color: $background-color;
+        font-weight: 600;
+      }
+    }
+  }
 }
 </style>

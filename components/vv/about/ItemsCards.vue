@@ -9,7 +9,7 @@
         </p>
       </div>
       <div class="items">
-        <img src="~assets/svg/vv/performance-color.svg" alt="">
+        <img src="/img/vv/carousel/performance-color.svg" alt="">
         <p>
           The learning is based on video-tutorials, so it can be scalable and much more affordable that presencial
           training

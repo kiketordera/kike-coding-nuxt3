@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="812" viewBox="0 0 375 812">
+  <defs>
+    <clipPath id="clip-_7.0_Log_in">
+      <rect width="375" height="812"/>
+    </clipPath>
+  </defs>
+  <g id="_7.0_Log_in" data-name="7.0 Log in" clip-path="url(#clip-_7.0_Log_in)">
+    <rect width="375" height="812" fill="#fff"/>
+    <text id="Log_in" data-name="Log in" transform="matrix(1, 0, 0, 1, 188, 261)" fill="#3f7993" font-size="18" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500"><tspan x="-28.287" y="0">Log in</tspan></text>
+    <text id="Or_continue_with" data-name="Or continue with" transform="matrix(1, 0, 0, 1, 188, 562)" fill="#3f7993" font-size="13" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500"><tspan x="-54.646" y="0">Or continue with</tspan></text>
+    <text id="ActionCoast" transform="matrix(1, 0, 0, 1, 188, 78)" fill="#3f62ac" font-size="26" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500"><tspan x="-80.301" y="0">ActionCoast</tspan></text>
+    <g id="Group_4373" data-name="Group 4373" transform="translate(-113.525 105)">
+      <rect id="Base" width="256" height="37" rx="10" transform="translate(173.526 329)" fill="#3f62ac"/>
+      <text id="Sign_In" data-name="Sign In" transform="translate(301.526 352)" fill="#fff" font-size="14" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500"><tspan x="-26.656" y="0">Sign up</tspan></text>
+    </g>
+    <text id="Search" transform="translate(80 321)" fill="#97a7c3" font-size="12" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500" letter-spacing="0.005em"><tspan x="0" y="0">Email</tspan></text>
+    <text id="Search-2" data-name="Search" transform="translate(80 380)" fill="#97a7c3" font-size="12" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500" letter-spacing="0.005em"><tspan x="0" y="0">Password</tspan></text>
+    <g id="user_2_" data-name="user (2)" transform="translate(53.648 307.303)">
+      <path id="Path_4452" data-name="Path 4452" d="M91.22,8.378a4.053,4.053,0,0,0,2.962-1.227A4.053,4.053,0,0,0,95.41,4.189a4.054,4.054,0,0,0-1.227-2.962,4.188,4.188,0,0,0-5.924,0,4.053,4.053,0,0,0-1.227,2.962,4.053,4.053,0,0,0,1.227,2.962A4.054,4.054,0,0,0,91.22,8.378Zm0,0" transform="translate(-84.075 0)" fill="#3f62ac"/>
+      <path id="Path_4453" data-name="Path 4453" d="M14.476,252.289a10.347,10.347,0,0,0-.141-1.1,8.658,8.658,0,0,0-.27-1.1,5.458,5.458,0,0,0-.454-1.031,3.889,3.889,0,0,0-.685-.893,3.02,3.02,0,0,0-.984-.618,3.4,3.4,0,0,0-1.256-.227,1.275,1.275,0,0,0-.681.289c-.2.133-.443.287-.709.457a4.065,4.065,0,0,1-.918.4,3.564,3.564,0,0,1-2.245,0,4.054,4.054,0,0,1-.917-.4c-.264-.169-.5-.323-.71-.458a1.273,1.273,0,0,0-.681-.289,3.4,3.4,0,0,0-1.256.228,3.017,3.017,0,0,0-.984.618,3.889,3.889,0,0,0-.685.893,5.468,5.468,0,0,0-.454,1.031,8.679,8.679,0,0,0-.27,1.1,10.31,10.31,0,0,0-.141,1.1c-.023.333-.035.678-.035,1.027A2.888,2.888,0,0,0,.858,255.5a3.088,3.088,0,0,0,2.21.806h8.375a3.087,3.087,0,0,0,2.21-.806,2.887,2.887,0,0,0,.858-2.185C14.511,252.966,14.5,252.62,14.476,252.289Zm0,0" transform="translate(0 -238.915)" fill="#3f62ac"/>
+    </g>
+    <path id="padlock" d="M14.556,6.6h-.55V4.4a4.4,4.4,0,1,0-8.8,0V6.6h-.55A1.653,1.653,0,0,0,3,8.254v7.7a1.653,1.653,0,0,0,1.651,1.651h9.905a1.653,1.653,0,0,0,1.651-1.651v-7.7A1.653,1.653,0,0,0,14.556,6.6ZM6.669,4.4a2.935,2.935,0,1,1,5.87,0V6.6H6.669Zm3.669,7.867v1.671a.734.734,0,1,1-1.467,0V12.269a1.467,1.467,0,1,1,1.467,0Z" transform="translate(51.3 366.195)" fill="#3f62ac"/>
+    <g id="Rectangle_1694" data-name="Rectangle 1694" transform="translate(45 296)" fill="none" stroke="#056dbc" stroke-width="1">
+      <rect width="285" height="40" rx="5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="284" height="39" rx="4.5" fill="none"/>
+    </g>
+    <g id="Rectangle_1697" data-name="Rectangle 1697" transform="translate(45 355)" fill="none" stroke="#056dbc" stroke-width="1">
+      <rect width="285" height="40" rx="5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="284" height="39" rx="4.5" fill="none"/>
+    </g>
+    <ellipse id="Oval" cx="12.731" cy="12.731" rx="12.731" ry="12.731" transform="translate(114 584.4)" fill="#1977f3"/>
+    <path id="Path" d="M10.178,11.44l.564-3.681H7.211V5.371A1.841,1.841,0,0,1,9.286,3.382h1.606V.249A19.571,19.571,0,0,0,8.042,0C5.135,0,3.233,1.762,3.233,4.954V7.759H0V11.44H3.233v8.9a12.781,12.781,0,0,0,1.989.154,13,13,0,0,0,1.989-.154v-8.9Z" transform="translate(121.509 589.372)" fill="#fff"/>
+    <g id="Group_4374" data-name="Group 4374" transform="translate(99.908 -3.967)">
+      <path id="Path-2" data-name="Path" d="M12.479,2.587A14.678,14.678,0,0,0,12.255,0H0V4.9H7.018a5.887,5.887,0,0,1-2.6,3.869v3.181H8.607A12.309,12.309,0,0,0,12.479,2.587Z" transform="translate(87.849 598.805)" fill="#4285f4"/>
+      <path id="Path-3" data-name="Path" d="M11.61,10.291a12.587,12.587,0,0,0,8.612-3.073L16.036,4.037a7.891,7.891,0,0,1-4.421,1.216A7.762,7.762,0,0,1,4.32,0H0V3.279A13.025,13.025,0,0,0,11.61,10.291Z" transform="translate(76.24 603.538)" fill="#34a853"/>
+      <path id="Path-4" data-name="Path" d="M5.7,8.153a7.48,7.48,0,0,1,0-4.874V0H1.382a12.512,12.512,0,0,0,0,11.433L5.7,8.153Z" transform="translate(74.856 595.386)" fill="#fbbc04"/>
+      <path id="Path-5" data-name="Path" d="M11.61,5.039a7.14,7.14,0,0,1,4.984,1.909L20.3,3.313A12.63,12.63,0,0,0,11.61,0,13.021,13.021,0,0,0,0,7.018L4.316,10.3A7.755,7.755,0,0,1,11.61,5.039Z" transform="translate(76.24 588.367)" fill="#ea4335"/>
+    </g>
+    <text id="Forgot_password_" data-name="Forgot password?" transform="translate(220 416)" fill="#3f62ac" font-size="12" font-family="GothamRounded-Bold, Gotham Rounded" font-weight="700"><tspan x="0" y="0">Forgot password?</tspan></text>
+    <path id="Path_4455" data-name="Path 4455" d="M0,0S95.9-58.458,60.446-23.033,115,0,115,0" transform="translate(35.5 256.5)" fill="none" stroke="#b7b7b7" stroke-width="1"/>
+    <line id="Line_898" data-name="Line 898" x2="101" transform="translate(223.5 256.5)" fill="none" stroke="#b7b7b7" stroke-width="1"/>
+    <g id="apple-logo" transform="translate(240.495 584)">
+      <g id="Group_4375" data-name="Group 4375" transform="translate(2.104)">
+        <path id="Path_4456" data-name="Path 4456" d="M16.37,0h.184a5.538,5.538,0,0,1-1.395,4.173A4.323,4.323,0,0,1,11.354,5.96a5.372,5.372,0,0,1,1.42-4.044A6.131,6.131,0,0,1,16.37,0Z" transform="translate(-0.851)"/>
+        <path id="Path_4457" data-name="Path 4457" d="M23.188,18.238v.051a15.047,15.047,0,0,1-2.153,4.151c-.821,1.13-1.827,2.651-3.624,2.651-1.552,0-2.584-1-4.175-1.025-1.683-.027-2.609.835-4.147,1.052H8.565a4.686,4.686,0,0,1-2.706-1.865,16.337,16.337,0,0,1-3.754-9.4V12.7A7.579,7.579,0,0,1,5.413,6.476a5.589,5.589,0,0,1,3.752-.869A9.439,9.439,0,0,1,11,6.134a5.077,5.077,0,0,0,1.837.551A4.411,4.411,0,0,0,14.13,6.29a7.931,7.931,0,0,1,4.147-.736,5.754,5.754,0,0,1,4.228,2.521,5.426,5.426,0,0,0-2.756,5.383A5.557,5.557,0,0,0,23.188,18.238Z" transform="translate(-2.104 0.745)"/>
+      </g>
+    </g>
+    <text id="Sign_In-2" data-name="Sign In" transform="translate(117 688)" fill="#fff" font-size="14" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500"><tspan x="0" y="0">Booking without login</tspan></text>
+  </g>
+</svg>

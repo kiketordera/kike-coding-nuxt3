@@ -1,21 +1,22 @@
+import { ContactInformation } from './data_helper/contact'
+
 export default defineNuxtConfig({
   typescript: {
     strict: true,
     typeCheck: true
   },
 
-  modules: ['@nuxtjs/tailwindcss', '@dargmuesli/nuxt-cookie-control', 'nuxt-gtag',],
+  modules: ['@nuxtjs/tailwindcss', '@pinia/nuxt', '@dargmuesli/nuxt-cookie-control', 'nuxt-gtag', 'nuxt-security'],
   runtimeConfig: {
+    indexable: true,
     public: {
       GOOGLE_ANALYTICS_MEASUREMENTID: process.env.GOOGLE_ANALYTICS_MEASUREMENTID,
-      siteUrl: process.env.NUXT_PUBLIC_SITE_URL,
-      siteName: 'Kike Tordera',
+      siteUrl: ContactInformation.fullURL,
+      siteName: ContactInformation.title,
       // eslint-disable-next-line max-len
       siteDescription: 'UX / UI designer and software engineer with a solid base in programming thanks to my studies and international experience',
       language: 'en-gb'
-
     },
-
   },
 
   plugins: [
@@ -43,7 +44,10 @@ export default defineNuxtConfig({
         { rel: 'icon', type: 'image/png', href: '/favicon.png' },
       ],
       style: [
-        // { children: 'html, body { overflow-x: hidden; }' },
+        // This will change the bouncing color when you scroll.
+        // Put the branding color of the project here.
+        { children: 'body { background-color: #2D2A2A }' },
+        { children: 'html, body { overflow-x: hidden; }' },
       ]
     },
   },
@@ -88,13 +92,38 @@ extends: [
   'nuxt-seo-kit'
 ],
 nitro: {
+  preset: 'firebase',
   prerender: {
-    crawlLinks: true,
+    crawlLinks: false,
     routes: [
       '/',
-      '/about-us',
+      '/about',
     ],
   },
+  esbuild: {
+    options: {
+      target: 'esnext'
+    }
+  },
 },
+
 // End of SEO
+security: {
+  rateLimiter: {
+    tokensPerInterval: 20,
+    interval: 'hour',
+  },
+ headers: {
+  crossOriginEmbedderPolicy: false,
+  // contentSecurityPolicy: false,
+
+  contentSecurityPolicy: false
+ }
+
+},
+vue: {
+  compilerOptions: {
+    isCustomElement: tag => ['swiper-container', 'swiper-slide'].includes(tag),
+  },
+}
 })

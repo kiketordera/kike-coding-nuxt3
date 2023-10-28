@@ -1,0 +1,216 @@
+[
+    {
+        "id": 0,
+        "name": "Eva Drones",
+        "logo": "/img/projects/drones/logo.png",
+        "mainImg": "/img/projects/drones/background.jpeg",
+        "client": "Eva Drones",
+        "color_bg_logo": "white",
+        "color_bg_title": "#00588E",
+        "color_title": "white",
+        "url": "/projects/eva-drones",
+        "seoDescription": "Eva Drones: Pioneering the Future of Deliveries with Technological Excellence. Dive into a transformative drone ecosystem designed for everything from urban pizza deliveries to critical aid in conflict zones. Discover an integrated platform that prioritizes operational fluency, real-time controls, and a vision for global impact. Experience the blend of innovation and purpose in drone operations.",
+        "intro": {
+            "coverImg": "/img/projects/drones/background.png",
+            "services": [
+                "Web Development"
+            ],
+            "tech": [
+                "Golang, Docker,",
+                "Vue.js, TypesScript"
+            ],
+            "year": "2021",
+            "url": "https://eva.xyz/"
+        },
+        "imagesType": "desktop",
+        "firstTitle": "Reimagining Deliveries for the Future",
+        "firstDescription": [
+            "Eva Drones is ushering in a new era of delivery, set to change everything from the way you receive your pizza to life-saving medical dispatches to remote regions.",
+            "This international startup is not just introducing drones; they're envisioning an integrated ecosystem. Through Eva's infrastructure, drone pilots can seamlessly launch, land, recharge, and maintain their drones. Beyond the convenience of urban deliveries, Eva Drones has its sight set on loftier goals.",
+            "They are poised to transform critical deliveries to conflict zones and areas hit by natural disasters, ensuring that vital aid reaches those in need swiftly. With every ticking minute holding the value of a life, Eva Drones is committed to making each second count."
+        ],
+        "firstGroupImages": [
+            "/img/projects/drones/drones-mockup1.jpg",
+            "/img/projects/drones/drones-mockup3.jpg",
+            "/img/projects/drones/drones-mockup4.jpg",
+            "/img/projects/drones/drones-mockup2.jpg"
+        ],
+        "secondtitle": "Technological Mastery meets Operational Excellence",
+        "secondDescription": [
+            "Eva Drones is much more than a startup; it's a technological marvel crafting the future of deliveries. The collaboration output was to create an end-to-end ecosystem that simplifies every facet of drone operations. From robust take-off and landing modules, efficient charging stations, to intricate maintenance & repair hubs, we've integrated advanced systems ensuring operational fluency for drone pilots.",
+            "My work with Eva Drones is a testament to my capabilities in handling multifaceted challenges. Recognizing the diverse application—from urban pizza deliveries to urgent humanitarian aid drops—I implemented real-time CCTV, providing comprehensive controls over the platform and cameras. This ensures continuous visibility and control for operations, especially crucial in high-stakes environments like conflict zones or disaster-stricken areas.",
+            "My technological solutions for Eva Drones aren't just about efficiency; they embody the shared vision of harnessing innovation for genuine global impact."
+        ],
+        "secondGroupImages": [
+            "/img/projects/drones/carousel/eva-drones1.svg",
+            "/img/projects/drones/carousel/eva-drones2.svg",
+            "/img/projects/drones/carousel/eva-drones3.svg",
+            "/img/projects/drones/carousel/eva-drones4.svg",
+            "/img/projects/drones/carousel/eva-drones5.svg",
+            "/img/projects/drones/carousel/eva-drones6.svg",
+            "/img/projects/drones/carousel/eva-drones7.svg",
+            "/img/projects/drones/carousel/eva-drones8.svg",
+            "/img/projects/drones/carousel/eva-drones9.svg",
+            "/img/projects/drones/carousel/eva-drones10.svg",
+            "/img/projects/drones/carousel/eva-drones11.svg",
+            "/img/projects/drones/carousel/eva-drones12.svg",
+            "/img/projects/drones/carousel/eva-drones13.svg",
+            "/img/projects/drones/carousel/eva-drones14.svg",
+            "/img/projects/drones/carousel/eva-drones15.svg",
+            "/img/projects/drones/carousel/eva-drones17.svg",
+            "/img/projects/drones/carousel/eva-drones16.svg"
+        ]
+    },
+    {
+        "id": 1,
+        "name": "Oculid",
+        "logo": "/img/projects/oculid/logo.svg",
+        "mainImg": "/img/projects/oculid/background.jpeg",
+        "client": "Oculid",
+        "color_bg_logo": "white",
+        "color_bg_title": "#008080",
+        "color_title": "white",
+        "url": "/projects/oculid",
+        "seoDescription": "Redefining User Experience Analysis with Precision and Ethics. Explore a groundbreaking application that captures real-time user interactions, from heat maps to voice notes, all processed by advanced machine learning for unparalleled UX insights. Designed with a commitment to transparency and user consent, Oculid offers businesses a unique blend of technical prowess and ethical data collection.",
+        "intro": {
+            "coverImg": "/img/projects/oculid/background.png",
+            "services": [
+                "Mobile Development"
+            ],
+            "tech": [
+                "Swift, SwiftUI,",
+                "Flutter, Dart"
+            ],
+            "year": "2021",
+            "url": "https://oculid.com"
+        },
+        "imagesType": "mobile",
+        "firstTitle": "Revolutionizing User Experience Metrics",
+        "firstDescription": [
+            "Oculid is an innovative company on a mission to redefine how businesses access critical user experience metrics. They aim to bring the precision and detail of a laboratory setup directly to businesses but without the cumbersome infrastructure and costs.",
+            "Oculid's vision centers on providing a convenient, cost-effective, and agile model to businesses eager to understand user behavior on digital interfaces.",
+            "Through the app I've developed, Oculid captures real-time data like heat maps to showcase where users focus most, along with tap and scroll actions.",
+            "Safety and privacy remain paramount; all data collection is with the informed consent of users, ensuring transparency and trust."
+        ],
+        "firstGroupImages": [
+            "/img/projects/oculid/mockup1.jpeg",
+            "/img/projects/oculid/mockup2.jpeg",
+            "/img/projects/oculid/mockup3.jpeg",
+            "/img/projects/oculid/mockup4.jpeg"
+        ],
+        "secondtitle": "Advanced UX Analysis Driven by Cutting-Edge Technology",
+        "secondDescription": [
+            "For Oculid's ambitious vision, I embarked on a journey to design an application that stands out technically. At the core of our development was the integration of a high-frequency image capture system that grabs 30 frames per second using the front camera. This vast amount of visual data, complemented by screen recordings, voice notes detailing user thoughts, as well as granular tap and scroll interactions, are funneled efficiently to a backend system.",
+            "The real magic begins when the advanced algorithm, rooted in a research paper from MIT, processes this treasure trove of data. Employing sophisticated machine learning techniques, it churns out comprehensive UX metrics, enabling businesses to derive actionable insights with precision unheard of outside laboratory settings.",
+            "Recognizing the sensitivity of the data, I've built stringent consent protocols into the app. Before any data collection, users are informed in detail, ensuring that privacy remains uncompromised.",
+            "At every step, I've pushed the boundaries of what's technically possible to deliver a product that is not just efficient, but also ethical."
+        ],
+        "secondGroupImages": [
+            "/img/projects/oculid/carousel/permissions.svg",
+            "/img/projects/oculid/carousel/test-login.svg",
+            "/img/projects/oculid/carousel/prepare.svg",
+            "/img/projects/oculid/carousel/enjoy.svg",
+            "/img/projects/oculid/carousel/position.svg",
+            "/img/projects/oculid/carousel/positioning.svg",
+            "/img/projects/oculid/carousel/face-holder.svg",
+            "/img/projects/oculid/carousel/positioned.svg",
+            "/img/projects/oculid/carousel/tutorial1.svg",
+            "/img/projects/oculid/carousel/tutorial2.svg",
+            "/img/projects/oculid/carousel/tutorial3.svg",
+            "/img/projects/oculid/carousel/tutorial4.svg",
+            "/img/projects/oculid/carousel/tutorial5.svg",
+            "/img/projects/oculid/carousel/tutorial6.svg",
+            "/img/projects/oculid/carousel/tutorial7.svg",
+            "/img/projects/oculid/carousel/tutorial8.svg"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Value Villages",
+        "logo": "/img/projects/vv/value-villages.png",
+        "mainImg": "/img/projects/vv/mobile-mockup.svg",
+        "client": "value villages",
+        "color_bg_logo": "white",
+        "color_bg_title": "#63B190",
+        "color_title": "white",
+        "url": "/projects/value-villages",
+        "intro": {
+            "coverImg": "",
+            "services": [],
+            "tech": [],
+            "year": "",
+            "url": ""
+        },
+        "imagesType": "mobile",
+        "firstTitle": "",
+        "firstDescription": [],
+        "firstGroupImages": [],
+        "secondtitle": "",
+        "secondDescription": [],
+        "secondGroupImages": []
+    },
+    {
+        "id": 3,
+        "name": "Action Coast",
+        "logo": "/img/projects/action-coast/logo.svg",
+        "mainImg": "/img/projects/action-coast/background.jpeg",
+        "client": "Action coast",
+        "color_bg_logo": "white",
+        "color_bg_title": "#3F62AC",
+        "color_title": "white",
+        "url": "/projects/action-coast",
+        "seoDescription": "Unlocking Authentic Coastal Adventures with Cutting-Edge Technology. Discover a platform designed to reveal the world's hidden coastal gems, focusing on local secrets and untapped adventures. Merging advanced technologies like Flutter, Dart, and Vue.js with curated content, Action Coast offers travelers a unique journey beyond generic guidebooks. Experience a blend of geo-specific content, comprehensive reviews, and genuine local experiences, making it the go-to portal for authentic coastal adventures.",
+        "intro": {
+            "coverImg": "/img/projects/oculid/background.png",
+            "services": [
+                "Web Development",
+                "App Development"
+            ],
+            "tech": [
+                "Vue.js, TypesScript,",
+                "Flutter, Dart"
+            ],
+            "year": "2022",
+            "url": "http://ac.com"
+        },
+        "imagesType": "mobile",
+        "firstTitle": "Dive into Hidden Coastal Gems",
+        "firstDescription": [
+            "At the heart of my collaboration with Action Coast was the desire to unlock the hidden coastal gems that the world has to offer. The coastlines are teeming with untapped adventures, local secrets, and experiences that most travelers miss out on.",
+            "The primary objective was to design a brand and platform that resonates with the thrill of discovery and the warmth of local communities. By focusing on local economies and enhancing the tourism experience, I provided travelers with a unique gateway to experiences often missed in standard guidebooks."
+        ],
+        "firstGroupImages": [
+            "/img/projects/action-coast/ac-mockup1.jpg",
+            "/img/projects/action-coast/ac-mockup2.jpg",
+            "/img/projects/action-coast/ac-mockup3.jpeg",
+            "/img/projects/action-coast/ac-mockup4.jpg"
+        ],
+        "secondtitle": "Technological Prowess Meets Authentic Coastal Adventures",
+        "secondDescription": [
+            "The travel industry is saturated with platforms offering generic experiences. Action Coast's vision was distinct: to provide travelers with authentic coastal adventures.",
+            "To achieve this, I utilized technologies like Flutter, Dart, Vue.js, TypeScript, Nuxt.js, and Firebase. One of the main challenges was ensuring the platform was not just a listing of experiences but a curated journey into authenticity.",
+            "I implemented features like geo-specific content adjustments and a comprehensive review system. This ensured that the platform catered to tourists while empowering local hosts to showcase their unique offerings.",
+            "The result? A digital portal that seamlessly blends genuine coastal experiences with cutting-edge technology, making it a preferred choice for travelers seeking authentic adventures."
+        ],
+        "secondGroupImages": [
+            "/img/projects/action-coast/carousel/action-coast1.svg",
+            "/img/projects/action-coast/carousel/action-coast2.svg",
+            "/img/projects/action-coast/carousel/action-coast3.svg",
+            "/img/projects/action-coast/carousel/action-coast4.svg",
+            "/img/projects/action-coast/carousel/action-coast5.svg",
+            "/img/projects/action-coast/carousel/action-coast6.svg",
+            "/img/projects/action-coast/carousel/action-coast7.svg",
+            "/img/projects/action-coast/carousel/action-coast8.svg",
+            "/img/projects/action-coast/carousel/action-coast9.svg",
+            "/img/projects/action-coast/carousel/action-coast10.svg",
+            "/img/projects/action-coast/carousel/action-coast11.svg",
+            "/img/projects/action-coast/carousel/action-coast12.svg",
+            "/img/projects/action-coast/carousel/action-coast13.svg",
+            "/img/projects/action-coast/carousel/action-coast14.svg",
+            "/img/projects/action-coast/carousel/action-coast15.svg",
+            "/img/projects/action-coast/carousel/action-coast16.svg",
+            "/img/projects/action-coast/carousel/action-coast17.svg",
+            "/img/projects/action-coast/carousel/action-coast18.svg"
+        ]
+    }
+]

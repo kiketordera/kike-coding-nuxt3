@@ -1,0 +1,193 @@
+[
+    {
+        "title": "Android Developer",
+        "nameCompany": "Mongolian University of Science and Technology",
+        "img": "/experience/mongolia.jpeg",
+        "type": "education",
+        "description": [
+            "At the Mongolian University of Science and Technology, I refined my Android Developer abilities, focusing on Java applications for Android.",
+            "I developed a REST client connecting to middleware for GET and POST requests. I integrated a sensor system for real-time access, remote activation, and global monitoring with Wi-Fi.",
+            "Moreover, I crafted user interfaces and visualized sensor data through graphical representations."
+        ],
+        "skills": [
+            "Android Development",
+            "Mobile Application Development",
+            "Java",
+            "Android Studio"
+        ],
+        "place": "Ulaanbaatar, Mongolia",
+        "startDate": "Jul 2015",
+        "endDate": "Sep 2015",
+        "durationMonths": "3 months",
+        "modality": "on-site",
+        "webLink": "https://www.linkedin.com/company/mongolian-university-of-science-and-technology/"
+    },
+    {
+        "title": "iOS Developer",
+        "nameCompany": "CodeWell",
+        "img": "/experience/codewell.jpeg",
+        "type": "education",
+        "description": [
+            "At CodeWell, I delved into iOS development using Xcode, Swift, and Objective-C. I contributed to projects like the 'Summer Ohrid Festival' app and another app to understand constraints and code.",
+            "I worked with Google Firebase, CoreData, and third-party frameworks like SDWebImage, TTTAttributedLabel, and SnapKit. I designed app interfaces and crafted iOS animations using Bezier Path and more.",
+            "This role enriched my experience in a multicultural team, fostering collaboration and understanding."
+        ],
+        "skills": [
+            "Mobile Application Development",
+            "iOS Development",
+            "Swift",
+            "UIKit"
+        ],
+        "place": "Skopje, Macedonia",
+        "startDate": "Jul 2016",
+        "endDate": "Sep 2016",
+        "durationMonths": "3 months",
+        "modality": "on-site",
+        "webLink": "https://www.linkedin.com/company/codewell/"
+    },
+    {
+        "title": "Front End Developer",
+        "nameCompany": "Universitat Politècnica de València (UPV)",
+        "img": "/experience/upv.svg",
+        "type": "work",
+        "description": [
+            "At the Universitat Politècnica de València's Doctoral School, I was pivotal in updating the school's website as a Frontend Developer.",
+            "I created HTML content, ensured uniform formatting with HTML/CSS, and upheld the site's visual accuracy.",
+            "I also ventured into video editing for educational content and conference presentations."
+        ],
+        "skills": [
+            "Front-End Development",
+            "SCSS",
+            "HTML5",
+            "Web optimization"
+        ],
+        "place": "Valencia, Spain",
+        "startDate": "Sep 2017",
+        "endDate": "Nov 2016",
+        "durationMonths": "4 months",
+        "modality": "on-site",
+        "webLink": "https://www.linkedin.com/school/upv/"
+    },
+    {
+        "title": "Mentor Web Development & UX/UI Design",
+        "nameCompany": "Learning Lions",
+        "img": "/experience/learning.png",
+        "type": "volunteer",
+        "description": [
+            "In Lodwar for my final university project, I volunteered for Learning and Service, promoting technology for a brighter future.",
+            "I crafted educational modules, evaluations, and provided mentoring and teaching to students.",
+            "I introduced tools and workflows, enhancing the organization's services and internal structure."
+        ],
+        "skills": [
+            "Adobe XD",
+            "Raspberry Pi",
+            "UX/UI Design",
+            "Mentorship",
+            "Web Development"
+        ],
+        "place": "Turkana, Kenya",
+        "startDate": "Feb 2018",
+        "endDate": "Jun 2018",
+        "durationMonths": "5 Months",
+        "modality": "on-site",
+        "webLink": "https://www.learninglions.org/"
+    },
+    {
+        "title": "Full Stack Developer & UI Designer",
+        "nameCompany": "Value Villages",
+        "img": "/experience/vv.png",
+        "type": "work",
+        "description": [
+            "At Value Villages, I was instrumental in creating software for NGOs combating poverty, focusing on vocational training.",
+            "I designed interfaces and implemented full-stack solutions, centralizing on empowering individuals through knowledge and training.",
+            "This role was pivotal in advancing the mission of NGOs on the ground."
+        ],
+        "skills": [
+            "Adobe XD",
+            "Raspberry Pi",
+            "UX/UI Design",
+            "Golang"
+        ],
+        "place": "Turkana, Kenya",
+        "startDate": "Jun 2018",
+        "endDate": "Jun 2020",
+        "durationMonths": "2 years",
+        "modality": "on-site",
+        "webLink": "https://www.linkedin.com/school/upv/"
+    },
+    {
+        "title": "Senior Mobile Developer",
+        "nameCompany": "Oculid",
+        "img": "/img/projects/oculid/logo.svg",
+        "type": "work",
+        "description": [
+            "At Oculid, I spearheaded a mobile app development tracking users' eye movements, enhancing user testing and UX analysis.",
+            "We gathered eye position data, leveraging machine learning for data visualizations like heat maps, offering insights into user-product interactions.",
+            "Such insights were vital for refining UX/UI designs for better user satisfaction."
+        ],
+        "skills": [
+            "Mobile Application Development",
+            "iOS Development",
+            "SwiftUI",
+            "Swift",
+            "Flutter",
+            "Xcode"
+        ],
+        "place": "Berlin, Germany",
+        "startDate": "Jan 2021",
+        "endDate": "Feb 2022",
+        "durationMonths": "1 year 2 months",
+        "modality": "hibrid",
+        "webLink": "https://www.linkedin.com/company/oculid/"
+    },
+    {
+        "title": "Senior Mobile Developer",
+        "nameCompany": "Circus",
+        "img": "/experience/circus.png",
+        "type": "work",
+        "description": [
+            "At Circus, as a Senior Frontend Developer on the Flutter team, I worked on product maintenance and new feature implementation.",
+            "Our app, used by thousands, expands to new locations monthly, necessitating efficient user base management.",
+            "I ensured optimal performance for our growing user base, adding features to a live production app."
+        ],
+        "skills": [
+            "Android Development",
+            "iOS Development",
+            "Swift",
+            "Flutter",
+            "Mobile Application Development"
+        ],
+        "place": "Berlin, Germany",
+        "startDate": "Aug 2022",
+        "endDate": "Sep 2023",
+        "durationMonths": "1 year",
+        "modality": "remote",
+        "webLink": "https://www.linkedin.com/company/circuskitchens/"
+    },
+    {
+        "title": "Freelance Chief Technology Officer",
+        "nameCompany": "Totem Studio",
+        "img": "/experience/totem-logo.svg",
+        "type": "work",
+        "description": [
+            "As Head of Development at The Totem Studio, I supervise the development of several web and mobile applications.",
+            "I ensured code quality, collaborated with clients for requirements, managed a developer team, and supervised code and project launches.",
+            "My dedication and communication skills were key in delivering top-tier products to clients."
+        ],
+        "skills": [
+            "Mobile Application Development",
+            "Front End Development",
+            "Vue.js",
+            "Nuxt.js",
+            "TypeScript",
+            "Flutter",
+            "Leadership"
+        ],
+        "place": "Berlin, Germany",
+        "startDate": "Apr 2020",
+        "endDate": "Today",
+        "durationMonths": "Today",
+        "modality": "remote",
+        "webLink": "https://thetotem.studio/"
+    }
+]

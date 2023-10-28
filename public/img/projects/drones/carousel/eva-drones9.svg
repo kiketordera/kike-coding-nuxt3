@@ -1,0 +1,265 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00132d"/>
+      <stop offset="1" stop-color="#0072aa"/>
+      <stop offset="1" stop-color="#546172" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="Path_289">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="0.014" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0"/>
+      <stop offset="0.739" stop-color="#2b2b2b" stop-opacity="0.482"/>
+      <stop offset="1" stop-color="#545454" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clip-_1.1_Drone_data_base_edit_drone_">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="_1.1_Drone_data_base_edit_drone_" data-name="1.1 Drone data base edit drone " clip-path="url(#clip-_1.1_Drone_data_base_edit_drone_)">
+    <rect width="1920" height="1080" fill="#141f27"/>
+    <g id="Path_319" data-name="Path 319" transform="translate(552 165)" fill="#303a41">
+      <path d="M 924 1189.5 L 5 1189.5 C 2.518615484237671 1189.5 0.5 1187.4814453125 0.5 1185 L 0.5 5 C 0.5 2.518615484237671 2.518615484237671 0.5 5 0.5 L 924 0.5 C 926.4813842773438 0.5 928.5 2.518615484237671 928.5 5 L 928.5 1185 C 928.5 1187.4814453125 926.4813842773438 1189.5 924 1189.5 Z" stroke="none"/>
+      <path d="M 5 1 C 2.79443359375 1 1 2.79443359375 1 5 L 1 1185 C 1 1187.20556640625 2.79443359375 1189 5 1189 L 924 1189 C 926.20556640625 1189 928 1187.20556640625 928 1185 L 928 5 C 928 2.79443359375 926.20556640625 1 924 1 L 5 1 M 5 0 L 924 0 C 926.7614135742188 0 929 2.2384033203125 929 5 L 929 1185 C 929 1187.761352539062 926.7614135742188 1190 924 1190 L 5 1190 C 2.23858642578125 1190 0 1187.761352539062 0 1185 L 0 5 C 0 2.2384033203125 2.23858642578125 0 5 0 Z" stroke="none" fill="#707070"/>
+    </g>
+    <text id="Doble_battery_voltaje" data-name="Doble battery voltaje" transform="translate(685 793)" fill="#fff" font-size="27" font-family="BaiJamjuree-Bold, Bai Jamjuree" font-weight="700"><tspan x="0" y="0">Doble battery voltaje</tspan></text>
+    <text id="int_DimensionWithPropellers" data-name="int DimensionWithPropellers" transform="translate(586 729)" fill="#fff" font-size="27" font-family="BaiJamjuree-Bold, Bai Jamjuree" font-weight="700"><tspan x="0" y="0">int DimensionWithPropellers</tspan></text>
+    <text id="int_MaxFlightTime" data-name="int MaxFlightTime" transform="translate(722 664)" fill="#fff" font-size="27" font-family="BaiJamjuree-Bold, Bai Jamjuree" font-weight="700"><tspan x="0" y="0">int MaxFlightTime</tspan></text>
+    <text id="int_MaxAirSpeed" data-name="int MaxAirSpeed" transform="translate(740 599)" fill="#fff" font-size="27" font-family="BaiJamjuree-Bold, Bai Jamjuree" font-weight="700"><tspan x="0" y="0">int MaxAirSpeed</tspan></text>
+    <text id="int_MaxWindResistance" data-name="int MaxWindResistance" transform="translate(650 534)" fill="#fff" font-size="27" font-family="BaiJamjuree-Bold, Bai Jamjuree" font-weight="700"><tspan x="0" y="0">int MaxWindResistance</tspan></text>
+    <text id="String_name" data-name="String name" transform="translate(796 470)" fill="#fff" font-size="27" font-family="BaiJamjuree-Bold, Bai Jamjuree" font-weight="700"><tspan x="0" y="0">String name</tspan></text>
+    <text id="String_ID" data-name="String ID" transform="translate(840 406)" fill="#fff" font-size="27" font-family="BaiJamjuree-Bold, Bai Jamjuree" font-weight="700"><tspan x="0" y="0">String ID</tspan></text>
+    <text id="Int_BatteryCapacity" data-name="Int BatteryCapacity" transform="translate(704 859)" fill="#fff" font-size="27" font-family="BaiJamjuree-Bold, Bai Jamjuree" font-weight="700"><tspan x="0" y="0">Int BatteryCapacity</tspan></text>
+    <text id="Int_MaxHeight" data-name="Int MaxHeight" transform="translate(772 985)" fill="#fff" font-size="27" font-family="BaiJamjuree-Bold, Bai Jamjuree" font-weight="700"><tspan x="0" y="0">Int MaxHeight</tspan></text>
+    <text id="Int_PropellerLength" data-name="Int PropellerLength" transform="translate(705 1049)" fill="#fff" font-size="27" font-family="BaiJamjuree-Bold, Bai Jamjuree" font-weight="700"><tspan x="0" y="0">Int PropellerLength</tspan></text>
+    <text id="String_BatteryType" data-name="String BatteryType" transform="translate(714 922)" fill="#fff" font-size="27" font-family="BaiJamjuree-Bold, Bai Jamjuree" font-weight="700"><tspan x="0" y="0">String BatteryType</tspan></text>
+    <text id="DJI_drone_transporter" transform="translate(990 470)" fill="#fff" font-size="25" font-family="BaiJamjuree-Medium, Bai Jamjuree" font-weight="500"><tspan x="0" y="0">DJI_drone_transporter</tspan></text>
+    <text id="DJI_1233VDE" transform="translate(990 406)" fill="#fff" font-size="25" font-family="BaiJamjuree-Medium, Bai Jamjuree" font-weight="500"><tspan x="0" y="0">DJI_1233VDE</tspan></text>
+    <text id="No" transform="translate(1003 793)" fill="#fff" font-size="25" font-family="BaiJamjuree-Medium, Bai Jamjuree" font-weight="500"><tspan x="0" y="0">No</tspan></text>
+    <text id="_533" data-name="533" transform="translate(1003 729)" fill="#fff" font-size="25" font-family="BaiJamjuree-Medium, Bai Jamjuree" font-weight="500"><tspan x="0" y="0">533</tspan></text>
+    <text id="_31" data-name="31" transform="translate(1010 665)" fill="#fff" font-size="25" font-family="BaiJamjuree-Medium, Bai Jamjuree" font-weight="500"><tspan x="0" y="0">31</tspan></text>
+    <text id="_68.4" data-name="68.4" transform="translate(1003 600)" fill="#fff" font-size="25" font-family="BaiJamjuree-Medium, Bai Jamjuree" font-weight="500"><tspan x="0" y="0">68.4</tspan></text>
+    <text id="_30" data-name="30" transform="translate(1011 535)" fill="#fff" font-size="25" font-family="BaiJamjuree-Medium, Bai Jamjuree" font-weight="500"><tspan x="0" y="0">30</tspan></text>
+    <text id="_178" data-name="178" transform="translate(1098 729)" fill="#fff" font-size="25" font-family="BaiJamjuree-Medium, Bai Jamjuree" font-weight="500"><tspan x="0" y="0">178</tspan></text>
+    <text id="_mm_mm_" data-name="(mm*mm)" transform="translate(1185 729)" fill="#fff" font-size="25" font-family="BaiJamjuree-Medium, Bai Jamjuree" font-weight="500"><tspan x="0" y="0">(mm*mm)</tspan></text>
+    <text id="_min_" data-name="(min)" transform="translate(1090 664)" fill="#fff" font-size="25" font-family="BaiJamjuree-Medium, Bai Jamjuree" font-weight="500"><tspan x="0" y="0">(min)</tspan></text>
+    <text id="_km_h_" data-name="(km/h)" transform="translate(1090 599)" fill="#fff" font-size="25" font-family="BaiJamjuree-Medium, Bai Jamjuree" font-weight="500"><tspan x="0" y="0">(km/h)</tspan></text>
+    <text id="_mph_" data-name="(mph)" transform="translate(1090 534)" fill="#fff" font-size="25" font-family="BaiJamjuree-Medium, Bai Jamjuree" font-weight="500"><tspan x="0" y="0">(mph)</tspan></text>
+    <text id="_1500" data-name="1500" transform="translate(995 860)" fill="#fff" font-size="25" font-family="BaiJamjuree-Medium, Bai Jamjuree" font-weight="500"><tspan x="0" y="0">1500</tspan></text>
+    <text id="_50" data-name="50" transform="translate(1010 986)" fill="#fff" font-size="25" font-family="BaiJamjuree-Medium, Bai Jamjuree" font-weight="500"><tspan x="0" y="0">50</tspan></text>
+    <text id="_45" data-name="45" transform="translate(1010 1050)" fill="#fff" font-size="25" font-family="BaiJamjuree-Medium, Bai Jamjuree" font-weight="500"><tspan x="0" y="0">45</tspan></text>
+    <text id="Lithium_Polymer" data-name="Lithium Polymer" transform="translate(989 923)" fill="#fff" font-size="25" font-family="BaiJamjuree-Medium, Bai Jamjuree" font-weight="500"><tspan x="0" y="0">Lithium Polymer</tspan></text>
+    <text id="mAh" transform="translate(1083 859)" fill="#fff" font-size="25" font-family="BaiJamjuree-Medium, Bai Jamjuree" font-weight="500"><tspan x="0" y="0">mAh</tspan></text>
+    <text id="m" transform="translate(1083 985)" fill="#fff" font-size="25" font-family="BaiJamjuree-Medium, Bai Jamjuree" font-weight="500"><tspan x="0" y="0">m</tspan></text>
+    <text id="mm" transform="translate(1083 1049)" fill="#fff" font-size="25" font-family="BaiJamjuree-Medium, Bai Jamjuree" font-weight="500"><tspan x="0" y="0">mm</tspan></text>
+    <g id="propeller" transform="translate(598.653 320.061)">
+      <g id="Group_144" data-name="Group 144" transform="translate(32.101 0)">
+        <g id="Group_143" data-name="Group 143" transform="translate(0 0)">
+          <path id="Path_113" data-name="Path 113" d="M199.793,54.346l-9.08-28.3a2.938,2.938,0,0,0-2.8-2.042h-12.1a2.938,2.938,0,0,0-2.8,2.042l-9.08,28.3a2.925,2.925,0,0,0-.037,1.672l1.523,5.584a23.957,23.957,0,0,1,32.891,0l1.523-5.584A2.925,2.925,0,0,0,199.793,54.346Z" transform="translate(-163.79 -24.003)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_146" data-name="Group 146" transform="translate(0 50.448)">
+        <g id="Group_145" data-name="Group 145" transform="translate(0 0)">
+          <path id="Path_114" data-name="Path 114" d="M32.048,301.61A23.943,23.943,0,0,1,26.657,281.4l-5.535,1.705a2.951,2.951,0,0,0-1.392.927L.682,306.856a2.938,2.938,0,0,0-.223,3.459l6.483,10.215a2.941,2.941,0,0,0,3.222,1.27l28.775-7.5a2.963,2.963,0,0,0,1.431-.864l3.9-4.275A23.972,23.972,0,0,1,32.048,301.61Z" transform="translate(0 -281.403)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_148" data-name="Group 148" transform="translate(32.101 36.943)">
+        <g id="Group_147" data-name="Group 147" transform="translate(0 0)">
+          <path id="Path_115" data-name="Path 115" d="M181.863,212.493a18.061,18.061,0,1,0,18.072,18.063A18.069,18.069,0,0,0,181.863,212.493Z" transform="translate(-163.791 -212.493)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_150" data-name="Group 150" transform="translate(56.077 50.448)">
+        <g id="Group_149" data-name="Group 149" transform="translate(0 0)">
+          <path id="Path_116" data-name="Path 116" d="M329.709,306.856l-19.048-22.821a2.951,2.951,0,0,0-1.391-.927l-5.535-1.705a23.95,23.95,0,0,1-17.614,27.76l3.9,4.276a2.963,2.963,0,0,0,1.431.864l28.775,7.5a2.941,2.941,0,0,0,3.222-1.27l6.483-10.215A2.938,2.938,0,0,0,329.709,306.856Z" transform="translate(-286.121 -281.403)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+    <g id="Rectangle_390" data-name="Rectangle 390" transform="translate(977 439)" fill="none" stroke="#0084e3" stroke-width="3">
+      <rect width="400" height="43" rx="5" stroke="none"/>
+      <rect x="1.5" y="1.5" width="397" height="40" rx="3.5" fill="none"/>
+    </g>
+    <g id="Rectangle_491" data-name="Rectangle 491" transform="translate(977 375)" fill="none" stroke="#0084e3" stroke-width="3">
+      <rect width="400" height="43" rx="5" stroke="none"/>
+      <rect x="1.5" y="1.5" width="397" height="40" rx="3.5" fill="none"/>
+    </g>
+    <g id="Rectangle_501" data-name="Rectangle 501" transform="translate(977 762)" fill="none" stroke="#0084e3" stroke-width="3">
+      <rect width="95" height="43" rx="5" stroke="none"/>
+      <rect x="1.5" y="1.5" width="92" height="40" rx="3.5" fill="none"/>
+    </g>
+    <g id="Rectangle_496" data-name="Rectangle 496" transform="translate(977 698)" fill="none" stroke="#0084e3" stroke-width="3">
+      <rect width="95" height="43" rx="5" stroke="none"/>
+      <rect x="1.5" y="1.5" width="92" height="40" rx="3.5" fill="none"/>
+    </g>
+    <g id="Rectangle_498" data-name="Rectangle 498" transform="translate(977 633)" fill="none" stroke="#0084e3" stroke-width="3">
+      <rect width="95" height="43" rx="5" stroke="none"/>
+      <rect x="1.5" y="1.5" width="92" height="40" rx="3.5" fill="none"/>
+    </g>
+    <g id="Rectangle_499" data-name="Rectangle 499" transform="translate(977 568)" fill="none" stroke="#0084e3" stroke-width="3">
+      <rect width="95" height="43" rx="5" stroke="none"/>
+      <rect x="1.5" y="1.5" width="92" height="40" rx="3.5" fill="none"/>
+    </g>
+    <g id="Rectangle_500" data-name="Rectangle 500" transform="translate(977 503)" fill="none" stroke="#0084e3" stroke-width="3">
+      <rect width="95" height="43" rx="5" stroke="none"/>
+      <rect x="1.5" y="1.5" width="92" height="40" rx="3.5" fill="none"/>
+    </g>
+    <g id="Rectangle_397" data-name="Rectangle 397" transform="translate(976 829)" fill="none" stroke="#0084e3" stroke-width="3">
+      <rect width="94" height="43" rx="5" stroke="none"/>
+      <rect x="1.5" y="1.5" width="91" height="40" rx="3.5" fill="none"/>
+    </g>
+    <g id="Rectangle_503" data-name="Rectangle 503" transform="translate(976 955)" fill="none" stroke="#0084e3" stroke-width="3">
+      <rect width="94" height="43" rx="5" stroke="none"/>
+      <rect x="1.5" y="1.5" width="91" height="40" rx="3.5" fill="none"/>
+    </g>
+    <g id="Rectangle_504" data-name="Rectangle 504" transform="translate(976 1019)" fill="none" stroke="#0084e3" stroke-width="3">
+      <rect width="94" height="43" rx="5" stroke="none"/>
+      <rect x="1.5" y="1.5" width="91" height="40" rx="3.5" fill="none"/>
+    </g>
+    <g id="Rectangle_502" data-name="Rectangle 502" transform="translate(976 892)" fill="none" stroke="#0084e3" stroke-width="3">
+      <rect width="401" height="43" rx="5" stroke="none"/>
+      <rect x="1.5" y="1.5" width="398" height="40" rx="3.5" fill="none"/>
+    </g>
+    <g id="Rectangle_497" data-name="Rectangle 497" transform="translate(1075 698)" fill="none" stroke="#0084e3" stroke-width="3">
+      <rect width="95" height="43" rx="5" stroke="none"/>
+      <rect x="1.5" y="1.5" width="92" height="40" rx="3.5" fill="none"/>
+    </g>
+    <path id="Polygon_4" data-name="Polygon 4" d="M6.826,2.56a2,2,0,0,1,3.348,0l4.8,7.345A2,2,0,0,1,13.3,13H3.7A2,2,0,0,1,2.023,9.906Z" transform="translate(1107 790) rotate(180)" fill="#fff"/>
+    <path id="Polygon_27" data-name="Polygon 27" d="M6.826,2.56a2,2,0,0,1,3.348,0l4.8,7.345A2,2,0,0,1,13.3,13H3.7A2,2,0,0,1,2.023,9.906Z" transform="translate(1403 925) rotate(180)" fill="#fff"/>
+    <rect id="Rectangle_429" data-name="Rectangle 429" width="20" height="49" rx="10" transform="translate(1510 253)" fill="#fff"/>
+    <g id="Group_299" data-name="Group 299" transform="translate(0.051 -894.996)">
+      <path id="Path_242" data-name="Path 242" d="M0,0H1810V221H0Z" transform="translate(109.949 894.995)" fill="#141f27"/>
+    </g>
+    <text id="Edit_drone" data-name="Edit drone" transform="translate(213 80)" fill="#fff" font-size="49" font-family="BaiJamjuree-SemiBold, Bai Jamjuree" font-weight="600"><tspan x="0" y="0">Edit drone</tspan></text>
+    <g id="Group_423" data-name="Group 423" transform="translate(-330)">
+      <g id="Rectangle_533" data-name="Rectangle 533" transform="translate(882 164)" fill="#b1b1b1" stroke="#272728" stroke-width="1">
+        <rect width="929" height="57" rx="5" stroke="none"/>
+        <rect x="0.5" y="0.5" width="928" height="56" rx="4.5" fill="none"/>
+      </g>
+      <text id="DJI_1233VDE-2" data-name="DJI_1233VDE" transform="translate(985 203)" font-size="27" font-family="BaiJamjuree-Bold, Bai Jamjuree" font-weight="700"><tspan x="0" y="0">DJI_1233VDE</tspan></text>
+      <g id="propeller-2" data-name="propeller" transform="translate(909.826 173.516)">
+        <g id="Group_144-2" data-name="Group 144" transform="translate(13.403 0)">
+          <g id="Group_143-2" data-name="Group 143" transform="translate(0 0)">
+            <path id="Path_113-2" data-name="Path 113" d="M178.822,36.672l-3.791-11.816A1.227,1.227,0,0,0,173.862,24h-5.054a1.227,1.227,0,0,0-1.169.853l-3.791,11.816a1.221,1.221,0,0,0-.016.7l.636,2.331a10,10,0,0,1,13.733,0l.636-2.331A1.221,1.221,0,0,0,178.822,36.672Z" transform="translate(-163.79 -24.003)" fill="#303a41"/>
+          </g>
+        </g>
+        <g id="Group_146-2" data-name="Group 146" transform="translate(0 21.064)">
+          <g id="Group_145-2" data-name="Group 145" transform="translate(0 0)">
+            <path id="Path_114-2" data-name="Path 114" d="M13.381,289.84A10,10,0,0,1,11.13,281.4l-2.311.712a1.232,1.232,0,0,0-.581.387L.285,292.03a1.227,1.227,0,0,0-.093,1.444L2.9,297.74a1.228,1.228,0,0,0,1.345.53l12.014-3.13a1.237,1.237,0,0,0,.6-.361l1.628-1.785A10.009,10.009,0,0,1,13.381,289.84Z" transform="translate(0 -281.403)" fill="#303a41"/>
+          </g>
+        </g>
+        <g id="Group_148-2" data-name="Group 148" transform="translate(13.403 15.425)">
+          <g id="Group_147-2" data-name="Group 147" transform="translate(0 0)">
+            <path id="Path_115-2" data-name="Path 115" d="M171.337,212.493a7.541,7.541,0,1,0,7.546,7.542A7.544,7.544,0,0,0,171.337,212.493Z" transform="translate(-163.791 -212.493)" fill="#303a41"/>
+          </g>
+        </g>
+        <g id="Group_150-2" data-name="Group 150" transform="translate(23.414 21.064)">
+          <g id="Group_149-2" data-name="Group 149" transform="translate(0 0)">
+            <path id="Path_116-2" data-name="Path 116" d="M304.32,292.03l-7.953-9.529a1.232,1.232,0,0,0-.581-.387l-2.311-.712a10,10,0,0,1-7.354,11.591l1.628,1.786a1.237,1.237,0,0,0,.6.361l12.014,3.13a1.228,1.228,0,0,0,1.345-.53l2.707-4.265A1.227,1.227,0,0,0,304.32,292.03Z" transform="translate(-286.121 -281.403)" fill="#303a41"/>
+          </g>
+        </g>
+      </g>
+      <g id="Group_417" data-name="Group 417">
+        <g id="Rectangle_349" data-name="Rectangle 349" transform="translate(1408 171)" fill="#303a41" stroke="#0072aa" stroke-width="3">
+          <rect width="184" height="43" rx="5" stroke="none"/>
+          <rect x="1.5" y="1.5" width="181" height="40" rx="3.5" fill="none"/>
+        </g>
+        <text id="Save" transform="translate(1500 200)" fill="#fff" font-size="20" font-family="BaiJamjuree-Medium, Bai Jamjuree" font-weight="500"><tspan x="-22.49" y="0">Save</tspan></text>
+      </g>
+      <g id="Group_418" data-name="Group 418">
+        <rect id="Rectangle_348" data-name="Rectangle 348" width="184" height="43" rx="5" transform="translate(1617 171)" fill="#303a41"/>
+        <text id="Cancel" transform="translate(1709 200)" fill="#fff" font-size="20" font-family="BaiJamjuree-Medium, Bai Jamjuree" font-weight="500"><tspan x="-31.97" y="0">Cancel</tspan></text>
+      </g>
+    </g>
+    <g id="Nav_bar_drone_models" data-name="Nav bar drone models">
+      <g id="Group_388" data-name="Group 388">
+        <g data-type="innerShadowGroup">
+          <path id="Path_289-2" data-name="Path 289" d="M1.594,0h119.88c.88,0,1.594,2.608,1.594,5.825v1068.35c0,3.217-.714,5.825-1.594,5.825H1.594c-.88,0-1.594-2.608-1.594-5.825V5.825C0,2.608.714,0,1.594,0Z" fill="url(#linear-gradient)"/>
+          <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_289)">
+            <path id="Path_289-3" data-name="Path 289" d="M1.594,0h119.88c.88,0,1.594,2.608,1.594,5.825v1068.35c0,3.217-.714,5.825-1.594,5.825H1.594c-.88,0-1.594-2.608-1.594-5.825V5.825C0,2.608.714,0,1.594,0Z" fill="#fff"/>
+          </g>
+        </g>
+        <rect id="Rectangle_592" data-name="Rectangle 592" width="127.568" height="63" transform="translate(0 259.439)" fill="url(#linear-gradient-2)"/>
+        <text id="Home" transform="translate(31.533 215.5)" fill="#fff" font-size="20" font-family="BaiJamjuree-Medium, Bai Jamjuree" font-weight="500"><tspan x="0" y="0">Home</tspan></text>
+        <text id="Settings_" data-name="Settings " transform="translate(20 933.318)" fill="#fff" font-size="20" font-family="BaiJamjuree-Medium, Bai Jamjuree" font-weight="500"><tspan x="0" y="0">Settings </tspan></text>
+        <text id="Log_out" data-name="Log out" transform="translate(26 1061.561)" fill="#fff" font-size="20" font-family="BaiJamjuree-Medium, Bai Jamjuree" font-weight="500"><tspan x="0" y="0">Log out</tspan></text>
+        <text id="Drone_mo." data-name="Drone mo." transform="translate(15.284 352.939)" fill="#fff" font-size="20" font-family="BaiJamjuree-Medium, Bai Jamjuree" font-weight="500"><tspan x="0" y="0">Drone mo.</tspan></text>
+        <g id="Group_367" data-name="Group 367" transform="translate(43 868.5)">
+          <path id="settings-3" d="M34.855,14.435l-2.889-.367a14.522,14.522,0,0,0-.874-2.111l1.784-2.3a2.284,2.284,0,0,0-.187-3.041L30.268,4.2a2.29,2.29,0,0,0-3.05-.2L24.924,5.787a14.469,14.469,0,0,0-2.113-.874l-.367-2.884A2.3,2.3,0,0,0,20.16,0H16.718a2.3,2.3,0,0,0-2.283,2.024l-.367,2.889a14.3,14.3,0,0,0-2.113.874L9.659,4a2.286,2.286,0,0,0-3.041.187L4.2,6.609A2.291,2.291,0,0,0,4,9.661l1.784,2.3a14.352,14.352,0,0,0-.874,2.111l-2.884.367A2.3,2.3,0,0,0,0,16.718V20.16a2.3,2.3,0,0,0,2.024,2.283l2.889.367a14.521,14.521,0,0,0,.874,2.111L4,27.22a2.284,2.284,0,0,0,.187,3.041l2.42,2.42a2.292,2.292,0,0,0,3.05.194l2.3-1.784a14.186,14.186,0,0,0,2.111.874l.367,2.883a2.3,2.3,0,0,0,2.283,2.031H20.16a2.3,2.3,0,0,0,2.283-2.024l.367-2.889a14.522,14.522,0,0,0,2.111-.874l2.3,1.784a2.284,2.284,0,0,0,3.041-.187l2.42-2.42a2.289,2.289,0,0,0,.2-3.05l-1.784-2.3a14.187,14.187,0,0,0,.874-2.111l2.883-.367a2.3,2.3,0,0,0,2.028-2.283V16.718a2.3,2.3,0,0,0-2.022-2.283ZM18.439,26.123a7.683,7.683,0,1,1,7.683-7.683,7.692,7.692,0,0,1-7.683,7.683Z" transform="translate(0 0)" fill="#fff"/>
+        </g>
+        <g id="Group_368" data-name="Group 368" transform="translate(37 1004.682)">
+          <g id="exit" transform="translate(0 0)">
+            <g id="Group_35" data-name="Group 35" transform="translate(0 0)">
+              <g id="Group_34" data-name="Group 34">
+                <path id="Path_44" data-name="Path 44" d="M10.756,18.443a4.616,4.616,0,0,0-4.61-4.61H0V1.54A1.536,1.536,0,0,1,1.537,0H23.049A1.536,1.536,0,0,1,24.586,1.54V35.345a1.536,1.536,0,0,1-1.537,1.537H1.537A1.536,1.536,0,0,1,0,35.345V23.052H6.146A4.616,4.616,0,0,0,10.756,18.443Z" transform="translate(12.293 -0.003)" fill="#fff"/>
+                <path id="Path_45" data-name="Path 45" d="M235.013,157.984l-.013-.018c-.026-.033-.052-.067-.075-.1-.011-.017-.02-.034-.031-.051s-.031-.051-.046-.077-.021-.044-.032-.066-.022-.045-.032-.069-.019-.051-.028-.076-.016-.042-.022-.064-.016-.061-.023-.091-.009-.035-.013-.053c-.008-.042-.014-.084-.019-.126,0-.007,0-.014,0-.022a1.546,1.546,0,0,1,0-.311c0-.007,0-.014,0-.022,0-.042.011-.084.019-.126,0-.018.009-.036.013-.053s.014-.061.023-.091.015-.043.022-.064.018-.051.028-.077.021-.046.032-.069.02-.044.032-.066.03-.052.046-.077.02-.034.031-.051c.024-.035.049-.069.075-.1l.013-.018a1.536,1.536,0,0,1,.11-.121l6.141-6.141a1.536,1.536,0,1,1,2.173,2.173l-3.523,3.523h13.193a1.537,1.537,0,1,1,0,3.073H239.913l3.523,3.523a1.536,1.536,0,1,1-2.173,2.173l-6.141-6.141A1.524,1.524,0,0,1,235.013,157.984Z" transform="translate(-234.667 -138.573)" fill="#fff"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <line id="Line_86" data-name="Line 86" x2="123.5" transform="translate(0.5 971.5)" fill="none" stroke="#0072aa" stroke-width="3"/>
+        <g id="Group_369" data-name="Group 369" transform="translate(38.469 145.5)">
+          <path id="Path_224" data-name="Path 224" d="M16.439,0a2,2,0,0,1,2,2V15.021a2,2,0,0,1-2,2H2a2,2,0,0,1-2-2Z" fill="#fff"/>
+          <rect id="Rectangle_63" data-name="Rectangle 63" width="18.439" height="17.021" rx="2" transform="translate(21.275)" fill="#fff"/>
+          <rect id="Rectangle_64" data-name="Rectangle 64" width="18.439" height="17.021" rx="2" transform="translate(21.275 19.857)" fill="#fff"/>
+          <rect id="Rectangle_65" data-name="Rectangle 65" width="18.439" height="17.021" rx="2" transform="translate(0 19.857)" fill="#fff"/>
+        </g>
+        <rect id="Rectangle_593" data-name="Rectangle 593" width="124" height="92" transform="translate(3)" fill="none"/>
+        <line id="Line_87" data-name="Line 87" x2="123.568" transform="translate(0 100.5)" fill="none" stroke="#031732" stroke-width="3"/>
+        <g id="left-arrow" transform="translate(47.754 28.004)">
+          <g id="Group_366" data-name="Group 366">
+            <path id="Path_288" data-name="Path 288" d="M108.585,18,122.05,4.539a1.973,1.973,0,0,0,0-2.784L120.87.575a1.972,1.972,0,0,0-2.784,0L102.054,16.607a1.987,1.987,0,0,0,0,2.794l16.017,16.016a1.972,1.972,0,0,0,2.785,0l1.18-1.179a1.971,1.971,0,0,0,0-2.784Z" transform="translate(-101.48 0)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+      <g id="propeller-3" data-name="propeller" transform="translate(41 272.064)">
+        <g id="Group_144-3" data-name="Group 144" transform="translate(12.875 0)">
+          <g id="Group_143-3" data-name="Group 143" transform="translate(0 0)">
+            <path id="Path_113-3" data-name="Path 113" d="M178.23,36.173l-3.642-11.351A1.178,1.178,0,0,0,173.466,24h-4.855a1.179,1.179,0,0,0-1.123.819l-3.642,11.351a1.173,1.173,0,0,0-.015.671l.611,2.24a9.609,9.609,0,0,1,13.192,0l.611-2.24A1.173,1.173,0,0,0,178.23,36.173Z" transform="translate(-163.79 -24.003)" fill="#fff"/>
+          </g>
+        </g>
+        <g id="Group_146-3" data-name="Group 146" transform="translate(0 20.234)">
+          <g id="Group_145-3" data-name="Group 145" transform="translate(0 0)">
+            <path id="Path_114-3" data-name="Path 114" d="M12.854,289.508a9.6,9.6,0,0,1-2.163-8.1l-2.22.684a1.184,1.184,0,0,0-.558.372l-7.64,9.153A1.178,1.178,0,0,0,.184,293l2.6,4.1a1.18,1.18,0,0,0,1.292.509L15.618,294.6a1.188,1.188,0,0,0,.574-.347l1.564-1.714A9.615,9.615,0,0,1,12.854,289.508Z" transform="translate(0 -281.403)" fill="#fff"/>
+          </g>
+        </g>
+        <g id="Group_148-3" data-name="Group 148" transform="translate(12.875 14.817)">
+          <g id="Group_147-3" data-name="Group 147" transform="translate(0 0)">
+            <path id="Path_115-3" data-name="Path 115" d="M171.04,212.493a7.244,7.244,0,1,0,7.249,7.245A7.247,7.247,0,0,0,171.04,212.493Z" transform="translate(-163.791 -212.493)" fill="#fff"/>
+          </g>
+        </g>
+        <g id="Group_150-3" data-name="Group 150" transform="translate(22.492 20.234)">
+          <g id="Group_149-3" data-name="Group 149" transform="translate(0 0)">
+            <path id="Path_116-3" data-name="Path 116" d="M303.6,291.612l-7.64-9.153a1.184,1.184,0,0,0-.558-.372l-2.22-.684a9.606,9.606,0,0,1-7.065,11.134l1.564,1.715a1.188,1.188,0,0,0,.574.347l11.541,3.007a1.18,1.18,0,0,0,1.292-.509l2.6-4.1A1.179,1.179,0,0,0,303.6,291.612Z" transform="translate(-286.121 -281.403)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+      <g id="propeller-4" data-name="propeller" transform="translate(24 272.064)">
+        <g id="Group_144-4" data-name="Group 144" transform="translate(6.155 0)">
+          <g id="Group_143-4" data-name="Group 143" transform="translate(0 0)">
+            <path id="Path_113-4" data-name="Path 113" d="M170.692,29.821l-1.741-5.426a.563.563,0,0,0-.537-.392h-2.321a.563.563,0,0,0-.537.392l-1.741,5.426a.561.561,0,0,0-.007.321l.292,1.071a4.593,4.593,0,0,1,6.306,0l.292-1.071A.561.561,0,0,0,170.692,29.821Z" transform="translate(-163.79 -24.003)" fill="#fff"/>
+          </g>
+        </g>
+        <g id="Group_146-4" data-name="Group 146" transform="translate(0 9.672)">
+          <g id="Group_145-4" data-name="Group 145" transform="translate(0 0)">
+            <path id="Path_114-4" data-name="Path 114" d="M6.144,285.277A4.59,4.59,0,0,1,5.111,281.4l-1.061.327a.566.566,0,0,0-.267.178L.131,286.283a.563.563,0,0,0-.043.663L1.331,288.9a.564.564,0,0,0,.618.243l5.517-1.437a.568.568,0,0,0,.274-.166l.748-.82A4.6,4.6,0,0,1,6.144,285.277Z" transform="translate(0 -281.403)" fill="#fff"/>
+          </g>
+        </g>
+        <g id="Group_148-4" data-name="Group 148" transform="translate(6.155 7.083)">
+          <g id="Group_147-4" data-name="Group 147" transform="translate(0 0)">
+            <path id="Path_115-4" data-name="Path 115" d="M167.256,212.493a3.463,3.463,0,1,0,3.465,3.463A3.464,3.464,0,0,0,167.256,212.493Z" transform="translate(-163.791 -212.493)" fill="#fff"/>
+          </g>
+        </g>
+        <g id="Group_150-4" data-name="Group 150" transform="translate(10.751 9.672)">
+          <g id="Group_149-4" data-name="Group 149" transform="translate(0 0)">
+            <path id="Path_116-4" data-name="Path 116" d="M294.478,286.283l-3.652-4.375a.566.566,0,0,0-.267-.178L289.5,281.4a4.592,4.592,0,0,1-3.377,5.322l.748.82a.568.568,0,0,0,.274.166l5.517,1.437a.564.564,0,0,0,.618-.243l1.243-1.958A.563.563,0,0,0,294.478,286.283Z" transform="translate(-286.121 -281.403)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

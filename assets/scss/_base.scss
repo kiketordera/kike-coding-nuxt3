@@ -41,3 +41,21 @@
 $mediaMaxWidth: 1260px;
 $mediaMaxWidth: 960px;
 $mediaMinWidth: 480px;
+
+
+.txt {
+  &-blue {
+    color: $sea-serpent;
+  }
+}
+
+@mixin button-base {
+  @apply text-base uppercase px-8 py-2.5 my-8 text-center lg:w-auto w-full;
+}
+
+@mixin title-kike-section {
+  @apply lg:text-4xl text-xl whitespace-nowrap tracking-wider mb-4 w-1/2;
+  font-family: "Source Code Pro SemiBold";
+  font-weight: 600;
+  color: $h2-color;
+}

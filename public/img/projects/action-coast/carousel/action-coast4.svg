@@ -1,0 +1,762 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="811" viewBox="0 0 375 811">
+  <defs>
+    <filter id="textbox" x="-20.5" y="208.996" width="237" height="137" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feFlood flood-color="#5b4dbc" flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="textbox-2" x="154.5" y="208.996" width="237" height="137" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="16" result="blur-2"/>
+      <feFlood flood-color="#5b4dbc" flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="slider_dot_MIN_" x="22" y="311.734" width="26" height="26" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-3"/>
+      <feFlood flood-color="#1a0b38" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="slider_dot_MAX" x="22" y="308.734" width="32" height="32" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-4"/>
+      <feFlood flood-color="#1a0b38" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="slider_dot_MIN_2" x="54" y="311.734" width="26" height="26" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-5"/>
+      <feFlood flood-color="#1a0b38" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="slider_dot_MAX-2" x="54" y="308.734" width="32" height="32" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-6"/>
+      <feFlood flood-color="#1a0b38" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1863" data-name="Rectangle 1863" width="57" height="17" transform="translate(44 150)" fill="none" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <filter id="Rectangle" x="-15" y="717" width="405" height="120" filterUnits="userSpaceOnUse">
+      <feOffset dy="-5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-7"/>
+      <feFlood flood-opacity="0.11"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-_1.1.1_Filters_-_applied">
+      <rect width="375" height="811"/>
+    </clipPath>
+  </defs>
+  <g id="_1.1.1_Filters_-_applied" data-name="1.1.1 Filters - applied" clip-path="url(#clip-_1.1.1_Filters_-_applied)">
+    <rect width="375" height="811" fill="#fff"/>
+    <text id="Available_for" data-name="Available for" transform="matrix(1, 0, 0, 1, 16, 374.34)" font-size="18" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500"><tspan x="0" y="0">Available for</tspan></text>
+    <text id="Duration" transform="matrix(1, 0, 0, 1, 16, 464.913)" font-size="18" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500"><tspan x="0" y="0">Duration</tspan></text>
+    <text id="Difficulty" transform="matrix(1, 0, 0, 1, 16, 683.688)" font-size="18" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500"><tspan x="0" y="0">Difficulty</tspan></text>
+    <text id="Location" transform="matrix(1, 0, 0, 1, 16, 793.054)" font-size="18" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500"><tspan x="0" y="0">Location</tspan></text>
+    <text id="Participants_" data-name="Participants " transform="matrix(1, 0, 0, 1, 16, 569.912)" font-size="18" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500"><tspan x="0" y="0">Participants </tspan></text>
+    <text id="Price_range" data-name="Price range" transform="matrix(1, 0, 0, 1, 16, 232.748)" font-size="18" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500"><tspan x="0" y="0">Price range</tspan></text>
+    <g id="Rectangle_1835" data-name="Rectangle 1835" transform="translate(16 590.912)" fill="none" stroke="#3f62ac" stroke-width="1">
+      <rect width="343" height="50" rx="5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="342" height="49" rx="4.5" fill="none"/>
+    </g>
+    <text id="Search" transform="translate(30 624.115)" font-size="20" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500" letter-spacing="0.005em"><tspan x="0" y="0">3</tspan></text>
+    <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" d="M14.982,18.269l6.649-6.654a1.251,1.251,0,0,1,1.775,0,1.267,1.267,0,0,1,0,1.78l-7.533,7.539a1.254,1.254,0,0,1-1.733.037L6.554,13.4a1.257,1.257,0,0,1,1.775-1.78Z" transform="translate(309.23 601.639)" fill="#3f62ac"/>
+    <g id="Dropdown" transform="translate(13.5 476.673)">
+      <g id="Rectangle_1827" data-name="Rectangle 1827" transform="translate(0 3)" fill="#fff" stroke="#3f62ac" stroke-width="1">
+        <rect width="343" height="50" rx="5" stroke="none"/>
+        <rect x="0.5" y="0.5" width="342" height="49" rx="4.5" fill="none"/>
+      </g>
+      <text id="Search-2" data-name="Search" transform="translate(16 41.001)" font-size="14" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500" letter-spacing="0.005em" opacity="0"><tspan x="0" y="0">2 hours</tspan></text>
+      <path id="Icon_ionic-ios-arrow-down-2" data-name="Icon ionic-ios-arrow-down" d="M14.982,18.269l6.649-6.654a1.251,1.251,0,0,1,1.775,0,1.267,1.267,0,0,1,0,1.78l-7.533,7.539a1.254,1.254,0,0,1-1.733.037L6.554,13.4a1.257,1.257,0,0,1,1.775-1.78Z" transform="translate(293.23 13.728)" fill="#3f62ac"/>
+      <text id="Cancel" transform="translate(299.5 33.001)" fill="#ff8282" font-size="12" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500" opacity="0"><tspan x="-20.346" y="0">Cancel</tspan></text>
+      <g id="CheckBox_Button" data-name="CheckBox Button" transform="translate(30.5)" opacity="0">
+        <g id="Group_4917" data-name="Group 4917" transform="translate(1)">
+          <g id="Group_4918" data-name="Group 4918">
+            <g id="Group_4919" data-name="Group 4919">
+              <g id="Group_4920" data-name="Group 4920">
+                <g id="Group_4921" data-name="Group 4921" transform="translate(-1)">
+                  <g id="Group_4916" data-name="Group 4916" transform="translate(-0.197 14.999)">
+                    <g id="Group_4915" data-name="Group 4915" transform="translate(262.197 0.001)">
+                      <g id="Box" fill="none" stroke="#3f62ac" stroke-width="2">
+                        <rect width="20" height="20" rx="5" stroke="none"/>
+                        <rect x="1" y="1" width="18" height="18" rx="4" fill="none"/>
+                      </g>
+                      <rect id="Box_filled" data-name="Box filled" width="20" height="20" rx="5" fill="#3f62ac" opacity="0"/>
+                      <path id="Check" d="M8.76,15.667a.732.732,0,0,1-.565-.242l-3.953-4.2A.8.8,0,0,1,5.371,10.1l3.308,3.55,6.777-7.422a.868.868,0,0,1,1.129-.161A.868.868,0,0,1,16.747,7.2l-.081.081L9.325,15.344a.7.7,0,0,1-.565.323Z" transform="translate(-0.299 -0.968)" fill="#fff"/>
+                    </g>
+                    <text id="Label" transform="translate(0.197 15)" font-size="16" font-family="GothamRounded-Book, Gotham Rounded" letter-spacing="0.005em"><tspan x="0" y="0">30 min </tspan></text>
+                  </g>
+                  <rect id="Button" width="280" height="50" transform="translate(1)" fill="none"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="CheckBox_Button-2" data-name="CheckBox Button" transform="translate(30.5 3)" opacity="0">
+        <g id="Group_4917-2" data-name="Group 4917" transform="translate(1)">
+          <g id="Group_4918-2" data-name="Group 4918">
+            <g id="Group_4919-2" data-name="Group 4919">
+              <g id="Group_4920-2" data-name="Group 4920">
+                <g id="Group_4921-2" data-name="Group 4921" transform="translate(-1)">
+                  <g id="Group_4916-2" data-name="Group 4916" transform="translate(-0.197 14.999)">
+                    <g id="Group_4915-2" data-name="Group 4915" transform="translate(262.197 0.001)">
+                      <g id="Box-2" data-name="Box" fill="none" stroke="#3f62ac" stroke-width="2">
+                        <rect width="20" height="20" rx="5" stroke="none"/>
+                        <rect x="1" y="1" width="18" height="18" rx="4" fill="none"/>
+                      </g>
+                      <rect id="Box_filled-2" data-name="Box filled" width="20" height="20" rx="5" fill="#3f62ac" opacity="0"/>
+                      <path id="Check-2" data-name="Check" d="M8.76,15.667a.732.732,0,0,1-.565-.242l-3.953-4.2A.8.8,0,0,1,5.371,10.1l3.308,3.55,6.777-7.422a.868.868,0,0,1,1.129-.161A.868.868,0,0,1,16.747,7.2l-.081.081L9.325,15.344a.7.7,0,0,1-.565.323Z" transform="translate(-0.299 -0.968)" fill="#fff"/>
+                    </g>
+                    <text id="Label-2" data-name="Label" transform="translate(0.197 15)" font-size="16" font-family="GothamRounded-Book, Gotham Rounded" letter-spacing="0.005em"><tspan x="0" y="0">2 hours</tspan></text>
+                  </g>
+                  <rect id="Button-2" data-name="Button" width="280" height="50" transform="translate(1)" fill="none"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="CheckBox_Button-3" data-name="CheckBox Button" transform="translate(30.5 1)" opacity="0">
+        <g id="Group_4917-3" data-name="Group 4917" transform="translate(1)">
+          <g id="Group_4918-3" data-name="Group 4918">
+            <g id="Group_4919-3" data-name="Group 4919">
+              <g id="Group_4920-3" data-name="Group 4920">
+                <g id="Group_4921-3" data-name="Group 4921" transform="translate(-1)">
+                  <g id="Group_4916-3" data-name="Group 4916" transform="translate(-0.197 14.999)">
+                    <g id="Group_4915-3" data-name="Group 4915" transform="translate(262.197 0.001)">
+                      <g id="Box-3" data-name="Box" fill="none" stroke="#3f62ac" stroke-width="2">
+                        <rect width="20" height="20" rx="5" stroke="none"/>
+                        <rect x="1" y="1" width="18" height="18" rx="4" fill="none"/>
+                      </g>
+                      <rect id="Box_filled-3" data-name="Box filled" width="20" height="20" rx="5" fill="#3f62ac" opacity="0"/>
+                      <path id="Check-3" data-name="Check" d="M8.76,15.667a.732.732,0,0,1-.565-.242l-3.953-4.2A.8.8,0,0,1,5.371,10.1l3.308,3.55,6.777-7.422a.868.868,0,0,1,1.129-.161A.868.868,0,0,1,16.747,7.2l-.081.081L9.325,15.344a.7.7,0,0,1-.565.323Z" transform="translate(-0.299 -0.968)" fill="#fff"/>
+                    </g>
+                    <text id="Label-3" data-name="Label" transform="translate(0.197 15)" font-size="16" font-family="GothamRounded-Book, Gotham Rounded" letter-spacing="0.005em"><tspan x="0" y="0">1 hour</tspan></text>
+                  </g>
+                  <rect id="Button-3" data-name="Button" width="280" height="50" transform="translate(1)" fill="none"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="CheckBox_Button-4" data-name="CheckBox Button" transform="translate(30.5 4)" opacity="0">
+        <g id="Group_4917-4" data-name="Group 4917" transform="translate(1)">
+          <g id="Group_4918-4" data-name="Group 4918">
+            <g id="Group_4919-4" data-name="Group 4919">
+              <g id="Group_4920-4" data-name="Group 4920">
+                <g id="Group_4921-4" data-name="Group 4921" transform="translate(-1)">
+                  <g id="Group_4916-4" data-name="Group 4916" transform="translate(-0.197 14.999)">
+                    <g id="Group_4915-4" data-name="Group 4915" transform="translate(262.197 0.001)">
+                      <g id="Box-4" data-name="Box" fill="none" stroke="#3f62ac" stroke-width="2">
+                        <rect width="20" height="20" rx="5" stroke="none"/>
+                        <rect x="1" y="1" width="18" height="18" rx="4" fill="none"/>
+                      </g>
+                      <rect id="Box_filled-4" data-name="Box filled" width="20" height="20" rx="5" fill="#3f62ac" opacity="0"/>
+                      <path id="Check-4" data-name="Check" d="M8.76,15.667a.732.732,0,0,1-.565-.242l-3.953-4.2A.8.8,0,0,1,5.371,10.1l3.308,3.55,6.777-7.422a.868.868,0,0,1,1.129-.161A.868.868,0,0,1,16.747,7.2l-.081.081L9.325,15.344a.7.7,0,0,1-.565.323Z" transform="translate(-0.299 -0.968)" fill="#fff"/>
+                    </g>
+                    <text id="Label-4" data-name="Label" transform="translate(0.197 15)" font-size="16" font-family="GothamRounded-Book, Gotham Rounded" letter-spacing="0.005em"><tspan x="0" y="0">5 hour</tspan></text>
+                  </g>
+                  <rect id="Button-4" data-name="Button" width="280" height="50" transform="translate(1)" fill="none"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="CheckBox_Button-5" data-name="CheckBox Button" transform="translate(30.5 6)" opacity="0">
+        <g id="Group_4917-5" data-name="Group 4917" transform="translate(1)">
+          <g id="Group_4918-5" data-name="Group 4918">
+            <g id="Group_4919-5" data-name="Group 4919">
+              <g id="Group_4920-5" data-name="Group 4920">
+                <g id="Group_4921-5" data-name="Group 4921" transform="translate(-1)">
+                  <g id="Group_4916-5" data-name="Group 4916" transform="translate(-0.197 14.999)">
+                    <g id="Group_4915-5" data-name="Group 4915" transform="translate(262.197 0.001)">
+                      <g id="Box-5" data-name="Box" fill="none" stroke="#3f62ac" stroke-width="2">
+                        <rect width="20" height="20" rx="5" stroke="none"/>
+                        <rect x="1" y="1" width="18" height="18" rx="4" fill="none"/>
+                      </g>
+                      <rect id="Box_filled-5" data-name="Box filled" width="20" height="20" rx="5" fill="#3f62ac" opacity="0"/>
+                      <path id="Check-5" data-name="Check" d="M8.76,15.667a.732.732,0,0,1-.565-.242l-3.953-4.2A.8.8,0,0,1,5.371,10.1l3.308,3.55,6.777-7.422a.868.868,0,0,1,1.129-.161A.868.868,0,0,1,16.747,7.2l-.081.081L9.325,15.344a.7.7,0,0,1-.565.323Z" transform="translate(-0.299 -0.968)" fill="#fff"/>
+                    </g>
+                    <text id="Label-5" data-name="Label" transform="translate(0.197 15)" font-size="16" font-family="GothamRounded-Book, Gotham Rounded" letter-spacing="0.005em"><tspan x="0" y="0">1 day</tspan></text>
+                  </g>
+                  <rect id="Button-5" data-name="Button" width="280" height="50" transform="translate(1)" fill="none"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <text id="Search-3" data-name="Search" transform="translate(16.5 35)" font-size="17" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500" letter-spacing="0.005em"><tspan x="0" y="0">Any</tspan></text>
+    </g>
+    <g id="Dropdown-2" data-name="Dropdown" transform="translate(13.5 695.448)">
+      <g id="Rectangle_1827-2" data-name="Rectangle 1827" transform="translate(0 3)" fill="#fff" stroke="#3f62ac" stroke-width="1">
+        <rect width="343" height="50" rx="5" stroke="none"/>
+        <rect x="0.5" y="0.5" width="342" height="49" rx="4.5" fill="none"/>
+      </g>
+      <text id="Search-4" data-name="Search" transform="translate(16 41.001)" font-size="14" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500" letter-spacing="0.005em" opacity="0"><tspan x="0" y="0">2 hours</tspan></text>
+      <path id="Icon_ionic-ios-arrow-down-3" data-name="Icon ionic-ios-arrow-down" d="M14.982,18.269l6.649-6.654a1.251,1.251,0,0,1,1.775,0,1.267,1.267,0,0,1,0,1.78l-7.533,7.539a1.254,1.254,0,0,1-1.733.037L6.554,13.4a1.257,1.257,0,0,1,1.775-1.78Z" transform="translate(293.23 13.728)" fill="#3f62ac"/>
+      <text id="Cancel-2" data-name="Cancel" transform="translate(299.5 33.001)" fill="#ff8282" font-size="12" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500" opacity="0"><tspan x="-20.346" y="0">Cancel</tspan></text>
+      <g id="CheckBox_Button-6" data-name="CheckBox Button" transform="translate(30.5)" opacity="0">
+        <g id="Group_4917-6" data-name="Group 4917" transform="translate(1)">
+          <g id="Group_4918-6" data-name="Group 4918">
+            <g id="Group_4919-6" data-name="Group 4919">
+              <g id="Group_4920-6" data-name="Group 4920">
+                <g id="Group_4921-6" data-name="Group 4921" transform="translate(-1)">
+                  <g id="Group_4916-6" data-name="Group 4916" transform="translate(-0.197 14.999)">
+                    <g id="Group_4915-6" data-name="Group 4915" transform="translate(262.197 0.001)">
+                      <g id="Box-6" data-name="Box" fill="none" stroke="#3f62ac" stroke-width="2">
+                        <rect width="20" height="20" rx="5" stroke="none"/>
+                        <rect x="1" y="1" width="18" height="18" rx="4" fill="none"/>
+                      </g>
+                      <rect id="Box_filled-6" data-name="Box filled" width="20" height="20" rx="5" fill="#3f62ac" opacity="0"/>
+                      <path id="Check-6" data-name="Check" d="M8.76,15.667a.732.732,0,0,1-.565-.242l-3.953-4.2A.8.8,0,0,1,5.371,10.1l3.308,3.55,6.777-7.422a.868.868,0,0,1,1.129-.161A.868.868,0,0,1,16.747,7.2l-.081.081L9.325,15.344a.7.7,0,0,1-.565.323Z" transform="translate(-0.299 -0.968)" fill="#fff"/>
+                    </g>
+                    <text id="Label-6" data-name="Label" transform="translate(0.197 15)" font-size="16" font-family="GothamRounded-Book, Gotham Rounded" letter-spacing="0.005em"><tspan x="0" y="0">30 min </tspan></text>
+                  </g>
+                  <rect id="Button-6" data-name="Button" width="280" height="50" transform="translate(1)" fill="none"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="CheckBox_Button-7" data-name="CheckBox Button" transform="translate(30.5 3)" opacity="0">
+        <g id="Group_4917-7" data-name="Group 4917" transform="translate(1)">
+          <g id="Group_4918-7" data-name="Group 4918">
+            <g id="Group_4919-7" data-name="Group 4919">
+              <g id="Group_4920-7" data-name="Group 4920">
+                <g id="Group_4921-7" data-name="Group 4921" transform="translate(-1)">
+                  <g id="Group_4916-7" data-name="Group 4916" transform="translate(-0.197 14.999)">
+                    <g id="Group_4915-7" data-name="Group 4915" transform="translate(262.197 0.001)">
+                      <g id="Box-7" data-name="Box" fill="none" stroke="#3f62ac" stroke-width="2">
+                        <rect width="20" height="20" rx="5" stroke="none"/>
+                        <rect x="1" y="1" width="18" height="18" rx="4" fill="none"/>
+                      </g>
+                      <rect id="Box_filled-7" data-name="Box filled" width="20" height="20" rx="5" fill="#3f62ac" opacity="0"/>
+                      <path id="Check-7" data-name="Check" d="M8.76,15.667a.732.732,0,0,1-.565-.242l-3.953-4.2A.8.8,0,0,1,5.371,10.1l3.308,3.55,6.777-7.422a.868.868,0,0,1,1.129-.161A.868.868,0,0,1,16.747,7.2l-.081.081L9.325,15.344a.7.7,0,0,1-.565.323Z" transform="translate(-0.299 -0.968)" fill="#fff"/>
+                    </g>
+                    <text id="Label-7" data-name="Label" transform="translate(0.197 15)" font-size="16" font-family="GothamRounded-Book, Gotham Rounded" letter-spacing="0.005em"><tspan x="0" y="0">2 hours</tspan></text>
+                  </g>
+                  <rect id="Button-7" data-name="Button" width="280" height="50" transform="translate(1)" fill="none"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="CheckBox_Button-8" data-name="CheckBox Button" transform="translate(30.5 1)" opacity="0">
+        <g id="Group_4917-8" data-name="Group 4917" transform="translate(1)">
+          <g id="Group_4918-8" data-name="Group 4918">
+            <g id="Group_4919-8" data-name="Group 4919">
+              <g id="Group_4920-8" data-name="Group 4920">
+                <g id="Group_4921-8" data-name="Group 4921" transform="translate(-1)">
+                  <g id="Group_4916-8" data-name="Group 4916" transform="translate(-0.197 14.999)">
+                    <g id="Group_4915-8" data-name="Group 4915" transform="translate(262.197 0.001)">
+                      <g id="Box-8" data-name="Box" fill="none" stroke="#3f62ac" stroke-width="2">
+                        <rect width="20" height="20" rx="5" stroke="none"/>
+                        <rect x="1" y="1" width="18" height="18" rx="4" fill="none"/>
+                      </g>
+                      <rect id="Box_filled-8" data-name="Box filled" width="20" height="20" rx="5" fill="#3f62ac" opacity="0"/>
+                      <path id="Check-8" data-name="Check" d="M8.76,15.667a.732.732,0,0,1-.565-.242l-3.953-4.2A.8.8,0,0,1,5.371,10.1l3.308,3.55,6.777-7.422a.868.868,0,0,1,1.129-.161A.868.868,0,0,1,16.747,7.2l-.081.081L9.325,15.344a.7.7,0,0,1-.565.323Z" transform="translate(-0.299 -0.968)" fill="#fff"/>
+                    </g>
+                    <text id="Label-8" data-name="Label" transform="translate(0.197 15)" font-size="16" font-family="GothamRounded-Book, Gotham Rounded" letter-spacing="0.005em"><tspan x="0" y="0">1 hour</tspan></text>
+                  </g>
+                  <rect id="Button-8" data-name="Button" width="280" height="50" transform="translate(1)" fill="none"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="CheckBox_Button-9" data-name="CheckBox Button" transform="translate(30.5 4)" opacity="0">
+        <g id="Group_4917-9" data-name="Group 4917" transform="translate(1)">
+          <g id="Group_4918-9" data-name="Group 4918">
+            <g id="Group_4919-9" data-name="Group 4919">
+              <g id="Group_4920-9" data-name="Group 4920">
+                <g id="Group_4921-9" data-name="Group 4921" transform="translate(-1)">
+                  <g id="Group_4916-9" data-name="Group 4916" transform="translate(-0.197 14.999)">
+                    <g id="Group_4915-9" data-name="Group 4915" transform="translate(262.197 0.001)">
+                      <g id="Box-9" data-name="Box" fill="none" stroke="#3f62ac" stroke-width="2">
+                        <rect width="20" height="20" rx="5" stroke="none"/>
+                        <rect x="1" y="1" width="18" height="18" rx="4" fill="none"/>
+                      </g>
+                      <rect id="Box_filled-9" data-name="Box filled" width="20" height="20" rx="5" fill="#3f62ac" opacity="0"/>
+                      <path id="Check-9" data-name="Check" d="M8.76,15.667a.732.732,0,0,1-.565-.242l-3.953-4.2A.8.8,0,0,1,5.371,10.1l3.308,3.55,6.777-7.422a.868.868,0,0,1,1.129-.161A.868.868,0,0,1,16.747,7.2l-.081.081L9.325,15.344a.7.7,0,0,1-.565.323Z" transform="translate(-0.299 -0.968)" fill="#fff"/>
+                    </g>
+                    <text id="Label-9" data-name="Label" transform="translate(0.197 15)" font-size="16" font-family="GothamRounded-Book, Gotham Rounded" letter-spacing="0.005em"><tspan x="0" y="0">5 hour</tspan></text>
+                  </g>
+                  <rect id="Button-9" data-name="Button" width="280" height="50" transform="translate(1)" fill="none"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="CheckBox_Button-10" data-name="CheckBox Button" transform="translate(30.5 6)" opacity="0">
+        <g id="Group_4917-10" data-name="Group 4917" transform="translate(1)">
+          <g id="Group_4918-10" data-name="Group 4918">
+            <g id="Group_4919-10" data-name="Group 4919">
+              <g id="Group_4920-10" data-name="Group 4920">
+                <g id="Group_4921-10" data-name="Group 4921" transform="translate(-1)">
+                  <g id="Group_4916-10" data-name="Group 4916" transform="translate(-0.197 14.999)">
+                    <g id="Group_4915-10" data-name="Group 4915" transform="translate(262.197 0.001)">
+                      <g id="Box-10" data-name="Box" fill="none" stroke="#3f62ac" stroke-width="2">
+                        <rect width="20" height="20" rx="5" stroke="none"/>
+                        <rect x="1" y="1" width="18" height="18" rx="4" fill="none"/>
+                      </g>
+                      <rect id="Box_filled-10" data-name="Box filled" width="20" height="20" rx="5" fill="#3f62ac" opacity="0"/>
+                      <path id="Check-10" data-name="Check" d="M8.76,15.667a.732.732,0,0,1-.565-.242l-3.953-4.2A.8.8,0,0,1,5.371,10.1l3.308,3.55,6.777-7.422a.868.868,0,0,1,1.129-.161A.868.868,0,0,1,16.747,7.2l-.081.081L9.325,15.344a.7.7,0,0,1-.565.323Z" transform="translate(-0.299 -0.968)" fill="#fff"/>
+                    </g>
+                    <text id="Label-10" data-name="Label" transform="translate(0.197 15)" font-size="16" font-family="GothamRounded-Book, Gotham Rounded" letter-spacing="0.005em"><tspan x="0" y="0">1 day</tspan></text>
+                  </g>
+                  <rect id="Button-10" data-name="Button" width="280" height="50" transform="translate(1)" fill="none"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <text id="Search-5" data-name="Search" transform="translate(16.5 35)" font-size="17" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500" letter-spacing="0.005em"><tspan x="0" y="0">Any</tspan></text>
+    </g>
+    <g id="Dropdown-3" data-name="Dropdown" transform="translate(13.5 804.814)">
+      <g id="Rectangle_1827-3" data-name="Rectangle 1827" transform="translate(0 3)" fill="#fff" stroke="#3f62ac" stroke-width="1">
+        <rect width="343" height="50" rx="5" stroke="none"/>
+        <rect x="0.5" y="0.5" width="342" height="49" rx="4.5" fill="none"/>
+      </g>
+      <text id="Search-6" data-name="Search" transform="translate(16 41.001)" font-size="14" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500" letter-spacing="0.005em" opacity="0"><tspan x="0" y="0">2 hours</tspan></text>
+      <path id="Icon_ionic-ios-arrow-down-4" data-name="Icon ionic-ios-arrow-down" d="M14.982,18.269l6.649-6.654a1.251,1.251,0,0,1,1.775,0,1.267,1.267,0,0,1,0,1.78l-7.533,7.539a1.254,1.254,0,0,1-1.733.037L6.554,13.4a1.257,1.257,0,0,1,1.775-1.78Z" transform="translate(293.23 13.728)" fill="#3f62ac"/>
+      <text id="Cancel-3" data-name="Cancel" transform="translate(299.5 33.001)" fill="#ff8282" font-size="12" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500" opacity="0"><tspan x="-20.346" y="0">Cancel</tspan></text>
+      <g id="CheckBox_Button-11" data-name="CheckBox Button" transform="translate(30.5)" opacity="0">
+        <g id="Group_4917-11" data-name="Group 4917" transform="translate(1)">
+          <g id="Group_4918-11" data-name="Group 4918">
+            <g id="Group_4919-11" data-name="Group 4919">
+              <g id="Group_4920-11" data-name="Group 4920">
+                <g id="Group_4921-11" data-name="Group 4921" transform="translate(-1)">
+                  <g id="Group_4916-11" data-name="Group 4916" transform="translate(-0.197 14.999)">
+                    <g id="Group_4915-11" data-name="Group 4915" transform="translate(262.197 0.001)">
+                      <g id="Box-11" data-name="Box" fill="none" stroke="#3f62ac" stroke-width="2">
+                        <rect width="20" height="20" rx="5" stroke="none"/>
+                        <rect x="1" y="1" width="18" height="18" rx="4" fill="none"/>
+                      </g>
+                      <rect id="Box_filled-11" data-name="Box filled" width="20" height="20" rx="5" fill="#3f62ac" opacity="0"/>
+                      <path id="Check-11" data-name="Check" d="M8.76,15.667a.732.732,0,0,1-.565-.242l-3.953-4.2A.8.8,0,0,1,5.371,10.1l3.308,3.55,6.777-7.422a.868.868,0,0,1,1.129-.161A.868.868,0,0,1,16.747,7.2l-.081.081L9.325,15.344a.7.7,0,0,1-.565.323Z" transform="translate(-0.299 -0.968)" fill="#fff"/>
+                    </g>
+                    <text id="Label-11" data-name="Label" transform="translate(0.197 15)" font-size="16" font-family="GothamRounded-Book, Gotham Rounded" letter-spacing="0.005em"><tspan x="0" y="0">30 min </tspan></text>
+                  </g>
+                  <rect id="Button-11" data-name="Button" width="280" height="50" transform="translate(1)" fill="none"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="CheckBox_Button-12" data-name="CheckBox Button" transform="translate(30.5 3)" opacity="0">
+        <g id="Group_4917-12" data-name="Group 4917" transform="translate(1)">
+          <g id="Group_4918-12" data-name="Group 4918">
+            <g id="Group_4919-12" data-name="Group 4919">
+              <g id="Group_4920-12" data-name="Group 4920">
+                <g id="Group_4921-12" data-name="Group 4921" transform="translate(-1)">
+                  <g id="Group_4916-12" data-name="Group 4916" transform="translate(-0.197 14.999)">
+                    <g id="Group_4915-12" data-name="Group 4915" transform="translate(262.197 0.001)">
+                      <g id="Box-12" data-name="Box" fill="none" stroke="#3f62ac" stroke-width="2">
+                        <rect width="20" height="20" rx="5" stroke="none"/>
+                        <rect x="1" y="1" width="18" height="18" rx="4" fill="none"/>
+                      </g>
+                      <rect id="Box_filled-12" data-name="Box filled" width="20" height="20" rx="5" fill="#3f62ac" opacity="0"/>
+                      <path id="Check-12" data-name="Check" d="M8.76,15.667a.732.732,0,0,1-.565-.242l-3.953-4.2A.8.8,0,0,1,5.371,10.1l3.308,3.55,6.777-7.422a.868.868,0,0,1,1.129-.161A.868.868,0,0,1,16.747,7.2l-.081.081L9.325,15.344a.7.7,0,0,1-.565.323Z" transform="translate(-0.299 -0.968)" fill="#fff"/>
+                    </g>
+                    <text id="Label-12" data-name="Label" transform="translate(0.197 15)" font-size="16" font-family="GothamRounded-Book, Gotham Rounded" letter-spacing="0.005em"><tspan x="0" y="0">2 hours</tspan></text>
+                  </g>
+                  <rect id="Button-12" data-name="Button" width="280" height="50" transform="translate(1)" fill="none"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="CheckBox_Button-13" data-name="CheckBox Button" transform="translate(30.5 1)" opacity="0">
+        <g id="Group_4917-13" data-name="Group 4917" transform="translate(1)">
+          <g id="Group_4918-13" data-name="Group 4918">
+            <g id="Group_4919-13" data-name="Group 4919">
+              <g id="Group_4920-13" data-name="Group 4920">
+                <g id="Group_4921-13" data-name="Group 4921" transform="translate(-1)">
+                  <g id="Group_4916-13" data-name="Group 4916" transform="translate(-0.197 14.999)">
+                    <g id="Group_4915-13" data-name="Group 4915" transform="translate(262.197 0.001)">
+                      <g id="Box-13" data-name="Box" fill="none" stroke="#3f62ac" stroke-width="2">
+                        <rect width="20" height="20" rx="5" stroke="none"/>
+                        <rect x="1" y="1" width="18" height="18" rx="4" fill="none"/>
+                      </g>
+                      <rect id="Box_filled-13" data-name="Box filled" width="20" height="20" rx="5" fill="#3f62ac" opacity="0"/>
+                      <path id="Check-13" data-name="Check" d="M8.76,15.667a.732.732,0,0,1-.565-.242l-3.953-4.2A.8.8,0,0,1,5.371,10.1l3.308,3.55,6.777-7.422a.868.868,0,0,1,1.129-.161A.868.868,0,0,1,16.747,7.2l-.081.081L9.325,15.344a.7.7,0,0,1-.565.323Z" transform="translate(-0.299 -0.968)" fill="#fff"/>
+                    </g>
+                    <text id="Label-13" data-name="Label" transform="translate(0.197 15)" font-size="16" font-family="GothamRounded-Book, Gotham Rounded" letter-spacing="0.005em"><tspan x="0" y="0">1 hour</tspan></text>
+                  </g>
+                  <rect id="Button-13" data-name="Button" width="280" height="50" transform="translate(1)" fill="none"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="CheckBox_Button-14" data-name="CheckBox Button" transform="translate(30.5 4)" opacity="0">
+        <g id="Group_4917-14" data-name="Group 4917" transform="translate(1)">
+          <g id="Group_4918-14" data-name="Group 4918">
+            <g id="Group_4919-14" data-name="Group 4919">
+              <g id="Group_4920-14" data-name="Group 4920">
+                <g id="Group_4921-14" data-name="Group 4921" transform="translate(-1)">
+                  <g id="Group_4916-14" data-name="Group 4916" transform="translate(-0.197 14.999)">
+                    <g id="Group_4915-14" data-name="Group 4915" transform="translate(262.197 0.001)">
+                      <g id="Box-14" data-name="Box" fill="none" stroke="#3f62ac" stroke-width="2">
+                        <rect width="20" height="20" rx="5" stroke="none"/>
+                        <rect x="1" y="1" width="18" height="18" rx="4" fill="none"/>
+                      </g>
+                      <rect id="Box_filled-14" data-name="Box filled" width="20" height="20" rx="5" fill="#3f62ac" opacity="0"/>
+                      <path id="Check-14" data-name="Check" d="M8.76,15.667a.732.732,0,0,1-.565-.242l-3.953-4.2A.8.8,0,0,1,5.371,10.1l3.308,3.55,6.777-7.422a.868.868,0,0,1,1.129-.161A.868.868,0,0,1,16.747,7.2l-.081.081L9.325,15.344a.7.7,0,0,1-.565.323Z" transform="translate(-0.299 -0.968)" fill="#fff"/>
+                    </g>
+                    <text id="Label-14" data-name="Label" transform="translate(0.197 15)" font-size="16" font-family="GothamRounded-Book, Gotham Rounded" letter-spacing="0.005em"><tspan x="0" y="0">5 hour</tspan></text>
+                  </g>
+                  <rect id="Button-14" data-name="Button" width="280" height="50" transform="translate(1)" fill="none"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="CheckBox_Button-15" data-name="CheckBox Button" transform="translate(30.5 6)" opacity="0">
+        <g id="Group_4917-15" data-name="Group 4917" transform="translate(1)">
+          <g id="Group_4918-15" data-name="Group 4918">
+            <g id="Group_4919-15" data-name="Group 4919">
+              <g id="Group_4920-15" data-name="Group 4920">
+                <g id="Group_4921-15" data-name="Group 4921" transform="translate(-1)">
+                  <g id="Group_4916-15" data-name="Group 4916" transform="translate(-0.197 14.999)">
+                    <g id="Group_4915-15" data-name="Group 4915" transform="translate(262.197 0.001)">
+                      <g id="Box-15" data-name="Box" fill="none" stroke="#3f62ac" stroke-width="2">
+                        <rect width="20" height="20" rx="5" stroke="none"/>
+                        <rect x="1" y="1" width="18" height="18" rx="4" fill="none"/>
+                      </g>
+                      <rect id="Box_filled-15" data-name="Box filled" width="20" height="20" rx="5" fill="#3f62ac" opacity="0"/>
+                      <path id="Check-15" data-name="Check" d="M8.76,15.667a.732.732,0,0,1-.565-.242l-3.953-4.2A.8.8,0,0,1,5.371,10.1l3.308,3.55,6.777-7.422a.868.868,0,0,1,1.129-.161A.868.868,0,0,1,16.747,7.2l-.081.081L9.325,15.344a.7.7,0,0,1-.565.323Z" transform="translate(-0.299 -0.968)" fill="#fff"/>
+                    </g>
+                    <text id="Label-15" data-name="Label" transform="translate(0.197 15)" font-size="16" font-family="GothamRounded-Book, Gotham Rounded" letter-spacing="0.005em"><tspan x="0" y="0">1 day</tspan></text>
+                  </g>
+                  <rect id="Button-15" data-name="Button" width="280" height="50" transform="translate(1)" fill="none"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <text id="Search-7" data-name="Search" transform="translate(16.5 35)" font-size="17" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500" letter-spacing="0.005em"><tspan x="0" y="0">Any</tspan></text>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#textbox)">
+      <rect id="textbox-3" data-name="textbox" width="140" height="40" rx="5" transform="translate(28 253.5)" fill="none" stroke="#3f62ac" stroke-width="1"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#textbox-2)">
+      <rect id="textbox-4" data-name="textbox" width="140" height="40" rx="5" transform="translate(203 253.5)" fill="none" stroke="#3f62ac" stroke-width="1"/>
+    </g>
+    <text id="_10000" data-name="$10000" transform="translate(209.645 286.496)" font-size="14" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500"><tspan x="0" y="0" xml:space="preserve">$  </tspan></text>
+    <text id="Min" transform="translate(51.645 268.229)" fill="#77838f" font-size="12" font-family="GothamRounded-Bold, Gotham Rounded" font-weight="700"><tspan x="-11.964" y="0">MIN</tspan></text>
+    <text id="Max" transform="translate(226.645 268.229)" fill="#77838f" font-size="12" font-family="GothamRounded-Bold, Gotham Rounded" font-weight="700"><tspan x="-14.004" y="0">MAX</tspan></text>
+    <g id="Slider" transform="translate(14 315.734)">
+      <rect id="slider_bar_empty" data-name="slider bar empty" width="309" height="2" rx="1" transform="translate(20 6)" fill="#dadada"/>
+      <rect id="slider_bar" data-name="slider bar" width="5" height="2" rx="1" transform="translate(20 6)" fill="#dadada"/>
+      <g transform="matrix(1, 0, 0, 1, -14, -315.73)" filter="url(#slider_dot_MIN_)">
+        <rect id="slider_dot_MIN_3" data-name="slider dot MIN " width="14" height="14" rx="7" transform="translate(28 315.73)" fill="#3f62ac"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -14, -315.73)" filter="url(#slider_dot_MAX)">
+        <rect id="slider_dot_MAX-3" data-name="slider dot MAX" width="20" height="20" rx="10" transform="translate(28 312.73)" fill="#3f62ac"/>
+      </g>
+    </g>
+    <g id="Slider-2" data-name="Slider" transform="translate(46 315.734)">
+      <rect id="slider_bar_empty-2" data-name="slider bar empty" width="309" height="2" rx="1" transform="translate(20 6)" fill="#dadada"/>
+      <rect id="slider_bar-2" data-name="slider bar" width="5" height="2" rx="1" transform="translate(20 6)" fill="#dadada"/>
+      <g transform="matrix(1, 0, 0, 1, -46, -315.73)" filter="url(#slider_dot_MIN_2)">
+        <rect id="slider_dot_MIN_4" data-name="slider dot MIN " width="14" height="14" rx="7" transform="translate(60 315.73)" fill="#3f62ac"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -46, -315.73)" filter="url(#slider_dot_MAX-2)">
+        <rect id="slider_dot_MAX-4" data-name="slider dot MAX" width="20" height="20" rx="10" transform="translate(60 312.73)" fill="#3f62ac"/>
+      </g>
+    </g>
+    <text id="_" data-name="$" transform="translate(32.645 286.496)" fill="#2c2828" font-size="14" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500"><tspan x="0" y="0">$</tspan></text>
+    <g id="MIN-2" data-name="MIN" transform="translate(-2 123.115)" clip-path="url(#clip-path)">
+      <text id="_5_1_1_2_2_3_3_4_4_5_5_6_6_7_7_8_8_9_9_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_2" data-name="—
+5
+1
+1
+2
+2
+3
+3
+4
+4
+5
+5
+6
+6
+7
+7
+8
+8
+9
+9
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2" transform="translate(55 163)" fill="#2c2828" font-size="14" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500"><tspan x="-6.286" y="0">—</tspan><tspan x="-4.361" y="19">5</tspan><tspan x="-2.772" y="38">1</tspan><tspan x="-2.772" y="57">1</tspan><tspan x="-4.291" y="76">2</tspan><tspan x="-4.291" y="95">2</tspan><tspan x="-4.326" y="114">3</tspan><tspan x="-4.326" y="133">3</tspan><tspan x="-4.774" y="152">4</tspan><tspan x="-4.774" y="171">4</tspan><tspan x="-4.361" y="190">5</tspan><tspan x="-4.361" y="209">5</tspan><tspan x="-4.592" y="228">6</tspan><tspan x="-4.592" y="247">6</tspan><tspan x="-4.263" y="266">7</tspan><tspan x="-4.263" y="285">7</tspan><tspan x="-4.41" y="304">8</tspan><tspan x="-4.41" y="323">8</tspan><tspan x="-4.592" y="342">9</tspan><tspan x="-4.592" y="361">9</tspan><tspan x="-2.772" y="380">1</tspan><tspan x="-2.772" y="399">1</tspan><tspan x="-2.772" y="418">1</tspan><tspan x="-2.772" y="437">1</tspan><tspan x="-2.772" y="456">1</tspan><tspan x="-2.772" y="475">1</tspan><tspan x="-2.772" y="494">1</tspan><tspan x="-2.772" y="513">1</tspan><tspan x="-2.772" y="532">1</tspan><tspan x="-2.772" y="551">1</tspan><tspan x="-2.772" y="570">1</tspan><tspan x="-2.772" y="589">1</tspan><tspan x="-2.772" y="608">1</tspan><tspan x="-2.772" y="627">1</tspan><tspan x="-2.772" y="646">1</tspan><tspan x="-2.772" y="665">1</tspan><tspan x="-2.772" y="684">1</tspan><tspan x="-2.772" y="703">1</tspan><tspan x="-2.772" y="722">1</tspan><tspan x="-4.291" y="741">2</tspan></text>
+      <text id="_5_0_5_0_5_0_5_0_5_0_5_0_5_0_5_0_5_0_0_1_1_2_2_3_3_4_4_5_5_6_6_7_7_8_8_9_9_0" data-name="5
+0
+5
+0
+5
+0
+5
+0
+5
+0
+5
+0
+5
+0
+5
+0
+5
+0
+0
+1
+1
+2
+2
+3
+3
+4
+4
+5
+5
+6
+6
+7
+7
+8
+8
+9
+9
+0" transform="translate(70 201)" fill="#2c2828" font-size="14" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500"><tspan x="-4.361" y="0">5</tspan><tspan x="-5.068" y="19">0</tspan><tspan x="-4.361" y="38">5</tspan><tspan x="-5.068" y="57">0</tspan><tspan x="-4.361" y="76">5</tspan><tspan x="-5.068" y="95">0</tspan><tspan x="-4.361" y="114">5</tspan><tspan x="-5.068" y="133">0</tspan><tspan x="-4.361" y="152">5</tspan><tspan x="-5.068" y="171">0</tspan><tspan x="-4.361" y="190">5</tspan><tspan x="-5.068" y="209">0</tspan><tspan x="-4.361" y="228">5</tspan><tspan x="-5.068" y="247">0</tspan><tspan x="-4.361" y="266">5</tspan><tspan x="-5.068" y="285">0</tspan><tspan x="-4.361" y="304">5</tspan><tspan x="-5.068" y="323">0</tspan><tspan x="-5.068" y="342">0</tspan><tspan x="-2.772" y="361">1</tspan><tspan x="-2.772" y="380">1</tspan><tspan x="-4.291" y="399">2</tspan><tspan x="-4.291" y="418">2</tspan><tspan x="-4.326" y="437">3</tspan><tspan x="-4.326" y="456">3</tspan><tspan x="-4.774" y="475">4</tspan><tspan x="-4.774" y="494">4</tspan><tspan x="-4.361" y="513">5</tspan><tspan x="-4.361" y="532">5</tspan><tspan x="-4.592" y="551">6</tspan><tspan x="-4.592" y="570">6</tspan><tspan x="-4.263" y="589">7</tspan><tspan x="-4.263" y="608">7</tspan><tspan x="-4.41" y="627">8</tspan><tspan x="-4.41" y="646">8</tspan><tspan x="-4.592" y="665">9</tspan><tspan x="-4.592" y="684">9</tspan><tspan x="-5.068" y="703">0</tspan></text>
+      <text id="_0_5_0_5_0_5_0_5_0_5_0_5_0_5_0_5_0_5_0_5_0" data-name="0
+5
+0
+5
+0
+5
+0
+5
+0
+5
+0
+5
+0
+5
+0
+5
+0
+5
+0
+5
+0" transform="translate(84 524)" fill="#2c2828" font-size="14" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500"><tspan x="-5.068" y="0">0</tspan><tspan x="-4.361" y="19">5</tspan><tspan x="-5.068" y="38">0</tspan><tspan x="-4.361" y="57">5</tspan><tspan x="-5.068" y="76">0</tspan><tspan x="-4.361" y="95">5</tspan><tspan x="-5.068" y="114">0</tspan><tspan x="-4.361" y="133">5</tspan><tspan x="-5.068" y="152">0</tspan><tspan x="-4.361" y="171">5</tspan><tspan x="-5.068" y="190">0</tspan><tspan x="-4.361" y="209">5</tspan><tspan x="-5.068" y="228">0</tspan><tspan x="-4.361" y="247">5</tspan><tspan x="-5.068" y="266">0</tspan><tspan x="-4.361" y="285">5</tspan><tspan x="-5.068" y="304">0</tspan><tspan x="-4.361" y="323">5</tspan><tspan x="-5.068" y="342">0</tspan><tspan x="-4.361" y="361">5</tspan><tspan x="-5.068" y="380">0</tspan></text>
+    </g>
+    <g id="MAX-2" data-name="MAX" transform="translate(174 123.115)" clip-path="url(#clip-path)">
+      <text id="_5_1_1_2_2_3_3_4_4_5_5_6_6_7_7_8_8_9_9_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_2-2" data-name="—
+5
+1
+1
+2
+2
+3
+3
+4
+4
+5
+5
+6
+6
+7
+7
+8
+8
+9
+9
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2" transform="translate(55 163)" fill="#2c2828" font-size="14" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500"><tspan x="-6.286" y="0">—</tspan><tspan x="-4.361" y="19">5</tspan><tspan x="-2.772" y="38">1</tspan><tspan x="-2.772" y="57">1</tspan><tspan x="-4.291" y="76">2</tspan><tspan x="-4.291" y="95">2</tspan><tspan x="-4.326" y="114">3</tspan><tspan x="-4.326" y="133">3</tspan><tspan x="-4.774" y="152">4</tspan><tspan x="-4.774" y="171">4</tspan><tspan x="-4.361" y="190">5</tspan><tspan x="-4.361" y="209">5</tspan><tspan x="-4.592" y="228">6</tspan><tspan x="-4.592" y="247">6</tspan><tspan x="-4.263" y="266">7</tspan><tspan x="-4.263" y="285">7</tspan><tspan x="-4.41" y="304">8</tspan><tspan x="-4.41" y="323">8</tspan><tspan x="-4.592" y="342">9</tspan><tspan x="-4.592" y="361">9</tspan><tspan x="-2.772" y="380">1</tspan><tspan x="-2.772" y="399">1</tspan><tspan x="-2.772" y="418">1</tspan><tspan x="-2.772" y="437">1</tspan><tspan x="-2.772" y="456">1</tspan><tspan x="-2.772" y="475">1</tspan><tspan x="-2.772" y="494">1</tspan><tspan x="-2.772" y="513">1</tspan><tspan x="-2.772" y="532">1</tspan><tspan x="-2.772" y="551">1</tspan><tspan x="-2.772" y="570">1</tspan><tspan x="-2.772" y="589">1</tspan><tspan x="-2.772" y="608">1</tspan><tspan x="-2.772" y="627">1</tspan><tspan x="-2.772" y="646">1</tspan><tspan x="-2.772" y="665">1</tspan><tspan x="-2.772" y="684">1</tspan><tspan x="-2.772" y="703">1</tspan><tspan x="-2.772" y="722">1</tspan><tspan x="-4.291" y="741">2</tspan></text>
+      <text id="_5_0_5_0_5_0_5_0_5_0_5_0_5_0_5_0_5_0_0_1_1_2_2_3_3_4_4_5_5_6_6_7_7_8_8_9_9_0-2" data-name="
+5
+0
+5
+0
+5
+0
+5
+0
+5
+0
+5
+0
+5
+0
+5
+0
+5
+0
+0
+1
+1
+2
+2
+3
+3
+4
+4
+5
+5
+6
+6
+7
+7
+8
+8
+9
+9
+0" transform="translate(70 182)" fill="#2c2828" font-size="14" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500"><tspan x="0" y="0"></tspan><tspan x="-4.361" y="19">5</tspan><tspan x="-5.068" y="38">0</tspan><tspan x="-4.361" y="57">5</tspan><tspan x="-5.068" y="76">0</tspan><tspan x="-4.361" y="95">5</tspan><tspan x="-5.068" y="114">0</tspan><tspan x="-4.361" y="133">5</tspan><tspan x="-5.068" y="152">0</tspan><tspan x="-4.361" y="171">5</tspan><tspan x="-5.068" y="190">0</tspan><tspan x="-4.361" y="209">5</tspan><tspan x="-5.068" y="228">0</tspan><tspan x="-4.361" y="247">5</tspan><tspan x="-5.068" y="266">0</tspan><tspan x="-4.361" y="285">5</tspan><tspan x="-5.068" y="304">0</tspan><tspan x="-4.361" y="323">5</tspan><tspan x="-5.068" y="342">0</tspan><tspan x="-5.068" y="361">0</tspan><tspan x="-2.772" y="380">1</tspan><tspan x="-2.772" y="399">1</tspan><tspan x="-4.291" y="418">2</tspan><tspan x="-4.291" y="437">2</tspan><tspan x="-4.326" y="456">3</tspan><tspan x="-4.326" y="475">3</tspan><tspan x="-4.774" y="494">4</tspan><tspan x="-4.774" y="513">4</tspan><tspan x="-4.361" y="532">5</tspan><tspan x="-4.361" y="551">5</tspan><tspan x="-4.592" y="570">6</tspan><tspan x="-4.592" y="589">6</tspan><tspan x="-4.263" y="608">7</tspan><tspan x="-4.263" y="627">7</tspan><tspan x="-4.41" y="646">8</tspan><tspan x="-4.41" y="665">8</tspan><tspan x="-4.592" y="684">9</tspan><tspan x="-4.592" y="703">9</tspan><tspan x="-5.068" y="722">0</tspan></text>
+      <text id="_0_5_0_5_0_5_0_5_0_5_0_5_0_5_0_5_0_5_0_5_0-2" data-name="0
+5
+0
+5
+0
+5
+0
+5
+0
+5
+0
+5
+0
+5
+0
+5
+0
+5
+0
+5
+0" transform="translate(84 524)" fill="#2c2828" font-size="14" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500"><tspan x="-5.068" y="0">0</tspan><tspan x="-4.361" y="19">5</tspan><tspan x="-5.068" y="38">0</tspan><tspan x="-4.361" y="57">5</tspan><tspan x="-5.068" y="76">0</tspan><tspan x="-4.361" y="95">5</tspan><tspan x="-5.068" y="114">0</tspan><tspan x="-4.361" y="133">5</tspan><tspan x="-5.068" y="152">0</tspan><tspan x="-4.361" y="171">5</tspan><tspan x="-5.068" y="190">0</tspan><tspan x="-4.361" y="209">5</tspan><tspan x="-5.068" y="228">0</tspan><tspan x="-4.361" y="247">5</tspan><tspan x="-5.068" y="266">0</tspan><tspan x="-4.361" y="285">5</tspan><tspan x="-5.068" y="304">0</tspan><tspan x="-4.361" y="323">5</tspan><tspan x="-5.068" y="342">0</tspan><tspan x="-4.361" y="361">5</tspan><tspan x="-5.068" y="380">0</tspan></text>
+    </g>
+    <rect id="Rectangle_1870" data-name="Rectangle 1870" width="375" height="80" fill="#fff"/>
+    <text id="Search-8" data-name="Search" transform="translate(188 68)" font-size="24" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500" letter-spacing="0.005em"><tspan x="-38.064" y="0">Filters</tspan></text>
+    <g id="Icon" transform="translate(30 52)">
+      <path id="Icon-2" data-name="Icon" d="M8.311,17.764,8.2,17.671.329,9.8a1.127,1.127,0,0,1-.193-.259h0L.125,9.515l0-.006L.114,9.493.108,9.482l0-.01L.1,9.455v0a1.127,1.127,0,0,1-.04-.8v0L.062,8.63l0-.01,0-.01.006-.017v0a1.115,1.115,0,0,1,.158-.279l0,0a1.134,1.134,0,0,1,.087-.1l0,0L8.2.329A1.125,1.125,0,0,1,9.889,1.814L9.8,1.921,3.842,7.875H16.875a1.125,1.125,0,0,1,.131,2.243l-.131.007H3.842L9.8,16.079a1.126,1.126,0,0,1,.094,1.485l-.094.106a1.126,1.126,0,0,1-1.485.094Z"/>
+    </g>
+    <g id="Group_4443" data-name="Group 4443" transform="translate(0 118.954)">
+      <g id="Group_4440" data-name="Group 4440" transform="translate(14 282.625)">
+        <rect id="textbox-5" data-name="textbox" width="91.582" height="21.729" rx="5" fill="#3f62ac"/>
+        <text id="Railway" transform="translate(45.791 15.364)" fill="#fff" font-size="13" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500" letter-spacing="0.005em"><tspan x="-12.883" y="0">Any</tspan></text>
+      </g>
+      <g id="Group_4441" data-name="Group 4441" transform="translate(141 282.625)">
+        <rect id="textbox-6" data-name="textbox" width="92.837" height="21.729" rx="5" fill="#ecf0f3"/>
+        <text id="Railway-2" data-name="Railway" transform="translate(47.686 15.619)" font-size="13" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500" letter-spacing="0.005em"><tspan x="-27.456" y="0">Daytime</tspan></text>
+      </g>
+      <g id="Group_4442" data-name="Group 4442" transform="translate(269 282.625)">
+        <rect id="textbox-7" data-name="textbox" width="92.837" height="21.729" rx="5" fill="#ecf0f3"/>
+        <text id="Railway-3" data-name="Railway" transform="translate(47.686 15.619)" font-size="13" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500" letter-spacing="0.005em"><tspan x="-30.245" y="0">Nightime</tspan></text>
+      </g>
+    </g>
+    <g id="Group_5004" data-name="Group 5004" transform="translate(0 -40)">
+      <rect id="Rectangle_1643" data-name="Rectangle 1643" width="375" height="27" transform="translate(0 142)" fill="#ecf0f3"/>
+      <text id="Search-9" data-name="Search" transform="translate(14 160)" fill="#97a7c3" font-size="12" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500" letter-spacing="0.005em"><tspan x="0" y="0">APPLIED FILTERS</tspan></text>
+      <g id="Group_3966" data-name="Group 3966" transform="translate(14 180.013)">
+        <rect id="textbox-8" data-name="textbox" width="92.082" height="21.729" rx="5" transform="translate(0 0.136)" fill="#d4e6d1"/>
+        <text id="Railway-4" data-name="Railway" transform="translate(34.529 15.5)" font-size="13" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500" letter-spacing="0.005em"><tspan x="-24.063" y="0">Nairobi</tspan></text>
+        <line id="Line_858" data-name="Line 858" y2="22" transform="translate(67.529)" fill="none" stroke="#ecf3ed" stroke-width="1"/>
+        <g id="Group_3164" data-name="Group 3164" transform="translate(76.529 7.78)">
+          <line id="Line_852" data-name="Line 852" y2="9.107" transform="translate(6.439 0) rotate(45)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+          <line id="Line_853" data-name="Line 853" y1="9.107" transform="translate(6.439 6.439) rotate(135)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Group_4006" data-name="Group 4006" transform="translate(150 180.148)">
+        <rect id="textbox-9" data-name="textbox" width="60.082" height="21.729" rx="5" transform="translate(0 0.136)" fill="#d4e6d1"/>
+        <text id="Railway-5" data-name="Railway" transform="translate(23.529 15.5)" font-size="13" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500" letter-spacing="0.005em"><tspan x="-13.338" y="0">1-2h</tspan></text>
+        <line id="Line_858-2" data-name="Line 858" y2="22" transform="translate(42.529 -0.135)" fill="none" stroke="#ecf3ed" stroke-width="1"/>
+        <g id="Group_3164-2" data-name="Group 3164" transform="translate(48.529 7.645)">
+          <line id="Line_852-2" data-name="Line 852" y2="9.107" transform="translate(6.439 0) rotate(45)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+          <line id="Line_853-2" data-name="Line 853" y1="9.107" transform="translate(6.439 6.439) rotate(135)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Group_4003" data-name="Group 4003" transform="translate(254 180.013)">
+        <rect id="textbox-10" data-name="textbox" width="108.276" height="22" rx="5" transform="translate(0 0)" fill="#d4e6d1"/>
+        <text id="Railway-6" data-name="Railway" transform="translate(41.776 15.5)" font-size="13" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500" letter-spacing="0.005em"><tspan x="-32.597" y="0">This week</tspan></text>
+        <line id="Line_858-3" data-name="Line 858" y2="22" transform="translate(81.311)" fill="none" stroke="#ecf3ed" stroke-width="1"/>
+        <g id="Group_3164-3" data-name="Group 3164" transform="translate(91.846 7.781)">
+          <line id="Line_852-3" data-name="Line 852" y2="9.107" transform="translate(6.439 0) rotate(45)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+          <line id="Line_853-3" data-name="Line 853" y1="9.107" transform="translate(6.439 6.439) rotate(135)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+        </g>
+      </g>
+      <rect id="Rectangle_1889" data-name="Rectangle 1889" width="375" height="27" transform="translate(0 215)" fill="#ecf0f3"/>
+    </g>
+    <g id="Component_9_6" data-name="Component 9 – 6" transform="translate(0 737)">
+      <g transform="matrix(1, 0, 0, 1, 0, -737)" filter="url(#Rectangle)">
+        <path id="Rectangle-2" data-name="Rectangle" d="M12,0H363a12,12,0,0,1,12,12V90a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V12A12,12,0,0,1,12,0Z" transform="translate(0 737)" fill="#fff"/>
+      </g>
+      <g id="Group_4682" data-name="Group 4682" transform="translate(29 41)">
+        <text id="Railway-7" data-name="Railway" transform="translate(10 0)" fill="#ff8282" font-size="14" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500" letter-spacing="0.005em"><tspan x="0" y="0">Clear</tspan></text>
+      </g>
+      <g id="Group_3778" data-name="Group 3778" transform="translate(148.574 18.454)">
+        <g id="Group_3767" data-name="Group 3767" transform="translate(-29.574 -1)">
+          <path id="textbox-11" data-name="textbox" d="M10,0H230a10,10,0,0,1,10,10V30a10,10,0,0,1-10,10H10A10,10,0,0,1,0,30V10A10,10,0,0,1,10,0Z" fill="#000308"/>
+          <text id="Back" transform="translate(121.436 25.102)" fill="#fff" font-size="14" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500"><tspan x="-17.22" y="0">Back</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

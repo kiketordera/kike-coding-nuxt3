@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="812" viewBox="0 0 375 812">
+  <defs>
+    <filter id="Rectangle_1743" x="28" y="623" width="319" height="48" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-H-1.3_Edit_your_activity_-_Info">
+      <rect width="375" height="812"/>
+    </clipPath>
+  </defs>
+  <g id="H-1.3_Edit_your_activity_-_Info" data-name="H-1.3 Edit your activity - Info" clip-path="url(#clip-H-1.3_Edit_your_activity_-_Info)">
+    <rect width="375" height="812" fill="#fff"/>
+    <text id="Russia" transform="translate(31 122)" fill="#1e2022" font-size="25" font-family="GothamRounded-Book, Gotham Rounded" letter-spacing="0.005em"><tspan x="0" y="0">Parasailing </tspan></text>
+    <rect id="Rectangle_1915" data-name="Rectangle 1915" width="122" height="30" rx="6" transform="translate(237 48)" fill="rgba(206,206,206,0.2)"/>
+    <path id="thunder" d="M90.724,20.94a.614.614,0,0,1-.6-.761L92.2,11.828h-5.59a.614.614,0,0,1-.572-.835l4.1-10.6A.613.613,0,0,1,90.715,0h5.642a.613.613,0,0,1,.561.861L94.49,6.372h4.8a.613.613,0,0,1,.516.945L91.241,20.658A.614.614,0,0,1,90.724,20.94Z" transform="translate(161.927 52.53)" fill="#0d58a2"/>
+    <text id="Russia-2" data-name="Russia" transform="translate(283 67)" fill="#0d58a2" font-size="14" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500" letter-spacing="0.005em"><tspan x="0" y="0">Upgrade</tspan></text>
+    <g id="right-arrow" transform="translate(18.333 57.066)">
+      <g id="Group_5053" data-name="Group 5053" transform="translate(0 0)">
+        <path id="Path_4681" data-name="Path 4681" d="M11.482,137.729h0l5.45-5.424a1.043,1.043,0,0,1,1.472,1.479l-3.659,3.641H27.8a1.043,1.043,0,0,1,0,2.086H14.746l3.659,3.641a1.043,1.043,0,0,1-1.472,1.479l-5.45-5.424h0A1.044,1.044,0,0,1,11.482,137.729Z" transform="translate(-11.176 -132)"/>
+      </g>
+    </g>
+    <g id="Group_5112" data-name="Group 5112" transform="translate(0 -37)">
+      <g id="Group_4958" data-name="Group 4958" transform="translate(0 93)">
+        <g id="Rectangle_1837" data-name="Rectangle 1837" transform="translate(96 103)" fill="#f2f2f2" stroke="#fff" stroke-width="1">
+          <rect width="249" height="40" rx="10" stroke="none"/>
+          <rect x="0.5" y="0.5" width="248" height="39" rx="9.5" fill="none"/>
+        </g>
+      </g>
+      <g id="Group_4957" data-name="Group 4957" transform="translate(0 93)">
+        <g id="Rectangle_1706" data-name="Rectangle 1706" transform="translate(30 103)" fill="#3f62ac" stroke="#fff" stroke-width="1">
+          <path d="M10,0H176a0,0,0,0,1,0,0V40a0,0,0,0,1,0,0H10A10,10,0,0,1,0,30V10A10,10,0,0,1,10,0Z" stroke="none"/>
+          <path d="M10,.5H175.5a0,0,0,0,1,0,0v39a0,0,0,0,1,0,0H10A9.5,9.5,0,0,1,.5,30V10A9.5,9.5,0,0,1,10,.5Z" fill="none"/>
+        </g>
+      </g>
+      <text id="Info" transform="matrix(1, 0, 0, 1, 111, 221)" fill="#fff" font-size="14" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500"><tspan x="-13.72" y="0">Info</tspan></text>
+      <text id="Stats" transform="matrix(1, 0, 0, 1, 262, 221)" font-size="14" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500"><tspan x="0" y="0">Stats</tspan></text>
+    </g>
+    <g id="Group_5117" data-name="Group 5117" transform="translate(0 -1)">
+      <g id="Group_5028" data-name="Group 5028" transform="translate(31 365)">
+        <rect id="Rectangle_1892" data-name="Rectangle 1892" width="151" height="80" rx="6" fill="#4de8b5" opacity="0.8"/>
+        <text id="Tickets_Purchased" data-name="Tickets  
+Purchased" transform="translate(9 18)" fill="#24282f" font-size="12" font-family="GothamRounded-Book, Gotham Rounded" letter-spacing="0.005em"><tspan x="0" y="0" xml:space="preserve">Tickets  </tspan><tspan x="0" y="16">Purchased</tspan></text>
+        <text id="Last_30_days" data-name="Last 30 days" transform="translate(78 71)" fill="#20232b" font-size="10" font-family="GothamRounded-Bold, Gotham Rounded" font-weight="700" letter-spacing="0.005em"><tspan x="0" y="0">Last 30 days</tspan></text>
+        <text id="_37" data-name="37" transform="translate(11 70)" fill="#24282f" font-size="16" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500" letter-spacing="0.005em"><tspan x="0" y="0">37</tspan></text>
+        <path id="ticket_3_" data-name="ticket (3)" d="M2.135,32.866H18.616a.265.265,0,0,0,.265-.265V30.065a.262.262,0,0,0-.083-.193.266.266,0,0,0-.2-.072h-.035a.233.233,0,0,1-.049,0,1.621,1.621,0,0,1,0-3.241.462.462,0,0,1,.049,0H18.6a.251.251,0,0,0,.2-.071.262.262,0,0,0,.083-.193V23.765a.265.265,0,0,0-.265-.265H2.135a.265.265,0,0,0-.265.265V26.3a.266.266,0,0,0,.251.265,1.619,1.619,0,0,1,0,3.234.266.266,0,0,0-.251.265V32.6a.265.265,0,0,0,.265.265ZM6.477,24.1a.251.251,0,0,1,.012-.074.263.263,0,0,1,.505,0,.251.251,0,0,1,.012.074v.442a.265.265,0,0,1-.53,0Zm0,1.681a.265.265,0,0,1,.53,0v.772a.265.265,0,0,1-.53,0Zm0,2.011a.265.265,0,0,1,.53,0v.774a.265.265,0,0,1-.53,0Zm0,2.013a.265.265,0,0,1,.53,0v.772a.265.265,0,1,1-.53,0Zm0,2.011a.265.265,0,1,1,.53,0v.442a.251.251,0,0,1-.012.074.263.263,0,0,1-.505,0,.251.251,0,0,1-.012-.074Z" transform="translate(166.5 6.13) rotate(90)" fill="#20232b"/>
+      </g>
+      <g id="Group_5032" data-name="Group 5032" transform="translate(31 278)">
+        <rect id="Rectangle_1892-2" data-name="Rectangle 1892" width="313" height="80" rx="6" fill="#4de8b5" opacity="0.8"/>
+        <text id="Cash_you_earned" data-name="Cash you earned" transform="translate(9 18)" fill="#24282f" font-size="12" font-family="GothamRounded-Book, Gotham Rounded" letter-spacing="0.005em"><tspan x="0" y="0">Cash you earned</tspan></text>
+        <text id="_340" data-name="$340" transform="translate(11 70)" fill="#24282f" font-size="16" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500" letter-spacing="0.005em"><tspan x="0" y="0">$340</tspan></text>
+        <g id="save-money" transform="translate(278.682 5.855)">
+          <path id="Path_4583" data-name="Path 4583" d="M22.8,149.87A3.811,3.811,0,0,0,20,151.294a7.613,7.613,0,0,0-5.3-2.117H8.789a6.884,6.884,0,0,0-.85.054,4.012,4.012,0,0,0-4.506-1.406.709.709,0,0,0-.483.5.667.667,0,0,0,.195.651,3.924,3.924,0,0,1,.976,1.815A6.986,6.986,0,0,0,2.1,153.337H.732A.713.713,0,0,0,0,154.03v4.16a.713.713,0,0,0,.732.693H2.1a7.251,7.251,0,0,0,3.96,3.678l-.2,1.108a.665.665,0,0,0,.164.562.748.748,0,0,0,.559.245h2.93a.722.722,0,0,0,.722-.58l.142-.807H13.1l.142.807a.722.722,0,0,0,.722.58h2.93a.748.748,0,0,0,.559-.245.665.665,0,0,0,.164-.562l-.195-1.107a6.991,6.991,0,0,0,4.648-6.452,6.609,6.609,0,0,0-1.144-3.685,2.609,2.609,0,0,1,1.877-1.168c.419,0,.732.183.732.347a.581.581,0,0,1-.285.435.675.675,0,0,0-.282.944.756.756,0,0,0,1,.267A1.954,1.954,0,0,0,25,151.6,1.985,1.985,0,0,0,22.8,149.87ZM6.592,154.724a.694.694,0,1,1,.732-.693A.714.714,0,0,1,6.592,154.724Zm8.838-1.387H9.521a.694.694,0,1,1,0-1.387H15.43a.694.694,0,1,1,0,1.387Z" transform="translate(0 -139.477)" fill="#20232b"/>
+          <path id="Path_4584" data-name="Path 4584" d="M180,4.2a4.2,4.2,0,0,0,4.2,4.144A4.149,4.149,0,0,0,188.343,4.2,4.2,4.2,0,0,0,184.2,0,4.244,4.244,0,0,0,180,4.2Z" transform="translate(-171.695 0)" fill="#20232b"/>
+        </g>
+      </g>
+      <g id="Group_5030" data-name="Group 5030" transform="translate(192 441)">
+        <rect id="Rectangle_1892-3" data-name="Rectangle 1892" width="152" height="80" rx="6" fill="#ff8282" opacity="0.8"/>
+        <text id="Reviews_" data-name="Reviews " transform="translate(9 18)" fill="#24282f" font-size="12" font-family="GothamRounded-Book, Gotham Rounded" letter-spacing="0.005em"><tspan x="0" y="0">Reviews </tspan></text>
+        <text id="_12" data-name="12" transform="translate(11 70)" fill="#24282f" font-size="16" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500" letter-spacing="0.005em"><tspan x="0" y="0">12</tspan></text>
+      </g>
+      <g id="Group_5029" data-name="Group 5029" transform="translate(192 365)">
+        <rect id="Rectangle_1892-4" data-name="Rectangle 1892" width="152" height="70" rx="6" fill="#4dcae8" opacity="0.8"/>
+        <text id="Views" transform="translate(9 8)" fill="#24282f" font-size="12" font-family="GothamRounded-Book, Gotham Rounded" letter-spacing="0.005em"><tspan x="0" y="10">Views</tspan></text>
+        <text id="_50" data-name="50" transform="translate(11 60)" fill="#24282f" font-size="16" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500" letter-spacing="0.005em"><tspan x="0" y="0">50</tspan></text>
+        <text id="Last_30_days-2" data-name="Last 30 days" transform="translate(80 60)" fill="#20232b" font-size="10" font-family="GothamRounded-Bold, Gotham Rounded" font-weight="700" letter-spacing="0.005em"><tspan x="0" y="0">Last 30 days</tspan></text>
+        <g id="eye" transform="translate(124.173 -92.139)">
+          <path id="Path_4738" data-name="Path 4738" d="M11.252,98.725c-4.3,0-8.2,2.352-11.076,6.173a.891.891,0,0,0,0,1.063c2.877,3.825,6.776,6.178,11.076,6.178s8.2-2.352,11.076-6.173a.891.891,0,0,0,0-1.063C19.45,101.077,15.551,98.725,11.252,98.725Zm.308,11.43a4.733,4.733,0,1,1,4.415-4.415A4.736,4.736,0,0,1,11.56,110.155Zm-.143-2.182a2.549,2.549,0,1,1,2.38-2.38A2.544,2.544,0,0,1,11.417,107.973Z" fill="#20232b"/>
+        </g>
+      </g>
+      <g id="Group_5031" data-name="Group 5031" transform="translate(31 451)">
+        <rect id="Rectangle_1892-5" data-name="Rectangle 1892" width="151" height="70" rx="6" fill="#dce84d" opacity="0.8"/>
+        <text id="Rating_" data-name="Rating " transform="translate(9 18)" fill="#24282f" font-size="12" font-family="GothamRounded-Book, Gotham Rounded" letter-spacing="0.005em"><tspan x="0" y="0">Rating </tspan></text>
+        <text id="_3.7_4" data-name="3.7/4" transform="translate(11 60)" fill="#24282f" font-size="16" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500" letter-spacing="0.005em"><tspan x="0" y="0">3.7/4</tspan></text>
+        <path id="star" d="M16.293,6.408a.866.866,0,0,0-.747-.6L10.83,5.383,8.966,1.019a.868.868,0,0,0-1.6,0L5.5,5.383.789,5.811A.869.869,0,0,0,.3,7.33L3.86,10.455,2.81,15.085a.867.867,0,0,0,1.291.938l4.067-2.431,4.065,2.431a.868.868,0,0,0,1.292-.938l-1.051-4.629,3.564-3.125A.869.869,0,0,0,16.293,6.408Zm0,0" transform="translate(128.826 7.508)" fill="#20232b"/>
+      </g>
+      <text id="Last_30_days-3" data-name="Last 30 days" transform="translate(272 425)" fill="#20232b" font-size="10" font-family="GothamRounded-Bold, Gotham Rounded" font-weight="700" letter-spacing="0.005em"><tspan x="0" y="0">Last 30 days</tspan></text>
+      <text id="Last_30_days-4" data-name="Last 30 days" transform="translate(272 510)" fill="#20232b" font-size="10" font-family="GothamRounded-Bold, Gotham Rounded" font-weight="700" letter-spacing="0.005em"><tspan x="0" y="0">Last 30 days</tspan></text>
+      <g id="feedback" transform="translate(-64 705)">
+        <path id="Path_4742" data-name="Path 4742" d="M20.544,176.017H1.916A1.918,1.918,0,0,0,0,177.933v7.75A1.918,1.918,0,0,0,1.916,187.6H20.544a1.918,1.918,0,0,0,1.916-1.916v-7.75a1.918,1.918,0,0,0-1.916-1.916Zm-7.735,7.515a.658.658,0,0,1,0-1.316h5.045a.658.658,0,0,1,0,1.316Zm5.045-2.632H4.606a.658.658,0,0,1,0-1.316H17.854a.658.658,0,0,1,0,1.316Zm-7.545,1.974a.658.658,0,0,1-.658.658H4.606a.658.658,0,0,1,0-1.316H9.651A.658.658,0,0,1,10.309,182.874Z" transform="translate(379 -431.303)"/>
+      </g>
+      <text id="Profile" transform="translate(31 255)" fill="#1e2022" font-size="18" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500"><tspan x="0" y="0">Overview </tspan></text>
+      <g id="Group_4621" data-name="Group 4621" transform="translate(31 734.5)">
+        <text id="Tickets_sold" data-name="Tickets sold" transform="matrix(1, 0, 0, 1, 0, 11)" fill="#5e6167" font-size="14" font-family="GothamRounded-Book, Gotham Rounded"><tspan x="0" y="0">Tickets sold</tspan></text>
+        <text id="Railway" transform="translate(288.82 11)" fill="#3c69b0" font-size="14" font-family="GothamRounded-Bold, Gotham Rounded" font-weight="700" letter-spacing="0.005em"><tspan x="0" y="0">67</tspan></text>
+      </g>
+      <g id="Group_4622" data-name="Group 4622" transform="translate(32 771.5)">
+        <text id="People_attended" data-name="People attended" transform="matrix(1, 0, 0, 1, 0, 11)" fill="#5e6167" font-size="14" font-family="GothamRounded-Book, Gotham Rounded"><tspan x="0" y="0">People attended</tspan></text>
+        <text id="Railway-2" data-name="Railway" transform="translate(287.803 11)" fill="#3c69b0" font-size="14" font-family="GothamRounded-Bold, Gotham Rounded" font-weight="700" letter-spacing="0.005em"><tspan x="0" y="0">85</tspan></text>
+      </g>
+      <g id="Group_4625" data-name="Group 4625" transform="translate(31 885.5)">
+        <text id="Shares" transform="matrix(1, 0, 0, 1, 0, 11)" fill="#5e6167" font-size="14" font-family="GothamRounded-Book, Gotham Rounded"><tspan x="0" y="0">Shares</tspan></text>
+        <text id="Railway-3" data-name="Railway" transform="translate(288.82 11)" fill="#3c69b0" font-size="14" font-family="GothamRounded-Bold, Gotham Rounded" font-weight="700" letter-spacing="0.005em"><tspan x="0" y="0">85</tspan></text>
+      </g>
+      <g id="Group_4619" data-name="Group 4619" transform="translate(32 809.5)">
+        <text id="Reviews" transform="matrix(1, 0, 0, 1, 0, 11)" fill="#5e6167" font-size="14" font-family="GothamRounded-Book, Gotham Rounded"><tspan x="0" y="0">Reviews</tspan></text>
+        <text id="Railway-4" data-name="Railway" transform="translate(287.803 11)" fill="#3c69b0" font-size="14" font-family="GothamRounded-Bold, Gotham Rounded" font-weight="700" letter-spacing="0.005em"><tspan x="0" y="0">85</tspan></text>
+      </g>
+      <g id="Group_4623" data-name="Group 4623" transform="translate(31 847.5)">
+        <text id="Views-2" data-name="Views" transform="matrix(1, 0, 0, 1, 0, 11)" fill="#5e6167" font-size="14" font-family="GothamRounded-Book, Gotham Rounded"><tspan x="0" y="0">Views</tspan></text>
+        <text id="Railway-5" data-name="Railway" transform="translate(288.82 11)" fill="#3c69b0" font-size="14" font-family="GothamRounded-Bold, Gotham Rounded" font-weight="700" letter-spacing="0.005em"><tspan x="0" y="0">85</tspan></text>
+      </g>
+      <g id="Group_4626" data-name="Group 4626" transform="translate(31 922.5)">
+        <text id="Cancelled" transform="matrix(1, 0, 0, 1, 0, 11)" fill="#5e6167" font-size="14" font-family="GothamRounded-Book, Gotham Rounded"><tspan x="0" y="0">Cancelled</tspan></text>
+        <text id="Railway-6" data-name="Railway" transform="translate(288.82 11)" fill="#3c69b0" font-size="14" font-family="GothamRounded-Bold, Gotham Rounded" font-weight="700" letter-spacing="0.005em"><tspan x="0" y="0">85</tspan></text>
+      </g>
+      <g id="Group_4627" data-name="Group 4627" transform="translate(31 960.5)">
+        <text id="Rescheduled" transform="matrix(1, 0, 0, 1, 0, 11)" fill="#5e6167" font-size="14" font-family="GothamRounded-Book, Gotham Rounded"><tspan x="0" y="0">Rescheduled</tspan></text>
+        <text id="Railway-7" data-name="Railway" transform="translate(288.82 11)" fill="#3c69b0" font-size="14" font-family="GothamRounded-Bold, Gotham Rounded" font-weight="700" letter-spacing="0.005em"><tspan x="0" y="0">85</tspan></text>
+      </g>
+      <g id="Group_4628" data-name="Group 4628" transform="translate(31 696.5)">
+        <text id="Rating" transform="matrix(1, 0, 0, 1, 0, 11)" fill="#5e6167" font-size="14" font-family="GothamRounded-Book, Gotham Rounded"><tspan x="0" y="0">Rating</tspan></text>
+        <text id="Railway-8" data-name="Railway" transform="translate(287.235 11)" fill="#3c69b0" font-size="14" font-family="GothamRounded-Bold, Gotham Rounded" font-weight="700" letter-spacing="0.005em"><tspan x="0" y="0">4/5</tspan></text>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 0, 1)" filter="url(#Rectangle_1743)">
+        <rect id="Rectangle_1743-2" data-name="Rectangle 1743" width="313" height="42" rx="5" transform="translate(31 626)" fill="#fff"/>
+      </g>
+      <text id="Activity_interactions" data-name="Activity interactions" transform="translate(67 663)" fill="#77838f" font-size="12" font-family="GothamRounded-Book, Gotham Rounded" letter-spacing="0.005em"><tspan x="0" y="0">Activity interactions</tspan></text>
+      <text id="_700" data-name="700" transform="translate(67 646.493)" fill="rgba(0,0,0,0.85)" font-size="14" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500" letter-spacing="0.005em"><tspan x="0" y="0">700</tspan></text>
+      <path id="chart" d="M12.278,28.908H9.5V15.043h2.778Zm8.321,0H17.821V9.5H20.6s0,6.41,0,11.262Zm8.309,0H26.13V20.587h2.778Z" transform="translate(25.5 630.093)" fill="#3f62ac" fill-rule="evenodd"/>
+      <text id="Russia-3" data-name="Russia" transform="translate(31 593.5)" fill="#1e2022" font-size="18" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500" letter-spacing="0.005em"><tspan x="0" y="0">Interactions</tspan></text>
+      <text id="Last_30_days-5" data-name="Last 30 days" transform="translate(240 663)" fill="#20232b" font-size="10" font-family="GothamRounded-Bold, Gotham Rounded" font-weight="700" letter-spacing="0.005em"><tspan x="0" y="0">Last 30 days</tspan></text>
+    </g>
+  </g>
+</svg>
