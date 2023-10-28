@@ -154,9 +154,7 @@ const onClick = (e: MouseEvent) => {
 
 <style lang="scss" scoped>
 .active {
-
   color: $font-color !important;
-
 }
 
 .padding-0 {

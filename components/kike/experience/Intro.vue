@@ -29,7 +29,7 @@
           </p>
         </div>
         <div class="items">
-          <span data-aos="zoom-in-up">Web site</span> <br>
+          <span data-aos="zoom-in-up">Website</span> <br>
           <a target="_blank" :href="props.url">{{ props.url }}</a>
         </div>
       </div>
@@ -70,7 +70,7 @@ const props = defineProps({
 
 <style lang="scss" scoped>
 section {
-    @apply w-full py-24 mx-auto;
+    @apply w-full py-12 sm:py-24 mx-auto;
      color: #CCCCCC;
      scroll-snap-type: y mandatory;
     .main {
@@ -85,6 +85,7 @@ section {
             @apply grid grid-cols-2 sm:grid-cols-4 gap-4 flex-wrap py-8 justify-between;
             .items {
                 @apply mb-5;
+                font-family: $source-code-semibold;
                 span {
                     @apply text-base uppercase;
                     color: $button-color;
@@ -103,7 +104,8 @@ section {
           border-color: #595959;
         }
         .bg {
-          @apply w-full bg-cover bg-no-repeat h-[70vh];
+          @apply w-full bg-cover bg-no-repeat min-h-[12rem];
+          aspect-ratio: 16/9;
           background-position: center;
         }
     }

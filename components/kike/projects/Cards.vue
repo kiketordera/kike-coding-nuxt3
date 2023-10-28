@@ -1,11 +1,12 @@
 <template>
   <ClientOnly>
     <swiper-container
-      :slides-per-view="slidesPerView"
+      :slides-per-view="1"
       effect="cube"
       :centered-slides="true"
       :navigation="true"
       :loop="true"
+      class="mx-auto max-w-3xl"
       :pagination="{
         type: 'progressbar',
       }"
@@ -14,7 +15,7 @@
       <swiper-slide
         v-for="project in projects"
         :key="project.name"
-        class="swipper"
+        class="swipper pb-8"
       >
         <NuxtLink :to="project.url">
           <v-hover v-slot="{ isHovering, props }">
@@ -66,8 +67,11 @@
 import { register } from 'swiper/element/bundle'
 import projects from '~/assets/data/projects.json'
 register()
-const slidesPerView = ref(1)
 const activeSlide = ref(0) // default to the first slide
+
+const currentProject = computed(() => {
+  return projects[activeSlide.value].url
+})
 
 function onSlideChange (e: any) {
   console.log('changed')
@@ -75,17 +79,12 @@ function onSlideChange (e: any) {
   activeSlide.value = e.detail[0].activeIndex
 }
 
-const currentProject = computed(() => {
-  return projects[activeSlide.value].url
-})
-
 </script>
 
 <style lang="scss">
 :root {
   --swiper-pagination-color: #F89F76;
   --swiper-pagination-progressbar-bg-color: #55C5CA;
-  --swiper-pagination-fraction-color: #F9A077;
   --swiper-navigation-color: #55C5CA; // This is specifically for navigation arrows
 }
 
@@ -94,9 +93,10 @@ const currentProject = computed(() => {
 }
 
 .card {
-  @apply h-full max-h-[550px] flex-shrink-0;
+  @apply h-full max-h-[606px] flex-shrink-0 mx-auto;
+  aspect-ratio: 1/1;
   .img {
-    @apply h-[450px];
+    @apply h-[550px];
   }
   .logo {
     @apply mx-auto object-contain max-w-[50%] py-4;
@@ -109,5 +109,10 @@ a.button {
   background-color: $font-color;
   color: $background-color;
   font-weight: 600;
+}
+
+div.swiper-button-prev,
+div > div.swiper-button-prev {
+  margin-left: -5rem !important;
 }
 </style>

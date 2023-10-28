@@ -32,6 +32,7 @@ const props = defineProps({
 
   h2 {
     @apply text-2xl lg:w-1/3 mb-4 align-top;
+    font-family: $source-code-semibold;
     color: white;
   }
   div {
