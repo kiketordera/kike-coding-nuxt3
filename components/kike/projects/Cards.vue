@@ -5,12 +5,11 @@
       effect="cube"
       :centered-slides="true"
       :navigation="true"
-      :loop="true"
       class="mx-auto max-w-3xl"
       :pagination="{
         type: 'progressbar',
       }"
-      @slide-change="onSlideChange"
+      @slidechange="onSlideChange"
     >
       <swiper-slide
         v-for="project in projects"
@@ -74,8 +73,6 @@ const currentProject = computed(() => {
 })
 
 function onSlideChange (e: any) {
-  console.log('changed')
-  console.log(e)
   activeSlide.value = e.detail[0].activeIndex
 }
 
