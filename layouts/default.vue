@@ -73,7 +73,7 @@ function debounce (func: (...args: any[]) => void, wait: number, immediate = fal
   background-color: black;
 }
 .cookieControl__ModalContent input:not(:checked) + button {
-  background-color: grey;
+  background-color: lightgray;
 }
 .cookies {
   z-index: 1 !important;
