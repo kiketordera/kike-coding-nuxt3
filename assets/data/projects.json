@@ -1,65 +1,28 @@
 [
     {
         "id": 0,
-        "name": "Eva Drones",
-        "logo": "/img/projects/drones/logo.png",
-        "mainImg": "/img/projects/drones/background.jpeg",
-        "client": "Eva Drones",
+        "name": "Value Villages",
+        "logo": "/img/projects/vv/value-villages.png",
+        "mainImg": "/img/projects/vv/mobile-mockup.svg",
+        "client": "value villages",
         "color_bg_logo": "white",
-        "color_bg_title": "#00588E",
+        "color_bg_title": "#63B190",
         "color_title": "white",
-        "url": "/projects/eva-drones",
-        "seoDescription": "Eva Drones: Pioneering the Future of Deliveries with Technological Excellence. Dive into a transformative drone ecosystem designed for everything from urban pizza deliveries to critical aid in conflict zones. Discover an integrated platform that prioritizes operational fluency, real-time controls, and a vision for global impact. Experience the blend of innovation and purpose in drone operations.",
+        "url": "/projects/value-villages",
         "intro": {
-            "coverImg": "/img/projects/drones/background.png",
-            "services": [
-                "Web Development"
-            ],
-            "tech": [
-                "Golang, Docker,",
-                "Vue.js, TypesScript"
-            ],
-            "year": "2021",
-            "url": "https://eva.xyz/"
+            "coverImg": "",
+            "services": [],
+            "tech": [],
+            "year": "",
+            "url": ""
         },
-        "imagesType": "desktop",
-        "firstTitle": "Reimagining Deliveries for the Future",
-        "firstDescription": [
-            "Eva Drones is ushering in a new era of delivery, set to change everything from the way you receive your pizza to life-saving medical dispatches to remote regions.",
-            "This international startup is not just introducing drones; they're envisioning an integrated ecosystem. Through Eva's infrastructure, drone pilots can seamlessly launch, land, recharge, and maintain their drones. Beyond the convenience of urban deliveries, Eva Drones has its sight set on loftier goals.",
-            "They are poised to transform critical deliveries to conflict zones and areas hit by natural disasters, ensuring that vital aid reaches those in need swiftly. With every ticking minute holding the value of a life, Eva Drones is committed to making each second count."
-        ],
-        "firstGroupImages": [
-            "/img/projects/drones/drones-mockup1.jpg",
-            "/img/projects/drones/drones-mockup3.jpg",
-            "/img/projects/drones/drones-mockup4.jpg",
-            "/img/projects/drones/drones-mockup2.jpg"
-        ],
-        "secondtitle": "Technological Mastery meets Operational Excellence",
-        "secondDescription": [
-            "Eva Drones is much more than a startup; it's a technological marvel crafting the future of deliveries. The collaboration output was to create an end-to-end ecosystem that simplifies every facet of drone operations. From robust take-off and landing modules, efficient charging stations, to intricate maintenance & repair hubs, we've integrated advanced systems ensuring operational fluency for drone pilots.",
-            "My work with Eva Drones is a testament to my capabilities in handling multifaceted challenges. Recognizing the diverse application—from urban pizza deliveries to urgent humanitarian aid drops—I implemented real-time CCTV, providing comprehensive controls over the platform and cameras. This ensures continuous visibility and control for operations, especially crucial in high-stakes environments like conflict zones or disaster-stricken areas.",
-            "My technological solutions for Eva Drones aren't just about efficiency; they embody the shared vision of harnessing innovation for genuine global impact."
-        ],
-        "secondGroupImages": [
-            "/img/projects/drones/carousel/eva-drones1.svg",
-            "/img/projects/drones/carousel/eva-drones2.svg",
-            "/img/projects/drones/carousel/eva-drones3.svg",
-            "/img/projects/drones/carousel/eva-drones4.svg",
-            "/img/projects/drones/carousel/eva-drones5.svg",
-            "/img/projects/drones/carousel/eva-drones6.svg",
-            "/img/projects/drones/carousel/eva-drones7.svg",
-            "/img/projects/drones/carousel/eva-drones8.svg",
-            "/img/projects/drones/carousel/eva-drones9.svg",
-            "/img/projects/drones/carousel/eva-drones10.svg",
-            "/img/projects/drones/carousel/eva-drones11.svg",
-            "/img/projects/drones/carousel/eva-drones12.svg",
-            "/img/projects/drones/carousel/eva-drones13.svg",
-            "/img/projects/drones/carousel/eva-drones14.svg",
-            "/img/projects/drones/carousel/eva-drones15.svg",
-            "/img/projects/drones/carousel/eva-drones17.svg",
-            "/img/projects/drones/carousel/eva-drones16.svg"
-        ]
+        "imagesType": "mobile",
+        "firstTitle": "",
+        "firstDescription": [],
+        "firstGroupImages": [],
+        "secondtitle": "",
+        "secondDescription": [],
+        "secondGroupImages": []
     },
     {
         "id": 1,
@@ -126,28 +89,65 @@
     },
     {
         "id": 2,
-        "name": "Value Villages",
-        "logo": "/img/projects/vv/value-villages.png",
-        "mainImg": "/img/projects/vv/mobile-mockup.svg",
-        "client": "value villages",
+        "name": "Eva Drones",
+        "logo": "/img/projects/drones/logo.png",
+        "mainImg": "/img/projects/drones/background.jpeg",
+        "client": "Eva Drones",
         "color_bg_logo": "white",
-        "color_bg_title": "#63B190",
+        "color_bg_title": "#00588E",
         "color_title": "white",
-        "url": "/projects/value-villages",
+        "url": "/projects/eva-drones",
+        "seoDescription": "Eva Drones: Pioneering the Future of Deliveries with Technological Excellence. Dive into a transformative drone ecosystem designed for everything from urban pizza deliveries to critical aid in conflict zones. Discover an integrated platform that prioritizes operational fluency, real-time controls, and a vision for global impact. Experience the blend of innovation and purpose in drone operations.",
         "intro": {
-            "coverImg": "",
-            "services": [],
-            "tech": [],
-            "year": "",
-            "url": ""
+            "coverImg": "/img/projects/drones/background.png",
+            "services": [
+                "Web Development"
+            ],
+            "tech": [
+                "Golang, Docker,",
+                "Vue.js, TypesScript"
+            ],
+            "year": "2021",
+            "url": "https://eva.xyz/"
         },
-        "imagesType": "mobile",
-        "firstTitle": "",
-        "firstDescription": [],
-        "firstGroupImages": [],
-        "secondtitle": "",
-        "secondDescription": [],
-        "secondGroupImages": []
+        "imagesType": "desktop",
+        "firstTitle": "Reimagining Deliveries for the Future",
+        "firstDescription": [
+            "Eva Drones is ushering in a new era of delivery, set to change everything from the way you receive your pizza to life-saving medical dispatches to remote regions.",
+            "This international startup is not just introducing drones; they're envisioning an integrated ecosystem. Through Eva's infrastructure, drone pilots can seamlessly launch, land, recharge, and maintain their drones. Beyond the convenience of urban deliveries, Eva Drones has its sight set on loftier goals.",
+            "They are poised to transform critical deliveries to conflict zones and areas hit by natural disasters, ensuring that vital aid reaches those in need swiftly. With every ticking minute holding the value of a life, Eva Drones is committed to making each second count."
+        ],
+        "firstGroupImages": [
+            "/img/projects/drones/drones-mockup1.jpg",
+            "/img/projects/drones/drones-mockup3.jpg",
+            "/img/projects/drones/drones-mockup4.jpg",
+            "/img/projects/drones/drones-mockup2.jpg"
+        ],
+        "secondtitle": "Technological Mastery meets Operational Excellence",
+        "secondDescription": [
+            "Eva Drones is much more than a startup; it's a technological marvel crafting the future of deliveries. The collaboration output was to create an end-to-end ecosystem that simplifies every facet of drone operations. From robust take-off and landing modules, efficient charging stations, to intricate maintenance & repair hubs, we've integrated advanced systems ensuring operational fluency for drone pilots.",
+            "My work with Eva Drones is a testament to my capabilities in handling multifaceted challenges. Recognizing the diverse application—from urban pizza deliveries to urgent humanitarian aid drops—I implemented real-time CCTV, providing comprehensive controls over the platform and cameras. This ensures continuous visibility and control for operations, especially crucial in high-stakes environments like conflict zones or disaster-stricken areas.",
+            "My technological solutions for Eva Drones aren't just about efficiency; they embody the shared vision of harnessing innovation for genuine global impact."
+        ],
+        "secondGroupImages": [
+            "/img/projects/drones/carousel/eva-drones1.svg",
+            "/img/projects/drones/carousel/eva-drones2.svg",
+            "/img/projects/drones/carousel/eva-drones3.svg",
+            "/img/projects/drones/carousel/eva-drones4.svg",
+            "/img/projects/drones/carousel/eva-drones5.svg",
+            "/img/projects/drones/carousel/eva-drones6.svg",
+            "/img/projects/drones/carousel/eva-drones7.svg",
+            "/img/projects/drones/carousel/eva-drones8.svg",
+            "/img/projects/drones/carousel/eva-drones9.svg",
+            "/img/projects/drones/carousel/eva-drones10.svg",
+            "/img/projects/drones/carousel/eva-drones11.svg",
+            "/img/projects/drones/carousel/eva-drones12.svg",
+            "/img/projects/drones/carousel/eva-drones13.svg",
+            "/img/projects/drones/carousel/eva-drones14.svg",
+            "/img/projects/drones/carousel/eva-drones15.svg",
+            "/img/projects/drones/carousel/eva-drones17.svg",
+            "/img/projects/drones/carousel/eva-drones16.svg"
+        ]
     },
     {
         "id": 3,
