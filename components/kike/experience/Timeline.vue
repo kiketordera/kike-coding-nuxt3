@@ -106,7 +106,10 @@ const firstEducationIndex = rev.findIndex(exp => exp.type === 'education')
      }
    }
   .links {
-    @apply flex justify-center items-center gap-8;
+    @apply flex items-center gap-8 overflow-scroll;
+    @media (min-width: 400px) {
+      @apply justify-center;
+    }
     hr {
       @apply h-[20px];
       border: .5px solid $light-gray;
