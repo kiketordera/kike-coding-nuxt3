@@ -17,6 +17,7 @@
     </div>
   </div>
 </template>
+
 <script lang="ts" setup>
 import { useRoute } from 'vue-router'
 const { default: projects } = await import('~/assets/data/projects.json')
@@ -26,8 +27,7 @@ const link = route.params.project_id
 const project = projects.find(a => a.url === `/projects/${link}`)!
 
 useSeoMeta({
-  title: `${project.client}`,
-
+  title: project.client,
   description: project.firstDescription[0],
 })
 </script>
