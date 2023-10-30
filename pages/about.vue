@@ -1,8 +1,8 @@
 <template>
   <div>
-    <kike-about-Info />
-    <kike-about-MySkills />
-    <general-WhatsApp />
+    <KikeAboutInfo />
+    <KikeAboutMySkills />
+    <GeneralWhatsApp />
   </div>
 </template>
 
