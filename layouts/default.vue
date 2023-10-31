@@ -10,6 +10,8 @@
 <script setup lang="ts">
 import { LinkActiveStateProvider } from '~/store/linkactive'
 
+import { WhatsAppStateProvider } from '~/store/whatsapp'
+
 const linkstate = LinkActiveStateProvider()
 const sections: Array<string> = ['work', 'contact']
 const currentSection = ref<string>('')
@@ -60,6 +62,23 @@ function debounce (func: (...args: any[]) => void, wait: number, immediate = fal
     if (callNow) { func(...args) }
   }
 }
+
+// When user tries to leave the page
+const whatsAppState = WhatsAppStateProvider()
+
+onMounted(() => {
+  document.addEventListener('mouseleave', handleMouseLeave)
+})
+
+onBeforeUnmount(() => {
+  document.removeEventListener('mouseleave', handleMouseLeave)
+})
+
+function handleMouseLeave () {
+  if (!whatsAppState.notificationVisible) { return }
+  whatsAppState.showWhatsApp()
+}
+
 </script>
 
 <style lang="scss">

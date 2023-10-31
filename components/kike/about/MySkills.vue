@@ -14,9 +14,9 @@
         <hr>
         <kike-about-Skills :skills="leadershipSkills" :title="'Leadership Skills'" :color="'#55C5CA'" class="pb-12" />
         <kike-about-Skills :skills="softSkills" :title="'Soft Skills'" />
-        <button type="button" @click="whatsAppState.toggleModal()">
+        <a target="_blank" href="https://calendly.com/totemstudio" @click="whatsAppState.toggleModal()">
           Hire me
-        </button>
+        </a>
       </div>
     </div>
   </section>
@@ -85,7 +85,7 @@ section {
     }
   }
 }
-button {
+a {
     @include button-base;
     @apply my-8 block sm:w-min whitespace-nowrap;
     background-color: $button-color;
