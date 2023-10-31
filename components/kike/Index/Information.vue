@@ -4,7 +4,7 @@
       <div class="content">
         <h2 class="mb-0" data-aos="zoom-in-up">
           <span>{</span>
-          UX/UI Engineeer & <span class="yellow"> Software developer</span>
+          UX/UI Engineer & <span class="yellow"> Software developer</span>
           <span class="ml-3 sm:ml-8">}</span>
         </h2>
         <h2>
