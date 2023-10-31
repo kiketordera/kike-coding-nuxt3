@@ -18,7 +18,7 @@
         <p class="txt-blue" data-aos="fade-right">
           Why choose someone with half the skills? Take someone with the full package!
         </p>
-        <a href="https://calendly.com/kiketordera" @click="whatsAppState.toggleModal()">
+        <a target="_blank" href="https://calendly.com/kiketordera" @click="whatsAppState.toggleModal()">
           Hire me
         </a>
       </div>
