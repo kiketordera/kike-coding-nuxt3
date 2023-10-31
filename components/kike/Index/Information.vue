@@ -18,9 +18,9 @@
         <p class="txt-blue" data-aos="fade-right">
           Why choose someone with half the skills? Take someone with the full package!
         </p>
-        <NuxtLink to="/#contact" @click="whatsAppState.toggleModal()">
+        <a href="https://calendly.com/kiketordera" @click="whatsAppState.toggleModal()">
           Hire me
-        </NuxtLink>
+        </a>
       </div>
       <img src="~assets/img/kk/stricker.png" alt="" class="mx-auto">
     </div>
