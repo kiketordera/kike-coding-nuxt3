@@ -38,6 +38,7 @@ export default defineNuxtConfig({
     transpile: ['vuetify']
   },
     app: {
+    layoutTransition: { name: 'layout', mode: 'out-in' },
     head: {
       title: 'Kike Tordera',
       link: [
@@ -93,8 +94,13 @@ extends: [
 ],
 nitro: {
   preset: 'firebase',
+  firebase: {
+    nodeVersion: '18',
+    gen: 1,
+    region: 'us-central1'
+  },
   prerender: {
-    crawlLinks: false,
+    crawlLinks: true,
     routes: [
       '/',
       '/about',

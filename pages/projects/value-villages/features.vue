@@ -1,6 +1,6 @@
 <template>
   <div>
-    <vv-general-NavBar />
+    <!-- <vv-general-NavBar /> -->
     <vv-features-Community />
     <vv-features-Map />
     <vv-features-OfflineMode />
