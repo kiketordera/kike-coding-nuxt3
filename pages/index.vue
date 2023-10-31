@@ -16,7 +16,7 @@
     <OgImageScreenshot />
 
     <CookieControl v-if="showCookieConsent" locale="en" />
-    <KikeIndexInformation />
+    <kike-index-Information />
     <general-ContinuousScroll />
     <kike-index-About />
     <kike-projects-Work />
