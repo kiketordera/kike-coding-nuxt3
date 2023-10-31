@@ -3,7 +3,7 @@
     <kike-general-NavBar :current-section="currentSection" @section-clicked="onSectionClicked" />
     <slot />
     <kike-general-Footer />
-    <kike-general-TotemSignature />
+    <!-- <kike-general-TotemSignature /> -->
   </div>
 </template>
 
