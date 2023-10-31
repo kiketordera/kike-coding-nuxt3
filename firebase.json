@@ -1,7 +1,4 @@
 {
-  "functions": {
-    "source": ".output/server"
-  },
   "hosting": {
     "public": ".output/public",
     "ignore": [

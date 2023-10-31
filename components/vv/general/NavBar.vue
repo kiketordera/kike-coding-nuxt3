@@ -57,8 +57,6 @@ const design = ref('/svg/vv/navbar/design.svg')
 const features = ref('/svg/vv/navbar/features.svg')
 
 const getCurrentRoute = computed(() => {
-  console.log('current route is:')
-  console.log(router.currentRoute.value.fullPath)
   return router.currentRoute.value.fullPath
 })
 </script>

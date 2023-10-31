@@ -1,6 +1,6 @@
 <template>
   <div>
-    <vv-general-NavBar />
+    <!-- <vv-general-NavBar /> -->
     <vv-about-Introduction />
     <vv-about-LandingBackground />
     <vv-about-ItemsCards />
