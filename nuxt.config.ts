@@ -1,6 +1,21 @@
 import { ContactInformation } from './data_helper/contact'
+import projects from './assets/data/projects.json'
+// const { default: projects } = await import('~/assets/data/projects.json')
+const getProjectRoutes = () => {
+  return projects.map(project => project.url)
+  // return projects.find(a => a.url === `/projects/${link}`)!
+}
 
 export default defineNuxtConfig({
+  ssr: true,
+  hooks: {
+    async 'nitro:config' (nitroConfig) {
+      // fetch the routes from our function above
+      const urls = await getProjectRoutes()
+      // add the routes to the nitro config
+      nitroConfig.prerender?.routes?.push(...urls)
+    }
+},
   typescript: {
     strict: true,
     typeCheck: true
@@ -100,11 +115,9 @@ nitro: {
     region: 'us-central1'
   },
   prerender: {
+
     crawlLinks: true,
-    routes: [
-      '/',
-      '/about',
-    ],
+    routes: ['/'],
   },
   esbuild: {
     options: {

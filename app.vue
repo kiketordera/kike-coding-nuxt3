@@ -41,9 +41,6 @@ defineOgImageScreenshot({
   // background: 'linear-gradient(to bottom, #D95B06, #DA3203)'
 })
 
-definePageMeta({
-  layouts: 'default',
-})
 const {
   cookiesEnabledIds,
 } = useCookieControl()

@@ -19,11 +19,11 @@
 </template>
 
 <script lang="ts" setup>
-import { useRoute } from 'vue-router'
+
 const { default: projects } = await import('~/assets/data/projects.json')
 
 const route = useRoute()
-const link = route.params.project_id
+const link = route.params.projectid
 const project = projects.find(a => a.url === `/projects/${link}`)!
 
 useSeoMeta({
