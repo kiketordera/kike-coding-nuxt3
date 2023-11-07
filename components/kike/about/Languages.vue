@@ -23,7 +23,7 @@
           </span>
         </div>
         <p class="level">
-          B1 - Level
+          A2 - Level
         </p>
       </div>
       <div class="lang">
