@@ -101,6 +101,12 @@
         </span>
       </div>
       <div>
+        <img data-aos="zoom-in-left" src="~assets/svg/kk/figma-icon.svg" alt="">
+        <span data-aos="zoom-in-right">
+          Figma
+        </span>
+      </div>
+      <div>
         <img data-aos="zoom-in-left" src="~assets/svg/kk/ui.svg" alt="">
         <span data-aos="zoom-in-right">
           UI

@@ -17,17 +17,6 @@
       </div>
       <div class="lang">
         <div>
-          <img src="~assets/svg/kk/german-flag.svg" alt="">
-          <span>
-            German
-          </span>
-        </div>
-        <p class="level">
-          A2 - Level
-        </p>
-      </div>
-      <div class="lang">
-        <div>
           <img src="~assets/svg/kk/united-kingdom.svg" alt="">
           <span>
             English
@@ -35,6 +24,17 @@
         </div>
         <p class="level">
           C1 - Level
+        </p>
+      </div>
+      <div class="lang">
+        <div>
+          <img src="~assets/svg/kk/german-flag.svg" alt="">
+          <span>
+            German
+          </span>
+        </div>
+        <p class="level">
+          A2 - Level
         </p>
       </div>
       <div class="lang">
