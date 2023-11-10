@@ -8,6 +8,7 @@
         <p data-aos="zoom-in-right">
           Discover my range of skills and expertise in various areas.
         </p>
+        <kike-about-Education />
         <kike-about-Languages />
         <hr>
         <kike-about-Programming />
