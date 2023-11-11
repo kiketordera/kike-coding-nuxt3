@@ -115,7 +115,7 @@ nitro: {
     region: 'us-central1'
   },
   prerender: {
-
+    // ignore: ['/projects', '/legal'],
     crawlLinks: true,
     routes: ['/'],
   },
@@ -144,5 +144,6 @@ vue: {
   compilerOptions: {
     isCustomElement: tag => ['swiper-container', 'swiper-slide'].includes(tag),
   },
-}
+},
+routeRules: { '/projects': { ssr: false }, '/legal': { ssr: false } }
 })
