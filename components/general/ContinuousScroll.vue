@@ -30,6 +30,7 @@ const skills = [
 '/svg/kk/skills/tailwind.svg',
 '/svg/kk/skills/ts.svg',
 '/svg/kk/skills/ux.svg',
+'/svg/kk/skills/figma.svg',
 '/svg/kk/skills/ui.svg',
 '/svg/kk/skills/vue.svg',
 ]
