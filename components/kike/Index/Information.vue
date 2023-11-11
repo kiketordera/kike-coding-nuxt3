@@ -22,7 +22,7 @@
           Hire me
         </a>
       </div>
-      <img src="~assets/img/kk/stricker.png" alt="" class="mx-auto">
+      <img src="~assets/img/kk/kike-tordera.png" alt="" class="mx-auto">
     </div>
   </section>
 </template>
@@ -38,6 +38,9 @@ section {
    @apply w-full;
     .info {
         @apply pt-28 max-w-6xl lg:mx-auto w-full lg:flex grid-cols-1 gap-8 px-4 text-center lg:text-left;
+        img {
+          @apply max-w-xl;
+        }
         .content {
             @apply lg:w-1/2 w-full mt-16;
             h2 {

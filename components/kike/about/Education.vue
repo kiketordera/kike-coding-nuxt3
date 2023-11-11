@@ -19,8 +19,8 @@
           Bachelor's degree in Computer Science
         </p>
         <p class="description">
-          Activities and societies: Responsible delegate of international exchange internship association IAESTE
-          in the computer department of Polytechnic University
+          Gained proficiency in software development, mastered data structures and algorithms,
+          and explored emerging computing technologies, boosting problem-solving and technical skills.
         </p>
       </div>
     </div>
@@ -40,7 +40,8 @@
           Specialization in Software Engineering
         </p>
         <p class="description">
-          Activities and societies: Volunteer in the IAESTE association for exchange students internship
+          Specialized in Software Engineering at Czech Technical University in Prague, focusing on advanced
+          programming, software design principles, and project management methodologies.
         </p>
       </div>
     </div>
