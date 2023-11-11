@@ -1,4 +1,4 @@
-import { Team } from '~~/types/data_model'
+import type { Team } from '~~/types/data_model'
 
 export interface Irepository {
      getAllTeams: () => Team[];

@@ -1,5 +1,5 @@
 import { defineStore } from 'pinia'
-import { WhatsAppState } from '~/types/types'
+import type { WhatsAppState } from '~/types/types'
 
 export const WhatsAppStateProvider = defineStore({
   id: 'whatsapp',
