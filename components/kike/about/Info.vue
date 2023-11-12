@@ -24,7 +24,11 @@
         <img src="~assets/img/kk/kike.jpg" alt="" class="profile">
         <button data-aos="zoom-up-down" type="submit">
           <img src="~assets/svg/kk/resume.svg" alt="">
-          <a href="/kike-tordera-cv.pdf">Download Resume</a>
+          <a href="/kike-tordera-cv-human.pdf">Download Resume (Designed for Humans)</a>
+        </button>
+        <button data-aos="zoom-up-down" type="submit">
+          <img src="~assets/svg/kk/resume.svg" alt="">
+          <a href="/kike-tordera-cv-ats.pdf">Download Resume (Optimized for ATS Software)</a>
         </button>
       </div>
     </div>

@@ -29,14 +29,14 @@ import { WhatsAppStateProvider } from '~/store/whatsapp'
 const whatsAppState = WhatsAppStateProvider()
 
 const softSkills = [
-  'Communication',
-  'TeamWork',
+  'Effective Communication',
+  'Teamwork',
   'Problem Solving',
   'Time management',
   'Adaptability',
   'Leadership',
   'Empathy',
-  'Conflict Resolution',
+  'Active Listening',
   'Creativity'
 ]
 
@@ -49,7 +49,7 @@ const leadershipSkills = [
   'Team Building & Motivation',
   'Strategic Planning',
   'Emotional Intelligence',
-  'Effective Communication'
+  'Negotiation'
 ]
 </script>
 

@@ -5,15 +5,27 @@
     </h3>
     <div class="skills">
       <div>
-        <img data-aos="zoom-in-left" src="~assets/svg/kk/go-language.svg" alt="">
-        <span data-aos="zoom-in-right">
-          Golang
-        </span>
-      </div>
-      <div>
         <img data-aos="zoom-in-left" src="~assets/svg/kk/swift-language.svg" alt="">
         <span data-aos="zoom-in-right">
           Swift
+        </span>
+      </div>
+      <div>
+        <img data-aos="zoom-in-left" src="~assets/svg/kk/swiftui.svg" alt="">
+        <span data-aos="zoom-in-right">
+          SwiftUI
+        </span>
+      </div>
+      <div>
+        <img data-aos="zoom-in-left" src="~assets/svg/kk/dart-language.svg" alt="">
+        <span data-aos="zoom-in-right">
+          Dart
+        </span>
+      </div>
+      <div>
+        <img data-aos="zoom-in-left" src="~assets/svg/kk/flutter-language.svg" alt="">
+        <span data-aos="zoom-in-right">
+          Flutter
         </span>
       </div>
       <div>
@@ -47,36 +59,6 @@
         </span>
       </div>
       <div>
-        <img data-aos="zoom-in-left" src="~assets/svg/kk/docker.svg" alt="">
-        <span data-aos="zoom-in-right">
-          Docker
-        </span>
-      </div>
-      <div>
-        <img data-aos="zoom-in-left" src="~assets/svg/kk/firebase.svg" alt="">
-        <span data-aos="zoom-in-right">
-          Firebase
-        </span>
-      </div>
-      <div>
-        <img data-aos="zoom-in-left" src="~assets/svg/kk/dart-language.svg" alt="">
-        <span data-aos="zoom-in-right">
-          Dart
-        </span>
-      </div>
-      <div>
-        <img data-aos="zoom-in-left" src="~assets/svg/kk/flutter-language.svg" alt="">
-        <span data-aos="zoom-in-right">
-          Flutter
-        </span>
-      </div>
-      <div>
-        <img data-aos="zoom-in-left" src="~assets/svg/kk/java-language.svg" alt="">
-        <span data-aos="zoom-in-right">
-          JAVA
-        </span>
-      </div>
-      <div>
         <img data-aos="zoom-in-left" src="~assets/svg/kk/vue-language.svg" alt="">
         <span data-aos="zoom-in-right">
           Vue.js
@@ -92,6 +74,31 @@
         <img data-aos="zoom-in-left" src="~assets/svg/kk/node.svg" alt="">
         <span data-aos="zoom-in-right">
           Node.js
+        </span>
+      </div>
+      <div>
+        <img data-aos="zoom-in-left" src="~assets/svg/kk/docker.svg" alt="">
+        <span data-aos="zoom-in-right">
+          Docker
+        </span>
+      </div>
+      <div>
+        <img data-aos="zoom-in-left" src="~assets/svg/kk/firebase.svg" alt="">
+        <span data-aos="zoom-in-right">
+          Firebase
+        </span>
+      </div>
+
+      <div>
+        <img data-aos="zoom-in-left" src="~assets/svg/kk/go-language.svg" alt="">
+        <span data-aos="zoom-in-right">
+          Golang
+        </span>
+      </div>
+      <div>
+        <img data-aos="zoom-in-left" src="~assets/svg/kk/java-language.svg" alt="">
+        <span data-aos="zoom-in-right">
+          JAVA
         </span>
       </div>
       <div>
