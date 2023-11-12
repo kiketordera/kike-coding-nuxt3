@@ -12,13 +12,13 @@
     </div>
     <div class="nav-items">
       <ul>
-        <NuxtLink to="/projects/value-villages/" :class="{'green' : getCurrentRoute === '/projects/value-villages/'}">
+        <NuxtLink to="/projects/value-villages" :class="{'green' : getCurrentRoute === '/projects/value-villages'}">
           <li
             class="about"
             @mouseover="about = '/svg/vv/navbar/about-hover.svg'"
             @mouseleave="about = '/svg/vv/navbar/about.svg'"
           >
-            <img class="a" :src=" getCurrentRoute === '/projects/value-villages/' ? '/svg/vv/navbar/about-hover.svg' : about" alt="">
+            <img class="a" :src=" getCurrentRoute === '/projects/value-villages' ? '/svg/vv/navbar/about-hover.svg' : about" alt="">
             <p>About</p>
           </li>
         </NuxtLink>
