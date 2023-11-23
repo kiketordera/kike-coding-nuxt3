@@ -9,7 +9,7 @@
       :pagination="{
         type: 'fraction',
       }"
-      @slidechange="onSlideChange"
+      @swiperslidechange="onSlideChange"
     >
       <swiper-slide v-for="(project, index) in projects" :key="project.id" class="swipper" lazy="true">
         <NuxtLink :to="project.url">

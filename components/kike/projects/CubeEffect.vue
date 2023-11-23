@@ -9,7 +9,7 @@
       :pagination="{
         type: 'progressbar',
       }"
-      @slidechange="onSlideChange"
+      @swiperslidechange="onSlideChange"
     >
       <swiper-slide
         v-for="project in projects"
