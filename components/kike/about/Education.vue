@@ -81,7 +81,7 @@
       .right {
         @apply -mt-1;
         p.title {
-          @apply text-2xl font-bold -mt-1;
+          @apply text-xl sm:text-2xl font-bold -mt-1;
           color: $light-salmon;
           font-family: $source-code-bold;
         }
