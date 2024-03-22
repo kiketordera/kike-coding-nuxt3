@@ -3,12 +3,14 @@
     <kike-general-NavBar :current-section="currentSection" @section-clicked="onSectionClicked" />
     <slot />
     <kike-general-Footer />
-    <kike-general-TotemSignature />
+    <!-- <kike-general-TotemSignature /> -->
   </div>
 </template>
 
 <script setup lang="ts">
 import { LinkActiveStateProvider } from '~/store/linkactive'
+
+import { WhatsAppStateProvider } from '~/store/whatsapp'
 
 const linkstate = LinkActiveStateProvider()
 const sections: Array<string> = ['work', 'contact']
@@ -60,6 +62,23 @@ function debounce (func: (...args: any[]) => void, wait: number, immediate = fal
     if (callNow) { func(...args) }
   }
 }
+
+// When user tries to leave the page
+const whatsAppState = WhatsAppStateProvider()
+
+onMounted(() => {
+  document.addEventListener('mouseleave', handleMouseLeave)
+})
+
+onBeforeUnmount(() => {
+  document.removeEventListener('mouseleave', handleMouseLeave)
+})
+
+function handleMouseLeave () {
+  if (!whatsAppState.notificationVisible) { return }
+  whatsAppState.showWhatsApp()
+}
+
 </script>
 
 <style lang="scss">
@@ -73,7 +92,7 @@ function debounce (func: (...args: any[]) => void, wait: number, immediate = fal
   background-color: black;
 }
 .cookieControl__ModalContent input:not(:checked) + button {
-  background-color: grey;
+  background-color: lightgray;
 }
 .cookies {
   z-index: 1 !important;

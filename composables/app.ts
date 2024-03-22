@@ -1,4 +1,4 @@
-import { Irepository } from './Irepository'
+import type { Irepository } from './Irepository'
 import { JSONRepository } from './jsonRepository'
 
 enum Enviroments {

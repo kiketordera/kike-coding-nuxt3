@@ -30,6 +30,11 @@
               // Contact
             </NuxtLink>
           </li>
+          <li>
+            <a target="_blank" href="https://www.linkedin.com/in/kiketordera/">
+              <img src="/svg/kk/linkdein.svg" alt="" class="w-6">
+            </a>
+          </li>
         </ul>
       </div>
     </div>
@@ -178,7 +183,7 @@ nav {
 
     .link-items {
       @apply w-full block md:w-auto;
-      width: 500px;
+      width: 600px;
 
       ul {
         @apply flex flex-col justify-between mt-4 md:flex-row md:mt-0 md:text-sm items-center;

@@ -1,6 +1,21 @@
 import { ContactInformation } from './data_helper/contact'
+import projects from './assets/data/projects.json'
+// const { default: projects } = await import('~/assets/data/projects.json')
+const getProjectRoutes = () => {
+  return projects.map(project => project.url)
+  // return projects.find(a => a.url === `/projects/${link}`)!
+}
 
 export default defineNuxtConfig({
+  ssr: true,
+  hooks: {
+    async 'nitro:config' (nitroConfig) {
+      // fetch the routes from our function above
+      const urls = await getProjectRoutes()
+      // add the routes to the nitro config
+      nitroConfig.prerender?.routes?.push(...urls)
+    }
+},
   typescript: {
     strict: true,
     typeCheck: true
@@ -38,6 +53,7 @@ export default defineNuxtConfig({
     transpile: ['vuetify']
   },
     app: {
+    layoutTransition: { name: 'layout', mode: 'out-in' },
     head: {
       title: 'Kike Tordera',
       link: [
@@ -46,7 +62,7 @@ export default defineNuxtConfig({
       style: [
         // This will change the bouncing color when you scroll.
         // Put the branding color of the project here.
-        { children: 'body { background-color: #2D2A2A }' },
+        { children: 'body { background-color: black }' },
         { children: 'html, body { overflow-x: hidden; }' },
       ]
     },
@@ -93,12 +109,15 @@ extends: [
 ],
 nitro: {
   preset: 'firebase',
+  firebase: {
+    nodeVersion: '18',
+    gen: 1,
+    region: 'us-central1'
+  },
   prerender: {
-    crawlLinks: false,
-    routes: [
-      '/',
-      '/about',
-    ],
+    // ignore: ['/projects', '/legal'],
+    crawlLinks: true,
+    routes: ['/'],
   },
   esbuild: {
     options: {
@@ -125,5 +144,6 @@ vue: {
   compilerOptions: {
     isCustomElement: tag => ['swiper-container', 'swiper-slide'].includes(tag),
   },
-}
+},
+routeRules: { '/projects': { ssr: false }, '/legal': { ssr: false } }
 })

@@ -2,8 +2,8 @@
   <div id="contact">
     <div class="details">
       <h2 data-aos="zoom-in-left">
-        <a :href="`mailto:${ContactInformation.email}`">
-          Get in touch
+        <a target="_blank" href="https://calendly.com/kiketordera">
+          Start a project
         </a>
       </h2>
       <img data-aos="zoom-right" src="~assets/svg/kk/right-arrow.svg" alt="">
@@ -11,10 +11,6 @@
     <hr>
   </div>
 </template>
-
-<script setup lang="ts">
-import { ContactInformation } from '~/data_helper/contact'
-</script>
 
 <style lang="scss" scoped>
     .details {

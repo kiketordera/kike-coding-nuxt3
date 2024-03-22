@@ -4,7 +4,7 @@
       <div class="content">
         <h2 class="mb-0" data-aos="zoom-in-up">
           <span>{</span>
-          UX/UI Engineeer & <span class="yellow"> Software developer</span>
+          UX/UI Engineer & <span class="yellow"> Software developer</span>
           <span class="ml-3 sm:ml-8">}</span>
         </h2>
         <h2>
@@ -18,11 +18,11 @@
         <p class="txt-blue" data-aos="fade-right">
           Why choose someone with half the skills? Take someone with the full package!
         </p>
-        <NuxtLink to="/#contact" @click="whatsAppState.toggleModal()">
+        <a target="_blank" href="https://calendly.com/kiketordera" @click="whatsAppState.toggleModal()">
           Hire me
-        </NuxtLink>
+        </a>
       </div>
-      <img src="~assets/img/kk/stricker.png" alt="" class="mx-auto">
+      <img src="~assets/img/kk/kike-tordera.png" alt="" class="mx-auto">
     </div>
   </section>
 </template>
@@ -38,6 +38,9 @@ section {
    @apply w-full;
     .info {
         @apply pt-28 max-w-6xl lg:mx-auto w-full lg:flex grid-cols-1 gap-8 px-4 text-center lg:text-left;
+        img {
+          @apply max-w-xl;
+        }
         .content {
             @apply lg:w-1/2 w-full mt-16;
             h2 {

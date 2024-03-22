@@ -8,15 +8,16 @@
         <p data-aos="zoom-in-right">
           Discover my range of skills and expertise in various areas.
         </p>
+        <kike-about-Education />
         <kike-about-Languages />
         <hr>
         <kike-about-Programming />
         <hr>
         <kike-about-Skills :skills="leadershipSkills" :title="'Leadership Skills'" :color="'#55C5CA'" class="pb-12" />
         <kike-about-Skills :skills="softSkills" :title="'Soft Skills'" />
-        <button type="button" @click="whatsAppState.toggleModal()">
+        <a target="_blank" href="https://calendly.com/totemstudio" @click="whatsAppState.toggleModal()">
           Hire me
-        </button>
+        </a>
       </div>
     </div>
   </section>
@@ -28,14 +29,14 @@ import { WhatsAppStateProvider } from '~/store/whatsapp'
 const whatsAppState = WhatsAppStateProvider()
 
 const softSkills = [
-  'Communication',
-  'TeamWork',
+  'Effective Communication',
+  'Teamwork',
   'Problem Solving',
   'Time management',
   'Adaptability',
   'Leadership',
   'Empathy',
-  'Conflict Resolution',
+  'Active Listening',
   'Creativity'
 ]
 
@@ -48,7 +49,7 @@ const leadershipSkills = [
   'Team Building & Motivation',
   'Strategic Planning',
   'Emotional Intelligence',
-  'Effective Communication'
+  'Negotiation'
 ]
 </script>
 
@@ -85,7 +86,7 @@ section {
     }
   }
 }
-button {
+a {
     @include button-base;
     @apply my-8 block sm:w-min whitespace-nowrap;
     background-color: $button-color;

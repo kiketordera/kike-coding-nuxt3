@@ -12,27 +12,27 @@
     </div>
     <div class="nav-items">
       <ul>
-        <NuxtLink to="/projects/value-villages/" :class="{'about':getCurrentRoute==='/projects/value-villages/'}">
+        <NuxtLink to="/projects/value-villages" :class="{'green' : getCurrentRoute === '/projects/value-villages'}">
           <li
-
+            class="about"
             @mouseover="about = '/svg/vv/navbar/about-hover.svg'"
             @mouseleave="about = '/svg/vv/navbar/about.svg'"
           >
-            <img class="a" :src=" getCurrentRoute==='/projects/value-villages/'?'/svg/vv/navbar/about-hover.svg':about" alt="">
+            <img class="a" :src=" getCurrentRoute === '/projects/value-villages' ? '/svg/vv/navbar/about-hover.svg' : about" alt="">
             <p>About</p>
           </li>
         </NuxtLink>
-        <NuxtLink to="/projects/value-villages/design" :class="{'design':getCurrentRoute==='/projects/value-villages/design'}">
+        <NuxtLink to="/projects/value-villages/design" :class="{'pink' : getCurrentRoute === '/projects/value-villages/design'}">
           <li
             class="design"
             @mouseover="design = '/svg/vv/navbar/design-hover.svg'"
             @mouseleave="design = '/svg/vv/navbar/design.svg'"
           >
-            <img class="b" :src="getCurrentRoute==='/projects/value-villages/design'?'/svg/vv/navbar/design-hover.svg':design" alt="">
+            <img class="b" :src="getCurrentRoute==='/projects/value-villages/design' ? '/svg/vv/navbar/design-hover.svg' : design" alt="">
             <p>Design</p>
           </li>
         </NuxtLink>
-        <NuxtLink to="/projects/value-villages/features" :class="{'features':getCurrentRoute==='/projects/value-villages/features'}">
+        <NuxtLink to="/projects/value-villages/features" :class="{'orange':getCurrentRoute==='/projects/value-villages/features'}">
           <li
             class="features"
             @mouseover="features = '/svg/vv/navbar/features-hover.svg'"
@@ -62,17 +62,44 @@ const getCurrentRoute = computed(() => {
 </script>
 
 <style lang="scss" scoped>
-.about{
+.about {
+  border-bottom: 2px solid white;
+  &:hover {
+    color: $branding-green;
+    border-bottom: 2px solid $branding-green;
+  }
+}
+.green {
   color: $branding-green;
-  border-bottom: 2px solid $branding-green;
+  li {
+    border-bottom: 2px solid $branding-green;
+  }
 }
-.design{
-  color: #ED037C;
-  border-bottom: 2px solid #ED037C;
+.design {
+  border-bottom: 2px solid white;
+  &:hover {
+    color: $branding-pink;
+    border-bottom: 2px solid $branding-pink;
+  }
 }
-.features{
-  color: #f7941d;
-  border-bottom: 2px solid #f7941d;
+.pink {
+  color: $branding-pink;
+  li {
+    border-bottom: 2px solid $branding-pink;
+  }
+}
+.features {
+  border-bottom: 2px solid white;
+  &:hover {
+    color: $branding-orange;
+    border-bottom: 2px solid $branding-orange;
+  }
+}
+.orange {
+  color: $branding-orange;
+  li {
+    border-bottom: 2px solid $branding-orange;
+  }
 }
 
 * {
@@ -91,7 +118,6 @@ nav {
   box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.3);
   background-color: white;
   z-index: 10;
-  // border-bottom: 2px solid white;
 
   & .logo {
     margin: 0rem 1rem;
@@ -100,7 +126,8 @@ nav {
     padding-top: 9px;
     border-bottom: 2px solid white;
     cursor: pointer;
-    &:hover {
+    &:hover
+     {
       color: #f7941d;
       border-bottom: 2px solid #f7941d;
     }
@@ -143,60 +170,55 @@ nav {
           padding-top: 5px;
           margin: 0 auto;
 
-          &:hover {
-            color: $branding-green;
-          }
         }
 
-        border-bottom: 2px solid white;
-        &:hover {
-          color: $branding-green;
-          border-bottom: 2px solid $branding-green;
-        }
+        // border-bottom: 2px solid white;
+        // &:hover,
+        // &.active {
+        //   color: $branding-green;
+        //   border-bottom: 2px solid $branding-green;
+        // }
 
         p {
           font-size: 0.8rem;
           letter-spacing: 0.05em;
         }
 
-      }
-      & .design {
-        &:hover {
-          color: #ED037C;
-          border-bottom: 2px solid #ED037C;
+        & .features {
+          &:hover,
+          &.active {
+            color: #f7941d;
+            border-bottom: 2px solid #f7941d;
+          }
         }
-      }
-      & .features {
-        &:hover {
-          color: #f7941d;
-          border-bottom: 2px solid #f7941d;
-        }
-      }
-      & .manuals {
-        padding: 0;
-        margin-left: -2rem;
-        margin-right: -3rem;
+        & .manuals {
+          padding: 0;
+          margin-left: -2rem;
+          margin-right: -3rem;
 
-        &:hover {
-          color: #a97c50;
-          border-bottom: 2px solid #a97c50;
-        }
+          &:hover,
+          &.active {
+            color: #a97c50;
+            border-bottom: 2px solid #a97c50;
+          }
 
-        & img {
-          width: 10%;
+          & img {
+            width: 10%;
 
-          &:hover {
-            background-color: #a97c50;
+            &:hover,
+              &.active {
+              background-color: #a97c50;
 
-            * {
-              margin: 0;
-              padding: 0;
-              box-sizing: border-box;
-              font-family: "Nunito" !important;
+              * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: "Nunito" !important;
+              }
             }
           }
         }
-      }
+    }
     }
 
     & a {

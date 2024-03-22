@@ -6,7 +6,7 @@
           <ul>
             <li>
               <a target="_blank" href="https://www.linkedin.com/in/kiketordera/">
-                <img src="~assets/svg/kk/linkedin.svg" alt="">
+                <img src="~assets/svg/kk/linkedin.svg" alt="" class="mx-auto">
               </a>
             </li>
             <!-- <li>
@@ -15,7 +15,7 @@
               </a>
             </li> -->
             <li>
-              <a href="mailto:kiketordera@gmail.com">
+              <a :href="`mailto:${ContactInformation.email}`">
                 <img src="~assets/svg/kk/mail.svg" alt="">
               </a>
             </li>
@@ -35,6 +35,8 @@
 </template>
 
 <script lang="ts" setup>
+import { ContactInformation } from '../../../data_helper/contact'
+
 // const year = computed(() => new Date().getFullYear())
 </script>
 
@@ -47,7 +49,7 @@ footer {
     background-color: black;
 
     .social-media {
-      @apply flex lg:flex-row flex-col justify-between items-center;
+      @apply flex justify-between items-center;
       font-weight: 600;
 
       .items {

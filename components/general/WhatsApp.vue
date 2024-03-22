@@ -59,7 +59,7 @@ import { ContactInformation } from '~/data_helper/contact'
 const whatsAppState = WhatsAppStateProvider()
 const namePersonChat = 'Kike Tordera'
 const status = 'Answers in less than 1 hour'
-const imgProfile = '/external/whatsapp-profile.png'
+const imgProfile = '/external/whatsapp-profile.jpeg'
 
 // Pre written text when click "Contact"
 const havePreWrittenText = true
