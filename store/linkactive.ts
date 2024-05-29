@@ -1,7 +1,7 @@
 import { defineStore } from 'pinia'
 
 export const LinkActiveStateProvider = defineStore({
-  id: 'linkstate',
+  id: 'linkstate-kike-coding',
   state: () => ({
     isActive: true,
 

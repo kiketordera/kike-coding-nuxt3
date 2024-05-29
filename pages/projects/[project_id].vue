@@ -23,7 +23,7 @@
 const { default: projects } = await import('~/assets/data/projects.json')
 
 const route = useRoute()
-const link = route.params.projectid
+const link = route.params.project_id
 const project = projects.find(a => a.url === `/projects/${link}`)!
 
 useSeoMeta({
