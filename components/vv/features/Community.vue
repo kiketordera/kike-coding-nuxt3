@@ -26,7 +26,7 @@
       </div>
 
       <div data-aos="zoom-out-up" class="structure">
-        <img src="~/assets/img/vv/graph.png" alt="">
+        <NuxtImg src="/img/vv/graph.png" alt="" />
       </div>
       <p data-aos="fade-up" class="content">
         To serve the different villages and communities, there are 6 languages included, what gives you a huge

@@ -7,10 +7,10 @@
         held at the Polytechnic University of Valencia, Spain, we secured both first and third positions in two of the categories.
       </p>
       <a data-aos="zoom-out-up" href="https://blogthinkbig.com/">
-        <img src="~assets/img/vv/think-big.jpeg" alt="">
+        <NuxtImg src="/img/vv/think-big.jpeg" alt="" />
       </a>
       <a data-aos="zoom-out-up" href="https://www.fundaciontelefonica.com/">
-        <img src="~assets/img/vv/telefonica.png" alt="">
+        <NuxtImg src="/img/vv/telefonica.png" alt="" />
       </a>
     </div>
   </section>

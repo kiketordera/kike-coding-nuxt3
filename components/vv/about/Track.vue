@@ -21,7 +21,7 @@
         </p>
       </div>
       <div class="box-img">
-        <img src="~assets/img/vv/box.png" alt="">
+        <NuxtImg src="/img/vv/box.png" alt="" />
       </div>
     </div>
   </section>

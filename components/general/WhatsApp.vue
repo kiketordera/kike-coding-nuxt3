@@ -8,7 +8,7 @@
         <div class="header">
           <div class="info">
             <div class="img-widget">
-              <img :src="imgProfile" alt="">
+              <NuxtImg :src="imgProfile" alt="" />
             </div>
             <div class="title">
               <h2>{{ namePersonChat }}</h2>

@@ -31,7 +31,7 @@
         </p>
       </div>
       <div data-aos="zomm-out-up" class="box-img">
-        <img src="~assets/img/vv/excel.png" class="-mt-8 mb-3" alt="">
+        <NuxtImg src="/img/vv/excel.png" class="-mt-8 mb-3" alt="" />
       </div>
       <div data-aos="zomm-out-up" class="info">
         <p>

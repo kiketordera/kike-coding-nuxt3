@@ -1,13 +1,13 @@
 <template>
   <div class="showcase-img">
-    <img
+    <NuxtImg
       v-for="(img, i) in props.links"
       :key="img"
       :src="img"
       alt=""
       data-aos="fade-up"
       :class="{ 'span': isFirst(i) || isLastAndEven(i) }"
-    >
+    />
   </div>
 </template>
 <script lang="ts" setup>

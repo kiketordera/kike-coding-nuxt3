@@ -95,14 +95,14 @@ export default defineNuxtConfig({
     identity: {
       type: "Person",
       name: ContactInformation.title,
-      givenName: "Sergio López",
-      jobTitle: "Tatuador",
+      givenName: "Kike Tordera",
+      jobTitle: "Mobile Developer",
       url: ContactInformation.fullURL,
       contactPoint: {
         email: ContactInformation.email,
         telephone: `${ContactInformation.countryCode} ${ContactInformation.phoneNumber}`,
       },
-      logo: `${ContactInformation.fullURL}logo.png`,
+      logo: `${ContactInformation.fullURL}logo.jpeg`,
       sameAs: [ContactInformation.linkedINURL],
     },
   },

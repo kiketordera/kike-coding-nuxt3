@@ -28,19 +28,19 @@
       </div>
       <div class="box-img mt-4">
         <div data-aos="zoom-in-right" class="details">
-          <img src="~assets/img/vv/system.png" alt="">
+          <NuxtImg src="/img/vv/system.png" alt="" />
           <p>
             Create your own video courses and introduce them into the system.
           </p>
         </div>
         <div data-aos="zoom-in-up" class="details">
-          <img src="~assets/img/vv/vikapu.png" alt="">
+          <NuxtImg src="/img/vv/vikapu.png" alt="" />
           <p>
             Introduce the different steps guiding all the process
           </p>
         </div>
         <div data-aos="zoom-in-left" class="details dis">
-          <img src="~assets/img/vv/rings.png" alt="">
+          <NuxtImg src="/img/vv/rings.png" alt="" />
           <p>
             See the records of the different products made out of the video courses
           </p>

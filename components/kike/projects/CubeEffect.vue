@@ -34,7 +34,7 @@
                     :style="`background-color: ${project.color_bg_logo}`"
                     style="height: 100%; opacity: 0.85; backdrop-filter: blur(10px);"
                   >
-                    <img :src="project.logo" :alt="`${project.name} logo`" class="logo">
+                    <NuxtImg :src="project.logo" :alt="`${project.name} logo`" class="logo" />
                   </div>
                 </v-expand-transition>
               </v-img>

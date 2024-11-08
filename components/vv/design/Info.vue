@@ -1,6 +1,6 @@
 <template>
   <div class="content">
-    <img v-if="left && !mobile" :src="`/img/vv/boundaries/${props.image}`" alt="">
+    <NuxtImg v-if="left && !mobile" :src="`/img/vv/boundaries/${props.image}`" alt="" />
     <div class="text">
       <div class="title">
         <img class="icon" :src="`/svg/vv/boundaries/${props.icon}`" alt="icon">
@@ -12,8 +12,8 @@
         {{ text }}
       </p>
     </div>
-    <img v-if="!left && !mobile" :src="`/img/vv/boundaries/${props.image}`" alt="">
-    <img v-if="mobile" :src="`/img/vv/boundaries/${props.image}`" :class="{ 'mobile-image': mobile }" alt="">
+    <NuxtImg v-if="!left && !mobile" :src="`/img/vv/boundaries/${props.image}`" alt="" />
+    <NuxtImg v-if="mobile" :src="`/img/vv/boundaries/${props.image}`" :class="{ 'mobile-image': mobile }" alt="" />
   </div>
 </template>
 

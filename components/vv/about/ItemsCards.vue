@@ -2,7 +2,7 @@
   <section>
     <div class="card-items">
       <div class="items">
-        <img src="~assets/img/vv/workshop.png" alt="">
+        <NuxtImg src="/img/vv/workshop.png" alt="" />
         <p>
           Software platform for the NGOs that works on the ground and they have a focus on vocational training or
           education

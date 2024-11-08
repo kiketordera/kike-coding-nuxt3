@@ -4,7 +4,7 @@
     <div class="team">
       <div class="cards">
         <div v-for="team in allTeams" :key="team.name" data-aos="zoom-out-up" class="team-section">
-          <img :src="`/img/vv/teams/${team.img}`" alt="">
+          <NuxtImg :src="`/img/vv/teams/${team.img}`" alt="" />
           <span>{{ team.name }}</span>
           <h3>{{ team.title }}</h3>
           <p>

@@ -11,10 +11,10 @@
       }"
     >
       <swiper-slide v-for="img in props.imgs" :key="img" class="swipper">
-        <img
+        <NuxtImg
           :src="img"
           class="elevation-8 mx-auto rounded-[1rem]"
-        >
+        />
       </swiper-slide>
     </swiper-container>
   </ClientOnly>

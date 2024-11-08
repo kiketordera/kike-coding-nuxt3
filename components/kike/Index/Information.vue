@@ -22,7 +22,7 @@
           Hire me
         </a>
       </div>
-      <img src="~assets/img/kk/kike-tordera.png" alt="" class="mx-auto">
+      <NuxtImg src="/img/kk/kike-tordera.png" alt="" class="mx-auto" />
     </div>
   </section>
 </template>

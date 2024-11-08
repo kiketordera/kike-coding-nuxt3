@@ -34,7 +34,7 @@
         </div>
         <div data-aos="zoom-out-up" class="box-img">
           <div class="details">
-            <img src="~assets/img/vv/car.png" alt="">
+            <NuxtImg src="/img/vv/car.png" alt="" />
             <p>
               Create your own video courses and introduce them into the system.
             </p>

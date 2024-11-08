@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="village">
-      <img data-aos="zoom-in" src="~assets/img/vv/logo.png" alt="" class="logo">
+      <NuxtImg data-aos="zoom-in" src="/img/vv/logo.png" alt="" class="logo" />
       <h1 data-aos="zoom-in">
         Welcome to Value Villages Web App
       </h1>

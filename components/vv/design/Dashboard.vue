@@ -18,7 +18,7 @@
           <li><b>-Logout:</b> to close your session</li>
         </ul>
       </div>
-      <img src="~assets/img/vv/design-dashboard.png" :class="{ 'mobile-image': mobile }" alt="">
+      <NuxtImg src="/img/vv/design-dashboard.png" :class="{ 'mobile-image': mobile }" alt="" />
     </div>
   </div>
 </template>

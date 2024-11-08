@@ -23,12 +23,12 @@
                     :style="`background-color: ${project.color_bg_logo}`"
                     style="height: 100%; opacity: 0.85; backdrop-filter: blur(10px);"
                   >
-                    <img
+                    <NuxtImg
                       :src="project.logo"
                       :alt="`${project.name} logo`"
                       class="mx-auto max-h-[170px] w-2/3 max-w-[170px] object-contain sm:max-h-[300px] sm:max-w-[300px]"
                       loading="lazy"
-                    >
+                    />
                   </div>
                 </v-expand-transition>
               </div>

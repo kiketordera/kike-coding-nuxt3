@@ -21,7 +21,7 @@
           Because, in the end, it's all about creating something that's more than just the sum of its parts. Ready to
           create magic together?
         </p>
-        <img src="~assets/img/kk/kike.jpg" alt="" class="profile">
+        <NuxtImg src="/img/kk/kike.jpg" alt="" class="profile" />
         <button data-aos="zoom-up-down" type="submit">
           <img src="~assets/svg/kk/resume.svg" alt="">
           <a href="/kike-tordera-cv-human.pdf">Download Resume (Designed for Humans)</a>
