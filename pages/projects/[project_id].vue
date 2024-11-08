@@ -20,11 +20,13 @@
 
 <script lang="ts" setup>
 
+import { Project } from '../../types/types';
+
 const { default: projects } = await import('~/assets/data/projects.json')
 
 const route = useRoute()
 const link = route.params.project_id
-const project = projects.find(a => a.url === `/projects/${link}`)!
+const project = projects.find((a: Project) => a.url === `/projects/${link}`)!
 
 useSeoMeta({
   title: project.name,

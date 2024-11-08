@@ -18,6 +18,7 @@
     </NuxtLayout>
   </main>
 </template>
+
 <script lang="ts" setup>
 const siteMeta = useSiteMeta()
 const showCookieConsent = ref(false)
