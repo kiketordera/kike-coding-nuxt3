@@ -1,6 +1,5 @@
 import { defineNuxtConfig } from "nuxt/config";
-import { ContactInformation } from "./data_helper/contact";
-import Vue from "@vitejs/plugin-vue";
+import { ContactInformation } from "./app/data_helper/contact";
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
