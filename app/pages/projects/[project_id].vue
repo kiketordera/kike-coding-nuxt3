@@ -28,13 +28,11 @@ const route = useRoute()
 const link = route.params.project_id as string
 const project = projects.find((a: Project) => a.url === `/projects/${link}`)!
 
+const config = useRuntimeConfig()
 useSeoMeta({
-  title: project.name,
+  title: `${config.public.site?.name} | ${project.name}`,
   description: project.firstDescription[0],
 })
-// definePageMeta({
-//   layouts: 'project'
-// })
 </script>
 
 <style lang="scss" scoped>

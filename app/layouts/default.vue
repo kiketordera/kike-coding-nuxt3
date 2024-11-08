@@ -79,6 +79,14 @@ function handleMouseLeave () {
   whatsAppState.showWhatsApp()
 }
 
+
+defineOgImageScreenshot({
+  screenshot: {
+    mask: '.whatsapp-popup-button',
+    delay: 10000
+  }
+})
+
 </script>
 
 <style lang="scss">
