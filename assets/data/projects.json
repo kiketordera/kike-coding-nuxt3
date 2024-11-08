@@ -22,7 +22,9 @@
         "firstGroupImages": [],
         "secondtitle": "",
         "secondDescription": [],
-        "secondGroupImages": []
+        "secondGroupImages": [],
+        "titleSEO": "Value Villages - Empowering Communities",
+        "descriptionSEO": "Discover how Value Villages is transforming communities through innovative solutions and collaborative initiatives."
     },
     {
         "id": 1,
@@ -34,7 +36,6 @@
         "color_bg_title": "#008080",
         "color_title": "white",
         "url": "/projects/oculid",
-        "seoDescription": "Redefining User Experience Analysis with Precision and Ethics. Explore a groundbreaking application that captures real-time user interactions, from heat maps to voice notes, all processed by advanced machine learning for unparalleled UX insights. Designed with a commitment to transparency and user consent, Oculid offers businesses a unique blend of technical prowess and ethical data collection.",
         "intro": {
             "coverImg": "/img/projects/oculid/background.png",
             "services": [
@@ -85,7 +86,9 @@
             "/img/projects/oculid/carousel/tutorial6.svg",
             "/img/projects/oculid/carousel/tutorial7.svg",
             "/img/projects/oculid/carousel/tutorial8.svg"
-        ]
+        ],
+        "titleSEO": "Oculid - Redefining User Experience Analysis",
+        "descriptionSEO": "Explore Oculid, a groundbreaking application that captures real-time user interactions with precision and ethics."
     },
     {
         "id": 2,
@@ -97,7 +100,6 @@
         "color_bg_title": "#00588E",
         "color_title": "white",
         "url": "/projects/eva-drones",
-        "seoDescription": "Eva Drones: Pioneering the Future of Deliveries with Technological Excellence. Dive into a transformative drone ecosystem designed for everything from urban pizza deliveries to critical aid in conflict zones. Discover an integrated platform that prioritizes operational fluency, real-time controls, and a vision for global impact. Experience the blend of innovation and purpose in drone operations.",
         "intro": {
             "coverImg": "/img/projects/drones/background.png",
             "services": [
@@ -147,7 +149,9 @@
             "/img/projects/drones/carousel/eva-drones15.svg",
             "/img/projects/drones/carousel/eva-drones17.svg",
             "/img/projects/drones/carousel/eva-drones16.svg"
-        ]
+        ],
+        "titleSEO": "Eva Drones - Pioneering Delivery Innovation",
+        "descriptionSEO": "Explore Eva Drones, transforming delivery systems with a visionary drone ecosystem designed for efficiency and impact."
     },
     {
         "id": 3,
@@ -159,7 +163,6 @@
         "color_bg_title": "#3F62AC",
         "color_title": "white",
         "url": "/projects/action-coast",
-        "seoDescription": "Unlocking Authentic Coastal Adventures with Cutting-Edge Technology. Discover a platform designed to reveal the world's hidden coastal gems, focusing on local secrets and untapped adventures. Merging advanced technologies like Flutter, Dart, and Vue.js with curated content, Action Coast offers travelers a unique journey beyond generic guidebooks. Experience a blend of geo-specific content, comprehensive reviews, and genuine local experiences, making it the go-to portal for authentic coastal adventures.",
         "intro": {
             "coverImg": "/img/projects/oculid/background.png",
             "services": [
@@ -212,6 +215,8 @@
             "/img/projects/action-coast/carousel/action-coast16.svg",
             "/img/projects/action-coast/carousel/action-coast17.svg",
             "/img/projects/action-coast/carousel/action-coast19.svg"
-        ]
+        ],
+        "titleSEO": "Action Coast - Authentic Coastal Adventures",
+        "descriptionSEO": "Experience authentic coastal adventures with Action Coast, merging technology and local insights for unique travel experiences."
     }
 ]

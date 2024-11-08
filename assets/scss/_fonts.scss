@@ -1,6 +1,8 @@
+@use './variables' as *;
+
 // Nunito
 @font-face {
-  font-family: 'Nunito Regular';
+  font-family: $nunito-regular;
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -9,7 +11,7 @@
 
 // Source Code Pro
 @font-face {
-  font-family: 'Source Code Pro Regular';
+  font-family: $source-code-regular;
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -17,7 +19,7 @@
 }
 
 @font-face {
-  font-family: 'Source Code Pro SemiBold';
+  font-family: $source-code-semibold;
   font-style: normal;
   font-weight: 600;
   font-display: swap;
@@ -25,7 +27,7 @@
 }
 
 @font-face {
-  font-family: 'Source Code Pro Bold';
+  font-family: $source-code-bold;
   font-style: normal;
   font-weight: 700;
   font-display: swap;
@@ -33,7 +35,7 @@
 }
 
 @font-face {
-  font-family: 'Source Code Pro Black';
+  font-family: $source-code-black;
   font-style: normal;
   font-weight: 700;
   font-display: swap;

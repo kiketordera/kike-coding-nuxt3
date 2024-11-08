@@ -5,22 +5,29 @@ export interface WhatsAppState {
 }
 
 export interface Project {
-  id: number
-  name: string
-  mainImg: string
-  img: string
-  logo: string
-  url: string
-  client: string
-  intro: string[]
-  coverImg: string
-  link: string
-  slogan: string
-  service: Array<string>
-  duration: string
-  introText: string
-  firstGroupImages: string[]
-  secondGroupImages: string[]
-  section: Array<string>
-  backgroundColor: string
+  id: number;
+  name: string;
+  logo: string;
+  mainImg: string;
+  client: string;
+  color_bg_logo: string;
+  color_bg_title: string;
+  color_title: string;
+  url: string;
+  intro: {
+      coverImg: string;
+      services: string[];
+      tech: string[];
+      year: string;
+      url: string;
+  };
+  imagesType: string;
+  firstTitle: string;
+  firstDescription: string[];
+  firstGroupImages: string[];
+  secondtitle: string;
+  secondDescription: string[];
+  secondGroupImages: string[];
+  titleSEO: string;
+  descriptionSEO: string;
 }

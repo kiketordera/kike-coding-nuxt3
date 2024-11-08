@@ -44,7 +44,7 @@
         </div>
       </div>
     </transition>
-    <button type="button" class="popup-button" @click="whatsAppState.toggleModal()">
+    <button type="button" class="whatsapp-popup-button" @click="whatsAppState.toggleModal()">
       <img src="/external/whatsapp.svg" alt="">
       <div v-if="whatsAppState.notificationVisible" class="notification-dot" />
     </button>
@@ -148,7 +148,7 @@ onMounted(() => {
         }
        }
     }
-    .popup-button {
+    .whatsapp-popup-button {
       @apply outline-0 appearance-none border-0 items-center justify-between flex flex-row
           cursor-pointer align-middle self-center rounded-full w-[55px] h-[55px] absolute bottom-0 right-0;
       background-color: transparent;

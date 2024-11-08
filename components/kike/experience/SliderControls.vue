@@ -2,13 +2,13 @@
   <section>
     <hr>
     <div class="content">
-      <NuxtLink :to="projects[getPrev()].url" aria-label="Previous project">
+      <NuxtLink :to="projects[getPrev()]?.url" aria-label="Previous project">
         Previous Project
       </NuxtLink>
       <NuxtLink to="/" aria-label="All project">
         <img class="float-center" src="/svg/pramid.svg" alt="All project icon">
       </NuxtLink>
-      <NuxtLink :to="projects[getNext()].url" aria-label="Next project">
+      <NuxtLink :to="projects[getNext()]?.url" aria-label="Next project">
         Next Project
       </NuxtLink>
     </div>

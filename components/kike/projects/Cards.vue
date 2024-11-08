@@ -48,6 +48,7 @@
 <script lang="ts" setup>
 import { register } from 'swiper/element/bundle'
 import { ref, onMounted, onUnmounted } from 'vue'
+
 import projects from '../../../assets/data/projects.json'
 
 register()
@@ -79,7 +80,7 @@ function onSlideChange (e: any) {
   activeSlide.value = e.detail[0].activeIndex
 }
 const currentProject = computed(() => {
-  return projects[activeSlide.value].url
+  return projects[activeSlide.value]?.url
 })
 
 </script>

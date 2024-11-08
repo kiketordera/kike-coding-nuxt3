@@ -69,7 +69,7 @@ register()
 const activeSlide = ref(0) // default to the first slide
 
 const currentProject = computed(() => {
-  return projects[activeSlide.value].url
+  return projects[activeSlide.value]?.url
 })
 
 function onSlideChange (e: any) {

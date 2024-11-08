@@ -1,149 +1,168 @@
-import { ContactInformation } from './data_helper/contact'
-import projects from './assets/data/projects.json'
-// const { default: projects } = await import('~/assets/data/projects.json')
-const getProjectRoutes = () => {
-  return projects.map(project => project.url)
-  // return projects.find(a => a.url === `/projects/${link}`)!
-}
+import { defineNuxtConfig } from "nuxt/config";
+import { ContactInformation } from "./data_helper/contact";
+import Vue from "@vitejs/plugin-vue";
 
 export default defineNuxtConfig({
-  ssr: true,
-  hooks: {
-    async 'nitro:config' (nitroConfig) {
-      // fetch the routes from our function above
-      const urls = await getProjectRoutes()
-      // add the routes to the nitro config
-      nitroConfig.prerender?.routes?.push(...urls)
-    }
-},
+  devtools: { enabled: true },
+  future: {
+    compatibilityVersion: 4,
+  },
   typescript: {
     strict: true,
-    typeCheck: true
+    typeCheck: true,
+    shim: false,
   },
-
-  modules: ['@nuxtjs/tailwindcss', '@pinia/nuxt', '@dargmuesli/nuxt-cookie-control', 'nuxt-gtag', 'nuxt-security'],
-  runtimeConfig: {
-    indexable: true,
-    public: {
-      GOOGLE_ANALYTICS_MEASUREMENTID: process.env.GOOGLE_ANALYTICS_MEASUREMENTID,
-      siteUrl: ContactInformation.fullURL,
-      siteName: ContactInformation.title,
-      // eslint-disable-next-line max-len
-      siteDescription: 'UX / UI designer and software engineer with a solid base in programming thanks to my studies and international experience',
-      language: 'en-gb'
-    },
+  // Render SSG mode
+  routeRules: {
+    "**": { prerender: true },
   },
-
-  plugins: [
-    { src: '~/plugins/aos', mode: 'client', ssr: false }
+  // For the package `nuxt-delay-hydration`
+  delayHydration: {
+    debug: true,
+    mode: "init",
+  },
+  // Packages
+  modules: [
+    "@dargmuesli/nuxt-cookie-control",
+    "@nuxtjs/tailwindcss",
+    "@nuxtjs/i18n",
+    "@pinia/nuxt",
+    "nuxt-aos",
+    "@nuxt/eslint",
+    // Analisis
+    "nuxt-gtag",
+    "@nuxtjs/seo",
+    // Optimizations
+    "nuxt-delay-hydration",
+    "@nuxt/image",
+    "@vite-pwa/nuxt",
   ],
-
+  build: {
+    transpile: ["vuetify"],
+  },
+  // SCSS
   vite: {
     css: {
       preprocessorOptions: {
+        sass: {
+          api: "modern",
+        },
         scss: {
-          additionalData: '@import "@/assets/scss/main.scss", "@/assets/scss/variables.scss";'
-        }
-      }
-    }
-  },
-  css: ['vuetify/lib/styles/main.sass'],
-
-  build: {
-    transpile: ['vuetify']
-  },
-    app: {
-    layoutTransition: { name: 'layout', mode: 'out-in' },
-    head: {
-      title: 'Kike Tordera',
-      link: [
-        { rel: 'icon', type: 'image/png', href: '/favicon.png' },
-      ],
-      style: [
-        // This will change the bouncing color when you scroll.
-        // Put the branding color of the project here.
-        { children: 'body { background-color: black }' },
-        { children: 'html, body { overflow-x: hidden; }' },
-      ]
-    },
-  },
-  // Cookie control with consent
-  cookieControl: {
-    barPosition: 'bottom-left',
-    cookies: {
-      necessary: [],
-      optional: [
-        {
-          description: {
-            // eslint-disable-next-line max-len
-            en: 'These cookies gather information about how many people visit and use our website. Switching these off means we can\'t gather information to improve the experience.'
-          },
-          id: 'ga',
-          name: {
-            en: 'Analytics'
-          },
-          targetCookieIds: ['cookie_control_consent', 'cookie_control_enabled_cookies'],
-        }
-      ],
-    },
-    localeTexts: {
-      en: {
-        accept: 'Accept all',
-        bannerDescription: 'This website uses cookies to improve your experience.',
-        manageCookies: 'Manage cookies',
-        save: 'Save preferences',
+          api: "modern",
+          additionalData: `
+          @use "@/assets/scss/variables" as *;
+          @use "@/assets/scss/base" as *;
+          `,
+        },
       },
     },
-    isAcceptNecessaryButtonEnabled: false,
-    // typed module options
   },
+  css: ["vuetify/lib/styles/main.sass", "@/assets/scss/main.scss" ],
+  app: {
+    head: {
+      link: [{ rel: "icon", type: "image/png", href: "/favicon.png" }],
+      titleTemplate: "",
+      style: [
+        { children: "html, body { background-color: black; }" },
+        { children: "html, body { overflow-x: hidden; }" },
+      ],
+    },
+  },
+  // SEO
   gtag: {
-    initialConsent: false,
-    id: process.env.GOOGLE_ANALYTICS_MEASUREMENTID
+    id: process.env.GOOGLE_ANALYTICS_MEASUREMENTID,
   },
-// End of Cookie control with consent
-
-// SEO
-extends: [
-  'nuxt-seo-kit'
-],
-nitro: {
-  preset: 'firebase',
-  firebase: {
-    nodeVersion: '18',
-    gen: 1,
-    region: 'us-central1'
+  ogImage: {
+    defaults: {
+      extension: "jpeg",
+    },
   },
-  prerender: {
-    // ignore: ['/projects', '/legal'],
-    crawlLinks: true,
-    routes: ['/'],
+  site: {
+    siteUrl: ContactInformation.fullURL,
   },
-  esbuild: {
-    options: {
-      target: 'esnext'
-    }
+  runtimeConfig: {
+    public: {
+      site: {
+        url: ContactInformation.fullURL,
+        name: ContactInformation.title,
+        description: ContactInformation.description,
+        indexable: true,
+      },
+      siteUrl: ContactInformation.fullURL,
+    },
   },
-},
-
-// End of SEO
-security: {
-  rateLimiter: {
-    tokensPerInterval: 20,
-    interval: 'hour',
+  schemaOrg: {
+    identity: {
+      type: "Person",
+      name: ContactInformation.title,
+      givenName: "Sergio López",
+      jobTitle: "Tatuador",
+      url: ContactInformation.fullURL,
+      contactPoint: {
+        email: ContactInformation.email,
+        telephone: `${ContactInformation.countryCode} ${ContactInformation.phoneNumber}`,
+      },
+      logo: `${ContactInformation.fullURL}logo.png`,
+      sameAs: [ContactInformation.linkedINURL],
+    },
   },
- headers: {
-  crossOriginEmbedderPolicy: false,
-  // contentSecurityPolicy: false,
-
-  contentSecurityPolicy: false
- }
-
-},
-vue: {
-  compilerOptions: {
-    isCustomElement: tag => ['swiper-container', 'swiper-slide'].includes(tag),
+  // i18n
+  i18n: {
+    strategy: "no_prefix",
+    baseUrl: ContactInformation.fullURL,
+    lazy: true,
+    locales: [
+      {
+        code: "es",
+        language: "es-ES",
+        name: "Español (España)",
+        file: "es-ES.json",
+      },
+      {
+        code: "en",
+        language: "en-US",
+        name: "English (US)",
+        file: "en-US.json",
+      },
+      {
+        code: "fr",
+        name: "French (France)",
+        language: "fr-FR",
+        file: "fr-FR.json",
+      },
+      {
+        code: "nl",
+        name: "Dutch (Netherlands)",
+        language: "nl-NL",
+        file: "nl-NL.json",
+      },
+      {
+        code: "de",
+        name: "German (Germany)",
+        language: "de-DE",
+        file: "de-DE.json",
+      },
+      {
+        code: "pt",
+        name: "Portuguese (Portugal)",
+        language: "pt-PT",
+        file: "pt-PT.json",
+      },
+    ],
   },
-},
-routeRules: { '/projects': { ssr: false }, '/legal': { ssr: false } }
-})
+  // Deployment
+  nitro: {
+    prerender: {
+      routes: ["/"],
+    },
+    preset: "firebase",
+    firebase: { nodeVersion: "18", gen: 1, region: "us-central1" },
+    serverAssets: [
+      {
+        baseName: "authkey",
+        dir: "./authkey",
+      },
+    ],
+  },
+  compatibilityDate: "2024-11-02",
+});

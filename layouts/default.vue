@@ -21,12 +21,12 @@ const onSectionClicked = ({ section }: { section: string }) => {
 }
 const checkSectionInView = () => {
   for (let i = sections.length - 1; i >= 0; i--) {
-    const el = document.getElementById(sections[i])
+    const el = document.getElementById(sections[i]!)
     const rect = el?.getBoundingClientRect()
 
     // Check if the top of the section is within the top 25% of the viewport height
     if (rect && rect.top <= window.innerHeight / 1.5 && rect.bottom >= 0) {
-      currentSection.value = sections[i]
+      currentSection.value = sections[i]!
       // router.replace({ hash: `#${sections[i]}` })
       window.history.replaceState(window.history.state, '', `#${sections[i]}`)
       linkstate.$state.isActive = false
