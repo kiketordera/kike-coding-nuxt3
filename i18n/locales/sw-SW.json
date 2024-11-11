@@ -121,8 +121,32 @@
         "contact": "Wasiliana"
     },
     "labels": {
-    "about": "Kuhusu",
-    "design": "Ubunifu",
-    "features": "Vipengele"
-  }
+        "about": "Kuhusu",
+        "design": "Ubunifu",
+        "features": "Vipengele"
+    },
+    "seo": {
+        "index": {
+            "title": "Kike Tordera | Kuunda kazi bora za kidijitali",
+            "description": "Gundua utaalamu wangu kama mhandisi wa UX/UI na msanidi programu wa simu. Chunguza miradi bunifu na maarifa katika uzoefu wa mtumiaji usio na mshono na suluhisho za programu za kisasa. Wacha tuunde uchawi wa kidijitali pamoja!"
+        },
+        "about": {
+            "title": "Kike Tordera - Kuhusu Mimi | Msanidi & Mbunifu mwenye makao yake Berlin",
+            "description": "Zama katika safari ya Kike Tordera, mpenzi wa teknolojia mwenye makao yake Berlin anayechanganya utaalamu wa kuandika programu na shauku ya kubuni. Gundua mchanganyiko wa kipekee wa ujuzi wa kiufundi, uzoefu wa kimataifa, na kujitolea kwa kuunda uzoefu bora wa kidijitali. Chunguza umahiri katika lugha nyingi, majukwaa ya kuandika programu, na sifa za uongozi zinazomtofautisha Kike katika ulimwengu wa teknolojia."
+        },
+        "valueVillages": {
+            "home": {
+                "title": "Kike Tordera | Value Villages - Kuwawezesha jamii kupitia soko endelevu na jumuishi",
+                "description": "Kuwawezesha Jamii kupitia Elimu Inayoweza Kupanuka na Mafunzo ya Ufundi. Zama katika programu ya wavuti ya chanzo huria na jukwaa mbalimbali iliyoundwa kwa ajili ya NGOs zinazopambana na umaskini na ukosefu wa usawa. Pata uzoefu wa mchanganyiko wa mafunzo ya video, ufuatiliaji wa maendeleo kwa wakati halisi, na interfaces rafiki kwa mtumiaji, vyote vimeundwa kuinua jamii za mitaa. Kuanzia shughuli za biashara ya haki hadi utengenezaji wa bidhaa za jadi, Value Villages inatoa suluhisho la gharama nafuu kwa elimu inayoweza kupanuka, kuhakikisha kila mtu, hata wale wasiojua kusoma na kuandika, anaweza kuelewa mapato na michango yao. Imetunukiwa kwa ubunifu, jukwaa hili linaziba pengo kati ya teknolojia na uwezeshaji."
+            },
+            "design": {
+                "title": "Kike Tordera | Value Villages - Ubunifu zaidi ya mipaka",
+                "description": "Kubuni Interfaces Intuitively kwa Wote: Chunguza suluhisho bunifu zilizobinafsishwa kwa watumiaji zaidi ya vizuizi vya kusoma na kuandika. Kutoka uthibitishaji unaotegemea hadithi hadi alfabeti ya nambari iliyorahisishwa, pata uzoefu wa jukwaa linalotanguliza uelewa na urahisi. Zama katika dashibodi inayotoa huduma maalum, vitendo vya kimataifa, na vipimo vya utendaji, vyote vimewasilishwa na ikonografia wazi na mafunzo ya video. Iliyoundwa kuwawezesha, jukwaa hili linaunganisha bila mshono muundo rafiki kwa mtumiaji na utendaji, kuhakikisha kila mtumiaji, bila kujali kiwango cha kusoma na kuandika, anaweza kusafiri kwa kujiamini."
+            },
+            "features": {
+                "title": "Kike Tordera | Value Villages - Vipengele vinavyowawezesha jamii zilizotengwa",
+                "description": "Kuwawezesha Jamii na Suluhisho za Kidijitali. Zama katika jukwaa kamili lililoundwa kwa ajili ya NGOs, linalotoa huduma maalum, data za wakati halisi, na usaidizi wa lugha nyingi. Kutoka hali za nje ya mtandao katika maeneo ya mbali hadi mafunzo ya video hatua kwa hatua, pata uzoefu wa mfumo ulioundwa kwa ajili ya upanuzi na ujumuishi. Tumia nguvu za misimbo ya QR kwa ufuatiliaji usio na mshono, usimamizi wa hesabu unaobadilika, na ripoti za kina. Kwa maarifa yanayotokana na data, Value Villages inahakikisha NGOs zinaweza kufanya maamuzi sahihi, kukuza uwazi, na kuonyesha athari za mipango yao."
+            }
+        }
+    }
 }

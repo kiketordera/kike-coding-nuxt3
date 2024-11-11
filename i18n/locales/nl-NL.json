@@ -124,5 +124,29 @@
         "about": "Over",
         "design": "Ontwerp",
         "features": "Kenmerken"
-      }
+    },
+    "seo": {
+        "index": {
+            "title": "Kike Tordera | Creëren van digitale meesterwerken",
+            "description": "Ontdek mijn expertise als UX/UI engineer en mobiele ontwikkelaar. Verken innovatieve projecten en inzichten in naadloze gebruikerservaringen en geavanceerde softwareoplossingen. Laten we samen digitale magie creëren!"
+        },
+        "about": {
+            "title": "Kike Tordera - Over Mij | Berlijnse Ontwikkelaar & Ontwerper",
+            "description": "Duik in de reis van Kike Tordera, een in Berlijn gevestigde tech-enthousiasteling die codeerexpertise combineert met ontwerp-passie. Ontdek een unieke mix van technische vaardigheden, internationale ervaringen en een toewijding aan het creëren van uitzonderlijke digitale ervaringen. Verken bekwaamheid in meerdere talen, codeerplatforms en leiderschapskwaliteiten die Kike onderscheiden in de techwereld."
+        },
+        "valueVillages": {
+            "home": {
+                "title": "Kike Tordera | Value Villages - De gemeenschap versterken via een duurzame en inclusieve marktplaats",
+                "description": "Gemeenschappen versterken door schaalbaar onderwijs en beroepsopleiding. Duik in een open-source, multiplatform webapplicatie op maat gemaakt voor NGO's die armoede en ongelijkheid bestrijden. Ervaar een mix van videotutorials, realtime voortgangsmonitoring en gebruiksvriendelijke interfaces, allemaal ontworpen om lokale gemeenschappen te versterken. Van fairtrade-operaties tot traditionele productproductie, Value Villages biedt een kosteneffectieve oplossing voor schaalbaar onderwijs, waarbij ervoor wordt gezorgd dat elk individu, zelfs zonder geletterdheid, zijn verdiensten en bijdragen kan begrijpen. Bekroond voor innovatie, overbrugt dit platform de kloof tussen technologie en empowerment."
+            },
+            "design": {
+                "title": "Kike Tordera | Value Villages - Ontwerp voorbij grenzen",
+                "description": "Ontwerpen van intuïtieve interfaces voor iedereen: Ontdek innovatieve oplossingen op maat voor gebruikers voorbij geletterdheidsbarrières. Van verhalende authenticatie tot een vereenvoudigd numeriek alfabet, ervaar een platform dat prioriteit geeft aan begrip en eenvoud. Duik in een dashboard dat aangepaste services, globale acties en prestatiestatistieken biedt, allemaal gepresenteerd met duidelijke iconografie en videotutorials. Ontworpen om te versterken, combineert dit platform moeiteloos gebruiksvriendelijk ontwerp met functionaliteit, zodat elke gebruiker, ongeacht het geletterdheidsniveau, met vertrouwen kan navigeren."
+            },
+            "features": {
+                "title": "Kike Tordera | Value Villages - Functies die gemarginaliseerde gemeenschappen versterken",
+                "description": "Gemeenschappen versterken met digitale oplossingen. Duik in een uitgebreid platform op maat gemaakt voor NGO's, met aangepaste services, realtime gegevens en meertalige ondersteuning. Van offline modi in afgelegen gebieden tot stapsgewijze videotutorials, ervaar een systeem ontworpen voor schaalbaarheid en inclusiviteit. Benut de kracht van QR-codes voor naadloze tracking, dynamisch voorraadbeheer en gedetailleerde rapportage. Met datagestuurde inzichten zorgt Value Villages ervoor dat NGO's geïnformeerde beslissingen kunnen nemen, transparantie kunnen bevorderen en de impact van hun initiatieven kunnen tonen."
+            }
+        }
+    }
 }

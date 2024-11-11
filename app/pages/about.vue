@@ -7,11 +7,12 @@
 </template>
 
 <script lang="ts" setup>
+const { t } = useI18n();
+
 useSeoMeta({
-  title: 'Kike Tordera - About Me | Berlin-Based Developer & Designer',
-  // eslint-disable-next-line max-len
-  description: 'Dive into the journey of Kike Tordera, a Berlin-based tech enthusiast blending coding expertise with design passion. Discover a unique blend of technical skills, international experiences, and a commitment to crafting exceptional digital experiences. Explore proficiency in multiple languages, coding platforms, and leadership qualities that set Kike apart in the tech world.',
-})
+  title: `${t('seo.valueVillages.design.title')}`,
+  description: t('seo.valueVillages.design.description'),
+});
 </script>
 
 <style lang="scss" scoped>

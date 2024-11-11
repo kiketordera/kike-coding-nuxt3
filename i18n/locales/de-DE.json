@@ -124,5 +124,29 @@
         "about": "Über",
         "design": "Design",
         "features": "Funktionen"
-      }
+    },
+    "seo": {
+        "index": {
+            "title": "Kike Tordera | Erstellung digitaler Meisterwerke",
+            "description": "Entdecken Sie meine Expertise als UX/UI-Ingenieur und Mobile Developer. Erkunden Sie innovative Projekte und Einblicke in nahtlose Benutzererlebnisse und modernste Softwarelösungen. Lassen Sie uns gemeinsam digitale Magie erschaffen!"
+        },
+        "about": {
+            "title": "Kike Tordera - Über Mich | Entwickler & Designer mit Sitz in Berlin",
+            "description": "Tauchen Sie ein in die Reise von Kike Tordera, einem in Berlin ansässigen Tech-Enthusiasten, der Coding-Expertise mit Design-Leidenschaft verbindet. Entdecken Sie eine einzigartige Mischung aus technischen Fähigkeiten, internationalen Erfahrungen und einem Engagement für die Gestaltung außergewöhnlicher digitaler Erlebnisse. Erkunden Sie Kompetenzen in mehreren Sprachen, Coding-Plattformen und Führungsqualitäten, die Kike in der Tech-Welt auszeichnen."
+        },
+        "valueVillages": {
+            "home": {
+                "title": "Kike Tordera | Value Villages - Die Gemeinschaft durch einen nachhaltigen und inklusiven Marktplatz stärken",
+                "description": "Gemeinschaften stärken durch skalierbare Bildung und Berufsausbildung. Tauchen Sie ein in eine Open-Source, plattformübergreifende Web-App, die für NGOs entwickelt wurde, die gegen Armut und Ungleichheit kämpfen. Erleben Sie eine Mischung aus Video-Tutorials, Echtzeit-Fortschrittsverfolgung und benutzerfreundlichen Schnittstellen, alle entworfen, um lokale Gemeinschaften zu unterstützen. Von Fair-Trade-Operationen bis hin zur Herstellung traditioneller Produkte bietet Value Villages eine kosteneffiziente Lösung für skalierbare Bildung und stellt sicher, dass jeder Einzelne, selbst ohne Alphabetisierung, seine Einnahmen und Beiträge verstehen kann. Ausgezeichnet für Innovation überbrückt diese Plattform die Lücke zwischen Technologie und Empowerment."
+            },
+            "design": {
+                "title": "Kike Tordera | Value Villages - Design ohne Grenzen",
+                "description": "Design intuitiver Schnittstellen für alle: Entdecken Sie innovative Lösungen, die auf Nutzer jenseits von Alphabetisierungsbarrieren zugeschnitten sind. Von story-basierter Authentifizierung bis hin zu einem vereinfachten numerischen Alphabet erleben Sie eine Plattform, die Verständnis und Einfachheit priorisiert. Tauchen Sie ein in ein Dashboard, das kundenspezifische Dienste, globale Aktionen und Leistungsmetriken bietet, alle präsentiert mit klarer Ikonografie und Video-Tutorials. Entworfen, um zu stärken, verbindet diese Plattform nahtlos benutzerfreundliches Design mit Funktionalität und stellt sicher, dass jeder Nutzer, unabhängig vom Alphabetisierungsgrad, mit Zuversicht navigieren kann."
+            },
+            "features": {
+                "title": "Kike Tordera | Value Villages - Funktionen, die marginalisierte Gemeinschaften stärken",
+                "description": "Gemeinschaften stärken mit digitalen Lösungen. Tauchen Sie ein in eine umfassende Plattform, die für NGOs entwickelt wurde und kundenspezifische Dienste, Echtzeitdaten und mehrsprachigen Support bietet. Von Offline-Modi in abgelegenen Gebieten bis hin zu Schritt-für-Schritt-Video-Tutorials erleben Sie ein System, das für Skalierbarkeit und Inklusivität entwickelt wurde. Nutzen Sie die Kraft von QR-Codes für nahtloses Tracking, dynamisches Bestandsmanagement und detaillierte Berichterstattung. Mit datengesteuerten Einblicken stellt Value Villages sicher, dass NGOs fundierte Entscheidungen treffen, Transparenz fördern und die Auswirkungen ihrer Initiativen zeigen können."
+            }
+        }
+    }
 }

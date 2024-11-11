@@ -1,57 +1,57 @@
 {
-    "intro": {
-        "title": "Mobile developer &",
-        "titleHighlight": "UX/UI Engineer",
-        "tagline": "Engineered Precision. Designed Passion.",
-        "description": "I specialize in interfaces, from UX & design to development & launch.",
-        "reason": "Why choose someone with half the skills? Take someone with the full package!",
-        "cta": "Hire me"
-    },
-    "introSection": {
-        "passionate": "Passionate and detail-driven",
-        "mobileDeveloper": "Mobile & Front-End Developer",
-        "withExpertise": "with expertise in",
-        "uxUiDesign": "UX/UI design",
-        "specializing": "specializing in crafting intuitive, user-focused interfaces and cutting-edge software solutions.",
-        "skills": "Skilled in modern development tools and languages, with a strong emphasis on design and user experience. Proven ability to turn complex ideas into sleek, functional, and visually appealing applications.",
-        "innovate": "Let’s not just develop — let’s innovate, design, and push boundaries.",
-        "build": "Let's not just build. Let's innovate, design, and revolutionize.",
-        "blend": "Why aim for ordinary when we can blend code and creativity to create something truly remarkable?",
-        "collaborate": "Let's collaborate and make digital magic! ✨",
-        "readMore": "Read more"
-    },
-    "projectsSection": {
-        "title": "Projects",
-        "subtitle": "Some of the best"
-    },
-    "experienceSection": {
-        "title": "My Experience",
-        "description": "Explore my professional journey and expertise through my comprehensive work experience section",
-        "work": "Work",
-        "volunteer": "Volunteer",
-        "education": "Education"
-    },
-    "startProject": "Start a project",
-    "legalSection": {
-        "cookies": "Cookies",
-        "privacy": "Privacy"
-    },
-    "myself": "me",
-    "aboutSection": {
-        "title": "About",
-        "intro": "Hi! I'm Kike Tordera.",
-        "codingPassion": "Programming? That's my jam! 🚀 My roots in coding run deep, nurtured by rigorous studies and spiced up with international flair. Guess what? Even as a kid, I was the go-to tech whiz, always tinkering with computers.",
-        "craftingExperiences": "But here's the twist: I'm not just about the code. I'm passionate about crafting experiences. 🎨 To me, a sleek design and intuitive interface aren't just the icing on the cake—they're essential ingredients.",
-        "createMagic": "Because, in the end, it's all about creating something that's more than just the sum of its parts. Ready to create magic together?"
-      },
-      "resumeSection": {
-        "downloadHuman": "Download Resume (Designed for Humans)",
-        "downloadATS": "Download Resume (Optimized for ATS Software)"
-      },
-      "skillsSection": {
+  "intro": {
+    "title": "Mobile developer &",
+    "titleHighlight": "UX/UI Engineer",
+    "tagline": "Engineered Precision. Designed Passion.",
+    "description": "I specialize in interfaces, from UX & design to development & launch.",
+    "reason": "Why choose someone with half the skills? Take someone with the full package!",
+    "cta": "Hire me"
+  },
+  "introSection": {
+    "passionate": "Passionate and detail-driven",
+    "mobileDeveloper": "Mobile & Front-End Developer",
+    "withExpertise": "with expertise in",
+    "uxUiDesign": "UX/UI design",
+    "specializing": "specializing in crafting intuitive, user-focused interfaces and cutting-edge software solutions.",
+    "skills": "Skilled in modern development tools and languages, with a strong emphasis on design and user experience. Proven ability to turn complex ideas into sleek, functional, and visually appealing applications.",
+    "innovate": "Let’s not just develop — let’s innovate, design, and push boundaries.",
+    "build": "Let's not just build. Let's innovate, design, and revolutionize.",
+    "blend": "Why aim for ordinary when we can blend code and creativity to create something truly remarkable?",
+    "collaborate": "Let's collaborate and make digital magic! ✨",
+    "readMore": "Read more"
+  },
+  "projectsSection": {
+    "title": "Projects",
+    "subtitle": "Some of the best"
+  },
+  "experienceSection": {
+    "title": "My Experience",
+    "description": "Explore my professional journey and expertise through my comprehensive work experience section",
+    "work": "Work",
+    "volunteer": "Volunteer",
+    "education": "Education"
+  },
+  "startProject": "Start a project",
+  "legalSection": {
+    "cookies": "Cookies",
+    "privacy": "Privacy"
+  },
+  "myself": "me",
+  "aboutSection": {
+    "title": "About",
+    "intro": "Hi! I'm Kike Tordera.",
+    "codingPassion": "Programming? That's my jam! 🚀 My roots in coding run deep, nurtured by rigorous studies and spiced up with international flair. Guess what? Even as a kid, I was the go-to tech whiz, always tinkering with computers.",
+    "craftingExperiences": "But here's the twist: I'm not just about the code. I'm passionate about crafting experiences. 🎨 To me, a sleek design and intuitive interface aren't just the icing on the cake—they're essential ingredients.",
+    "createMagic": "Because, in the end, it's all about creating something that's more than just the sum of its parts. Ready to create magic together?"
+  },
+  "resumeSection": {
+    "downloadHuman": "Download Resume (Designed for Humans)",
+    "downloadATS": "Download Resume (Optimized for ATS Software)"
+  },
+  "skillsSection": {
     "title": "My Skills",
     "description": "Discover my range of skills and expertise in various areas.",
-        "leadershipSkills": "Leadership Skills",
+    "leadershipSkills": "Leadership Skills",
     "softSkills": "Soft Skills"
   },
   "educationSection": {
@@ -124,5 +124,29 @@
     "about": "About",
     "design": "Design",
     "features": "Features"
+  },
+  "seo": {
+    "index": {
+      "title": "Kike Tordera | Creating digital masterpieces",
+      "description": "Discover my expertise as a UX/UI engineer and mobile developer. Explore innovative projects and insights into seamless user experiences and cutting-edge software solutions. Let’s create digital magic together!"
+    },
+    "about": {
+      "title": "Kike Tordera - About Me | Berlin-Based Developer & Designer",
+      "description": "Dive into the journey of Kike Tordera, a Berlin-based tech enthusiast blending coding expertise with design passion. Discover a unique blend of technical skills, international experiences, and a commitment to crafting exceptional digital experiences. Explore proficiency in multiple languages, coding platforms, and leadership qualities that set Kike apart in the tech world."
+    },
+    "valueVillages": {
+      "home": {
+        "title": "Kike Tordera | Value Villages - Empowering the community through a sustainable and inclusive marketplace",
+        "description": "Empowering Communities through Scalable Education and Vocational Training. Dive into an open-source, multi-platform web app tailored for NGOs fighting poverty and inequality. Experience a blend of video-tutorials, real-time progress tracking, and user-friendly interfaces, all designed to uplift local communities. From fair-trade operations to traditional product manufacturing, Value Villages offers a cost-effective solution for scalable education, ensuring every individual, even those without literacy, can grasp their earnings and contributions. Awarded for innovation, this platform bridges the gap between technology and empowerment."
+      },
+      "design": {
+        "title": "Kike Tordera | Value Villages - Design beyond boundaries",
+        "description": "Designing Intuitive Interfaces for All: Explore innovative solutions tailored for users beyond literacy barriers. From story-based authentication to a simplified numerical alphabet, experience a platform that prioritizes understanding and simplicity. Dive into a dashboard that offers custom services, global actions, and performance metrics, all presented with clear iconography and video tutorials. Designed to empower, this platform seamlessly blends user-friendly design with functionality, ensuring every user, regardless of literacy level, can navigate with confidence."
+      },
+      "features": {
+        "title": "Kike Tordera | Value Villages - Features that empower marginalized communities",
+        "description": "Empowering Communities with Digital Solutions. Dive into a comprehensive platform tailored for NGOs, offering custom services, real-time data, and multi-language support. From offline modes in remote areas to step-by-step video tutorials, experience a system designed for scalability and inclusivity. Harness the power of QR codes for seamless tracking, dynamic inventory management, and detailed reporting. With data-driven insights, Value Villages ensures NGOs can make informed decisions, foster transparency, and showcase the impact of their initiatives."
+      }
+    }
   }
 }

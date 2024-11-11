@@ -20,11 +20,15 @@ definePageMeta({
   layout: 'vv',
 })
 
+const { t } = useI18n();
+
+
 useSeoMeta({
-  title: 'Kike Tordera | Value Villages - Empowering the community through a sustainable and inclusive marketplace',
-  // eslint-disable-next-line max-len
-  description: 'Empowering Communities through Scalable Education and Vocational Training. Dive into an open-source, multi-platform web app tailored for NGOs fighting poverty and inequality. Experience a blend of video-tutorials, real-time progress tracking, and user-friendly interfaces, all designed to uplift local communities. From fair-trade operations to traditional product manufacturing, Value Villages offers a cost-effective solution for scalable education, ensuring every individual, even those without literacy, can grasp their earnings and contributions. Awarded for innovation, this platform bridges the gap between technology and empowerment.',
-})
+  title: `${t('seo.valueVillages.home.title')}`,
+  description: t('seo.valueVillages.home.description'),
+});
+
+
 </script>
 
 <style lang="scss" scoped>

@@ -16,8 +16,6 @@
   </section>
 </template>
 
-
-
 <style lang="scss" scoped>
 section {
   @apply pt-20;

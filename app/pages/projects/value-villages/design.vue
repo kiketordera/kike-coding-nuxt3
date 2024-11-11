@@ -50,13 +50,12 @@ definePageMeta({
   layout: 'vv',
 })
 
-useSeoMeta({
-  title: 'Kike Tordera | Value Villages - Design beyond boundaries',
-  // eslint-disable-next-line max-len
-  description: 'Designing Intuitive Interfaces for All: Explore innovative solutions tailored for users beyond literacy barriers. From story-based authentication to a simplified numerical alphabet, experience a platform that prioritizes understanding and simplicity. Dive into a dashboard that offers custom services, global actions, and performance metrics, all presented with clear iconography and video tutorials. Designed to empower, this platform seamlessly blends user-friendly design with functionality, ensuring every user, regardless of literacy level, can navigate with confidence.',
-})
-
 const { t } = useI18n();
+useSeoMeta({
+  title: `${t('seo.valueVillages.design.title')}`,
+  description: t('seo.valueVillages.design.description'),
+});
+
 const auth = [
   t('designSection.auth.description1'),
   t('designSection.auth.description2')
