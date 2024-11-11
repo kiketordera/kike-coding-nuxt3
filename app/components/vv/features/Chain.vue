@@ -4,43 +4,31 @@
       <div class="title">
         <img src="~/assets/svg/vv/qr.svg" alt="">
         <p>
-          Track <span>items</span> in the whole chain
+          {{ $t('trackItemsSection.title', { items: $t('trackItemsSection.items') }) }}
         </p>
       </div>
       <div data-aos="zoom-out-up" class="info">
         <p>
-          In order to track every tool and every product manufactured (so we can see every single worker
-          involved in his manufacturing), there is the option to track items in an easy, fast and secure way: QR
-          codes.
+          {{ $t('trackItemsSection.description1') }}
         </p>
         <p>
-          Every item has a unique identifier number, that is represented by the QR. The cases of use of the QR
-          are:
+          {{ $t('trackItemsSection.description2') }}
         </p>
         <ul>
           <li>
-            Every time we want to give a tool to a worker, for example, we will scan the QR and it will be
-            registered that this exact tool was given to a specific worker, so he will be responsible for that and
-            the tool won't just disappear.
+            {{ $t('trackItemsSection.useCase1') }}
           </li>
           <li>
-            Every time someone wants to make a delivery, if the item is traceable, they will need to scan the QR
-            codes in order
-            to deliver from one service to another, so you can not deliver a wrong thing as long as everything is
-            digitalized.
+            {{ $t('trackItemsSection.useCase2') }}
           </li>
           <li>
-            Every time the customer receives a manufactured product from the organization, he will be able to see
-            every worker that was involved in the manufacturing process of the product.
+            {{ $t('trackItemsSection.useCase3') }}
           </li>
         </ul>
       </div>
     </div>
   </section>
 </template>
-
-<script>
-</script>
 
 <style lang="scss" scoped>
 section {

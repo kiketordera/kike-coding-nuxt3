@@ -1,41 +1,33 @@
 <template>
   <section>
     <div data-aos="zoom-out-up" class="card">
-      <div class="card-items">
-        <h4 class="golang">
-          Golang
-        </h4>
-        <p>
-          This is the programing language where all the technology is based. It is open-source, designed
-          specifically for web development and developed and empowered by Google
-        </p>
-      </div>
-      <div class="card-items">
-        <h4 class="docker">
-          Docker
-        </h4>
-        <p>
-          This is the container where we install al the software layers and it´s all wat we need.
-          No dependencies vastly reduces the maintenance and simplifies the deployment
-        </p>
-      </div>
-
-      <div class="card-items">
-        <h4 class="raspbian">
-          Raspbian
-        </h4>
-        <p>
-          For the remote areas without connection, this is the Operative System that controls the hardware.
-          It will run the app non-stop and restart automatically the software is disconnected from the power.
-        </p>
-      </div>
+    <div class="card-items">
+      <h4 class="golang">
+        {{ $t('technologiesSection.golang.title') }}
+      </h4>
+      <p>
+        {{ $t('technologiesSection.golang.description') }}
+      </p>
     </div>
+    <div class="card-items">
+      <h4 class="docker">
+        {{ $t('technologiesSection.docker.title') }}
+      </h4>
+      <p>
+        {{ $t('technologiesSection.docker.description') }}
+      </p>
+    </div>
+    <div class="card-items">
+      <h4 class="raspbian">
+        {{ $t('technologiesSection.raspbian.title') }}
+      </h4>
+      <p>
+        {{ $t('technologiesSection.raspbian.description') }}
+      </p>
+    </div>
+  </div>
   </section>
 </template>
-
-<script>
-
-</script>
 
 <style lang="scss" scoped>
 section {

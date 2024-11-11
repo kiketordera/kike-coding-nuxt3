@@ -3,20 +3,21 @@
     <div class="village">
       <NuxtImg data-aos="zoom-in" src="/img/vv/logo.png" alt="" class="logo" />
       <h1 data-aos="zoom-in">
-        Welcome to Value Villages Web App
+        {{ $t('valueVillagesSection.title') }}
       </h1>
       <p data-aos="fade-up">
-        Open source, easy to use,
+        {{ $t('valueVillagesSection.openSource') }}
       </p>
       <p data-aos="fade-up">
-        customisable, multi-platform.
+        {{ $t('valueVillagesSection.customisable') }}
       </p>
       <p data-aos="fade-up">
-        A full set right out of the box for everyone!
+        {{ $t('valueVillagesSection.fullSet') }}
       </p>
     </div>
   </section>
 </template>
+
 
 <style lang="scss" scoped>
 section {

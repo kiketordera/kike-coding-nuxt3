@@ -3,42 +3,44 @@
     <div class="gradient">
       <div class="info">
         <h2>
-          Mind your step!
+          {{ $t('gradientSection.mindYourStep.title') }}
         </h2>
         <p>
-          Guided step by step procedures to ensure a high-quality production, with videos, audios,
-          warnings and graphical representation of the materials and tools.
+          {{ $t('gradientSection.mindYourStep.description') }}
         </p>
         <NuxtImg src="/img/vv/video.png" alt="" />
       </div>
       <div class="item">
         <NuxtImg src="/img/vv/transactions.png" alt="" />
-        <h2>Your production</h2>
+        <h2>
+          {{ $t('gradientSection.yourProduction.title') }}
+        </h2>
         <p>
-          An easy and clear view of the products made, the payments, earnings, and accountability of your work. Don't miss a number!
+          {{ $t('gradientSection.yourProduction.description') }}
         </p>
       </div>
       <div class="info dis">
-        <h2>Numerical alphabet</h2>
+        <h2>
+          {{ $t('gradientSection.numericalAlphabet.title') }}
+        </h2>
         <p>
-          Numerical alphabet designed specifically for illiterate people, to fully understand how much are they earning even
-          without knowing how to read or write.
+          {{ $t('gradientSection.numericalAlphabet.description') }}
         </p>
         <NuxtImg src="/img/vv/index.png" alt="" />
       </div>
       <div class="item dis">
         <NuxtImg src="/img/vv/track.png" alt="" />
         <h2>
-          Controlled and safe
+          {{ $t('gradientSection.controlledAndSafe.title') }}
         </h2>
         <p>
-          Easily make periodic inventories of your things, creating a custom form with the possibility to take photos of
-          the item and even to track it with a QR code
+          {{ $t('gradientSection.controlledAndSafe.description') }}
         </p>
       </div>
     </div>
   </section>
 </template>
+
 
 <style lang="scss" scoped>
 section {

@@ -4,39 +4,30 @@
       <div class="title">
         <img src="~/assets/svg/vv/calendar.svg" alt="">
         <p>
-          Make <span>decisions</span> with the <span>data</span> on the table
+          {{ $t('decisionSection.title', { decisions: $t('decisionSection.decisions'), data: $t('decisionSection.data') }) }}
         </p>
       </div>
       <div class="content">
         <div data-aos="zoom-out-up" class="info">
           <p>
-            Making an inventory can be tricky. No one has the same needs, and even in the same collection, not
-            every item needs to be
-            a check in the same way. Maybe actually is not the number of items you want to control but the state
-            of that items.
+            {{ $t('decisionSection.description1') }}
           </p>
           <p>
-            To collect all these data in an effective way, you can create a dynamic form combined by:
+            {{ $t('decisionSection.description2') }}
           </p>
-          <li>As many checkboxes as you need </li>
-          <li>
-            As many numbers as you need
-          </li>
-          <li>
-            As many photos as you need
-          </li>
-          <li>
-            As many descriptions as you need
-          </li>
-          <li>
-            You can select how often do you want to check the item: only once, daily, weekly or monthly
-          </li>
+          <ul>
+            <li>{{ $t('decisionSection.checkbox') }}</li>
+            <li>{{ $t('decisionSection.numbers') }}</li>
+            <li>{{ $t('decisionSection.photos') }}</li>
+            <li>{{ $t('decisionSection.descriptions') }}</li>
+            <li>{{ $t('decisionSection.checkFrequency') }}</li>
+          </ul>
         </div>
         <div data-aos="zoom-out-up" class="box-img">
           <div class="details">
             <NuxtImg src="/img/vv/car.png" alt="" />
             <p>
-              Create your own video courses and introduce them into the system.
+              {{ $t('decisionSection.createCourses') }}
             </p>
           </div>
         </div>
@@ -45,8 +36,7 @@
   </section>
 </template>
 
-<script>
-</script>
+
 
 <style lang="scss" scoped>
 section {

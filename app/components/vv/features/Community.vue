@@ -4,24 +4,19 @@
       <div class="title">
         <img data-aos="fade-right" src="~/assets/svg/vv/hunt.svg" alt="">
         <p data-aos="fade-left">
-          From the <span>community</span> to the <span>people</span>
+          {{ $t('communitySection.title', { community: $t('communitySection.community'), people: $t('communitySection.people') }) }}
         </p>
       </div>
 
       <div data-aos="zoom-out-up" class="info">
         <p>
-          You can have different locations (Villages), and you can also have custom services created by you in
-          every
-          village (like a barbershop, workshop, farm… there are a lot of icons all ready for you as samples or you
-          can
-          upload yours!).
+          {{ $t('communitySection.description1') }}
         </p>
         <p>
-          In every single service, you will have your inventory for materials and tools, your video courses to
-          educate, the records of manufactured products, and the data digitalized.
+          {{ $t('communitySection.description2') }}
         </p>
         <p>
-          Also, you will be able to make deliveries to other services, track the items, and make payments.
+          {{ $t('communitySection.description3') }}
         </p>
       </div>
 
@@ -29,12 +24,12 @@
         <NuxtImg src="/img/vv/graph.png" alt="" />
       </div>
       <p data-aos="fade-up" class="content">
-        To serve the different villages and communities, there are 6 languages included, what gives you a huge
-        coverage over the world map:
+        {{ $t('communitySection.footer') }}
       </p>
     </div>
   </section>
 </template>
+
 
 <style lang="scss" scoped>
 section {

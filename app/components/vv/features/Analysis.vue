@@ -4,48 +4,34 @@
       <div class="title">
         <img src="~/assets/svg/vv/report.svg" alt="">
         <p>
-          Easy <span>reports</span> , easy <span>analysis</span>
+          {{ $t('reportsSection.title', { reports: $t('reportsSection.reports'), analysis: $t('reportsSection.analysis') }) }}
         </p>
       </div>
       <div data-aos="zoom-out-up" class="info">
         <p>
-          To take the right decision you must have the right information.
-          The reports are usually misvalued, and often are not the priority of the organization,
-          but it will be an important resource to answer a lot of questions and to prove the effectiveness of the
-          program.
+          {{ $t('reportsSection.description1') }}
         </p>
         <p>
-          The key to having good reports is to have the data, and this is normally a handicap,
-          because maybe the recollection is not be done properly, or there is some data missing, or there is no
-          recollection at all.
+          {{ $t('reportsSection.description2') }}
         </p>
         <p>
-          But donors, who are the people who gives money to the organizations, do appreciate good reports,
-          with good data to prove that their money is being invested successfully into the project.
+          {{ $t('reportsSection.description3') }}
         </p>
         <p>
-          Having a digital solution, from the beginning of the chain to the end, dynamically
-          created to cover the different characteristic of the NGO and the users of the communities,
-          can be a fully equipped solution to the problem of tracking and reporting (and all the adds-on of the
-          software system itself).
+          {{ $t('reportsSection.description4') }}
         </p>
       </div>
-      <div data-aos="zomm-out-up" class="box-img">
+      <div data-aos="zoom-out-up" class="box-img">
         <NuxtImg src="/img/vv/excel.png" class="-mt-8 mb-3" alt="" />
       </div>
-      <div data-aos="zomm-out-up" class="info">
+      <div data-aos="zoom-out-up" class="info">
         <p>
-          The software provides you the ability to export into Excel files the data from the database, in specific
-          documents to be able to export the data out of the system, make some calculations in base on the data obtained and analyze the data
-          through Microsoft Excel.
+          {{ $t('reportsSection.excelDescription') }}
         </p>
       </div>
     </div>
   </section>
 </template>
-
-<script>
-</script>
 
 <style lang="scss" scoped>
 section {

@@ -139,7 +139,7 @@
   }
 
   .skills {
-    @apply grid gap-5 grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 items-center gap-2 mb-4;
+    @apply grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 items-center gap-2 mb-4;
 
     div {
       @apply flex items-center mr-4 mb-3;

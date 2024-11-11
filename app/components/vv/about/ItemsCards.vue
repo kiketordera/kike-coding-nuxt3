@@ -1,28 +1,25 @@
 <template>
   <section>
     <div class="card-items">
-      <div class="items">
-        <NuxtImg src="/img/vv/workshop.png" alt="" />
-        <p>
-          Software platform for the NGOs that works on the ground and they have a focus on vocational training or
-          education
-        </p>
-      </div>
-      <div class="items">
-        <img src="/img/vv/carousel/performance-color.svg" alt="">
-        <p>
-          The learning is based on video-tutorials, so it can be scalable and much more affordable that presencial
-          training
-        </p>
-      </div>
-      <div class="items">
-        <img src="~assets/svg/vv/wifi.svg" alt="">
-        <p>
-          Can be installed in any device as a server, including a RaspberryPI for remotes areas without network
-          connection
-        </p>
-      </div>
+    <div class="items">
+      <NuxtImg src="/img/vv/workshop.png" alt="" />
+      <p>
+        {{ $t('valueVillagesSection.cards.softwarePlatform') }}
+      </p>
     </div>
+    <div class="items">
+      <img src="/img/vv/carousel/performance-color.svg" alt="">
+      <p>
+        {{ $t('valueVillagesSection.cards.videoTutorials') }}
+      </p>
+    </div>
+    <div class="items">
+      <img src="~assets/svg/vv/wifi.svg" alt="">
+      <p>
+        {{ $t('valueVillagesSection.cards.offlineInstallation') }}
+      </p>
+    </div>
+  </div>
   </section>
 </template>
 

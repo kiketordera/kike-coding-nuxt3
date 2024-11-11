@@ -1,45 +1,39 @@
 <template>
   <section>
     <h2 data-aos="zoom-out-up">
-      Technologies used to carry out the project
+      {{ $t('technologiesSection.title') }}
     </h2>
-    <div data-aos="zoom-out-up" class="card">
-      <div class="card-items">
-        <h4 class="vue">
-          Vue
-        </h4>
-        <p>
-          This front-end framework is used to give some functionality to the interface without having to refresh
-          the page: sorting
-          tables by column, search information, and pagination.
-        </p>
-      </div>
-      <div class="card-items">
-        <h4 class="bootstrap">
-          Bootstrap
-        </h4>
-        <p>
-          Developed open-source by Twitter engineers, we use this Framework for the interface to be able to resize
-          to the different screen sizes, from smartphone to desktop.
-        </p>
-      </div>
-
-      <div class="card-items">
-        <h4 class="gin">
-          Gin gonic
-        </h4>
-        <p>
-          This is a Web framework that use to speed up the development and
-          improve the maintenance. It empowers the project with all the tools needed.
-        </p>
-      </div>
+    <template>
+  <div data-aos="zoom-out-up" class="card">
+    <div class="card-items">
+      <h4 class="vue">
+        {{ $t('technologiesSection.vue.title') }}
+      </h4>
+      <p>
+        {{ $t('technologiesSection.vue.description') }}
+      </p>
     </div>
-  </section>
+    <div class="card-items">
+      <h4 class="bootstrap">
+        {{ $t('technologiesSection.bootstrap.title') }}
+      </h4>
+      <p>
+        {{ $t('technologiesSection.bootstrap.description') }}
+      </p>
+    </div>
+    <div class="card-items">
+      <h4 class="gin">
+        {{ $t('technologiesSection.gin.title') }}
+      </h4>
+      <p>
+        {{ $t('technologiesSection.gin.description') }}
+      </p>
+    </div>
+  </div>
 </template>
 
-<script>
-
-</script>
+  </section>
+</template>
 
 <style lang="scss" scoped>
 section {

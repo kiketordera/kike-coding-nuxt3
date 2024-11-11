@@ -1,27 +1,37 @@
 <template>
   <section>
-    <div data-aos="zoom-out-up" class="offline-mode">
-      <div class="title">
-        <img src="~assets/svg/vv/wifi.svg" alt="">
+    <h2 data-aos="zoom-out-up">
+      {{ $t('technologiesSection.title') }}
+    </h2>
+    <div data-aos="zoom-out-up" class="card">
+      <div class="card-items">
+        <h4 class="vue">
+          {{ $t('technologiesSection.vue.title') }}
+        </h4>
         <p>
-          Offline Mode
+          {{ $t('technologiesSection.vue.description') }}
         </p>
       </div>
-      <div class="info">
+      <div class="card-items">
+        <h4 class="bootstrap">
+          {{ $t('technologiesSection.bootstrap.title') }}
+        </h4>
         <p>
-          We acknowledge the situation of incomunicación in some rural areas, and especially the remotes areas
-          where
-          NGOs have more action, so we prepare the software from the begging to be able to run in remote areas.
-          For
-          less than 50 $ you can create your own remote server with a RaspberryPI, and sync with the cloud with a
-          USB
-          stick when you reach the network. It also features the latest technologies in the marker to be
-          future-proof.
+          {{ $t('technologiesSection.bootstrap.description') }}
+        </p>
+      </div>
+      <div class="card-items">
+        <h4 class="gin">
+          {{ $t('technologiesSection.gin.title') }}
+        </h4>
+        <p>
+          {{ $t('technologiesSection.gin.description') }}
         </p>
       </div>
     </div>
   </section>
 </template>
+
 
 <script>
 
@@ -29,6 +39,7 @@
 
 <style lang="scss" scoped>
 section {
+  @apply pt-20;
   max-width: 56rem;
   margin: 0 auto;
 
@@ -39,11 +50,11 @@ section {
       display: flex;
       justify-content: center;
       justify-items: center;
-      padding-bottom: 1rem;
       align-items: center;
       padding: 1rem 0rem;
       margin: 0 auto;
-
+      
+      margin-bottom: 1rem;
       img {
         height: 60px;
       }

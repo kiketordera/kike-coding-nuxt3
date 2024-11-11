@@ -1,11 +1,10 @@
 <template>
   <section>
-    <h2>Awards From</h2>
+    <h2>{{ $t('awardsSection.title') }}</h2>
     <div class="award">
       <p data-aos="zoom-out-up">
-        In the 2018 edition of the "Hack for Good" competition at the Telefonica Foundation,
-        held at the Polytechnic University of Valencia, Spain, we secured both first and third positions in two of the categories.
-      </p>
+      {{ $t('awardsSection.description') }}
+    </p>
       <a data-aos="zoom-out-up" href="https://blogthinkbig.com/">
         <NuxtImg src="/img/vv/think-big.jpeg" alt="" />
       </a>

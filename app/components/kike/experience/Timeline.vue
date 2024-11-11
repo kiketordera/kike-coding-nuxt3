@@ -136,7 +136,7 @@ const firstEducationIndex = rev.findIndex(exp => exp.type === 'education')
   .experience {
     @apply mb-12 max-w-sm;
     .logo {
-      @apply max-w-[60rem] max-h-[5rem] py-2 px-4 rounded-md max-w-full mx-auto min-h-[80px];
+      @apply max-h-[5rem] py-2 px-4 rounded-md max-w-full mx-auto min-h-[80px];
       background-color: white;
     }
     span {
@@ -151,7 +151,7 @@ const firstEducationIndex = rev.findIndex(exp => exp.type === 'education')
       color: black;
     }
     p {
-      @apply mx-4 text-justify text-center;
+      @apply mx-4 text-center;
     }
     p.description {
       @apply mt-3;

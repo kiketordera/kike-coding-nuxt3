@@ -1,0 +1,173 @@
+{
+    "valueVillagesSection": {
+        "title": "Welcome to Value Villages Web App",
+        "openSource": "Open source, easy to use,",
+        "customisable": "customisable, multi-platform.",
+        "fullSet": "A full set right out of the box for everyone!",
+        "ngoFunctionality": "All necessary functionality for NGOs who work in the ground fighting poverty and inequality. Workflow specialized on empowering people through knowledge and vocational training for fair trade operations.",
+        "cards": {
+            "softwarePlatform": "Software platform for the NGOs that works on the ground and they have a focus on vocational training or education",
+            "videoTutorials": "The learning is based on video-tutorials, so it can be scalable and much more affordable than presencial training",
+            "offlineInstallation": "Can be installed in any device as a server, including a RaspberryPI for remote areas without network connection"
+        },
+        "ngoFocus": "Most NGOs who provide help in the rural areas are focusing on vocational training, giving the local communities some abilities in order for them to be able to create any product.",
+        "growingFarm": "The more clear example will be the growing farm part, where a lot of NGOs collaborate to create fair-trade products, like coffee, tea, chocolate… but there is also the vocational training focused on manufacturing products, like bags, wallets, shoes, and traditional products from the local communities.",
+        "empowerment": "The most powerful way to empower people is through education, and also giving vocational knowledge and training, but having presential training at every location is too cost-intensive to be realistic.",
+        "softwarePlatform": "The software platform is a costless and effective way to escalate education and track the progress and the results in real-time."
+    },
+    "gradientSection": {
+        "reinventLogin": {
+            "title": "Reinvent login",
+            "description": "Extremely friendly user interface designed to integrate people who have the first contact with technology. The perfect starting!"
+        },
+        "dashboard": {
+            "title": "Your Dashboard",
+            "description": "Customizable dashboard with custom services, actions, and settings. All in 6 languages. Full set right out of the box!"
+        },
+        "beautifulNumbers": {
+            "title": "Beautiful… numbers?!",
+            "description": "Visual representation of the performance, the cost, and the earnings, globally, locally and by a specific person. Also with numbers."
+        },
+        "watchDoLearn": {
+            "title": "Watch, do, learn...",
+            "description": "Empower the people with knowledge with custom video-courses for vocational training, education, personal hygiene...."
+        },
+        "mindYourStep": {
+            "title": "Mind your step!",
+            "description": "Guided step by step procedures to ensure a high-quality production, with videos, audios, warnings and graphical representation of the materials and tools."
+        },
+        "yourProduction": {
+            "title": "Your production",
+            "description": "An easy and clear view of the products made, the payments, earnings, and accountability of your work. Don't miss a number!"
+        },
+        "numericalAlphabet": {
+            "title": "Numerical alphabet",
+            "description": "Numerical alphabet designed specifically for illiterate people, to fully understand how much they are earning even without knowing how to read or write."
+        },
+        "controlledAndSafe": {
+            "title": "Controlled and safe",
+            "description": "Easily make periodic inventories of your things, creating a custom form with the possibility to take photos of the item and even to track it with a QR code."
+        }
+    },
+    "trackSystemSection": {
+        "title": "Track system incorporated",
+        "trackProcess": "You can track all the process back, to know exactly which work was the one who made the final product.",
+        "clientConnection": "And you can enrich the client with close information about the worker, his culture, and create a connection between your client and your organization.",
+        "culturalImmersion": "Here is an idea you can see in the picture below: you can put the information in the aperture to let the client immerse into the culture right before taking the product in his hands."
+    },
+    "awardsSection": {
+        "title": "Awards From",
+        "description": "In the 2018 edition of the \"Hack for Good\" competition at the Telefonica Foundation, held at the Polytechnic University of Valencia, Spain, we secured both first and third positions in two of the categories."
+    },
+    "supportSection": {
+        "title": "With the support of"
+    },
+    "designSection": {
+        "title": "Design beyond boundaries",
+        "authTitle": "Authentication",
+        "numericalTitle": "Numerical alphabet",
+        "performanceTitle": "Performance",
+        "videoTitle": "Guides Video Courses",
+        "auth": {
+            "description1": "When you start to create an interface adapted for illiteracy, you need to take normal routines that you do several times every day and reinvent it, giving them a better understanding and simplicity.",
+            "description2": "One of these daily routines is introducing a password. Instead of a password, they can remember a story with 4 animals, and the iconography of the animals in convention with their photo, the software is able to give to the user the security they need to use the system."
+        },
+        "numerical": {
+            "description1": "A numerical alphabet, like the roman but simplified, related to their currency to ensure that a person without the knowledge of the numbers will be able to understand how much money he/she needs to get paid.",
+            "description2": "It can create any combination that the scope of the project can generate (covering all the money quantities) and is easily adaptable to any currency."
+        },
+        "performance": {
+            "description1": "w to the workers and the money invested in the materials to make the products.",
+            "description2": "You can see the data globally by all services, locally buy a specific service, or individually, by a specific worker in the system. All the views have the data in written words and numbers, in the graphic and numerical alphabet and with a chart for the representation."
+        },
+        "video": {
+            "description1": "Custom video tutorials, divided in steps for a guided and easy comprehension and with warnings about common mistakes to guide the process and avoid material waste.",
+            "description2": "Also includes a set with icons and photos for a quick graphical resume of the tools and materials needed for the step."
+        }
+    },
+    "communitySection": {
+        "title": "From the {community} to the {people}",
+        "community": "community",
+        "people": "people",
+        "description1": "You can have different locations (Villages), and you can also have custom services created by you in every village (like a barbershop, workshop, farm… there are a lot of icons all ready for you as samples or you can upload yours!).",
+        "description2": "In every single service, you will have your inventory for materials and tools, your video courses to educate, the records of manufactured products, and the data digitalized.",
+        "description3": "Also, you will be able to make deliveries to other services, track the items, and make payments.",
+        "footer": "To serve the different villages and communities, there are 6 languages included, which gives you a huge coverage over the world map:"
+    },
+    "offlineModeSection": {
+        "title": "Offline Mode",
+        "description": "We acknowledge the situation of incomunicación in some rural areas, and especially the remote areas where NGOs have more action, so we prepared the software from the beginning to be able to run in remote areas. For less than 50 $ you can create your own remote server with a RaspberryPI, and sync with the cloud with a USB stick when you reach the network. It also features the latest technologies in the market to be future-proof."
+    },
+    "technologiesSection": {
+        "title": "Technologies used to carry out the project",
+        "vue": {
+            "title": "Vue",
+            "description": "This front-end framework is used to give some functionality to the interface without having to refresh the page: sorting tables by column, search information, and pagination."
+        },
+        "bootstrap": {
+            "title": "Bootstrap",
+            "description": "Developed open-source by Twitter engineers, we use this Framework for the interface to be able to resize to the different screen sizes, from smartphone to desktop."
+        },
+        "gin": {
+            "title": "Gin gonic",
+            "description": "This is a Web framework that is used to speed up development and improve maintenance. It empowers the project with all the tools needed."
+        },
+        "technologiesSection": {
+            "golang": {
+                "title": "Golang",
+                "description": "This is the programming language where all the technology is based. It is open-source, designed specifically for web development and developed and empowered by Google."
+            },
+            "docker": {
+                "title": "Docker",
+                "description": "This is the container where we install all the software layers and it’s all we need. No dependencies vastly reduce the maintenance and simplify the deployment."
+            },
+            "raspbian": {
+                "title": "Raspbian",
+                "description": "For the remote areas without connection, this is the Operating System that controls the hardware. It will run the app non-stop and restart automatically if the software is disconnected from the power."
+            }
+        }
+    },
+    "stepByStepSection": {
+        "title": "{step} by {step} guided {tutorials}",
+        "step": "Step",
+        "tutorials": "tutorials",
+        "description1": "The core of the app is that the knowledge is built into video-tutorials. It has been proven that in lack of presence learning, video-tutorials are the best self-teaching resource. Even nowadays in universities, they impart real courses focused on video lessons, the so-called “flip-teaching” with MOOCs courses from top universities like Harvard, Cambridge or MIT.",
+        "description2": "Another key to this solution is the scalability of the knowledge resource, once it is developed and integrated in the system. This allows us to increase the video library over time.",
+        "description3": "Designed to guide step by step and make a follow-up on the process, giving also tips and growing security for the user to use the app.",
+        "createCourses": "Create your own video courses and introduce them into the system.",
+        "guidingSteps": "Introduce the different steps guiding all the process.",
+        "records": "See the records of the different products made out of the video courses."
+    },
+    "trackItemsSection": {
+        "title": "Track {items} in the whole chain",
+        "items": "items",
+        "description1": "In order to track every tool and every product manufactured (so we can see every single worker involved in the manufacturing), there is the option to track items in an easy, fast, and secure way: QR codes.",
+        "description2": "Every item has a unique identifier number, represented by the QR code. The use cases for QR codes are:",
+        "useCase1": "Every time we want to give a tool to a worker, for example, we will scan the QR code, and it will be registered that this exact tool was given to a specific worker, making them responsible for it, so the tool won't just disappear.",
+        "useCase2": "Every time someone wants to make a delivery, if the item is traceable, they will need to scan the QR codes in order to deliver from one service to another, ensuring that the right item is delivered as everything is digitalized.",
+        "useCase3": "Every time the customer receives a manufactured product from the organization, they will be able to see every worker involved in the manufacturing process of the product."
+    },
+    "decisionSection": {
+        "title": "Make {decisions} with the {data} on the table",
+        "decisions": "decisions",
+        "data": "data",
+        "description1": "Making an inventory can be tricky. No one has the same needs, and even in the same collection, not every item needs to be checked in the same way. Maybe it's not the number of items you want to control but the state of those items.",
+        "description2": "To collect all these data in an effective way, you can create a dynamic form combined by:",
+        "checkbox": "As many checkboxes as you need",
+        "numbers": "As many numbers as you need",
+        "photos": "As many photos as you need",
+        "descriptions": "As many descriptions as you need",
+        "checkFrequency": "You can select how often you want to check the item: only once, daily, weekly, or monthly",
+        "createCourses": "Create your own video courses and introduce them into the system."
+    },
+    "reportsSection": {
+        "title": "Easy {reports}, easy {analysis}",
+        "reports": "reports",
+        "analysis": "analysis",
+        "description1": "To take the right decision you must have the right information. The reports are usually undervalued, and often are not the priority of the organization, but they are an important resource to answer many questions and to prove the effectiveness of the program.",
+        "description2": "The key to having good reports is to have the data, and this is normally a challenge, because maybe the collection is not done properly, or there is some data missing, or there is no collection at all.",
+        "description3": "Donors, who are the people who provide funding to the organizations, appreciate good reports with solid data to prove that their money is being invested successfully in the project.",
+        "description4": "Having a digital solution, from the beginning of the chain to the end, dynamically created to cover the different characteristics of the NGO and the users of the communities, can be a fully equipped solution to the problem of tracking and reporting (including all the add-ons of the software system itself).",
+        "excelDescription": "The software provides you the ability to export data into Excel files from the database, in specific documents to be able to export the data out of the system, perform calculations based on the data obtained, and analyze it through Microsoft Excel."
+    }
+}

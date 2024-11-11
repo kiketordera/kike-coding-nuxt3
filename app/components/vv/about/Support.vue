@@ -1,7 +1,7 @@
 <template>
   <section>
     <h2>
-      With the support of
+      {{ $t('supportSection.title') }}
     </h2>
     <div class="support">
       <a id="totem-big" href="https://thetotem.studio/">

@@ -70,7 +70,7 @@
           color: $h2-color;
         }
         .duration {
-          @apply text-sm font-bold mt-1.5 text-base;
+          @apply font-bold mt-1.5 text-base;
           color: white;
         }
       }

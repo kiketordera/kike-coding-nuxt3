@@ -19,7 +19,7 @@
             @mouseleave="about = '/svg/vv/navbar/about.svg'"
           >
             <img class="a" :src=" getCurrentRoute === '/projects/value-villages' ? '/svg/vv/navbar/about-hover.svg' : about" alt="">
-            <p>About</p>
+            <p>{{ $t('labels.about') }}</p>
           </li>
         </NuxtLink>
         <NuxtLink to="/projects/value-villages/design" :class="{'pink' : getCurrentRoute === '/projects/value-villages/design'}">
@@ -29,7 +29,7 @@
             @mouseleave="design = '/svg/vv/navbar/design.svg'"
           >
             <img class="b" :src="getCurrentRoute==='/projects/value-villages/design' ? '/svg/vv/navbar/design-hover.svg' : design" alt="">
-            <p>Design</p>
+            <p>{{ $t('labels.design') }}</p>
           </li>
         </NuxtLink>
         <NuxtLink to="/projects/value-villages/features" :class="{'orange':getCurrentRoute==='/projects/value-villages/features'}">
@@ -39,7 +39,7 @@
             @mouseleave="features = '/svg/vv/navbar/features.svg'"
           >
             <img class="b" :src=" getCurrentRoute==='/projects/value-villages/features'?'/svg/vv/navbar/features-hover.svg':features" alt="">
-            <p>Features</p>
+            <p>{{ $t('labels.features') }}</p>
           </li>
         </NuxtLink>
       </ul>

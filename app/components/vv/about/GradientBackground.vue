@@ -3,42 +3,44 @@
     <div class="gradient">
       <div class="info">
         <h2>
-          Reinvent login
+          {{ $t('gradientSection.reinventLogin.title') }}
         </h2>
         <p>
-          Extremely friendly user interface designed to integrate
-          people who have the first contact with technology.The perfect starting!
+          {{ $t('gradientSection.reinventLogin.description') }}
         </p>
         <NuxtImg src="/img/vv/log-in.png" alt="" />
       </div>
       <div class="item">
         <NuxtImg src="/img/vv/dashboard.png" alt="" />
-        <h2>Your Dashboard</h2>
+        <h2>
+          {{ $t('gradientSection.dashboard.title') }}
+        </h2>
         <p>
-          Customizable dashboard with custom services, actions, and settings. All in 6 languages.
-          Full set right out of the box!
+          {{ $t('gradientSection.dashboard.description') }}
         </p>
       </div>
       <div class="info dis">
-        <h2>Beautiful… numbers?!</h2>
+        <h2>
+          {{ $t('gradientSection.beautifulNumbers.title') }}
+        </h2>
         <p>
-          Visual representation of the performance, the cost, and the earnings, globally, locally and by a specific
-          person.
-          Also with numbers.
+          {{ $t('gradientSection.beautifulNumbers.description') }}
         </p>
         <NuxtImg src="/img/vv/performance.png" alt="" />
       </div>
       <div class="item dis">
         <NuxtImg src="/img/vv/products.png" alt="" />
-        <h2>Watch, do, learn...</h2>
+        <h2>
+          {{ $t('gradientSection.watchDoLearn.title') }}
+        </h2>
         <p>
-          Empower the people with knowledge with custom video-courses for vocational training, education, personal
-          hygiene....
+          {{ $t('gradientSection.watchDoLearn.description') }}
         </p>
       </div>
     </div>
   </section>
 </template>
+
 
 <style lang="scss" scoped>
 section {

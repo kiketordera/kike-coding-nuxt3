@@ -246,7 +246,7 @@ export default defineNuxtConfig({
         code: "es",
         language: "es-ES",
         name: "Español (España)",
-        files: ["es-ES.json", "./legal/cookies-policy/es-ES.json", "./legal/privacy-policy/es-ES.json", "./general/es-ES.json",],  
+        files: ["es-ES.json", "./legal/cookies-policy/es-ES.json", "./legal/privacy-policy/es-ES.json", "./general/es-ES.json","./vv/es-ES.json",],  
       },
       {
         code: "en",

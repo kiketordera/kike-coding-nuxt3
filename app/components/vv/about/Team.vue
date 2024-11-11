@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h2>Made with  <img src="~/assets/svg/vv/heart.svg" alt="" class="heart"> By</h2>
+    <h2>{{ $t('made-with') }}  <img src="~/assets/svg/vv/heart.svg" alt="" class="heart"> {{ $t('by') }}</h2>
     <div class="team">
       <div class="cards">
         <div v-for="team in allTeam" :key="team.name" data-aos="zoom-out-up" class="team-section">

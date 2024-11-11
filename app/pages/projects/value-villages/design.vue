@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>
-      Design beyond boundaries
+      {{ $t('designSection.title') }}
     </h1>
     <vv-design-Info
       class="mt-28"
@@ -9,7 +9,7 @@
       :texts="auth"
       image="authenication.png"
       :left="true"
-      title="Authentication"
+      :title="$t('designSection.authTitle')"
     />
     <vv-design-Dashboard />
     <vv-design-Info
@@ -18,7 +18,7 @@
       :texts="numerical"
       image="design-num.png"
       :left="true"
-      title="Numerical alphabet"
+      :title="$t('designSection.numericalTitle')"
     />
     <div class="bg-blue">
       <vv-design-Info
@@ -27,7 +27,7 @@
         :texts="performance"
         image="vikapu.png"
         :left="false"
-        title="Performance"
+        :title="$t('designSection.performanceTitle')"
       />
     </div>
     <vv-design-Info
@@ -36,11 +36,12 @@
       :texts="video"
       image="vikapu.png"
       :left="true"
-      title="Guides Video Courses"
+      :title="$t('designSection.videoTitle')"
     />
     <vv-design-BackgroundImage />
   </div>
 </template>
+
 
 <script lang="ts" setup>
 
@@ -55,32 +56,27 @@ useSeoMeta({
   description: 'Designing Intuitive Interfaces for All: Explore innovative solutions tailored for users beyond literacy barriers. From story-based authentication to a simplified numerical alphabet, experience a platform that prioritizes understanding and simplicity. Dive into a dashboard that offers custom services, global actions, and performance metrics, all presented with clear iconography and video tutorials. Designed to empower, this platform seamlessly blends user-friendly design with functionality, ensuring every user, regardless of literacy level, can navigate with confidence.',
 })
 
+const { t } = useI18n();
 const auth = [
-  // eslint-disable-next-line max-len
-  'When you start to create an interface adapted for illiteracy, you need to take normal routines that you do several times every day and reinvent it, giving them a better understanding and simplicity.',
-  // eslint-disable-next-line max-len
-  'One of these daily routines is introducing a password. Instead of a password, they can remember a story with 4 animals, and the iconography of the animals in convention with their photo, the software is able to give to the user the security they need to use the system.'
-]
+  t('designSection.auth.description1'),
+  t('designSection.auth.description2')
+];
 
 const numerical = [
-  // eslint-disable-next-line max-len
-  'A numerical alphabet, like the roman but simplified, related to their currency to ensure that a person without the knowledge of the numbers will be able to understand how much money he/she needs to get paid.',
-  // eslint-disable-next-line max-len
-  'It can create any combination that the scope of the project can generate (covering all the money quantities) and is easily adaptable to any currency.'
-]
+  t('designSection.numerical.description1'),
+  t('designSection.numerical.description2')
+];
 
 const performance = [
-
-  'w to the workers and the money invested in the materials to make the products.',
-  // eslint-disable-next-line max-len
-  ' You can see the data globally by all services, locally buy a specific service, or individually, by a specific worker in the system. All the views have the data in written words and numbers, in the graphic and numerical alphabet and with a chart for the representation.'
-]
+  t('designSection.performance.description1'),
+  t('designSection.performance.description2')
+];
 
 const video = [
-  // eslint-disable-next-line max-len
-  'Custom video tutorials, divided in steps for a guided and easy comprehension and with warnings about common mistakes to guide the process and avoid material waste.',
-  'Also includes a set with icons and photos for a quick graphical resume of the tools and materials needed for the step.'
-]
+  t('designSection.video.description1'),
+  t('designSection.video.description2')
+];
+
 </script>
 
 <style lang="scss" scoped>

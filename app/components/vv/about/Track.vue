@@ -4,20 +4,18 @@
       <div class="title">
         <img data-aos="fade-left" src="~/assets/svg/vv/qr.svg" alt="">
         <p data-aos="fade-up">
-          Track system incorporated
+          {{ $t('trackSystemSection.title') }}
         </p>
       </div>
       <div data-aos="fade-up" class="info">
         <p>
-          You can track all the process back, to know exactly which work was the one who made the final product.
+          {{ $t('trackSystemSection.trackProcess') }}
         </p>
         <p>
-          And you can enrich the client with close information about the worker,
-          his culture, and create a connection between your client and your organization.
+          {{ $t('trackSystemSection.clientConnection') }}
         </p>
         <p>
-          Here is an idea you can see in the picture below: you can put the information in the aperture
-          to let the client immerse into the culture right before taking the product in his hands.
+          {{ $t('trackSystemSection.culturalImmersion') }}
         </p>
       </div>
       <div class="box-img">
@@ -26,6 +24,7 @@
     </div>
   </section>
 </template>
+
 
 <script>
 </script>

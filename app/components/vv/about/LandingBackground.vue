@@ -2,10 +2,8 @@
   <section>
     <NuxtImg src="/img/vv/main.png" alt="" class="background" />
     <p>
-      All necessary functionality for NGOs who work in the ground fighting poverty and inequality.
-      Workflow specialized on empowering people through knowledge and
-      vocational training for fair trade operations.
-    </p>
+    {{ $t('valueVillagesSection.ngoFunctionality') }}
+  </p>
   </section>
 </template>
 
