@@ -119,5 +119,10 @@
         "about": "Om",
         "experience": "Erfaring",
         "contact": "Kontakt"
-    }
+    },
+    "labels": {
+    "about": "Om",
+    "design": "Design",
+    "features": "Funktioner"
+  }
 }

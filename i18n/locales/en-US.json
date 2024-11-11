@@ -119,5 +119,10 @@
     "about": "About",
     "experience": "Experience",
     "contact": "Contact"
+  },
+  "labels": {
+    "about": "About",
+    "design": "Design",
+    "features": "Features"
   }
 }

@@ -1,0 +1,171 @@
+{
+    "valueVillagesSection": {
+        "title": "Karibu kwenye Programu ya Wavuti ya Value Villages",
+        "openSource": "Chanzo huria, rahisi kutumia,",
+        "customisable": "inaoweza kubadilishwa, jukwaa mbalimbali.",
+        "fullSet": "Seti kamili moja kwa moja kwa kila mtu!",
+        "ngoFunctionality": "Utendaji wote muhimu kwa NGOs wanaofanya kazi chini kupambana na umaskini na ukosefu wa usawa. Mtiririko wa kazi maalum katika kuwawezesha watu kupitia maarifa na mafunzo ya ufundi kwa shughuli za biashara ya haki.",
+        "cards": {
+            "softwarePlatform": "Jukwaa la programu kwa NGOs wanaofanya kazi chini na wanaolenga mafunzo ya ufundi au elimu",
+            "videoTutorials": "Kujifunza kunategemea mafunzo ya video, hivyo inaweza kupanuka na nafuu zaidi kuliko mafunzo ya ana kwa ana",
+            "offlineInstallation": "Inaweza kusakinishwa kwenye kifaa chochote kama seva, ikijumuisha Raspberry Pi kwa maeneo ya mbali bila muunganisho wa mtandao"
+        },
+        "ngoFocus": "NGOs nyingi zinazotoa msaada katika maeneo ya vijijini zinazingatia mafunzo ya ufundi, kuwapa jamii za mitaa ujuzi ili waweze kuunda bidhaa yoyote.",
+        "growingFarm": "Mfano wazi zaidi utakuwa sehemu ya shamba linalokua, ambapo NGOs nyingi hushirikiana kuunda bidhaa za biashara ya haki, kama kahawa, chai, chokoleti... lakini pia kuna mafunzo ya ufundi yanayolenga utengenezaji wa bidhaa, kama mifuko, pochi, viatu, na bidhaa za jadi kutoka kwa jamii za mitaa.",
+        "empowerment": "Njia yenye nguvu zaidi ya kuwawezesha watu ni kupitia elimu, na pia kuwapa maarifa ya ufundi na mafunzo, lakini kuwa na mafunzo ya ana kwa ana katika kila eneo ni ghali sana kuwa halisi.",
+        "softwarePlatform": "Jukwaa la programu ni njia isiyo na gharama na yenye ufanisi ya kupanua elimu na kufuatilia maendeleo na matokeo kwa wakati halisi."
+    },
+    "gradientSection": {
+        "reinventLogin": {
+            "title": "Buni upya kuingia",
+            "description": "Kiolesura cha mtumiaji rafiki sana kilichoundwa kuunganisha watu ambao wana mawasiliano ya kwanza na teknolojia. Mwanzo kamili!"
+        },
+        "dashboard": {
+            "title": "Dashibodi Yako",
+            "description": "Dashibodi inayoweza kubadilishwa na huduma maalum, vitendo, na mipangilio. Yote katika lugha 6. Seti kamili moja kwa moja!"
+        },
+        "beautifulNumbers": {
+            "title": "Nambari nzuri...?!",
+            "description": "Uwakilishi wa kuona wa utendaji, gharama, na mapato, kimataifa, ndani na kwa mtu maalum. Pia na nambari."
+        },
+        "watchDoLearn": {
+            "title": "Tazama, fanya, jifunze...",
+            "description": "Wawezeshe watu kwa maarifa na kozi za video maalum kwa mafunzo ya ufundi, elimu, usafi binafsi...."
+        },
+        "mindYourStep": {
+            "title": "Angalia hatua yako!",
+            "description": "Taratibu zinazoongozwa hatua kwa hatua ili kuhakikisha uzalishaji wa hali ya juu, na video, sauti, maonyo na uwakilishi wa kuona wa vifaa na zana."
+        },
+        "yourProduction": {
+            "title": "Uzalishaji wako",
+            "description": "Mwonekano rahisi na wazi wa bidhaa zilizotengenezwa, malipo, mapato, na uwajibikaji wa kazi yako. Usikose nambari!"
+        },
+        "numericalAlphabet": {
+            "title": "Alfabeti ya nambari",
+            "description": "Alfabeti ya nambari iliyoundwa mahsusi kwa watu wasiojua kusoma na kuandika, ili kuelewa kikamilifu kiasi wanachopata hata bila kujua kusoma au kuandika."
+        },
+        "controlledAndSafe": {
+            "title": "Imedhibitiwa na salama",
+            "description": "Fanya urahisi hesabu za mara kwa mara za vitu vyako, kwa kuunda fomu maalum yenye uwezekano wa kupiga picha ya kipengee na hata kukifuatilia na msimbo wa QR."
+        }
+    },
+    "trackSystemSection": {
+        "title": "Mfumo wa ufuatiliaji uliounganishwa",
+        "trackProcess": "Unaweza kufuatilia mchakato wote nyuma, ili kujua hasa kazi gani ilifanya bidhaa ya mwisho.",
+        "clientConnection": "Na unaweza kumtajirisha mteja kwa habari za karibu kuhusu mfanyakazi, utamaduni wake, na kuunda uhusiano kati ya mteja wako na shirika lako.",
+        "culturalImmersion": "Hapa kuna wazo unaloweza kuona kwenye picha hapa chini: unaweza kuweka habari kwenye ufunguzi ili kumruhusu mteja azame katika utamaduni kabla ya kuchukua bidhaa mikononi mwake."
+    },
+    "awardsSection": {
+        "title": "Tuzo Kutoka",
+        "description": "Katika toleo la 2018 la shindano la \"Hack for Good\" katika Foundation ya Telefonica, lililofanyika katika Chuo Kikuu cha Polytechnic cha Valencia, Hispania, tulishika nafasi ya kwanza na ya tatu katika mbili ya kategoria."
+    },
+    "supportSection": {
+        "title": "Kwa msaada wa"
+    },
+    "designSection": {
+        "title": "Ubunifu zaidi ya mipaka",
+        "authTitle": "Uthibitishaji",
+        "numericalTitle": "Alfabeti ya nambari",
+        "performanceTitle": "Utendaji",
+        "videoTitle": "Miongozo ya Video",
+        "auth": {
+            "description1": "Unapoanza kuunda kiolesura kilichobadilishwa kwa ajili ya watu wasiojua kusoma na kuandika, unahitaji kuchukua taratibu za kawaida unazofanya mara kadhaa kila siku na kuziunda upya, kuwapa uelewa bora na urahisi.",
+            "description2": "Moja ya taratibu hizi za kila siku ni kuingiza nenosiri. Badala ya nenosiri, wanaweza kukumbuka hadithi na wanyama 4, na iconografia ya wanyama kwa mujibu wa picha yao, programu inaweza kumpa mtumiaji usalama anaohitaji kutumia mfumo."
+        },
+        "numerical": {
+            "description1": "Alfabeti ya nambari, kama ya Kirumi lakini iliyorahisishwa, inayohusiana na sarafu yao ili kuhakikisha kwamba mtu bila ujuzi wa nambari ataweza kuelewa kiasi cha pesa anachohitaji kulipwa.",
+            "description2": "Inaweza kuunda mchanganyiko wowote ambao upeo wa mradi unaweza kutoa (inayofunika kiasi chote cha pesa) na inaweza kubadilishwa kwa urahisi kwa sarafu yoyote."
+        },
+        "performance": {
+            "description1": "Kuonyesha wafanyakazi na pesa zilizowekezwa kwenye vifaa vya kutengeneza bidhaa.",
+            "description2": "Unaweza kuona data kimataifa kwa huduma zote, ndani kwa huduma maalum, au kibinafsi, kwa mfanyakazi maalum katika mfumo. Maoni yote yana data kwa maneno yaliyoandikwa na nambari, katika alfabeti ya kuona na nambari na na chati kwa uwakilishi."
+        },
+        "video": {
+            "description1": "Mafunzo ya video maalum, yaliyogawanywa katika hatua kwa uelewa rahisi na unaoongozwa na maonyo kuhusu makosa ya kawaida ili kuongoza mchakato na kuepuka upotevu wa vifaa.",
+            "description2": "Pia inajumuisha seti na ikoni na picha kwa muhtasari wa haraka wa kuona wa zana na vifaa vinavyohitajika kwa hatua."
+        }
+    },
+    "communitySection": {
+        "title": "Kutoka kwa {community} hadi kwa {people}",
+        "community": "jamii",
+        "people": "watu",
+        "description1": "Unaweza kuwa na maeneo tofauti (Vijiji), na pia unaweza kuwa na huduma maalum zilizoundwa na wewe katika kila kijiji (kama kinyozi, warshteni, shamba... kuna ikoni nyingi tayari kwa ajili yako kama sampuli au unaweza kupakia zako!).",
+        "description2": "Katika kila huduma, utakuwa na hesabu yako ya vifaa na zana, kozi zako za video za kuelimisha, rekodi za bidhaa zilizotengenezwa, na data iliyohakikishwa.",
+        "description3": "Pia, utaweza kufanya utoaji kwa huduma zingine, kufuatilia vitu, na kufanya malipo.",
+        "footer": "Ili kuhudumia vijiji na jamii tofauti, lugha 6 zimejumuishwa, ambayo inakupa ushirikisho mkubwa juu ya ramani ya dunia:"
+    },
+    "offlineModeSection": {
+        "title": "Hali ya Nje ya Mtandao",
+        "description": "Tunatambua hali ya ukosefu wa mawasiliano katika baadhi ya maeneo ya vijijini, na hasa maeneo ya mbali ambapo NGOs zinafanya kazi zaidi, hivyo tuliandaa programu tangu mwanzo kuwa na uwezo wa kufanya kazi katika maeneo ya mbali. Kwa chini ya $50 unaweza kuunda seva yako ya mbali na Raspberry Pi, na kusawazisha na wingu kwa kutumia kifaa cha USB unapoifikia mtandao. Pia ina teknolojia za hivi karibuni sokoni ili kuwa na uhakika wa siku zijazo."
+    },
+    "technologiesSection": {
+        "title": "Teknolojia zilizotumika kutekeleza mradi",
+        "vue": {
+            "title": "Vue",
+            "description": "Mfumo huu wa mbele unatumiwa kutoa baadhi ya utendaji kwenye kiolesura bila kuhitaji kusasisha ukurasa: kupanga meza kwa safu, kutafuta habari, na upakiaji wa kurasa."
+        },
+        "bootstrap": {
+            "title": "Bootstrap",
+            "description": "Iliyotengenezwa kwa chanzo huria na wahandisi wa Twitter, tunatumia Mfumo huu kwa kiolesura ili kuweza kubadilisha ukubwa kwa saizi tofauti za skrini, kutoka kwa simu hadi kompyuta."
+        },
+        "gin": {
+            "title": "Gin gonic",
+            "description": "Hii ni mfumo wa wavuti ambao unatumiwa kuharakisha maendeleo na kuboresha matengenezo. Inaimarisha mradi na zana zote zinazohitajika."
+        },
+        "golang": {
+            "title": "Golang",
+            "description": "Hii ndiyo lugha ya programu ambayo teknolojia yote inategemea. Ni chanzo huria, iliyoundwa mahsusi kwa maendeleo ya wavuti na imeendelezwa na kuimarishwa na Google."
+        },
+        "docker": {
+            "title": "Docker",
+            "description": "Hii ndiyo kontena ambapo tunasakinisha tabaka zote za programu na ndiyo yote tunayohitaji. Bila utegemezi hupunguza sana matengenezo na kurahisisha utekelezaji."
+        },
+        "raspbian": {
+            "title": "Raspbian",
+            "description": "Kwa maeneo ya mbali bila muunganisho, hii ndiyo Mfumo wa Uendeshaji unaodhibiti vifaa. Itaendesha programu bila kusimama na kuwasha tena kiotomatiki ikiwa programu itatenganishwa na umeme."
+        }
+    },
+    "stepByStepSection": {
+        "title": "{step} kwa {step} {tutorials} zinazoongozwa",
+        "step": "Hatua",
+        "tutorials": "mafunzo",
+        "description1": "Msingi wa programu ni kwamba maarifa yamejengwa katika mafunzo ya video. Imethibitishwa kwamba kwa ukosefu wa kujifunza kwa uwepo, mafunzo ya video ni rasilimali bora ya kujifunza mwenyewe. Hata siku hizi katika vyuo vikuu, wanafundisha kozi halisi zinazolenga masomo ya video, zinazoitwa \"flip-teaching\" na kozi za MOOC kutoka vyuo vikuu vya juu kama Harvard, Cambridge au MIT.",
+        "description2": "Ufunguo mwingine wa suluhisho hili ni upanuzi wa rasilimali ya maarifa, mara tu inapoendelezwa na kuunganishwa katika mfumo. Hii inatuwezesha kuongeza maktaba ya video kwa muda.",
+        "description3": "Iliyoundwa kuongoza hatua kwa hatua na kufuatilia mchakato, pia kutoa vidokezo na kuongeza usalama kwa mtumiaji kutumia programu.",
+        "createCourses": "Unda kozi zako za video na uziongeze kwenye mfumo.",
+        "guidingSteps": "Weka hatua tofauti zinazoongoza mchakato mzima.",
+        "records": "Angalia rekodi za bidhaa tofauti zilizotengenezwa kutoka kwa kozi za video."
+    },
+    "trackItemsSection": {
+        "title": "Fuatilia {items} katika mnyororo mzima",
+        "items": "vitu",
+        "description1": "Ili kufuatilia kila zana na kila bidhaa iliyotengenezwa (ili tuweze kuona kila mfanyakazi aliyehusika katika mchakato wa utengenezaji), kuna chaguo la kufuatilia vitu kwa njia rahisi, ya haraka, na salama: misimbo ya QR.",
+        "description2": "Kila kipengee kina nambari ya kipekee ya kitambulisho, inayowakilishwa na msimbo wa QR. Matumizi ya misimbo ya QR ni:",
+        "useCase1": "Kila wakati tunapotaka kumpa mfanyakazi zana, kwa mfano, tutasoma msimbo wa QR, na itarekodiwa kwamba zana hii maalum ilipewa mfanyakazi maalum, kumfanya awajibike nayo, hivyo zana haitapotea tu.",
+        "useCase2": "Kila wakati mtu anataka kufanya utoaji, ikiwa kipengee kinaweza kufuatiliwa, watahitaji kusoma misimbo ya QR ili kutoa kutoka huduma moja hadi nyingine, kuhakikisha kwamba kipengee sahihi kinatolewa kwani kila kitu kimehakikishwa.",
+        "useCase3": "Kila wakati mteja anapokea bidhaa iliyotengenezwa kutoka kwa shirika, wataweza kuona kila mfanyakazi aliyehusika katika mchakato wa utengenezaji wa bidhaa hiyo."
+    },
+    "decisionSection": {
+        "title": "Fanya {decisions} na {data} mezani",
+        "decisions": "maamuzi",
+        "data": "data",
+        "description1": "Kutengeneza hesabu inaweza kuwa ngumu. Hakuna mtu aliye na mahitaji sawa, na hata katika mkusanyiko huo huo, sio kila kipengee kinahitaji kukaguliwa kwa njia ile ile. Labda sio idadi ya vitu unavyotaka kudhibiti bali hali ya vitu hivyo.",
+        "description2": "Ili kukusanya data hizi zote kwa ufanisi, unaweza kuunda fomu yenye nguvu inayojumuisha:",
+        "checkbox": "Visanduku vya tiki vingi unavyohitaji",
+        "numbers": "Nambari nyingi unavyohitaji",
+        "photos": "Picha nyingi unavyohitaji",
+        "descriptions": "Maelezo mengi unavyohitaji",
+        "checkFrequency": "Unaweza kuchagua ni mara ngapi unataka kukagua kipengee: mara moja tu, kila siku, kila wiki, au kila mwezi",
+        "createCourses": "Unda kozi zako za video na uziongeze kwenye mfumo."
+    },
+    "reportsSection": {
+        "title": "Ripoti rahisi, {analysis} rahisi",
+        "reports": "ripoti",
+        "analysis": "uchambuzi",
+        "description1": "Ili kufanya uamuzi sahihi lazima uwe na habari sahihi. Ripoti mara nyingi hazithaminiwi, na mara nyingi sio kipaumbele cha shirika, lakini ni rasilimali muhimu kujibu maswali mengi na kuthibitisha ufanisi wa programu.",
+        "description2": "Ufunguo wa kuwa na ripoti nzuri ni kuwa na data, na hii kawaida ni changamoto, kwa sababu labda ukusanyaji haujafanywa vizuri, au kuna data inayokosekana, au hakuna ukusanyaji kabisa.",
+        "description3": "Wafadhili, ambao ni watu wanaotoa fedha kwa mashirika, wanathamini ripoti nzuri zilizo na data thabiti ili kuthibitisha kwamba pesa zao zinawekezwa kwa mafanikio katika mradi.",
+        "description4": "Kuwa na suluhisho la kidijitali, kutoka mwanzo wa mnyororo hadi mwisho, linaloundwa kwa nguvu kufunika sifa tofauti za NGO na watumiaji wa jamii, inaweza kuwa suluhisho kamili kwa tatizo la ufuatiliaji na kuripoti (ikiwa ni pamoja na nyongeza zote za mfumo wa programu yenyewe).",
+        "excelDescription": "Programu inakupa uwezo wa kusafirisha data katika faili za Excel kutoka kwenye hifadhidata, katika nyaraka maalum ili kuweza kusafirisha data nje ya mfumo, kufanya mahesabu kulingana na data iliyopatikana, na kuichambua kupitia Microsoft Excel."
+    }
+}

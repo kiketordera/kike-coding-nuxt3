@@ -1,0 +1,171 @@
+{
+    "valueVillagesSection": {
+        "title": "Welkom bij de Value Villages Web App",
+        "openSource": "Open source, gemakkelijk te gebruiken,",
+        "customisable": "aanpasbaar, multiplatform.",
+        "fullSet": "Een complete set direct beschikbaar voor iedereen!",
+        "ngoFunctionality": "Alle noodzakelijke functionaliteit voor NGO's die op het terrein werken om armoede en ongelijkheid te bestrijden. Workflow gespecialiseerd in het versterken van mensen door middel van kennis en beroepsopleiding voor eerlijke handel operaties.",
+        "cards": {
+            "softwarePlatform": "Softwareplatform voor de NGO's die op het terrein werken en zich richten op beroepsopleiding of onderwijs",
+            "videoTutorials": "Het leren is gebaseerd op videotutorials, zodat het schaalbaar is en veel betaalbaarder dan fysieke training",
+            "offlineInstallation": "Kan op elk apparaat als server worden geïnstalleerd, inclusief een Raspberry Pi voor afgelegen gebieden zonder netwerkverbinding"
+        },
+        "ngoFocus": "De meeste NGO's die hulp bieden in landelijke gebieden richten zich op beroepsopleiding, waarbij de lokale gemeenschappen vaardigheden krijgen om producten te kunnen creëren.",
+        "growingFarm": "Het meest duidelijke voorbeeld is het landbouwgedeelte, waar veel NGO's samenwerken om fairtrade-producten te creëren, zoals koffie, thee, chocolade... maar er is ook de beroepsopleiding gericht op het vervaardigen van producten, zoals tassen, portemonnees, schoenen en traditionele producten van de lokale gemeenschappen.",
+        "empowerment": "De krachtigste manier om mensen te versterken is via onderwijs, en ook door het geven van vakkennis en training, maar fysieke training op elke locatie is te kostbaar om realistisch te zijn.",
+        "softwarePlatform": "Het softwareplatform is een kosteloze en effectieve manier om onderwijs op te schalen en de voortgang en resultaten in realtime te volgen."
+    },
+    "gradientSection": {
+        "reinventLogin": {
+            "title": "Herontdek inloggen",
+            "description": "Extreem gebruiksvriendelijke interface ontworpen om mensen te integreren die voor het eerst in aanraking komen met technologie. De perfecte start!"
+        },
+        "dashboard": {
+            "title": "Uw Dashboard",
+            "description": "Aanpasbaar dashboard met aangepaste services, acties en instellingen. Alles in 6 talen. Compleet pakket direct beschikbaar!"
+        },
+        "beautifulNumbers": {
+            "title": "Prachtige... cijfers?!",
+            "description": "Visuele weergave van de prestaties, de kosten en de verdiensten, wereldwijd, lokaal en per specifieke persoon. Ook met cijfers."
+        },
+        "watchDoLearn": {
+            "title": "Kijk, doe, leer...",
+            "description": "Versterk de mensen met kennis door middel van aangepaste videocursussen voor beroepsopleiding, onderwijs, persoonlijke hygiëne...."
+        },
+        "mindYourStep": {
+            "title": "Let op uw stap!",
+            "description": "Geleide stap-voor-stap procedures om een productie van hoge kwaliteit te garanderen, met video's, audio's, waarschuwingen en grafische weergave van de materialen en gereedschappen."
+        },
+        "yourProduction": {
+            "title": "Uw productie",
+            "description": "Een duidelijk en eenvoudig overzicht van de gemaakte producten, de betalingen, verdiensten en verantwoording van uw werk. Mis geen enkel cijfer!"
+        },
+        "numericalAlphabet": {
+            "title": "Numeriek alfabet",
+            "description": "Numeriek alfabet speciaal ontworpen voor analfabeten, om volledig te begrijpen hoeveel ze verdienen, zelfs zonder te kunnen lezen of schrijven."
+        },
+        "controlledAndSafe": {
+            "title": "Gecontroleerd en veilig",
+            "description": "Maak eenvoudig periodieke inventarissen van uw spullen door een aangepast formulier te maken met de mogelijkheid om foto's van het item te maken en het zelfs te volgen met een QR-code."
+        }
+    },
+    "trackSystemSection": {
+        "title": "Trackingsysteem ingebouwd",
+        "trackProcess": "U kunt het hele proces terug volgen om precies te weten welk werk het eindproduct heeft opgeleverd.",
+        "clientConnection": "En u kunt de klant verrijken met directe informatie over de werknemer, zijn cultuur, en een verbinding creëren tussen uw klant en uw organisatie.",
+        "culturalImmersion": "Hier is een idee dat u kunt zien op de onderstaande afbeelding: u kunt de informatie in de opening plaatsen om de klant in de cultuur te laten onderdompelen vlak voordat hij het product in handen neemt."
+    },
+    "awardsSection": {
+        "title": "Prijzen van",
+        "description": "In de 2018-editie van de \"Hack for Good\"-competitie bij de Telefonica Foundation, gehouden aan de Polytechnische Universiteit van Valencia, Spanje, behaalden we de eerste en derde plaats in twee van de categorieën."
+    },
+    "supportSection": {
+        "title": "Met de steun van"
+    },
+    "designSection": {
+        "title": "Ontwerp voorbij grenzen",
+        "authTitle": "Authenticatie",
+        "numericalTitle": "Numeriek alfabet",
+        "performanceTitle": "Prestaties",
+        "videoTitle": "Video Gidsen",
+        "auth": {
+            "description1": "Wanneer u begint met het creëren van een interface aangepast voor analfabetisme, moet u normale routines die u meerdere keren per dag doet nemen en heruitvinden, zodat ze beter te begrijpen en eenvoudiger zijn.",
+            "description2": "Een van deze dagelijkse routines is het invoeren van een wachtwoord. In plaats van een wachtwoord kunnen ze een verhaal met 4 dieren onthouden, en met de iconografie van de dieren in combinatie met hun foto kan de software de gebruiker de veiligheid geven die hij nodig heeft om het systeem te gebruiken."
+        },
+        "numerical": {
+            "description1": "Een numeriek alfabet, zoals het Romeinse maar vereenvoudigd, gerelateerd aan hun valuta om ervoor te zorgen dat iemand zonder kennis van cijfers kan begrijpen hoeveel geld hij/zij moet ontvangen.",
+            "description2": "Het kan elke combinatie creëren die binnen de reikwijdte van het project kan worden gegenereerd (die alle geldbedragen dekt) en is gemakkelijk aan te passen aan elke valuta."
+        },
+        "performance": {
+            "description1": "Toon aan de werknemers en het geld dat is geïnvesteerd in de materialen om de producten te maken.",
+            "description2": "U kunt de gegevens wereldwijd zien voor alle services, lokaal voor een specifieke service, of individueel, voor een specifieke werknemer in het systeem. Alle weergaven hebben de gegevens in geschreven woorden en cijfers, in het grafische en numerieke alfabet en met een grafiek voor de weergave."
+        },
+        "video": {
+            "description1": "Aangepaste videotutorials, verdeeld in stappen voor een geleide en gemakkelijke begrip en met waarschuwingen over veelgemaakte fouten om het proces te begeleiden en materiaalverspilling te voorkomen.",
+            "description2": "Bevat ook een set met pictogrammen en foto's voor een snelle grafische samenvatting van de benodigde gereedschappen en materialen voor de stap."
+        }
+    },
+    "communitySection": {
+        "title": "Van de {community} naar de {people}",
+        "community": "gemeenschap",
+        "people": "mensen",
+        "description1": "U kunt verschillende locaties hebben (dorpen), en u kunt ook aangepaste services hebben die door u in elk dorp zijn gecreëerd (zoals een kapperszaak, werkplaats, boerderij... er zijn veel pictogrammen al klaar voor u als voorbeelden of u kunt uw eigen uploaden!).",
+        "description2": "In elke service heeft u uw inventaris voor materialen en gereedschappen, uw videocursussen om te onderwijzen, de registraties van vervaardigde producten en de gedigitaliseerde gegevens.",
+        "description3": "Ook kunt u leveringen doen aan andere services, items volgen en betalingen doen.",
+        "footer": "Om de verschillende dorpen en gemeenschappen te bedienen, zijn er 6 talen inbegrepen, wat u een enorme dekking geeft over de wereldkaart:"
+    },
+    "offlineModeSection": {
+        "title": "Offline Modus",
+        "description": "We erkennen de situatie van gebrek aan communicatie in sommige landelijke gebieden, en vooral de afgelegen gebieden waar NGO's meer actie hebben, dus we hebben de software vanaf het begin voorbereid om te kunnen werken in afgelegen gebieden. Voor minder dan 50 dollar kunt u uw eigen externe server maken met een Raspberry Pi en synchroniseren met de cloud met een USB-stick wanneer u het netwerk bereikt. Het beschikt ook over de nieuwste technologieën op de markt om toekomstbestendig te zijn."
+    },
+    "technologiesSection": {
+        "title": "Technologieën gebruikt om het project uit te voeren",
+        "vue": {
+            "title": "Vue",
+            "description": "Dit front-end framework wordt gebruikt om functionaliteit aan de interface te geven zonder de pagina te hoeven vernieuwen: tabellen sorteren op kolom, informatie zoeken en paginering."
+        },
+        "bootstrap": {
+            "title": "Bootstrap",
+            "description": "Open-source ontwikkeld door Twitter-ingenieurs, we gebruiken dit framework voor de interface om te kunnen schalen naar de verschillende schermformaten, van smartphone tot desktop."
+        },
+        "gin": {
+            "title": "Gin gonic",
+            "description": "Dit is een webframework dat wordt gebruikt om de ontwikkeling te versnellen en het onderhoud te verbeteren. Het voorziet het project van alle benodigde tools."
+        },
+        "golang": {
+            "title": "Golang",
+            "description": "Dit is de programmeertaal waarop alle technologie is gebaseerd. Het is open-source, speciaal ontworpen voor webontwikkeling en ontwikkeld en ondersteund door Google."
+        },
+        "docker": {
+            "title": "Docker",
+            "description": "Dit is de container waarin we alle softwarelagen installeren en het is alles wat we nodig hebben. Geen afhankelijkheden verminderen het onderhoud enorm en vereenvoudigen de implementatie."
+        },
+        "raspbian": {
+            "title": "Raspbian",
+            "description": "Voor de afgelegen gebieden zonder verbinding is dit het besturingssysteem dat de hardware bestuurt. Het zal de app non-stop draaien en automatisch opnieuw opstarten als de software wordt losgekoppeld van de stroom."
+        }
+    },
+    "stepByStepSection": {
+        "title": "{step} voor {step} begeleide {tutorials}",
+        "step": "Stap",
+        "tutorials": "tutorials",
+        "description1": "De kern van de app is dat de kennis is ingebouwd in videotutorials. Het is bewezen dat bij gebrek aan fysieke leermogelijkheden videotutorials de beste zelfstudiebron zijn. Zelfs tegenwoordig geven universiteiten echte cursussen gericht op videolessen, de zogenaamde 'flip-teaching' met MOOCs-cursussen van topuniversiteiten zoals Harvard, Cambridge of MIT.",
+        "description2": "Een andere sleutel tot deze oplossing is de schaalbaarheid van de kennisbron, zodra deze is ontwikkeld en geïntegreerd in het systeem. Dit stelt ons in staat om de videobibliotheek in de loop van de tijd uit te breiden.",
+        "description3": "Ontworpen om stap voor stap te begeleiden en een follow-up te maken van het proces, ook tips te geven en de zekerheid voor de gebruiker te vergroten om de app te gebruiken.",
+        "createCourses": "Maak uw eigen videocursussen en voeg ze toe aan het systeem.",
+        "guidingSteps": "Voer de verschillende stappen in die het hele proces begeleiden.",
+        "records": "Bekijk de registraties van de verschillende producten die zijn gemaakt uit de videocursussen."
+    },
+    "trackItemsSection": {
+        "title": "Volg {items} in de hele keten",
+        "items": "items",
+        "description1": "Om elk gereedschap en elk vervaardigd product te volgen (zodat we elke werknemer die betrokken is bij het productieproces kunnen zien), is er de optie om items op een eenvoudige, snelle en veilige manier te volgen: QR-codes.",
+        "description2": "Elk item heeft een uniek identificatienummer, weergegeven door de QR-code. De gebruiksscenario's voor QR-codes zijn:",
+        "useCase1": "Elke keer dat we een gereedschap aan een werknemer willen geven, bijvoorbeeld, scannen we de QR-code, en wordt geregistreerd dat dit exacte gereedschap aan een specifieke werknemer is gegeven, waardoor hij of zij er verantwoordelijk voor is, zodat het gereedschap niet zomaar verdwijnt.",
+        "useCase2": "Elke keer dat iemand een levering wil doen, moeten ze, als het item traceerbaar is, de QR-codes scannen om van de ene service naar de andere te leveren, zodat ze er zeker van zijn dat het juiste item wordt geleverd omdat alles is gedigitaliseerd.",
+        "useCase3": "Elke keer dat de klant een vervaardigd product van de organisatie ontvangt, kan hij of zij elke werknemer zien die betrokken is bij het productieproces van het product."
+    },
+    "decisionSection": {
+        "title": "Neem {decisions} met de {data} op tafel",
+        "decisions": "beslissingen",
+        "data": "gegevens",
+        "description1": "Een inventaris maken kan lastig zijn. Niemand heeft dezelfde behoeften, en zelfs in dezelfde collectie hoeft niet elk item op dezelfde manier te worden gecontroleerd. Misschien is het niet het aantal items dat u wilt controleren, maar de staat van die items.",
+        "description2": "Om al deze gegevens effectief te verzamelen, kunt u een dynamisch formulier maken dat bestaat uit:",
+        "checkbox": "Zoveel selectievakjes als u nodig heeft",
+        "numbers": "Zoveel nummers als u nodig heeft",
+        "photos": "Zoveel foto's als u nodig heeft",
+        "descriptions": "Zoveel beschrijvingen als u nodig heeft",
+        "checkFrequency": "U kunt selecteren hoe vaak u het item wilt controleren: slechts één keer, dagelijks, wekelijks of maandelijks",
+        "createCourses": "Maak uw eigen videocursussen en voeg ze toe aan het systeem."
+    },
+    "reportsSection": {
+        "title": "Eenvoudige {reports}, eenvoudige {analysis}",
+        "reports": "rapporten",
+        "analysis": "analyse",
+        "description1": "Om de juiste beslissing te nemen, moet u de juiste informatie hebben. Rapporten worden vaak onderschat en zijn vaak niet de prioriteit van de organisatie, maar ze zijn een belangrijke bron om veel vragen te beantwoorden en om de effectiviteit van het programma te bewijzen.",
+        "description2": "De sleutel tot goede rapporten is het hebben van de gegevens, en dit is normaal gesproken een uitdaging, omdat misschien de verzameling niet correct wordt uitgevoerd, of er gegevens ontbreken, of er helemaal geen verzameling is.",
+        "description3": "Donateurs, die de mensen zijn die financiering aan de organisaties verstrekken, waarderen goede rapporten met solide gegevens om te bewijzen dat hun geld succesvol wordt geïnvesteerd in het project.",
+        "description4": "Een digitale oplossing hebben, van het begin van de keten tot het einde, dynamisch gecreëerd om de verschillende kenmerken van de NGO en de gebruikers van de gemeenschappen te dekken, kan een volledig uitgeruste oplossing zijn voor het probleem van tracking en rapportage (inclusief alle add-ons van het softwaresysteem zelf).",
+        "excelDescription": "De software biedt u de mogelijkheid om gegevens uit de database te exporteren naar Excel-bestanden, in specifieke documenten om de gegevens uit het systeem te kunnen exporteren, berekeningen uit te voeren op basis van de verkregen gegevens en deze te analyseren via Microsoft Excel."
+    }
+}

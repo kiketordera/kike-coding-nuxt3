@@ -1,0 +1,171 @@
+{
+    "valueVillagesSection": {
+        "title": "Willkommen bei der Value Villages Web-App",
+        "openSource": "Open Source, einfach zu bedienen,",
+        "customisable": "anpassbar, plattformübergreifend.",
+        "fullSet": "Ein komplettes Set direkt einsatzbereit für alle!",
+        "ngoFunctionality": "Alle notwendigen Funktionen für NGOs, die vor Ort gegen Armut und Ungleichheit kämpfen. Arbeitsablauf spezialisiert auf die Stärkung von Menschen durch Wissen und Berufsausbildung für Fair-Trade-Operationen.",
+        "cards": {
+            "softwarePlatform": "Softwareplattform für NGOs, die vor Ort arbeiten und sich auf Berufsausbildung oder Bildung konzentrieren",
+            "videoTutorials": "Das Lernen basiert auf Video-Tutorials, so dass es skalierbar und viel erschwinglicher ist als Präsenztraining",
+            "offlineInstallation": "Kann auf jedem Gerät als Server installiert werden, einschließlich eines Raspberry Pi für abgelegene Gebiete ohne Netzwerkverbindung"
+        },
+        "ngoFocus": "Die meisten NGOs, die in ländlichen Gebieten Hilfe leisten, konzentrieren sich auf die Berufsausbildung und geben den lokalen Gemeinschaften Fähigkeiten, damit sie Produkte herstellen können.",
+        "growingFarm": "Das klarste Beispiel ist der landwirtschaftliche Bereich, wo viele NGOs zusammenarbeiten, um Fair-Trade-Produkte wie Kaffee, Tee, Schokolade zu produzieren... aber es gibt auch die Berufsausbildung, die sich auf die Herstellung von Produkten konzentriert, wie Taschen, Geldbörsen, Schuhe und traditionelle Produkte aus den lokalen Gemeinschaften.",
+        "empowerment": "Der mächtigste Weg, Menschen zu stärken, ist durch Bildung und auch durch die Vermittlung von beruflichem Wissen und Training, aber Präsenztraining an jedem Standort ist zu kostenintensiv, um realistisch zu sein.",
+        "softwarePlatform": "Die Softwareplattform ist ein kostengünstiger und effektiver Weg, Bildung zu skalieren und den Fortschritt und die Ergebnisse in Echtzeit zu verfolgen."
+    },
+    "gradientSection": {
+        "reinventLogin": {
+            "title": "Login neu erfinden",
+            "description": "Extrem benutzerfreundliche Oberfläche, die entwickelt wurde, um Menschen zu integrieren, die das erste Mal mit Technologie in Berührung kommen. Der perfekte Start!"
+        },
+        "dashboard": {
+            "title": "Ihr Dashboard",
+            "description": "Anpassbares Dashboard mit benutzerdefinierten Diensten, Aktionen und Einstellungen. Alles in 6 Sprachen. Komplettset direkt einsatzbereit!"
+        },
+        "beautifulNumbers": {
+            "title": "Schöne... Zahlen?!",
+            "description": "Visuelle Darstellung der Leistung, der Kosten und der Einnahmen, global, lokal und pro spezifischer Person. Auch mit Zahlen."
+        },
+        "watchDoLearn": {
+            "title": "Schauen, tun, lernen...",
+            "description": "Befähigen Sie die Menschen mit Wissen durch benutzerdefinierte Videokurse für Berufsausbildung, Bildung, persönliche Hygiene...."
+        },
+        "mindYourStep": {
+            "title": "Achtung Stufe!",
+            "description": "Geführte Schritt-für-Schritt-Verfahren, um eine hochwertige Produktion sicherzustellen, mit Videos, Audios, Warnungen und grafischer Darstellung der Materialien und Werkzeuge."
+        },
+        "yourProduction": {
+            "title": "Ihre Produktion",
+            "description": "Eine einfache und klare Ansicht der hergestellten Produkte, der Zahlungen, Einnahmen und Buchhaltung Ihrer Arbeit. Verpassen Sie keine Zahl!"
+        },
+        "numericalAlphabet": {
+            "title": "Numerisches Alphabet",
+            "description": "Speziell für Analphabeten entwickeltes numerisches Alphabet, um vollständig zu verstehen, wie viel sie verdienen, selbst ohne lesen oder schreiben zu können."
+        },
+        "controlledAndSafe": {
+            "title": "Kontrolliert und sicher",
+            "description": "Erstellen Sie einfach regelmäßige Inventare Ihrer Sachen, indem Sie ein benutzerdefiniertes Formular erstellen mit der Möglichkeit, Fotos des Gegenstands zu machen und ihn sogar mit einem QR-Code zu verfolgen."
+        }
+    },
+    "trackSystemSection": {
+        "title": "Integriertes Trackingsystem",
+        "trackProcess": "Sie können den gesamten Prozess zurückverfolgen, um genau zu wissen, welche Arbeit das Endprodukt erstellt hat.",
+        "clientConnection": "Und Sie können den Kunden mit näheren Informationen über den Arbeiter, seine Kultur bereichern und eine Verbindung zwischen Ihrem Kunden und Ihrer Organisation herstellen.",
+        "culturalImmersion": "Hier ist eine Idee, die Sie auf dem Bild unten sehen können: Sie können die Informationen in die Öffnung einfügen, um den Kunden in die Kultur eintauchen zu lassen, bevor er das Produkt in die Hand nimmt."
+    },
+    "awardsSection": {
+        "title": "Auszeichnungen von",
+        "description": "In der Ausgabe 2018 des Wettbewerbs \"Hack for Good\" der Telefonica Foundation, der an der Polytechnischen Universität Valencia, Spanien, stattfand, belegten wir den ersten und dritten Platz in zwei der Kategorien."
+    },
+    "supportSection": {
+        "title": "Mit Unterstützung von"
+    },
+    "designSection": {
+        "title": "Design ohne Grenzen",
+        "authTitle": "Authentifizierung",
+        "numericalTitle": "Numerisches Alphabet",
+        "performanceTitle": "Leistung",
+        "videoTitle": "Videoanleitungen",
+        "auth": {
+            "description1": "Wenn Sie beginnen, eine Schnittstelle anzupassen, die auf Analphabetismus ausgerichtet ist, müssen Sie normale Routinen, die Sie mehrmals täglich ausführen, nehmen und neu erfinden, um ihnen ein besseres Verständnis und Einfachheit zu geben.",
+            "description2": "Eine dieser täglichen Routinen ist die Eingabe eines Passworts. Anstelle eines Passworts können sie sich eine Geschichte mit 4 Tieren merken, und mit der Ikonographie der Tiere in Übereinstimmung mit ihrem Foto kann die Software dem Benutzer die Sicherheit geben, die er benötigt, um das System zu nutzen."
+        },
+        "numerical": {
+            "description1": "Ein numerisches Alphabet, ähnlich dem römischen, aber vereinfacht, bezogen auf ihre Währung, um sicherzustellen, dass eine Person ohne Kenntnis der Zahlen verstehen kann, wie viel Geld sie bezahlt bekommen muss.",
+            "description2": "Es kann jede Kombination erstellen, die der Umfang des Projekts generieren kann (alle Geldbeträge abdeckend) und ist leicht an jede Währung anpassbar."
+        },
+        "performance": {
+            "description1": "Zeigt den Arbeitern und das in Materialien investierte Geld, um die Produkte herzustellen.",
+            "description2": "Sie können die Daten global für alle Dienste sehen, lokal für einen bestimmten Dienst oder individuell für einen bestimmten Arbeiter im System. Alle Ansichten haben die Daten in geschriebenen Wörtern und Zahlen, im grafischen und numerischen Alphabet und mit einem Diagramm zur Darstellung."
+        },
+        "video": {
+            "description1": "Benutzerdefinierte Video-Tutorials, in Schritte unterteilt für ein geführtes und einfaches Verständnis und mit Warnungen über häufige Fehler, um den Prozess zu leiten und Materialverschwendung zu vermeiden.",
+            "description2": "Enthält auch ein Set mit Symbolen und Fotos für eine schnelle grafische Zusammenfassung der für den Schritt benötigten Werkzeuge und Materialien."
+        }
+    },
+    "communitySection": {
+        "title": "Von der {community} zu den {people}",
+        "community": "Gemeinschaft",
+        "people": "Menschen",
+        "description1": "Sie können verschiedene Standorte haben (Dörfer), und Sie können auch benutzerdefinierte Dienste haben, die von Ihnen in jedem Dorf erstellt wurden (wie einen Friseursalon, Werkstatt, Bauernhof... es gibt viele Symbole, die bereits als Beispiele für Sie bereit sind, oder Sie können Ihre eigenen hochladen!).",
+        "description2": "In jedem einzelnen Dienst haben Sie Ihr Inventar für Materialien und Werkzeuge, Ihre Video-Kurse zur Bildung, die Aufzeichnungen der hergestellten Produkte und die digitalisierten Daten.",
+        "description3": "Außerdem können Sie Lieferungen an andere Dienste machen, die Gegenstände verfolgen und Zahlungen tätigen.",
+        "footer": "Um die verschiedenen Dörfer und Gemeinschaften zu bedienen, sind 6 Sprachen enthalten, was Ihnen eine enorme Abdeckung über die Weltkarte gibt:"
+    },
+    "offlineModeSection": {
+        "title": "Offline-Modus",
+        "description": "Wir erkennen die Situation der Nichtkommunikation in einigen ländlichen Gebieten an, insbesondere in abgelegenen Gebieten, in denen NGOs mehr aktiv sind, daher haben wir die Software von Anfang an so vorbereitet, dass sie in abgelegenen Gebieten laufen kann. Für weniger als 50 $ können Sie Ihren eigenen Remote-Server mit einem Raspberry Pi erstellen und mit dem Cloud-Speicher synchronisieren, wenn Sie das Netzwerk erreichen. Es verfügt auch über die neuesten Technologien auf dem Markt, um zukunftssicher zu sein."
+    },
+    "technologiesSection": {
+        "title": "Technologien, die zur Durchführung des Projekts verwendet wurden",
+        "vue": {
+            "title": "Vue",
+            "description": "Dieses Front-End-Framework wird verwendet, um der Schnittstelle Funktionalität zu verleihen, ohne die Seite neu laden zu müssen: Tabellen nach Spalte sortieren, Informationen suchen und Paginierung."
+        },
+        "bootstrap": {
+            "title": "Bootstrap",
+            "description": "Open Source entwickelt von Twitter-Ingenieuren, wir verwenden dieses Framework für die Schnittstelle, um sich an die verschiedenen Bildschirmgrößen anzupassen, vom Smartphone bis zum Desktop."
+        },
+        "gin": {
+            "title": "Gin gonic",
+            "description": "Dies ist ein Web-Framework, das verwendet wird, um die Entwicklung zu beschleunigen und die Wartung zu verbessern. Es gibt dem Projekt alle notwendigen Werkzeuge."
+        },
+        "golang": {
+            "title": "Golang",
+            "description": "Dies ist die Programmiersprache, auf der die gesamte Technologie basiert. Sie ist Open Source, speziell für die Webentwicklung entwickelt und von Google entwickelt und unterstützt."
+        },
+        "docker": {
+            "title": "Docker",
+            "description": "Dies ist der Container, in dem wir alle Softwareschichten installieren, und es ist alles, was wir brauchen. Keine Abhängigkeiten reduzieren die Wartung erheblich und vereinfachen die Bereitstellung."
+        },
+        "raspbian": {
+            "title": "Raspbian",
+            "description": "Für die abgelegenen Gebiete ohne Verbindung ist dies das Betriebssystem, das die Hardware steuert. Es wird die App ununterbrochen ausführen und automatisch neu starten, wenn die Software vom Strom getrennt wird."
+        }
+    },
+    "stepByStepSection": {
+        "title": "{step} für {step} geführte {tutorials}",
+        "step": "Schritt",
+        "tutorials": "Tutorials",
+        "description1": "Der Kern der App ist, dass das Wissen in Video-Tutorials eingebaut ist. Es wurde bewiesen, dass in Ermangelung von Präsenzlernen Video-Tutorials die beste Selbstlernressource sind. Sogar heutzutage an Universitäten bieten sie echte Kurse an, die sich auf Videounterricht konzentrieren, die sogenannten „Flip-Teaching“ mit MOOCs von Top-Universitäten wie Harvard, Cambridge oder MIT.",
+        "description2": "Ein weiterer Schlüssel zu dieser Lösung ist die Skalierbarkeit der Wissensressource, sobald sie entwickelt und in das System integriert ist. Dies ermöglicht es uns, die Videobibliothek im Laufe der Zeit zu erweitern.",
+        "description3": "Entworfen, um Schritt für Schritt zu führen und den Prozess zu verfolgen, wobei auch Tipps gegeben werden und die Sicherheit für den Benutzer erhöht wird, die App zu verwenden.",
+        "createCourses": "Erstellen Sie Ihre eigenen Videokurse und fügen Sie sie dem System hinzu.",
+        "guidingSteps": "Führen Sie die verschiedenen Schritte ein, die den gesamten Prozess leiten.",
+        "records": "Sehen Sie die Aufzeichnungen der verschiedenen Produkte, die aus den Videokursen hergestellt wurden."
+    },
+    "trackItemsSection": {
+        "title": "Verfolgen Sie {items} in der gesamten Kette",
+        "items": "Artikel",
+        "description1": "Um jedes Werkzeug und jedes hergestellte Produkt zu verfolgen (damit wir jeden Arbeiter sehen können, der an der Herstellung beteiligt ist), gibt es die Option, Artikel auf einfache, schnelle und sichere Weise zu verfolgen: QR-Codes.",
+        "description2": "Jeder Artikel hat eine eindeutige Identifikationsnummer, dargestellt durch den QR-Code. Die Anwendungsfälle für QR-Codes sind:",
+        "useCase1": "Jedes Mal, wenn wir einem Arbeiter ein Werkzeug geben wollen, zum Beispiel, scannen wir den QR-Code, und es wird registriert, dass genau dieses Werkzeug einem bestimmten Arbeiter gegeben wurde, wodurch er dafür verantwortlich ist, damit das Werkzeug nicht einfach verschwindet.",
+        "useCase2": "Jedes Mal, wenn jemand eine Lieferung machen möchte, müssen sie, wenn der Artikel verfolgbar ist, die QR-Codes scannen, um von einem Dienst zum anderen zu liefern, um sicherzustellen, dass der richtige Artikel geliefert wird, da alles digitalisiert ist.",
+        "useCase3": "Jedes Mal, wenn der Kunde ein hergestelltes Produkt von der Organisation erhält, kann er jeden Arbeiter sehen, der an der Herstellung des Produkts beteiligt ist."
+    },
+    "decisionSection": {
+        "title": "Treffen Sie {decisions} mit den {data} auf dem Tisch",
+        "decisions": "Entscheidungen",
+        "data": "Daten",
+        "description1": "Eine Inventur zu machen kann schwierig sein. Niemand hat die gleichen Bedürfnisse, und selbst in derselben Sammlung muss nicht jeder Artikel auf die gleiche Weise überprüft werden. Vielleicht ist es nicht die Anzahl der Artikel, die Sie kontrollieren möchten, sondern der Zustand dieser Artikel.",
+        "description2": "Um all diese Daten effektiv zu sammeln, können Sie ein dynamisches Formular erstellen, kombiniert aus:",
+        "checkbox": "So viele Kontrollkästchen, wie Sie benötigen",
+        "numbers": "So viele Zahlen, wie Sie benötigen",
+        "photos": "So viele Fotos, wie Sie benötigen",
+        "descriptions": "So viele Beschreibungen, wie Sie benötigen",
+        "checkFrequency": "Sie können auswählen, wie oft Sie den Artikel überprüfen möchten: nur einmal, täglich, wöchentlich oder monatlich",
+        "createCourses": "Erstellen Sie Ihre eigenen Videokurse und fügen Sie sie dem System hinzu."
+    },
+    "reportsSection": {
+        "title": "Einfache {reports}, einfache {analysis}",
+        "reports": "Berichte",
+        "analysis": "Analyse",
+        "description1": "Um die richtige Entscheidung zu treffen, müssen Sie die richtigen Informationen haben. Die Berichte werden oft unterschätzt und sind oft nicht die Priorität der Organisation, aber sie sind eine wichtige Ressource, um viele Fragen zu beantworten und die Effektivität des Programms zu beweisen.",
+        "description2": "Der Schlüssel zu guten Berichten ist, die Daten zu haben, und das ist normalerweise eine Herausforderung, weil vielleicht die Sammlung nicht richtig gemacht wird, oder es fehlen einige Daten, oder es gibt überhaupt keine Sammlung.",
+        "description3": "Spender, die Menschen sind, die den Organisationen Mittel zur Verfügung stellen, schätzen gute Berichte mit soliden Daten, um zu beweisen, dass ihr Geld erfolgreich in das Projekt investiert wird.",
+        "description4": "Eine digitale Lösung zu haben, von Anfang der Kette bis zum Ende, dynamisch erstellt, um die verschiedenen Merkmale der NGO und der Benutzer der Gemeinschaften abzudecken, kann eine voll ausgestattete Lösung für das Problem der Verfolgung und Berichterstattung sein (einschließlich aller Add-ons des Softwaresystems selbst).",
+        "excelDescription": "Die Software bietet Ihnen die Möglichkeit, Daten aus der Datenbank in Excel-Dateien zu exportieren, in spezifischen Dokumenten, um die Daten aus dem System zu exportieren, Berechnungen basierend auf den erhaltenen Daten durchzuführen und sie über Microsoft Excel zu analysieren."
+    }
+}

@@ -119,5 +119,10 @@
         "about": "Kuhusu",
         "experience": "Uzoefu",
         "contact": "Wasiliana"
-    }
+    },
+    "labels": {
+    "about": "Kuhusu",
+    "design": "Ubunifu",
+    "features": "Vipengele"
+  }
 }

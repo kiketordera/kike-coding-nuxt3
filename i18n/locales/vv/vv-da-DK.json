@@ -1,0 +1,171 @@
+{
+    "valueVillagesSection": {
+        "title": "Velkommen til Value Villages Web App",
+        "openSource": "Open source, nem at bruge,",
+        "customisable": "tilpasningsdygtig, multiplatform.",
+        "fullSet": "Et komplet sæt lige ud af boksen til alle!",
+        "ngoFunctionality": "Al nødvendig funktionalitet for NGO'er, der arbejder på jorden med at bekæmpe fattigdom og ulighed. Arbejdsgang specialiseret i at styrke folk gennem viden og erhvervsuddannelse til fair trade-operationer.",
+        "cards": {
+            "softwarePlatform": "Softwareplatform for NGO'er, der arbejder på jorden og har fokus på erhvervsuddannelse eller uddannelse",
+            "videoTutorials": "Læringen er baseret på videotutorials, så det kan skaleres og er meget mere overkommeligt end fysisk træning",
+            "offlineInstallation": "Kan installeres på enhver enhed som en server, inklusive en Raspberry Pi til fjerntliggende områder uden netværksforbindelse"
+        },
+        "ngoFocus": "De fleste NGO'er, der yder hjælp i landdistrikterne, fokuserer på erhvervsuddannelse og giver lokalsamfundene nogle færdigheder, så de kan skabe ethvert produkt.",
+        "growingFarm": "Det mest klare eksempel vil være landbrugsdelen, hvor mange NGO'er samarbejder om at skabe fair trade-produkter som kaffe, te, chokolade... men der er også erhvervsuddannelsen fokuseret på fremstilling af produkter som tasker, punge, sko og traditionelle produkter fra lokalsamfundene.",
+        "empowerment": "Den mest kraftfulde måde at styrke folk på er gennem uddannelse og også ved at give faglig viden og træning, men at have fysisk træning på hvert sted er for omkostningstungt til at være realistisk.",
+        "softwarePlatform": "Softwareplatformen er en omkostningsfri og effektiv måde at skalere uddannelse og spore fremskridt og resultater i realtid."
+    },
+    "gradientSection": {
+        "reinventLogin": {
+            "title": "Genopfind login",
+            "description": "Ekstremt brugervenlig grænseflade designet til at integrere folk, der har første kontakt med teknologi. Den perfekte start!"
+        },
+        "dashboard": {
+            "title": "Dit Dashboard",
+            "description": "Tilpasningsdygtigt dashboard med brugerdefinerede tjenester, handlinger og indstillinger. Alt på 6 sprog. Komplet sæt lige ud af boksen!"
+        },
+        "beautifulNumbers": {
+            "title": "Smukke... tal?!",
+            "description": "Visuel repræsentation af ydeevne, omkostninger og indtjening, globalt, lokalt og af en specifik person. Også med tal."
+        },
+        "watchDoLearn": {
+            "title": "Se, gør, lær...",
+            "description": "Styrk folk med viden gennem brugerdefinerede videokurser til erhvervsuddannelse, uddannelse, personlig hygiejne...."
+        },
+        "mindYourStep": {
+            "title": "Pas på trinnet!",
+            "description": "Guidede trin-for-trin procedurer for at sikre en høj kvalitet i produktionen, med videoer, lyd, advarsler og grafisk repræsentation af materialer og værktøjer."
+        },
+        "yourProduction": {
+            "title": "Din produktion",
+            "description": "Et nemt og klart overblik over de fremstillede produkter, betalingerne, indtjeningen og regnskabet for dit arbejde. Gå ikke glip af et tal!"
+        },
+        "numericalAlphabet": {
+            "title": "Numerisk alfabet",
+            "description": "Numerisk alfabet designet specielt til analfabeter, for fuldt ud at forstå, hvor meget de tjener, selv uden at kunne læse eller skrive."
+        },
+        "controlledAndSafe": {
+            "title": "Kontrolleret og sikkert",
+            "description": "Lav nemt periodiske inventarer af dine ting ved at oprette en brugerdefineret formular med mulighed for at tage billeder af varen og endda spore den med en QR-kode."
+        }
+    },
+    "trackSystemSection": {
+        "title": "Indbygget sporingssystem",
+        "trackProcess": "Du kan spore hele processen tilbage for at vide præcis, hvilket arbejde der blev udført for at lave det endelige produkt.",
+        "clientConnection": "Og du kan berige kunden med nær information om arbejderen, hans kultur og skabe en forbindelse mellem din kunde og din organisation.",
+        "culturalImmersion": "Her er en idé, du kan se på billedet nedenfor: du kan placere informationen i åbningen for at lade kunden dykke ned i kulturen lige før han tager produktet i hånden."
+    },
+    "awardsSection": {
+        "title": "Priser Fra",
+        "description": "I 2018-udgaven af \"Hack for Good\"-konkurrencen på Telefonica Foundation, afholdt på Polytechnic University of Valencia, Spanien, sikrede vi os både første og tredje plads i to af kategorierne."
+    },
+    "supportSection": {
+        "title": "Med støtte fra"
+    },
+    "designSection": {
+        "title": "Design ud over grænser",
+        "authTitle": "Autentifikation",
+        "numericalTitle": "Numerisk alfabet",
+        "performanceTitle": "Ydeevne",
+        "videoTitle": "Video Guider",
+        "auth": {
+            "description1": "Når du begynder at skabe en grænseflade tilpasset til analfabetisme, skal du tage normale rutiner, som du gør flere gange hver dag, og genopfinde dem, give dem en bedre forståelse og enkelhed.",
+            "description2": "En af disse daglige rutiner er at indtaste en adgangskode. I stedet for en adgangskode kan de huske en historie med 4 dyr, og med ikonografien af dyrene i overensstemmelse med deres foto, er softwaren i stand til at give brugeren den sikkerhed, de har brug for for at bruge systemet."
+        },
+        "numerical": {
+            "description1": "Et numerisk alfabet, som det romerske men forenklet, relateret til deres valuta for at sikre, at en person uden kendskab til tal kan forstå, hvor mange penge han/hun skal have udbetalt.",
+            "description2": "Det kan skabe enhver kombination, som projektets omfang kan generere (dækker alle pengebeløb) og er let at tilpasse til enhver valuta."
+        },
+        "performance": {
+            "description1": "Viser arbejdstagerne og pengene investeret i materialerne til at lave produkterne.",
+            "description2": "Du kan se dataene globalt for alle tjenester, lokalt for en specifik tjeneste eller individuelt for en specifik arbejdstager i systemet. Alle visninger har dataene i skrevne ord og tal, i det grafiske og numeriske alfabet og med en graf til repræsentation."
+        },
+        "video": {
+            "description1": "Brugerdefinerede videotutorials, opdelt i trin for en guidet og nem forståelse og med advarsler om almindelige fejl for at guide processen og undgå materialespild.",
+            "description2": "Inkluderer også et sæt med ikoner og fotos for en hurtig grafisk oversigt over de nødvendige værktøjer og materialer til trin."
+        }
+    },
+    "communitySection": {
+        "title": "Fra {community} til {people}",
+        "community": "fællesskabet",
+        "people": "folk",
+        "description1": "Du kan have forskellige lokationer (landsbyer), og du kan også have brugerdefinerede tjenester oprettet af dig i hver landsby (som en barbershop, værksted, gård... der er mange ikoner klar til dig som prøver, eller du kan uploade dine egne!).",
+        "description2": "I hver enkelt tjeneste har du dit inventar for materialer og værktøjer, dine videokurser til at uddanne, registreringerne af fremstillede produkter og de digitaliserede data.",
+        "description3": "Du vil også kunne lave leverancer til andre tjenester, spore varer og foretage betalinger.",
+        "footer": "For at betjene de forskellige landsbyer og fællesskaber er der inkluderet 6 sprog, hvilket giver dig en enorm dækning over verdenskortet:"
+    },
+    "offlineModeSection": {
+        "title": "Offline Tilstand",
+        "description": "Vi anerkender situationen med manglende kommunikation i nogle landdistrikter, og især de fjerntliggende områder, hvor NGO'er har mere handling, så vi forberedte softwaren fra starten til at kunne køre i fjerntliggende områder. For mindre end 50 $ kan du oprette din egen fjernserver med en Raspberry Pi og synkronisere med skyen med en USB-stick, når du når netværket. Det har også de nyeste teknologier på markedet for at være fremtidssikret."
+    },
+    "technologiesSection": {
+        "title": "Teknologier brugt til at gennemføre projektet",
+        "vue": {
+            "title": "Vue",
+            "description": "Dette front-end framework bruges til at give noget funktionalitet til grænsefladen uden at skulle opdatere siden: sortering af tabeller efter kolonne, søgning af information og pagination."
+        },
+        "bootstrap": {
+            "title": "Bootstrap",
+            "description": "Udviklet open-source af Twitter-ingeniører, vi bruger dette framework til grænsefladen for at kunne tilpasse sig de forskellige skærmstørrelser, fra smartphone til desktop."
+        },
+        "gin": {
+            "title": "Gin gonic",
+            "description": "Dette er et webframework, der bruges til at fremskynde udviklingen og forbedre vedligeholdelsen. Det styrker projektet med alle de nødvendige værktøjer."
+        },
+        "golang": {
+            "title": "Golang",
+            "description": "Dette er programmeringssproget, hvor al teknologien er baseret. Det er open-source, designet specielt til webudvikling og udviklet og styrket af Google."
+        },
+        "docker": {
+            "title": "Docker",
+            "description": "Dette er containeren, hvor vi installerer alle softwarelagene, og det er alt, hvad vi har brug for. Ingen afhængigheder reducerer vedligeholdelsen enormt og forenkler implementeringen."
+        },
+        "raspbian": {
+            "title": "Raspbian",
+            "description": "For de fjerntliggende områder uden forbindelse er dette operativsystemet, der styrer hardwaren. Det vil køre appen non-stop og genstarte automatisk, hvis softwaren er afbrudt fra strømmen."
+        }
+    },
+    "stepByStepSection": {
+        "title": "{step} for {step} guidede {tutorials}",
+        "step": "Trin",
+        "tutorials": "tutorials",
+        "description1": "Kernen i appen er, at viden er indbygget i videotutorials. Det er bevist, at i mangel af tilstedeværelseslæring er videotutorials den bedste selvundervisningsressource. Selv i dag på universiteterne giver de reelle kurser fokuseret på videolektioner, de såkaldte 'flip-teaching' med MOOCs-kurser fra topuniversiteter som Harvard, Cambridge eller MIT.",
+        "description2": "En anden nøgle til denne løsning er skalerbarheden af vidensressourcen, når den først er udviklet og integreret i systemet. Dette giver os mulighed for at øge videobiblioteket over tid.",
+        "description3": "Designet til at guide trin for trin og følge op på processen, give også tips og øge sikkerheden for brugeren til at bruge appen.",
+        "createCourses": "Opret dine egne videokurser og introducer dem i systemet.",
+        "guidingSteps": "Indsæt de forskellige trin, der guider hele processen.",
+        "records": "Se registreringerne af de forskellige produkter lavet ud fra videokurserne."
+    },
+    "trackItemsSection": {
+        "title": "Spor {items} i hele kæden",
+        "items": "genstande",
+        "description1": "For at spore hvert værktøj og hvert fremstillet produkt (så vi kan se hver enkelt arbejdstager involveret i fremstillingsprocessen), er der mulighed for at spore genstande på en nem, hurtig og sikker måde: QR-koder.",
+        "description2": "Hver genstand har et unikt identifikationsnummer, repræsenteret ved QR-koden. Brugssagerne for QR-koder er:",
+        "useCase1": "Hver gang vi vil give et værktøj til en arbejdstager, for eksempel, scanner vi QR-koden, og det vil blive registreret, at dette præcise værktøj blev givet til en specifik arbejdstager, hvilket gør ham ansvarlig for det, så værktøjet ikke bare forsvinder.",
+        "useCase2": "Hver gang nogen ønsker at foretage en levering, hvis genstanden kan spores, skal de scanne QR-koderne for at levere fra en tjeneste til en anden, hvilket sikrer, at den rigtige genstand leveres, da alt er digitaliseret.",
+        "useCase3": "Hver gang kunden modtager et fremstillet produkt fra organisationen, vil de kunne se hver arbejdstager involveret i fremstillingsprocessen af produktet."
+    },
+    "decisionSection": {
+        "title": "Tag {decisions} med {data} på bordet",
+        "decisions": "beslutninger",
+        "data": "data",
+        "description1": "At lave en inventarliste kan være tricky. Ingen har de samme behov, og selv i den samme samling behøver ikke alle genstande at blive tjekket på samme måde. Måske er det ikke antallet af genstande, du vil kontrollere, men tilstanden af disse genstande.",
+        "description2": "For at indsamle alle disse data effektivt kan du oprette en dynamisk formular kombineret af:",
+        "checkbox": "Så mange afkrydsningsfelter, du har brug for",
+        "numbers": "Så mange tal, du har brug for",
+        "photos": "Så mange fotos, du har brug for",
+        "descriptions": "Så mange beskrivelser, du har brug for",
+        "checkFrequency": "Du kan vælge, hvor ofte du vil tjekke genstanden: kun én gang, dagligt, ugentligt eller månedligt",
+        "createCourses": "Opret dine egne videokurser og introducer dem i systemet."
+    },
+    "reportsSection": {
+        "title": "Nem {reports}, nem {analysis}",
+        "reports": "rapporter",
+        "analysis": "analyse",
+        "description1": "For at træffe den rigtige beslutning skal du have den rigtige information. Rapporterne er ofte undervurderede, og ofte er de ikke organisationens prioritet, men de er en vigtig ressource til at besvare mange spørgsmål og bevise programmets effektivitet.",
+        "description2": "Nøglen til at have gode rapporter er at have dataene, og dette er normalt en udfordring, fordi måske indsamlingen ikke er gjort korrekt, eller der mangler nogle data, eller der er ingen indsamling overhovedet.",
+        "description3": "Donorer, som er de mennesker, der yder finansiering til organisationerne, værdsætter gode rapporter med solide data for at bevise, at deres penge bliver investeret med succes i projektet.",
+        "description4": "At have en digital løsning, fra begyndelsen af kæden til slutningen, dynamisk oprettet til at dække de forskellige karakteristika af NGO'en og brugerne af fællesskaberne, kan være en fuldt udstyret løsning på problemet med sporing og rapportering (inklusive alle tilføjelserne i selve softwaresystemet).",
+        "excelDescription": "Softwaren giver dig mulighed for at eksportere data til Excel-filer fra databasen i specifikke dokumenter for at kunne eksportere dataene ud af systemet, udføre beregninger baseret på de opnåede data og analysere dem via Microsoft Excel."
+    }
+}

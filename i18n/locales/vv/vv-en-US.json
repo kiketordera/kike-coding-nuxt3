@@ -112,19 +112,17 @@
             "title": "Gin gonic",
             "description": "This is a Web framework that is used to speed up development and improve maintenance. It empowers the project with all the tools needed."
         },
-        "technologiesSection": {
-            "golang": {
-                "title": "Golang",
-                "description": "This is the programming language where all the technology is based. It is open-source, designed specifically for web development and developed and empowered by Google."
-            },
-            "docker": {
-                "title": "Docker",
-                "description": "This is the container where we install all the software layers and it’s all we need. No dependencies vastly reduce the maintenance and simplify the deployment."
-            },
-            "raspbian": {
-                "title": "Raspbian",
-                "description": "For the remote areas without connection, this is the Operating System that controls the hardware. It will run the app non-stop and restart automatically if the software is disconnected from the power."
-            }
+        "golang": {
+            "title": "Golang",
+            "description": "This is the programming language where all the technology is based. It is open-source, designed specifically for web development and developed and empowered by Google."
+        },
+        "docker": {
+            "title": "Docker",
+            "description": "This is the container where we install all the software layers and it’s all we need. No dependencies vastly reduce the maintenance and simplify the deployment."
+        },
+        "raspbian": {
+            "title": "Raspbian",
+            "description": "For the remote areas without connection, this is the Operating System that controls the hardware. It will run the app non-stop and restart automatically if the software is disconnected from the power."
         }
     },
     "stepByStepSection": {

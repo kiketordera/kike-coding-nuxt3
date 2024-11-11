@@ -119,5 +119,10 @@
         "about": "Acerca de",
         "experience": "Experiencia",
         "contact": "Contacto"
-    }
+    },
+    "labels": {
+        "about": "Acerca de",
+        "design": "Diseño",
+        "features": "Características"
+      }
 }

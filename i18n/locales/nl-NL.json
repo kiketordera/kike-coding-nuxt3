@@ -119,5 +119,10 @@
         "about": "Over",
         "experience": "Ervaring",
         "contact": "Contact"
-    }
+    },
+    "labels": {
+        "about": "Over",
+        "design": "Ontwerp",
+        "features": "Kenmerken"
+      }
 }
