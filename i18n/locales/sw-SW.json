@@ -1,0 +1,123 @@
+{
+    "intro": {
+        "title": "Mtengenezaji wa Simu &",
+        "titleHighlight": "Mhandisi UX/UI",
+        "tagline": "Uhandisi wa Usahihi. Ubunifu wa Shauku.",
+        "description": "Ninatilia maanani interfaces, kutoka UX & muundo hadi maendeleo & uzinduzi.",
+        "reason": "Kwa nini kuchagua mtu mwenye nusu ya ujuzi? Chukua mtu mwenye kifurushi kamili!",
+        "cta": "Nijhire"
+    },
+    "introSection": {
+        "passionate": "Mwenye shauku na makini kwa undani",
+        "mobileDeveloper": "Mtengenezaji wa Mobile & Front-End",
+        "withExpertise": "ana utaalamu katika",
+        "uxUiDesign": "muundo wa UX/UI",
+        "specializing": "akatiwa mbunifu katika kutengeneza interfaces za kueleweka, zenye mtumiaji na suluhisho za programu za kisasa.",
+        "skills": "Mwezeshwa katika zana na lugha za maendeleo ya kisasa, na mkazo mkubwa kwenye muundo na uzoefu wa mtumiaji. Uwezo kuthibitishwa wa kubadilisha mawazo magumu kuwa programu zenye mpangilio mzuri, zenye kazi nzuri na kuvutia macho.",
+        "innovate": "Tusiendelee tu kuendeleza — tuijenge, tuundee, na kusukuma mipaka.",
+        "build": "Tusiendelee tu kujenga. Tuijenge, tuundee, na kuleta mageuzi.",
+        "blend": "Kwa nini kulenga kawaida wakati tunaweza kuchanganya msimbo na ubunifu kuunda kitu cha kushangaza kweli?",
+        "collaborate": "Tushirikiane na tufanye uchawi wa kidijitali! ✨",
+        "readMore": "Soma zaidi"
+    },
+    "projectsSection": {
+        "title": "Miradi",
+        "subtitle": "Baadhi ya bora zaidi"
+    },
+    "experienceSection": {
+        "title": "Uzoefu Wangu",
+        "description": "Gundua safari yangu ya kitaaluma na utaalamu kupitia sehemu yangu kamili ya uzoefu wa kazi",
+        "work": "Kazi",
+        "volunteer": "Kujitolea",
+        "education": "Elimu"
+    },
+    "startProject": "Anza mradi",
+    "legalSection": {
+        "cookies": "Cookies",
+        "privacy": "Faragha"
+    },
+    "myself": "mimi",
+    "aboutSection": {
+        "title": "Kuhusu",
+        "intro": "Hujambo! Mimi ni Kike Tordera.",
+        "codingPassion": "Kukodisha? Hiyo ni kitu changu! 🚀 Mizizi yangu katika kodisha ni mizito, yaliyolishwa kwa masomo magumu na kuongezwa ladha ya kimataifa. Unajua nini? Hata alipokuwa mtoto, alikuwa mjanja wa teknolojia, kila wakati akigurudumu na kompyuta.",
+        "craftingExperiences": "Lakini hapa kuna mabadiliko: Siko tu kuhusu msimbo. Nina shauku ya kutengeneza uzoefu. 🎨 Kwangu, muundo mzuri na interface inayoweza kueleweka sio tu kipande cha keki – ni viungo muhimu.",
+        "createMagic": "Kwa sababu, mwishowe, yote yanahusu kuunda kitu ambacho ni zaidi ya jumla ya vipande vyake. Tayari kuunda uchawi pamoja?"
+    },
+    "resumeSection": {
+        "downloadHuman": "Pakua Wasifu (Imetengenezwa kwa Watu)",
+        "downloadATS": "Pakua Wasifu (Imeboreshwa kwa Programu ya ATS)"
+    },
+    "skillsSection": {
+        "title": "Ujuzi Wangu",
+        "description": "Gundua anuwai yangu ya ujuzi na utaalamu katika maeneo mbalimbali.",
+        "leadershipSkills": "Ujuzi wa Uongozi",
+        "softSkills": "Ujuzi wa Kibiashara"
+    },
+    "educationSection": {
+        "title": "Historia ya Elimu",
+        "upv": {
+            "duration": "2012-2016",
+            "length": "4 miaka",
+            "university": "Chuo Kikuu cha Polytechnic cha Valencia",
+            "degree": "Shahada ya Kwanza katika Sayansi ya Kompyuta",
+            "description": "Nilipata umahiri katika maendeleo ya programu, niliweza kutumia miundo ya data na algorithms, na kuchunguza teknolojia mpya za kompyuta, ikiboresha uwezo wa kutatua matatizo na ujuzi wa kiteknolojia."
+        },
+        "czech": {
+            "duration": "2016-2017",
+            "length": "1 mwaka",
+            "university": "Chuo Kikuu cha Teknolojia cha Czech huko Prague",
+            "degree": "Utaalamu katika Uhandisi wa Programu",
+            "description": "Niliwaalamu katika Uhandisi wa Programu katika Chuo Kikuu cha Teknolojia cha Czech huko Prague, nikizingatia programu za juu, kanuni za muundo wa programu, na mbinu za usimamizi wa miradi."
+        }
+    },
+    "skills": {
+        "softSkills": {
+            "effectiveCommunication": "Mawasiliano Bora",
+            "teamwork": "Kazi ya Timu",
+            "problemSolving": "Kutatua Matatizo",
+            "timeManagement": "Usimamizi wa Wakati",
+            "adaptability": "Uwezo wa Kubadilika",
+            "leadership": "Uongozi",
+            "empathy": "Huruma",
+            "activeListening": "Kusikiliza kwa Makini",
+            "creativity": "Ubunifu"
+        },
+        "leadershipSkills": {
+            "criticalThinking": "Kufikiri kwa Kina",
+            "culturalSensitivity": "Ushirikiano wa Utamaduni",
+            "conflictResolution": "Suluhisho la Migogoro",
+            "decisionMaking": "Uchaguzi",
+            "visionaryThinking": "Kufikiri kwa Maono",
+            "teamBuilding": "Kujenga Timu & Motisha",
+            "strategicPlanning": "Mipango ya Kimkakati",
+            "emotionalIntelligence": "Akili ya Kihisia",
+            "negotiation": "Majadiliano"
+        }
+    },
+    "languagesSection": {
+        "title": "Lugha",
+        "spanish": {
+            "name": "Kihispania",
+            "level": "Asili"
+        },
+        "english": {
+            "name": "Kiingereza",
+            "level": "Kiwango C1"
+        },
+        "german": {
+            "name": "Kijerumani",
+            "level": "Kiwango A2"
+        },
+        "swahili": {
+            "name": "Kiswahili",
+            "level": "Kiwango B1"
+        }
+    },
+    "navigation": {
+        "home": "Nyumbani",
+        "about": "Kuhusu",
+        "experience": "Uzoefu",
+        "contact": "Wasiliana"
+    }
+}

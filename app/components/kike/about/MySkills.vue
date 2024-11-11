@@ -2,21 +2,20 @@
   <section>
     <div class="skills">
       <h2 data-aos="fade-up">
-        My Skills
-      </h2>
+    {{ $t('skillsSection.title') }}
+  </h2>
       <div class="info">
         <p data-aos="zoom-in-right">
-          Discover my range of skills and expertise in various areas.
-        </p>
+          {{ $t('skillsSection.description') }}        </p>
         <kike-about-Education />
         <kike-about-Languages />
         <hr>
         <kike-about-Programming />
         <hr>
-        <kike-about-Skills :skills="leadershipSkills" :title="'Leadership Skills'" :color="'#55C5CA'" class="pb-12" />
-        <kike-about-Skills :skills="softSkills" :title="'Soft Skills'" />
+        <kike-about-Skills :skills="leadershipSkills" :title="$t('skillsSection.leadershipSkills')" :color="'#55C5CA'" class="pb-12" />
+        <kike-about-Skills :skills="softSkills" :title="$t('skillsSection.softSkills')" />
         <a target="_blank" href="https://calendly.com/totemstudio" @click="whatsAppState.toggleModal()">
-          Hire me
+          {{ $t('intro.cta') }}
         </a>
       </div>
     </div>
@@ -28,29 +27,31 @@ import { WhatsAppStateProvider } from '~/store/whatsapp'
 
 const whatsAppState = WhatsAppStateProvider()
 
+const { t } = useI18n();
 const softSkills = [
-  'Effective Communication',
-  'Teamwork',
-  'Problem Solving',
-  'Time management',
-  'Adaptability',
-  'Leadership',
-  'Empathy',
-  'Active Listening',
-  'Creativity'
-]
+  t('skills.softSkills.effectiveCommunication'),
+  t('skills.softSkills.teamwork'),
+  t('skills.softSkills.problemSolving'),
+  t('skills.softSkills.timeManagement'),
+  t('skills.softSkills.adaptability'),
+  t('skills.softSkills.leadership'),
+  t('skills.softSkills.empathy'),
+  t('skills.softSkills.activeListening'),
+  t('skills.softSkills.creativity')
+];
 
 const leadershipSkills = [
-  'Critical Thinking',
-  'Cultural Sensitivity',
-  'Conflict Resolution',
-  'Decision Making',
-  'Visionary Thinking',
-  'Team Building & Motivation',
-  'Strategic Planning',
-  'Emotional Intelligence',
-  'Negotiation'
-]
+  t('skills.leadershipSkills.criticalThinking'),
+  t('skills.leadershipSkills.culturalSensitivity'),
+  t('skills.leadershipSkills.conflictResolution'),
+  t('skills.leadershipSkills.decisionMaking'),
+  t('skills.leadershipSkills.visionaryThinking'),
+  t('skills.leadershipSkills.teamBuilding'),
+  t('skills.leadershipSkills.strategicPlanning'),
+  t('skills.leadershipSkills.emotionalIntelligence'),
+  t('skills.leadershipSkills.negotiation')
+];
+
 </script>
 
 <style lang="scss" scoped>

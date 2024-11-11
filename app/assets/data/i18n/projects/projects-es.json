@@ -1,0 +1,222 @@
+[
+    {
+        "id": 0,
+        "name": "Value Villages",
+        "logo": "/img/projects/vv/value-villages.png",
+        "mainImg": "/img/projects/vv/mobile-mockup.svg",
+        "client": "value villages",
+        "color_bg_logo": "white",
+        "color_bg_title": "#63B190",
+        "color_title": "white",
+        "url": "/projects/value-villages",
+        "intro": {
+            "coverImg": "",
+            "services": [],
+            "tech": [],
+            "year": "",
+            "url": ""
+        },
+        "imagesType": "mobile",
+        "firstTitle": "",
+        "firstDescription": [],
+        "firstGroupImages": [],
+        "secondtitle": "",
+        "secondDescription": [],
+        "secondGroupImages": [],
+        "titleSEO": "Value Villages - Empoderando Comunidades",
+        "descriptionSEO": "Descubre cómo Value Villages está transformando comunidades a través de soluciones innovadoras e iniciativas colaborativas."
+    },
+    {
+        "id": 1,
+        "name": "Oculid",
+        "logo": "/img/projects/oculid/logo.svg",
+        "mainImg": "/img/projects/oculid/background.jpeg",
+        "client": "Oculid",
+        "color_bg_logo": "white",
+        "color_bg_title": "#008080",
+        "color_title": "white",
+        "url": "/projects/oculid",
+        "intro": {
+            "coverImg": "/img/projects/oculid/background.png",
+            "services": [
+                "Desarrollo Móvil"
+            ],
+            "tech": [
+                "Swift, SwiftUI,",
+                "Flutter, Dart"
+            ],
+            "year": "2021",
+            "url": "https://oculid.com"
+        },
+        "imagesType": "mobile",
+        "firstTitle": "Revolucionando las Métricas de Experiencia de Usuario",
+        "firstDescription": [
+            "Oculid es una empresa innovadora con la misión de redefinir cómo las empresas acceden a métricas críticas de experiencia de usuario. Su objetivo es llevar la precisión y el detalle de una configuración de laboratorio directamente a las empresas, pero sin la infraestructura y los costos engorrosos.",
+            "La visión de Oculid se centra en proporcionar un modelo conveniente, rentable y ágil a las empresas que desean comprender el comportamiento de los usuarios en interfaces digitales.",
+            "A través de la aplicación que he desarrollado, Oculid captura datos en tiempo real como mapas de calor para mostrar dónde se enfocan más los usuarios, junto con acciones de toques y desplazamientos.",
+            "La seguridad y la privacidad siguen siendo primordiales; toda la recopilación de datos se realiza con el consentimiento informado de los usuarios, garantizando transparencia y confianza."
+        ],
+        "firstGroupImages": [
+            "/img/projects/oculid/mockup1.jpeg",
+            "/img/projects/oculid/mockup2.jpeg",
+            "/img/projects/oculid/mockup3.jpeg",
+            "/img/projects/oculid/mockup4.jpeg"
+        ],
+        "secondtitle": "Análisis UX Avanzado Impulsado por Tecnología de Vanguardia",
+        "secondDescription": [
+            "Para la ambiciosa visión de Oculid, emprendí un viaje para diseñar una aplicación que se destaque técnicamente. En el núcleo de nuestro desarrollo estaba la integración de un sistema de captura de imágenes de alta frecuencia que toma 30 cuadros por segundo usando la cámara frontal. Esta gran cantidad de datos visuales, complementada con grabaciones de pantalla, notas de voz que detallan los pensamientos de los usuarios, así como interacciones granulares de toques y desplazamientos, se canalizan eficientemente a un sistema backend.",
+            "La verdadera magia comienza cuando el algoritmo avanzado, basado en un artículo de investigación del MIT, procesa este tesoro de datos. Empleando técnicas sofisticadas de aprendizaje automático, produce métricas UX completas, permitiendo a las empresas derivar conocimientos accionables con una precisión nunca antes vista fuera de entornos de laboratorio.",
+            "Reconociendo la sensibilidad de los datos, he incorporado protocolos estrictos de consentimiento en la aplicación. Antes de cualquier recopilación de datos, se informa a los usuarios en detalle, asegurando que la privacidad no se vea comprometida.",
+            "En cada paso, he empujado los límites de lo técnicamente posible para entregar un producto que no solo es eficiente, sino también ético."
+        ],
+        "secondGroupImages": [
+            "/img/projects/oculid/carousel/permissions.svg",
+            "/img/projects/oculid/carousel/test-login.svg",
+            "/img/projects/oculid/carousel/prepare.svg",
+            "/img/projects/oculid/carousel/enjoy.svg",
+            "/img/projects/oculid/carousel/position.svg",
+            "/img/projects/oculid/carousel/positioning.svg",
+            "/img/projects/oculid/carousel/face-holder.svg",
+            "/img/projects/oculid/carousel/positioned.svg",
+            "/img/projects/oculid/carousel/tutorial1.svg",
+            "/img/projects/oculid/carousel/tutorial2.svg",
+            "/img/projects/oculid/carousel/tutorial3.svg",
+            "/img/projects/oculid/carousel/tutorial4.svg",
+            "/img/projects/oculid/carousel/tutorial5.svg",
+            "/img/projects/oculid/carousel/tutorial6.svg",
+            "/img/projects/oculid/carousel/tutorial7.svg",
+            "/img/projects/oculid/carousel/tutorial8.svg"
+        ],
+        "titleSEO": "Oculid - Redefiniendo el Análisis de Experiencia de Usuario",
+        "descriptionSEO": "Explora Oculid, una aplicación innovadora que captura interacciones de usuario en tiempo real con precisión y ética."
+    },
+    {
+        "id": 2,
+        "name": "Eva Drones",
+        "logo": "/img/projects/drones/logo.png",
+        "mainImg": "/img/projects/drones/background.jpeg",
+        "client": "Eva Drones",
+        "color_bg_logo": "white",
+        "color_bg_title": "#00588E",
+        "color_title": "white",
+        "url": "/projects/eva-drones",
+        "intro": {
+            "coverImg": "/img/projects/drones/background.png",
+            "services": [
+                "Desarrollo Web"
+            ],
+            "tech": [
+                "Golang, Docker,",
+                "Vue.js, TypesScript"
+            ],
+            "year": "2021",
+            "url": "https://eva.xyz/"
+        },
+        "imagesType": "desktop",
+        "firstTitle": "Reimaginando las Entregas para el Futuro",
+        "firstDescription": [
+            "Eva Drones está inaugurando una nueva era de entregas, destinada a cambiar todo, desde la forma en que recibes tu pizza hasta los despachos médicos que salvan vidas en regiones remotas.",
+            "Esta startup internacional no solo está introduciendo drones; están visualizando un ecosistema integrado. A través de la infraestructura de Eva, los pilotos de drones pueden lanzar, aterrizar, recargar y mantener sus drones sin problemas. Más allá de la conveniencia de las entregas urbanas, Eva Drones tiene sus miras puestas en objetivos más ambiciosos.",
+            "Están preparados para transformar las entregas críticas a zonas de conflicto y áreas afectadas por desastres naturales, asegurando que la ayuda vital llegue rápidamente a quienes la necesitan. Con cada minuto que pasa teniendo el valor de una vida, Eva Drones está comprometida a hacer que cada segundo cuente."
+        ],
+        "firstGroupImages": [
+            "/img/projects/drones/drones-mockup1.jpg",
+            "/img/projects/drones/drones-mockup3.jpg",
+            "/img/projects/drones/drones-mockup4.jpg",
+            "/img/projects/drones/drones-mockup2.jpg"
+        ],
+        "secondtitle": "Dominio Tecnológico y Excelencia Operacional",
+        "secondDescription": [
+            "Eva Drones es mucho más que una startup; es una maravilla tecnológica que está creando el futuro de las entregas. El resultado de la colaboración fue crear un ecosistema de extremo a extremo que simplifica cada faceta de las operaciones de drones. Desde módulos robustos de despegue y aterrizaje, estaciones de carga eficientes, hasta centros de mantenimiento y reparación intrincados, hemos integrado sistemas avanzados que aseguran la fluidez operativa para los pilotos de drones.",
+            "Mi trabajo con Eva Drones es un testimonio de mis capacidades para manejar desafíos multifacéticos. Reconociendo la diversa aplicación, desde entregas urbanas de pizza hasta lanzamientos de ayuda humanitaria urgente, implementé CCTV en tiempo real, proporcionando controles integrales sobre la plataforma y las cámaras. Esto asegura visibilidad y control continuos para las operaciones, especialmente crucial en entornos de alto riesgo como zonas de conflicto o áreas afectadas por desastres.",
+            "Mis soluciones tecnológicas para Eva Drones no solo se tratan de eficiencia; encarnan la visión compartida de aprovechar la innovación para un impacto global genuino."
+        ],
+        "secondGroupImages": [
+            "/img/projects/drones/carousel/eva-drones1.svg",
+            "/img/projects/drones/carousel/eva-drones2.svg",
+            "/img/projects/drones/carousel/eva-drones3.svg",
+            "/img/projects/drones/carousel/eva-drones4.svg",
+            "/img/projects/drones/carousel/eva-drones5.svg",
+            "/img/projects/drones/carousel/eva-drones6.svg",
+            "/img/projects/drones/carousel/eva-drones7.svg",
+            "/img/projects/drones/carousel/eva-drones8.svg",
+            "/img/projects/drones/carousel/eva-drones9.svg",
+            "/img/projects/drones/carousel/eva-drones10.svg",
+            "/img/projects/drones/carousel/eva-drones11.svg",
+            "/img/projects/drones/carousel/eva-drones12.svg",
+            "/img/projects/drones/carousel/eva-drones13.svg",
+            "/img/projects/drones/carousel/eva-drones14.svg",
+            "/img/projects/drones/carousel/eva-drones15.svg",
+            "/img/projects/drones/carousel/eva-drones17.svg",
+            "/img/projects/drones/carousel/eva-drones16.svg"
+        ],
+        "titleSEO": "Eva Drones - Pioneros en Innovación de Entregas",
+        "descriptionSEO": "Explora Eva Drones, transformando los sistemas de entrega con un ecosistema de drones visionario diseñado para la eficiencia y el impacto."
+    },
+    {
+        "id": 3,
+        "name": "Action Coast",
+        "logo": "/img/projects/action-coast/logo.svg",
+        "mainImg": "/img/projects/action-coast/background.jpeg",
+        "client": "Action coast",
+        "color_bg_logo": "white",
+        "color_bg_title": "#3F62AC",
+        "color_title": "white",
+        "url": "/projects/action-coast",
+        "intro": {
+            "coverImg": "/img/projects/oculid/background.png",
+            "services": [
+                "Desarrollo Web",
+                "Desarrollo de Aplicaciones"
+            ],
+            "tech": [
+                "Vue.js, TypesScript,",
+                "Flutter, Dart"
+            ],
+            "year": "2022",
+            "url": "http://ac.com"
+        },
+        "imagesType": "mobile",
+        "firstTitle": "Sumérgete en las Joyas Costeras Ocultas",
+        "firstDescription": [
+            "En el corazón de mi colaboración con Action Coast estaba el deseo de desbloquear las joyas costeras ocultas que el mundo tiene para ofrecer. Las líneas costeras están llenas de aventuras inexploradas, secretos locales y experiencias que la mayoría de los viajeros se pierden.",
+            "El objetivo principal era diseñar una marca y una plataforma que resuenen con la emoción del descubrimiento y la calidez de las comunidades locales. Al enfocarse en las economías locales y mejorar la experiencia turística, proporcioné a los viajeros una puerta de entrada única a experiencias que a menudo se pasan por alto en las guías estándar."
+        ],
+        "firstGroupImages": [
+            "/img/projects/action-coast/ac-mockup1.jpg",
+            "/img/projects/action-coast/ac-mockup2.jpg",
+            "/img/projects/action-coast/ac-mockup3.jpeg",
+            "/img/projects/action-coast/ac-mockup4.jpg"
+        ],
+        "secondtitle": "Dominio Tecnológico se Encuentra con Aventuras Costeras Auténticas",
+        "secondDescription": [
+            "La industria de viajes está saturada de plataformas que ofrecen experiencias genéricas. La visión de Action Coast era distinta: proporcionar a los viajeros aventuras costeras auténticas.",
+            "Para lograr esto, utilicé tecnologías como Flutter, Dart, Vue.js, TypeScript, Nuxt.js y Firebase. Uno de los principales desafíos fue asegurar que la plataforma no fuera solo una lista de experiencias, sino un viaje curado hacia la autenticidad.",
+            "Implementé características como ajustes de contenido geo-específicos y un sistema de reseñas integral. Esto aseguró que la plataforma atendiera a los turistas mientras empoderaba a los anfitriones locales para mostrar sus ofertas únicas.",
+            "¿El resultado? Un portal digital que combina sin problemas experiencias costeras genuinas con tecnología de punta, convirtiéndolo en la opción preferida para viajeros que buscan aventuras auténticas."
+        ],
+        "secondGroupImages": [
+            "/img/projects/action-coast/carousel/action-coast1.jpeg",
+            "/img/projects/action-coast/carousel/action-coast2.svg",
+            "/img/projects/action-coast/carousel/action-coast3.jpeg",
+            "/img/projects/action-coast/carousel/action-coast4.svg",
+            "/img/projects/action-coast/carousel/action-coast5.svg",
+            "/img/projects/action-coast/carousel/action-coast6.jpeg",
+            "/img/projects/action-coast/carousel/action-coast7.svg",
+            "/img/projects/action-coast/carousel/action-coast8.jpeg",
+            "/img/projects/action-coast/carousel/action-coast9.jpeg",
+            "/img/projects/action-coast/carousel/action-coast10.jpeg",
+            "/img/projects/action-coast/carousel/action-coast11.svg",
+            "/img/projects/action-coast/carousel/action-coast18.svg",
+            "/img/projects/action-coast/carousel/action-coast12.svg",
+            "/img/projects/action-coast/carousel/action-coast13.svg",
+            "/img/projects/action-coast/carousel/action-coast14.jpeg",
+            "/img/projects/action-coast/carousel/action-coast15.svg",
+            "/img/projects/action-coast/carousel/action-coast16.svg",
+            "/img/projects/action-coast/carousel/action-coast17.svg",
+            "/img/projects/action-coast/carousel/action-coast19.svg"
+        ],
+        "titleSEO": "Action Coast - Aventuras Costeras Auténticas",
+        "descriptionSEO": "Experimenta aventuras costeras auténticas con Action Coast, combinando tecnología y conocimientos locales para experiencias de viaje únicas."
+    }
+]

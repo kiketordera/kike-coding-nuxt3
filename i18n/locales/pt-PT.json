@@ -1,31 +1,123 @@
 {
-    "home": "Início",
-    "the-artist": "O Artista",
-    "contact": "Contacto",
-    "contact-me": "Contacte-me",
-    "connect-now": "Conectar Agora",
-    "welcome": "Bem-vindo ao Bohemian Tattoo",
-    "about-me": "Sobre Mim",
-    "p1-about-me": "Olá! Sou o Sergio. Vivo em Roterdão e especializo-me em tatuagens que combinam blackwork com realismo. A minha paixão pelos detalhes do blackwork, juntamente com a profundidade e textura detalhada do realismo, permite-me criar tatuagens únicas que não só se destacam, mas também contam uma história.",
-    "p2-about-me": "A minha abordagem é integrar estes dois estilos de forma harmoniosa, garantindo que cada peça reflita a individualidade dos meus clientes, mantendo uma estética intemporal. O meu trabalho caracteriza-se pelo alto contraste, atenção minuciosa aos detalhes e um forte sentido de como os desenhos se adaptam e fluem com os contornos naturais do corpo.",
-    "p3-about-me": "Através das minhas tatuagens, procuro dar vida às visões dos meus clientes, criando arte que ressoa com as suas narrativas pessoais e enaltece a sua beleza natural.",
-    "tattoos": "Tatuagens",
-    "tattoos-sub": "Aqui pode ver algumas das minhas tatuagens.",
-    "events": "Eventos",
-    "loading-events": "A carregar eventos...",
-    "no-events": "Não há eventos disponíveis",
-    "appointment-policy": "Política de Marcação",
-    "p1-appointment-policy": "Como seu tatuador, agradeço a sua confiança em me permitir criar uma peça de arte permanente na sua pele. Aqui estão as nossas políticas de depósito e cancelamento:",
-    "p2-bold-appointment-policy": "Detalhes do Depósito:",
-    "p2-appointment-policy": "Após a nossa conversa inicial, terá de fazer um depósito não reembolsável para confirmar a sua sessão de tatuagem. Isto demonstra o seu compromisso com a jornada artística que estamos a planear juntos.",
-    "p3-bold-appointment-policy": "Cancelamento e Alterações de Marcação:",
-    "p3-appointment-policy": "A vida acontece, e entendo que os planos podem mudar. Eis o que pode fazer:",
-    "p3a-bold-appointment-policy": "Alterações Gratuitas até 1 Semana Antes:",
-    "p3a-appointment-policy": "Pode alterar ou reagendar a sua marcação sem custos se o fizer pelo menos três dias antes da sua sessão.",
-    "p3b-bold-appointment-policy": "Sobre o Seu Depósito:",
-    "p3b-appointment-policy": "Embora não possa recuperar o seu depósito, este reserva o seu lugar. Se precisar de cancelar, poderá utilizar o depósito para uma marcação futura, seguindo as nossas regras.",
-    "p4-appointment-policy": "Obrigado por cumprir estas regras, que ajudam a manter tudo a funcionar sem problemas para todos. Estou entusiasmado para trabalhar consigo e criar uma arte significativa!",
-    "get-in-touch": "Entrar em Contacto",
-    "privacy-policy": "Política de Privacidade",
-    "cookies-policy": "Política de Cookies"
-  }
+    "intro": {
+        "title": "Desenvolvedor Móvel &",
+        "titleHighlight": "Engenheiro UX/UI",
+        "tagline": "Precisão em Engenharia. Paixão em Design.",
+        "description": "Especializo-me em interfaces, desde UX e design até desenvolvimento e lançamento.",
+        "reason": "Por que escolher alguém com metade das habilidades? Escolha alguém com o pacote completo!",
+        "cta": "Me Contrate"
+    },
+    "introSection": {
+        "passionate": "Apaixonado e orientado a detalhes",
+        "mobileDeveloper": "Desenvolvedor Móvel & Front-End",
+        "withExpertise": "com expertise em",
+        "uxUiDesign": "design UX/UI",
+        "specializing": "especializando-se na criação de interfaces intuitivas focadas no usuário e soluções de software de ponta.",
+        "skills": "Habilidoso em ferramentas e linguagens de desenvolvimento modernas, com forte ênfase em design e experiência do usuário. Capacidade comprovada de transformar ideias complexas em aplicações elegantes, funcionais e visualmente atraentes.",
+        "innovate": "Vamos além de apenas desenvolver — vamos inovar, projetar e ultrapassar limites.",
+        "build": "Não vamos apenas construir. Vamos inovar, projetar e revolucionar.",
+        "blend": "Por que visar o ordinário quando podemos combinar código e criatividade para criar algo realmente notável?",
+        "collaborate": "Vamos colaborar e fazer mágica digital! ✨",
+        "readMore": "Leia mais"
+    },
+    "projectsSection": {
+        "title": "Projetos",
+        "subtitle": "Alguns dos melhores"
+    },
+    "experienceSection": {
+        "title": "Minha Experiência",
+        "description": "Explore minha jornada profissional e expertise através da minha seção abrangente de experiência de trabalho",
+        "work": "Trabalho",
+        "volunteer": "Voluntariado",
+        "education": "Educação"
+    },
+    "startProject": "Iniciar um projeto",
+    "legalSection": {
+        "cookies": "Cookies",
+        "privacy": "Privacidade"
+    },
+    "myself": "mim",
+    "aboutSection": {
+        "title": "Sobre",
+        "intro": "Oi! Eu sou Kike Tordera.",
+        "codingPassion": "Programar? Isso é comigo! 🚀 Minhas raízes na programação são profundas, nutridas por estudos rigorosos e temperadas com um toque internacional. Adivinha? Mesmo criança, eu era o gênio da tecnologia para quem recorriam, sempre mexendo com computadores.",
+        "craftingExperiences": "Mas aqui está o diferencial: não se trata apenas de código. Sou apaixonado por criar experiências. 🎨 Para mim, um design elegante e uma interface intuitiva não são apenas a cereja do bolo — são ingredientes essenciais.",
+        "createMagic": "Porque, no final das contas, tudo se resume a criar algo que é mais do que a soma de suas partes. Pronto para criar magia juntos?"
+    },
+    "resumeSection": {
+        "downloadHuman": "Baixar Currículo (Projetado para Humanos)",
+        "downloadATS": "Baixar Currículo (Otimizado para Software ATS)"
+    },
+    "skillsSection": {
+        "title": "Minhas Habilidades",
+        "description": "Descubra minha gama de habilidades e expertise em várias áreas.",
+        "leadershipSkills": "Habilidades de Liderança",
+        "softSkills": "Habilidades Interpessoais"
+    },
+    "educationSection": {
+        "title": "Histórico Educacional",
+        "upv": {
+            "duration": "2012-2016",
+            "length": "4 anos",
+            "university": "Universidade Politécnica de Valência",
+            "degree": "Bacharelado em Ciência da Computação",
+            "description": "Adquiri proficiência em desenvolvimento de software, dominei estruturas de dados e algoritmos, e explorei tecnologias emergentes de computação, aprimorando habilidades de resolução de problemas e técnicas."
+        },
+        "czech": {
+            "duration": "2016-2017",
+            "length": "1 ano",
+            "university": "Universidade Técnica Tcheca em Praga",
+            "degree": "Especialização em Engenharia de Software",
+            "description": "Especializei-me em Engenharia de Software na Universidade Técnica Tcheca em Praga, focando em programação avançada, princípios de design de software e metodologias de gestão de projetos."
+        }
+    },
+    "skills": {
+        "softSkills": {
+            "effectiveCommunication": "Comunicação Eficaz",
+            "teamwork": "Trabalho em Equipe",
+            "problemSolving": "Resolução de Problemas",
+            "timeManagement": "Gestão de Tempo",
+            "adaptability": "Adaptabilidade",
+            "leadership": "Liderança",
+            "empathy": "Empatia",
+            "activeListening": "Escuta Ativa",
+            "creativity": "Criatividade"
+        },
+        "leadershipSkills": {
+            "criticalThinking": "Pensamento Crítico",
+            "culturalSensitivity": "Sensibilidade Cultural",
+            "conflictResolution": "Resolução de Conflitos",
+            "decisionMaking": "Tomada de Decisão",
+            "visionaryThinking": "Pensamento Visionário",
+            "teamBuilding": "Construção e Motivação de Equipe",
+            "strategicPlanning": "Planejamento Estratégico",
+            "emotionalIntelligence": "Inteligência Emocional",
+            "negotiation": "Negociação"
+        }
+    },
+    "languagesSection": {
+        "title": "Idiomas",
+        "spanish": {
+            "name": "Espanhol",
+            "level": "Nativo"
+        },
+        "english": {
+            "name": "Inglês",
+            "level": "Nível C1"
+        },
+        "german": {
+            "name": "Alemão",
+            "level": "Nível A2"
+        },
+        "swahili": {
+            "name": "Swahili",
+            "level": "Nível B1"
+        }
+    },
+    "navigation": {
+        "home": "Início",
+        "about": "Sobre",
+        "experience": "Experiência",
+        "contact": "Contato"
+    }
+}

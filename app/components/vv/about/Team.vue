@@ -28,7 +28,8 @@
 </template>
 
 <script lang="ts" setup>
-const { default: allTeam } = await import('~/assets/data/team.json')
+import type { Team } from '~/types/data_model';
+const allTeam = await getI18nJson<Team>('team')
 </script>
 
 <style lang="scss" scoped>

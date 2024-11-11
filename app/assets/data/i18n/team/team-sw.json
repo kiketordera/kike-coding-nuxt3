@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Kike Tordera",
+        "title": "Mtengenezaji & Mdhahabu wa UX/UI",
+        "img": "kike.jpeg",
+        "linkedin": "https://www.linkedin.com/in/kiketordera/",
+        "web": "/",
+        "email": "kiketordera@gmail.com",
+        "description": "Kike anawajibika kwa mradi mzima wa programu. Kwanza alitengeneza na kisha akaandika App kutoka kwa dhana ya awali hadi matokeo ya mwisho ambayo unatembelea sasa hivi."
+    },
+    {
+        "name": "Oskar Joziak",
+        "title": "Mdhahabu wa UX/UI",
+        "img": "oskar.jpeg",
+        "linkedin": "https://www.linkedin.com/in/oskar-joziak/",
+        "web": "https://www.linkedin.com/in/oskar-joziak/",
+        "email": "aplotec.oj@gmail.com",
+        "description": "Oskar amesaidia kubuni na kutengeneza maonyesho ya App. Pia alitoa mradi katika shindano akipata nafasi ya pili."
+    },
+    {
+        "name": "Obadiah Ekiru",
+        "title": "Ubunifu wa Picha",
+        "img": "bambu.jpeg",
+        "linkedin": "https://www.linkedin.com/in/obadiah-edamoe-ekiru-670721166/",
+        "web": "https://www.linkedin.com/in/obadiah-edamoe-ekiru-670721166/",
+        "email": "ekiruobadiah@gmail.com",
+        "description": "Ekiru alitengeneza iconography yote ya kuvutia, kwa kuelewa na kukabiliana na tamaduni tofauti ili kuunda iconography ya ulimwengu."
+    },
+    {
+        "name": "Gabi Rocha",
+        "title": "Ubunifu wa Picha",
+        "img": "gabi.jpg",
+        "linkedin": "https://www.linkedin.com/in/gabirochadesign/",
+        "web": "http://gabirocha.com/",
+        "email": "gabriela@gabirocha.com",
+        "description": "Gabi alibuni nembo nzuri na utambulisho wa chapa wa kushangaza, ikiwa ni pamoja na mtindo wa ubunifu unaotumika katika kila icon na aliyesimamia."
+    }
+]

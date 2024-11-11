@@ -1,0 +1,147 @@
+{
+    "privacyPolicy": {
+      "title": "Sera ya Faragha",
+      "sections": {
+        "liabilityForContent": {
+          "title": "Uwajibikaji kwa Maudhui",
+          "content": "Tumefanya kila juhudi kuhakikisha usahihi na ukamilifu wa maudhui kwenye kurasa zetu. Hata hivyo, hatuwezi kuhakikisha usahihi, ukamilifu, au umuhimu wa sasa wa maudhui. Kama mtoa huduma, jukumu letu ni kwa maudhui yetu wenyewe kwenye kurasa hizi kulingana na sheria za jumla. Kama mtoa huduma, hatuna wajibu wa kufuatilia taarifa zilizotumwa au kuhifadhiwa na watu wa tatu, wala hatuna wajibu wa kuchunguza hali zinazohusiana na shughuli zisizo halali. Jukumu la kuondoa au kuzuia matumizi ya taarifa kulingana na sheria za jumla linasalia. Uwajibikaji katika muktadha huu unaweza kuchukuliwa tu pale tunapopata ufahamu wa ukiukwaji maalum wa sheria. Mara tu tutakapopata ufahamu wa ukiukwaji kama huo, tutaondoa maudhui haramu mara moja."
+        },
+        "liabilityForLinks": {
+          "title": "Uwajibikaji kwa Viungo",
+          "content": "Tovuti yetu ina viungo vya tovuti za nje zinazomilikiwa na watu wa tatu, na hatuna udhibiti juu ya maudhui ya kurasa hizo. Kwa hivyo, hatuwezi kuwajibika kwa maudhui ya tovuti hizo za watu wa tatu. Kila mtoa huduma au mwendeshaji wa kurasa zilizounganishwa ndiye anayewajibika kwa maudhui yake. Wakati wa kuunganisha, kurasa zilizounganishwa zilifanyiwa uchunguzi juu ya uwezekano wa ukiukwaji wa sheria, na hakukuwa na maudhui yasiyo halali yaliyogunduliwa. Kufuatilia maudhui ya kurasa zilizounganishwa bila dalili maalum ya ukiukwaji wa sheria sio sawa. Ikiwa tutapata ufahamu wa ukiukwaji wa sheria, tutaondoa viungo husika mara moja."
+        },
+        "copyright": {
+          "title": "Haki Miliki",
+          "content": "Maudhui na kazi kwenye tovuti yetu yanalindwa na haki miliki za Ulaya na kimataifa. Uzalishaji, mabadiliko, usambazaji, na aina yoyote ya matumizi zaidi ya kiwango cha haki miliki zinahitaji idhini ya maandishi ya mwandishi au muundaji husika. Upakuaji na nakala za tovuti hii zinakubalika tu kwa matumizi ya kibinafsi, yasiyo ya kibiashara. Katika kesi ambapo maudhui ya ukurasa huu hayajatolewa na mwendeshaji, haki miliki za watu wa tatu zimeheshimiwa. Hasa, maudhui ya watu wa tatu yanatajwa kama hayo. Ikiwa utapata ufahamu wa ukiukwaji wa haki miliki, tafadhali tujulishe ipasavyo. Mara tu tunapopata ufahamu wa ukiukwaji wa sheria, tutaondoa maudhui yasiyo halali mara moja."
+        },
+        "companyInformation": {
+          "title": "Maelezo ya Kampuni",
+          "registration": "Usajili",
+          "contact": "Mawasiliano",
+          "dataProtectionOfficer": "Afisa Ulinzi wa Data"
+        }
+      },
+      "introduction": {
+        "title": "Sera ya Faragha",
+        "content": "Sera hii ya faragha inaelezea taratibu zetu na mchakato wa ukusanyaji, matumizi, na kufichua taarifa zako unapofikia na kutumia huduma yetu. Inakujulisha pia juu ya haki zako za faragha na ulinzi wa kisheria unaopatikana kwako. Kwa kutumia huduma yetu, unakubaliana na ukusanyaji na matumizi ya taarifa zako kulingana na sera hii ya faragha."
+      },
+      "interpretation": {
+        "title": "Ufafanuzi na Maana",
+        "sections": {
+          "interpretation": {
+            "title": "Ufafanuzi",
+            "content": "Maneno yenye herufi ya kwanza kubwa yana maana zilizofafanuliwa chini ya masharti yafuatayo. Maana hizi zinabaki sawa bila kujali kama zinatumika kwa umoja au wingi."
+          },
+          "definitions": {
+            "title": "Ufafanuzi",
+            "content": "Kwa madhumuni ya sera hii ya faragha:",
+            "personalData": "Taarifa za Kibinafsi",
+            "personalDataDesc": "Taarifa yoyote inayohusiana na mtu aliyejitambulisha au anayeweza kutambulika.",
+            "dataSubject": "Mhusika wa Data",
+            "dataSubjectDesc": "Mtu binafsi ambaye taarifa zake za kibinafsi zinahusishwa.",
+            "processing": "Usindikaji",
+            "processingDesc": "Operesheni yoyote inayohusiana na taarifa za kibinafsi, iwe kwa njia ya kiotomatiki au la, ikiwa ni pamoja na ukusanyaji, uhifadhi, matumizi, na kufuta.",
+            "controller": "Mdhibiti",
+            "controllerDesc": "Mtu binafsi au wa kisheria, mamlaka, au chombo kingine kinachoamua pekee au kwa pamoja na wengine juu ya madhumuni na njia za usindikaji wa data za kibinafsi.",
+            "processor": "Msindikaji",
+            "processorDesc": "Mtu binafsi au wa kisheria, mamlaka, au chombo kingine kinachosindika data za kibinafsi kwa niaba ya mdhibiti.",
+            "consent": "Idhini",
+            "consentDesc": "Tamko lolote la hiari, maalum, la taarifa, na la wazi la nia la mhusika wa data."
+          }
+        }
+      },
+      "collectionDeletion": {
+        "title": "Ukusanyaji na Kufuta Data",
+        "sections": {
+          "generalData": {
+            "title": "Ukusanyaji wa Data na Taarifa za Jumla",
+            "content": "Mdhibiti hukusanya data na taarifa mbalimbali za jumla kila wakati unapotembelea tovuti yetu. Data hizi zinahifadhiwa kwenye faili za kumbukumbu za seva na zinajumuisha:",
+            "browsers": "Aina ya Kivinjari na Toleo",
+            "operatingSystem": "Mfumo wa Uendeshaji",
+            "referrerURL": "URL ya Marejeleo",
+            "pagesAccessed": "Kurasa Zilizofikiwa",
+            "dateTime": "Tarehe na Muda wa Ufikiaji",
+            "ipAddress": "Anwani ya IP",
+            "isp": "Mtoa Huduma ya Mtandao",
+            "otherData": "Data zingine zinazofanana zinazotumika kwa ulinzi dhidi ya vitisho vya mtandao",
+            "usage": "Data hizi zinatumiwa kwa:",
+            "usageList": {
+              "contentDelivery": "Utoaji na Uboreshaji wa Maudhui ya Tovuti",
+              "optimization": "Kuhakikisha Uendeshaji na Usalama",
+              "security": "Kuhakikisha Uendeshaji na Usalama",
+              "statistics": "Uchambuzi wa Takwimu kwa ajili ya kuboresha ulinzi wa data"
+            },
+            "separatedData": "Data zilizokusanywa zinahifadhiwa tofauti na data za kibinafsi zilizotolewa na watumiaji."
+          },
+          "deletion": {
+            "title": "Kufuta na Kuzuia Data za Kibinafsi kwa Utaratibu",
+            "content": "Mdhibiti huchakata na kuhifadhi data za kibinafsi tu kwa muda ambao ni muhimu kwa kufikia madhumuni ya usindikaji au kama inavyotakiwa kisheria. Mara data inapokuwa haitajiki tena, itafutwa au kufanywa kuwa isiyojulikana kulingana na sheria zinazotumika."
+          }
+        }
+      },
+      "rights": {
+        "title": "Haki za Mhusika wa Data",
+        "sections": {
+          "access": {
+            "title": "Haki ya Kupata Taarifa",
+            "content": "Una haki ya kupata taarifa kuhusu data zako za kibinafsi na jinsi zinavyosindikwa. Ili kutumia haki hii, tafadhali wasiliana na Afisa Ulinzi wa Data kupitia maelezo ya mawasiliano yaliyotolewa hapa chini."
+          },
+          "rectification": {
+            "title": "Haki ya Kusahihisha",
+            "content": "Una haki ya kudai usahihishaji wa data za kibinafsi zisizo sahihi au zisizo kamili. Ili kuomba usahihishaji, tafadhali wasiliana na Afisa Ulinzi wa Data."
+          },
+          "erasure": {
+            "title": "Haki ya Kufuta (Haki ya Kusahauliwa)",
+            "content": "Una haki ya kudai kufutwa kwa data zako za kibinafsi chini ya hali fulani, kama vile data hizo hazihitajiki tena kwa madhumuni ambayo zilikusanywa au kama unafuta idhini yako.",
+            "conditions": {
+              "condition1": "Data za kibinafsi zilikusanywa au kuchakatwa kwa madhumuni ambayo hayahitajiki tena.",
+              "condition2": "Unafuta idhini iliyotolewa chini ya Kifungu 6(1)(a) GDPR au Kifungu 9(2)(a) GDPR, na hakuna msingi mwingine wa kisheria wa usindikaji.",
+              "condition3": "Unatoa pingamizi dhidi ya usindikaji kulingana na Kifungu 21(1) GDPR na hakuna sababu za msingi zinazozidi haki zako, au unatoa pingamizi kulingana na Kifungu 21(2) GDPR.",
+              "condition4": "Data za kibinafsi zilichakatwa kinyume cha sheria.",
+              "condition5": "Kufuta data za kibinafsi ni muhimu kwa kutimiza wajibu wa kisheria chini ya sheria za Umoja au sheria za Nchi Mwanachama zinazotumika.",
+              "condition6": "Data za kibinafsi zilikusanywa kuhusiana na huduma za jamii ya taarifa kulingana na Kifungu 8(1) GDPR."
+            },
+            "instructions": "Ikiwa sababu mojawapo iliyo hapo juu inatimia na unataka kufuta data zako za kibinafsi, tafadhali wasiliana na Afisa Ulinzi wa Data.",
+            "publicDataDeletion": "Ikiwa data za kibinafsi zimewekwa wazi, tutachukua hatua zinazofaa kuwajulisha wadhibiti wengine kufuta viungo au nakala za data, ikiwa haipaswi kubaki kwa madhumuni ya usindikaji."
+          },
+          "restriction": {
+            "title": "Haki ya Kuzuia Usindikaji",
+            "content": "Una haki ya kudai kuzuia usindikaji wa data zako za kibinafsi chini ya hali maalum.",
+            "conditions": {
+              "condition1": "Usahihi wa data za kibinafsi umepingwa na wewe, kwa muda unaoturuhusu kuthibitisha usahihi.",
+              "condition2": "Usindikaji ni kinyume cha sheria, unakataa kufuta data za kibinafsi na badala yake kudai kuzuia matumizi ya data hizo.",
+              "condition3": "Hatuhitaji tena data za kibinafsi kwa madhumuni ya usindikaji, lakini unazihitaji kwa ajili ya madai ya kisheria.",
+              "condition4": "Umeweka pingamizi kulingana na Kifungu 21(1) GDPR na bado haijabainika kama sababu zetu za msingi zinazidi zako."
+            },
+            "instructions": "Ikiwa mojawapo ya hali zilizo hapo juu inatimizwa na unataka kuzuia usindikaji wa data zako za kibinafsi, tafadhali wasiliana nasi moja kwa moja. Tutaanza kuzuia usindikaji wa data."
+          },
+          "portability": {
+            "title": "Haki ya Uhamisho wa Data",
+            "content": "Una haki ya kupata data zako za kibinafsi katika muundo uliopangwa, unaotumika, na unaosomwa na mashine na kuzihamisha kwa mdhibiti mwingine."
+          },
+          "object": {
+            "title": "Haki ya Kupinga Usindikaji",
+            "content": "Una haki ya kupinga usindikaji wa data zako za kibinafsi kwa sababu ya maslahi halali au kwa madhumuni ya uuzaji wa moja kwa moja."
+          },
+          "automatedDecision": {
+            "title": "Haki Zinazohusiana na Uamuzi wa Kiotomatiki",
+            "content": "Una haki ya kutokuwa chini ya uamuzi unaotegemea tu usindikaji wa kiotomatiki, ikiwa ni pamoja na utambuzi wa tabia, ambao una athari za kisheria au kukudhuru kwa njia sawa."
+          },
+          "revokeConsent": {
+            "title": "Haki ya Kutoa Idhini",
+            "content": "Una haki ya kubatilisha idhini yako ya usindikaji wa data zako za kibinafsi wakati wowote. Ili kubatilisha idhini yako, tafadhali wasiliana na Afisa Ulinzi wa Data."
+          }
+        }
+      },
+      "contactUs": {
+        "title": "Wasiliana Nasi",
+        "content": "Ikiwa una maswali au wasiwasi kuhusu sera hii ya faragha au taratibu zetu za usindikaji wa data, tafadhali wasiliana na Afisa Ulinzi wa Data:",
+        "email": "Barua Pepe",
+        "address": "Anwani",
+        "phone": "Simu"
+      },
+      "copyright": "Haki miliki © ",
+      "rightsReserved": ". Haki zote zimehifadhiwa"
+    }
+  }
+  

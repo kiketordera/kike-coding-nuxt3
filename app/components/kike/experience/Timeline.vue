@@ -1,28 +1,28 @@
 <template>
   <div>
     <div class="intro">
-      <div class="content">
-        <h2 data-aos="fade-up">
-          My Experience
-        </h2>
-        <p data-aos="zoom-in-right">
-          Explore my professional journey and expertise through my comprehensive work experience section
-        </p>
-      </div>
-      <div class="links">
-        <NuxtLink :to="`/#work${firstWorkIndex}`" class="work">
-          Work
-        </NuxtLink>
-        <hr>
-        <NuxtLink :to="`/#volunteer${firstVolunteerIndex}`" class="volunteer">
-          Volunteer
-        </NuxtLink>
-        <hr>
-        <NuxtLink :to="`/#education${firstEducationIndex}`" class="education">
-          Education
-        </NuxtLink>
-      </div>
+    <div class="content">
+      <h2 data-aos="fade-up">
+        {{ $t('experienceSection.title') }}
+      </h2>
+      <p data-aos="zoom-in-right">
+        {{ $t('experienceSection.description') }}
+      </p>
     </div>
+    <div class="links">
+      <NuxtLink :to="`/#work${firstWorkIndex}`" class="work">
+        {{ $t('experienceSection.work') }}
+      </NuxtLink>
+      <hr>
+      <NuxtLink :to="`/#volunteer${firstVolunteerIndex}`" class="volunteer">
+        {{ $t('experienceSection.volunteer') }}
+      </NuxtLink>
+      <hr>
+      <NuxtLink :to="`/#education${firstEducationIndex}`" class="education">
+        {{ $t('experienceSection.education') }}
+      </NuxtLink>
+    </div>
+  </div>
     <v-timeline line-thickness="3" align="start" side="end" :line-color="'#EEEEEE'" class="content">
       <v-timeline-item
         v-for="(exp, index) in rev"
@@ -72,7 +72,8 @@
 </template>
 
 <script lang="ts" setup>
-import experiences from '~/assets/data/work-experience.json'
+import type { ProjectExperience }  from '~/types/types';
+const experiences = await getI18nJson<ProjectExperience>('work-experience')
 
 const rev = [...experiences].reverse()
 

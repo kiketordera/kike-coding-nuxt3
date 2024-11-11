@@ -1,0 +1,222 @@
+[
+    {
+        "id": 0,
+        "name": "Value Villages",
+        "logo": "/img/projects/vv/value-villages.png",
+        "mainImg": "/img/projects/vv/mobile-mockup.svg",
+        "client": "value villages",
+        "color_bg_logo": "white",
+        "color_bg_title": "#63B190",
+        "color_title": "white",
+        "url": "/projects/value-villages",
+        "intro": {
+            "coverImg": "",
+            "services": [],
+            "tech": [],
+            "year": "",
+            "url": ""
+        },
+        "imagesType": "mobile",
+        "firstTitle": "",
+        "firstDescription": [],
+        "firstGroupImages": [],
+        "secondtitle": "",
+        "secondDescription": [],
+        "secondGroupImages": [],
+        "titleSEO": "Value Villages - Gemeenschappen Empoweren",
+        "descriptionSEO": "Ontdek hoe Value Villages gemeenschappen transformeert door middel van innovatieve oplossingen en samenwerkingsinitiatieven."
+    },
+    {
+        "id": 1,
+        "name": "Oculid",
+        "logo": "/img/projects/oculid/logo.svg",
+        "mainImg": "/img/projects/oculid/background.jpeg",
+        "client": "Oculid",
+        "color_bg_logo": "white",
+        "color_bg_title": "#008080",
+        "color_title": "white",
+        "url": "/projects/oculid",
+        "intro": {
+            "coverImg": "/img/projects/oculid/background.png",
+            "services": [
+                "Mobiele Ontwikkeling"
+            ],
+            "tech": [
+                "Swift, SwiftUI,",
+                "Flutter, Dart"
+            ],
+            "year": "2021",
+            "url": "https://oculid.com"
+        },
+        "imagesType": "mobile",
+        "firstTitle": "Revolutioneren van Gebruikerservaring Metrics",
+        "firstDescription": [
+            "Oculid is een innovatief bedrijf met de missie om te herdefiniëren hoe bedrijven toegang krijgen tot kritieke gebruikerservaring metrics. Ze streven ernaar de precisie en detail van een laboratoriumopstelling direct naar bedrijven te brengen, maar zonder de omslachtige infrastructuur en kosten.",
+            "De visie van Oculid richt zich op het bieden van een handige, kosteneffectieve en flexibele model aan bedrijven die het gebruikersgedrag op digitale interfaces willen begrijpen.",
+            "Via de app die ik heb ontwikkeld, vangt Oculid realtime gegevens zoals heatmaps om te laten zien waar gebruikers zich het meest op concentreren, samen met tik- en scrollacties.",
+            "Veiligheid en privacy blijven van het grootste belang; alle gegevensverzameling gebeurt met geïnformeerde toestemming van gebruikers, wat transparantie en vertrouwen garandeert."
+        ],
+        "firstGroupImages": [
+            "/img/projects/oculid/mockup1.jpeg",
+            "/img/projects/oculid/mockup2.jpeg",
+            "/img/projects/oculid/mockup3.jpeg",
+            "/img/projects/oculid/mockup4.jpeg"
+        ],
+        "secondtitle": "Geavanceerde UX Analyse Gedreven door Geavanceerde Technologie",
+        "secondDescription": [
+            "Voor de ambitieuze visie van Oculid ben ik een reis begonnen om een applicatie te ontwerpen die technisch uitblinkt. In het hart van onze ontwikkeling stond de integratie van een hoogfrequent beeldvangstsysteem dat 30 frames per seconde vastlegt met behulp van de frontcamera. Deze enorme hoeveelheid visuele gegevens, aangevuld met schermopnames, spraaknotities die de gedachten van gebruikers gedetailleerd beschrijven, evenals granulaire tik- en scrollinteracties, worden efficiënt doorgestuurd naar een backend-systeem.",
+            "De echte magie begint wanneer het geavanceerde algoritme, gebaseerd op een onderzoeksartikel van MIT, deze schat aan gegevens verwerkt. Door gebruik te maken van geavanceerde machine learning-technieken genereert het uitgebreide UX metrics, waardoor bedrijven bruikbare inzichten met ongekende precisie buiten laboratoriumomgevingen kunnen halen.",
+            "Erkennend de gevoeligheid van de gegevens, heb ik strikte toestemmingsprotocollen in de app geïntegreerd. Voor elke gegevensverzameling worden gebruikers gedetailleerd geïnformeerd, waardoor de privacy niet in het gedrang komt.",
+            "Bij elke stap heb ik de grenzen van wat technisch mogelijk is verlegd om een product te leveren dat niet alleen efficiënt is, maar ook ethisch."
+        ],
+        "secondGroupImages": [
+            "/img/projects/oculid/carousel/permissions.svg",
+            "/img/projects/oculid/carousel/test-login.svg",
+            "/img/projects/oculid/carousel/prepare.svg",
+            "/img/projects/oculid/carousel/enjoy.svg",
+            "/img/projects/oculid/carousel/position.svg",
+            "/img/projects/oculid/carousel/positioning.svg",
+            "/img/projects/oculid/carousel/face-holder.svg",
+            "/img/projects/oculid/carousel/positioned.svg",
+            "/img/projects/oculid/carousel/tutorial1.svg",
+            "/img/projects/oculid/carousel/tutorial2.svg",
+            "/img/projects/oculid/carousel/tutorial3.svg",
+            "/img/projects/oculid/carousel/tutorial4.svg",
+            "/img/projects/oculid/carousel/tutorial5.svg",
+            "/img/projects/oculid/carousel/tutorial6.svg",
+            "/img/projects/oculid/carousel/tutorial7.svg",
+            "/img/projects/oculid/carousel/tutorial8.svg"
+        ],
+        "titleSEO": "Oculid - Herdefiniëren van Gebruikerservaring Analyse",
+        "descriptionSEO": "Ontdek Oculid, een baanbrekende applicatie die realtime gebruikersinteracties met precisie en ethiek vastlegt."
+    },
+    {
+        "id": 2,
+        "name": "Eva Drones",
+        "logo": "/img/projects/drones/logo.png",
+        "mainImg": "/img/projects/drones/background.jpeg",
+        "client": "Eva Drones",
+        "color_bg_logo": "white",
+        "color_bg_title": "#00588E",
+        "color_title": "white",
+        "url": "/projects/eva-drones",
+        "intro": {
+            "coverImg": "/img/projects/drones/background.png",
+            "services": [
+                "Webontwikkeling"
+            ],
+            "tech": [
+                "Golang, Docker,",
+                "Vue.js, TypesScript"
+            ],
+            "year": "2021",
+            "url": "https://eva.xyz/"
+        },
+        "imagesType": "desktop",
+        "firstTitle": "Herdefiniëren van Leveringen voor de Toekomst",
+        "firstDescription": [
+            "Eva Drones luidt een nieuw tijdperk van leveringen in, dat alles zal veranderen, van de manier waarop je je pizza ontvangt tot levensreddende medische dispatches naar afgelegen regio's.",
+            "Deze internationale startup introduceert niet alleen drones; ze visualiseren een geïntegreerd ecosysteem. Via Eva's infrastructuur kunnen dronepiloten naadloos hun drones lanceren, landen, opladen en onderhouden. Naast het gemak van stedelijke leveringen heeft Eva Drones loftigere doelen voor ogen.",
+            "Ze staan klaar om kritieke leveringen naar conflictgebieden en door natuurrampen getroffen gebieden te transformeren, waardoor essentiële hulp snel bij degenen in nood terechtkomt. Met elke voorbijgaande minuut die de waarde van een leven heeft, is Eva Drones toegewijd om elke seconde te laten tellen."
+        ],
+        "firstGroupImages": [
+            "/img/projects/drones/drones-mockup1.jpg",
+            "/img/projects/drones/drones-mockup3.jpg",
+            "/img/projects/drones/drones-mockup4.jpg",
+            "/img/projects/drones/drones-mockup2.jpg"
+        ],
+        "secondtitle": "Technologische Meesterschap ontmoet Operationele Uitmuntendheid",
+        "secondDescription": [
+            "Eva Drones is veel meer dan een startup; het is een technologische wonder dat de toekomst van leveringen vormgeeft. Het resultaat van de samenwerking was het creëren van een end-to-end ecosysteem dat elk aspect van drone-operaties vereenvoudigt. Van robuuste start- en landingsmodules, efficiënte oplaadstations, tot complexe onderhouds- en reparatiecentra, hebben we geavanceerde systemen geïntegreerd die operationele vloeiendheid voor dronepiloten garanderen.",
+            "Mijn werk met Eva Drones is een getuigenis van mijn capaciteiten om veelzijdige uitdagingen aan te gaan. Erkennend de diverse toepassingen — van stedelijke pizzaleveringen tot urgente humanitaire hulp — heb ik realtime CCTV geïmplementeerd, wat uitgebreide controle over het platform en de camera's biedt. Dit zorgt voor continue zichtbaarheid en controle over de operaties, vooral cruciaal in risicovolle omgevingen zoals conflictgebieden of door rampen getroffen regio's.",
+            "Mijn technologische oplossingen voor Eva Drones gaan niet alleen over efficiëntie; ze belichamen de gedeelde visie van het benutten van innovatie voor een oprechte wereldwijde impact."
+        ],
+        "secondGroupImages": [
+            "/img/projects/drones/carousel/eva-drones1.svg",
+            "/img/projects/drones/carousel/eva-drones2.svg",
+            "/img/projects/drones/carousel/eva-drones3.svg",
+            "/img/projects/drones/carousel/eva-drones4.svg",
+            "/img/projects/drones/carousel/eva-drones5.svg",
+            "/img/projects/drones/carousel/eva-drones6.svg",
+            "/img/projects/drones/carousel/eva-drones7.svg",
+            "/img/projects/drones/carousel/eva-drones8.svg",
+            "/img/projects/drones/carousel/eva-drones9.svg",
+            "/img/projects/drones/carousel/eva-drones10.svg",
+            "/img/projects/drones/carousel/eva-drones11.svg",
+            "/img/projects/drones/carousel/eva-drones12.svg",
+            "/img/projects/drones/carousel/eva-drones13.svg",
+            "/img/projects/drones/carousel/eva-drones14.svg",
+            "/img/projects/drones/carousel/eva-drones15.svg",
+            "/img/projects/drones/carousel/eva-drones17.svg",
+            "/img/projects/drones/carousel/eva-drones16.svg"
+        ],
+        "titleSEO": "Eva Drones - Pionier in Leveringsinnovatie",
+        "descriptionSEO": "Ontdek Eva Drones, die leveringssystemen transformeert met een visionair drone-ecosysteem ontworpen voor efficiëntie en impact."
+    },
+    {
+        "id": 3,
+        "name": "Action Coast",
+        "logo": "/img/projects/action-coast/logo.svg",
+        "mainImg": "/img/projects/action-coast/background.jpeg",
+        "client": "Action coast",
+        "color_bg_logo": "white",
+        "color_bg_title": "#3F62AC",
+        "color_title": "white",
+        "url": "/projects/action-coast",
+        "intro": {
+            "coverImg": "/img/projects/oculid/background.png",
+            "services": [
+                "Webontwikkeling",
+                "App Ontwikkeling"
+            ],
+            "tech": [
+                "Vue.js, TypesScript,",
+                "Flutter, Dart"
+            ],
+            "year": "2022",
+            "url": "http://ac.com"
+        },
+        "imagesType": "mobile",
+        "firstTitle": "Duik in Verborgen Kustparels",
+        "firstDescription": [
+            "In het hart van mijn samenwerking met Action Coast stond de wens om de verborgen kustparels die de wereld te bieden heeft, te ontgrendelen. De kusten zitten vol onontgonnen avonturen, lokale geheimen en ervaringen die de meeste reizigers missen.",
+            "Het primaire doel was om een merk en platform te ontwerpen dat resoneert met de sensatie van ontdekking en de warmte van lokale gemeenschappen. Door te focussen op lokale economieën en de toeristische ervaring te verbeteren, bood ik reizigers een unieke toegangspoort tot ervaringen die vaak over het hoofd worden gezien in standaard reisgidsen."
+        ],
+        "firstGroupImages": [
+            "/img/projects/action-coast/ac-mockup1.jpg",
+            "/img/projects/action-coast/ac-mockup2.jpg",
+            "/img/projects/action-coast/ac-mockup3.jpeg",
+            "/img/projects/action-coast/ac-mockup4.jpg"
+        ],
+        "secondtitle": "Technologisch Meesterschap Ontmoet Authentieke Kustavonturen",
+        "secondDescription": [
+            "De reisindustrie is verzadigd met platforms die generieke ervaringen aanbieden. De visie van Action Coast was anders: reizigers authentieke kustavonturen bieden.",
+            "Om dit te bereiken, gebruikte ik technologieën zoals Flutter, Dart, Vue.js, TypeScript, Nuxt.js en Firebase. Een van de grootste uitdagingen was ervoor te zorgen dat het platform niet alleen een lijst van ervaringen was, maar een gecureerde reis naar authenticiteit.",
+            "Ik implementeerde functies zoals geo-specifieke inhoudsaanpassingen en een uitgebreid beoordelingssysteem. Dit zorgde ervoor dat het platform tegemoetkwam aan toeristen terwijl lokale gastheren werden versterkt om hun unieke aanbiedingen te tonen.",
+            "Het resultaat? Een digitaal portaal dat naadloos authentieke kustervaringen combineert met geavanceerde technologie, waardoor het de voorkeurskeuze is voor reizigers op zoek naar authentieke avonturen."
+        ],
+        "secondGroupImages": [
+            "/img/projects/action-coast/carousel/action-coast1.jpeg",
+            "/img/projects/action-coast/carousel/action-coast2.svg",
+            "/img/projects/action-coast/carousel/action-coast3.jpeg",
+            "/img/projects/action-coast/carousel/action-coast4.svg",
+            "/img/projects/action-coast/carousel/action-coast5.svg",
+            "/img/projects/action-coast/carousel/action-coast6.jpeg",
+            "/img/projects/action-coast/carousel/action-coast7.svg",
+            "/img/projects/action-coast/carousel/action-coast8.jpeg",
+            "/img/projects/action-coast/carousel/action-coast9.jpeg",
+            "/img/projects/action-coast/carousel/action-coast10.jpeg",
+            "/img/projects/action-coast/carousel/action-coast11.svg",
+            "/img/projects/action-coast/carousel/action-coast18.svg",
+            "/img/projects/action-coast/carousel/action-coast12.svg",
+            "/img/projects/action-coast/carousel/action-coast13.svg",
+            "/img/projects/action-coast/carousel/action-coast14.jpeg",
+            "/img/projects/action-coast/carousel/action-coast15.svg",
+            "/img/projects/action-coast/carousel/action-coast16.svg",
+            "/img/projects/action-coast/carousel/action-coast17.svg",
+            "/img/projects/action-coast/carousel/action-coast19.svg"
+        ],
+        "titleSEO": "Action Coast - Authentieke Kustavonturen",
+        "descriptionSEO": "Ervaar authentieke kustavonturen met Action Coast, die technologie en lokale inzichten combineert voor unieke reiservaringen."
+    }
+]

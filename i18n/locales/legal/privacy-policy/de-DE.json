@@ -1,0 +1,230 @@
+{
+  "privacyPolicy": {
+    "title": "Datenschutzerklärung",
+    "sections": {
+      "liabilityForContent": {
+        "title": "Haftung für Inhalte",
+        "content": "Wir haben alle Anstrengungen unternommen, um die Richtigkeit und Vollständigkeit der Inhalte auf unseren Seiten sicherzustellen. Wir können jedoch nicht die Richtigkeit, Vollständigkeit oder aktuelle Relevanz der Inhalte garantieren. Als Dienstanbieter ist unsere Verantwortung für eigene Inhalte auf diesen Seiten gemäß den allgemeinen Gesetzen. Als Dienstanbieter sind wir nicht verpflichtet, von Dritten übermittelte oder gespeicherte Informationen zu überwachen, noch sind wir verpflichtet, Umstände zu untersuchen, die auf illegale Aktivitäten hindeuten. Die Verantwortung, die Nutzung von Informationen gemäß den allgemeinen Gesetzen zu entfernen oder zu blockieren, bleibt bestehen. Eine Haftung in diesem Zusammenhang kann nur ab dem Moment übernommen werden, in dem wir von einer konkreten Rechtsverletzung Kenntnis erlangen. Sobald wir Kenntnis von solchen Verstößen erlangen, werden wir den rechtswidrigen Inhalt umgehend entfernen."
+      },
+      "liabilityForLinks": {
+        "title": "Haftung für Links",
+        "content": "Unsere Website enthält Links zu externen Websites, die Eigentum von Dritten sind, und wir haben keine Kontrolle über den Inhalt dieser Seiten. Daher können wir nicht für den Inhalt dieser Websites von Dritten verantwortlich gemacht werden. Der einzelne Anbieter oder Betreiber der verlinkten Seiten ist für deren Inhalt verantwortlich. Zum Zeitpunkt der Verlinkung wurden die verlinkten Seiten auf mögliche Rechtsverstöße überprüft, und es wurde kein rechtswidriger Inhalt festgestellt. Eine kontinuierliche Überwachung des Inhalts verlinkter Seiten ohne konkrete Hinweise auf Rechtsverstöße ist unzumutbar. Wenn wir Kenntnis von Rechtsverstößen erlangen, werden wir die entsprechenden Links sofort entfernen."
+      },
+      "copyright": {
+        "title": "Urheberrecht",
+        "content": "Die Inhalte und Werke auf unserer Website unterliegen dem europäischen und internationalen Urheberrecht. Die Vervielfältigung, Änderung, Verbreitung und jede Form der Nutzung über den Umfang des Urheberrechts hinaus erfordern die schriftliche Zustimmung des jeweiligen Autors oder Schöpfers. Downloads und Kopien dieser Website sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. In Fällen, in denen der Inhalt dieser Seite nicht vom Betreiber erstellt wurde, wurden die Urheberrechte Dritter respektiert. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie Kenntnis von einer Urheberrechtsverletzung erlangen, benachrichtigen Sie uns bitte entsprechend. Sobald wir Kenntnis von Rechtsverstößen erlangen, werden wir den rechtswidrigen Inhalt umgehend entfernen."
+      },
+      "companyInformation": {
+        "title": "Firmeninformationen",
+        "registration": "Registrierung",
+        "contact": "Kontakt",
+        "dataProtectionOfficer": "Datenschutzbeauftragter"
+      }
+    },
+    "introduction": {
+      "title": "Datenschutzerklärung",
+      "content": "Diese Datenschutzerklärung beschreibt unsere Praktiken und Verfahren hinsichtlich der Erfassung, Nutzung und Offenlegung Ihrer Informationen, wenn Sie auf unseren Service zugreifen und diesen nutzen. Sie informiert Sie auch über Ihre Datenschutzrechte und den rechtlichen Schutz, der Ihnen zur Verfügung steht. Durch die Nutzung unseres Service stimmen Sie der Erfassung und Nutzung Ihrer Informationen gemäß dieser Datenschutzerklärung zu."
+    },
+    "interpretation": {
+      "title": "Auslegung und Definitionen",
+      "sections": {
+        "interpretation": {
+          "title": "Auslegung",
+          "content": "Die Wörter, deren erster Buchstabe großgeschrieben ist, haben Bedeutungen, die unter den folgenden Bedingungen definiert sind. Die folgenden Definitionen haben die gleiche Bedeutung, unabhängig davon, ob sie im Singular oder im Plural erscheinen."
+        },
+        "definitions": {
+          "title": "Definitionen",
+          "content": "Für die Zwecke dieser Datenschutzerklärung:",
+          "personalData": "Personenbezogene Daten",
+          "personalDataDesc": "Alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen.",
+          "dataSubject": "Betroffene Person",
+          "dataSubjectDesc": "Die individuelle Person, auf die sich personenbezogene Daten beziehen.",
+          "processing": "Verarbeitung",
+          "processingDesc": "Jede Operation oder jeder Vorgang, der sich auf personenbezogene Daten bezieht, sei es automatisiert oder nicht, einschließlich der Erfassung, Speicherung, Nutzung und Löschung.",
+          "controller": "Verantwortlicher",
+          "controllerDesc": "Die natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten entscheidet.",
+          "processor": "Auftragsverarbeiter",
+          "processorDesc": "Die natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, die personenbezogene Daten im Auftrag des Verantwortlichen verarbeitet.",
+          "consent": "Einwilligung",
+          "consentDesc": "Jede freiwillige, spezifische, informierte und unmissverständliche Willensbekundung der betroffenen Person."
+        }
+      }
+    },
+    "collectionDeletion": {
+      "title": "Sammlung und Löschung von Daten",
+      "sections": {
+        "generalData": {
+          "title": "Sammlung von Allgemeinen Daten und Informationen",
+          "content": "Der Verantwortliche sammelt verschiedene allgemeine Daten und Informationen jedes Mal, wenn Sie unsere Website besuchen. Diese Daten werden in den Server-Logdateien gespeichert und umfassen:",
+          "browsers": "Browser-Typ und -Version",
+          "operatingSystem": "Betriebssystem",
+          "referrerURL": "Referrer-URL",
+          "pagesAccessed": "Aufgerufene Seiten",
+          "dateTime": "Datum und Uhrzeit des Zugriffs",
+          "ipAddress": "IP-Adresse",
+          "isp": "Internet Service Provider",
+          "otherData": "Andere ähnliche Daten, die zum Schutz vor Cyberbedrohungen verwendet werden",
+          "usage": "Diese Daten werden verwendet für:",
+          "usageList": {
+            "contentDelivery": "Bereitstellung und Optimierung von Website-Inhalten",
+            "optimization": "Sicherstellung der Funktionalität und Sicherheit",
+            "security": "Sicherstellung der Funktionalität und Sicherheit",
+            "statistics": "Statistische Analyse zur Verbesserung des Datenschutzes"
+          },
+          "separatedData": "Die gesammelten Daten werden getrennt von den von Benutzern bereitgestellten personenbezogenen Daten gespeichert."
+        },
+        "deletion": {
+          "title": "Routine-Löschung und Blockierung von Personenbezogenen Daten",
+          "content": "Der Verantwortliche verarbeitet und speichert personenbezogene Daten nur so lange, wie dies zur Erreichung des Verarbeitungszwecks erforderlich ist oder wie es gesetzlich vorgeschrieben ist. Sobald die Daten nicht mehr benötigt werden, werden sie gemäß den geltenden Gesetzen anonymisiert oder gelöscht."
+        }
+      }
+    },
+    "rights": {
+      "title": "Rechte der Betroffenen Person",
+      "sections": {
+        "access": {
+          "title": "Recht auf Auskunft",
+          "content": "Sie haben das Recht, Auskunft über Ihre personenbezogenen Daten zu erhalten und Informationen darüber zu erhalten, wie diese verarbeitet werden. Um dieses Recht auszuüben, kontaktieren Sie bitte unseren Datenschutzbeauftragten über die unten angegebenen Kontaktdaten."
+        },
+        "rectification": {
+          "title": "Recht auf Berichtigung",
+          "content": "Sie haben das Recht, die Berichtigung unrichtiger oder unvollständiger personenbezogener Daten zu verlangen. Um eine Berichtigung zu beantragen, kontaktieren Sie bitte unseren Datenschutzbeauftragten."
+        },
+        "erasure": {
+          "title": "Recht auf Löschung (Recht auf Vergessenwerden)",
+          "content": "Sie haben das Recht, die Löschung Ihrer personenbezogenen Daten unter bestimmten Bedingungen zu verlangen, wie zum Beispiel wenn die Daten nicht mehr für die Zwecke, für die sie erhoben wurden, notwendig sind oder wenn Sie Ihre Einwilligung widerrufen.",
+          "conditions": {
+            "condition1": "Die personenbezogenen Daten wurden für Zwecke erhoben oder anderweitig verarbeitet, für die sie nicht mehr notwendig sind.",
+            "condition2": "Sie widerrufen die Einwilligung, auf der die Verarbeitung gemäß Artikel 6 Absatz 1 Buchstabe a DSGVO oder Artikel 9 Absatz 2 Buchstabe a DSGVO basiert, und es gibt keine andere Rechtsgrundlage für die Verarbeitung.",
+            "condition3": "Sie legen gemäß Art. 21 Abs. 1 DSGVO Widerspruch gegen die Verarbeitung ein und es liegen keine überwiegenden berechtigten Gründe für die Verarbeitung vor, oder Sie legen gemäß Art. 21 Abs. 2 DSGVO Widerspruch gegen die Verarbeitung ein.",
+            "condition4": "Die personenbezogenen Daten wurden unrechtmäßig verarbeitet.",
+            "condition5": "Die Löschung der personenbezogenen Daten ist zur Erfüllung einer gesetzlichen Verpflichtung nach dem Unionsrecht oder dem Recht der Mitgliedstaaten, dem der Verantwortliche unterliegt, erforderlich.",
+            "condition6": "Die personenbezogenen Daten wurden im Zusammenhang mit Informationsgesellschaftsdiensten gemäß Art. 8 Absatz 1 DSGVO erhoben."
+          },
+          "instructions": "Wenn eine der oben genannten Gründe zutrifft und Sie die Löschung Ihrer personenbezogenen Daten wünschen, kontaktieren Sie bitte unseren Datenschutzbeauftragten.",
+          "publicDataDeletion": "Wenn die personenbezogenen Daten öffentlich gemacht wurden, werden wir angemessene Maßnahmen ergreifen, um andere Verantwortliche darüber zu informieren, die Links oder Kopien der Daten zu löschen, sofern dies nicht für die Verarbeitung notwendig ist."
+        },
+        "restriction": {
+          "title": "Recht auf Einschränkung der Verarbeitung",
+          "content": "Sie haben das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten unter bestimmten Umständen zu verlangen.",
+          "conditions": {
+            "condition1": "Die Richtigkeit der personenbezogenen Daten wird von Ihnen bestritten, für einen Zeitraum, der es uns ermöglicht, die Richtigkeit zu überprüfen.",
+            "condition2": "Die Verarbeitung ist unrechtmäßig, Sie lehnen die Löschung der personenbezogenen Daten ab und verlangen stattdessen die Einschränkung der Nutzung der personenbezogenen Daten.",
+            "condition3": "Wir benötigen die personenbezogenen Daten nicht mehr für die Zwecke der Verarbeitung, Sie benötigen sie jedoch zur Geltendmachung, Ausübung oder Verteidigung rechtlicher Ansprüche.",
+            "condition4": "Sie haben gemäß Art. 21 Abs. 1 DSGVO Widerspruch gegen die Verarbeitung eingelegt und es ist noch nicht klar, ob unsere berechtigten Gründe die Ihre überwiegen."
+          },
+          "instructions": "Wenn eine der oben genannten Bedingungen erfüllt ist und Sie Ihre personenbezogenen Daten einschränken möchten, kontaktieren Sie uns bitte direkt. Wir werden die Einschränkung der Verarbeitung einleiten."
+        },
+        "portability": {
+          "title": "Recht auf Datenübertragbarkeit",
+          "content": "Sie haben das Recht, Ihre personenbezogenen Daten in einem strukturierten, gängigen und maschinenlesbaren Format zu erhalten und diese an einen anderen Verantwortlichen zu übertragen."
+        },
+        "object": {
+          "title": "Recht auf Widerspruch",
+          "content": "Sie haben das Recht, der Verarbeitung Ihrer personenbezogenen Daten aufgrund berechtigter Interessen oder für Direktmarketingzwecke zu widersprechen."
+        },
+        "automatedDecision": {
+          "title": "Rechte im Zusammenhang mit automatisierter Entscheidungsfindung",
+          "content": "Sie haben das Recht, nicht einer ausschließlich auf einer automatisierten Verarbeitung, einschließlich Profiling, beruhenden Entscheidung unterworfen zu werden, die rechtliche Auswirkungen für Sie hat oder Sie in ähnlicher Weise erheblich beeinträchtigt."
+        },
+        "revokeConsent": {
+          "title": "Recht auf Widerruf der Einwilligung",
+          "content": "Sie haben das Recht, Ihre Einwilligung zur Verarbeitung Ihrer personenbezogenen Daten jederzeit zu widerrufen. Um Ihre Einwilligung zu widerrufen, kontaktieren Sie bitte unseren Datenschutzbeauftragten."
+        }
+      }
+    },
+    "googleAdWords": {
+      "title": "Datenschutzbestimmungen zur Anwendung und Nutzung von Google AdWords",
+      "content1": "Wir verwenden Google AdWords, um Anzeigen auf unserer Website zu schalten. Google AdWords platziert ein Conversion-Cookie auf Ihrem Gerät, um die Effektivität unserer Werbekampagnen zu verfolgen. Dieses Cookie identifiziert Sie nicht persönlich und wird nach dreißig Tagen gelöscht.",
+      "content2": "Die durch Google AdWords gesammelten Daten werden verwendet, um Besucherstatistiken zu erstellen und unsere Marketingbemühungen zu optimieren. Google kann Ihre Daten in den Vereinigten Staaten verarbeiten, und obwohl es zuvor am Privacy Shield-Framework teilnahm, verlässt es sich jetzt auf Standardvertragsklauseln (SCC) für Datenübertragungen.",
+      "content3": "Für weitere Informationen verweisen wir Sie auf die [Datenschutzerklärung von Google](https://policies.google.com/privacy).",
+      "content4": "Sie können das Setzen von Cookies verhindern, indem Sie Ihre Browsereinstellungen anpassen. Zusätzlich können Sie personalisierte Werbung ablehnen, indem Sie zu",
+      "optOutLink": "Google Ads-Einstellungen",
+      "content5": "Wenn Sie unsere Website über eine Google-Anzeige erreichen, platziert Google ein Conversion-Cookie auf Ihrem Gerät. Dieses Cookie hilft uns zu verfolgen, ob ein Besuch über eine AdWords-Anzeige zu Verkäufen oder anderen Aktionen führt.",
+      "content6": "Die durch die Verwendung des Conversion-Cookies gesammelten Daten und Informationen werden von Google verwendet, um Besucherstatistiken für unsere Website zu erstellen. Diese Besucherstatistiken helfen uns dabei, den Erfolg oder Misserfolg unserer AdWords-Kampagnen zu bestimmen und zukünftige Anzeigen zu optimieren.",
+      "content7": "Durch das Conversion-Cookie können personenbezogene Informationen wie die von Ihnen besuchten Websites gespeichert werden. Jedes Mal, wenn unsere Website besucht wird, wird Ihre IP-Adresse an Google in den Vereinigten Staaten übertragen.",
+      "content8": "Sie können bereits von Google AdWords gesetzte Cookies jederzeit über Ihren Browser oder andere Softwareprogramme löschen.",
+      "moreInfo": "Für weitere Informationen und die geltenden Datenschutzbestimmungen von Google verweisen wir Sie auf deren Datenschutzerklärung."
+    },
+    "googleAnalytics": {
+      "title": "Datenschutzbestimmungen zur Anwendung und Nutzung von Google Analytics",
+      "content1": "Mit Ihrer Zustimmung verwenden wir Google Analytics, einen Webanalysedienst von Google LLC, um die Nutzung unserer Website zu analysieren. Google Analytics sammelt Daten wie besuchte Seiten, Nutzerverhalten und technische Informationen, um uns bei der Verbesserung unserer Website und Marketingstrategien zu unterstützen.",
+      "scopeProcessing": {
+        "title": "Umfang der Verarbeitung",
+        "content": "Google Analytics verwendet Cookies, um Daten über Ihre Interaktionen mit unserer Website zu sammeln. Wir haben die IP-Anonymisierung aktiviert, was bedeutet, dass Ihre IP-Adresse teilweise maskiert wird, bevor sie von Google verarbeitet wird."
+      },
+      "purposes": {
+        "title": "Zwecke der Verarbeitung",
+        "content": "Die von Google Analytics gesammelten Daten werden verwendet, um die Nutzung der Website zu bewerten, Berichte zu erstellen und bei der Optimierung unserer Dienste und Werbekampagnen zu helfen."
+      },
+      "recipient": {
+        "title": "Empfänger",
+        "content": "Die Daten werden von Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland verarbeitet. Wir haben eine Datenverarbeitungsvereinbarung mit Google geschlossen, um die Einhaltung der DSGVO sicherzustellen."
+      },
+      "transferThirdCountries": {
+        "title": "Übertragung in Drittländer",
+        "content": "Daten können in die Vereinigten Staaten übertragen werden, wo Google seine Server betreibt. Obwohl das EU-US Privacy Shield für ungültig erklärt wurde, verlässt sich Google auf Standardvertragsklauseln (SCC), um Ihre Daten zu schützen. Für weitere Informationen verweisen wir Sie auf die [Datenschutzerklärung von Google](https://policies.google.com/privacy)."
+      },
+      "duration": {
+        "title": "Speicherdauer",
+        "content": "Von Google Analytics gesammelte Daten werden für 14 Monate gespeichert und danach automatisch gelöscht."
+      },
+      "rights": {
+        "title": "Rechte der Betroffenen Personen",
+        "content": "Sie können Ihre Zustimmung jederzeit widerrufen, indem Sie Ihre Browsereinstellungen anpassen, um Cookies zu verhindern, oder indem Sie das Google Analytics Opt-Out-Browser-Add-On verwenden, das die Datensammlung durch Google Analytics verhindert."
+      }
+    },
+    "legalBasis": {
+      "title": "Rechtliche Grundlage der Verarbeitung",
+      "content": "Die rechtliche Grundlage für die Verarbeitung Ihrer personenbezogenen Daten wird unten gemäß der DSGVO dargelegt:",
+      "consensus": "Einwilligung",
+      "contract": "Vertrag",
+      "legalObligation": "Rechtliche Verpflichtung",
+      "legitimateInterests": "Berechtigte Interessen",
+      "articles": {
+        "consent": "Art. 6 Abs. 1 lit. a DSGVO",
+        "contract": "Art. 6 Abs. 1 lit. b DSGVO",
+        "legalObligation": "Art. 6 Abs. 1 lit. c DSGVO",
+        "legitimateInterests": "Art. 6 Abs. 1 lit. f DSGVO",
+        "consentDesc": "Wenn Sie ausdrücklich in spezifische Verarbeitungsaktivitäten einwilligen.",
+        "contractDesc": "Notwendige Verarbeitung zur Erfüllung eines Vertrags mit Ihnen.",
+        "legalObligationDesc": "Verarbeitung, die erforderlich ist, um rechtlichen Verpflichtungen nachzukommen.",
+        "legitimateInterestsDesc": "Verarbeitung auf Grundlage unserer berechtigten Interessen, sofern diese Ihre Rechte und Freiheiten nicht überwiegen."
+      }
+    },
+    "legitimateInterests": {
+      "title": "Berechtigte Interessen bei der Verarbeitung",
+      "content": "Wenn die Verarbeitung auf berechtigten Interessen basiert, stellen wir sicher, dass diese Interessen Ihre grundlegenden Rechte und Freiheiten nicht überwiegen. Berechtigte Interessen umfassen Geschäftsabläufe, die Verbesserung von Dienstleistungen und die Gewährleistung von Sicherheit."
+    },
+    "dataRetention": {
+      "title": "Datenaufbewahrung",
+      "content": "Wir bewahren Ihre personenbezogenen Daten nur so lange auf, wie es notwendig ist, um die Zwecke zu erfüllen, für die sie erhoben wurden, oder wie es gesetzlich vorgeschrieben ist. Nach diesem Zeitraum werden Daten sicher gelöscht oder anonymisiert."
+    },
+    "legalObligations": {
+      "title": "Gesetzliche oder Vertragliche Verpflichtungen",
+      "content1": "Die Bereitstellung bestimmter personenbezogener Daten kann gesetzlich vorgeschrieben sein oder notwendig sein, um einen Vertrag mit uns abzuschließen.",
+      "content2": "Das Nichtbereitstellen dieser Daten kann dazu führen, dass die angeforderten Dienstleistungen nicht erbracht werden können."
+    },
+    "automatedDecisionMaking": {
+      "title": "Automatisierte Entscheidungsfindung",
+      "content": "Wir nehmen nicht an automatisierten Entscheidungsfindungen, einschließlich Profiling, teil, die Sie wesentlich betreffen. Alle Entscheidungen werden mit menschlicher Aufsicht getroffen, um Ihre Rechte und Freiheiten zu schützen."
+    },
+    "dataBreachNotification": {
+      "title": "Meldung von Datenverletzungen",
+      "content": "Im Falle einer Datenverletzung, die ein Risiko für Ihre Rechte und Freiheiten darstellt, werden wir Sie unverzüglich benachrichtigen und angemessene Maßnahmen ergreifen, um die Verletzung zu beheben."
+    },
+    "changes": {
+      "title": "Änderungen an Dieser Datenschutzerklärung",
+      "content": "Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren. Alle Änderungen werden auf dieser Seite veröffentlicht und, sofern zutreffend, Ihnen per E-Mail oder über andere Kommunikationskanäle mitgeteilt."
+    },
+    "contactUs": {
+      "title": "Kontaktieren Sie Uns",
+      "content": "Wenn Sie Fragen oder Bedenken bezüglich dieser Datenschutzerklärung oder unserer Datenverarbeitungspraktiken haben, kontaktieren Sie bitte unseren Datenschutzbeauftragten:",
+      "email": "E-Mail",
+      "address": "Adresse",
+      "phone": "Telefon"
+    },
+    "copyright": "Copyright © ",
+    "rightsReserved": ". Alle Rechte vorbehalten"
+  }
+}

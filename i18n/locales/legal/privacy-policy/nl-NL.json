@@ -1,0 +1,230 @@
+{
+  "privacyPolicy": {
+    "title": "Privacybeleid",
+    "sections": {
+      "liabilityForContent": {
+        "title": "Aansprakelijkheid voor Inhoud",
+        "content": "We hebben alle inspanningen geleverd om de nauwkeurigheid en volledigheid van de inhoud op onze pagina's te waarborgen. We kunnen echter niet de juistheid, volledigheid of actuele relevantie van de inhoud garanderen. Als dienstverlener is onze verantwoordelijkheid voor onze eigen inhoud op deze pagina's in overeenstemming met de algemene wetten. Als dienstverlener zijn we niet verplicht om door derden overgebrachte of opgeslagen informatie te monitoren, noch zijn we verplicht om omstandigheden te onderzoeken die op illegale activiteiten wijzen. De verantwoordelijkheid om het gebruik van informatie onder algemene wetten te verwijderen of te blokkeren blijft intact. Aansprakelijkheid in dit opzicht kan alleen worden aangenomen vanaf het moment dat we op de hoogte worden gesteld van een specifieke wettelijke overtreding. Zodra we op de hoogte raken van dergelijke overtredingen, zullen we de overtredende inhoud onmiddellijk verwijderen."
+      },
+      "liabilityForLinks": {
+        "title": "Aansprakelijkheid voor Links",
+        "content": "Onze website bevat links naar externe websites die eigendom zijn van derden, en we hebben geen controle over de inhoud van deze sites. Bijgevolg kunnen we niet aansprakelijk worden gesteld voor de inhoud van deze websites van derden. De individuele aanbieder of exploitant van de gelinkte pagina's is verantwoordelijk voor hun inhoud. Ten tijde van het linken zijn de gelinkte pagina's gecontroleerd op mogelijke wettelijke overtredingen, en er werd geen onwettige inhoud geïdentificeerd. Continu monitoren van de inhoud van gelinkte pagina's zonder concreet bewijs van wettelijke overtredingen is onredelijk. Als we op de hoogte raken van enige wettelijke overtredingen, zullen we de bijbehorende links onmiddellijk verwijderen."
+      },
+      "copyright": {
+        "title": "Auteursrechten",
+        "content": "De inhoud en werken op onze website zijn onderworpen aan Europese en internationale auteursrechten. Het reproduceren, wijzigen, distribueren en elke vorm van exploitatie buiten het kader van auteursrecht vereist schriftelijke toestemming van de respectieve auteur of maker. Downloads en kopieën van deze website zijn alleen toegestaan voor privé- en niet-commercieel gebruik. In gevallen waarin de inhoud op deze site niet door de exploitant is gecreëerd, zijn de auteursrechten van derden gerespecteerd. Specifiek wordt inhoud van derden als zodanig geïdentificeerd. Als u op de hoogte raakt van een inbreuk op auteursrechten, verzoeken wij u ons hiervan op de hoogte te stellen. Zodra we op de hoogte raken van wettelijke overtredingen, zullen we de overtredende inhoud onmiddellijk verwijderen."
+      },
+      "companyInformation": {
+        "title": "Bedrijfsinformatie",
+        "registration": "Registratie",
+        "contact": "Contact",
+        "dataProtectionOfficer": "Functionaris Gegevensbescherming"
+      }
+    },
+    "introduction": {
+      "title": "Privacybeleid",
+      "content": "Dit Privacybeleid beschrijft onze praktijken en procedures met betrekking tot de verzameling, het gebruik en de openbaarmaking van uw informatie wanneer u toegang krijgt tot en gebruik maakt van onze Dienst. Het informeert u ook over uw privacyrechten en de juridische bescherming die voor u beschikbaar is. Door gebruik te maken van onze Dienst stemt u in met de verzameling en het gebruik van uw informatie in overeenstemming met dit Privacybeleid."
+    },
+    "interpretation": {
+      "title": "Interpretatie en Definities",
+      "sections": {
+        "interpretation": {
+          "title": "Interpretatie",
+          "content": "De woorden waarvan de eerste letter met een hoofdletter is geschreven, hebben betekenissen die onder de volgende voorwaarden zijn gedefinieerd. De volgende definities hebben dezelfde betekenis, ongeacht of ze in enkelvoud of meervoud voorkomen."
+        },
+        "definitions": {
+          "title": "Definities",
+          "content": "Voor de doeleinden van dit Privacybeleid:",
+          "personalData": "Persoonsgegevens",
+          "personalDataDesc": "Elke informatie met betrekking tot een geïdentificeerde of identificeerbare natuurlijke persoon.",
+          "dataSubject": "Betrokkene",
+          "dataSubjectDesc": "De individuele persoon op wie de persoonsgegevens betrekking hebben.",
+          "processing": "Verwerking",
+          "processingDesc": "Elke bewerking of reeks bewerkingen met betrekking tot persoonsgegevens, al dan niet geautomatiseerd, zoals verzamelen, opslaan, gebruiken en verwijderen.",
+          "controller": "Verwerkingsverantwoordelijke",
+          "controllerDesc": "De entiteit die de doeleinden en middelen van de verwerking van persoonsgegevens bepaalt.",
+          "processor": "Verwerker",
+          "processorDesc": "De entiteit die persoonsgegevens verwerkt namens de verwerkingsverantwoordelijke.",
+          "consent": "Toestemming",
+          "consentDesc": "Elke vrijwillige, specifieke, geïnformeerde en ondubbelzinnige aanwijzing van de wil van de betrokkene."
+        }
+      }
+    },
+    "collectionDeletion": {
+      "title": "Verzameling en Verwijdering van Gegevens",
+      "sections": {
+        "generalData": {
+          "title": "Verzameling van Algemene Gegevens en Informatie",
+          "content": "De Verwerkingsverantwoordelijke verzamelt verschillende algemene gegevens en informatie elke keer dat u onze website bezoekt. Deze gegevens worden opgeslagen in de logbestanden van de server en omvatten:",
+          "browsers": "Type en versie van de browser",
+          "operatingSystem": "Besturingssysteem",
+          "referrerURL": "Referrer URL",
+          "pagesAccessed": "Bezochte pagina's",
+          "dateTime": "Datum en tijd van toegang",
+          "ipAddress": "IP-adres",
+          "isp": "Internet Service Provider",
+          "otherData": "Andere vergelijkbare gegevens gebruikt om te beschermen tegen cyberdreigingen",
+          "usage": "Deze gegevens worden gebruikt voor:",
+          "usageList": {
+            "contentDelivery": "Het leveren en optimaliseren van website-inhoud",
+            "optimization": "Het waarborgen van functionaliteit en veiligheid",
+            "security": "Het waarborgen van functionaliteit en veiligheid",
+            "statistics": "Statistische analyse om gegevensbescherming te verbeteren"
+          },
+          "separatedData": "De verzamelde gegevens worden gescheiden opgeslagen van persoonlijke gegevens die door gebruikers zijn verstrekt."
+        },
+        "deletion": {
+          "title": "Routine Verwijdering en Blokkering van Persoonsgegevens",
+          "content": "De Verwerkingsverantwoordelijke verwerkt en slaat persoonsgegevens alleen op zolang dit nodig is om de doeleinden van de verwerking te bereiken zoals beschreven in dit Privacybeleid of zoals wettelijk vereist. Zodra de gegevens niet langer nodig zijn, worden ze geanonimiseerd of verwijderd in overeenstemming met de toepasselijke wetten."
+        }
+      }
+    },
+    "rights": {
+      "title": "Rechten van de Betrokkene",
+      "sections": {
+        "access": {
+          "title": "Recht op Toegang",
+          "content": "U heeft het recht om toegang te krijgen tot uw persoonsgegevens en informatie te verkrijgen over hoe deze worden verwerkt. Om dit recht uit te oefenen, neem contact op met onze Functionaris Gegevensbescherming via de hieronder vermelde contactgegevens."
+        },
+        "rectification": {
+          "title": "Recht op Rectificatie",
+          "content": "U heeft het recht om correctie van onjuiste of onvolledige persoonsgegevens te verzoeken. Om rectificatie te verzoeken, neem contact op met onze Functionaris Gegevensbescherming."
+        },
+        "erasure": {
+          "title": "Recht op Verwijdering (Recht om Vergeten te Worden)",
+          "content": "U heeft het recht om de verwijdering van uw persoonsgegevens te verzoeken onder bepaalde voorwaarden, zoals wanneer de gegevens niet langer noodzakelijk zijn voor de doeleinden waarvoor ze zijn verzameld, of als u uw toestemming intrekt.",
+          "conditions": {
+            "condition1": "De persoonsgegevens zijn verzameld of anderszins verwerkt voor doeleinden waarvoor ze niet langer noodzakelijk zijn.",
+            "condition2": "U trekt de toestemming in waarop de verwerking was gebaseerd conform Artikel 6(1)(a) AVG of Artikel 9(2)(a) AVG, en er is geen andere wettelijke grondslag voor de verwerking.",
+            "condition3": "U maakt bezwaar tegen de verwerking conform Art. 21(1) AVG, en er zijn geen overwichtige legitieme redenen voor de verwerking, of u maakt bezwaar tegen de verwerking conform Art. 21(2) AVG.",
+            "condition4": "De persoonsgegevens zijn onrechtmatig verwerkt.",
+            "condition5": "De verwijdering van de persoonsgegevens is noodzakelijk om te voldoen aan een wettelijke verplichting op grond van het Unierecht of het recht van de lidstaten waaraan de verwerkingsverantwoordelijke is onderworpen.",
+            "condition6": "De persoonsgegevens zijn verzameld in verband met informatiemaatschappijdiensten aangeboden conform Art. 8, lid 1, AVG."
+          },
+          "instructions": "Als een van de bovenstaande redenen van toepassing is en u wilt dat uw persoonsgegevens worden verwijderd, neem dan contact op met onze Functionaris Gegevensbescherming.",
+          "publicDataDeletion": "Als de persoonsgegevens openbaar zijn gemaakt, zullen wij redelijke maatregelen nemen om andere verwerkers van gegevens te informeren om links of kopieën van de gegevens te verwijderen, tenzij noodzakelijk voor de verwerking."
+        },
+        "restriction": {
+          "title": "Recht op Beperking van de Verwerking",
+          "content": "U heeft het recht om de beperking van de verwerking van uw persoonsgegevens te verzoeken onder specifieke omstandigheden.",
+          "conditions": {
+            "condition1": "De juistheid van de persoonsgegevens wordt betwist door u, voor een periode die ons in staat stelt de juistheid te verifiëren.",
+            "condition2": "De verwerking is onrechtmatig, u weigert dat de persoonsgegevens worden verwijderd, en vraagt in plaats daarvan de beperking van het gebruik van de persoonsgegevens.",
+            "condition3": "Wij hebben de persoonsgegevens niet langer nodig voor de doeleinden van de verwerking, maar u heeft ze nodig om juridische claims uit te oefenen, af te dwingen of te verdedigen.",
+            "condition4": "U heeft bezwaar gemaakt tegen de verwerking conform Art. 21(1) AVG, en het is nog niet duidelijk of onze legitieme redenen zwaarder wegen dan die van u."
+          },
+          "instructions": "Als aan een van de bovenstaande voorwaarden wordt voldaan en u wilt uw persoonsgegevens beperken, neem dan rechtstreeks contact met ons op. Wij zullen de beperking van de verwerking initiëren."
+        },
+        "portability": {
+          "title": "Recht op Gegevensoverdraagbaarheid",
+          "content": "U heeft het recht om uw persoonsgegevens in een gestructureerd, gangbaar en machineleesbaar formaat te ontvangen, en om deze over te dragen aan een andere verwerkingsverantwoordelijke."
+        },
+        "object": {
+          "title": "Recht van Bezwaar",
+          "content": "U heeft het recht om bezwaar te maken tegen de verwerking van uw persoonsgegevens op basis van legitieme belangen of voor directe marketingdoeleinden."
+        },
+        "automatedDecision": {
+          "title": "Rechten met Betrekking tot Geautomatiseerde Besluitvorming",
+          "content": "U heeft het recht om niet te worden onderworpen aan een besluit dat uitsluitend is gebaseerd op geautomatiseerde verwerking, inclusief profilering, en dat juridische gevolgen voor u heeft of u op een vergelijkbare manier aanzienlijk beïnvloedt."
+        },
+        "revokeConsent": {
+          "title": "Recht om Toestemming In te trekken",
+          "content": "U heeft het recht om uw toestemming voor de verwerking van uw persoonsgegevens op elk moment in te trekken. Om uw toestemming in te trekken, neem contact op met onze Functionaris Gegevensbescherming."
+        }
+      }
+    },
+    "googleAdWords": {
+      "title": "Beschermingsbepalingen voor Gegevens met betrekking tot het Toepassen en Gebruik van Google AdWords",
+      "content1": "We gebruiken Google AdWords om advertenties op onze website weer te geven. Google AdWords plaatst een conversiecookie op uw apparaat om de effectiviteit van onze advertentiecampagnes te volgen. Deze cookie identificeert u niet persoonlijk en wordt na dertig dagen verwijderd.",
+      "content2": "De gegevens die via Google AdWords worden verzameld, worden gebruikt om bezoekersstatistieken te maken en onze marketinginspanningen te optimaliseren. Google kan uw gegevens in de Verenigde Staten verwerken, en hoewel het eerder deelnam aan het Privacy Shield-framework, vertrouwt het nu op Standaard Contractuele Clausules (SCC) voor gegevensoverdrachten.",
+      "content3": "Voor meer informatie verwijzen we u naar het [Privacybeleid van Google](https://policies.google.com/privacy).",
+      "content4": "U kunt het plaatsen van cookies voorkomen door uw browserinstellingen aan te passen. Daarnaast kunt u kiezen voor gepersonaliseerde advertenties door naar",
+      "optOutLink": "Google Ads-instellingen",
+      "content5": "Als u onze website via een Google-advertentie bereikt, plaatst Google een conversiecookie op uw apparaat. Deze cookie helpt ons te volgen of een bezoek via een AdWords-advertentie leidt tot verkoop of andere acties.",
+      "content6": "De gegevens en informatie die via het gebruik van de conversiecookie worden verzameld, worden door Google gebruikt om bezoekersstatistieken voor onze website te maken. Deze bezoekersstatistieken helpen ons om het succes of falen van onze AdWords-campagnes te bepalen en toekomstige advertenties te optimaliseren.",
+      "content7": "Via de conversiecookie kunnen persoonlijke informatie zoals de websites die u bezoekt, worden opgeslagen. Elke keer dat onze website wordt bezocht, wordt uw IP-adres verzonden naar Google in de Verenigde Staten.",
+      "content8": "U kunt cookies die al door Google AdWords zijn geplaatst op elk moment verwijderen via uw browser of andere softwareprogramma's.",
+      "moreInfo": "Voor meer informatie en de toepasselijke beschermingsbepalingen van Google verwijzen we u naar hun privacybeleid."
+    },
+    "googleAnalytics": {
+      "title": "Beschermingsbepalingen voor Gegevens met betrekking tot het Toepassen en Gebruik van Google Analytics",
+      "content1": "Met uw toestemming gebruiken we Google Analytics, een webanalysetool aangeboden door Google LLC, om het gebruik van onze website te analyseren. Google Analytics verzamelt gegevens zoals bezochte pagina's, gebruikersgedrag en technische informatie om ons te helpen onze website en marketingstrategieën te verbeteren.",
+      "scopeProcessing": {
+        "title": "Reikwijdte van de Verwerking",
+        "content": "Google Analytics gebruikt cookies om gegevens te verzamelen over uw interacties met onze website. We hebben IP-anonimisering ingeschakeld, wat betekent dat uw IP-adres gedeeltelijk wordt gemaskeerd voordat het door Google wordt verwerkt."
+      },
+      "purposes": {
+        "title": "Doeleinden van de Verwerking",
+        "content": "De gegevens die door Google Analytics worden verzameld, worden gebruikt om websitegebruik te evalueren, rapporten te genereren en te helpen bij het optimaliseren van onze diensten en advertentiecampagnes."
+      },
+      "recipient": {
+        "title": "Ontvanger",
+        "content": "De gegevens worden verwerkt door Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ierland. We hebben een gegevensverwerkingsovereenkomst met Google gesloten om naleving van de AVG te waarborgen."
+      },
+      "transferThirdCountries": {
+        "title": "Overdracht naar Derde Landen",
+        "content": "Gegevens kunnen worden overgedragen naar de Verenigde Staten, waar Google zijn servers exploiteert. Hoewel het EU-US Privacy Shield ongeldig is verklaard, vertrouwt Google op Standaard Contractuele Clausules (SCC) om uw gegevens te beschermen. Voor meer informatie verwijzen we u naar het [Privacybeleid van Google](https://policies.google.com/privacy)."
+      },
+      "duration": {
+        "title": "Opslagduur",
+        "content": "Gegevens verzameld door Google Analytics worden opgeslagen gedurende 14 maanden en worden daarna automatisch verwijderd."
+      },
+      "rights": {
+        "title": "Rechten van de Betrokken Personen",
+        "content": "U kunt uw toestemming op elk moment intrekken door uw browserinstellingen aan te passen om cookies te voorkomen of door de Google Analytics opt-out browserextensie te gebruiken, waarmee het verzamelen van gegevens door Google Analytics wordt voorkomen."
+      }
+    },
+    "legalBasis": {
+      "title": "Juridische Basis van de Verwerking",
+      "content": "De juridische basis voor het verwerken van uw persoonsgegevens wordt hieronder uiteengezet in overeenstemming met de AVG:",
+      "consensus": "Toestemming",
+      "contract": "Contract",
+      "legalObligation": "Wettelijke Verplichting",
+      "legitimateInterests": "Legitieme Belangen",
+      "articles": {
+        "consent": "Art. 6(1)(a) AVG",
+        "contract": "Art. 6(1)(b) AVG",
+        "legalObligation": "Art. 6(1)(c) AVG",
+        "legitimateInterests": "Art. 6(1)(f) AVG",
+        "consentDesc": "Wanneer u expliciete toestemming geeft voor specifieke verwerkingsactiviteiten.",
+        "contractDesc": "Noodzakelijke verwerking om een contract met u na te komen.",
+        "legalObligationDesc": "Verwerking vereist om te voldoen aan wettelijke verplichtingen.",
+        "legitimateInterestsDesc": "Verwerking gebaseerd op onze legitieme belangen, op voorwaarde dat deze niet uw rechten en vrijheden overheersen."
+      }
+    },
+    "legitimateInterests": {
+      "title": "Legitieme Belangen bij de Verwerking",
+      "content": "Wanneer de verwerking is gebaseerd op legitieme belangen, zorgen we ervoor dat deze belangen uw fundamentele rechten en vrijheden niet overheersen. Legitieme belangen omvatten bedrijfsvoering, het verbeteren van diensten en het waarborgen van veiligheid."
+    },
+    "dataRetention": {
+      "title": "Gegevensbewaring",
+      "content": "We bewaren uw persoonsgegevens alleen zolang dat nodig is om de doeleinden te vervullen waarvoor ze zijn verzameld of zoals wettelijk vereist. Na deze periode worden gegevens veilig verwijderd of geanonimiseerd."
+    },
+    "legalObligations": {
+      "title": "Wettelijke of Contractuele Verplichtingen",
+      "content1": "Het verstrekken van bepaalde persoonsgegevens kan wettelijk verplicht zijn of noodzakelijk zijn om een contract met ons aan te gaan.",
+      "content2": "Het niet verstrekken van dergelijke gegevens kan resulteren in het niet kunnen leveren van de gevraagde diensten."
+    },
+    "automatedDecisionMaking": {
+      "title": "Geautomatiseerde Besluitvorming",
+      "content": "We nemen niet deel aan geautomatiseerde besluitvorming, inclusief profilering, die u aanzienlijk beïnvloedt. Alle beslissingen worden met menselijke supervisie genomen om uw rechten en vrijheden te beschermen."
+    },
+    "dataBreachNotification": {
+      "title": "Melding van Gegevensinbreuk",
+      "content": "In het geval van een gegevensinbreuk die een risico vormt voor uw rechten en vrijheden, zullen we u zonder onnodige vertraging informeren en passende maatregelen nemen om de inbreuk te beperken."
+    },
+    "changes": {
+      "title": "Wijzigingen aan Dit Privacybeleid",
+      "content": "We kunnen dit Privacybeleid van tijd tot tijd bijwerken. Eventuele wijzigingen worden op deze pagina geplaatst en, indien van toepassing, aan u meegedeeld via e-mail of andere communicatiemiddelen."
+    },
+    "contactUs": {
+      "title": "Neem Contact met Ons Op",
+      "content": "Als u vragen of zorgen heeft over dit Privacybeleid of onze praktijken met betrekking tot gegevensverwerking, neem dan contact op met onze Functionaris Gegevensbescherming:",
+      "email": "E-mail",
+      "address": "Adres",
+      "phone": "Telefoon"
+    },
+    "copyright": "Copyright © ",
+    "rightsReserved": ". Alle rechten voorbehouden"
+  }
+}

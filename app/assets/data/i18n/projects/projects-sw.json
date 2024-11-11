@@ -1,0 +1,222 @@
+[
+    {
+        "id": 0,
+        "name": "Value Villages",
+        "logo": "/img/projects/vv/value-villages.png",
+        "mainImg": "/img/projects/vv/mobile-mockup.svg",
+        "client": "value villages",
+        "color_bg_logo": "white",
+        "color_bg_title": "#63B190",
+        "color_title": "white",
+        "url": "/projects/value-villages",
+        "intro": {
+            "coverImg": "",
+            "services": [],
+            "tech": [],
+            "year": "",
+            "url": ""
+        },
+        "imagesType": "mobile",
+        "firstTitle": "",
+        "firstDescription": [],
+        "firstGroupImages": [],
+        "secondtitle": "",
+        "secondDescription": [],
+        "secondGroupImages": [],
+        "titleSEO": "Value Villages - Kuimarisha Jamii",
+        "descriptionSEO": "Gundua jinsi Value Villages inavyobadilisha jamii kupitia suluhisho bunifu na miradi ya ushirikiano."
+    },
+    {
+        "id": 1,
+        "name": "Oculid",
+        "logo": "/img/projects/oculid/logo.svg",
+        "mainImg": "/img/projects/oculid/background.jpeg",
+        "client": "Oculid",
+        "color_bg_logo": "white",
+        "color_bg_title": "#008080",
+        "color_title": "white",
+        "url": "/projects/oculid",
+        "intro": {
+            "coverImg": "/img/projects/oculid/background.png",
+            "services": [
+                "Maendeleo ya Simu"
+            ],
+            "tech": [
+                "Swift, SwiftUI,",
+                "Flutter, Dart"
+            ],
+            "year": "2021",
+            "url": "https://oculid.com"
+        },
+        "imagesType": "mobile",
+        "firstTitle": "Kurekebisha Metriki za Uzoefu wa Mtumiaji",
+        "firstDescription": [
+            "Oculid ni kampuni bunifu yenye dhamira ya kufafanua upya jinsi kampuni zinavyopata metriki muhimu za uzoefu wa mtumiaji. Wanataka kuleta usahihi na undani wa maabara moja kwa moja kwa biashara bila miundombinu na gharama za kero.",
+            "Dira ya Oculid inalenga kutoa mfano rahisi, wa gharama nafuu, na wenye ufanisi kwa biashara zinazotaka kuelewa tabia za watumiaji kwenye interface za kidijitali.",
+            "Kupitia programu niliyotengeneza, Oculid inakusanya data ya wakati halisi kama ramani za joto ili kuonyesha mahali watumiaji wanazingatia zaidi, pamoja na hatua za kugusa na kutelezesha.",
+            "Usalama na faragha hubakia kuwa kipaumbele; ukusanyaji wa data unafanywa kwa idhini ya mtumiaji, kuhakikisha uwazi na uaminifu."
+        ],
+        "firstGroupImages": [
+            "/img/projects/oculid/mockup1.jpeg",
+            "/img/projects/oculid/mockup2.jpeg",
+            "/img/projects/oculid/mockup3.jpeg",
+            "/img/projects/oculid/mockup4.jpeg"
+        ],
+        "secondtitle": "Uchanganuzi wa UX wa Juu Unaotokana na Teknolojia ya Kisasa",
+        "secondDescription": [
+            "Kwa maono ya Oculid, nilianza safari ya kubuni programu ambayo inasimama kiufundi. Katika kiini cha maendeleo yetu kulikuwa na ujumuishaji wa mfumo wa uchukuaji wa picha wa masafa ya juu unaochukua fremu 30 kwa sekunde moja kwa kutumia kamera ya mbele. Kiasi hiki kikubwa cha data ya picha, kimeongezewa na rekodi za skrini, rekodi za sauti zinazoelezea mawazo ya watumiaji, pamoja na mwingiliano wa kugusa na kutelezesha, hupitishwa kwa ufanisi kwa mfumo wa backend.",
+            "Mazingaombwe ya kweli huanza pale ambapo algorithimu ya hali ya juu, inayotokana na karatasi ya utafiti kutoka MIT, inachakata hazina hii ya data. Kwa kutumia mbinu za hali ya juu za kujifunza kwa mashine, inatoa metriki za UX za kina, ikiruhusu biashara kupata maarifa ya kutekeleza kwa usahihi usiowahi kufikiwa nje ya mazingira ya maabara.",
+            "Kutambua unyeti wa data, nimejumuisha itifaki madhubuti za idhini katika programu. Kabla ya ukusanyaji wowote wa data, watumiaji hupewa taarifa za kina, kuhakikisha faragha haivurugwi.",
+            "Katika kila hatua, nimesukuma mipaka ya kinachowezekana kiufundi ili kutoa bidhaa ambayo sio tu bora bali pia ni ya kimaadili."
+        ],
+        "secondGroupImages": [
+            "/img/projects/oculid/carousel/permissions.svg",
+            "/img/projects/oculid/carousel/test-login.svg",
+            "/img/projects/oculid/carousel/prepare.svg",
+            "/img/projects/oculid/carousel/enjoy.svg",
+            "/img/projects/oculid/carousel/position.svg",
+            "/img/projects/oculid/carousel/positioning.svg",
+            "/img/projects/oculid/carousel/face-holder.svg",
+            "/img/projects/oculid/carousel/positioned.svg",
+            "/img/projects/oculid/carousel/tutorial1.svg",
+            "/img/projects/oculid/carousel/tutorial2.svg",
+            "/img/projects/oculid/carousel/tutorial3.svg",
+            "/img/projects/oculid/carousel/tutorial4.svg",
+            "/img/projects/oculid/carousel/tutorial5.svg",
+            "/img/projects/oculid/carousel/tutorial6.svg",
+            "/img/projects/oculid/carousel/tutorial7.svg",
+            "/img/projects/oculid/carousel/tutorial8.svg"
+        ],
+        "titleSEO": "Oculid - Kufafanua Upya Uchanganuzi wa Uzoefu wa Mtumiaji",
+        "descriptionSEO": "Gundua Oculid, programu ya ubunifu inayokusanya mwingiliano wa mtumiaji kwa wakati halisi kwa usahihi na maadili."
+    },
+    {
+        "id": 2,
+        "name": "Eva Drones",
+        "logo": "/img/projects/drones/logo.png",
+        "mainImg": "/img/projects/drones/background.jpeg",
+        "client": "Eva Drones",
+        "color_bg_logo": "white",
+        "color_bg_title": "#00588E",
+        "color_title": "white",
+        "url": "/projects/eva-drones",
+        "intro": {
+            "coverImg": "/img/projects/drones/background.png",
+            "services": [
+                "Maendeleo ya Wavuti"
+            ],
+            "tech": [
+                "Golang, Docker,",
+                "Vue.js, TypesScript"
+            ],
+            "year": "2021",
+            "url": "https://eva.xyz/"
+        },
+        "imagesType": "desktop",
+        "firstTitle": "Kubadilisha Uwasilishaji kwa Ajili ya Baadaye",
+        "firstDescription": [
+            "Eva Drones inaleta enzi mpya ya uwasilishaji, iliyopangwa kubadilisha kila kitu kutoka kwa jinsi unavyopokea pizza yako hadi usambazaji wa matibabu unaookoa maisha kwa maeneo ya mbali.",
+            "Startup hii ya kimataifa haileti tu drones; wanaona mfumo uliounganishwa. Kupitia miundombinu ya Eva, marubani wa drones wanaweza kuzindua, kutua, kuchaji, na kudumisha drones zao kwa urahisi. Zaidi ya urahisi wa uwasilishaji wa mijini, Eva Drones ina malengo ya juu zaidi.",
+            "Wamejiandaa kubadilisha usambazaji muhimu kwa maeneo ya migogoro na maeneo yaliyoathiriwa na maafa ya asili, kuhakikisha kwamba msaada muhimu unafika kwa haraka kwa wanaohitaji. Kwa kila dakika inayopita ikimaanisha thamani ya maisha, Eva Drones imejitolea kufanya kila sekunde ihesabike."
+        ],
+        "firstGroupImages": [
+            "/img/projects/drones/drones-mockup1.jpg",
+            "/img/projects/drones/drones-mockup3.jpg",
+            "/img/projects/drones/drones-mockup4.jpg",
+            "/img/projects/drones/drones-mockup2.jpg"
+        ],
+        "secondtitle": "Ustadi wa Kiteknolojia na Ubora wa Kiutendaji",
+        "secondDescription": [
+            "Eva Drones ni zaidi ya startup; ni ajabu ya kiteknolojia inayotengeneza mustakabali wa uwasilishaji. Matokeo ya ushirikiano yalikuwa kuunda mfumo wa mwisho hadi mwisho unaorahisisha kila kipengele cha uendeshaji wa drones. Kutoka moduli za uzinduzi na kutua thabiti, vituo vya kuchaji bora, hadi vituo vya matengenezo na ukarabati tata, tumeunganisha mifumo ya hali ya juu inayohakikisha ulaini wa uendeshaji kwa marubani wa drones.",
+            "Kazi yangu na Eva Drones ni ushahidi wa uwezo wangu wa kushughulikia changamoto nyingi. Nikitambua matumizi mbalimbali — kutoka kwa uwasilishaji wa pizza mijini hadi usambazaji wa msaada wa kibinadamu — niliunda CCTV ya wakati halisi, inayotoa udhibiti kamili wa jukwaa na kamera. Hii inahakikisha mwonekano na udhibiti endelevu wa shughuli, hasa muhimu katika mazingira hatarishi kama maeneo ya migogoro au maeneo yaliyoathiriwa na maafa.",
+            "Suluhisho zangu za kiteknolojia kwa Eva Drones sio tu kuhusu ufanisi; zinajumuisha maono ya pamoja ya kutumia uvumbuzi kwa athari ya kweli duniani."
+        ],
+        "secondGroupImages": [
+            "/img/projects/drones/carousel/eva-drones1.svg",
+            "/img/projects/drones/carousel/eva-drones2.svg",
+            "/img/projects/drones/carousel/eva-drones3.svg",
+            "/img/projects/drones/carousel/eva-drones4.svg",
+            "/img/projects/drones/carousel/eva-drones5.svg",
+            "/img/projects/drones/carousel/eva-drones6.svg",
+            "/img/projects/drones/carousel/eva-drones7.svg",
+            "/img/projects/drones/carousel/eva-drones8.svg",
+            "/img/projects/drones/carousel/eva-drones9.svg",
+            "/img/projects/drones/carousel/eva-drones10.svg",
+            "/img/projects/drones/carousel/eva-drones11.svg",
+            "/img/projects/drones/carousel/eva-drones12.svg",
+            "/img/projects/drones/carousel/eva-drones13.svg",
+            "/img/projects/drones/carousel/eva-drones14.svg",
+            "/img/projects/drones/carousel/eva-drones15.svg",
+            "/img/projects/drones/carousel/eva-drones17.svg",
+            "/img/projects/drones/carousel/eva-drones16.svg"
+        ],
+        "titleSEO": "Eva Drones - Kuanzisha Ubunifu wa Uwasilishaji",
+        "descriptionSEO": "Gundua Eva Drones, inayobadilisha mifumo ya uwasilishaji kwa mfumo wa drone wa kisasa ulioandaliwa kwa ufanisi na athari."
+    },
+    {
+        "id": 3,
+        "name": "Action Coast",
+        "logo": "/img/projects/action-coast/logo.svg",
+        "mainImg": "/img/projects/action-coast/background.jpeg",
+        "client": "Action coast",
+        "color_bg_logo": "white",
+        "color_bg_title": "#3F62AC",
+        "color_title": "white",
+        "url": "/projects/action-coast",
+        "intro": {
+            "coverImg": "/img/projects/oculid/background.png",
+            "services": [
+                "Maendeleo ya Wavuti",
+                "Maendeleo ya Programu"
+            ],
+            "tech": [
+                "Vue.js, TypesScript,",
+                "Flutter, Dart"
+            ],
+            "year": "2022",
+            "url": "http://ac.com"
+        },
+        "imagesType": "mobile",
+        "firstTitle": "Gundua Hazina Zilizofichwa za Pwani",
+        "firstDescription": [
+            "Katika moyo wa ushirikiano wangu na Action Coast kulikuwa na hamu ya kufungua hazina zilizofichwa za pwani ambazo ulimwengu unatoa. Ukanda wa pwani umejaa matukio ambayo hayajachunguzwa, siri za wenyeji, na uzoefu ambao wasafiri wengi hukosa.",
+            "Lengo kuu lilikuwa kubuni chapa na jukwaa linalolingana na msisimko wa ugunduzi na joto la jamii za wenyeji. Kwa kuzingatia uchumi wa wenyeji na kuboresha uzoefu wa utalii, niliwapa wasafiri lango la kipekee kwa uzoefu ambao mara nyingi hupuuzwa katika miongozo ya kawaida."
+        ],
+        "firstGroupImages": [
+            "/img/projects/action-coast/ac-mockup1.jpg",
+            "/img/projects/action-coast/ac-mockup2.jpg",
+            "/img/projects/action-coast/ac-mockup3.jpeg",
+            "/img/projects/action-coast/ac-mockup4.jpg"
+        ],
+        "secondtitle": "Ustadi wa Teknolojia Hukutana na Matukio Halisi ya Pwani",
+        "secondDescription": [
+            "Sekta ya usafiri imejaa majukwaa yanayotoa uzoefu wa kawaida. Maono ya Action Coast yalikuwa tofauti: kutoa wasafiri matukio halisi ya pwani.",
+            "Ili kufanikisha hili, nilitumia teknolojia kama Flutter, Dart, Vue.js, TypeScript, Nuxt.js, na Firebase. Mojawapo ya changamoto kuu ilikuwa kuhakikisha kwamba jukwaa halikuwa tu orodha ya matukio, bali safari iliyoratibiwa kuelekea uhalisia.",
+            "Nilitekeleza vipengele kama marekebisho ya maudhui maalum ya eneo na mfumo kamili wa hakiki. Hii ilihakikisha kuwa jukwaa lilikidhi mahitaji ya watalii huku likiwapa wenyeji wa eneo uwezo wa kuonyesha matoleo yao ya kipekee.",
+            "Matokeo? Lango la kidijitali linalounganisha kwa urahisi matukio halisi ya pwani na teknolojia ya kisasa, likifanya kuwa chaguo linalopendelewa kwa wasafiri wanaotafuta matukio halisi."
+        ],
+        "secondGroupImages": [
+            "/img/projects/action-coast/carousel/action-coast1.jpeg",
+            "/img/projects/action-coast/carousel/action-coast2.svg",
+            "/img/projects/action-coast/carousel/action-coast3.jpeg",
+            "/img/projects/action-coast/carousel/action-coast4.svg",
+            "/img/projects/action-coast/carousel/action-coast5.svg",
+            "/img/projects/action-coast/carousel/action-coast6.jpeg",
+            "/img/projects/action-coast/carousel/action-coast7.svg",
+            "/img/projects/action-coast/carousel/action-coast8.jpeg",
+            "/img/projects/action-coast/carousel/action-coast9.jpeg",
+            "/img/projects/action-coast/carousel/action-coast10.jpeg",
+            "/img/projects/action-coast/carousel/action-coast11.svg",
+            "/img/projects/action-coast/carousel/action-coast18.svg",
+            "/img/projects/action-coast/carousel/action-coast12.svg",
+            "/img/projects/action-coast/carousel/action-coast13.svg",
+            "/img/projects/action-coast/carousel/action-coast14.jpeg",
+            "/img/projects/action-coast/carousel/action-coast15.svg",
+            "/img/projects/action-coast/carousel/action-coast16.svg",
+            "/img/projects/action-coast/carousel/action-coast17.svg",
+            "/img/projects/action-coast/carousel/action-coast19.svg"
+        ],
+        "titleSEO": "Action Coast - Matukio Halisi ya Pwani",
+        "descriptionSEO": "Pata matukio halisi ya pwani na Action Coast, inayochanganya teknolojia na maarifa ya wenyeji kwa uzoefu wa kipekee wa safari."
+    }
+]

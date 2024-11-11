@@ -12,22 +12,22 @@
         <ul>
           <li>
             <NuxtLink to="/" :class="{'active':isActive('/') && linkstate.$state.isActive}">
-              // Home
+              // {{ $t('navigation.home') }}
             </NuxtLink>
           </li>
           <li>
             <NuxtLink to="/about" :class="{'active':isActive('/about')}">
-              // About
+              // {{ $t('navigation.about') }}
             </NuxtLink>
           </li>
           <li>
             <NuxtLink :to="{path:'/', hash:'#work'}" :class="{'active': props.currentSection==='work'}" @click="onClick">
-              //  Experience
+              // {{ $t('navigation.experience') }}
             </NuxtLink>
           </li>
           <li>
             <NuxtLink :to="{path:'/', hash:'#contact'}" :class="{'active': props.currentSection==='contact'}" @click="onClick">
-              // Contact
+              // {{ $t('navigation.contact') }}
             </NuxtLink>
           </li>
           <li>
@@ -74,22 +74,22 @@
         <ul>
           <li @click="visitLink">
             <NuxtLink to="/" :class="{'active':isActive('/') && linkstate.$state.isActive}" aria-current="page">
-              // Home
+              // {{ $t('navigation.home') }}
             </NuxtLink>
           </li>
           <li @click="visitLink">
             <NuxtLink to="/about" :class="{'active':isActive('/about')}">
-              // About
+              // {{ $t('navigation.about') }}
             </NuxtLink>
           </li>
           <li @click="visitLink">
             <NuxtLink :to="{path:'/', hash:'#work'}" :class="{'active':props.currentSection==='work'}" @click="onClick">
-              //  Experience
+              // {{ $t('navigation.experience') }}
             </NuxtLink>
           </li>
           <li @click="visitLink">
             <NuxtLink :class="{'active':props.currentSection==='contact'}" @click="onClick">
-              // Contact
+              // {{ $t('navigation.contact') }}
             </NuxtLink>
           </li>
         </ul>

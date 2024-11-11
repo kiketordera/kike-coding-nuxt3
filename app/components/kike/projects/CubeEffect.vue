@@ -64,7 +64,9 @@
 
 <script lang="ts" setup>
 import { register } from 'swiper/element/bundle'
-import projects from '~/assets/data/projects.json'
+import type { Project }  from '~/types/types';
+const projects = await getI18nJson<Project>('projects')
+
 register()
 const activeSlide = ref(0) // default to the first slide
 

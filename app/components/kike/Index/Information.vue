@@ -4,28 +4,29 @@
       <div class="content">
         <h2 class="mb-0" data-aos="zoom-in-up">
           <span>{</span>
-          UX/UI Engineer & <span class="yellow"> Software developer</span>
+          {{ $t('intro.title') }} <span class="yellow">{{ $t('intro.titleHighlight') }}</span>
           <span class="ml-3 sm:ml-8">}</span>
         </h2>
         <h2>
           <span data-aos="fade-right" class="text-base">
-            Engineered Precision. Designed Passion.
+            {{ $t('intro.tagline') }}
           </span>
         </h2>
         <p data-aos="fade-right">
-          I specialize in interfaces, from UX & design to development & launch.
+          {{ $t('intro.description') }}
         </p>
         <p class="txt-blue" data-aos="fade-right">
-          Why choose someone with half the skills? Take someone with the full package!
+          {{ $t('intro.reason') }}
         </p>
         <a target="_blank" href="https://calendly.com/kiketordera" @click="whatsAppState.toggleModal()">
-          Hire me
+          {{ $t('intro.cta') }}
         </a>
       </div>
       <NuxtImg src="/img/kk/kike-tordera.png" alt="" class="mx-auto" />
     </div>
   </section>
 </template>
+
 
 <script lang="ts" setup>
 import { WhatsAppStateProvider } from '~/store/whatsapp'

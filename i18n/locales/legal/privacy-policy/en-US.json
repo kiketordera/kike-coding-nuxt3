@@ -1,0 +1,230 @@
+{
+    "privacyPolicy": {
+        "title": "Privacy Policy",
+        "sections": {
+            "liabilityForContent": {
+                "title": "Liability for Content",
+                "content": "We have made every effort to ensure the accuracy and completeness of the content on our pages. However, we cannot guarantee the correctness, completeness, or current relevance of the content. As a service provider, our responsibility for our own content on these pages is in accordance with general laws. As a service provider, we are not required to monitor third-party information that is transmitted or stored, nor are we required to investigate circumstances that suggest illegal activities. The responsibility to remove or block the use of information under general laws remains intact. Liability in this regard can only be assumed from the moment we become aware of a specific legal violation. Upon becoming aware of such violations, we will promptly remove the offending content."
+            },
+            "liabilityForLinks": {
+                "title": "Liability for Links",
+                "content": "Our website contains links to external websites owned by third parties, and we have no control over the content of these sites. Consequently, we cannot be held responsible for the content of these third-party sites. The individual provider or operator of the linked pages is responsible for their content. At the time of linking, the linked pages were examined for potential legal violations, and no unlawful content was identified. Continuously monitoring the content of linked pages without concrete evidence of legal violations is unreasonable. If we become aware of any legal violations, we will remove the associated links immediately."
+            },
+            "copyright": {
+                "title": "Copyright",
+                "content": "The content and works on our website are subject to European and international copyright law. The reproduction, modification, distribution, and any form of exploitation beyond the scope of copyright law require written consent from the respective author or creator. Downloads and copies of this website are permitted for private, non-commercial use only. In cases where the content on this site was not created by the operator, third-party copyrights have been respected. Specifically, third-party content is identified as such. If you become aware of a copyright infringement, please notify us accordingly. Upon becoming aware of legal violations, we will immediately remove the offending content."
+            },
+            "companyInformation": {
+                "title": "Company Information",
+                "registration": "Registration",
+                "contact": "Contact",
+                "dataProtectionOfficer": "Data Protection Officer"
+            }
+        },
+        "introduction": {
+            "title": "Privacy Policy",
+            "content": "This Privacy Policy outlines our practices and procedures regarding the collection, utilization, and disclosure of your information when you access and use our Service. It also informs you about your privacy rights and the legal protection available to you. By using our Service, you consent to the gathering and usage of your information in compliance with this Privacy Policy."
+        },
+        "interpretation": {
+            "title": "Interpretation and Definitions",
+            "sections": {
+                "interpretation": {
+                    "title": "Interpretation",
+                    "content": "The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural."
+                },
+                "definitions": {
+                    "title": "Definitions",
+                    "content": "For the purposes of this Privacy Policy:",
+                    "personalData": "Personal Data",
+                    "personalDataDesc": "Any information related to an identified or identifiable natural person.",
+                    "dataSubject": "Data Subject",
+                    "dataSubjectDesc": "The individual to whom personal data relates.",
+                    "processing": "Processing",
+                    "processingDesc": "Any operation performed on personal data, whether automated or not, including collection, storage, use, and deletion.",
+                    "controller": "Controller",
+                    "controllerDesc": "The entity that determines the purposes and means of processing personal data.",
+                    "processor": "Processor",
+                    "processorDesc": "The entity that processes personal data on behalf of the controller.",
+                    "consent": "Consent",
+                    "consentDesc": "Any freely given, specific, informed, and unambiguous indication of the data subject's wishes."
+                }
+            }
+        },
+        "collectionDeletion": {
+            "title": "Collection and Deletion of Data",
+            "sections": {
+                "generalData": {
+                    "title": "Collection of General Data and Information",
+                    "content": "The Data Controller collects various general data and information each time you visit our website. This data is stored in the server's log files and includes:",
+                    "browsers": "Browser type and version",
+                    "operatingSystem": "Operating system",
+                    "referrerURL": "Referrer URL",
+                    "pagesAccessed": "Pages accessed",
+                    "dateTime": "Date and time of access",
+                    "ipAddress": "IP address",
+                    "isp": "Internet service provider",
+                    "otherData": "Other similar data used to protect against cyber threats",
+                    "usage": "This data is used for:",
+                    "usageList": {
+                        "contentDelivery": "Delivering and optimizing website content",
+                        "optimization": "Ensuring functionality and security",
+                        "security": "Ensuring functionality and security",
+                        "statistics": "Statistical analysis to improve data protection"
+                    },
+                    "separatedData": "The collected data is stored separately from personal data provided by users."
+                },
+                "deletion": {
+                    "title": "Routine Deletion and Blocking of Personal Data",
+                    "content": "The Data Controller processes and stores personal data only for as long as necessary to fulfill the purposes outlined in this Privacy Policy or as required by law. Once the data is no longer needed, it will be anonymized or deleted in accordance with applicable laws."
+                }
+            }
+        },
+        "rights": {
+            "title": "Rights of the Data Subject",
+            "sections": {
+                "access": {
+                    "title": "Right to Access",
+                    "content": "You have the right to access your personal data and obtain information about how it is being processed. To exercise this right, please contact our Data Protection Officer using the contact details provided below."
+                },
+                "rectification": {
+                    "title": "Right to Rectification",
+                    "content": "You have the right to request the correction of inaccurate or incomplete personal data. To request rectification, please contact our Data Protection Officer."
+                },
+                "erasure": {
+                    "title": "Right to Erasure (Right to be Forgotten)",
+                    "content": "You have the right to request the deletion of your personal data under certain conditions, such as when the data is no longer necessary for the purposes it was collected, or if you withdraw your consent.",
+                    "conditions": {
+                        "condition1": "The personal data have been collected or otherwise processed for purposes for which they are no longer necessary.",
+                        "condition2": "You withdraw the consent on which the processing was based pursuant to Article 6(1)(a) GDPR or Article 9(2)(a) GDPR, and there is no other legal basis for the processing.",
+                        "condition3": "You lodge an objection to the processing pursuant to Art. 21(1) GDPR, and there are no overriding legitimate reasons for the processing, or you lodge an objection to the processing pursuant to Art. 21(2) GDPR.",
+                        "condition4": "The personal data were processed unlawfully.",
+                        "condition5": "The deletion of the personal data is necessary to comply with a legal obligation under Union law or the law of the Member States to which the controller is subject.",
+                        "condition6": "The personal data was collected in relation to information society services offered in accordance with Art. 8 Paragraph 1 GDPR."
+                    },
+                    "instructions": "If one of the above-mentioned reasons applies and you wish to have your personal data deleted, please contact our Data Protection Officer.",
+                    "publicDataDeletion": "If the personal data has been made public, we will take reasonable measures to inform other data controllers to delete links or copies of the data unless necessary for processing."
+                },
+                "restriction": {
+                    "title": "Right to Restriction of Processing",
+                    "content": "You have the right to request the restriction of processing your personal data under specific circumstances.",
+                    "conditions": {
+                        "condition1": "The accuracy of the personal data is contested by you, for a period that allows us to verify the accuracy.",
+                        "condition2": "The processing is unlawful, you refuse to have the personal data deleted, and instead request the restriction of the use of the personal data.",
+                        "condition3": "We no longer need the personal data for the purposes of the processing, but you need them to assert, exercise, or defend legal claims.",
+                        "condition4": "You have lodged an objection to the processing in accordance with Art. 21(1) GDPR, and it is not yet clear whether our legitimate reasons outweigh yours."
+                    },
+                    "instructions": "If one of the above conditions is met and you wish to restrict your personal data, please contact us directly. We will initiate the restriction of processing."
+                },
+                "portability": {
+                    "title": "Right to Data Portability",
+                    "content": "You have the right to receive your personal data in a structured, commonly used, and machine-readable format, and to have it transferred to another controller."
+                },
+                "object": {
+                    "title": "Right to Object",
+                    "content": "You have the right to object to the processing of your personal data based on legitimate interests or for direct marketing purposes."
+                },
+                "automatedDecision": {
+                    "title": "Rights Related to Automated Decision-Making",
+                    "content": "You have the right not to be subject to a decision based solely on automated processing, including profiling, that produces legal effects or significantly affects you."
+                },
+                "revokeConsent": {
+                    "title": "Right to Revoke Consent",
+                    "content": "You have the right to revoke your consent to the processing of your personal data at any time. To revoke your consent, please contact our Data Protection Officer."
+                }
+            }
+        },
+        "googleAdWords": {
+            "title": "Data Protection Provisions on the Application and Use of Google AdWords",
+            "content1": "We use Google AdWords to display advertisements on our website. Google AdWords places a conversion cookie on your device to track the effectiveness of our advertising campaigns. This cookie does not personally identify you and is deleted after thirty days.",
+            "content2": "The data collected through Google AdWords is used to create visit statistics and optimize our marketing efforts. Google may process your data in the United States, and while it previously participated in the Privacy Shield framework, it now relies on Standard Contractual Clauses (SCCs) for data transfers.",
+            "content3": "For more information, please refer to Google's Privacy Policy.",
+            "content4": "You can prevent the setting of cookies by adjusting your browser settings. Additionally, you can opt-out of personalized advertising by visiting",
+            "optOutLink": "Google Ads Settings",
+            "content5": "If you reach our website via a Google ad, Google places a conversion cookie on your device. This cookie helps us track whether a visit via an AdWords ad leads to sales or other actions.",
+            "content6": "The data and information collected through the use of the conversion cookie are used by Google to create visit statistics for our website. These visit statistics help us determine the success or failure of our AdWords campaigns and optimize future ads.",
+            "content7": "Through the conversion cookie, personal information such as the websites you visit may be stored. Whenever our website is visited, your IP address is transmitted to Google in the United States.",
+            "content8": "You can delete cookies already set by Google AdWords at any time via your browser or other software programs.",
+            "moreInfo": "For more information and the applicable data protection provisions of Google, please refer to their privacy policy."
+        },
+        "googleAnalytics": {
+            "title": "Data Protection Provisions on the Application and Use of Google Analytics",
+            "content1": "With your consent, we use Google Analytics, a web analytics service provided by Google LLC, to analyze the use of our website. Google Analytics collects data such as pages visited, user behavior, and technical information to help us improve our website and marketing strategies.",
+            "scopeProcessing": {
+                "title": "Scope of Processing",
+                "content": "Google Analytics uses cookies to collect data about your interactions with our website. We have enabled IP anonymization, meaning your IP address is partially masked before being processed by Google."
+            },
+            "purposes": {
+                "title": "Purposes of Processing",
+                "content": "The data collected by Google Analytics is used to evaluate website usage, generate reports, and assist in optimizing our services and advertising campaigns."
+            },
+            "recipient": {
+                "title": "Recipient",
+                "content": "The data is processed by Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland. We have entered into a data processing agreement with Google to ensure GDPR compliance."
+            },
+            "transferThirdCountries": {
+                "title": "Transfer to Third Countries",
+                "content": "Data may be transferred to the United States, where Google operates its servers. Although the EU-US Privacy Shield has been invalidated, Google relies on Standard Contractual Clauses (SCCs) to safeguard your data. For more information, please refer to Google's Privacy Policy."
+            },
+            "duration": {
+                "title": "Duration of Storage",
+                "content": "Data collected by Google Analytics is stored for 14 months and is automatically deleted thereafter."
+            },
+            "rights": {
+                "title": "Rights of the Data Subjects",
+                "content": "You can revoke your consent at any time by adjusting your browser settings to prevent cookies or by using the Google Analytics opt-out browser add-on, which prevents data collection by Google Analytics."
+            }
+        },
+        "legalBasis": {
+            "title": "Legal Basis of Processing",
+            "content": "The legal basis for processing your personal data is outlined below in accordance with GDPR:",
+            "consensus": "Consent",
+            "contract": "Contract",
+            "legalObligation": "Legal Obligation",
+            "legitimateInterests": "Legitimate Interests",
+            "articles": {
+                "consent": "Art. 6(1)(a) GDPR",
+                "contract": "Art. 6(1)(b) GDPR",
+                "legalObligation": "Art. 6(1)(c) GDPR",
+                "legitimateInterests": "Art. 6(1)(f) GDPR",
+                "consentDesc": "When you provide explicit consent for specific processing activities.",
+                "contractDesc": "Necessary processing to fulfill a contract with you.",
+                "legalObligationDesc": "Processing required to comply with legal obligations.",
+                "legitimateInterestsDesc": "Processing based on our legitimate interests, provided they do not override your rights and freedoms."
+            }
+        },
+        "legitimateInterests": {
+            "title": "Legitimate Interests in the Processing",
+            "content": "When processing is based on legitimate interests, we ensure that these interests do not override your fundamental rights and freedoms. Legitimate interests include business operations, improving services, and ensuring security."
+        },
+        "dataRetention": {
+            "title": "Data Retention",
+            "content": "We retain your personal data only for as long as necessary to fulfill the purposes for which it was collected or as required by law. After this period, data is securely deleted or anonymized."
+        },
+        "legalObligations": {
+            "title": "Legal or Contractual Obligations",
+            "content1": "Providing certain personal data may be required by law or necessary to enter into a contract with us.",
+            "content2": "Failure to provide such data may result in the inability to provide requested services."
+        },
+        "automatedDecisionMaking": {
+            "title": "Automated Decision-Making",
+            "content": "We do not engage in automated decision-making, including profiling, that significantly affects you. All decisions are made with human oversight to protect your rights and freedoms."
+        },
+        "dataBreachNotification": {
+            "title": "Data Breach Notification",
+            "content": "In the event of a data breach that poses a risk to your rights and freedoms, we will notify you without undue delay and take appropriate measures to mitigate the breach."
+        },
+        "changes": {
+            "title": "Changes to This Privacy Policy",
+            "content": "We may update this Privacy Policy from time to time. Any changes will be posted on this page, and where appropriate, notified to you via email or other communication channels."
+        },
+        "contactUs": {
+            "title": "Contact Us",
+            "content": "If you have any questions or concerns about this Privacy Policy or our data processing practices, please contact our Data Protection Officer:",
+            "email": "Email",
+            "address": "Address",
+            "phone": "Phone"
+        },
+        "copyright": "Copyright © ",
+        "rightsReserved": ". All Rights Reserved"
+    }
+}

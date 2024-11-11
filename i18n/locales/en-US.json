@@ -1,31 +1,123 @@
 {
+    "intro": {
+        "title": "Mobile developer &",
+        "titleHighlight": "UX/UI Engineer",
+        "tagline": "Engineered Precision. Designed Passion.",
+        "description": "I specialize in interfaces, from UX & design to development & launch.",
+        "reason": "Why choose someone with half the skills? Take someone with the full package!",
+        "cta": "Hire me"
+    },
+    "introSection": {
+        "passionate": "Passionate and detail-driven",
+        "mobileDeveloper": "Mobile & Front-End Developer",
+        "withExpertise": "with expertise in",
+        "uxUiDesign": "UX/UI design",
+        "specializing": "specializing in crafting intuitive, user-focused interfaces and cutting-edge software solutions.",
+        "skills": "Skilled in modern development tools and languages, with a strong emphasis on design and user experience. Proven ability to turn complex ideas into sleek, functional, and visually appealing applications.",
+        "innovate": "Let’s not just develop — let’s innovate, design, and push boundaries.",
+        "build": "Let's not just build. Let's innovate, design, and revolutionize.",
+        "blend": "Why aim for ordinary when we can blend code and creativity to create something truly remarkable?",
+        "collaborate": "Let's collaborate and make digital magic! ✨",
+        "readMore": "Read more"
+    },
+    "projectsSection": {
+        "title": "Projects",
+        "subtitle": "Some of the best"
+    },
+    "experienceSection": {
+        "title": "My Experience",
+        "description": "Explore my professional journey and expertise through my comprehensive work experience section",
+        "work": "Work",
+        "volunteer": "Volunteer",
+        "education": "Education"
+    },
+    "startProject": "Start a project",
+    "legalSection": {
+        "cookies": "Cookies",
+        "privacy": "Privacy"
+    },
+    "myself": "me",
+    "aboutSection": {
+        "title": "About",
+        "intro": "Hi! I'm Kike Tordera.",
+        "codingPassion": "Programming? That's my jam! 🚀 My roots in coding run deep, nurtured by rigorous studies and spiced up with international flair. Guess what? Even as a kid, I was the go-to tech whiz, always tinkering with computers.",
+        "craftingExperiences": "But here's the twist: I'm not just about the code. I'm passionate about crafting experiences. 🎨 To me, a sleek design and intuitive interface aren't just the icing on the cake—they're essential ingredients.",
+        "createMagic": "Because, in the end, it's all about creating something that's more than just the sum of its parts. Ready to create magic together?"
+      },
+      "resumeSection": {
+        "downloadHuman": "Download Resume (Designed for Humans)",
+        "downloadATS": "Download Resume (Optimized for ATS Software)"
+      },
+      "skillsSection": {
+    "title": "My Skills",
+    "description": "Discover my range of skills and expertise in various areas.",
+        "leadershipSkills": "Leadership Skills",
+    "softSkills": "Soft Skills"
+  },
+  "educationSection": {
+    "title": "Education Background",
+    "upv": {
+      "duration": "2012-2016",
+      "length": "4 years",
+      "university": "Polytechnic University of Valencia",
+      "degree": "Bachelor's degree in Computer Science",
+      "description": "Gained proficiency in software development, mastered data structures and algorithms, and explored emerging computing technologies, boosting problem-solving and technical skills."
+    },
+    "czech": {
+      "duration": "2016-2017",
+      "length": "1 year",
+      "university": "Czech Technical University in Prague",
+      "degree": "Specialization in Software Engineering",
+      "description": "Specialized in Software Engineering at Czech Technical University in Prague, focusing on advanced programming, software design principles, and project management methodologies."
+    }
+  },
+  "skills": {
+    "softSkills": {
+      "effectiveCommunication": "Effective Communication",
+      "teamwork": "Teamwork",
+      "problemSolving": "Problem Solving",
+      "timeManagement": "Time management",
+      "adaptability": "Adaptability",
+      "leadership": "Leadership",
+      "empathy": "Empathy",
+      "activeListening": "Active Listening",
+      "creativity": "Creativity"
+    },
+    "leadershipSkills": {
+      "criticalThinking": "Critical Thinking",
+      "culturalSensitivity": "Cultural Sensitivity",
+      "conflictResolution": "Conflict Resolution",
+      "decisionMaking": "Decision Making",
+      "visionaryThinking": "Visionary Thinking",
+      "teamBuilding": "Team Building & Motivation",
+      "strategicPlanning": "Strategic Planning",
+      "emotionalIntelligence": "Emotional Intelligence",
+      "negotiation": "Negotiation"
+    }
+  },
+  "languagesSection": {
+    "title": "Languages",
+    "spanish": {
+      "name": "Spanish",
+      "level": "Native"
+    },
+    "english": {
+      "name": "English",
+      "level": "C1 - Level"
+    },
+    "german": {
+      "name": "German",
+      "level": "A2 - Level"
+    },
+    "swahili": {
+      "name": "Swahili",
+      "level": "B1 - Level"
+    }
+  },
+  "navigation": {
     "home": "Home",
-    "the-artist": "The Artist",
-    "contact": "Contact",
-    "contact-me": "Contact Me",
-    "connect-now": "Connect Now",
-    "welcome": "Welcome to Bohemian Tattoo",
-    "about-me": "About Me",
-    "p1-about-me": "Hello! I am Sergio. I live in Rotterdam and specialize in tattooing a style that combines blackwork with realism. My passion for the details of blackwork, along with the more detailed depth and texture of realism, allows me to create unique tattoos that not only stand out but also tell a story.",
-    "p2-about-me": "My approach is to seamlessly integrate these two styles, ensuring that each piece reflects my clients' individuality while maintaining a timeless aesthetic. My work is characterized by its high contrast, meticulous attention to detail, and a keen sense of how designs adapt and flow with the body's natural contours.",
-    "p3-about-me": "Through my tattoos, I aim to bring my clients' visions to life, creating art that resonates with their personal narratives and enhances their natural beauty.",
-    "tattoos": "Tattoos",
-    "tattoos-sub": "Here you can see some of my tattoos.",
-    "events": "Events",
-    "loading-events": "Cargando eventos...",
-    "no-events": "No hay eventos disponibles",
-    "appointment-policy": "Appointment Policy",
-    "p1-appointment-policy": "As your tattoo artist, I appreciate your trust in letting me create a lasting piece of art on your skin. Here are our deposit and cancellation policies:",
-    "p2-bold-appointment-policy": "Deposit Details:",
-    "p2-appointment-policy": "After our initial talk, you'll need to make a non-refundable deposit to confirm your tattoo session. This shows you're serious about going through with the artistic journey we're planning together.",
-    "p3-bold-appointment-policy": "Cancellation and Appointment Changes:",
-    "p3-appointment-policy": "Life happens, and I get that plans can shift. Here's what you can do:",
-    "p3a-bold-appointment-policy": "Free Changes up to 1 Week Before:",
-    "p3a-appointment-policy": "You can change or reschedule your appointment without any cost if you do it at least three days before your session.",
-    "p3b-bold-appointment-policy": "Regarding Your Deposit:",
-    "p3b-appointment-policy": "While you can't get your deposit back, it reserves your place. If you have to cancel, you can use the deposit for a future appointment, following our rules.",
-    "p4-appointment-policy": "Thanks for sticking to these rules, which help keep things running smoothly for everyone. I'm excited to work with you on creating meaningful art!",
-    "get-in-touch": "Get in Touch",
-    "privacy-policy": "Privacy Policy",
-    "cookies-policy": "Cookies Policy"
+    "about": "About",
+    "experience": "Experience",
+    "contact": "Contact"
+  }
 }

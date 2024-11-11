@@ -1,0 +1,123 @@
+{
+    "intro": {
+        "title": "Mobiludvikler &",
+        "titleHighlight": "UX/UI Ingeniør",
+        "tagline": "Ingeniørpræcision. Designet med Passion.",
+        "description": "Jeg specialiserer mig i interfaces, fra UX & design til udvikling & lancering.",
+        "reason": "Hvorfor vælge en med halvdelen af færdighederne? Vælg en med hele pakken!",
+        "cta": "Ansæt mig"
+    },
+    "introSection": {
+        "passionate": "Passioneret og detaljeorienteret",
+        "mobileDeveloper": "Mobil & Front-End Udvikler",
+        "withExpertise": "med ekspertise i",
+        "uxUiDesign": "UX/UI design",
+        "specializing": "specialiserer mig i at skabe intuitive, brugerfokuserede interfaces og banebrydende softwareløsninger.",
+        "skills": "Dygtig i moderne udviklingsværktøjer og -sprog, med stor vægt på design og brugeroplevelse. Dokumenteret evne til at omsætte komplekse ideer til elegante, funktionelle og visuelt tiltalende applikationer.",
+        "innovate": "Lad os ikke bare udvikle — lad os innovere, designe og skubbe grænser.",
+        "build": "Lad os ikke bare bygge. Lad os innovere, designe og revolutionere.",
+        "blend": "Hvorfor sigte efter det ordinære, når vi kan blande kode og kreativitet for at skabe noget virkelig bemærkelsesværdigt?",
+        "collaborate": "Lad os samarbejde og skabe digital magi! ✨",
+        "readMore": "Læs mere"
+    },
+    "projectsSection": {
+        "title": "Projekter",
+        "subtitle": "Nogle af de bedste"
+    },
+    "experienceSection": {
+        "title": "Min Erfaring",
+        "description": "Udforsk min professionelle rejse og ekspertise gennem min omfattende arbejdserfaringssektion",
+        "work": "Arbejde",
+        "volunteer": "Frivilligt arbejde",
+        "education": "Uddannelse"
+    },
+    "startProject": "Start et projekt",
+    "legalSection": {
+        "cookies": "Cookies",
+        "privacy": "Privatliv"
+    },
+    "myself": "mig",
+    "aboutSection": {
+        "title": "Om",
+        "intro": "Hej! Jeg er Kike Tordera.",
+        "codingPassion": "Programmering? Det er min ting! 🚀 Mine rødder i kodning er dybe, næret af strenge studier og krydret med international flair. Gætter du hvad? Selv som barn var jeg den tekniske kloge, som alle henvendte sig til, altid nysgerrig med computere.",
+        "craftingExperiences": "Men her er twistet: Det handler ikke kun om koden. Jeg er passioneret omkring at skabe oplevelser. 🎨 For mig er et strømlinet design og en intuitiv brugerflade ikke kun prikken over i'et — det er essentielle ingredienser.",
+        "createMagic": "Fordi i sidste ende handler det om at skabe noget, der er mere end summen af dets dele. Klar til at skabe magi sammen?"
+    },
+    "resumeSection": {
+        "downloadHuman": "Download CV (Designet til Mennesker)",
+        "downloadATS": "Download CV (Optimeret til ATS Software)"
+    },
+    "skillsSection": {
+        "title": "Mine Færdigheder",
+        "description": "Opdag mit udvalg af færdigheder og ekspertise inden for forskellige områder.",
+        "leadershipSkills": "Ledelsesfærdigheder",
+        "softSkills": "Bløde Færdigheder"
+    },
+    "educationSection": {
+        "title": "Uddannelsesbaggrund",
+        "upv": {
+            "duration": "2012-2016",
+            "length": "4 år",
+            "university": "Politeknisk Universitet Valencia",
+            "degree": "Bachelor i Datavidenskab",
+            "description": "Opnåede færdigheder i softwareudvikling, mestrede datastrukturer og algoritmer og udforskede nye computerteknologier, hvilket forbedrede mine problemløsnings- og tekniske færdigheder."
+        },
+        "czech": {
+            "duration": "2016-2017",
+            "length": "1 år",
+            "university": "Tjekkisk Tekniske Universitet i Prag",
+            "degree": "Specialisering i Software Engineering",
+            "description": "Specialiserede mig i Software Engineering ved Tjekkisk Tekniske Universitet i Prag med fokus på avanceret programmering, softwaredesignprincipper og projektledelsesmetodologier."
+        }
+    },
+    "skills": {
+        "softSkills": {
+            "effectiveCommunication": "Effektiv Kommunikation",
+            "teamwork": "Teamarbejde",
+            "problemSolving": "Problemløsning",
+            "timeManagement": "Tidsstyring",
+            "adaptability": "Tilpasningsevne",
+            "leadership": "Lederskab",
+            "empathy": "Empati",
+            "activeListening": "Aktiv Lytning",
+            "creativity": "Kreativitet"
+        },
+        "leadershipSkills": {
+            "criticalThinking": "Kritisk Tænkning",
+            "culturalSensitivity": "Kulturel Følsomhed",
+            "conflictResolution": "Konfliktløsning",
+            "decisionMaking": "Beslutningstagning",
+            "visionaryThinking": "Visionært Tænkning",
+            "teamBuilding": "Teambuilding & Motivation",
+            "strategicPlanning": "Strategisk Planlægning",
+            "emotionalIntelligence": "Emotionel Intelligens",
+            "negotiation": "Forhandling"
+        }
+    },
+    "languagesSection": {
+        "title": "Sprog",
+        "spanish": {
+            "name": "Spansk",
+            "level": "Modersmål"
+        },
+        "english": {
+            "name": "Engelsk",
+            "level": "C1 - Niveau"
+        },
+        "german": {
+            "name": "Tysk",
+            "level": "A2 - Niveau"
+        },
+        "swahili": {
+            "name": "Swahili",
+            "level": "B1 - Niveau"
+        }
+    },
+    "navigation": {
+        "home": "Hjem",
+        "about": "Om",
+        "experience": "Erfaring",
+        "contact": "Kontakt"
+    }
+}

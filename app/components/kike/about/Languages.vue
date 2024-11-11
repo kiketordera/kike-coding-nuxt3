@@ -1,56 +1,57 @@
 <template>
   <div class="languages">
     <h3 data-aos="fade-up">
-      Languages
+      {{ $t('languagesSection.title') }}
     </h3>
     <div data-aos="zoom-in-down" class="expert">
       <div class="lang">
         <div>
           <img src="~assets/svg/kk/spanish.svg" alt="">
           <span>
-            Spanish
+            {{ $t('languagesSection.spanish.name') }}
           </span>
         </div>
         <p class="level">
-          Native
+          {{ $t('languagesSection.spanish.level') }}
         </p>
       </div>
       <div class="lang">
         <div>
           <img src="~assets/svg/kk/united-kingdom.svg" alt="">
           <span>
-            English
+            {{ $t('languagesSection.english.name') }}
           </span>
         </div>
         <p class="level">
-          C1 - Level
+          {{ $t('languagesSection.english.level') }}
         </p>
       </div>
       <div class="lang">
         <div>
           <img src="~assets/svg/kk/german-flag.svg" alt="">
           <span>
-            German
+            {{ $t('languagesSection.german.name') }}
           </span>
         </div>
         <p class="level">
-          A2 - Level
+          {{ $t('languagesSection.german.level') }}
         </p>
       </div>
       <div class="lang">
         <div>
           <img src="~assets/svg/kk/tanzania.svg" alt="">
           <span>
-            Swahili
+            {{ $t('languagesSection.swahili.name') }}
           </span>
         </div>
         <p class="level">
-          B1 - Level
+          {{ $t('languagesSection.swahili.level') }}
         </p>
       </div>
     </div>
   </div>
 </template>
+
 
 <style lang="scss" scoped>
 .languages {

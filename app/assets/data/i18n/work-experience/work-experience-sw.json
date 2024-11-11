@@ -1,0 +1,196 @@
+[
+    {
+        "title": "Mtaalamu wa Android",
+        "nameCompany": "Chuo Kikuu cha Sayansi na Teknolojia cha Mongolia",
+        "img": "/experience/mongolia.jpeg",
+        "type": "elimisha",
+        "description": [
+            "Katika Chuo Kikuu cha Sayansi na Teknolojia cha Mongolia, niliboresha uwezo wangu kama Mtaalamu wa Android, nikizingatia programu za Java kwa Android.",
+            "Nilitengeneza mteja wa REST unaounganisha na middleware kwa maombi ya GET na POST. Nilitambua mfumo wa sensa kwa upatikanaji wa wakati halisi, kuamsha mbali, na ufuatiliaji wa kimataifa kwa Wi-Fi.",
+            "Zaidi ya hayo, nilitengeneza interfaces za watumiaji na kuonyesha data za sensa kupitia maonyesho ya grafiki."
+        ],
+        "skills": [
+            "Maendeleo ya Android",
+            "Maendeleo ya Programu za Simu",
+            "Java",
+            "Android Studio"
+        ],
+        "place": "Ulaanbaatar, Mongolia",
+        "startDate": "Jul 2015",
+        "endDate": "Sep 2015",
+        "durationMonths": "3 miezi",
+        "modality": "kwenye eneo",
+        "webLink": "https://www.linkedin.com/company/mongolian-university-of-science-and-technology/"
+    },
+    {
+        "title": "Mtaalamu wa iOS",
+        "nameCompany": "CodeWell",
+        "img": "/experience/codewell.jpeg",
+        "type": "elimisha",
+        "description": [
+            "Katika CodeWell, nilianza katika maendeleo ya iOS kwa kutumia Xcode, Swift, na Objective-C. Nilitumia katika miradi kama programu ya 'Summer Ohrid Festival' na programu nyingine kuelewa vikwazo na msimbo.",
+            "Nilifanya kazi na Google Firebase, CoreData, na frameworks za watu wengine kama SDWebImage, TTTAttributedLabel, na SnapKit. Nilitengeneza interfaces za programu na kuunda animations za iOS kwa kutumia Bezier Path na zaidi.",
+            "Nafasi hii ilinipa uzoefu zaidi katika timu yenye tamaduni tofauti, ikisisitiza ushirikiano na uelewa."
+        ],
+        "skills": [
+            "Maendeleo ya Programu za Simu",
+            "Maendeleo ya iOS",
+            "Swift",
+            "UIKit"
+        ],
+        "place": "Skopje, Masedonia",
+        "startDate": "Jul 2016",
+        "endDate": "Sep 2016",
+        "durationMonths": "3 miezi",
+        "modality": "kwenye eneo",
+        "webLink": "https://www.linkedin.com/company/codewell/"
+    },
+    {
+        "title": "Mtaalamu wa Front End",
+        "nameCompany": "Universitat Politècnica de València (UPV)",
+        "img": "/experience/upv.svg",
+        "type": "kazi",
+        "description": [
+            "Katika Shule ya Udaktari ya Universitat Politècnica de València, nilikuwa muhimu katika kusasisha tovuti ya shule kama Mtaalamu wa Frontend.",
+            "Nilitengeneza maudhui ya HTML, kuhakikisha muundo wa kawaida kwa HTML/CSS, na kudumisha usahihi wa kuona wa tovuti.",
+            "Nilichukua hatua katika uhariri wa video kwa ajili ya maudhui ya kielimu na mawasilisho ya mikutano."
+        ],
+        "skills": [
+            "Maendeleo Front-End",
+            "SCSS",
+            "HTML5",
+            "Uboreshaji wa Tovuti"
+        ],
+        "place": "Valencia, Uhispania",
+        "startDate": "Sep 2017",
+        "endDate": "Nov 2016",
+        "durationMonths": "4 miezi",
+        "modality": "kwenye eneo",
+        "webLink": "https://www.linkedin.com/school/upv/"
+    },
+    {
+        "title": "Mwalimu Mkuu wa Web Development & UX/UI Design",
+        "nameCompany": "Learning Lions",
+        "img": "/experience/learning.png",
+        "type": "uhalifu",
+        "description": [
+            "Katika Lodwar kwa mradi wangu wa mwisho wa chuo kikuu, nilihudhuria kwa hiari kwa Learning and Service, kukuza teknolojia kwa mustakabali mwema.",
+            "Nilitengeneza moduli za kielimu, tathmini, na kutoa ushauri na ualimu kwa wanafunzi.",
+            "Nilitambulisha zana na mchakato wa kazi, kuboresha huduma na muundo wa ndani wa shirika."
+        ],
+        "skills": [
+            "Adobe XD",
+            "Raspberry Pi",
+            "UX/UI Design",
+            "Ushauri",
+            "Web Development"
+        ],
+        "place": "Turkana, Kenya",
+        "startDate": "Feb 2018",
+        "endDate": "Jun 2018",
+        "durationMonths": "5 miezi",
+        "modality": "kwenye eneo",
+        "webLink": "https://www.learninglions.org/"
+    },
+    {
+        "title": "Mtaalamu wa Full Stack & UI Designer",
+        "nameCompany": "Value Villages",
+        "img": "/experience/vv.png",
+        "type": "kazi",
+        "description": [
+            "Katika Value Villages, nilikuwa muhimu katika kuunda programu kwa NGO zinazopambana na umaskini, ikizingatia mafunzo ya taaluma.",
+            "Nilitengeneza interfaces na kutekeleza suluhisho za full-stack, ikizingatia kuimarisha watu kupitia maarifa na mafunzo.",
+            "Nafasi hii ilikuwa muhimu katika kusukuma malengo ya NGO kwenye ardhi."
+        ],
+        "skills": [
+            "Adobe XD",
+            "Raspberry Pi",
+            "UX/UI Design",
+            "Golang"
+        ],
+        "place": "Turkana, Kenya",
+        "startDate": "Jun 2018",
+        "endDate": "Jun 2020",
+        "durationMonths": "2 miaka",
+        "modality": "kwenye eneo",
+        "webLink": "https://www.linkedin.com/school/upv/"
+    },
+    {
+        "title": "Mtaalamu wa Mobile Mkuu",
+        "nameCompany": "Oculid",
+        "img": "/img/projects/oculid/logo.svg",
+        "type": "kazi",
+        "description": [
+            "Katika Oculid, niliongoza maendeleo ya programu ya simu inayofuatilia mizunguko ya macho ya watumiaji, kuboresha majaribio ya watumiaji na uchambuzi wa UX.",
+            "Tulikusanya data ya nafasi ya macho, tukitumia kujifunza kwa mashine kwa uonyeshaji wa data kama ramani za joto, kutoa taarifa kuhusu ushirikiano wa mtumiaji bidhaa.",
+            "Taarifa kama hizo zilikuwa muhimu kwa kuboresha disenyo za UX/UI kwa kuridhika bora wa mtumiaji."
+        ],
+        "skills": [
+            "Maendeleo ya Programu za Simu",
+            "Maendeleo iOS",
+            "SwiftUI",
+            "Swift",
+            "Flutter",
+            "Xcode"
+        ],
+        "place": "Berlin, Ujerumani",
+        "startDate": "Jan 2021",
+        "endDate": "Feb 2022",
+        "durationMonths": "1 mwaka 2 miezi",
+        "modality": "hibridi",
+        "webLink": "https://www.linkedin.com/company/oculid/"
+    },
+    {
+        "title": "Mtaalamu wa Mobile Mkuu",
+        "nameCompany": "Circus",
+        "img": "/experience/circus.svg",
+        "type": "kazi",
+        "description": [
+            "Katika Circus, kama Mtaalamu wa Frontend Mkuu kwenye timu ya Flutter, nilifanya kazi kwenye utunzaji wa bidhaa na utekelezaji wa vipengele vipya.",
+            "Programu yetu, inayotumiwa na maelfu, inapanuka katika maeneo mapya kila mwezi, ikihitaji usimamizi mzuri wa msingi wa watumiaji.",
+            "Nilihakikisha utendaji bora kwa msingi wetu unaokua wa watumiaji, kuongeza vipengele kwa programu ya uzalishaji hai."
+        ],
+        "skills": [
+            "Maendeleo ya Android",
+            "Maendeleo iOS",
+            "Swift",
+            "SwiftUI",
+            "Flutter",
+            "Maendeleo ya Programu za Simu"
+        ],
+        "place": "Berlin, Ujerumani",
+        "startDate": "Ago 2022",
+        "endDate": "Sep 2023",
+        "durationMonths": "1 mwaka",
+        "modality": "remote",
+        "webLink": "https://www.linkedin.com/company/circuskitchens/"
+    },
+    {
+        "title": "Lead Udvikler",
+        "nameCompany": "Totem Studio",
+        "img": "/experience/totem-logo.svg",
+        "type": "kazi",
+        "description": [
+            "Som Head of Development hos The Totem Studio, superviserer jeg udviklingen af flere web- og mobilapplikationer.",
+            "Jeg sikrede kodekvalitet, samarbejdede med klienter om krav, ledede et udviklerteam og overvågede kode- og projektlanceringer.",
+            "Min dedikation og kommunikationsevner var nøgleelementer i at levere produkter af højeste kvalitet til klienterne."
+        ],
+        "skills": [
+            "Udvikling af Mobiele Applicaties",
+            "Front End Udvikling",
+            "Vue.js",
+            "Nuxt.js",
+            "TypeScript",
+            "Flutter",
+            "Swift",
+            "SwiftUI",
+            "Lederskab"
+        ],
+        "place": "Berlin, Tyskland",
+        "startDate": "Apr 2020",
+        "endDate": "I dag",
+        "durationMonths": "I dag",
+        "modality": "remote",
+        "webLink": "https://thetotem.studio/"
+    }
+]

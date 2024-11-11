@@ -1,9 +1,13 @@
 <template>
   <section class="top-gradient">
     <h2>
-      Made with
+      {{ $t('made-with') }}
       <img src="/external/heart.svg" alt="" class="heart">
-      by me &
+      {{ $t('by') }}
+      <span>
+        {{ $t('myself') }}
+      </span>
+        &
       <a target="_blank" href="https://thetotem.studio">
         <img src="/external/totem-studio-signature.svg" alt="" class="totem-signature">
         Totem Studio
@@ -23,6 +27,9 @@ section {
 
     a {
       margin-left: 2px;
+      color: $sea-serpent;
+    }
+    span {
       color: $sea-serpent;
     }
 

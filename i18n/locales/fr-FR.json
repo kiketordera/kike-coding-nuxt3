@@ -1,31 +1,123 @@
 {
-    "home": "Accueil",
-    "the-artist": "L'Artiste",
-    "contact": "Contact",
-    "contact-me": "Contactez-moi",
-    "connect-now": "Connectez Maintenant",
-    "welcome": "Bienvenue à Bohemian Tattoo",
-    "about-me": "À Propos de Moi",
-    "p1-about-me": "Bonjour ! Je suis Sergio. Je vis à Rotterdam et je me spécialise dans le tatouage d'un style qui combine le blackwork avec le réalisme. Ma passion pour les détails du blackwork, ainsi que la profondeur et la texture plus détaillées du réalisme, me permettent de créer des tatouages uniques qui non seulement se distinguent mais racontent également une histoire.",
-    "p2-about-me": "Mon approche est d'intégrer ces deux styles de manière harmonieuse, assurant que chaque pièce reflète l'individualité de mes clients tout en conservant une esthétique intemporelle. Mon travail se caractérise par son contraste élevé, son souci méticuleux du détail et un sens aigu de la façon dont les motifs s'adaptent et coulent avec les contours naturels du corps.",
-    "p3-about-me": "À travers mes tatouages, j'aspire à donner vie aux visions de mes clients, créant des œuvres d'art qui résonnent avec leurs histoires personnelles et subliment leur beauté naturelle.",
-    "tattoos": "Tatouages",
-    "tattoos-sub": "Ici, vous pouvez voir quelques-uns de mes tatouages.",
-    "events": "Événements",
-    "loading-events": "Chargement des événements...",
-    "no-events": "Aucun événement disponible",
-    "appointment-policy": "Politique de Rendez-vous",
-    "p1-appointment-policy": "En tant que votre tatoueur, j'apprécie votre confiance en me permettant de créer une œuvre d'art durable sur votre peau. Voici nos politiques de dépôt et d'annulation:",
-    "p2-bold-appointment-policy": "Détails du Dépôt:",
-    "p2-appointment-policy": "Après notre première discussion, vous devrez faire un dépôt non remboursable pour confirmer votre séance de tatouage. Cela montre votre engagement pour l'aventure artistique que nous planifions ensemble.",
-    "p3-bold-appointment-policy": "Annulation et Modifications de Rendez-vous:",
-    "p3-appointment-policy": "La vie est imprévisible, et je comprends que les plans peuvent changer. Voici ce que vous pouvez faire:",
-    "p3a-bold-appointment-policy": "Changements Gratuits Jusqu'à 1 Semaine Avant:",
-    "p3a-appointment-policy": "Vous pouvez changer ou reprogrammer votre rendez-vous sans frais si vous le faites au moins trois jours avant votre séance.",
-    "p3b-bold-appointment-policy": "Concernant Votre Dépôt:",
-    "p3b-appointment-policy": "Bien que vous ne puissiez pas récupérer votre dépôt, il réserve votre place. Si vous devez annuler, vous pouvez utiliser le dépôt pour un rendez-vous futur, selon nos règles.",
-    "p4-appointment-policy": "Merci de respecter ces règles, qui contribuent à ce que tout se passe bien pour tout le monde. Je suis impatient de travailler avec vous pour créer une œuvre d'art significative!",
-    "get-in-touch": "Entrer en Contact",
-    "privacy-policy": "Politique de Confidentialité",
-    "cookies-policy": "Politique de Cookies"
+    "intro": {
+        "title": "Développeur mobile &",
+        "titleHighlight": "Ingénieur UX/UI",
+        "tagline": "Précision Ingénierie. Passion Design.",
+        "description": "Je me spécialise dans les interfaces, de l'UX et du design au développement et au lancement.",
+        "reason": "Pourquoi choisir quelqu'un avec la moitié des compétences ? Choisissez quelqu'un avec le package complet !",
+        "cta": "Engagez-moi"
+    },
+    "introSection": {
+        "passionate": "Passionné et axé sur les détails",
+        "mobileDeveloper": "Développeur Mobile & Front-End",
+        "withExpertise": "avec expertise en",
+        "uxUiDesign": "design UX/UI",
+        "specializing": "spécialisé dans la création d'interfaces intuitives centrées sur l'utilisateur et de solutions logicielles de pointe.",
+        "skills": "Compétent dans les outils et langages de développement modernes, avec un fort accent sur le design et l'expérience utilisateur. Capacité avérée à transformer des idées complexes en applications élégantes, fonctionnelles et visuellement attrayantes.",
+        "innovate": "Ne nous contentons pas de développer — innovons, concevons et repoussons les limites.",
+        "build": "Ne construisons pas seulement. Innovons, concevons et révolutionnons.",
+        "blend": "Pourquoi viser l'ordinaire quand nous pouvons mélanger code et créativité pour créer quelque chose de vraiment remarquable ?",
+        "collaborate": "Collaborons et créons de la magie numérique ! ✨",
+        "readMore": "Lire la suite"
+    },
+    "projectsSection": {
+        "title": "Projets",
+        "subtitle": "Parmi les meilleurs"
+    },
+    "experienceSection": {
+        "title": "Mon Expérience",
+        "description": "Découvrez mon parcours professionnel et mon expertise à travers ma section complète d'expérience de travail",
+        "work": "Travail",
+        "volunteer": "Bénévolat",
+        "education": "Éducation"
+    },
+    "startProject": "Commencer un projet",
+    "legalSection": {
+        "cookies": "Cookies",
+        "privacy": "Confidentialité"
+    },
+    "myself": "moi",
+    "aboutSection": {
+        "title": "À Propos",
+        "intro": "Salut ! Je suis Kike Tordera.",
+        "codingPassion": "Programmer ? C'est mon truc ! 🚀 Mes racines en codage sont profondes, nourries par des études rigoureuses et enrichies d'une touche internationale. Devinez quoi ? Même enfant, j'étais le prodige technologique incontournable, toujours en train de bidouiller des ordinateurs.",
+        "craftingExperiences": "Mais voici le twist : je ne suis pas seulement axé sur le code. Je suis passionné par la création d'expériences. 🎨 Pour moi, un design épuré et une interface intuitive ne sont pas seulement la cerise sur le gâteau — ce sont des ingrédients essentiels.",
+        "createMagic": "Parce qu'au final, il s'agit de créer quelque chose qui est plus que la somme de ses parties. Prêt à créer de la magie ensemble ?"
+    },
+    "resumeSection": {
+        "downloadHuman": "Télécharger le CV (Conçu pour les Humains)",
+        "downloadATS": "Télécharger le CV (Optimisé pour les Logiciels ATS)"
+    },
+    "skillsSection": {
+        "title": "Mes Compétences",
+        "description": "Découvrez ma gamme de compétences et d'expertises dans divers domaines.",
+        "leadershipSkills": "Compétences en Leadership",
+        "softSkills": "Compétences Douces"
+    },
+    "educationSection": {
+        "title": "Parcours Éducatif",
+        "upv": {
+            "duration": "2012-2016",
+            "length": "4 ans",
+            "university": "Université Polytechnique de Valence",
+            "degree": "Licence en Informatique",
+            "description": "Acquis une maîtrise en développement logiciel, maîtrisé les structures de données et les algorithmes, et exploré les technologies informatiques émergentes, améliorant les compétences en résolution de problèmes et techniques."
+        },
+        "czech": {
+            "duration": "2016-2017",
+            "length": "1 an",
+            "university": "Université Technique Tchèque à Prague",
+            "degree": "Spécialisation en Génie Logiciel",
+            "description": "Spécialisé en Génie Logiciel à l'Université Technique Tchèque à Prague, en se concentrant sur la programmation avancée, les principes de conception logicielle et les méthodologies de gestion de projet."
+        }
+    },
+    "skills": {
+        "softSkills": {
+            "effectiveCommunication": "Communication Efficace",
+            "teamwork": "Travail d'Équipe",
+            "problemSolving": "Résolution de Problèmes",
+            "timeManagement": "Gestion du Temps",
+            "adaptability": "Adaptabilité",
+            "leadership": "Leadership",
+            "empathy": "Empathie",
+            "activeListening": "Écoute Active",
+            "creativity": "Créativité"
+        },
+        "leadershipSkills": {
+            "criticalThinking": "Pensée Critique",
+            "culturalSensitivity": "Sensibilité Culturelle",
+            "conflictResolution": "Résolution de Conflits",
+            "decisionMaking": "Prise de Décision",
+            "visionaryThinking": "Pensée Visionnaire",
+            "teamBuilding": "Construction et Motivation d'Équipe",
+            "strategicPlanning": "Planification Stratégique",
+            "emotionalIntelligence": "Intelligence Émotionnelle",
+            "negotiation": "Négociation"
+        }
+    },
+    "languagesSection": {
+        "title": "Langues",
+        "spanish": {
+            "name": "Espagnol",
+            "level": "Natif"
+        },
+        "english": {
+            "name": "Anglais",
+            "level": "Niveau C1"
+        },
+        "german": {
+            "name": "Allemand",
+            "level": "Niveau A2"
+        },
+        "swahili": {
+            "name": "Swahili",
+            "level": "Niveau B1"
+        }
+    },
+    "navigation": {
+        "home": "Accueil",
+        "about": "À Propos",
+        "experience": "Expérience",
+        "contact": "Contact"
+    }
 }

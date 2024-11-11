@@ -1,5 +1,7 @@
 import { defineNuxtConfig } from "nuxt/config";
 import { ContactInformation } from "./app/data_helper/contact";
+import { availableLanguages } from "./app/composables/getI18n";
+
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
@@ -67,6 +69,129 @@ export default defineNuxtConfig({
       ],
     },
   },
+   // Cookies
+   cookieControl: {
+    barPosition: "bottom-left",
+    closeModalOnClickOutside: true,
+    locales: availableLanguages as SharedLocale[],
+    localeTexts: {
+      en: {
+        accept: "Accept",
+        acceptAll: "Accept all",
+        decline: "Decline",
+        declineAll: "Decline all",
+        bannerTitle: "Cookies Consent",
+        save: "Save",
+        close: "Close",
+        manageCookies: "Customize",
+        bannerDescription: "This website uses cookies to improve your experience",
+      },
+      de: {
+        accept: "Akzeptieren",
+        acceptAll: "Alle akzeptieren",
+        decline: "Ablehnen",
+        declineAll: "Alle ablehnen",
+        bannerTitle: "Cookie-Einwilligung",
+        save: "Speichern",
+        close: "Schließen",
+        manageCookies: "Anpassen",
+        bannerDescription: "Diese Website verwendet Cookies, um Ihre Erfahrung zu verbessern",
+      },
+      nl: {
+        accept: "Accepteren",
+        acceptAll: "Alles accepteren",
+        decline: "Weigeren",
+        declineAll: "Alles weigeren",
+        bannerTitle: "Cookies Toestemming",
+        save: "Opslaan",
+        close: "Sluiten",
+        manageCookies: "Aanpassen",
+        bannerDescription: "Deze website gebruikt cookies om uw ervaring te verbeteren",
+      },
+      pt: {
+        accept: "Aceitar",
+        acceptAll: "Aceitar todos",
+        decline: "Recusar",
+        declineAll: "Recusar todos",
+        bannerTitle: "Consentimento de Cookies",
+        save: "Salvar",
+        close: "Fechar",
+        manageCookies: "Personalizar",
+        bannerDescription: "Este site usa cookies para melhorar sua experiência",
+      },
+      es: {
+        accept: "Aceptar",
+        acceptAll: "Aceptar todo",
+        decline: "Rechazar",
+        declineAll: "Rechazar todo",
+        bannerTitle: "Consentimiento de Cookies",
+        save: "Guardar",
+        close: "Cerrar",
+        manageCookies: "Personalizar",
+        bannerDescription: "Este sitio web utiliza cookies para mejorar su experiencia",
+      },
+      fr: {
+        accept: "Accepter",
+        acceptAll: "Tout accepter",
+        decline: "Refuser",
+        declineAll: "Tout refuser",
+        bannerTitle: "Consentement aux Cookies",
+        save: "Enregistrer",
+        close: "Fermer",
+        manageCookies: "Personnaliser",
+        bannerDescription: "Ce site utilise des cookies pour améliorer votre expérience",
+      },
+    },
+    cookies: {
+      necessary: [
+        {
+          id: 'ncc_f',
+          isPreselected: true,
+          name: {
+            en: 'Functional',
+            de: 'Funktional',
+            nl: 'Functioneel',
+            pt: 'Funcional',
+            es: 'Funcional',
+            fr: 'Fonctionnel',
+          },
+          description: {
+            en: "These cookies are needed for the page to operate. They don't track you.",
+            de: "Diese Cookies sind für den Betrieb der Seite erforderlich. Sie verfolgen Sie nicht.",
+            nl: "Deze cookies zijn nodig voor de werking van de pagina. Ze volgen u niet.",
+            pt: "Estes cookies são necessários para o funcionamento da página. Eles não rastreiam você.",
+            es: "Estas cookies son necesarias para que la página funcione. No te rastrean.",
+            fr: "Ces cookies sont nécessaires au bon fonctionnement de la page. Ils ne vous suivent pas.",
+          },
+          targetCookieIds: ['ncc_f'],
+        },
+      ],
+      optional: [
+        {
+          id: `${ContactInformation.title}-Analytics`,
+          name: {
+            en: 'Analytics',
+            de: 'Analyse',
+            nl: 'Analytische gegevens',
+            pt: 'Análise',
+            es: 'Analítica',
+            fr: 'Analyse',
+          },
+          description: {
+            en: "These cookies gather information about how many people visit and use our website. Switching these off means we can't gather information to improve the experience.",
+            de: "Diese Cookies sammeln Informationen darüber, wie viele Personen unsere Website besuchen und nutzen. Wenn Sie diese ausschalten, können wir keine Informationen sammeln, um die Erfahrung zu verbessern.",
+            nl: "Deze cookies verzamelen informatie over hoeveel mensen onze website bezoeken en gebruiken. Als u deze uitschakelt, kunnen we geen informatie verzamelen om de ervaring te verbeteren.",
+            pt: "Estes cookies coletam informações sobre quantas pessoas visitam e usam nosso site. Desativá-los significa que não podemos coletar informações para melhorar a experiência.",
+            es: "Estas cookies recopilan información sobre cuántas personas visitan y utilizan nuestro sitio web. Desactivarlas significa que no podemos recopilar información para mejorar la experiencia.",
+            fr: "Ces cookies recueillent des informations sur le nombre de personnes qui visitent et utilisent notre site Web. Les désactiver signifie que nous ne pouvons pas recueillir d'informations pour améliorer l'expérience.",
+          },
+          links: {
+            "https://www.bohemiantattoo.eu/legal/cookies-policy": 'Cookies Policy',
+          },
+        }
+      ],
+    },
+  },
   // SEO
   gtag: {
     id: process.env.GOOGLE_ANALYTICS_MEASUREMENTID,
@@ -105,6 +230,12 @@ export default defineNuxtConfig({
       sameAs: [ContactInformation.linkedINURL],
     },
   },
+  vue: {
+    compilerOptions: {
+      isCustomElement: (tag) =>
+        ["swiper-slide", "swiper-container"].includes(tag),
+    },
+  },
   // i18n
   i18n: {
     strategy: "no_prefix",
@@ -115,37 +246,32 @@ export default defineNuxtConfig({
         code: "es",
         language: "es-ES",
         name: "Español (España)",
-        file: "es-ES.json",
+        files: ["es-ES.json", "./legal/cookies-policy/es-ES.json", "./legal/privacy-policy/es-ES.json", "./general/es-ES.json",],  
       },
       {
         code: "en",
         language: "en-US",
         name: "English (US)",
-        file: "en-US.json",
+        files: ["en-US.json", "./legal/cookies-policy/en-US.json", "./legal/privacy-policy/en-US.json", "./general/en-US.json"],  
       },
       {
         code: "fr",
         name: "French (France)",
         language: "fr-FR",
-        file: "fr-FR.json",
-      },
-      {
-        code: "nl",
-        name: "Dutch (Netherlands)",
-        language: "nl-NL",
-        file: "nl-NL.json",
+        files: ["fr-FR.json", "./legal/cookies-policy/fr-FR.json", "./legal/privacy-policy/fr-FR.json", "./general/fr-FR.json"],
       },
       {
         code: "de",
         name: "German (Germany)",
         language: "de-DE",
-        file: "de-DE.json",
+        files: ["de-DE.json", "./legal/cookies-policy/de-DE.json", "./legal/privacy-policy/de-DE.json", "./general/de-DE.json"],
       },
       {
         code: "pt",
         name: "Portuguese (Portugal)",
         language: "pt-PT",
         file: "pt-PT.json",
+        files: ["pt-PT.json", "./legal/cookies-policy/pt-PT.json", "./i18n/locales/legal/privacy-policy/pt-PT.json", "./general/pt-PT.json"],
       },
     ],
   },

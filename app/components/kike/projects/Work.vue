@@ -2,13 +2,13 @@
   <section>
     <div id="work" class="information" style="padding-top: 80px; margin-top: -80px;">
       <div class="intro">
-        <h2 data-aos="fade-up">
-          Projects
-        </h2>
-        <p data-aos="zoom=in-right">
-          Check out my featured projects!
-        </p>
-      </div>
+    <h2 data-aos="fade-up">
+      {{ $t('projectsSection.title') }}
+    </h2>
+    <p data-aos="zoom-in-right">
+      {{ $t('projectsSection.subtitle') }}
+    </p>
+  </div>
     </div>
     <kike-projects-Cards />
   </section>
@@ -23,6 +23,9 @@ section {
         @apply mx-auto lg:flex lg:flex-row flex-col lg:py-10 py-4 gap-36 items-center;
          h2 {
           @include title-kike-section;
+        }
+        p {
+          color: $hr-color;
         }
       }
     }

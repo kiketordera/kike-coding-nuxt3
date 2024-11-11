@@ -23,11 +23,11 @@
         </div>
         <div class="legal flex gap-8">
           <NuxtLink to="/legal/cookies-policy">
-            Cookies
-          </NuxtLink>
-          <NuxtLink to="/legal/privacy-policy">
-            Privacy
-          </NuxtLink>
+    {{ $t('legalSection.cookies') }}
+  </NuxtLink>
+  <NuxtLink to="/legal/privacy-policy">
+    {{ $t('legalSection.privacy') }}
+  </NuxtLink>
         </div>
       </div>
     </div>

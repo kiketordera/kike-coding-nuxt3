@@ -1,56 +1,52 @@
 <template>
   <div class="program">
     <h3 data-aos="fade-up">
-      Education Background
+      {{ $t('educationSection.title') }}
     </h3>
     <div class="edu">
       <div class="left">
         <img src="/svg/kk/upv.svg" alt="">
-        <p>2012-2016</p>
+        <p>{{ $t('educationSection.upv.duration') }}</p>
         <p class="duration">
-          4 years
+          {{ $t('educationSection.upv.length') }}
         </p>
       </div>
       <div class="right">
         <p class="title">
-          Polytechnic University of Valencia
+          {{ $t('educationSection.upv.university') }}
         </p>
         <p class="subtitle">
-          Bachelor's degree in Computer Science
+          {{ $t('educationSection.upv.degree') }}
         </p>
         <p class="description">
-          Gained proficiency in software development, mastered data structures and algorithms,
-          and explored emerging computing technologies, boosting problem-solving and technical skills.
+          {{ $t('educationSection.upv.description') }}
         </p>
       </div>
     </div>
     <div class="edu">
       <div class="left">
         <img src="/svg/kk/czech.svg" alt="">
-        <p>2016-2017</p>
+        <p>{{ $t('educationSection.czech.duration') }}</p>
         <p class="duration">
-          1 year
+          {{ $t('educationSection.czech.length') }}
         </p>
       </div>
       <div class="right">
         <p class="title">
-          Czech Technical University in Prague
+          {{ $t('educationSection.czech.university') }}
         </p>
         <p class="subtitle">
-          Specialization in Software Engineering
+          {{ $t('educationSection.czech.degree') }}
         </p>
         <p class="description">
-          Specialized in Software Engineering at Czech Technical University in Prague, focusing on advanced
-          programming, software design principles, and project management methodologies.
+          {{ $t('educationSection.czech.description') }}
         </p>
       </div>
     </div>
   </div>
 </template>
 
-<script lang="ts" setup>
 
-</script>
 
 <style lang="scss" scoped>
 .program {

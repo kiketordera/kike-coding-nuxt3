@@ -1,0 +1,230 @@
+{
+    "privacyPolicy": {
+        "title": "Política de Privacidade",
+        "sections": {
+            "liabilityForContent": {
+                "title": "Responsabilidade pelo Conteúdo",
+                "content": "Empreendemos todos os esforços para garantir a precisão e a completude do conteúdo em nossas páginas. No entanto, não podemos garantir a correção, completude ou relevância atual do conteúdo. Como prestador de serviços, nossa responsabilidade pelo nosso próprio conteúdo nessas páginas está de acordo com as leis gerais. Como prestador de serviços, não somos obrigados a monitorar informações de terceiros que são transmitidas ou armazenadas, nem somos obrigados a investigar circunstâncias que sugiram atividades ilegais. A responsabilidade de remover ou bloquear o uso de informações sob leis gerais permanece intacta. A responsabilidade nesse sentido só pode ser assumida a partir do momento em que tomamos conhecimento de uma violação legal específica. Ao tomar conhecimento de tais violações, removeremos prontamente o conteúdo ofensivo."
+            },
+            "liabilityForLinks": {
+                "title": "Responsabilidade por Links",
+                "content": "Nosso site contém links para sites externos de propriedade de terceiros, e não temos controle sobre o conteúdo desses sites. Consequentemente, não podemos ser responsabilizados pelo conteúdo desses sites de terceiros. O provedor ou operador individual das páginas vinculadas é responsável por seu conteúdo. No momento da vinculação, as páginas vinculadas foram examinadas em busca de possíveis violações legais, e nenhum conteúdo ilegal foi identificado. Monitorar continuamente o conteúdo das páginas vinculadas sem evidências concretas de violações legais é irrazoável. Se tomarmos conhecimento de quaisquer violações legais, removeremos os links associados imediatamente."
+            },
+            "copyright": {
+                "title": "Direitos Autorais",
+                "content": "O conteúdo e as obras em nosso site estão sujeitos às leis de direitos autorais europeias e internacionais. A reprodução, modificação, distribuição e qualquer forma de exploração além do escopo da lei de direitos autorais requerem consentimento por escrito do respectivo autor ou criador. Downloads e cópias deste site são permitidos apenas para uso privado e não comercial. Nos casos em que o conteúdo deste site não foi criado pelo operador, os direitos autorais de terceiros foram respeitados. Especificamente, o conteúdo de terceiros é identificado como tal. Se você tomar conhecimento de uma violação de direitos autorais, por favor, nos notifique adequadamente. Ao tomar conhecimento de violações legais, removeremos imediatamente o conteúdo ofensivo."
+            },
+            "companyInformation": {
+                "title": "Informações da Empresa",
+                "registration": "Registro",
+                "contact": "Contato",
+                "dataProtectionOfficer": "Encarregado de Proteção de Dados"
+            }
+        },
+        "introduction": {
+            "title": "Política de Privacidade",
+            "content": "Esta Política de Privacidade descreve nossas práticas e procedimentos referentes à coleta, utilização e divulgação de suas informações quando você acessa e usa nosso Serviço. Ela também informa sobre seus direitos de privacidade e a proteção legal disponível para você. Ao utilizar nosso Serviço, você consente com a coleta e o uso de suas informações em conformidade com esta Política de Privacidade."
+        },
+        "interpretation": {
+            "title": "Interpretação e Definições",
+            "sections": {
+                "interpretation": {
+                    "title": "Interpretação",
+                    "content": "As palavras cuja primeira letra está em maiúscula têm significados definidos nas seguintes condições. As definições a seguir terão o mesmo significado, independentemente de aparecerem no singular ou no plural."
+                },
+                "definitions": {
+                    "title": "Definições",
+                    "content": "Para os propósitos desta Política de Privacidade:",
+                    "personalData": "Dados Pessoais",
+                    "personalDataDesc": "Qualquer informação relacionada a uma pessoa física identificada ou identificável.",
+                    "dataSubject": "Titular dos Dados",
+                    "dataSubjectDesc": "A pessoa individual a quem se referem os dados pessoais.",
+                    "processing": "Processamento",
+                    "processingDesc": "Qualquer operação realizada sobre dados pessoais, seja automatizada ou não, incluindo coleta, armazenamento, uso e exclusão.",
+                    "controller": "Controlador",
+                    "controllerDesc": "A entidade que determina os propósitos e os meios do processamento de dados pessoais.",
+                    "processor": "Processador",
+                    "processorDesc": "A entidade que processa dados pessoais em nome do controlador.",
+                    "consent": "Consentimento",
+                    "consentDesc": "Qualquer indicação livre, específica, informada e inequívoca da vontade do titular dos dados."
+                }
+            }
+        },
+        "collectionDeletion": {
+            "title": "Coleta e Exclusão de Dados",
+            "sections": {
+                "generalData": {
+                    "title": "Coleta de Dados e Informações Gerais",
+                    "content": "O Controlador de Dados coleta vários dados e informações gerais cada vez que você visita nosso site. Esses dados são armazenados nos arquivos de log do servidor e incluem:",
+                    "browsers": "Tipo e versão do navegador",
+                    "operatingSystem": "Sistema operacional",
+                    "referrerURL": "URL de referência",
+                    "pagesAccessed": "Páginas acessadas",
+                    "dateTime": "Data e hora do acesso",
+                    "ipAddress": "Endereço IP",
+                    "isp": "Provedor de serviços de Internet",
+                    "otherData": "Outros dados semelhantes usados para proteger contra ameaças cibernéticas",
+                    "usage": "Esses dados são usados para:",
+                    "usageList": {
+                        "contentDelivery": "Entregar e otimizar o conteúdo do site",
+                        "optimization": "Garantir funcionalidade e segurança",
+                        "security": "Garantir funcionalidade e segurança",
+                        "statistics": "Análise estatística para melhorar a proteção de dados"
+                    },
+                    "separatedData": "Os dados coletados são armazenados separadamente dos dados pessoais fornecidos pelos usuários."
+                },
+                "deletion": {
+                    "title": "Exclusão e Bloqueio Rotineiro de Dados Pessoais",
+                    "content": "O Controlador de Dados processa e armazena dados pessoais apenas pelo tempo necessário para cumprir com os propósitos descritos nesta Política de Privacidade ou conforme exigido por lei. Uma vez que os dados não são mais necessários, eles serão anonimizados ou excluídos de acordo com as leis aplicáveis."
+                }
+            }
+        },
+        "rights": {
+            "title": "Direitos do Titular dos Dados",
+            "sections": {
+                "access": {
+                    "title": "Direito de Acesso",
+                    "content": "Você tem o direito de acessar seus dados pessoais e obter informações sobre como eles estão sendo processados. Para exercer este direito, por favor, entre em contato com nosso Encarregado de Proteção de Dados usando os detalhes de contato fornecidos abaixo."
+                },
+                "rectification": {
+                    "title": "Direito de Retificação",
+                    "content": "Você tem o direito de solicitar a correção de dados pessoais imprecisos ou incompletos. Para solicitar a retificação, por favor, entre em contato com nosso Encarregado de Proteção de Dados."
+                },
+                "erasure": {
+                    "title": "Direito de Exclusão (Direito de Ser Esquecido)",
+                    "content": "Você tem o direito de solicitar a exclusão de seus dados pessoais sob certas condições, como quando os dados não são mais necessários para os propósitos para os quais foram coletados ou se você retirar seu consentimento.",
+                    "conditions": {
+                        "condition1": "Os dados pessoais foram coletados ou processados para propósitos para os quais não são mais necessários.",
+                        "condition2": "Você retira o consentimento sobre o qual o processamento foi baseado conforme o Artigo 6(1)(a) GDPR ou o Artigo 9(2)(a) GDPR, e não há outra base legal para o processamento.",
+                        "condition3": "Você apresenta uma objeção ao processamento conforme o Art. 21(1) GDPR, e não há razões legítimas predominantes para o processamento, ou você apresenta uma objeção ao processamento conforme o Art. 21(2) GDPR.",
+                        "condition4": "Os dados pessoais foram processados de maneira ilegal.",
+                        "condition5": "A exclusão dos dados pessoais é necessária para cumprir uma obrigação legal sob a legislação da União ou a legislação dos Estados-Membros à qual o controlador está sujeito.",
+                        "condition6": "Os dados pessoais foram coletados em relação a serviços da sociedade da informação oferecidos de acordo com o Art. 8 Parágrafo 1 GDPR."
+                    },
+                    "instructions": "Se uma das razões mencionadas acima se aplicar e você desejar que seus dados pessoais sejam excluídos, por favor, entre em contato com nosso Encarregado de Proteção de Dados.",
+                    "publicDataDeletion": "Se os dados pessoais foram tornados públicos, tomaremos medidas razoáveis para informar outros controladores de dados para excluir links ou cópias dos dados, a menos que seja necessário para o processamento."
+                },
+                "restriction": {
+                    "title": "Direito à Restrição do Processamento",
+                    "content": "Você tem o direito de solicitar a restrição do processamento de seus dados pessoais sob circunstâncias específicas.",
+                    "conditions": {
+                        "condition1": "A precisão dos dados pessoais é contestada por você, por um período que nos permite verificar a precisão.",
+                        "condition2": "O processamento é ilegal, você se recusa a que os dados pessoais sejam excluídos e, em vez disso, solicita a restrição do uso dos dados pessoais.",
+                        "condition3": "Nós não precisamos mais dos dados pessoais para os propósitos do processamento, mas você os precisa para exercer, afirmar ou defender reivindicações legais.",
+                        "condition4": "Você apresentou uma objeção ao processamento de acordo com o Art. 21(1) GDPR, e ainda não está claro se nossos motivos legítimos superam os seus."
+                    },
+                    "instructions": "Se uma das condições acima for atendida e você desejar restringir seus dados pessoais, por favor, entre em contato conosco diretamente. Iniciaremos a restrição do processamento."
+                },
+                "portability": {
+                    "title": "Direito à Portabilidade de Dados",
+                    "content": "Você tem o direito de receber seus dados pessoais em um formato estruturado, de uso comum e legível por máquina, e de tê-los transferidos para outro controlador."
+                },
+                "object": {
+                    "title": "Direito de Objeção",
+                    "content": "Você tem o direito de se opor ao processamento de seus dados pessoais com base em interesses legítimos ou para fins de marketing direto."
+                },
+                "automatedDecision": {
+                    "title": "Direitos Relacionados à Tomada de Decisões Automatizadas",
+                    "content": "Você tem o direito de não ser sujeito a uma decisão baseada exclusivamente em processamento automatizado, incluindo perfilamento, que produza efeitos legais ou o afete significativamente."
+                },
+                "revokeConsent": {
+                    "title": "Direito de Revogar o Consentimento",
+                    "content": "Você tem o direito de revogar seu consentimento para o processamento de seus dados pessoais a qualquer momento. Para revogar seu consentimento, por favor, entre em contato com nosso Encarregado de Proteção de Dados."
+                }
+            }
+        },
+        "googleAdWords": {
+            "title": "Disposições de Proteção de Dados sobre a Aplicação e Uso do Google AdWords",
+            "content1": "Usamos o Google AdWords para exibir anúncios em nosso site. O Google AdWords coloca um cookie de conversão em seu dispositivo para rastrear a eficácia de nossas campanhas publicitárias. Este cookie não o identifica pessoalmente e é excluído após trinta dias.",
+            "content2": "Os dados coletados por meio do Google AdWords são usados para criar estatísticas de visitas e otimizar nossos esforços de marketing. O Google pode processar seus dados nos Estados Unidos e, embora tenha participado anteriormente do framework Privacy Shield, agora se baseia em Cláusulas Contratuais Padrão (SCC) para transferências de dados.",
+            "content3": "Para mais informações, consulte a [Política de Privacidade do Google](https://policies.google.com/privacy).",
+            "content4": "Você pode impedir a configuração de cookies ajustando as configurações do seu navegador. Além disso, pode optar por não receber publicidade personalizada visitando",
+            "optOutLink": "Configurações de Anúncios do Google",
+            "content5": "Se você acessar nosso site por meio de um anúncio do Google, o Google coloca um cookie de conversão em seu dispositivo. Este cookie nos ajuda a rastrear se uma visita por meio de um anúncio do AdWords resulta em vendas ou outras ações.",
+            "content6": "Os dados e informações coletados através do uso do cookie de conversão são usados pelo Google para criar estatísticas de visitas ao nosso site. Essas estatísticas de visitas nos ajudam a determinar o sucesso ou fracasso de nossas campanhas do AdWords e a otimizar futuros anúncios.",
+            "content7": "Por meio do cookie de conversão, informações pessoais como os sites que você visita podem ser armazenadas. Sempre que nosso site é visitado, seu endereço IP é transmitido para o Google nos Estados Unidos.",
+            "content8": "Você pode excluir cookies já definidos pelo Google AdWords a qualquer momento através do seu navegador ou de outros programas de software.",
+            "moreInfo": "Para mais informações e as disposições de proteção de dados aplicáveis do Google, consulte sua política de privacidade."
+        },
+        "googleAnalytics": {
+            "title": "Disposições de Proteção de Dados sobre a Aplicação e Uso do Google Analytics",
+            "content1": "Com o seu consentimento, usamos o Google Analytics, um serviço de análise web fornecido pela Google LLC, para analisar o uso do nosso site. O Google Analytics coleta dados como páginas visitadas, comportamento do usuário e informações técnicas para nos ajudar a melhorar nosso site e estratégias de marketing.",
+            "scopeProcessing": {
+                "title": "Escopo do Processamento",
+                "content": "O Google Analytics utiliza cookies para coletar dados sobre suas interações com nosso site. Habilitamos a anonimização de IP, o que significa que seu endereço IP é parcialmente mascarado antes de ser processado pelo Google."
+            },
+            "purposes": {
+                "title": "Finalidades do Processamento",
+                "content": "Os dados coletados pelo Google Analytics são usados para avaliar o uso do site, gerar relatórios e ajudar na otimização de nossos serviços e campanhas publicitárias."
+            },
+            "recipient": {
+                "title": "Destinatário",
+                "content": "Os dados são processados pela Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irlanda. Firmamos um acordo de processamento de dados com o Google para garantir a conformidade com o GDPR."
+            },
+            "transferThirdCountries": {
+                "title": "Transferência para Terceiros Países",
+                "content": "Os dados podem ser transferidos para os Estados Unidos, onde o Google opera seus servidores. Embora o Privacy Shield UE-EUA tenha sido invalidado, o Google confia nas Cláusulas Contratuais Padrão (SCC) para proteger seus dados. Para mais informações, consulte a [Política de Privacidade do Google](https://policies.google.com/privacy)."
+            },
+            "duration": {
+                "title": "Duração do Armazenamento",
+                "content": "Os dados coletados pelo Google Analytics são armazenados por 14 meses e são automaticamente excluídos após esse período."
+            },
+            "rights": {
+                "title": "Direitos dos Titulares dos Dados",
+                "content": "Você pode revogar seu consentimento a qualquer momento ajustando as configurações do seu navegador para impedir cookies ou usando o complemento de navegador de exclusão do Google Analytics, que impede a coleta de dados pelo Google Analytics."
+            }
+        },
+        "legalBasis": {
+            "title": "Base Legal do Processamento",
+            "content": "A base legal para o processamento de seus dados pessoais está delineada abaixo de acordo com o GDPR:",
+            "consensus": "Consentimento",
+            "contract": "Contrato",
+            "legalObligation": "Obrigação Legal",
+            "legitimateInterests": "Interesses Legítimos",
+            "articles": {
+                "consent": "Art. 6(1)(a) GDPR",
+                "contract": "Art. 6(1)(b) GDPR",
+                "legalObligation": "Art. 6(1)(c) GDPR",
+                "legitimateInterests": "Art. 6(1)(f) GDPR",
+                "consentDesc": "Quando você fornece consentimento explícito para atividades de processamento específicas.",
+                "contractDesc": "Processamento necessário para cumprir um contrato com você.",
+                "legalObligationDesc": "Processamento exigido para cumprir obrigações legais.",
+                "legitimateInterestsDesc": "Processamento baseado em nossos interesses legítimos, desde que não sobreponham seus direitos e liberdades."
+            }
+        },
+        "legitimateInterests": {
+            "title": "Interesses Legítimos no Processamento",
+            "content": "Quando o processamento é baseado em interesses legítimos, garantimos que esses interesses não sobreponham seus direitos e liberdades fundamentais. Interesses legítimos incluem operações comerciais, melhoria de serviços e garantia de segurança."
+        },
+        "dataRetention": {
+            "title": "Retenção de Dados",
+            "content": "Retemos seus dados pessoais apenas pelo tempo necessário para cumprir os propósitos para os quais foram coletados ou conforme exigido por lei. Após esse período, os dados são excluídos ou anonimizados de forma segura."
+        },
+        "legalObligations": {
+            "title": "Obrigações Legais ou Contratuais",
+            "content1": "Fornecer certos dados pessoais pode ser exigido por lei ou necessário para celebrar um contrato conosco.",
+            "content2": "A falha em fornecer tais dados pode resultar na incapacidade de fornecer os serviços solicitados."
+        },
+        "automatedDecisionMaking": {
+            "title": "Tomada de Decisões Automatizadas",
+            "content": "Não participamos de tomada de decisões automatizadas, incluindo perfilamento, que afetam significativamente você. Todas as decisões são tomadas com supervisão humana para proteger seus direitos e liberdades."
+        },
+        "dataBreachNotification": {
+            "title": "Notificação de Violação de Dados",
+            "content": "Em caso de violação de dados que represente um risco para seus direitos e liberdades, notificaremos você sem demora indevida e tomaremos medidas apropriadas para mitigar a violação."
+        },
+        "changes": {
+            "title": "Alterações a Esta Política de Privacidade",
+            "content": "Podemos atualizar esta Política de Privacidade de tempos em tempos. Quaisquer alterações serão publicadas nesta página e, quando apropriado, notificadas a você por e-mail ou outros canais de comunicação."
+        },
+        "contactUs": {
+            "title": "Contate-Nos",
+            "content": "Se você tiver quaisquer dúvidas ou preocupações sobre esta Política de Privacidade ou nossas práticas de processamento de dados, entre em contato com nosso Encarregado de Proteção de Dados:",
+            "email": "E-mail",
+            "address": "Endereço",
+            "phone": "Telefone"
+        },
+        "copyright": "Copyright © ",
+        "rightsReserved": ". Todos os Direitos Reservados"
+    }
+}

@@ -1,36 +1,37 @@
 <template>
   <section>
     <div class="about">
-      <h2 data-aos="fade-up">
-        About
-      </h2>
-      <div class="info">
-        <p data-aos="zoom-in-right">
-          From the sun-kissed streets of Madrid to the bustling heart of Berlin, I had
-          the opportunity to have several international experiences in 3 continents, my journey has been incredibly enriching. 🌍
-        </p>
-        <p data-aos="zoom-in-right">
-          From childhood, computers weren't just toys; they were puzzles waiting to be solved. I've been the computer guru
-          since my playground days. 🖥️ But here's the kicker: <br>
-          <span class="orange">
-            I don't just code. I craft. Design, interface, experience - they're all part of my digital symphony.
-          </span>
-        </p>
-        <p data-aos="zoom-in-right">
-          Let's not just build. Let's innovate, design, and revolutionize.
-          <br>
-          <span class="blue">
-            Why settle for ordinary when we can blend code and creativity to make something extraordinary?
-          </span>
-        </p>
-        <p>
-          Let's collaborate and make digital magic! ✨
-        </p>
-        <br>
-        <NuxtLink data-aos="fade-down" href="/about">
-          Read more
-        </NuxtLink>
-      </div>
+      <h2 data-aos="fade-up">About</h2>
+      <template>
+  <div class="info">
+    <p>
+      {{ $t('introSection.passionate') }}
+      <span class="blue">{{ $t('introSection.mobileDeveloper') }}</span>
+      {{ $t('introSection.withExpertise') }}
+      <span class="orange">{{ $t('introSection.uxUiDesign') }}</span>,
+      {{ $t('introSection.specializing') }}
+    </p>
+    <p>
+      {{ $t('introSection.skills') }}
+    </p>
+    <p>
+      {{ $t('introSection.innovate') }}
+    </p>
+    <p data-aos="zoom-in-right">
+      {{ $t('introSection.build') }}
+      <br />
+      <span class="blue">{{ $t('introSection.blend') }}</span>
+    </p>
+    <p>
+      {{ $t('introSection.collaborate') }}
+    </p>
+    <br />
+    <NuxtLink data-aos="fade-down" href="/about">
+      {{ $t('introSection.readMore') }}
+    </NuxtLink>
+  </div>
+</template>
+
     </div>
   </section>
 </template>
@@ -56,10 +57,10 @@ section {
           @apply mt-0;
         }
         span {
-          &.blue{
+          &.blue {
             color: $sea-serpent;
           }
-          &.orange{
+          &.orange {
             color: $light-salmon;
           }
         }

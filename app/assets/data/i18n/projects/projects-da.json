@@ -1,0 +1,222 @@
+[
+    {
+        "id": 0,
+        "name": "Value Villages",
+        "logo": "/img/projects/vv/value-villages.png",
+        "mainImg": "/img/projects/vv/mobile-mockup.svg",
+        "client": "value villages",
+        "color_bg_logo": "white",
+        "color_bg_title": "#63B190",
+        "color_title": "white",
+        "url": "/projects/value-villages",
+        "intro": {
+            "coverImg": "",
+            "services": [],
+            "tech": [],
+            "year": "",
+            "url": ""
+        },
+        "imagesType": "mobile",
+        "firstTitle": "",
+        "firstDescription": [],
+        "firstGroupImages": [],
+        "secondtitle": "",
+        "secondDescription": [],
+        "secondGroupImages": [],
+        "titleSEO": "Value Villages - Styrker Fællesskaber",
+        "descriptionSEO": "Opdag hvordan Value Villages transformerer fællesskaber gennem innovative løsninger og samarbejdsinitiativer."
+    },
+    {
+        "id": 1,
+        "name": "Oculid",
+        "logo": "/img/projects/oculid/logo.svg",
+        "mainImg": "/img/projects/oculid/background.jpeg",
+        "client": "Oculid",
+        "color_bg_logo": "white",
+        "color_bg_title": "#008080",
+        "color_title": "white",
+        "url": "/projects/oculid",
+        "intro": {
+            "coverImg": "/img/projects/oculid/background.png",
+            "services": [
+                "Mobiludvikling"
+            ],
+            "tech": [
+                "Swift, SwiftUI,",
+                "Flutter, Dart"
+            ],
+            "year": "2021",
+            "url": "https://oculid.com"
+        },
+        "imagesType": "mobile",
+        "firstTitle": "Revolutionerer Brugeroplevelsesmetrikker",
+        "firstDescription": [
+            "Oculid er en innovativ virksomhed med missionen at omdefinere, hvordan virksomheder får adgang til kritiske brugeroplevelsesmetrikker. De sigter mod at bringe præcisionen og detaljerne fra en laboratorieopsætning direkte til virksomheder uden den besværlige infrastruktur og omkostninger.",
+            "Oculids vision fokuserer på at levere en bekvem, omkostningseffektiv og agil model til virksomheder, der ønsker at forstå brugeradfærd på digitale grænseflader.",
+            "Gennem den app, jeg har udviklet, indfanger Oculid realtidsdata som varmekort for at vise, hvor brugere fokuserer mest, sammen med tryk- og rullehandlinger.",
+            "Sikkerhed og privatliv er fortsat af største betydning; al dataindsamling sker med informeret samtykke fra brugerne, hvilket sikrer gennemsigtighed og tillid."
+        ],
+        "firstGroupImages": [
+            "/img/projects/oculid/mockup1.jpeg",
+            "/img/projects/oculid/mockup2.jpeg",
+            "/img/projects/oculid/mockup3.jpeg",
+            "/img/projects/oculid/mockup4.jpeg"
+        ],
+        "secondtitle": "Avanceret UX Analyse Drevet af Banebrydende Teknologi",
+        "secondDescription": [
+            "For Oculids ambitiøse vision begyndte jeg en rejse for at designe en applikation, der teknisk skiller sig ud. I hjertet af vores udvikling var integrationen af et højfrekvent billedfangstsysteem, der optager 30 billeder pr. sekund ved hjælp af frontkameraet. Denne enorme mængde visuelle data, suppleret med skærmoptagelser, stemmeoptagelser, der detaljerer brugernes tanker, samt granulære tryk- og rulleinteraktioner, kanaliseres effektivt til et backend-system.",
+            "Den virkelige magi begynder, når den avancerede algoritme, baseret på en forskningsartikel fra MIT, behandler denne skat af data. Ved at anvende sofistikerede maskinlæringsteknikker genererer den omfattende UX-metrikker, der gør det muligt for virksomheder at udlede handlingsrettede indsigter med en præcision, der ikke er set uden for laboratorieindstillinger.",
+            "I erkendelse af dataenes følsomhed har jeg indbygget strenge samtykkeprotokoller i appen. Før enhver dataindsamling bliver brugerne detaljeret informeret, hvilket sikrer, at privatlivets fred ikke kompromitteres.",
+            "På hvert trin har jeg skubbet grænserne for, hvad der teknisk er muligt, for at levere et produkt, der ikke kun er effektivt, men også etisk."
+        ],
+        "secondGroupImages": [
+            "/img/projects/oculid/carousel/permissions.svg",
+            "/img/projects/oculid/carousel/test-login.svg",
+            "/img/projects/oculid/carousel/prepare.svg",
+            "/img/projects/oculid/carousel/enjoy.svg",
+            "/img/projects/oculid/carousel/position.svg",
+            "/img/projects/oculid/carousel/positioning.svg",
+            "/img/projects/oculid/carousel/face-holder.svg",
+            "/img/projects/oculid/carousel/positioned.svg",
+            "/img/projects/oculid/carousel/tutorial1.svg",
+            "/img/projects/oculid/carousel/tutorial2.svg",
+            "/img/projects/oculid/carousel/tutorial3.svg",
+            "/img/projects/oculid/carousel/tutorial4.svg",
+            "/img/projects/oculid/carousel/tutorial5.svg",
+            "/img/projects/oculid/carousel/tutorial6.svg",
+            "/img/projects/oculid/carousel/tutorial7.svg",
+            "/img/projects/oculid/carousel/tutorial8.svg"
+        ],
+        "titleSEO": "Oculid - Omdefinering af Brugeroplevelsesanalyse",
+        "descriptionSEO": "Opdag Oculid, en banebrydende applikation der præcist og etisk indfanger brugerinteraktioner i realtid."
+    },
+    {
+        "id": 2,
+        "name": "Eva Drones",
+        "logo": "/img/projects/drones/logo.png",
+        "mainImg": "/img/projects/drones/background.jpeg",
+        "client": "Eva Drones",
+        "color_bg_logo": "white",
+        "color_bg_title": "#00588E",
+        "color_title": "white",
+        "url": "/projects/eva-drones",
+        "intro": {
+            "coverImg": "/img/projects/drones/background.png",
+            "services": [
+                "Webudvikling"
+            ],
+            "tech": [
+                "Golang, Docker,",
+                "Vue.js, TypesScript"
+            ],
+            "year": "2021",
+            "url": "https://eva.xyz/"
+        },
+        "imagesType": "desktop",
+        "firstTitle": "Genopfindelse af Leveringer for Fremtiden",
+        "firstDescription": [
+            "Eva Drones indleder en ny æra af leveringer, der vil ændre alt fra hvordan du modtager din pizza til livsvigtige medicinske dispatches til fjerntliggende områder.",
+            "Denne internationale startup introducerer ikke kun droner; de visualiserer et integreret økosystem. Gennem Evas infrastruktur kan dronepiloter sømløst starte, lande, oplade og vedligeholde deres droner. Udover bekvemmeligheden ved byleveringer har Eva Drones større mål for øje.",
+            "De er klar til at transformere kritiske leveringer til konfliktzoner og områder ramt af naturkatastrofer, hvilket sikrer, at vital hjælp hurtigt når dem i nød. Med hvert forløbende minut, der har livets værdi, er Eva Drones forpligtet til at få hvert sekund til at tælle."
+        ],
+        "firstGroupImages": [
+            "/img/projects/drones/drones-mockup1.jpg",
+            "/img/projects/drones/drones-mockup3.jpg",
+            "/img/projects/drones/drones-mockup4.jpg",
+            "/img/projects/drones/drones-mockup2.jpg"
+        ],
+        "secondtitle": "Teknologisk Mestring og Operationel Ekspertise",
+        "secondDescription": [
+            "Eva Drones er meget mere end en startup; det er et teknologisk vidunder, der former fremtiden for leveringer. Resultatet af samarbejdet var at skabe et end-to-end økosystem, der forenkler alle aspekter af droneoperationer. Fra robuste start- og landingsmoduler, effektive opladningsstationer til komplekse vedligeholdelses- og reparationscentre, har vi integreret avancerede systemer, der sikrer operationel flydendehed for dronepiloter.",
+            "Mit arbejde med Eva Drones er et vidnesbyrd om mine evner til at håndtere mangefacetterede udfordringer. Med erkendelsen af de forskellige anvendelser — fra bypizza-leveringer til presserende humanitære nødhjælpsleveringer — implementerede jeg realtime CCTV, der giver omfattende kontrol over platformen og kameraerne. Dette sikrer kontinuerlig synlighed og kontrol over operationerne, hvilket er særligt afgørende i risikable miljøer som konfliktzoner eller katastrofeområder.",
+            "Mine teknologiske løsninger for Eva Drones handler ikke kun om effektivitet; de indkapsler den fælles vision om at udnytte innovation til ægte global indvirkning."
+        ],
+        "secondGroupImages": [
+            "/img/projects/drones/carousel/eva-drones1.svg",
+            "/img/projects/drones/carousel/eva-drones2.svg",
+            "/img/projects/drones/carousel/eva-drones3.svg",
+            "/img/projects/drones/carousel/eva-drones4.svg",
+            "/img/projects/drones/carousel/eva-drones5.svg",
+            "/img/projects/drones/carousel/eva-drones6.svg",
+            "/img/projects/drones/carousel/eva-drones7.svg",
+            "/img/projects/drones/carousel/eva-drones8.svg",
+            "/img/projects/drones/carousel/eva-drones9.svg",
+            "/img/projects/drones/carousel/eva-drones10.svg",
+            "/img/projects/drones/carousel/eva-drones11.svg",
+            "/img/projects/drones/carousel/eva-drones12.svg",
+            "/img/projects/drones/carousel/eva-drones13.svg",
+            "/img/projects/drones/carousel/eva-drones14.svg",
+            "/img/projects/drones/carousel/eva-drones15.svg",
+            "/img/projects/drones/carousel/eva-drones17.svg",
+            "/img/projects/drones/carousel/eva-drones16.svg"
+        ],
+        "titleSEO": "Eva Drones - Pioner inden for Leveringsinnovation",
+        "descriptionSEO": "Udforsk Eva Drones, der transformerer leveringssystemer med et visionært drone-økosystem designet til effektivitet og indvirkning."
+    },
+    {
+        "id": 3,
+        "name": "Action Coast",
+        "logo": "/img/projects/action-coast/logo.svg",
+        "mainImg": "/img/projects/action-coast/background.jpeg",
+        "client": "Action coast",
+        "color_bg_logo": "white",
+        "color_bg_title": "#3F62AC",
+        "color_title": "white",
+        "url": "/projects/action-coast",
+        "intro": {
+            "coverImg": "/img/projects/oculid/background.png",
+            "services": [
+                "Webudvikling",
+                "App-udvikling"
+            ],
+            "tech": [
+                "Vue.js, TypesScript,",
+                "Flutter, Dart"
+            ],
+            "year": "2022",
+            "url": "http://ac.com"
+        },
+        "imagesType": "mobile",
+        "firstTitle": "Dyk Ned i Skjulte Kystperler",
+        "firstDescription": [
+            "I hjertet af mit samarbejde med Action Coast var ønsket om at låse op for de skjulte kystperler, som verden har at byde på. Kystlinjerne er fyldt med uudforskede eventyr, lokale hemmeligheder og oplevelser, som de fleste rejsende går glip af.",
+            "Det primære mål var at designe et brand og en platform, der resonerer med spændingen ved opdagelse og varmen fra lokale fællesskaber. Ved at fokusere på lokale økonomier og forbedre turistoplevelsen gav jeg rejsende en unik adgangsport til oplevelser, der ofte overses i standardrejseguider."
+        ],
+        "firstGroupImages": [
+            "/img/projects/action-coast/ac-mockup1.jpg",
+            "/img/projects/action-coast/ac-mockup2.jpg",
+            "/img/projects/action-coast/ac-mockup3.jpeg",
+            "/img/projects/action-coast/ac-mockup4.jpg"
+        ],
+        "secondtitle": "Teknologisk Dygtighed Møder Authentiske Kysteventyr",
+        "secondDescription": [
+            "Rejsebranchen er mættet med platforme, der tilbyder generiske oplevelser. Action Coasts vision var anderledes: at give rejsende autentiske kysteventyr.",
+            "For at opnå dette brugte jeg teknologier som Flutter, Dart, Vue.js, TypeScript, Nuxt.js og Firebase. En af de største udfordringer var at sikre, at platformen ikke blot var en liste over oplevelser, men en kurateret rejse mod autenticitet.",
+            "Jeg implementerede funktioner som geo-specifikke indholdsjusteringer og et omfattende vurderingssystem. Dette sikrede, at platformen imødekom turisternes behov, samtidig med at lokale værter blev styrket til at fremvise deres unikke tilbud.",
+            "Resultatet? En digital portal, der sømløst kombinerer autentiske kystoplevelser med banebrydende teknologi, hvilket gør det til det foretrukne valg for rejsende, der søger autentiske eventyr."
+        ],
+        "secondGroupImages": [
+            "/img/projects/action-coast/carousel/action-coast1.jpeg",
+            "/img/projects/action-coast/carousel/action-coast2.svg",
+            "/img/projects/action-coast/carousel/action-coast3.jpeg",
+            "/img/projects/action-coast/carousel/action-coast4.svg",
+            "/img/projects/action-coast/carousel/action-coast5.svg",
+            "/img/projects/action-coast/carousel/action-coast6.jpeg",
+            "/img/projects/action-coast/carousel/action-coast7.svg",
+            "/img/projects/action-coast/carousel/action-coast8.jpeg",
+            "/img/projects/action-coast/carousel/action-coast9.jpeg",
+            "/img/projects/action-coast/carousel/action-coast10.jpeg",
+            "/img/projects/action-coast/carousel/action-coast11.svg",
+            "/img/projects/action-coast/carousel/action-coast18.svg",
+            "/img/projects/action-coast/carousel/action-coast12.svg",
+            "/img/projects/action-coast/carousel/action-coast13.svg",
+            "/img/projects/action-coast/carousel/action-coast14.jpeg",
+            "/img/projects/action-coast/carousel/action-coast15.svg",
+            "/img/projects/action-coast/carousel/action-coast16.svg",
+            "/img/projects/action-coast/carousel/action-coast17.svg",
+            "/img/projects/action-coast/carousel/action-coast19.svg"
+        ],
+        "titleSEO": "Action Coast - Autentiske Kysteventyr",
+        "descriptionSEO": "Oplev autentiske kysteventyr med Action Coast, der kombinerer teknologi og lokale indsigter for unikke rejseoplevelser."
+    }
+]

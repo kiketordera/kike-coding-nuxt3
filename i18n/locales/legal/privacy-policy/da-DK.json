@@ -1,0 +1,230 @@
+{
+    "privacyPolicy": {
+        "title": "Privatlivspolitik",
+        "sections": {
+            "liabilityForContent": {
+                "title": "Ansvar for Indhold",
+                "content": "Vi har gjort alt for at sikre nøjagtigheden og fuldstændigheden af indholdet på vores sider. Vi kan dog ikke garantere rigtigheden, fuldstændigheden eller den aktuelle relevans af indholdet. Som tjenesteudbyder er vores ansvar for vores eget indhold på disse sider i overensstemmelse med generelle love. Som tjenesteudbyder er vi ikke forpligtet til at overvåge tredjepartsinformation, der transmitteres eller opbevares, heller ikke til at undersøge omstændigheder, der antyder ulovlige aktiviteter. Ansvar for at fjerne eller blokere brugen af information i henhold til generelle love forbliver intakt. Ansvar i denne henseende kan kun påtages fra det øjeblik, vi bliver opmærksomme på en specifik juridisk overtrædelse. Når vi bliver opmærksomme på sådanne overtrædelser, vil vi straks fjerne det krænkende indhold."
+            },
+            "liabilityForLinks": {
+                "title": "Ansvar for Links",
+                "content": "Vores hjemmeside indeholder links til eksterne hjemmesider, der ejes af tredjeparter, og vi har ingen kontrol over indholdet på disse sider. Derfor kan vi ikke holdes ansvarlige for indholdet på disse tredjepartssider. Den enkelte udbyder eller operatør af de linkede sider er ansvarlig for deres indhold. På tidspunktet for linkning blev de linkede sider undersøgt for potentielle lovovertrædelser, og der blev ikke identificeret ulovligt indhold. Kontinuerlig overvågning af indholdet på linkede sider uden konkrete beviser for lovovertrædelser er urimeligt. Hvis vi bliver opmærksomme på nogen lovovertrædelser, vil vi straks fjerne de tilknyttede links."
+            },
+            "copyright": {
+                "title": "Ophavsret",
+                "content": "Indholdet og værkerne på vores hjemmeside er underlagt europæisk og international ophavsret. Reproduktion, modification, distribution og enhver form for udnyttelse ud over omfanget af ophavsretten kræver skriftlig samtykke fra den respektive forfatter eller skaber. Downloads og kopier af denne hjemmeside er kun tilladt til privat, ikke-kommerciel brug. I tilfælde hvor indholdet på denne side ikke er oprettet af operatøren, er tredjeparts ophavsrettigheder blevet respekteret. Specifikt er tredjepartsindhold identificeret som sådan. Hvis du bliver opmærksom på en ophavsretskrænkelse, bedes du underrette os tilsvarende. Når vi bliver opmærksomme på juridiske overtrædelser, vil vi straks fjerne det krænkende indhold."
+            },
+            "companyInformation": {
+                "title": "Firmaoplysninger",
+                "registration": "Registrering",
+                "contact": "Kontakt",
+                "dataProtectionOfficer": "Databeskyttelsesrådgiver"
+            }
+        },
+        "introduction": {
+            "title": "Privatlivspolitik",
+            "content": "Denne privatlivspolitik beskriver vores praksis og procedurer vedrørende indsamling, anvendelse og videregivelse af dine oplysninger, når du får adgang til og bruger vores service. Den informerer dig også om dine privatlivsrettigheder og den juridiske beskyttelse, der er tilgængelig for dig. Ved at bruge vores service giver du samtykke til indsamling og brug af dine oplysninger i overensstemmelse med denne privatlivspolitik."
+        },
+        "interpretation": {
+            "title": "Fortolkning og Definitioner",
+            "sections": {
+                "interpretation": {
+                    "title": "Fortolkning",
+                    "content": "De ord, hvor det første bogstav er stort, har betydninger defineret under de følgende betingelser. Følgende definitioner skal have samme betydning, uanset om de optræder i ental eller flertal."
+                },
+                "definitions": {
+                    "title": "Definitioner",
+                    "content": "I forbindelse med denne privatlivspolitik:",
+                    "personalData": "Personoplysninger",
+                    "personalDataDesc": "Enhver information, der vedrører en identificeret eller identificerbar fysisk person.",
+                    "dataSubject": "Registreret",
+                    "dataSubjectDesc": "Den person, som personoplysningerne vedrører.",
+                    "processing": "Behandling",
+                    "processingDesc": "Enhver operation udført på personoplysninger, uanset om det er automatiseret eller ej, herunder indsamling, opbevaring, brug og sletning.",
+                    "controller": "Dataansvarlig",
+                    "controllerDesc": "Enhed, der bestemmer formålene og midlerne til behandling af personoplysninger.",
+                    "processor": "Databehandler",
+                    "processorDesc": "Enhed, der behandler personoplysninger på vegne af den dataansvarlige.",
+                    "consent": "Samtykke",
+                    "consentDesc": "Enhver frit givet, specifik, informeret og utvetydig indikation af den registreredes ønsker."
+                }
+            }
+        },
+        "collectionDeletion": {
+            "title": "Indsamling og Sletning af Data",
+            "sections": {
+                "generalData": {
+                    "title": "Indsamling af Generelle Data og Oplysninger",
+                    "content": "Dataansvarlig indsamler forskellige generelle data og oplysninger hver gang du besøger vores hjemmeside. Disse data opbevares i serverens logfiler og inkluderer:",
+                    "browsers": "Browsertype og version",
+                    "operatingSystem": "Operativsystem",
+                    "referrerURL": "Henvisnings-URL",
+                    "pagesAccessed": "Besøgte sider",
+                    "dateTime": "Dato og tidspunkt for adgang",
+                    "ipAddress": "IP-adresse",
+                    "isp": "Internetudbyder",
+                    "otherData": "Andre lignende data brugt til beskyttelse mod cybertrusler",
+                    "usage": "Disse data bruges til:",
+                    "usageList": {
+                        "contentDelivery": "Levering og optimering af webindhold",
+                        "optimization": "Sikring af funktionalitet og sikkerhed",
+                        "security": "Sikring af funktionalitet og sikkerhed",
+                        "statistics": "Statistisk analyse for at forbedre databeskyttelse"
+                    },
+                    "separatedData": "De indsamlede data opbevares adskilt fra personoplysninger, der er leveret af brugerne."
+                },
+                "deletion": {
+                    "title": "Rutinemæssig Sletning og Blokering af Personoplysninger",
+                    "content": "Dataansvarlig behandler og opbevarer personoplysninger kun så længe, det er nødvendigt for at opfylde de formål, der er beskrevet i denne privatlivspolitik, eller som krævet ved lov. Når dataene ikke længere er nødvendige, anonymiseres de eller slettes i overensstemmelse med gældende lovgivning."
+                }
+            }
+        },
+        "rights": {
+            "title": "Den Registreredes Rettigheder",
+            "sections": {
+                "access": {
+                    "title": "Ret til Adgang",
+                    "content": "Du har ret til at få adgang til dine personoplysninger og få oplysninger om, hvordan de behandles. For at udøve denne ret, bedes du kontakte vores Databeskyttelsesrådgiver ved hjælp af de nedenstående kontaktoplysninger."
+                },
+                "rectification": {
+                    "title": "Ret til Berigtigelse",
+                    "content": "Du har ret til at anmode om rettelse af unøjagtige eller ufuldstændige personoplysninger. For at anmode om berigtigelse, bedes du kontakte vores Databeskyttelsesrådgiver."
+                },
+                "erasure": {
+                    "title": "Ret til Sletning (Retten til at Blive Glemt)",
+                    "content": "Du har ret til at anmode om sletning af dine personoplysninger under visse betingelser, såsom når dataene ikke længere er nødvendige for de formål, de blev indsamlet til, eller hvis du trækker dit samtykke tilbage.",
+                    "conditions": {
+                        "condition1": "Personoplysningerne er indsamlet eller på anden måde behandlet til formål, hvor de ikke længere er nødvendige.",
+                        "condition2": "Du trækker det samtykke, som behandlingen er baseret på i henhold til artikel 6(1)(a) GDPR eller artikel 9(2)(a) GDPR, og der findes ikke andet retsgrundlag for behandlingen.",
+                        "condition3": "Du indgiver indsigelse mod behandlingen i henhold til art. 21(1) GDPR, og der er ingen overordnede legitime grunde til behandlingen, eller du indgiver indsigelse mod behandlingen i henhold til art. 21(2) GDPR.",
+                        "condition4": "Personoplysningerne er behandlet ulovligt.",
+                        "condition5": "Sletning af personoplysningerne er nødvendig for at overholde en juridisk forpligtelse i henhold til Unionens ret eller medlemsstaternes ret, som dataansvarlig er underlagt.",
+                        "condition6": "Personoplysningerne er indsamlet i forbindelse med informationssamfundstjenester, der tilbydes i overensstemmelse med art. 8 stk. 1 GDPR."
+                    },
+                    "instructions": "Hvis en af ovennævnte grunde gør sig gældende, og du ønsker at få dine personoplysninger slettet, bedes du kontakte vores Databeskyttelsesrådgiver.",
+                    "publicDataDeletion": "Hvis personoplysningerne er gjort offentlige, vil vi tage rimelige foranstaltninger for at informere andre dataansvarlige om at slette links eller kopier af dataene, medmindre det er nødvendigt for behandlingen."
+                },
+                "restriction": {
+                    "title": "Ret til Begrænsning af Behandling",
+                    "content": "Du har ret til at anmode om begrænsning af behandlingen af dine personoplysninger under specifikke omstændigheder.",
+                    "conditions": {
+                        "condition1": "Nøjagtigheden af personoplysningerne er bestridt af dig, i en periode, der giver os mulighed for at verificere nøjagtigheden.",
+                        "condition2": "Behandlingen er ulovlig, du nægter at få personoplysningerne slettet, og i stedet anmoder om begrænsning af brugen af personoplysningerne.",
+                        "condition3": "Vi har ikke længere brug for personoplysningerne til formålene med behandlingen, men du har brug for dem til at gøre krav gældende, udøve eller forsvare juridiske krav.",
+                        "condition4": "Du har indgivet indsigelse mod behandlingen i overensstemmelse med art. 21(1) GDPR, og det er endnu ikke klart, om vores legitime grunde overgår dine."
+                    },
+                    "instructions": "Hvis en af ovenstående betingelser er opfyldt, og du ønsker at begrænse dine personoplysninger, bedes du kontakte os direkte. Vi vil igangsætte begrænsningen af behandlingen."
+                },
+                "portability": {
+                    "title": "Ret til Dataoverførsel",
+                    "content": "Du har ret til at modtage dine personoplysninger i et struktureret, almindeligt anvendt og maskinlæsbart format og til at få dem overført til en anden dataansvarlig."
+                },
+                "object": {
+                    "title": "Ret til Indsigelse",
+                    "content": "Du har ret til at gøre indsigelse mod behandlingen af dine personoplysninger baseret på legitime interesser eller til direkte markedsføringsformål."
+                },
+                "automatedDecision": {
+                    "title": "Rettigheder Relateret til Automatiseret Beslutningstagning",
+                    "content": "Du har ret til ikke at være underlagt en beslutning, der udelukkende er baseret på automatiseret behandling, herunder profilering, som har retsvirkninger for dig eller i væsentlig grad påvirker dig."
+                },
+                "revokeConsent": {
+                    "title": "Ret til At Tilbagekalde Samtykke",
+                    "content": "Du har ret til at tilbagekalde dit samtykke til behandlingen af dine personoplysninger til enhver tid. For at tilbagekalde dit samtykke, bedes du kontakte vores Databeskyttelsesrådgiver."
+                }
+            }
+        },
+        "googleAdWords": {
+            "title": "Databeskyttelsesbestemmelser ved Anvendelse og Brug af Google AdWords",
+            "content1": "Vi bruger Google AdWords til at vise annoncer på vores hjemmeside. Google AdWords placerer en konverteringscookie på din enhed for at spore effektiviteten af vores reklamekampagner. Denne cookie identificerer dig ikke personligt og slettes efter tredive dage.",
+            "content2": "De data, der indsamles gennem Google AdWords, bruges til at skabe besøgsstatistikker og optimere vores markedsføringsindsats. Google kan behandle dine data i USA, og mens det tidligere deltog i Privacy Shield-rammen, er det nu afhængigt af Standardkontraktbestemmelser (SCC'er) for dataoverførsler.",
+            "content3": "For mere information henvises der til Googles Privatlivspolitik.",
+            "content4": "Du kan forhindre opsætning af cookies ved at justere dine browserindstillinger. Derudover kan du fravælge personligt tilpasset reklame ved at besøge",
+            "optOutLink": "Google Ads Indstillinger",
+            "content5": "Hvis du besøger vores hjemmeside via en Google-annonce, placerer Google en konverteringscookie på din enhed. Denne cookie hjælper os med at spore, om et besøg via en AdWords-annonce fører til salg eller andre handlinger.",
+            "content6": "De data og oplysninger, der indsamles gennem brugen af konverteringscookie, bruges af Google til at oprette besøgsstatistikker for vores hjemmeside. Disse besøgsstatistikker hjælper os med at bestemme succesen eller fejlen af vores AdWords-kampagner og optimere fremtidige annoncer.",
+            "content7": "Gennem konverteringscookie kan personlige oplysninger såsom de hjemmesider, du besøger, blive gemt. Hver gang vores hjemmeside besøges, overføres din IP-adresse til Google i USA.",
+            "content8": "Du kan slette cookies, der allerede er sat af Google AdWords, når som helst via din browser eller andre softwareprogrammer.",
+            "moreInfo": "For mere information og de gældende databeskyttelsesbestemmelser for Google henvises der til deres privatlivspolitik."
+        },
+        "googleAnalytics": {
+            "title": "Databeskyttelsesbestemmelser ved Anvendelse og Brug af Google Analytics",
+            "content1": "Med dit samtykke bruger vi Google Analytics, en webanalyse-tjeneste leveret af Google LLC, til at analysere brugen af vores hjemmeside. Google Analytics indsamler data såsom besøgte sider, brugeradfærd og tekniske oplysninger for at hjælpe os med at forbedre vores hjemmeside og markedsføringsstrategier.",
+            "scopeProcessing": {
+                "title": "Behandlingsomfang",
+                "content": "Google Analytics bruger cookies til at indsamle data om dine interaktioner med vores hjemmeside. Vi har aktiveret IP-anonymisering, hvilket betyder, at din IP-adresse delvist maskeres, før den behandles af Google."
+            },
+            "purposes": {
+                "title": "Behandlingsformål",
+                "content": "De data, der indsamles af Google Analytics, bruges til at evaluere webstedsbrug, generere rapporter og hjælpe med at optimere vores tjenester og reklamekampagner."
+            },
+            "recipient": {
+                "title": "Modtager",
+                "content": "Dataene behandles af Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland. Vi har indgået en databehandleraftale med Google for at sikre overholdelse af GDPR."
+            },
+            "transferThirdCountries": {
+                "title": "Overførsel til Tredjelande",
+                "content": "Data kan overføres til USA, hvor Google driver sine servere. Selvom EU-US Privacy Shield er blevet ugyldiggjort, er Google afhængig af Standardkontraktbestemmelser (SCC'er) for at beskytte dine data. For mere information henvises der til Googles Privatlivspolitik."
+            },
+            "duration": {
+                "title": "Opbevaringsperiode",
+                "content": "Data, der indsamles af Google Analytics, opbevares i 14 måneder og slettes automatisk derefter."
+            },
+            "rights": {
+                "title": "De Registreredes Rettigheder",
+                "content": "Du kan tilbagekalde dit samtykke til enhver tid ved at justere dine browserindstillinger for at forhindre cookies eller ved at bruge Google Analytics opt-out browserudvidelsen, som forhindrer dataindsamling af Google Analytics."
+            }
+        },
+        "legalBasis": {
+            "title": "Retlig Grundlag for Behandling",
+            "content": "Det retlige grundlag for behandling af dine personoplysninger er beskrevet nedenfor i overensstemmelse med GDPR:",
+            "consensus": "Samtykke",
+            "contract": "Kontrakt",
+            "legalObligation": "Juridisk Forpligtelse",
+            "legitimateInterests": "Legitime Interesser",
+            "articles": {
+                "consent": "Art. 6(1)(a) GDPR",
+                "contract": "Art. 6(1)(b) GDPR",
+                "legalObligation": "Art. 6(1)(c) GDPR",
+                "legitimateInterests": "Art. 6(1)(f) GDPR",
+                "consentDesc": "Når du giver eksplicit samtykke til specifikke behandlingsaktiviteter.",
+                "contractDesc": "Nødvendig behandling for at opfylde en kontrakt med dig.",
+                "legalObligationDesc": "Behandling nødvendig for at overholde juridiske forpligtelser.",
+                "legitimateInterestsDesc": "Behandling baseret på vores legitime interesser, forudsat at de ikke tilsidesætter dine rettigheder og friheder."
+            }
+        },
+        "legitimateInterests": {
+            "title": "Legitime Interesser i Behandlingen",
+            "content": "Når behandling er baseret på legitime interesser, sikrer vi, at disse interesser ikke tilsidesætter dine grundlæggende rettigheder og friheder. Legitime interesser inkluderer forretningsdrift, forbedring af tjenester og sikring af sikkerhed."
+        },
+        "dataRetention": {
+            "title": "Databevaring",
+            "content": "Vi opbevarer dine personoplysninger kun så længe, det er nødvendigt for at opfylde de formål, hvortil de blev indsamlet, eller som krævet ved lov. Efter denne periode slettes data sikkert eller anonymiseres."
+        },
+        "legalObligations": {
+            "title": "Juridiske eller Kontraktlige Forpligtelser",
+            "content1": "At levere visse personoplysninger kan være påkrævet ved lov eller nødvendigt for at indgå en kontrakt med os.",
+            "content2": "Undladelse af at levere sådanne data kan resultere i, at vi ikke kan levere de ønskede tjenester."
+        },
+        "automatedDecisionMaking": {
+            "title": "Automatiseret Beslutningstagning",
+            "content": "Vi engagerer os ikke i automatiseret beslutningstagning, herunder profilering, der væsentligt påvirker dig. Alle beslutninger træffes med menneskelig overvågning for at beskytte dine rettigheder og friheder."
+        },
+        "dataBreachNotification": {
+            "title": "Meddelelse om Databrud",
+            "content": "I tilfælde af et databrud, der udgør en risiko for dine rettigheder og friheder, vil vi underrette dig uden unødig forsinkelse og træffe passende foranstaltninger for at afbøde bruddet."
+        },
+        "changes": {
+            "title": "Ændringer til Denne Privatlivspolitik",
+            "content": "Vi kan opdatere denne privatlivspolitik fra tid til anden. Eventuelle ændringer vil blive offentliggjort på denne side og, hvor det er relevant, meddelt dig via e-mail eller andre kommunikationskanaler."
+        },
+        "contactUs": {
+            "title": "Kontakt Os",
+            "content": "Hvis du har spørgsmål eller bekymringer om denne privatlivspolitik eller vores databehandlingspraksis, bedes du kontakte vores Databeskyttelsesrådgiver:",
+            "email": "E-mail",
+            "address": "Adresse",
+            "phone": "Telefon"
+        },
+        "copyright": "Ophavsret © ",
+        "rightsReserved": ". Alle Rettigheder Forbeholdes"
+    }
+}

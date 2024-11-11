@@ -16,7 +16,8 @@
 </template>
 
 <script setup lang="ts">
-const { default: projects } = await import('~/assets/data/projects.json')
+import type { Project }  from '~/types/types';
+const projects = await getI18nJson<Project>('projects')
 
 const props = defineProps({
   index: {

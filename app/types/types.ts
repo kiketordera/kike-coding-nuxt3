@@ -31,3 +31,18 @@ export interface Project {
   titleSEO: string;
   descriptionSEO: string;
 }
+
+export interface ProjectExperience {
+  title: string;
+  nameCompany: string;
+  img: string;
+  type: string;
+  description: string[];
+  skills: string[];
+  place: string;
+  startDate: string;
+  endDate: string;
+  durationMonths: string;
+  modality: string;
+  webLink: string;
+}

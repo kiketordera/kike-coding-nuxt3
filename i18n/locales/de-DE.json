@@ -1,31 +1,123 @@
 {
-    "home": "Startseite",
-    "the-artist": "Der Künstler",
-    "contact": "Kontakt",
-    "contact-me": "Kontaktiere Mich",
-    "connect-now": "Jetzt Verbinden",
-    "welcome": "Willkommen bei Bohemian Tattoo",
-    "about-me": "Über Mich",
-    "p1-about-me": "Hallo! Ich bin Sergio. Ich lebe in Rotterdam und spezialisiere mich auf einen Tattoo-Stil, der Blackwork mit Realismus kombiniert. Meine Leidenschaft für die Details des Blackwork, zusammen mit der detaillierten Tiefe und Textur des Realismus, ermöglicht es mir, einzigartige Tattoos zu kreieren, die nicht nur auffallen, sondern auch eine Geschichte erzählen.",
-    "p2-about-me": "Mein Ansatz ist es, diese beiden Stile nahtlos zu integrieren, sodass jedes Stück die Individualität meiner Kunden widerspiegelt und gleichzeitig eine zeitlose Ästhetik bewahrt. Meine Arbeit zeichnet sich durch hohen Kontrast, akribische Liebe zum Detail und ein feines Gespür dafür aus, wie sich Designs an die natürlichen Konturen des Körpers anpassen und mit ihnen fließen.",
-    "p3-about-me": "Mit meinen Tattoos möchte ich die Visionen meiner Kunden zum Leben erwecken und Kunst schaffen, die mit ihren persönlichen Erzählungen in Resonanz steht und ihre natürliche Schönheit unterstreicht.",
-    "tattoos": "Tattoos",
-    "tattoos-sub": "Hier können Sie einige meiner Tattoos sehen.",
-    "events": "Veranstaltungen",
-    "loading-events": "Veranstaltungen werden geladen...",
-    "no-events": "Keine Veranstaltungen verfügbar",
-    "appointment-policy": "Terminrichtlinie",
-    "p1-appointment-policy": "Als Ihr Tätowierer schätze ich Ihr Vertrauen, mir zu erlauben, ein dauerhaftes Kunstwerk auf Ihrer Haut zu schaffen. Hier sind unsere Bedingungen für Anzahlung und Stornierung:",
-    "p2-bold-appointment-policy": "Anzahlungsdetails:",
-    "p2-appointment-policy": "Nach unserem ersten Gespräch müssen Sie eine nicht erstattbare Anzahlung leisten, um Ihren Tattoo-Termin zu bestätigen. Dies zeigt Ihr Engagement für die künstlerische Reise, die wir gemeinsam planen.",
-    "p3-bold-appointment-policy": "Stornierung und Terminänderungen:",
-    "p3-appointment-policy": "Das Leben passiert, und ich verstehe, dass sich Pläne ändern können. Das können Sie tun:",
-    "p3a-bold-appointment-policy": "Kostenlose Änderungen bis 1 Woche vorher:",
-    "p3a-appointment-policy": "Sie können Ihren Termin ohne Kosten ändern oder verschieben, wenn Sie dies mindestens drei Tage vor Ihrer Sitzung tun.",
-    "p3b-bold-appointment-policy": "Bezüglich Ihrer Anzahlung:",
-    "p3b-appointment-policy": "Obwohl Sie Ihre Anzahlung nicht zurückerhalten können, sichert sie Ihnen Ihren Platz. Wenn Sie stornieren müssen, können Sie die Anzahlung für einen zukünftigen Termin verwenden, gemäß unseren Richtlinien.",
-    "p4-appointment-policy": "Vielen Dank, dass Sie sich an diese Richtlinien halten, die dazu beitragen, dass alles reibungslos abläuft. Ich freue mich darauf, mit Ihnen an der Schaffung bedeutungsvoller Kunst zu arbeiten!",
-    "get-in-touch": "Kontakt Aufnehmen",
-    "privacy-policy": "Datenschutzrichtlinie",
-    "cookies-policy": "Cookie-Richtlinie"
+    "intro": {
+        "title": "Mobile Entwickler &",
+        "titleHighlight": "UX/UI Ingenieur",
+        "tagline": "Präzision Ingenieurwesen. Leidenschaftliches Design.",
+        "description": "Ich spezialisiere mich auf Schnittstellen, von UX & Design bis hin zu Entwicklung & Launch.",
+        "reason": "Warum jemanden mit halb so vielen Fähigkeiten wählen? Wählen Sie jemanden mit dem Komplettpaket!",
+        "cta": "Mich einstellen"
+    },
+    "introSection": {
+        "passionate": "Leidenschaftlich und detailorientiert",
+        "mobileDeveloper": "Mobile & Front-End Entwickler",
+        "withExpertise": "mit Fachkenntnissen in",
+        "uxUiDesign": "UX/UI Design",
+        "specializing": "spezialisiert auf die Erstellung intuitiver, benutzerorientierter Schnittstellen und innovativer Softwarelösungen.",
+        "skills": "Kompetent in modernen Entwicklungstools und -sprachen, mit starkem Fokus auf Design und Benutzererfahrung. Nachweisliche Fähigkeit, komplexe Ideen in elegante, funktionale und visuell ansprechende Anwendungen umzusetzen.",
+        "innovate": "Lassen Sie uns nicht nur entwickeln — lassen Sie uns innovieren, designen und Grenzen überschreiten.",
+        "build": "Lassen Sie uns nicht nur bauen. Lassen Sie Sie uns innovieren, designen und revolutionieren.",
+        "blend": "Warum auf das Gewöhnliche abzielen, wenn wir Code und Kreativität kombinieren können, um etwas wirklich Bemerkenswertes zu schaffen?",
+        "collaborate": "Lassen Sie uns zusammenarbeiten und digitale Magie erschaffen! ✨",
+        "readMore": "Weiterlesen"
+    },
+    "projectsSection": {
+        "title": "Projekte",
+        "subtitle": "Einige der Besten"
+    },
+    "experienceSection": {
+        "title": "Meine Erfahrung",
+        "description": "Erkunden Sie meine berufliche Reise und Expertise durch meinen umfassenden Abschnitt zur Berufserfahrung",
+        "work": "Arbeit",
+        "volunteer": "Freiwilligenarbeit",
+        "education": "Bildung"
+    },
+    "startProject": "Projekt starten",
+    "legalSection": {
+        "cookies": "Cookies",
+        "privacy": "Datenschutz"
+    },
+    "myself": "mich",
+    "aboutSection": {
+        "title": "Über",
+        "intro": "Hallo! Ich bin Kike Tordera.",
+        "codingPassion": "Programmieren? Das ist mein Ding! 🚀 Meine Wurzeln im Coding sind tief verwurzelt, genährt durch rigorose Studien und verfeinert mit internationalem Flair. Rate mal? Schon als Kind war ich der technische Knirps, der ständig an Computern bastelte.",
+        "craftingExperiences": "Aber hier ist der Dreh: Es geht nicht nur um den Code. Ich bin leidenschaftlich daran interessiert, Erlebnisse zu schaffen. 🎨 Für mich sind ein elegantes Design und eine intuitive Benutzeroberfläche nicht nur das i-Tüpfelchen – sie sind wesentliche Zutaten.",
+        "createMagic": "Denn am Ende geht es darum, etwas zu schaffen, das mehr ist als die Summe seiner Teile. Bereit, gemeinsam Magie zu erschaffen?"
+    },
+    "resumeSection": {
+        "downloadHuman": "Lebenslauf herunterladen (Für Menschen gestaltet)",
+        "downloadATS": "Lebenslauf herunterladen (Optimiert für ATS-Software)"
+    },
+    "skillsSection": {
+        "title": "Meine Fähigkeiten",
+        "description": "Entdecken Sie mein Spektrum an Fähigkeiten und Expertise in verschiedenen Bereichen.",
+        "leadershipSkills": "Führungsfähigkeiten",
+        "softSkills": "Soziale Fähigkeiten"
+    },
+    "educationSection": {
+        "title": "Bildungshintergrund",
+        "upv": {
+            "duration": "2012-2016",
+            "length": "4 Jahre",
+            "university": "Polytechnische Universität Valencia",
+            "degree": "Bachelorabschluss in Informatik",
+            "description": "Erwarb Kompetenz in Softwareentwicklung, beherrschte Datenstrukturen und Algorithmen und erforschte aufkommende Computertechnologien, wodurch Problemlösungs- und technische Fähigkeiten verbessert wurden."
+        },
+        "czech": {
+            "duration": "2016-2017",
+            "length": "1 Jahr",
+            "university": "Tschechische Technische Universität in Prag",
+            "degree": "Spezialisierung in Software Engineering",
+            "description": "Spezialisierung im Software Engineering an der Tschechischen Technischen Universität in Prag, mit Fokus auf fortgeschrittene Programmierung, Software-Design-Prinzipien und Projektmanagement-Methodologien."
+        }
+    },
+    "skills": {
+        "softSkills": {
+            "effectiveCommunication": "Effektive Kommunikation",
+            "teamwork": "Teamarbeit",
+            "problemSolving": "Problemlösung",
+            "timeManagement": "Zeitmanagement",
+            "adaptability": "Anpassungsfähigkeit",
+            "leadership": "Führung",
+            "empathy": "Empathie",
+            "activeListening": "Aktives Zuhören",
+            "creativity": "Kreativität"
+        },
+        "leadershipSkills": {
+            "criticalThinking": "Kritisches Denken",
+            "culturalSensitivity": "Kulturelle Sensibilität",
+            "conflictResolution": "Konfliktlösung",
+            "decisionMaking": "Entscheidungsfindung",
+            "visionaryThinking": "Visionäres Denken",
+            "teamBuilding": "Teambildung & Motivation",
+            "strategicPlanning": "Strategische Planung",
+            "emotionalIntelligence": "Emotionale Intelligenz",
+            "negotiation": "Verhandlung"
+        }
+    },
+    "languagesSection": {
+        "title": "Sprachen",
+        "spanish": {
+            "name": "Spanisch",
+            "level": "Muttersprache"
+        },
+        "english": {
+            "name": "Englisch",
+            "level": "C1 - Niveau"
+        },
+        "german": {
+            "name": "Deutsch",
+            "level": "A2 - Niveau"
+        },
+        "swahili": {
+            "name": "Swahili",
+            "level": "B1 - Niveau"
+        }
+    },
+    "navigation": {
+        "home": "Startseite",
+        "about": "Über",
+        "experience": "Erfahrung",
+        "contact": "Kontakt"
+    }
 }

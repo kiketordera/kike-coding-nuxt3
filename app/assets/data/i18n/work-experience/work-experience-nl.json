@@ -1,0 +1,196 @@
+[
+    {
+        "title": "Android Ontwikkelaar",
+        "nameCompany": "Mongoolse Universiteit voor Wetenschap en Technologie",
+        "img": "/experience/mongolia.jpeg",
+        "type": "onderwijs",
+        "description": [
+            "Aan de Mongoolse Universiteit voor Wetenschap en Technologie heb ik mijn vaardigheden als Android Ontwikkelaar verfijnd, met de nadruk op Java-applicaties voor Android.",
+            "Ik ontwikkelde een REST-client die verbinding maakt met middleware voor GET- en POST-verzoeken. Ik integreerde een sensorsysteem voor realtime toegang, externe activering en wereldwijde monitoring via Wi-Fi.",
+            "Daarnaast ontwierp ik gebruikersinterfaces en visualiseerde ik sensorgegevens door middel van grafische representaties."
+        ],
+        "skills": [
+            "Android Ontwikkeling",
+            "Mobiele Applicatieontwikkeling",
+            "Java",
+            "Android Studio"
+        ],
+        "place": "Ulaanbaatar, Mongolië",
+        "startDate": "Jul 2015",
+        "endDate": "Sep 2015",
+        "durationMonths": "3 maanden",
+        "modality": "op locatie",
+        "webLink": "https://www.linkedin.com/company/mongolian-university-of-science-and-technology/"
+    },
+    {
+        "title": "iOS Ontwikkelaar",
+        "nameCompany": "CodeWell",
+        "img": "/experience/codewell.jpeg",
+        "type": "onderwijs",
+        "description": [
+            "Bij CodeWell verdiepte ik me in iOS-ontwikkeling met behulp van Xcode, Swift en Objective-C. Ik droeg bij aan projecten zoals de 'Summer Ohrid Festival' app en een andere app om beperkingen en code te begrijpen.",
+            "Ik werkte met Google Firebase, CoreData en externe frameworks zoals SDWebImage, TTTAttributedLabel en SnapKit. Ik ontwierp app-interfaces en maakte iOS-animaties met behulp van Bezier Path en meer.",
+            "Deze rol verrijkte mijn ervaring in een multicultureel team, wat samenwerking en begrip bevorderde."
+        ],
+        "skills": [
+            "Mobiele Applicatieontwikkeling",
+            "iOS Ontwikkeling",
+            "Swift",
+            "UIKit"
+        ],
+        "place": "Skopje, Macedonië",
+        "startDate": "Jul 2016",
+        "endDate": "Sep 2016",
+        "durationMonths": "3 maanden",
+        "modality": "op locatie",
+        "webLink": "https://www.linkedin.com/company/codewell/"
+    },
+    {
+        "title": "Front End Ontwikkelaar",
+        "nameCompany": "Universitat Politècnica de València (UPV)",
+        "img": "/experience/upv.svg",
+        "type": "werk",
+        "description": [
+            "Aan de Doctorale School van de Universitat Politècnica de València speelde ik een cruciale rol bij het updaten van de schoolwebsite als Frontend Ontwikkelaar.",
+            "Ik creëerde HTML-inhoud, zorgde voor uniforme opmaak met HTML/CSS en behield de visuele nauwkeurigheid van de site.",
+            "Ik waagde me ook aan videobewerking voor educatieve inhoud en conferentiepresentaties."
+        ],
+        "skills": [
+            "Front-End Ontwikkeling",
+            "SCSS",
+            "HTML5",
+            "Weboptimalisatie"
+        ],
+        "place": "Valencia, Spanje",
+        "startDate": "Sep 2017",
+        "endDate": "Nov 2016",
+        "durationMonths": "4 maanden",
+        "modality": "op locatie",
+        "webLink": "https://www.linkedin.com/school/upv/"
+    },
+    {
+        "title": "Mentor Webontwikkeling & UX/UI Design",
+        "nameCompany": "Learning Lions",
+        "img": "/experience/learning.png",
+        "type": "vrijwilligerswerk",
+        "description": [
+            "In Lodwar voor mijn afstudeerproject bood ik me aan als vrijwilliger voor Learning and Service, waarbij ik technologie promootte voor een betere toekomst.",
+            "Ik ontwierp educatieve modules, evaluaties en bood mentoring en onderwijs aan studenten.",
+            "Ik introduceerde tools en workflows, waardoor de diensten en interne structuur van de organisatie werden verbeterd."
+        ],
+        "skills": [
+            "Adobe XD",
+            "Raspberry Pi",
+            "UX/UI Design",
+            "Mentorschap",
+            "Webontwikkeling"
+        ],
+        "place": "Turkana, Kenia",
+        "startDate": "Feb 2018",
+        "endDate": "Jun 2018",
+        "durationMonths": "5 maanden",
+        "modality": "op locatie",
+        "webLink": "https://www.learninglions.org/"
+    },
+    {
+        "title": "Full Stack Ontwikkelaar & UI Designer",
+        "nameCompany": "Value Villages",
+        "img": "/experience/vv.png",
+        "type": "werk",
+        "description": [
+            "Bij Value Villages speelde ik een essentiële rol in het creëren van software voor NGO's die armoede bestrijden, met de focus op beroepsopleiding.",
+            "Ik ontwierp interfaces en implementeerde full-stack oplossingen, gericht op het versterken van individuen door middel van kennis en training.",
+            "Deze rol was cruciaal voor het bevorderen van de missie van NGO's ter plaatse."
+        ],
+        "skills": [
+            "Adobe XD",
+            "Raspberry Pi",
+            "UX/UI Design",
+            "Golang"
+        ],
+        "place": "Turkana, Kenia",
+        "startDate": "Jun 2018",
+        "endDate": "Jun 2020",
+        "durationMonths": "2 jaar",
+        "modality": "op locatie",
+        "webLink": "https://www.linkedin.com/school/upv/"
+    },
+    {
+        "title": "Senior Mobile Ontwikkelaar",
+        "nameCompany": "Oculid",
+        "img": "/img/projects/oculid/logo.svg",
+        "type": "werk",
+        "description": [
+            "Bij Oculid leidde ik de ontwikkeling van een mobiele app die de oogbewegingen van gebruikers volgt, waardoor gebruikerstesten en UX-analyse werden verbeterd.",
+            "We verzamelden oogpositiegegevens en maakten gebruik van machine learning voor datavisualisaties zoals heatmaps, die inzicht boden in gebruikers-product interacties.",
+            "Dergelijke inzichten waren cruciaal voor het verfijnen van UX/UI designs voor een betere gebruikerstevredenheid."
+        ],
+        "skills": [
+            "Ontwikkeling van Mobiele Applicaties",
+            "iOS Ontwikkeling",
+            "SwiftUI",
+            "Swift",
+            "Flutter",
+            "Xcode"
+        ],
+        "place": "Berlijn, Duitsland",
+        "startDate": "Jan 2021",
+        "endDate": "Fev 2022",
+        "durationMonths": "1 jaar 2 maanden",
+        "modality": "hybride",
+        "webLink": "https://www.linkedin.com/company/oculid/"
+    },
+    {
+        "title": "Senior Mobile Ontwikkelaar",
+        "nameCompany": "Circus",
+        "img": "/experience/circus.svg",
+        "type": "werk",
+        "description": [
+            "Bij Circus, als Senior Frontend Ontwikkelaar in het Flutter-team, werkte ik aan productonderhoud en de implementatie van nieuwe functies.",
+            "Onze app, gebruikt door duizenden, breidt maandelijks uit naar nieuwe locaties, wat efficiënte gebruikersbeheer vereist.",
+            "Ik zorgde voor optimale prestaties voor onze groeiende gebruikersbasis en voegde functies toe aan een live productie-app."
+        ],
+        "skills": [
+            "Android Ontwikkeling",
+            "iOS Ontwikkeling",
+            "Swift",
+            "SwiftUI",
+            "Flutter",
+            "Ontwikkeling van Mobiele Applicaties"
+        ],
+        "place": "Berlijn, Duitsland",
+        "startDate": "Aug 2022",
+        "endDate": "Sep 2023",
+        "durationMonths": "1 jaar",
+        "modality": "remote",
+        "webLink": "https://www.linkedin.com/company/circuskitchens/"
+    },
+    {
+        "title": "Lead Ontwikkelaar",
+        "nameCompany": "Totem Studio",
+        "img": "/experience/totem-logo.svg",
+        "type": "werk",
+        "description": [
+            "Als Hoofd Ontwikkeling bij The Totem Studio superviseer ik de ontwikkeling van verschillende web- en mobiele applicaties.",
+            "Ik zorgde voor de codekwaliteit, werkte samen met klanten voor vereisten, beheerste een ontwikkelaarsteam en superviseerde code- en projectlanceringen.",
+            "Mijn toewijding en communicatieve vaardigheden waren essentieel bij het leveren van topkwaliteit producten aan klanten."
+        ],
+        "skills": [
+            "Ontwikkeling van Mobiele Applicaties",
+            "Front End Ontwikkeling",
+            "Vue.js",
+            "Nuxt.js",
+            "TypeScript",
+            "Flutter",
+            "Swift",
+            "SwiftUI",
+            "Leiderschap"
+        ],
+        "place": "Berlijn, Duitsland",
+        "startDate": "Apr 2020",
+        "endDate": "Vandaag",
+        "durationMonths": "Vandaag",
+        "modality": "remote",
+        "webLink": "https://thetotem.studio/"
+    }
+]

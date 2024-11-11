@@ -20,9 +20,8 @@
 
 <script lang="ts" setup>
 
-import type { Project } from '../../types/types';
-
-const { default: projects } = await import('~/assets/data/projects.json')
+import type { Project }  from '~/types/types';
+const projects = await getI18nJson<Project>('projects')
 
 const route = useRoute()
 const link = route.params.project_id as string

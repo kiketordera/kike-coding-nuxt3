@@ -3,7 +3,7 @@
     <div class="details">
       <h2 data-aos="zoom-in-left">
         <a target="_blank" href="https://calendly.com/kiketordera">
-          Start a project
+          {{ $t('startProject') }}
         </a>
       </h2>
       <img data-aos="zoom-right" src="~assets/svg/kk/right-arrow.svg" alt="">

@@ -27,8 +27,8 @@
               <p class="name">
                 Kike Tordera
               </p>
-              Hello 👋<br>
-              How can I help you?
+              {{ $t('hi') }} 👋<br>
+              {{ $t('how-can-help') }}
               <p class="time">
                 {{ getTime24Format() }}
               </p>
@@ -38,7 +38,7 @@
         <div class="popup-footer">
           <a target="_blank" :href="getWhatsappURL()">
             <button type="button">
-              Start Chat
+              {{ $t('start-chat') }}
             </button>
           </a>
         </div>

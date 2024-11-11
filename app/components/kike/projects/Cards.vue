@@ -49,7 +49,8 @@
 import { register } from 'swiper/element/bundle'
 import { ref, onMounted, onUnmounted } from 'vue'
 
-import projects from '../../../assets/data/projects.json'
+import type { Project }  from '~/types/types';
+const projects = await getI18nJson<Project>('projects')
 
 register()
 

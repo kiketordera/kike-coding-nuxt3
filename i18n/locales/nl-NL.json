@@ -1,31 +1,123 @@
 {
-    "home": "Home",
-    "the-artist": "De Kunstenaar",
-    "contact": "Contact",
-    "contact-me": "Neem Contact Op",
-    "connect-now": "Verbind Nu",
-    "welcome": "Welkom bij Bohemian Tattoo",
-    "about-me": "Over Mij",
-    "p1-about-me": "Hallo! Ik ben Sergio. Ik woon in Rotterdam en specialiseer me in een tattoo-stijl die blackwork combineert met realisme. Mijn passie voor de details van blackwork, gecombineerd met de gedetailleerde diepte en textuur van realisme, stelt me in staat om unieke tatoeages te creëren die niet alleen opvallen, maar ook een verhaal vertellen.",
-    "p2-about-me": "Mijn benadering is om deze twee stijlen naadloos te integreren, zodat elk stuk de individualiteit van mijn klanten weerspiegelt en tegelijkertijd een tijdloze esthetiek behoudt. Mijn werk kenmerkt zich door een hoog contrast, nauwgezette aandacht voor details en een scherp gevoel voor hoe ontwerpen zich aanpassen aan en vloeien met de natuurlijke contouren van het lichaam.",
-    "p3-about-me": "Met mijn tatoeages streef ik ernaar de visies van mijn klanten tot leven te brengen, kunst te creëren die resoneert met hun persoonlijke verhalen en hun natuurlijke schoonheid versterkt.",
-    "tattoos": "Tatoeages",
-    "tattoos-sub": "Hier kunt u enkele van mijn tatoeages zien.",
-    "events": "Evenementen",
-    "loading-events": "Evenementen laden...",
-    "no-events": "Geen evenementen beschikbaar",
-    "appointment-policy": "Afspraakbeleid",
-    "p1-appointment-policy": "Als uw tatoeëerder waardeer ik het vertrouwen dat u stelt in het laten creëren van een blijvend kunstwerk op uw huid. Hier zijn onze aanbetalings- en annuleringsvoorwaarden:",
-    "p2-bold-appointment-policy": "Aanbetalingsdetails:",
-    "p2-appointment-policy": "Na ons eerste gesprek dient u een niet-terugbetaalbare aanbetaling te doen om uw tattoo-sessie te bevestigen. Dit toont uw toewijding aan de artistieke reis die we samen plannen.",
-    "p3-bold-appointment-policy": "Annulering en Wijzigingen van Afspraak:",
-    "p3-appointment-policy": "Het leven gebeurt, en ik begrijp dat plannen kunnen veranderen. Dit is wat u kunt doen:",
-    "p3a-bold-appointment-policy": "Gratis Wijzigingen tot 1 Week Vooraf:",
-    "p3a-appointment-policy": "U kunt uw afspraak kosteloos wijzigen of verzetten als u dit minstens drie dagen voor uw sessie doet.",
-    "p3b-bold-appointment-policy": "Wat Betreft uw Aanbetaling:",
-    "p3b-appointment-policy": "Hoewel u uw aanbetaling niet kunt terugkrijgen, reserveert het wel uw plaats. Als u moet annuleren, kunt u de aanbetaling gebruiken voor een toekomstige afspraak volgens onze regels.",
-    "p4-appointment-policy": "Bedankt dat u deze regels volgt, die ervoor zorgen dat alles soepel verloopt voor iedereen. Ik kijk ernaar uit om met u samen te werken aan het creëren van betekenisvolle kunst!",
-    "get-in-touch": "Neem Contact Op",
-    "privacy-policy": "Privacybeleid",
-    "cookies-policy": "Cookiesbeleid"
+    "intro": {
+        "title": "Mobiele Ontwikkelaar &",
+        "titleHighlight": "UX/UI Ingenieur",
+        "tagline": "Ingenieursprecisie. Ontworpen met Passie.",
+        "description": "Ik ben gespecialiseerd in interfaces, van UX & design tot ontwikkeling & lancering.",
+        "reason": "Waarom iemand kiezen met de helft van de vaardigheden? Kies iemand met het volledige pakket!",
+        "cta": "Huur mij in"
+    },
+    "introSection": {
+        "passionate": "Passioneel en detailgericht",
+        "mobileDeveloper": "Mobiele & Front-End Ontwikkelaar",
+        "withExpertise": "met expertise in",
+        "uxUiDesign": "UX/UI ontwerp",
+        "specializing": "gespecialiseerd in het creëren van intuïtieve, gebruiksgerichte interfaces en baanbrekende softwareoplossingen.",
+        "skills": "Vaardig in moderne ontwikkeltools en -talen, met sterke nadruk op ontwerp en gebruikerservaring. Bewezen vermogen om complexe ideeën om te zetten in elegante, functionele en visueel aantrekkelijke applicaties.",
+        "innovate": "Laten we niet alleen ontwikkelen — laten we innoveren, ontwerpen en grenzen verleggen.",
+        "build": "Laten we niet alleen bouwen. Laten we innoveren, ontwerpen en revolutioneren.",
+        "blend": "Waarom mikken op het gewone als we code en creativiteit kunnen combineren om iets echt opmerkelijk te creëren?",
+        "collaborate": "Laten we samenwerken en digitale magie creëren! ✨",
+        "readMore": "Lees meer"
+    },
+    "projectsSection": {
+        "title": "Projecten",
+        "subtitle": "Enkele van de beste"
+    },
+    "experienceSection": {
+        "title": "Mijn Ervaring",
+        "description": "Ontdek mijn professionele reis en expertise via mijn uitgebreide werkervaringssectie",
+        "work": "Werk",
+        "volunteer": "Vrijwilligerswerk",
+        "education": "Opleiding"
+    },
+    "startProject": "Start een project",
+    "legalSection": {
+        "cookies": "Cookies",
+        "privacy": "Privacy"
+    },
+    "myself": "mij",
+    "aboutSection": {
+        "title": "Over",
+        "intro": "Hoi! Ik ben Kike Tordera.",
+        "codingPassion": "Programmeren? Dat is mijn ding! 🚀 Mijn wortels in coderen zijn diep, gevoed door rigoureuze studies en verrijkt met internationale flair. Raad eens? Zelfs als kind was ik de technische goeroe die iedereen benaderde, altijd bezig met computers.",
+        "craftingExperiences": "Maar hier is de twist: het gaat niet alleen om de code. Ik ben gepassioneerd over het creëren van ervaringen. 🎨 Voor mij zijn een strak ontwerp en een intuïtieve interface niet alleen de kers op de taart — het zijn essentiële ingrediënten.",
+        "createMagic": "Want uiteindelijk draait het allemaal om het creëren van iets dat meer is dan de som der delen. Klaar om samen magie te creëren?"
+    },
+    "resumeSection": {
+        "downloadHuman": "Curriculum Vitae Downloaden (Ontworpen voor Mensen)",
+        "downloadATS": "Curriculum Vitae Downloaden (Geoptimaliseerd voor ATS Software)"
+    },
+    "skillsSection": {
+        "title": "Mijn Vaardigheden",
+        "description": "Ontdek mijn scala aan vaardigheden en expertise in verschillende gebieden.",
+        "leadershipSkills": "Leiderschapsvaardigheden",
+        "softSkills": "Zachte Vaardigheden"
+    },
+    "educationSection": {
+        "title": "Onderwijsachtergrond",
+        "upv": {
+            "duration": "2012-2016",
+            "length": "4 jaar",
+            "university": "Polytechnische Universiteit Valencia",
+            "degree": "Bachelor in Computerwetenschappen",
+            "description": "Verworven bekwaamheid in softwareontwikkeling, beheersing van datastructuren en algoritmen, en verkenning van opkomende computertechnologieën, wat probleemoplossende en technische vaardigheden heeft verbeterd."
+        },
+        "czech": {
+            "duration": "2016-2017",
+            "length": "1 jaar",
+            "university": "Tsjechische Technische Universiteit in Praag",
+            "degree": "Specialisatie in Software Engineering",
+            "description": "Gespecialiseerd in Software Engineering aan de Tsjechische Technische Universiteit in Praag, met focus op geavanceerd programmeren, softwareontwerpprincipes en projectmanagementmethodologieën."
+        }
+    },
+    "skills": {
+        "softSkills": {
+            "effectiveCommunication": "Effectieve Communicatie",
+            "teamwork": "Teamwerk",
+            "problemSolving": "Probleemoplossing",
+            "timeManagement": "Tijdbeheer",
+            "adaptability": "Aanpassingsvermogen",
+            "leadership": "Leiderschap",
+            "empathy": "Empathie",
+            "activeListening": "Actief Luisteren",
+            "creativity": "Creativiteit"
+        },
+        "leadershipSkills": {
+            "criticalThinking": "Kritisch Denken",
+            "culturalSensitivity": "Culturele Gevoeligheid",
+            "conflictResolution": "Conflictoplossing",
+            "decisionMaking": "Besluitvorming",
+            "visionaryThinking": "Visionair Denken",
+            "teamBuilding": "Teamopbouw & Motivatie",
+            "strategicPlanning": "Strategische Planning",
+            "emotionalIntelligence": "Emotionele Intelligentie",
+            "negotiation": "Onderhandeling"
+        }
+    },
+    "languagesSection": {
+        "title": "Talen",
+        "spanish": {
+            "name": "Spaans",
+            "level": "Moedertaal"
+        },
+        "english": {
+            "name": "Engels",
+            "level": "C1 - Niveau"
+        },
+        "german": {
+            "name": "Duits",
+            "level": "A2 - Niveau"
+        },
+        "swahili": {
+            "name": "Swahili",
+            "level": "B1 - Niveau"
+        }
+    },
+    "navigation": {
+        "home": "Home",
+        "about": "Over",
+        "experience": "Ervaring",
+        "contact": "Contact"
+    }
 }
