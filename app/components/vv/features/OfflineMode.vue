@@ -1,31 +1,15 @@
 <template>
   <section>
-    <h2 data-aos="zoom-out-up">
-      {{ $t('technologiesSection.title') }}
-    </h2>
-    <div data-aos="zoom-out-up" class="card">
-      <div class="card-items">
-        <h4 class="vue">
-          {{ $t('technologiesSection.vue.title') }}
-        </h4>
+    <div data-aos="zoom-out-up" class="offline-mode">
+      <div class="title">
+        <img src="~assets/svg/vv/wifi.svg" alt="">
         <p>
-          {{ $t('technologiesSection.vue.description') }}
+          {{ $t('offlineModeSection.title') }}
         </p>
       </div>
-      <div class="card-items">
-        <h4 class="bootstrap">
-          {{ $t('technologiesSection.bootstrap.title') }}
-        </h4>
+      <div class="info">
         <p>
-          {{ $t('technologiesSection.bootstrap.description') }}
-        </p>
-      </div>
-      <div class="card-items">
-        <h4 class="gin">
-          {{ $t('technologiesSection.gin.title') }}
-        </h4>
-        <p>
-          {{ $t('technologiesSection.gin.description') }}
+          {{ $t('offlineModeSection.description') }}
         </p>
       </div>
     </div>
@@ -33,9 +17,6 @@
 </template>
 
 
-<script>
-
-</script>
 
 <style lang="scss" scoped>
 section {

@@ -3,7 +3,6 @@
     <h2 data-aos="zoom-out-up">
       {{ $t('technologiesSection.title') }}
     </h2>
-    <template>
   <div data-aos="zoom-out-up" class="card">
     <div class="card-items">
       <h4 class="vue">
@@ -30,10 +29,9 @@
       </p>
     </div>
   </div>
+</section>
 </template>
 
-  </section>
-</template>
 
 <style lang="scss" scoped>
 section {
