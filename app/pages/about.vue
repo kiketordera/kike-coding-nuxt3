@@ -8,11 +8,11 @@
 
 <script lang="ts" setup>
 const { t } = useI18n();
-
+const config = useRuntimeConfig()
 useSeoMeta({
-  title: `${t('seo.valueVillages.design.title')}`,
-  description: t('seo.valueVillages.design.description'),
-});
+  title: `${config.public.site?.name} | ${t("titleSEOAboutUs")}`,
+  description: t("descriptionSEOAboutUs"),
+})
 </script>
 
 <style lang="scss" scoped>

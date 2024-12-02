@@ -12,9 +12,11 @@
 
 <script lang="ts" setup>
 const { t } = useI18n();
-
+const config = useRuntimeConfig()
 useSeoMeta({
-  title: `${t('seo.valueVillages.home.title')}`,
-  description: t('seo.valueVillages.home.description'),
-});
+  title: `${config.public.site?.name} | ${t("titleSEOIndex")}`,
+  description: t("descriptionSEOIndex"),
+})
+
+
 </script>
