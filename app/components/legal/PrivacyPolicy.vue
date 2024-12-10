@@ -557,10 +557,10 @@ useSeoMeta({ robots: 'noindex' })
 
 const getCurrentYear = () => {
   const currentYear = new Date().getFullYear()
-  if (currentYear >= 2023) {
+  if (currentYear >= 2025) {
     return currentYear
   } else {
-    return 2023
+    return 2025
   }
 }
 

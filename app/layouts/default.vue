@@ -9,11 +9,6 @@
 </template>
 
 <script setup lang="ts">
-import { WhatsAppStateProvider } from '~/store/whatsapp'
-
-// When user tries to leave the page we show the whatapp popup
-const whatsAppState = WhatsAppStateProvider()
-
 defineOgImageScreenshot({
   screenshot: {
     mask: '.whatsapp-popup-button .cookies-container',

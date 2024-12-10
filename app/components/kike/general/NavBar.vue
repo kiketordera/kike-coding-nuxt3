@@ -1,7 +1,7 @@
 <template>
   <nav
     v-if="!isNavbarExpanded"
-    :class="{ 'bottom-gradient': scrollTop / 100 > 1, 'padding-0': isNavbarExpanded }"
+    :class="{ 'padding-0': isNavbarExpanded }"
     class="elevation-3"
   >
     <div class="nav-item show-desktop">
@@ -111,10 +111,7 @@ const { activeId } = useActiveScroll(targets, {
 });
 
 const route = useRoute()
-
 const isNavbarExpanded = ref(false)
-
-const scrollTop = ref(0)
 const isMobileMenuVisible = ref(false)
 
 const toggleNavbar = () => {
@@ -123,9 +120,6 @@ const toggleNavbar = () => {
 
 const visitLink = () => {
   isNavbarExpanded.value = false
-}
-function setScrollTop () {
-  scrollTop.value = document.scrollingElement!.scrollTop
 }
 
 function handleResize (): void {
@@ -141,7 +135,6 @@ return route.fullPath === fullpath
 }
 
 onBeforeUnmount(() => {
-  window.removeEventListener('scroll', setScrollTop)
   window.removeEventListener('resize', handleResize)
 })
 
