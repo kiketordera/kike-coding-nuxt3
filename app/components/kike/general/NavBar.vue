@@ -11,12 +11,12 @@
       <div id="mobile-menu" class="link-items">
         <ul>
           <li>
-            <NuxtLink to="/" :class="{'active':isActive('/') && linkstate.$state.isActive}">
+            <NuxtLink to="/" :class="{'active': isActive('/') && linkstate.$state.isActive}">
               // {{ $t('navigation.home') }}
             </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/about" :class="{'active':isActive('/about')}">
+            <NuxtLink to="/about" :class="{'active': isActive('/about')}">
               // {{ $t('navigation.about') }}
             </NuxtLink>
           </li>
@@ -132,7 +132,6 @@ function handleResize (): void {
 }
 
 function isActive (fullpath:string) {
-  // console.log(route.fullPath)
 return route.fullPath === fullpath
 }
 

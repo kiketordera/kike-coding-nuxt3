@@ -5,9 +5,9 @@
     <h2 data-aos="fade-up">
       {{ $t('projectsSection.title') }}
     </h2>
-    <p data-aos="zoom-in-right">
+    <!-- <p data-aos="zoom-in-right">
       {{ $t('projectsSection.subtitle') }}
-    </p>
+    </p> -->
   </div>
     </div>
     <kike-projects-Cards />
