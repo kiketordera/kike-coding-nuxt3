@@ -85,12 +85,27 @@ function getTime24Format (): string {
 }
 
 onMounted(() => {
+  // Show the whatapp popup when the user tries to leave the screen
+  document.addEventListener('mouseleave', handleMouseLeave)
+  // Show the whatsapp notification after 5 seconds
   setTimeout(() => {
     if (!whatsAppState.messageVisible) {
       whatsAppState.notificationVisible = true
     }
   }, 5000)
 })
+
+
+onBeforeUnmount(() => {
+  document.removeEventListener('mouseleave', handleMouseLeave)
+})
+
+function handleMouseLeave () {
+  if (!whatsAppState.notificationVisible) { return }
+  whatsAppState.showWhatsApp()
+}
+
+
 </script>
 
 <style lang="scss" scoped>
@@ -144,7 +159,7 @@ onMounted(() => {
         button {
           @apply w-4/5 py-2 px-8 my-5 font-bold rounded-full text-base;
           background-color: #46c056;
-          color: $form-color;
+          color: white;
         }
        }
     }

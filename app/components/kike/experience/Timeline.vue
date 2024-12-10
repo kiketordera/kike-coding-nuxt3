@@ -151,7 +151,7 @@ const firstEducationIndex = rev.findIndex(exp => exp.type === 'education')
       color: black;
     }
     p {
-      @apply mx-4 text-center;
+      @apply mx-4;
     }
     p.description {
       @apply mt-3;
@@ -187,7 +187,6 @@ const firstEducationIndex = rev.findIndex(exp => exp.type === 'education')
   .chip {
     @apply rounded-full px-3 py-1 text-xs;
     background-color: $light-gray;
-    color: $dark-gray;
     font-family: $source-code-bold;
     border: 1px solid;
   }

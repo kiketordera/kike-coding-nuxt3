@@ -1,37 +1,35 @@
 <template>
-  <section>
+  <section id="about">
     <div class="about">
       <h2 data-aos="fade-up">About</h2>
-      <template>
-  <div class="info">
-    <p>
-      {{ $t('introSection.passionate') }}
-      <span class="blue">{{ $t('introSection.mobileDeveloper') }}</span>
-      {{ $t('introSection.withExpertise') }}
-      <span class="orange">{{ $t('introSection.uxUiDesign') }}</span>,
-      {{ $t('introSection.specializing') }}
-    </p>
-    <p>
-      {{ $t('introSection.skills') }}
-    </p>
-    <p>
-      {{ $t('introSection.innovate') }}
-    </p>
-    <p data-aos="zoom-in-right">
-      {{ $t('introSection.build') }}
-      <br />
-      <span class="blue">{{ $t('introSection.blend') }}</span>
-    </p>
-    <p>
-      {{ $t('introSection.collaborate') }}
-    </p>
-    <br />
-    <NuxtLink data-aos="fade-down" href="/about">
-      {{ $t('introSection.readMore') }}
-    </NuxtLink>
-  </div>
-</template>
-
+      <div class="info">
+        <p>
+          {{ $t("introSection.passionate") }}
+          <span class="blue">{{ $t("introSection.mobileDeveloper") }}</span>
+          {{ $t("introSection.withExpertise") }}
+          <span class="orange">{{ $t("introSection.uxUiDesign") }}</span
+          >,
+          {{ $t("introSection.specializing") }}
+        </p>
+        <p>
+          {{ $t("introSection.skills") }}
+        </p>
+        <p>
+          {{ $t("introSection.innovate") }}
+        </p>
+        <p data-aos="zoom-in-right">
+          {{ $t("introSection.build") }}
+          <br />
+          <span class="blue">{{ $t("introSection.blend") }}</span>
+        </p>
+        <p>
+          {{ $t("introSection.collaborate") }}
+        </p>
+        <br />
+        <NuxtLink data-aos="fade-down" href="/about">
+          {{ $t("introSection.readMore") }}
+        </NuxtLink>
+      </div>
     </div>
   </section>
 </template>

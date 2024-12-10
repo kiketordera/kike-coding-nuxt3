@@ -11,22 +11,22 @@
       <div id="mobile-menu" class="link-items">
         <ul>
           <li>
-            <NuxtLink to="/" :class="{'active': isActive('/') && linkstate.$state.isActive}">
+            <NuxtLink to="/" :class="{'active': isRouteEqualTo('/') && 'home' === activeId}">
               // {{ $t('navigation.home') }}
             </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/about" :class="{'active': isActive('/about')}">
+            <NuxtLink to="/about" :class="{'active': isRouteEqualTo('/about') || 'about' === activeId}">
               // {{ $t('navigation.about') }}
             </NuxtLink>
           </li>
           <li>
-            <NuxtLink :to="{path:'/', hash:'#work'}" :class="{'active': props.currentSection==='work'}" @click="onClick">
+            <NuxtLink :to="{path:'/', hash:'#expereince'}" :class="{'active': isRouteEqualTo('/') && 'expereince' === activeId}">
               // {{ $t('navigation.experience') }}
             </NuxtLink>
           </li>
           <li>
-            <NuxtLink :to="{path:'/', hash:'#contact'}" :class="{'active': props.currentSection==='contact'}" @click="onClick">
+            <NuxtLink :to="{path:'/', hash:'#contact'}" :class="{'active': isRouteEqualTo('/') && 'contact' === activeId}">
               // {{ $t('navigation.contact') }}
             </NuxtLink>
           </li>
@@ -73,22 +73,22 @@
       <div class="link-items">
         <ul>
           <li @click="visitLink">
-            <NuxtLink to="/" :class="{'active':isActive('/') && linkstate.$state.isActive}" aria-current="page">
+            <NuxtLink to="/" :class="{'active': isRouteEqualTo('/') && 'home' === activeId}">
               // {{ $t('navigation.home') }}
             </NuxtLink>
           </li>
           <li @click="visitLink">
-            <NuxtLink to="/about" :class="{'active':isActive('/about')}">
+            <NuxtLink to="/about" :class="{'active':isRouteEqualTo('/about')}">
               // {{ $t('navigation.about') }}
             </NuxtLink>
           </li>
           <li @click="visitLink">
-            <NuxtLink :to="{path:'/', hash:'#work'}" :class="{'active':props.currentSection==='work'}" @click="onClick">
+            <NuxtLink :to="{path:'/', hash:'#expereince'}" :class="{'active': isRouteEqualTo('/') && 'expereince' === activeId}">
               // {{ $t('navigation.experience') }}
             </NuxtLink>
           </li>
           <li @click="visitLink">
-            <NuxtLink :class="{'active':props.currentSection==='contact'}" @click="onClick">
+            <NuxtLink :class="{'active': isRouteEqualTo('/') && 'contact' === activeId}">
               // {{ $t('navigation.contact') }}
             </NuxtLink>
           </li>
@@ -102,9 +102,14 @@
 </template>
 
 <script setup lang="ts">
-import { LinkActiveStateProvider } from '~/store/linkactive'
+import { useActiveScroll } from "vue-use-active-scroll";
 
-const linkstate = LinkActiveStateProvider()
+const targets = ref(["home", "about", "expereince", "contact"]);
+const { activeId } = useActiveScroll(targets, {
+  overlayHeight: 100,
+  replaceHash: false,
+});
+
 const route = useRoute()
 
 const isNavbarExpanded = ref(false)
@@ -131,7 +136,7 @@ function handleResize (): void {
   }
 }
 
-function isActive (fullpath:string) {
+function isRouteEqualTo (fullpath:string) {
 return route.fullPath === fullpath
 }
 
@@ -140,20 +145,6 @@ onBeforeUnmount(() => {
   window.removeEventListener('resize', handleResize)
 })
 
-interface Props {
-  currentSection: string
-}
-
-const props = withDefaults(defineProps<Props>(), {
-  currentSection: ''
-})
-
-const emit = defineEmits(['sectionClicked'])
-
-const onClick = (e: MouseEvent) => {
-  const section = (e.target as HTMLAnchorElement).getAttribute('href')?.substring(2) || ''
-  emit('sectionClicked', { section })
-}
 </script>
 
 <style lang="scss" scoped>
@@ -167,7 +158,7 @@ const onClick = (e: MouseEvent) => {
 
 nav {
   @apply w-full fixed z-30 top-0 px-4 py-3;
-   background-color: #131212;
+  background-color: #131212;
   color: #595959;
   border-bottom: 1px solid $sea-serpent;
 

@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="home">
     <div class="info">
       <div class="content">
         <h2 class="mb-0" data-aos="zoom-in-up">

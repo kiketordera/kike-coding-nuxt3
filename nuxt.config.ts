@@ -64,7 +64,7 @@ export default defineNuxtConfig({
       link: [{ rel: "icon", type: "image/png", href: "/favicon.png" }],
       titleTemplate: "",
       style: [
-        { children: "html, body { background-color: black; }" },
+        { children: "html, body { background-color: #131212; }" },
         { children: "html, body { overflow-x: hidden; }" },
       ],
     },

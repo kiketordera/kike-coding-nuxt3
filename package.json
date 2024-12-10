@@ -29,6 +29,7 @@
     "nuxt": "^3.14.159",
     "sass": "^1.80.6",
     "nuxt-gtag": "^3.0.1",
-    "swiper": "^11.1.14"
+    "swiper": "^11.1.14",
+		"vue-use-active-scroll": "^1.1.3"
   }
 }
