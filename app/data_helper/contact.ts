@@ -1,6 +1,6 @@
 export class ContactInformation {
-  static countryCode = '+49'
-  static phoneNumber = '17683185567'
+  static countryCode = '+34'
+  static phoneNumber = '604 806 387'
   static email = 'kiketordera@gmail.com'
   static city = 'Berlin'
   static location = 'Berlin, Germany'
