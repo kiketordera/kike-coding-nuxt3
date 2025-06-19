@@ -4,6 +4,7 @@ import { availableLanguages } from "./app/composables/getI18n";
 
 
 export default defineNuxtConfig({
+  ssr: false, // Disable SSR for SPA mode
   devtools: { enabled: true },
   future: {
     compatibilityVersion: 4,
@@ -36,13 +37,19 @@ export default defineNuxtConfig({
     // Optimizations
     "nuxt-delay-hydration",
     "@nuxt/image",
-    "@vite-pwa/nuxt",
   ],
   build: {
-    transpile: ["vuetify"],
+    transpile: ["vuetify", "firebase-functions", "protobufjs"],
   },
   // SCSS
   vite: {
+    build: {
+      rollupOptions: {
+        output: {
+          format: 'es',
+        },
+      },
+    },
     css: {
       preprocessorOptions: {
         sass: {
@@ -186,7 +193,7 @@ export default defineNuxtConfig({
             fr: "Ces cookies recueillent des informations sur le nombre de personnes qui visitent et utilisent notre site Web. Les désactiver signifie que nous ne pouvons pas recueillir d'informations pour améliorer l'expérience.",
           },
           links: {
-            "https://www.bohemiantattoo.eu/legal/cookies-policy": 'Cookies Policy',
+            "https://kike.me/legal/cookies-policy": 'Cookies Policy',
           },
         }
       ],
@@ -281,7 +288,14 @@ export default defineNuxtConfig({
       routes: ["/"],
     },
     preset: "firebase",
-    firebase: { nodeVersion: "18", gen: 1, region: "us-central1" },
+    firebase: {
+      nodeVersion: "18",
+      gen: 2,
+      httpsOptions: {
+      region: 'europe-west1',
+      maxInstances: 3,
+      },
+    },
     serverAssets: [
       {
         baseName: "authkey",

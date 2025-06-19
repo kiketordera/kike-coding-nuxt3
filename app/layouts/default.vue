@@ -9,12 +9,12 @@
 </template>
 
 <script setup lang="ts">
-defineOgImageScreenshot({
-  screenshot: {
-    mask: '.whatsapp-popup-button .cookies-container',
-    delay: 10000
-  }
-})
+// defineOgImageScreenshot({
+  //screenshot: {
+   // mask: '.whatsapp-popup-button .cookies-container',
+   // delay: 10000
+ // }
+//})
 
 </script>
 
