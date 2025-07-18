@@ -41,7 +41,7 @@ section {
       @apply grid grid-cols-1 md:grid-cols-2 gap-4;
       
       .app-card {
-        @apply flex rounded-3xl overflow-hidden h-[135px] pr-4 cursor-pointer;
+        @apply flex rounded-2xl overflow-hidden h-[135px] pr-4 cursor-pointer;
         border: 1px solid white;
 
         &:hover {
