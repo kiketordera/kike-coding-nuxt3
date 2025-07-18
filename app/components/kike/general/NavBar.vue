@@ -21,7 +21,7 @@
             </NuxtLink>
           </li>
           <li>
-            <NuxtLink :to="{path:'/', hash:'#expereince'}" :class="{'active': isRouteEqualTo('/') && 'expereince' === activeId}">
+            <NuxtLink :to="{path:'/', hash:'#experience'}" :class="{'active': isRouteEqualTo('/') && 'experience' === activeId}">
               // {{ $t('navigation.experience') }}
             </NuxtLink>
           </li>
@@ -83,7 +83,7 @@
             </NuxtLink>
           </li>
           <li @click="visitLink">
-            <NuxtLink :to="{path:'/', hash:'#expereince'}" :class="{'active': isRouteEqualTo('/') && 'expereince' === activeId}">
+            <NuxtLink :to="{path:'/', hash:'#experience'}" :class="{'active': isRouteEqualTo('/') && 'experience' === activeId}">
               // {{ $t('navigation.experience') }}
             </NuxtLink>
           </li>
@@ -104,7 +104,7 @@
 <script setup lang="ts">
 import { useActiveScroll } from "vue-use-active-scroll";
 
-const targets = ref(["home", "about", "expereince", "contact"]);
+const targets = ref(["home", "about", "experience", "contact"]);
 const { activeId } = useActiveScroll(targets, {
   overlayHeight: 100,
   replaceHash: false,

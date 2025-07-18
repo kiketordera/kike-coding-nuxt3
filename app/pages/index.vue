@@ -3,7 +3,8 @@
     <KikeIndexInformation />
     <general-ContinuousScroll />
     <kike-index-About />
-    <div id="expereince">
+    <kike-index-AppsDeveloped />
+    <div id="experience">
       <kike-projects-Work />
       <kike-experience-Timeline />
     </div>
@@ -19,6 +20,4 @@ useSeoMeta({
   title: `${config.public.site?.name} | ${t("titleSEOIndex")}`,
   description: t("descriptionSEOIndex"),
 })
-
-
 </script>
