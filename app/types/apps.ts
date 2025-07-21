@@ -14,7 +14,7 @@ export const MyChefMateApp: App = {
   description: 'MyChefMate is your smart kitchen companion: plan meals, discover new recipes, and manage your nutrition with ease.',
   accentColor: '#EB8777',
   isDark: false,
-  appStoreURL: 'https://apps.apple.com/es/app/mychefmate-meal-planner/id6741718529',
+  appStoreURL: 'https://apps.apple.com/app/id6741718529',
 }
 
 export const MyBodyMateApp: App = {
@@ -23,7 +23,7 @@ export const MyBodyMateApp: App = {
   description: 'MyBodyMate helps you track your fitness journey, monitor progress, and stay motivated to reach your health goals.',
   accentColor: '#FF9E5E',
   isDark: true,
-  appStoreURL: "",
+  appStoreURL: "https://apps.apple.com/app/id6747906886",
 }
 
 export const MyFoodMateApp: App = {

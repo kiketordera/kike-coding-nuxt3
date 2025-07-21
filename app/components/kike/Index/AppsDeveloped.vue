@@ -3,19 +3,20 @@
     <div class="about">
       <h2 data-aos="fade-up">Some of my Apps</h2>
       <div class="grid-apps">
-        <NuxtLink
+        <a
           v-for="app in developApps"
           :key="app.id"
-          :to="app.appStoreURL"
+          :href="app.appStoreURL"
           class="app-card"
           data-aos="fade-up"
+          target="_blank"
         >
           <img :src="`/apps/logos/${app.id}.png`" :alt="app.name" class="app-image" />
           <div class="">
             <h3 class="app-title" :style="{ color: app.accentColor }">{{ app.name }}</h3>
             <h4 class="app-body">{{ app.description }}</h4>
           </div>
-        </NuxtLink>
+        </a>
       </div>
     </div>
   </section>
