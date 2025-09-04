@@ -1,8 +1,9 @@
 import { defineStore } from 'pinia'
 import type { WhatsAppState } from '~/types/types'
 
-export const WhatsAppStateProvider = defineStore({
-  id: 'whatsapp-kike-coding',
+export const WhatsAppStateProvider = defineStore(
+  'whatsapp-kike-coding',
+  {
   state: (): WhatsAppState => ({
     show: false,
     messageVisible: false,

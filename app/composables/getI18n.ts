@@ -1,4 +1,4 @@
-import type { Locale } from "@dargmuesli/nuxt-cookie-control/runtime/types";
+import type { Locale } from "@dargmuesli/nuxt-cookie-control/runtime/types.js";
 
 // Fix for using availableLanguages in nuxtConfig. Delete if bug updated
 // Exclude 'sl' from the CookieLocale if it's present

@@ -18,11 +18,6 @@ export default defineNuxtConfig({
   routeRules: {
     "**": { prerender: true },
   },
-  // For the package `nuxt-delay-hydration`
-  delayHydration: {
-    debug: true,
-    mode: "init",
-  },
   // Packages
   modules: [
     "@dargmuesli/nuxt-cookie-control",
@@ -35,7 +30,6 @@ export default defineNuxtConfig({
     "nuxt-gtag",
     "@nuxtjs/seo",
     // Optimizations
-    "nuxt-delay-hydration",
     "@nuxt/image",
   ],
   build: {
@@ -52,11 +46,7 @@ export default defineNuxtConfig({
     },
     css: {
       preprocessorOptions: {
-        sass: {
-          api: "modern",
-        },
         scss: {
-          api: "modern",
           additionalData: `
           @use "@/assets/scss/variables" as *;
           @use "@/assets/scss/base" as *;
@@ -247,7 +237,6 @@ export default defineNuxtConfig({
   i18n: {
     strategy: "no_prefix",
     baseUrl: ContactInformation.fullURL,
-    lazy: true,
     locales: [
       {
         code: "es",
