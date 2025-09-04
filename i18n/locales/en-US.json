@@ -152,5 +152,23 @@
   "titleSEOIndex": "Kike Tordera | UX/UI Engineer & Full-Stack Developer",
   "descriptionSEOIndex": "Explore Kike Tordera’s portfolio as a seasoned UX/UI engineer and full-stack developer specializing in creating seamless digital experiences.",
   "titleSEOAboutUs": "About Kike Tordera | A Journey in Tech & Innovation",
-  "descriptionSEOAboutUs": "Discover the story of Kike Tordera, a passionate UX/UI engineer and full-stack developer, blending creativity and technology to build user-centered digital experiences."
+  "descriptionSEOAboutUs": "Discover the story of Kike Tordera, a passionate UX/UI engineer and full-stack developer, blending creativity and technology to build user-centered digital experiences.",
+  "apps": {
+    "title": "Some of my Apps",
+    "mychefmate": {
+      "description": "MyChefMate is your smart kitchen companion: plan meals, discover new recipes, and manage your nutrition with ease."
+    },
+    "mybodymate": {
+      "description": "MyBodyMate helps you track your fitness journey, monitor progress, and stay motivated to reach your health goals."
+    },
+    "myfoodmate": {
+      "description": "MyFoodMate helps you scan, track, and understand what you eat with instant food recognition and smart analysis."
+    },
+    "myheadshot": {
+      "description": "MyHeadshot helps you capture and enhance your profile pictures with AI-driven suggestions and editing tools."
+    },
+    "myscanner": {
+      "description": "MyScanner helps you scan, track, and understand what you eat with instant food recognition and smart analysis."
+    }
+  }
 }

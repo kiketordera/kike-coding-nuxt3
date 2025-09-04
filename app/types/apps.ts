@@ -2,7 +2,6 @@
 export interface App {
   id: string
   name: string
-  description: string
   accentColor: string
   appStoreURL: string
   isDark: boolean
@@ -11,7 +10,6 @@ export interface App {
 export const MyChefMateApp: App = {
   id: 'mychefmate',
   name: 'MyChefMate',
-  description: 'MyChefMate is your smart kitchen companion: plan meals, discover new recipes, and manage your nutrition with ease.',
   accentColor: '#EB8777',
   isDark: false,
   appStoreURL: 'https://apps.apple.com/app/id6741718529',
@@ -20,7 +18,6 @@ export const MyChefMateApp: App = {
 export const MyBodyMateApp: App = {
   id: 'mybodymate',
   name: 'MyBodyMate',
-  description: 'MyBodyMate helps you track your fitness journey, monitor progress, and stay motivated to reach your health goals.',
   accentColor: '#FF9E5E',
   isDark: true,
   appStoreURL: "https://apps.apple.com/app/id6747906886",
@@ -29,7 +26,6 @@ export const MyBodyMateApp: App = {
 export const MyFoodMateApp: App = {
   id: 'myfoodmate',
   name: 'MyFoodMate',
-  description: 'MyFoodMate helps you scan, track, and understand what you eat with instant food recognition and smart analysis.',
   accentColor: '#A87BD3',
   appStoreURL: "https://apps.apple.com/app/id6748889525",
   isDark: true,
@@ -38,7 +34,6 @@ export const MyFoodMateApp: App = {
 export const MyHeadshotApp: App = {
   id: 'myheadshot',
   name: 'MyHeadshot',
-  description: 'MyHeadshot helps you capture and enhance your profile pictures with AI-driven suggestions and editing tools.',
   accentColor: '#005B8F',
   appStoreURL: "https://apps.apple.com/app/id6749377385",
   isDark: true,
@@ -47,7 +42,6 @@ export const MyHeadshotApp: App = {
 export const MyScannerApp: App = {
   id: 'myscanner',
   name: 'MyScanner',
-  description: 'MyScanner helps you scan, track, and understand what you eat with instant food recognition and smart analysis.',
   accentColor: '#007C91',
   appStoreURL: "https://apps.apple.com/app/id6749808333",
   isDark: true,
@@ -56,7 +50,6 @@ export const MyScannerApp: App = {
 export const TheMateClubApp: App = {
   id: 'themateclub',
   name: 'TheMateClub',
-  description: 'TheMateClub is your all-in-one hub for health and wellness apps, offering personalized solutions to help you achieve your fitness and nutrition goals.',
   accentColor: '#A87BD3',
   appStoreURL: "",
   isDark: true,

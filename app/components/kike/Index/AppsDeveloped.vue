@@ -1,7 +1,7 @@
 <template>
   <section id="apps">
     <div class="about">
-      <h2 data-aos="fade-up">Some of my Apps</h2>
+      <h2 data-aos="fade-up"> {{ $t('apps.title') }}</h2>
       <div class="grid-apps">
         <a
           v-for="app in developApps"
@@ -14,7 +14,7 @@
           <img :src="`/apps/logos/${app.id}.png`" :alt="app.name" class="app-image" />
           <div class="">
             <h3 class="app-title" :style="{ color: app.accentColor }">{{ app.name }}</h3>
-            <h4 class="app-body">{{ app.description }}</h4>
+            <h4 class="app-body">{{ $t(`apps.${app.id}.description`) }}</h4>
           </div>
         </a>
       </div>
