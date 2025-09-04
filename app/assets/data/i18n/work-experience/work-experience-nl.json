@@ -3,7 +3,7 @@
         "title": "Android Ontwikkelaar",
         "nameCompany": "Mongoolse Universiteit voor Wetenschap en Technologie",
         "img": "/experience/mongolia.jpeg",
-        "type": "onderwijs",
+        "type": "education",
         "description": [
             "Aan de Mongoolse Universiteit voor Wetenschap en Technologie heb ik mijn vaardigheden als Android Ontwikkelaar verfijnd, met de nadruk op Java-applicaties voor Android.",
             "Ik ontwikkelde een REST-client die verbinding maakt met middleware voor GET- en POST-verzoeken. Ik integreerde een sensorsysteem voor realtime toegang, externe activering en wereldwijde monitoring via Wi-Fi.",
@@ -26,7 +26,7 @@
         "title": "iOS Ontwikkelaar",
         "nameCompany": "CodeWell",
         "img": "/experience/codewell.jpeg",
-        "type": "onderwijs",
+        "type": "education",
         "description": [
             "Bij CodeWell verdiepte ik me in iOS-ontwikkeling met behulp van Xcode, Swift en Objective-C. Ik droeg bij aan projecten zoals de 'Summer Ohrid Festival' app en een andere app om beperkingen en code te begrijpen.",
             "Ik werkte met Google Firebase, CoreData en externe frameworks zoals SDWebImage, TTTAttributedLabel en SnapKit. Ik ontwierp app-interfaces en maakte iOS-animaties met behulp van Bezier Path en meer.",
@@ -49,7 +49,7 @@
         "title": "Front End Ontwikkelaar",
         "nameCompany": "Universitat Politècnica de València (UPV)",
         "img": "/experience/upv.svg",
-        "type": "werk",
+        "type": "work",
         "description": [
             "Aan de Doctorale School van de Universitat Politècnica de València speelde ik een cruciale rol bij het updaten van de schoolwebsite als Frontend Ontwikkelaar.",
             "Ik creëerde HTML-inhoud, zorgde voor uniforme opmaak met HTML/CSS en behield de visuele nauwkeurigheid van de site.",
@@ -72,7 +72,7 @@
         "title": "Mentor Webontwikkeling & UX/UI Design",
         "nameCompany": "Learning Lions",
         "img": "/experience/learning.png",
-        "type": "vrijwilligerswerk",
+        "type": "volunteer",
         "description": [
             "In Lodwar voor mijn afstudeerproject bood ik me aan als vrijwilliger voor Learning and Service, waarbij ik technologie promootte voor een betere toekomst.",
             "Ik ontwierp educatieve modules, evaluaties en bood mentoring en onderwijs aan studenten.",
@@ -96,7 +96,7 @@
         "title": "Full Stack Ontwikkelaar & UI Designer",
         "nameCompany": "Value Villages",
         "img": "/experience/vv.png",
-        "type": "werk",
+        "type": "work",
         "description": [
             "Bij Value Villages speelde ik een essentiële rol in het creëren van software voor NGO's die armoede bestrijden, met de focus op beroepsopleiding.",
             "Ik ontwierp interfaces en implementeerde full-stack oplossingen, gericht op het versterken van individuen door middel van kennis en training.",
@@ -119,7 +119,7 @@
         "title": "Senior Mobile Ontwikkelaar",
         "nameCompany": "Oculid",
         "img": "/img/projects/oculid/logo.svg",
-        "type": "werk",
+        "type": "work",
         "description": [
             "Bij Oculid leidde ik de ontwikkeling van een mobiele app die de oogbewegingen van gebruikers volgt, waardoor gebruikerstesten en UX-analyse werden verbeterd.",
             "We verzamelden oogpositiegegevens en maakten gebruik van machine learning voor datavisualisaties zoals heatmaps, die inzicht boden in gebruikers-product interacties.",
@@ -144,7 +144,7 @@
         "title": "Senior Mobile Ontwikkelaar",
         "nameCompany": "Circus",
         "img": "/experience/circus.svg",
-        "type": "werk",
+        "type": "work",
         "description": [
             "Bij Circus, als Senior Frontend Ontwikkelaar in het Flutter-team, werkte ik aan productonderhoud en de implementatie van nieuwe functies.",
             "Onze app, gebruikt door duizenden, breidt maandelijks uit naar nieuwe locaties, wat efficiënte gebruikersbeheer vereist.",
@@ -169,7 +169,7 @@
         "title": "Lead Ontwikkelaar",
         "nameCompany": "Totem Studio",
         "img": "/experience/totem-logo.svg",
-        "type": "werk",
+        "type": "work",
         "description": [
             "Als Hoofd Ontwikkeling bij The Totem Studio superviseer ik de ontwikkeling van verschillende web- en mobiele applicaties.",
             "Ik zorgde voor de codekwaliteit, werkte samen met klanten voor vereisten, beheerste een ontwikkelaarsteam en superviseerde code- en projectlanceringen.",

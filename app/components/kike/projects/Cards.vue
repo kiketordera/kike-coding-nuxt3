@@ -40,7 +40,7 @@
   </ClientOnly>
   <div class="mt-12 text-center">
     <NuxtLink data-aos="fade-down" :to="currentProject" class="button">
-      Dive in
+      {{ $t("diveIn") }}
     </NuxtLink>
   </div>
 </template>

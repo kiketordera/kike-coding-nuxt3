@@ -3,7 +3,7 @@
         "title": "Desenvolvedor Android",
         "nameCompany": "Universidade Mongol de Ciência e Tecnologia",
         "img": "/experience/mongolia.jpeg",
-        "type": "educação",
+        "type": "education",
         "description": [
             "Na Universidade Mongol de Ciência e Tecnologia, aperfeiçoei minhas habilidades como Desenvolvedor Android, focando em aplicações Java para Android.",
             "Desenvolvi um cliente REST conectando-se a middleware para requisições GET e POST. Integrei um sistema de sensores para acesso em tempo real, ativação remota e monitoramento global via Wi-Fi.",
@@ -26,7 +26,7 @@
         "title": "Desenvolvedor iOS",
         "nameCompany": "CodeWell",
         "img": "/experience/codewell.jpeg",
-        "type": "educação",
+        "type": "education",
         "description": [
             "Na CodeWell, me aprofundei no desenvolvimento de iOS usando Xcode, Swift e Objective-C. Contribuí para projetos como o aplicativo 'Summer Ohrid Festival' e outro aplicativo para entender restrições e código.",
             "Trabalhei com Google Firebase, CoreData e frameworks de terceiros como SDWebImage, TTTAttributedLabel e SnapKit. Projetei interfaces de aplicativos e criei animações iOS usando Bezier Path e mais.",
@@ -49,7 +49,7 @@
         "title": "Desenvolvedor Front End",
         "nameCompany": "Universitat Politècnica de València (UPV)",
         "img": "/experience/upv.svg",
-        "type": "trabalho",
+        "type": "work",
         "description": [
             "Na Escola Doutoral da Universitat Politècnica de València, fui fundamental na atualização do site da escola como Desenvolvedor Frontend.",
             "Criei conteúdo HTML, assegurei formatação uniforme com HTML/CSS e mantive a precisão visual do site.",
@@ -72,7 +72,7 @@
         "title": "Mentor de Desenvolvimento Web & Design UX/UI",
         "nameCompany": "Learning Lions",
         "img": "/experience/learning.png",
-        "type": "voluntariado",
+        "type": "volunteer",
         "description": [
             "Em Lodwar para meu projeto final universitário, me ofereci como voluntário para Learning and Service, promovendo a tecnologia para um futuro mais brilhante.",
             "Criei módulos educacionais, avaliações e forneci mentoria e ensino para os estudantes.",
@@ -96,7 +96,7 @@
         "title": "Desenvolvedor Full Stack & Designer UI",
         "nameCompany": "Value Villages",
         "img": "/experience/vv.png",
-        "type": "trabalho",
+        "type": "work",
         "description": [
             "Na Value Villages, fui instrumental na criação de software para ONGs que combatem a pobreza, focando no treinamento vocacional.",
             "Projetei interfaces e implementei soluções full-stack, centralizando no empoderamento de indivíduos através do conhecimento e treinamento.",
@@ -119,7 +119,7 @@
         "title": "Desenvolvedor Móvel Sênior",
         "nameCompany": "Oculid",
         "img": "/img/projects/oculid/logo.svg",
-        "type": "trabalho",
+        "type": "work",
         "description": [
             "Na Oculid, liderei o desenvolvimento de um aplicativo móvel que rastreia os movimentos oculares dos usuários, melhorando os testes de usuário e a análise UX.",
             "Coletamos dados de posição ocular, utilizando aprendizado de máquina para visualizações de dados como mapas de calor, oferecendo insights sobre as interações usuário-produto.",
@@ -144,7 +144,7 @@
         "title": "Desenvolvedor Móvel Sênior",
         "nameCompany": "Circus",
         "img": "/experience/circus.svg",
-        "type": "trabalho",
+        "type": "work",
         "description": [
             "Na Circus, como Desenvolvedor Frontend Sênior na equipe Flutter, trabalhei na manutenção do produto e na implementação de novas funcionalidades.",
             "Nosso aplicativo, usado por milhares, expande para novos locais mensalmente, necessitando de uma gestão eficiente da base de usuários.",
@@ -169,7 +169,7 @@
         "title": "Desenvolvedor Líder",
         "nameCompany": "Totem Studio",
         "img": "/experience/totem-logo.svg",
-        "type": "trabalho",
+        "type": "work",
         "description": [
             "Como Chefe de Desenvolvimento na The Totem Studio, supervisiono o desenvolvimento de várias aplicações web e móveis.",
             "Asseguro a qualidade do código, colaboro com os clientes para definir requisitos, gerencio uma equipe de desenvolvedores e superviso lançamentos de código e projetos.",

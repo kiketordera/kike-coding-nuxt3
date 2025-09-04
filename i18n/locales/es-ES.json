@@ -170,5 +170,6 @@
         "myscanner": {
             "description": "MyScanner te ayuda a escanear documentos y extraer texto con facilidad gracias a su avanzada tecnología OCR."
         }
-    }
+    },
+    "diveIn": "Entrar"
 }

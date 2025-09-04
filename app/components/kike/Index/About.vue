@@ -1,7 +1,7 @@
 <template>
   <section id="about">
     <div class="about">
-      <h2 data-aos="fade-up">About</h2>
+      <h2 data-aos="fade-up">{{ $t("aboutSection.title") }}</h2>
       <div class="info">
         <p>
           {{ $t("introSection.passionate") }}

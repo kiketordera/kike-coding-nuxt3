@@ -3,7 +3,7 @@
         "title": "Mtaalamu wa Android",
         "nameCompany": "Chuo Kikuu cha Sayansi na Teknolojia cha Mongolia",
         "img": "/experience/mongolia.jpeg",
-        "type": "elimisha",
+        "type": "education",
         "description": [
             "Katika Chuo Kikuu cha Sayansi na Teknolojia cha Mongolia, niliboresha uwezo wangu kama Mtaalamu wa Android, nikizingatia programu za Java kwa Android.",
             "Nilitengeneza mteja wa REST unaounganisha na middleware kwa maombi ya GET na POST. Nilitambua mfumo wa sensa kwa upatikanaji wa wakati halisi, kuamsha mbali, na ufuatiliaji wa kimataifa kwa Wi-Fi.",
@@ -26,7 +26,7 @@
         "title": "Mtaalamu wa iOS",
         "nameCompany": "CodeWell",
         "img": "/experience/codewell.jpeg",
-        "type": "elimisha",
+        "type": "education",
         "description": [
             "Katika CodeWell, nilianza katika maendeleo ya iOS kwa kutumia Xcode, Swift, na Objective-C. Nilitumia katika miradi kama programu ya 'Summer Ohrid Festival' na programu nyingine kuelewa vikwazo na msimbo.",
             "Nilifanya kazi na Google Firebase, CoreData, na frameworks za watu wengine kama SDWebImage, TTTAttributedLabel, na SnapKit. Nilitengeneza interfaces za programu na kuunda animations za iOS kwa kutumia Bezier Path na zaidi.",
@@ -49,7 +49,7 @@
         "title": "Mtaalamu wa Front End",
         "nameCompany": "Universitat Politècnica de València (UPV)",
         "img": "/experience/upv.svg",
-        "type": "kazi",
+        "type": "work",
         "description": [
             "Katika Shule ya Udaktari ya Universitat Politècnica de València, nilikuwa muhimu katika kusasisha tovuti ya shule kama Mtaalamu wa Frontend.",
             "Nilitengeneza maudhui ya HTML, kuhakikisha muundo wa kawaida kwa HTML/CSS, na kudumisha usahihi wa kuona wa tovuti.",
@@ -72,7 +72,7 @@
         "title": "Mwalimu Mkuu wa Web Development & UX/UI Design",
         "nameCompany": "Learning Lions",
         "img": "/experience/learning.png",
-        "type": "uhalifu",
+        "type": "volunteer",
         "description": [
             "Katika Lodwar kwa mradi wangu wa mwisho wa chuo kikuu, nilihudhuria kwa hiari kwa Learning and Service, kukuza teknolojia kwa mustakabali mwema.",
             "Nilitengeneza moduli za kielimu, tathmini, na kutoa ushauri na ualimu kwa wanafunzi.",
@@ -96,7 +96,7 @@
         "title": "Mtaalamu wa Full Stack & UI Designer",
         "nameCompany": "Value Villages",
         "img": "/experience/vv.png",
-        "type": "kazi",
+        "type": "work",
         "description": [
             "Katika Value Villages, nilikuwa muhimu katika kuunda programu kwa NGO zinazopambana na umaskini, ikizingatia mafunzo ya taaluma.",
             "Nilitengeneza interfaces na kutekeleza suluhisho za full-stack, ikizingatia kuimarisha watu kupitia maarifa na mafunzo.",
@@ -119,7 +119,7 @@
         "title": "Mtaalamu wa Mobile Mkuu",
         "nameCompany": "Oculid",
         "img": "/img/projects/oculid/logo.svg",
-        "type": "kazi",
+        "type": "work",
         "description": [
             "Katika Oculid, niliongoza maendeleo ya programu ya simu inayofuatilia mizunguko ya macho ya watumiaji, kuboresha majaribio ya watumiaji na uchambuzi wa UX.",
             "Tulikusanya data ya nafasi ya macho, tukitumia kujifunza kwa mashine kwa uonyeshaji wa data kama ramani za joto, kutoa taarifa kuhusu ushirikiano wa mtumiaji bidhaa.",
@@ -144,7 +144,7 @@
         "title": "Mtaalamu wa Mobile Mkuu",
         "nameCompany": "Circus",
         "img": "/experience/circus.svg",
-        "type": "kazi",
+        "type": "work",
         "description": [
             "Katika Circus, kama Mtaalamu wa Frontend Mkuu kwenye timu ya Flutter, nilifanya kazi kwenye utunzaji wa bidhaa na utekelezaji wa vipengele vipya.",
             "Programu yetu, inayotumiwa na maelfu, inapanuka katika maeneo mapya kila mwezi, ikihitaji usimamizi mzuri wa msingi wa watumiaji.",
@@ -169,7 +169,7 @@
         "title": "Lead Udvikler",
         "nameCompany": "Totem Studio",
         "img": "/experience/totem-logo.svg",
-        "type": "kazi",
+        "type": "work",
         "description": [
             "Som Head of Development hos The Totem Studio, superviserer jeg udviklingen af flere web- og mobilapplikationer.",
             "Jeg sikrede kodekvalitet, samarbejdede med klienter om krav, ledede et udviklerteam og overvågede kode- og projektlanceringer.",

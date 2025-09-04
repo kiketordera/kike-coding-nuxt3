@@ -1,6 +1,6 @@
 <template>
   <div>
-    <KikeIndexInformation />
+    <kike-index-Information />
     <general-ContinuousScroll />
     <kike-index-About />
     <kike-index-AppsDeveloped />

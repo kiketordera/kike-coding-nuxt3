@@ -3,7 +3,7 @@
         "title": "Développeur Android",
         "nameCompany": "Université Mongole de Science et Technologie",
         "img": "/experience/mongolia.jpeg",
-        "type": "éducation",
+        "type": "education",
         "description": [
             "À l'Université Mongole de Science et Technologie, j'ai affiné mes compétences en tant que Développeur Android, en me concentrant sur les applications Java pour Android.",
             "J'ai développé un client REST se connectant à un middleware pour les requêtes GET et POST. J'ai intégré un système de capteurs pour un accès en temps réel, une activation à distance et une surveillance globale via Wi-Fi.",
@@ -26,7 +26,7 @@
         "title": "Développeur iOS",
         "nameCompany": "CodeWell",
         "img": "/experience/codewell.jpeg",
-        "type": "éducation",
+        "type": "education",
         "description": [
             "Chez CodeWell, je me suis plongé dans le développement iOS en utilisant Xcode, Swift et Objective-C. J'ai contribué à des projets tels que l'application 'Summer Ohrid Festival' et une autre application pour comprendre les contraintes et le code.",
             "J'ai travaillé avec Google Firebase, CoreData et des frameworks tiers comme SDWebImage, TTTAttributedLabel et SnapKit. J'ai conçu des interfaces d'applications et créé des animations iOS en utilisant Bezier Path et plus encore.",
@@ -49,7 +49,7 @@
         "title": "Développeur Front End",
         "nameCompany": "Universitat Politècnica de València (UPV)",
         "img": "/experience/upv.svg",
-        "type": "travail",
+        "type": "work",
         "description": [
             "À l'École Doctorale de la Universitat Politècnica de València, j'ai joué un rôle clé dans la mise à jour du site web de l'école en tant que Développeur Frontend.",
             "J'ai créé du contenu HTML, assuré une mise en forme uniforme avec HTML/CSS et maintenu la précision visuelle du site.",
@@ -72,7 +72,7 @@
         "title": "Mentor en Développement Web & Design UX/UI",
         "nameCompany": "Learning Lions",
         "img": "/experience/learning.png",
-        "type": "bénévolat",
+        "type": "volunteer",
         "description": [
             "À Lodwar pour mon projet final universitaire, je me suis porté volontaire pour Learning and Service, promouvant la technologie pour un avenir meilleur.",
             "J'ai conçu des modules éducatifs, des évaluations et fourni mentorat et enseignement aux étudiants.",
@@ -96,7 +96,7 @@
         "title": "Développeur Full Stack & Designer UI",
         "nameCompany": "Value Villages",
         "img": "/experience/vv.png",
-        "type": "travail",
+        "type": "work",
         "description": [
             "Chez Value Villages, j'ai joué un rôle essentiel dans la création de logiciels pour les ONG luttant contre la pauvreté, en me concentrant sur la formation professionnelle.",
             "J'ai conçu des interfaces et mis en œuvre des solutions full-stack, en me centralisant sur l'autonomisation des individus par le biais du savoir et de la formation.",
@@ -119,7 +119,7 @@
         "title": "Développeur Mobile Senior",
         "nameCompany": "Oculid",
         "img": "/img/projects/oculid/logo.svg",
-        "type": "travail",
+        "type": "work",
         "description": [
             "Chez Oculid, j'ai dirigé le développement d'une application mobile suivant les mouvements oculaires des utilisateurs, améliorant les tests utilisateurs et l'analyse UX.",
             "Nous avons recueilli des données de position oculaire, utilisant l'apprentissage automatique pour des visualisations de données comme les cartes de chaleur, offrant des insights sur les interactions utilisateur-produit.",
@@ -144,7 +144,7 @@
         "title": "Développeur Mobile Senior",
         "nameCompany": "Circus",
         "img": "/experience/circus.svg",
-        "type": "travail",
+        "type": "work",
         "description": [
             "Chez Circus, en tant que Développeur Frontend Senior au sein de l'équipe Flutter, j'ai travaillé sur la maintenance du produit et la mise en œuvre de nouvelles fonctionnalités.",
             "Notre application, utilisée par des milliers, s'étend à de nouveaux endroits chaque mois, nécessitant une gestion efficace de la base d'utilisateurs.",
@@ -169,7 +169,7 @@
         "title": "Développeur Principal",
         "nameCompany": "Totem Studio",
         "img": "/experience/totem-logo.svg",
-        "type": "travail",
+        "type": "work",
         "description": [
             "En tant que Responsable du Développement chez The Totem Studio, je supervise le développement de plusieurs applications web et mobiles.",
             "J'ai assuré la qualité du code, collaboré avec les clients pour définir les exigences, géré une équipe de développeurs et supervisé les lancements de code et de projets.",

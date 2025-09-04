@@ -3,7 +3,7 @@
         "title": "Android Entwickler",
         "nameCompany": "Mongolische Universität für Wissenschaft und Technologie",
         "img": "/experience/mongolia.jpeg",
-        "type": "bildung",
+        "type": "education",
         "description": [
             "An der Mongolischen Universität für Wissenschaft und Technologie verfeinerte ich meine Fähigkeiten als Android Entwickler, mit Schwerpunkt auf Java-Anwendungen für Android.",
             "Ich entwickelte einen REST-Client, der sich mit Middleware für GET- und POST-Anfragen verbindet. Ich integrierte ein Sensorsystem für den Echtzeitzugang, die Fernaktivierung und die globale Überwachung über Wi-Fi.",
@@ -26,7 +26,7 @@
         "title": "iOS Entwickler",
         "nameCompany": "CodeWell",
         "img": "/experience/codewell.jpeg",
-        "type": "bildung",
+        "type": "education",
         "description": [
             "Bei CodeWell vertiefte ich mich in die iOS-Entwicklung mit Xcode, Swift und Objective-C. Ich trug zu Projekten wie der 'Summer Ohrid Festival' App und einer weiteren App bei, um Einschränkungen und Code zu verstehen.",
             "Ich arbeitete mit Google Firebase, CoreData und Drittanbieter-Frameworks wie SDWebImage, TTTAttributedLabel und SnapKit. Ich gestaltete App-Oberflächen und erstellte iOS-Animationen mit Bezier Path und mehr.",
@@ -49,7 +49,7 @@
         "title": "Front End Entwickler",
         "nameCompany": "Universitat Politècnica de València (UPV)",
         "img": "/experience/upv.svg",
-        "type": "arbeit",
+        "type": "work",
         "description": [
             "An der Doctoral School der Universitat Politècnica de València spielte ich eine entscheidende Rolle bei der Aktualisierung der Schulwebsite als Frontend Entwickler.",
             "Ich erstellte HTML-Inhalte, stellte einheitliche Formatierung mit HTML/CSS sicher und behielt die visuelle Genauigkeit der Website bei.",
@@ -72,7 +72,7 @@
         "title": "Mentor Web Development & UX/UI Design",
         "nameCompany": "Learning Lions",
         "img": "/experience/learning.png",
-        "type": "freiwilligenarbeit",
+        "type": "volunteer",
         "description": [
             "In Lodwar für mein Abschlussprojekt an der Universität meldete ich mich freiwillig bei Learning and Service, um Technologie für eine bessere Zukunft zu fördern.",
             "Ich gestaltete Bildungsmodule, Bewertungen und bot Mentoring und Unterricht für Studenten an.",
@@ -96,7 +96,7 @@
         "title": "Full Stack Entwickler & UI Designer",
         "nameCompany": "Value Villages",
         "img": "/experience/vv.png",
-        "type": "arbeit",
+        "type": "work",
         "description": [
             "Bei Value Villages war ich maßgeblich an der Erstellung von Software für NGOs beteiligt, die Armut bekämpfen, mit Schwerpunkt auf beruflicher Ausbildung.",
             "Ich gestaltete Interfaces und implementierte Full-Stack-Lösungen, die darauf abzielten, Einzelpersonen durch Wissen und Schulung zu stärken.",
@@ -119,7 +119,7 @@
         "title": "Senior Mobile Entwickler",
         "nameCompany": "Oculid",
         "img": "/img/projects/oculid/logo.svg",
-        "type": "arbeit",
+        "type": "work",
         "description": [
             "Bei Oculid leitete ich die Entwicklung einer mobilen App, die die Augenbewegungen der Benutzer verfolgt, wodurch Benutzertests und UX-Analysen verbessert wurden.",
             "Wir sammelten Augenpositionsdaten und nutzten maschinelles Lernen für Datenvisualisierungen wie Heatmaps, die Einblicke in Benutzer-Produkt-Interaktionen boten.",
@@ -144,7 +144,7 @@
         "title": "Senior Mobile Entwickler",
         "nameCompany": "Circus",
         "img": "/experience/circus.svg",
-        "type": "arbeit",
+        "type": "work",
         "description": [
             "Bei Circus, als Senior Frontend Entwickler im Flutter-Team, arbeitete ich an der Produktwartung und der Implementierung neuer Funktionen.",
             "Unsere App, die von Tausenden genutzt wird, erweitert sich monatlich auf neue Standorte, was ein effizientes Benutzerstammanagement erfordert.",
@@ -169,7 +169,7 @@
         "title": "Lead Entwickler",
         "nameCompany": "Totem Studio",
         "img": "/experience/totem-logo.svg",
-        "type": "arbeit",
+        "type": "work",
         "description": [
             "Als Head of Development bei The Totem Studio beaufsichtige ich die Entwicklung mehrerer Web- und Mobile-Anwendungen.",
             "Ich stellte die Codequalität sicher, arbeitete mit Kunden zusammen, um Anforderungen zu definieren, leitete ein Entwicklerteam und beaufsichtigte Code- und Projektstarts.",
