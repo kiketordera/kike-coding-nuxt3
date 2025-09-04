@@ -170,5 +170,24 @@
         "myscanner": {
             "description": "MyScanner hjælper dig med at scanne dokumenter og udtrække tekst nemt ved hjælp af avanceret OCR-teknologi."
         }
+    },
+    "diveIn": "Gå ind",
+    "experience": {
+        "intro": {
+            "labels": {
+                "services": "Tjenester",
+                "tech": "Teknologi",
+                "year": "År",
+                "website": "Hjemmeside"
+            }
+        },
+        "slider": {
+            "previousProject": "Forrige projekt",
+            "nextProject": "Næste projekt",
+            "allProjectsAria": "Alle projekter",
+            "previousProjectAria": "Forrige projekt",
+            "nextProjectAria": "Næste projekt",
+            "allProjectsIconAlt": "Ikon for alle projekter"
+        }
     }
 }

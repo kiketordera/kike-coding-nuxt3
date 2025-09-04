@@ -170,5 +170,24 @@
     "myscanner": {
       "description": "MyScanner helps you scan documents and extract text with ease, using advanced OCR technology."
     }
+  },
+  "diveIn": "Dive in",
+  "experience": {
+    "intro": {
+      "labels": {
+        "services": "Services",
+        "tech": "Tech",
+        "year": "Year",
+        "website": "Website"
+      }
+    },
+    "slider": {
+      "previousProject": "Previous Project",
+      "nextProject": "Next Project",
+      "allProjectsAria": "All projects",
+      "previousProjectAria": "Previous project",
+      "nextProjectAria": "Next project",
+      "allProjectsIconAlt": "All projects icon"
+    }
   }
 }

@@ -171,5 +171,23 @@
             "description": "MyScanner te ayuda a escanear documentos y extraer texto con facilidad gracias a su avanzada tecnología OCR."
         }
     },
-    "diveIn": "Entrar"
+    "diveIn": "Entrar",
+    "experience": {
+        "intro": {
+            "labels": {
+                "services": "Servicios",
+                "tech": "Tecnología",
+                "year": "Año",
+                "website": "Sitio web"
+            }
+        },
+        "slider": {
+            "previousProject": "Proyecto anterior",
+            "nextProject": "Siguiente proyecto",
+            "allProjectsAria": "Todos los proyectos",
+            "previousProjectAria": "Proyecto anterior",
+            "nextProjectAria": "Siguiente proyecto",
+            "allProjectsIconAlt": "Icono de todos los proyectos"
+        }
+    }
 }

@@ -7,7 +7,7 @@
       <hr>
       <div class="overview">
         <div class="items">
-          <span data-aos="zoom-in-up">Services</span>
+          <span data-aos="zoom-in-up">{{ $t('experience.intro.labels.services') }}</span>
           <ul data-aos="zoom-in-right">
             <li v-for="ser in props.services" :key="ser">
               {{ ser }}
@@ -15,7 +15,7 @@
           </ul>
         </div>
         <div class="items">
-          <span data-aos="zoom-in-up">Tech</span>
+          <span data-aos="zoom-in-up">{{ $t('experience.intro.labels.tech') }}</span>
           <ul data-aos="zoom-in-right">
             <li v-for="t in props.tech" :key="t">
               {{ t }}
@@ -23,13 +23,13 @@
           </ul>
         </div>
         <div class="items">
-          <span data-aos="zoom-in-up">Year</span>
+          <span data-aos="zoom-in-up">{{ $t('experience.intro.labels.year') }}</span>
           <p data-aos="zoom-in-right">
             {{ props.year }}
           </p>
         </div>
         <div class="items">
-          <span data-aos="zoom-in-up">Website</span> <br>
+          <span data-aos="zoom-in-up">{{ $t('experience.intro.labels.website') }}</span> <br>
           <a target="_blank" :href="props.url">{{ props.url }}</a>
         </div>
       </div>

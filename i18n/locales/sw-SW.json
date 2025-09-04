@@ -170,5 +170,24 @@
         "myscanner": {
             "description": "MyScanner hjälper dig att skanna dokument och extrahera text enkelt med avancerad OCR-teknik."
         }
+    },
+    "diveIn": "Ingia",
+    "experience": {
+        "intro": {
+            "labels": {
+                "services": "Huduma",
+                "tech": "Teknolojia",
+                "year": "Mwaka",
+                "website": "Tovuti"
+            }
+        },
+        "slider": {
+            "previousProject": "Mradi uliopita",
+            "nextProject": "Mradi unaofuata",
+            "allProjectsAria": "Miradi yote",
+            "previousProjectAria": "Mradi uliopita",
+            "nextProjectAria": "Mradi unaofuata",
+            "allProjectsIconAlt": "Aikoni ya miradi yote"
+        }
     }
 }

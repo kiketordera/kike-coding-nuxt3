@@ -170,5 +170,24 @@
         "myscanner": {
             "description": "O MyScanner ajuda-te a digitalizar documentos e a extrair texto com facilidade, utilizando tecnologia OCR avançada."
         }
+    },
+    "diveIn": "Entrar",
+    "experience": {
+        "intro": {
+            "labels": {
+                "services": "Serviços",
+                "tech": "Tecnologia",
+                "year": "Ano",
+                "website": "Website"
+            }
+        },
+        "slider": {
+            "previousProject": "Projeto anterior",
+            "nextProject": "Próximo projeto",
+            "allProjectsAria": "Todos os projetos",
+            "previousProjectAria": "Projeto anterior",
+            "nextProjectAria": "Próximo projeto",
+            "allProjectsIconAlt": "Ícone de todos os projetos"
+        }
     }
 }

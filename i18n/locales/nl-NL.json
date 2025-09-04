@@ -170,5 +170,24 @@
         "myscanner": {
             "description": "MyScanner helpt je documenten scannen en tekst eenvoudig te extraheren met geavanceerde OCR-technologie."
         }
+    },
+    "diveIn": "Binnenkomen",
+    "experience": {
+        "intro": {
+            "labels": {
+                "services": "Diensten",
+                "tech": "Tech",
+                "year": "Jaar",
+                "website": "Website"
+            }
+        },
+        "slider": {
+            "previousProject": "Vorig project",
+            "nextProject": "Volgend project",
+            "allProjectsAria": "Alle projecten",
+            "previousProjectAria": "Vorig project",
+            "nextProjectAria": "Volgend project",
+            "allProjectsIconAlt": "Pictogram voor alle projecten"
+        }
     }
 }

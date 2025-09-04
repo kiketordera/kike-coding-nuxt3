@@ -2,14 +2,14 @@
   <section>
     <hr>
     <div class="content">
-      <NuxtLink :to="projects[getPrev()]?.url" aria-label="Previous project">
-        Previous Project
+      <NuxtLink :to="projects[getPrev()]?.url" :aria-label="$t('experience.slider.previousProjectAria')">
+        {{ $t('experience.slider.previousProject') }}
       </NuxtLink>
-      <NuxtLink to="/" aria-label="All project">
-        <img class="float-center" src="/svg/pramid.svg" alt="All project icon">
+      <NuxtLink to="/" :aria-label="$t('experience.slider.allProjectsAria')">
+        <img class="float-center" src="/svg/pramid.svg" :alt="$t('experience.slider.allProjectsIconAlt')">
       </NuxtLink>
-      <NuxtLink :to="projects[getNext()]?.url" aria-label="Next project">
-        Next Project
+      <NuxtLink :to="projects[getNext()]?.url" :aria-label="$t('experience.slider.nextProjectAria')">
+        {{ $t('experience.slider.nextProject') }}
       </NuxtLink>
     </div>
   </section>
