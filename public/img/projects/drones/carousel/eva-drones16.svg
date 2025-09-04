@@ -126,12 +126,12 @@
     </g>
     <g id="Drone-info-bar" transform="translate(163)">
       <rect id="Rectangle_341" data-name="Rectangle 341" width="1757" height="101" fill="url(#linear-gradient-3)"/>
-      <text id="Drone_status:_" data-name="Drone status: ————" transform="translate(795.334 62)" fill="#fff" font-size="30" font-family="BaiJamjuree-Medium, Bai Jamjuree" font-weight="500"><tspan x="0" y="0">Drone status: ————</tspan></text>
+      <text id="Drone_status:_" data-name="Drone status: ----" transform="translate(795.334 62)" fill="#fff" font-size="30" font-family="BaiJamjuree-Medium, Bai Jamjuree" font-weight="500"><tspan x="0" y="0">Drone status: ----</tspan></text>
       <g id="battery-level" transform="translate(1373.309 34)">
         <path id="Path_98" data-name="Path 98" d="M63.071,102.051V96.729a5.173,5.173,0,0,0-5.382-4.922H5.382A5.173,5.173,0,0,0,0,96.729v23.063a5.173,5.173,0,0,0,5.382,4.922H57.689a5.173,5.173,0,0,0,5.382-4.922V114.47a3.54,3.54,0,0,0,3.312-3.386v-5.647A3.54,3.54,0,0,0,63.071,102.051Zm-4.14,17.741a1.194,1.194,0,0,1-1.242,1.136H5.382a1.194,1.194,0,0,1-1.242-1.136V96.729a1.194,1.194,0,0,1,1.242-1.136H57.689a1.194,1.194,0,0,1,1.242,1.136v23.063Z" transform="translate(0 -91.807)" fill="#13fc00"/>
       </g>
-      <text id="_" data-name="———————" transform="translate(1459 62)" fill="#fff" font-size="30" font-family="BaiJamjuree-Medium, Bai Jamjuree" font-weight="500"><tspan x="0" y="0">———————</tspan></text>
-      <text id="_2" data-name="—%" transform="translate(1381 60)" fill="#fff" font-size="24" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="0" y="0">—%</tspan></text>
+      <text id="_" data-name="-------" transform="translate(1459 62)" fill="#fff" font-size="30" font-family="BaiJamjuree-Medium, Bai Jamjuree" font-weight="500"><tspan x="0" y="0">-------</tspan></text>
+      <text id="_2" data-name="-%" transform="translate(1381 60)" fill="#fff" font-size="24" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="0" y="0">-%</tspan></text>
       <text id="eva_drone_transporter_n_12" data-name="eva_drone_transporter/nº12" transform="translate(34 62)" fill="#fff" font-size="30" font-family="BaiJamjuree-Medium, Bai Jamjuree" font-weight="500"><tspan x="0" y="0">eva_drone_transporter/nº12</tspan></text>
       <g id="propeller-2" data-name="propeller" transform="translate(728.666 28)">
         <g id="Group_306" data-name="Group 306" transform="translate(15.995)">
@@ -261,16 +261,16 @@
         <path id="Path_105" data-name="Path 105" d="M193.161,215.935c-5.01-11.323-17.151-18.962-30.762-18.962-18.25,0-32.982,13.452-33.174,30.039-12.565,1.261-22.123,11.116-22.123,22.677,0,12.58,11.19,22.815,24.943,22.815,69.605-.066,65.8.163,67.009-.181,15.462-1.595,27.461-13.59,27.461-28.142C226.515,227.562,210.99,214.658,193.161,215.935Z" transform="translate(-75.515 -153.273)" fill="#fff"/>
       </g>
       <text id="Visibility_" data-name="Visibility " transform="translate(39 205)" fill="#fff" font-size="29" font-family="BaiJamjuree-Medium, Bai Jamjuree" font-weight="500"><tspan x="0" y="0">Visibility </tspan></text>
-      <text id="_km" data-name="——km" transform="translate(321 205)" fill="#fff" font-size="29" font-family="BaiJamjuree-Regular, Bai Jamjuree"><tspan x="0" y="0">——km</tspan></text>
-      <text id="_3" data-name="——" transform="translate(269 127.122)" fill="#fff" font-size="20" font-family="BaiJamjuree-Regular, Bai Jamjuree"><tspan x="0" y="0">——</tspan></text>
-      <text id="_4" data-name="——" transform="translate(365 127.122)" fill="#fff" font-size="20" font-family="BaiJamjuree-Regular, Bai Jamjuree"><tspan x="0" y="0">——</tspan></text>
+      <text id="_km" data-name="--km" transform="translate(321 205)" fill="#fff" font-size="29" font-family="BaiJamjuree-Regular, Bai Jamjuree"><tspan x="0" y="0">--km</tspan></text>
+      <text id="_3" data-name="--" transform="translate(269 127.122)" fill="#fff" font-size="20" font-family="BaiJamjuree-Regular, Bai Jamjuree"><tspan x="0" y="0">--</tspan></text>
+      <text id="_4" data-name="--" transform="translate(365 127.122)" fill="#fff" font-size="20" font-family="BaiJamjuree-Regular, Bai Jamjuree"><tspan x="0" y="0">--</tspan></text>
       <text id="Wind" transform="translate(39 280)" fill="#fff" font-size="29" font-family="BaiJamjuree-Medium, Bai Jamjuree" font-weight="500"><tspan x="0" y="0">Wind</tspan></text>
-      <text id="_km_h" data-name="——km/h" transform="translate(321 280)" fill="#fff" font-size="29" font-family="BaiJamjuree-Regular, Bai Jamjuree"><tspan x="0" y="0">——km/h</tspan></text>
+      <text id="_km_h" data-name="--km/h" transform="translate(321 280)" fill="#fff" font-size="29" font-family="BaiJamjuree-Regular, Bai Jamjuree"><tspan x="0" y="0">--km/h</tspan></text>
       <text id="Gusts" transform="translate(39 355)" fill="#fff" font-size="29" font-family="BaiJamjuree-Medium, Bai Jamjuree" font-weight="500"><tspan x="0" y="0">Gusts</tspan></text>
-      <text id="_km_h-2" data-name="——km/h" transform="translate(323 355)" fill="#fff" font-size="29" font-family="BaiJamjuree-Regular, Bai Jamjuree"><tspan x="0" y="0">——km/h</tspan></text>
+      <text id="_km_h-2" data-name="--km/h" transform="translate(323 355)" fill="#fff" font-size="29" font-family="BaiJamjuree-Regular, Bai Jamjuree"><tspan x="0" y="0">--km/h</tspan></text>
       <text id="Kp" transform="translate(39 430)" fill="#fff" font-size="29" font-family="BaiJamjuree-Medium, Bai Jamjuree" font-weight="500"><tspan x="0" y="0">Kp</tspan></text>
-      <text id="_5" data-name="—" transform="translate(323 430)" fill="#fff" font-size="29" font-family="BaiJamjuree-Regular, Bai Jamjuree"><tspan x="0" y="0">—</tspan></text>
-      <text id="_6" data-name="————" transform="translate(239 70)" fill="#fff" font-size="61" font-family="BaiJamjuree-SemiBold, Bai Jamjuree" font-weight="600"><tspan x="0" y="0">————</tspan></text>
+      <text id="_5" data-name="-" transform="translate(323 430)" fill="#fff" font-size="29" font-family="BaiJamjuree-Regular, Bai Jamjuree"><tspan x="0" y="0">-</tspan></text>
+      <text id="_6" data-name="----" transform="translate(239 70)" fill="#fff" font-size="61" font-family="BaiJamjuree-SemiBold, Bai Jamjuree" font-weight="600"><tspan x="0" y="0">----</tspan></text>
       <g id="sun" transform="translate(321.063 101.123)">
         <g id="Group_320" data-name="Group 320" transform="translate(0 3)">
           <g id="Group_319" data-name="Group 319">

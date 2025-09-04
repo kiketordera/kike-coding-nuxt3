@@ -14,7 +14,7 @@
         "uxUiDesign": "UX/UI ontwerp",
         "specializing": "gespecialiseerd in het creëren van intuïtieve, gebruiksgerichte interfaces en baanbrekende softwareoplossingen.",
         "skills": "Vaardig in moderne ontwikkeltools en -talen, met sterke nadruk op ontwerp en gebruikerservaring. Bewezen vermogen om complexe ideeën om te zetten in elegante, functionele en visueel aantrekkelijke applicaties.",
-        "innovate": "Laten we niet alleen ontwikkelen — laten we innoveren, ontwerpen en grenzen verleggen.",
+        "innovate": "Laten we niet alleen ontwikkelen - laten we innoveren, ontwerpen en grenzen verleggen.",
         "build": "Laten we niet alleen bouwen. Laten we innoveren, ontwerpen en revolutioneren.",
         "blend": "Waarom mikken op het gewone als we code en creativiteit kunnen combineren om iets echt opmerkelijk te creëren?",
         "collaborate": "Laten we samenwerken en digitale magie creëren! ✨",
@@ -41,7 +41,7 @@
         "title": "Over",
         "intro": "Hoi! Ik ben Kike Tordera.",
         "codingPassion": "Programmeren? Dat is mijn ding! 🚀 Mijn wortels in coderen zijn diep, gevoed door rigoureuze studies en verrijkt met internationale flair. Raad eens? Zelfs als kind was ik de technische goeroe die iedereen benaderde, altijd bezig met computers.",
-        "craftingExperiences": "Maar hier is de twist: het gaat niet alleen om de code. Ik ben gepassioneerd over het creëren van ervaringen. 🎨 Voor mij zijn een strak ontwerp en een intuïtieve interface niet alleen de kers op de taart — het zijn essentiële ingrediënten.",
+        "craftingExperiences": "Maar hier is de twist: het gaat niet alleen om de code. Ik ben gepassioneerd over het creëren van ervaringen. 🎨 Voor mij zijn een strak ontwerp en een intuïtieve interface niet alleen de kers op de taart - het zijn essentiële ingrediënten.",
         "createMagic": "Want uiteindelijk draait het allemaal om het creëren van iets dat meer is dan de som der delen. Klaar om samen magie te creëren?"
     },
     "resumeSection": {
@@ -152,5 +152,23 @@
     "titleSEOIndex": "Kike Tordera | UX/UI Ingenieur & Full-Stack Ontwikkelaar",
     "descriptionSEOIndex": "Ontdek het portfolio van Kike Tordera, een ervaren UX/UI-ingenieur en full-stack ontwikkelaar, gespecialiseerd in naadloze digitale ervaringen.",
     "titleSEOAboutUs": "Over Kike Tordera | Een Reis door Technologie & Innovatie",
-    "descriptionSEOAboutUs": "Ontdek het verhaal van Kike Tordera, een gepassioneerde UX/UI-ingenieur en full-stack ontwikkelaar, die creativiteit en technologie samenbrengt om gebruikersgerichte digitale ervaringen te creëren."
+    "descriptionSEOAboutUs": "Ontdek het verhaal van Kike Tordera, een gepassioneerde UX/UI-ingenieur en full-stack ontwikkelaar, die creativiteit en technologie samenbrengt om gebruikersgerichte digitale ervaringen te creëren.",
+    "apps": {
+        "title": "Een paar van mijn apps",
+        "mychefmate": {
+            "description": "MyChefMate is je slimme keukenhulp: plan maaltijden, ontdek nieuwe recepten en beheer moeiteloos je voeding."
+        },
+        "mybodymate": {
+            "description": "MyBodyMate helpt je je fitnessreis te volgen, je voortgang te monitoren en gemotiveerd te blijven om je gezondheidsdoelen te halen."
+        },
+        "myfoodmate": {
+            "description": "MyFoodMate helpt je te scannen, bij te houden en te begrijpen wat je eet met directe voedseldetectie en slimme analyses."
+        },
+        "myheadshot": {
+            "description": "MyHeadshot helpt je profielfoto’s vastleggen en verbeteren met AI-gestuurde suggesties en bewerkingstools."
+        },
+        "myscanner": {
+            "description": "MyScanner helpt je documenten scannen en tekst eenvoudig te extraheren met geavanceerde OCR-technologie."
+        }
+    }
 }

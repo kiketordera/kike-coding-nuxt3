@@ -14,7 +14,7 @@
         "uxUiDesign": "design UX/UI",
         "specializing": "spécialisé dans la création d'interfaces intuitives centrées sur l'utilisateur et de solutions logicielles de pointe.",
         "skills": "Compétent dans les outils et langages de développement modernes, avec un fort accent sur le design et l'expérience utilisateur. Capacité avérée à transformer des idées complexes en applications élégantes, fonctionnelles et visuellement attrayantes.",
-        "innovate": "Ne nous contentons pas de développer — innovons, concevons et repoussons les limites.",
+        "innovate": "Ne nous contentons pas de développer - innovons, concevons et repoussons les limites.",
         "build": "Ne construisons pas seulement. Innovons, concevons et révolutionnons.",
         "blend": "Pourquoi viser l'ordinaire quand nous pouvons mélanger code et créativité pour créer quelque chose de vraiment remarquable ?",
         "collaborate": "Collaborons et créons de la magie numérique ! ✨",
@@ -41,7 +41,7 @@
         "title": "À Propos",
         "intro": "Salut ! Je suis Kike Tordera.",
         "codingPassion": "Programmer ? C'est mon truc ! 🚀 Mes racines en codage sont profondes, nourries par des études rigoureuses et enrichies d'une touche internationale. Devinez quoi ? Même enfant, j'étais le prodige technologique incontournable, toujours en train de bidouiller des ordinateurs.",
-        "craftingExperiences": "Mais voici le twist : je ne suis pas seulement axé sur le code. Je suis passionné par la création d'expériences. 🎨 Pour moi, un design épuré et une interface intuitive ne sont pas seulement la cerise sur le gâteau — ce sont des ingrédients essentiels.",
+        "craftingExperiences": "Mais voici le twist : je ne suis pas seulement axé sur le code. Je suis passionné par la création d'expériences. 🎨 Pour moi, un design épuré et une interface intuitive ne sont pas seulement la cerise sur le gâteau - ce sont des ingrédients essentiels.",
         "createMagic": "Parce qu'au final, il s'agit de créer quelque chose qui est plus que la somme de ses parties. Prêt à créer de la magie ensemble ?"
     },
     "resumeSection": {
@@ -152,5 +152,23 @@
     "titleSEOIndex": "Kike Tordera | Ingénieur UX/UI & Développeur Full-Stack",
     "descriptionSEOIndex": "Découvrez le portfolio de Kike Tordera, ingénieur UX/UI et développeur full-stack expérimenté, expert en expériences numériques fluides.",
     "titleSEOAboutUs": "À propos de Kike Tordera | Un parcours en technologie et innovation",
-    "descriptionSEOAboutUs": "Découvrez l’histoire de Kike Tordera, un ingénieur UX/UI et développeur full-stack passionné, alliant créativité et technologie pour concevoir des expériences numériques centrées sur l’utilisateur."
+    "descriptionSEOAboutUs": "Découvrez l’histoire de Kike Tordera, un ingénieur UX/UI et développeur full-stack passionné, alliant créativité et technologie pour concevoir des expériences numériques centrées sur l’utilisateur.",
+    "apps": {
+        "title": "Quelques-unes de mes applications",
+        "mychefmate": {
+            "description": "MyChefMate est votre compagnon cuisine intelligent : planifiez vos repas, découvrez de nouvelles recettes et gérez votre nutrition en toute simplicité."
+        },
+        "mybodymate": {
+            "description": "MyBodyMate vous aide à suivre votre parcours forme, à contrôler vos progrès et à rester motivé pour atteindre vos objectifs de santé."
+        },
+        "myfoodmate": {
+            "description": "MyFoodMate vous aide à scanner, suivre et comprendre ce que vous mangez grâce à la reconnaissance instantanée des aliments et à une analyse intelligente."
+        },
+        "myheadshot": {
+            "description": "MyHeadshot vous aide à capturer et à améliorer vos photos de profil grâce à des suggestions basées sur l'IA et des outils d’édition."
+        },
+        "myscanner": {
+            "description": "MyScanner vous aide à numériser vos documents et à extraire du texte facilement grâce à une technologie OCR avancée."
+        }
+    }
 }

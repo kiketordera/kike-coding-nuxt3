@@ -14,7 +14,7 @@
         "uxUiDesign": "muundo wa UX/UI",
         "specializing": "akatiwa mbunifu katika kutengeneza interfaces za kueleweka, zenye mtumiaji na suluhisho za programu za kisasa.",
         "skills": "Mwezeshwa katika zana na lugha za maendeleo ya kisasa, na mkazo mkubwa kwenye muundo na uzoefu wa mtumiaji. Uwezo kuthibitishwa wa kubadilisha mawazo magumu kuwa programu zenye mpangilio mzuri, zenye kazi nzuri na kuvutia macho.",
-        "innovate": "Tusiendelee tu kuendeleza — tuijenge, tuundee, na kusukuma mipaka.",
+        "innovate": "Tusiendelee tu kuendeleza - tuijenge, tuundee, na kusukuma mipaka.",
         "build": "Tusiendelee tu kujenga. Tuijenge, tuundee, na kuleta mageuzi.",
         "blend": "Kwa nini kulenga kawaida wakati tunaweza kuchanganya msimbo na ubunifu kuunda kitu cha kushangaza kweli?",
         "collaborate": "Tushirikiane na tufanye uchawi wa kidijitali! ✨",
@@ -152,5 +152,23 @@
     "titleSEOIndex": "Kike Tordera | Mhandisi wa UX/UI na Msanidi wa Full-Stack",
     "descriptionSEOIndex": "Gundua kazi za Kike Tordera, mhandisi wa UX/UI na msanidi wa full-stack mwenye uzoefu wa kutengeneza uzoefu wa dijitali wa hali ya juu.",
     "titleSEOAboutUs": "Kuhusu Kike Tordera | Safari ya Teknolojia na Ubunifu",
-    "descriptionSEOAboutUs": "Jifunze kuhusu Kike Tordera, mhandisi wa UX/UI na msanidi wa full-stack mwenye shauku, akiunganisha ubunifu na teknolojia ili kujenga uzoefu wa kidigitali unaozingatia mtumiaji."
+    "descriptionSEOAboutUs": "Jifunze kuhusu Kike Tordera, mhandisi wa UX/UI na msanidi wa full-stack mwenye shauku, akiunganisha ubunifu na teknolojia ili kujenga uzoefu wa kidigitali unaozingatia mtumiaji.",
+    "apps": {
+        "title": "Några av mina appar",
+        "mychefmate": {
+            "description": "MyChefMate är din smarta kökskompis: planera måltider, upptäck nya recept och hantera din kost utan krångel."
+        },
+        "mybodymate": {
+            "description": "MyBodyMate hjälper dig att följa din träningsresa, hålla koll på framstegen och vara motiverad för att nå dina hälsomål."
+        },
+        "myfoodmate": {
+            "description": "MyFoodMate hjälper dig att scanna, spåra och förstå vad du äter med omedelbar igenkänning av livsmedel och smart analys."
+        },
+        "myheadshot": {
+            "description": "MyHeadshot hjälper dig att ta och förbättra dina profilbilder med AI-drivna förslag och redigeringsverktyg."
+        },
+        "myscanner": {
+            "description": "MyScanner hjälper dig att skanna dokument och extrahera text enkelt med avancerad OCR-teknik."
+        }
+    }
 }

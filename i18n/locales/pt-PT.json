@@ -14,7 +14,7 @@
         "uxUiDesign": "design UX/UI",
         "specializing": "especializando-se na criação de interfaces intuitivas focadas no usuário e soluções de software de ponta.",
         "skills": "Habilidoso em ferramentas e linguagens de desenvolvimento modernas, com forte ênfase em design e experiência do usuário. Capacidade comprovada de transformar ideias complexas em aplicações elegantes, funcionais e visualmente atraentes.",
-        "innovate": "Vamos além de apenas desenvolver — vamos inovar, projetar e ultrapassar limites.",
+        "innovate": "Vamos além de apenas desenvolver - vamos inovar, projetar e ultrapassar limites.",
         "build": "Não vamos apenas construir. Vamos inovar, projetar e revolucionar.",
         "blend": "Por que visar o ordinário quando podemos combinar código e criatividade para criar algo realmente notável?",
         "collaborate": "Vamos colaborar e fazer mágica digital! ✨",
@@ -41,7 +41,7 @@
         "title": "Sobre",
         "intro": "Oi! Eu sou Kike Tordera.",
         "codingPassion": "Programar? Isso é comigo! 🚀 Minhas raízes na programação são profundas, nutridas por estudos rigorosos e temperadas com um toque internacional. Adivinha? Mesmo criança, eu era o gênio da tecnologia para quem recorriam, sempre mexendo com computadores.",
-        "craftingExperiences": "Mas aqui está o diferencial: não se trata apenas de código. Sou apaixonado por criar experiências. 🎨 Para mim, um design elegante e uma interface intuitiva não são apenas a cereja do bolo — são ingredientes essenciais.",
+        "craftingExperiences": "Mas aqui está o diferencial: não se trata apenas de código. Sou apaixonado por criar experiências. 🎨 Para mim, um design elegante e uma interface intuitiva não são apenas a cereja do bolo - são ingredientes essenciais.",
         "createMagic": "Porque, no final das contas, tudo se resume a criar algo que é mais do que a soma de suas partes. Pronto para criar magia juntos?"
     },
     "resumeSection": {
@@ -152,5 +152,23 @@
     "titleSEOIndex": "Kike Tordera | Engenheiro UX/UI e Desenvolvedor Full-Stack",
     "descriptionSEOIndex": "Explore o portfólio de Kike Tordera, engenheiro UX/UI e desenvolvedor full-stack experiente, especializado em experiências digitais perfeitas.",
     "titleSEOAboutUs": "Sobre Kike Tordera | Uma Jornada em Tecnologia e Inovação",
-    "descriptionSEOAboutUs": "Descubra a história de Kike Tordera, um engenheiro UX/UI e desenvolvedor full-stack apaixonado, unindo criatividade e tecnologia para criar experiências digitais centradas no usuário."
+    "descriptionSEOAboutUs": "Descubra a história de Kike Tordera, um engenheiro UX/UI e desenvolvedor full-stack apaixonado, unindo criatividade e tecnologia para criar experiências digitais centradas no usuário.",
+    "apps": {
+        "title": "Algumas das minhas aplicações",
+        "mychefmate": {
+            "description": "O MyChefMate é o teu companheiro de cozinha inteligente: planeia refeições, descobre novas receitas e gere a tua nutrição com facilidade."
+        },
+        "mybodymate": {
+            "description": "O MyBodyMate ajuda-te a acompanhar a tua jornada de fitness, a monitorizar o progresso e a manter a motivação para atingires os teus objetivos de saúde."
+        },
+        "myfoodmate": {
+            "description": "O MyFoodMate ajuda-te a scanear, registar e compreender o que comes com deteção instantânea de alimentos e análise inteligente."
+        },
+        "myheadshot": {
+            "description": "O MyHeadshot ajuda-te a captar e melhorar as tuas fotos de perfil com sugestões baseadas em IA e ferramentas de edição."
+        },
+        "myscanner": {
+            "description": "O MyScanner ajuda-te a digitalizar documentos e a extrair texto com facilidade, utilizando tecnologia OCR avançada."
+        }
+    }
 }

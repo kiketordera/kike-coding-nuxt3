@@ -14,7 +14,7 @@
     "uxUiDesign": "UX/UI design",
     "specializing": "specializing in crafting intuitive, user-focused interfaces and cutting-edge software solutions.",
     "skills": "Skilled in modern development tools and languages, with a strong emphasis on design and user experience. Proven ability to turn complex ideas into sleek, functional, and visually appealing applications.",
-    "innovate": "Let’s not just develop — let’s innovate, design, and push boundaries.",
+    "innovate": "Let’s not just develop - let’s innovate, design, and push boundaries.",
     "build": "Let's not just build. Let's innovate, design, and revolutionize.",
     "blend": "Why aim for ordinary when we can blend code and creativity to create something truly remarkable?",
     "collaborate": "Let's collaborate and make digital magic! ✨",
@@ -41,7 +41,7 @@
     "title": "About",
     "intro": "Hi! I'm Kike Tordera.",
     "codingPassion": "Programming? That's my jam! 🚀 My roots in coding run deep, nurtured by rigorous studies and spiced up with international flair. Guess what? Even as a kid, I was the go-to tech whiz, always tinkering with computers.",
-    "craftingExperiences": "But here's the twist: I'm not just about the code. I'm passionate about crafting experiences. 🎨 To me, a sleek design and intuitive interface aren't just the icing on the cake—they're essential ingredients.",
+    "craftingExperiences": "But here's the twist: I'm not just about the code. I'm passionate about crafting experiences. 🎨 To me, a sleek design and intuitive interface aren't just the icing on the cake-they're essential ingredients.",
     "createMagic": "Because, in the end, it's all about creating something that's more than just the sum of its parts. Ready to create magic together?"
   },
   "resumeSection": {
@@ -168,7 +168,7 @@
       "description": "MyHeadshot helps you capture and enhance your profile pictures with AI-driven suggestions and editing tools."
     },
     "myscanner": {
-      "description": "MyScanner helps you scan, track, and understand what you eat with instant food recognition and smart analysis."
+      "description": "MyScanner helps you scan documents and extract text with ease, using advanced OCR technology."
     }
   }
 }

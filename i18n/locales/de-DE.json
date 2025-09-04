@@ -14,7 +14,7 @@
         "uxUiDesign": "UX/UI Design",
         "specializing": "spezialisiert auf die Erstellung intuitiver, benutzerorientierter Schnittstellen und innovativer Softwarelösungen.",
         "skills": "Kompetent in modernen Entwicklungstools und -sprachen, mit starkem Fokus auf Design und Benutzererfahrung. Nachweisliche Fähigkeit, komplexe Ideen in elegante, funktionale und visuell ansprechende Anwendungen umzusetzen.",
-        "innovate": "Lassen Sie uns nicht nur entwickeln — lassen Sie uns innovieren, designen und Grenzen überschreiten.",
+        "innovate": "Lassen Sie uns nicht nur entwickeln - lassen Sie uns innovieren, designen und Grenzen überschreiten.",
         "build": "Lassen Sie uns nicht nur bauen. Lassen Sie Sie uns innovieren, designen und revolutionieren.",
         "blend": "Warum auf das Gewöhnliche abzielen, wenn wir Code und Kreativität kombinieren können, um etwas wirklich Bemerkenswertes zu schaffen?",
         "collaborate": "Lassen Sie uns zusammenarbeiten und digitale Magie erschaffen! ✨",
@@ -152,5 +152,23 @@
     "titleSEOIndex": "Kike Tordera | UX/UI-Ingenieur & Full-Stack-Entwickler",
     "descriptionSEOIndex": "Entdecken Sie das Portfolio von Kike Tordera, einem erfahrenen UX/UI-Ingenieur und Full-Stack-Entwickler für nahtlose digitale Erlebnisse.",
     "titleSEOAboutUs": "Über Kike Tordera | Eine Reise durch Technik & Innovation",
-    "descriptionSEOAboutUs": "Erfahren Sie mehr über Kike Tordera, einen leidenschaftlichen UX/UI-Ingenieur und Full-Stack-Entwickler, der Kreativität und Technologie verbindet, um benutzerzentrierte digitale Erlebnisse zu schaffen."
+    "descriptionSEOAboutUs": "Erfahren Sie mehr über Kike Tordera, einen leidenschaftlichen UX/UI-Ingenieur und Full-Stack-Entwickler, der Kreativität und Technologie verbindet, um benutzerzentrierte digitale Erlebnisse zu schaffen.",
+    "apps": {
+        "title": "Einige meiner Apps",
+        "mychefmate": {
+            "description": "MyChefMate ist dein intelligenter Küchenbegleiter: Plane Mahlzeiten, entdecke neue Rezepte und verwalte deine Ernährung ganz mühelos."
+        },
+        "mybodymate": {
+            "description": "MyBodyMate hilft dir, deine Fitnessreise zu verfolgen, Fortschritte zu überwachen und motiviert zu bleiben, um deine Gesundheitsziele zu erreichen."
+        },
+        "myfoodmate": {
+            "description": "MyFoodMate hilft dir, das, was du isst, zu scannen, zu protokollieren und zu verstehen – mit sofortiger Lebensmittelerkennung und smarter Analyse."
+        },
+        "myheadshot": {
+            "description": "MyHeadshot hilft dir, deine Profilbilder aufzunehmen und zu verbessern – mit KI-gestützten Vorschlägen und Bearbeitungstools."
+        },
+        "myscanner": {
+            "description": "MyScanner hilft dir, Dokumente zu scannen und Text mühelos zu extrahieren – mit fortschrittlicher OCR-Technologie."
+        }
+    }
 }

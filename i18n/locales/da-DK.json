@@ -14,7 +14,7 @@
         "uxUiDesign": "UX/UI design",
         "specializing": "specialiserer mig i at skabe intuitive, brugerfokuserede interfaces og banebrydende softwareløsninger.",
         "skills": "Dygtig i moderne udviklingsværktøjer og -sprog, med stor vægt på design og brugeroplevelse. Dokumenteret evne til at omsætte komplekse ideer til elegante, funktionelle og visuelt tiltalende applikationer.",
-        "innovate": "Lad os ikke bare udvikle — lad os innovere, designe og skubbe grænser.",
+        "innovate": "Lad os ikke bare udvikle - lad os innovere, designe og skubbe grænser.",
         "build": "Lad os ikke bare bygge. Lad os innovere, designe og revolutionere.",
         "blend": "Hvorfor sigte efter det ordinære, når vi kan blande kode og kreativitet for at skabe noget virkelig bemærkelsesværdigt?",
         "collaborate": "Lad os samarbejde og skabe digital magi! ✨",
@@ -41,7 +41,7 @@
         "title": "Om",
         "intro": "Hej! Jeg er Kike Tordera.",
         "codingPassion": "Programmering? Det er min ting! 🚀 Mine rødder i kodning er dybe, næret af strenge studier og krydret med international flair. Gætter du hvad? Selv som barn var jeg den tekniske kloge, som alle henvendte sig til, altid nysgerrig med computere.",
-        "craftingExperiences": "Men her er twistet: Det handler ikke kun om koden. Jeg er passioneret omkring at skabe oplevelser. 🎨 For mig er et strømlinet design og en intuitiv brugerflade ikke kun prikken over i'et — det er essentielle ingredienser.",
+        "craftingExperiences": "Men her er twistet: Det handler ikke kun om koden. Jeg er passioneret omkring at skabe oplevelser. 🎨 For mig er et strømlinet design og en intuitiv brugerflade ikke kun prikken over i'et - det er essentielle ingredienser.",
         "createMagic": "Fordi i sidste ende handler det om at skabe noget, der er mere end summen af dets dele. Klar til at skabe magi sammen?"
     },
     "resumeSection": {
@@ -152,5 +152,23 @@
     "titleSEOIndex": "Kike Tordera | UX/UI-ingeniør & Full-Stack-udvikler",
     "descriptionSEOIndex": "Udforsk Kike Torderas portefølje som erfaren UX/UI-ingeniør og full-stack-udvikler med fokus på sømløse digitale oplevelser.",
     "titleSEOAboutUs": "Om Kike Tordera | En rejse i teknologi & innovation",
-    "descriptionSEOAboutUs": "Oplev historien om Kike Tordera, en passioneret UX/UI-ingeniør og full-stack-udvikler, der kombinerer kreativitet og teknologi for at skabe brugercentrerede digitale oplevelser."
+    "descriptionSEOAboutUs": "Oplev historien om Kike Tordera, en passioneret UX/UI-ingeniør og full-stack-udvikler, der kombinerer kreativitet og teknologi for at skabe brugercentrerede digitale oplevelser.",
+    "apps": {
+        "title": "Nogle af mine apps",
+        "mychefmate": {
+            "description": "MyChefMate er din smarte køkkenmakker: planlæg måltider, opdag nye opskrifter og styr din ernæring med lethed."
+        },
+        "mybodymate": {
+            "description": "MyBodyMate hjælper dig med at følge din træningsrejse, overvåge fremskridt og forblive motiveret for at nå dine sundhedsmål."
+        },
+        "myfoodmate": {
+            "description": "MyFoodMate hjælper dig med at scanne, registrere og forstå, hvad du spiser, med øjeblikkelig fødevarekending og smart analyse."
+        },
+        "myheadshot": {
+            "description": "MyHeadshot hjælper dig med at tage og forbedre dine profilbilleder med AI-drevne forslag og redigeringsværktøjer."
+        },
+        "myscanner": {
+            "description": "MyScanner hjælper dig med at scanne dokumenter og udtrække tekst nemt ved hjælp af avanceret OCR-teknologi."
+        }
+    }
 }

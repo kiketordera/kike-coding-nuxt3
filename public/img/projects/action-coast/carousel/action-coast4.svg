@@ -458,7 +458,7 @@
     <path id="Path_4893" data-name="Path 4893" d="M3.99-10.08v.294c-1.75.14-2.94,1.176-2.94,2.674,0,1.582.952,2.352,3,2.884V-1.47a4.96,4.96,0,0,1-2.072-.938.764.764,0,0,0-.462-.154.759.759,0,0,0-.548.222.759.759,0,0,0-.222.548.77.77,0,0,0,.378.672A6.056,6.056,0,0,0,3.99-.028V.84a.61.61,0,0,0,.616.6.6.6,0,0,0,.6-.6V0C6.986-.168,8.19-1.19,8.19-2.73c0-1.5-.91-2.352-3.038-2.884V-8.3a5.086,5.086,0,0,1,1.442.616.81.81,0,0,0,.42.126.771.771,0,0,0,.555-.221A.771.771,0,0,0,7.8-8.33.749.749,0,0,0,7.378-9a5.1,5.1,0,0,0-2.17-.77v-.308a.6.6,0,0,0-.6-.6A.61.61,0,0,0,3.99-10.08ZM6.538-2.632c0,.672-.49,1.12-1.386,1.218V-3.962C6.23-3.626,6.538-3.248,6.538-2.632ZM2.7-7.21c0-.616.448-1.092,1.344-1.176v2.478C2.968-6.258,2.7-6.622,2.7-7.21Z" transform="translate(32.645 286.496)" fill="#2c2828"/>
     <g id="MIN" transform="translate(-2 123.115)" clip-path="url(#clip-path-2)">
       <g id="Group_5120" data-name="Group 5120">
-        <text id="_" data-name="—" transform="translate(48.714 163)" fill="#2c2828" font-size="14" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500"><tspan x="0" y="0">—</tspan></text>
+        <text id="_" data-name="-" transform="translate(48.714 163)" fill="#2c2828" font-size="14" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500"><tspan x="0" y="0">-</tspan></text>
         <text id="_5" data-name="5" transform="translate(50.639 182)" fill="#2c2828" font-size="14" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500"><tspan x="0" y="0">5</tspan></text>
         <text id="_1" data-name="1" transform="translate(52.228 201)" fill="#2c2828" font-size="14" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500"><tspan x="0" y="0">1</tspan></text>
         <text id="_1-2" data-name="1" transform="translate(52.228 220)" fill="#2c2828" font-size="14" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500"><tspan x="0" y="0">1</tspan></text>
@@ -565,7 +565,7 @@
     </g>
     <g id="MAX" transform="translate(174 123.115)" clip-path="url(#clip-path-2)">
       <g id="Group_5123" data-name="Group 5123">
-        <text id="_2-6" data-name="—" transform="translate(48.714 163)" fill="#2c2828" font-size="14" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500"><tspan x="0" y="0">—</tspan></text>
+        <text id="_2-6" data-name="-" transform="translate(48.714 163)" fill="#2c2828" font-size="14" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500"><tspan x="0" y="0">-</tspan></text>
         <text id="_5-25" data-name="5" transform="translate(50.639 182)" fill="#2c2828" font-size="14" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500"><tspan x="0" y="0">5</tspan></text>
         <text id="_1-24" data-name="1" transform="translate(52.228 201)" fill="#2c2828" font-size="14" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500"><tspan x="0" y="0">1</tspan></text>
         <text id="_1-25" data-name="1" transform="translate(52.228 220)" fill="#2c2828" font-size="14" font-family="GothamRounded-Medium, Gotham Rounded" font-weight="500"><tspan x="0" y="0">1</tspan></text>
