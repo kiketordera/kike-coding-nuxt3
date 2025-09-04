@@ -31,7 +31,25 @@ export const MyFoodMateApp: App = {
   name: 'MyFoodMate',
   description: 'MyFoodMate helps you scan, track, and understand what you eat with instant food recognition and smart analysis.',
   accentColor: '#A87BD3',
-  appStoreURL: "",
+  appStoreURL: "https://apps.apple.com/app/id6748889525",
+  isDark: true,
+}
+
+export const MyHeadshotApp: App = {
+  id: 'myheadshot',
+  name: 'MyHeadshot',
+  description: 'MyHeadshot helps you capture and enhance your profile pictures with AI-driven suggestions and editing tools.',
+  accentColor: '#005B8F',
+  appStoreURL: "https://apps.apple.com/app/id6749377385",
+  isDark: true,
+}
+
+export const MyScannerApp: App = {
+  id: 'myscanner',
+  name: 'MyScanner',
+  description: 'MyScanner helps you scan, track, and understand what you eat with instant food recognition and smart analysis.',
+  accentColor: '#007C91',
+  appStoreURL: "https://apps.apple.com/app/id6749808333",
   isDark: true,
 }
 
@@ -47,5 +65,8 @@ export const TheMateClubApp: App = {
 export const developApps: App[] = [
   MyChefMateApp,
   MyBodyMateApp,
-  // MyFoodMateApp,
+  MyFoodMateApp,
+  MyHeadshotApp,
+  MyScannerApp,
+
 ]

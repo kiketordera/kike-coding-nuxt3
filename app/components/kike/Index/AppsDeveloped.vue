@@ -43,7 +43,7 @@ section {
       
       .app-card {
         @apply flex rounded-2xl overflow-hidden h-[135px] pr-4 cursor-pointer;
-        border: 1px solid white;
+        border: 2px solid white;
 
         &:hover {
           background-color: rgba(255, 255, 255, 0.211);
