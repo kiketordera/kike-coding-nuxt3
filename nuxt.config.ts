@@ -237,6 +237,14 @@ export default defineNuxtConfig({
   i18n: {
     strategy: "no_prefix",
     baseUrl: ContactInformation.fullURL,
+    defaultLocale: "en",
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: "i18n_redirected",
+      fallbackLocale: "en",
+      redirectOn: "root",
+      alwaysRedirect: false,
+    },
     locales: [
       {
         code: "es",
