@@ -47,6 +47,14 @@ export const MyScannerApp: App = {
   isDark: true,
 }
 
+export const MyBananaApp: App = {
+  id: 'mybanana',
+  name: 'MyBanana',
+  accentColor: '#FFD84D',
+  appStoreURL: "https://apps.apple.com/app/id6752826869",
+  isDark: true,
+}
+
 export const TheMateClubApp: App = {
   id: 'themateclub',
   name: 'TheMateClub',
@@ -61,5 +69,5 @@ export const developApps: App[] = [
   MyFoodMateApp,
   MyHeadshotApp,
   MyScannerApp,
-
+  MyBananaApp,
 ]
