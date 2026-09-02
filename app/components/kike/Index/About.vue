@@ -19,13 +19,13 @@
         </p>
         <p data-aos="zoom-in-right">
           {{ $t("introSection.build") }}
-          <br />
+          <br>
           <span class="blue">{{ $t("introSection.blend") }}</span>
         </p>
         <p>
           {{ $t("introSection.collaborate") }}
         </p>
-        <br />
+        <br>
         <NuxtLink data-aos="fade-down" href="/about">
           {{ $t("introSection.readMore") }}
         </NuxtLink>

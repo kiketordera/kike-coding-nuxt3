@@ -12,7 +12,7 @@
 let devicesZoom = false
 let startAnimation = true
 
-function waitPromise (_: any) {
+function waitPromise (_: number) {
   return new Promise((resolve) => {
     if (!startAnimation) {
       setTimeout(resolve, 1300)

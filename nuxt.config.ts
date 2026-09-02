@@ -1,9 +1,38 @@
 import { defineNuxtConfig } from "nuxt/config";
+import { joinURL } from "ufo";
+import type { NuxtPage } from "@nuxt/schema";
 import { ContactInformation } from "./app/data_helper/contact";
 import { availableLanguages } from "./app/composables/getI18n";
 
 
+// Nuxt 4.5.x does not seed prerender routes from `routeRules` on a server preset:
+// it reads `.prerender` straight off rou3's match objects (`{ data, params }`)
+// instead of `match.data`, so the check is always undefined and only the routes
+// listed explicitly in `nitro.prerender.routes` get prerendered. Collect the
+// static pages ourselves and hand them to nitro. Remove once Nuxt fixes it.
+const staticPageRoutes = new Set<string>();
+
+function collectStaticRoutes(pages: NuxtPage[], base = "/"): void {
+  for (const page of pages) {
+    if (page.path.includes(":")) continue;
+    const route = joinURL(base, page.path);
+    staticPageRoutes.add(route);
+    if (page.children?.length) collectStaticRoutes(page.children, route);
+  }
+}
+
 export default defineNuxtConfig({
+  hooks: {
+    "pages:resolved": (pages) => {
+      staticPageRoutes.clear();
+      collectStaticRoutes(pages);
+    },
+    "nitro:build:before": (nitro) => {
+      nitro.options.prerender.routes = [
+        ...new Set([...nitro.options.prerender.routes, ...staticPageRoutes]),
+      ];
+    },
+  },
   ssr: false, // Disable SSR for SPA mode
   devtools: { enabled: true },
   future: {
@@ -16,7 +45,7 @@ export default defineNuxtConfig({
   },
   // Render SSG mode
   routeRules: {
-    "**": { prerender: true },
+    "/**": { prerender: true },
   },
   // Packages
   modules: [
@@ -33,7 +62,7 @@ export default defineNuxtConfig({
     "@nuxt/image",
   ],
   build: {
-    transpile: ["vuetify", "firebase-functions", "protobufjs"],
+    transpile: ["vuetify"],
   },
   // SCSS
   vite: {
@@ -61,8 +90,8 @@ export default defineNuxtConfig({
       link: [{ rel: "icon", type: "image/png", href: "/favicon.png" }],
       titleTemplate: "",
       style: [
-        { children: "html, body { background-color: #131212; }" },
-        { children: "html, body { overflow-x: hidden; }" },
+        { innerHTML: "html, body { background-color: #131212; }" },
+        { innerHTML: "html, body { overflow-x: hidden; }" },
       ],
     },
   },
@@ -105,17 +134,6 @@ export default defineNuxtConfig({
         manageCookies: "Aanpassen",
         bannerDescription: "Deze website gebruikt cookies om uw ervaring te verbeteren",
       },
-      pt: {
-        accept: "Aceitar",
-        acceptAll: "Aceitar todos",
-        decline: "Recusar",
-        declineAll: "Recusar todos",
-        bannerTitle: "Consentimento de Cookies",
-        save: "Salvar",
-        close: "Fechar",
-        manageCookies: "Personalizar",
-        bannerDescription: "Este site usa cookies para melhorar sua experiência",
-      },
       es: {
         accept: "Aceptar",
         acceptAll: "Aceptar todo",
@@ -148,7 +166,6 @@ export default defineNuxtConfig({
             en: 'Functional',
             de: 'Funktional',
             nl: 'Functioneel',
-            pt: 'Funcional',
             es: 'Funcional',
             fr: 'Fonctionnel',
           },
@@ -156,7 +173,6 @@ export default defineNuxtConfig({
             en: "These cookies are needed for the page to operate. They don't track you.",
             de: "Diese Cookies sind für den Betrieb der Seite erforderlich. Sie verfolgen Sie nicht.",
             nl: "Deze cookies zijn nodig voor de werking van de pagina. Ze volgen u niet.",
-            pt: "Estes cookies são necessários para o funcionamento da página. Eles não rastreiam você.",
             es: "Estas cookies son necesarias para que la página funcione. No te rastrean.",
             fr: "Ces cookies sont nécessaires au bon fonctionnement de la page. Ils ne vous suivent pas.",
           },
@@ -170,7 +186,6 @@ export default defineNuxtConfig({
             en: 'Analytics',
             de: 'Analyse',
             nl: 'Analytische gegevens',
-            pt: 'Análise',
             es: 'Analítica',
             fr: 'Analyse',
           },
@@ -178,7 +193,6 @@ export default defineNuxtConfig({
             en: "These cookies gather information about how many people visit and use our website. Switching these off means we can't gather information to improve the experience.",
             de: "Diese Cookies sammeln Informationen darüber, wie viele Personen unsere Website besuchen und nutzen. Wenn Sie diese ausschalten, können wir keine Informationen sammeln, um die Erfahrung zu verbessern.",
             nl: "Deze cookies verzamelen informatie over hoeveel mensen onze website bezoeken en gebruiken. Als u deze uitschakelt, kunnen we geen informatie verzamelen om de ervaring te verbeteren.",
-            pt: "Estes cookies coletam informações sobre quantas pessoas visitam e usam nosso site. Desativá-los significa que não podemos coletar informações para melhorar a experiência.",
             es: "Estas cookies recopilan información sobre cuántas personas visitan y utilizan nuestro sitio web. Desactivarlas significa que no podemos recopilar información para mejorar la experiencia.",
             fr: "Ces cookies recueillent des informations sur le nombre de personnes qui visitent et utilisent notre site Web. Les désactiver signifie que nous ne pouvons pas recueillir d'informations pour améliorer l'expérience.",
           },
@@ -270,13 +284,6 @@ export default defineNuxtConfig({
         language: "de-DE",
         files: ["de-DE.json", "./legal/cookies-policy/de-DE.json", "./legal/privacy-policy/de-DE.json", "./general/de-DE.json", "./vv/vv-de-DE.json",],
       },
-      {
-        code: "pt",
-        name: "Portuguese (Portugal)",
-        language: "pt-PT",
-        file: "pt-PT.json",
-        files: ["pt-PT.json", "./legal/cookies-policy/pt-PT.json", "./i18n/locales/legal/privacy-policy/pt-PT.json", "./general/pt-PT.json", "./vv/vv-pt-PT.json",],
-      },
     ],
   },
   // Deployment
@@ -286,7 +293,7 @@ export default defineNuxtConfig({
     },
     preset: "firebase",
     firebase: {
-      nodeVersion: "18",
+      nodeVersion: "22",
       gen: 2,
       httpsOptions: {
       region: 'europe-west1',

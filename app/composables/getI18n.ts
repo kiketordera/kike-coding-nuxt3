@@ -5,7 +5,7 @@ import type { Locale } from "@dargmuesli/nuxt-cookie-control/runtime/types.js";
 export type SharedLocale = Exclude<Locale, 'sl'>
 
 const defaultLang: SharedLocale = 'es'
-export const availableLanguages: SharedLocale[] = ['en', 'es', 'fr', 'de', 'nl', 'pt']
+export const availableLanguages: SharedLocale[] = ['en', 'es', 'fr', 'de', 'nl']
 
 export const getLang = (): SharedLocale => {
     const locale = useBrowserLocale() as SharedLocale || defaultLang 

@@ -1,6 +1,6 @@
 // ~/composables/useConsent.ts
 
-import { ref, onMounted } from 'vue'
+import { ref } from 'vue'
 
 interface ConsentOptions {
   ad_user_data?: 'granted' | 'denied'

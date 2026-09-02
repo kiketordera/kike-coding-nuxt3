@@ -11,7 +11,7 @@
           data-aos="fade-up"
           target="_blank"
         >
-          <img :src="`/apps/logos/${app.id}.png`" :alt="app.name" class="app-image" />
+          <img :src="`/apps/logos/${app.id}.png`" :alt="app.name" class="app-image">
           <div class="">
             <h3 class="app-title" :style="{ color: app.accentColor }">{{ app.name }}</h3>
             <h4 class="app-body">{{ $t(`apps.${app.id}.description`) }}</h4>

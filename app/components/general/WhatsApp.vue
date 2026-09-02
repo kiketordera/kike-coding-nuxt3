@@ -75,7 +75,6 @@ function removeSymbolAndSpaces (str: string) {
 }
 
 function getWhatsappURL (): string {
-  // eslint-disable-next-line max-len
   return `https://api.whatsapp.com/send/?phone=${removeSymbolAndSpaces(ContactInformation.countryCode)}${removeSymbolAndSpaces(ContactInformation.phoneNumber)}${havePreWrittenText ? `&text=${normalizeMessage(prewrittenText)}` : ''}&type=phone_number&app_absent=0`
 }
 

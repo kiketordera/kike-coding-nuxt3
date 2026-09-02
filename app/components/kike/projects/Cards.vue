@@ -47,6 +47,7 @@
 
 <script lang="ts" setup>
 import { register } from 'swiper/element/bundle'
+import type { Swiper } from 'swiper'
 import { ref, onMounted, onUnmounted } from 'vue'
 
 import type { Project }  from '~/types/types';
@@ -77,7 +78,7 @@ onUnmounted(() => {
   window.removeEventListener('resize', updateEffect)
 })
 
-function onSlideChange (e: any) {
+function onSlideChange (e: CustomEvent<[Swiper]>) {
   activeSlide.value = e.detail[0].activeIndex
 }
 const currentProject = computed(() => {

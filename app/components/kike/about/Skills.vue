@@ -17,8 +17,8 @@
 const props = defineProps({
   skills: {
     type: Array<string>,
-    required: true,
-    default: []
+    required: false,
+    default: () => []
   },
   title: {
     type: String,

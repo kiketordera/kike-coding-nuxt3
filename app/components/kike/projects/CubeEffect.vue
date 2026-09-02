@@ -64,6 +64,7 @@
 
 <script lang="ts" setup>
 import { register } from 'swiper/element/bundle'
+import type { Swiper } from 'swiper'
 import type { Project }  from '~/types/types';
 const projects = await getI18nJson<Project>('projects')
 
@@ -74,7 +75,7 @@ const currentProject = computed(() => {
   return projects[activeSlide.value]?.url
 })
 
-function onSlideChange (e: any) {
+function onSlideChange (e: CustomEvent<[Swiper]>) {
   activeSlide.value = e.detail[0].activeIndex
 }
 
